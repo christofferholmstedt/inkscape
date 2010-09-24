@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-09-19 22:08+0100\n"
+"PO-Revision-Date: 2010-09-24 13:30+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1161,11 +1161,11 @@ msgstr "Subdivisions par marque principale sur l’axe Y"
 
 #: ../share/extensions/grid_cartesian.inx.h:18
 msgid "Subminor X Division Thickness [px]"
-msgstr "Épaisseur des marques angulaires X mineures (px)"
+msgstr "Épaisseur des marques mineures sur l’axe X (px)"
 
 #: ../share/extensions/grid_cartesian.inx.h:19
 msgid "Subminor Y Division Thickness [px]"
-msgstr "Épaisseur des marques angulaires Y mineures (px)"
+msgstr "Épaisseur des marques mineures sur l’axe Y (px)"
 
 #: ../share/extensions/grid_cartesian.inx.h:20
 msgid "Subsubdivs. per X Subdivision"
@@ -2532,7 +2532,7 @@ msgstr "Couleur de remplissage (rouge)"
 #: ../share/extensions/polyhedron_3d.inx.h:16
 #, no-c-format
 msgid "Fill opacity, %"
-msgstr "Opacité du remplassage (%)"
+msgstr "Opacité du remplissage (%)"
 
 #: ../share/extensions/polyhedron_3d.inx.h:17
 msgid "Great Dodecahedron"
@@ -8494,7 +8494,7 @@ msgstr "Images matricielles"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:48
 msgid "Apply adaptive thresholding to selected bitmap(s)."
-msgstr "Appliquer un effet de seuil adaptif au bitmap sélectionné."
+msgstr "Appliquer un effet de seuil adaptatif au bitmap sélectionné."
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:44
 msgid "Add Noise"
