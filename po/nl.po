@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-07-01 23:08+0100\n"
+"PO-Revision-Date: 2010-09-29 08:01+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -6886,7 +6886,7 @@ msgstr "Selecteer de gesommeerde ondoorzichtigheid"
 
 #: ../src/dialogs/clonetiler.cpp:2623
 msgid "R"
-msgstr "Rood"
+msgstr "R"
 
 #: ../src/dialogs/clonetiler.cpp:2624
 msgid "Pick the Red component of the color"
@@ -6894,7 +6894,7 @@ msgstr "Selecteer de roodcomponent van de kleur"
 
 #: ../src/dialogs/clonetiler.cpp:2631
 msgid "G"
-msgstr "Groen"
+msgstr "G"
 
 #: ../src/dialogs/clonetiler.cpp:2632
 msgid "Pick the Green component of the color"
@@ -6902,7 +6902,7 @@ msgstr "Selecteer de groencomponent van de kleur"
 
 #: ../src/dialogs/clonetiler.cpp:2639
 msgid "B"
-msgstr "Blauw"
+msgstr "B"
 
 #: ../src/dialogs/clonetiler.cpp:2640
 msgid "Pick the Blue component of the color"
@@ -6912,7 +6912,7 @@ msgstr "Selecteer de blauwcomponent van de kleur"
 #. For more details, see http://developer.gnome.org/doc/API/2.0/glib/glib-I18N.html#Q-:CAPS
 #: ../src/dialogs/clonetiler.cpp:2649
 msgid "clonetiler|H"
-msgstr "Tint"
+msgstr "T"
 
 #: ../src/dialogs/clonetiler.cpp:2650
 msgid "Pick the hue of the color"
@@ -6922,7 +6922,7 @@ msgstr "De tint van de kleur kiezen"
 #. For more details, see http://developer.gnome.org/doc/API/2.0/glib/glib-I18N.html#Q-:CAPS
 #: ../src/dialogs/clonetiler.cpp:2659
 msgid "clonetiler|S"
-msgstr "Verzadiging"
+msgstr "V"
 
 #: ../src/dialogs/clonetiler.cpp:2660
 msgid "Pick the saturation of the color"
@@ -6932,7 +6932,7 @@ msgstr "De verzadiging van de kleur kiezen"
 #. For more details, see http://developer.gnome.org/doc/API/2.0/glib/glib-I18N.html#Q-:CAPS
 #: ../src/dialogs/clonetiler.cpp:2669
 msgid "clonetiler|L"
-msgstr "Helderheid"
+msgstr "H"
 
 #: ../src/dialogs/clonetiler.cpp:2670
 msgid "Pick the lightness of the color"
