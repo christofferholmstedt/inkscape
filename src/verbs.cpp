@@ -334,7 +334,13 @@ Verb::VerbIDTable Verb::_verb_ids;
     in the \c _verbs hashtable which is indexed by the \c code.
 */
 Verb::Verb(gchar const *id, gchar const *name, gchar const *tip, gchar const *image) :
-    _actions(NULL), _id(id), _name(name), _tip(tip), _image(image)
+    _actions(0),
+    _id(id),
+    _name(name),
+    _tip(tip),
+    _image(image),
+    _code(0),
+    _default_sensitive(false)
 {
     static int count = SP_VERB_LAST;
 
@@ -342,8 +348,6 @@ Verb::Verb(gchar const *id, gchar const *name, gchar const *tip, gchar const *im
     _code = count;
     _verbs.insert(VerbTable::value_type(count, this));
     _verb_ids.insert(VerbIDTable::value_type(_id, this));
-
-    return;
 }
 
 /** \brief  Destroy a verb.
@@ -357,8 +361,6 @@ Verb::~Verb(void)
     if (_actions != NULL) {
         delete _actions;
     }
-
-    return;
 }
 
 /** \brief  Verbs are no good without actions.  This is a place holder
@@ -628,10 +630,9 @@ Verb::sensitive(SPDocument *in_doc, bool in_sensitive)
 }
 
 /** \brief Accessor to get the tooltip for verb as localised string */
-gchar const *
-Verb::get_tip (void)
+gchar const *Verb::get_tip(void)
 {
-	return _(_tip);
+    return _(_tip);
 }
 
 void
