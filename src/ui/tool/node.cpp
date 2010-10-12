@@ -569,10 +569,13 @@ void Node::setType(NodeType type, bool update_handles)
         switch (type) {
         case NODE_CUSP:
             // if the existing type is also NODE_CUSP, retract handles
-            if (_type == NODE_CUSP) {
-                _front.retract();
-                _back.retract();
-            }
+            // NOTE: This misfeature is very annoying when you have both cusp and smooth
+            //       nodes in a selection, so I have removed it. Use segment commands
+            //       or Ctrl+click to retract handles.
+            //if (_type == NODE_CUSP) {
+            //    _front.retract();
+            //    _back.retract();
+            //}
             break;
         case NODE_AUTO:
             // auto handles make no sense for endnodes
@@ -580,13 +583,15 @@ void Node::setType(NodeType type, bool update_handles)
             _updateAutoHandles();
             break;
         case NODE_SMOOTH: {
+            // ignore attempts to make smooth endnodes.
+            if (isEndNode()) return;
             // rotate handles to be colinear
             // for degenerate nodes set positions like auto handles
             bool prev_line = _is_line_segment(_prev(), this);
             bool next_line = _is_line_segment(this, _next());
             if (_type == NODE_SMOOTH) {
-                // for a node that is already smooth and has a degenerate handle,
-                // drag out the second handle to 1/3 the length of the linear segment
+                // For a node that is already smooth and has a degenerate handle,
+                // drag out the second handle without changing the direction of the first one.
                 if (_front.isDegenerate()) {
                     double dist = Geom::distance(_next()->position(), position());
                     _front.setRelativePos(Geom::unit_vector(-_back.relativePos()) * dist / 3);
