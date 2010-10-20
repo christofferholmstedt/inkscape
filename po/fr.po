@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-09-24 13:30+0100\n"
+"PO-Revision-Date: 2010-10-20 21:07+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -7169,7 +7169,7 @@ msgstr "La zone à exporter choisie n’est pas valide"
 #: ../src/dialogs/export.cpp:1195
 #, c-format
 msgid "Directory %s does not exist or is not a directory.\n"
-msgstr "Le répertoire %s n’existe pas ou n’est pas un répertoire.\n"
+msgstr "Le dossier %s n’existe pas ou n’est pas un dossier.\n"
 
 #: ../src/dialogs/export.cpp:1207
 #, c-format
@@ -8436,13 +8436,13 @@ msgstr "Inkscape a reçu des données additionnelles du script exécuté. Le scr
 
 #: ../src/extension/init.cpp:276
 msgid "Null external module directory name.  Modules will not be loaded."
-msgstr "Le nom de répertoire des modules externes est vide. Les modules ne seront pas chargés."
+msgstr "Le nom de dossier des modules externes est vide. Les modules ne seront pas chargés."
 
 #: ../src/extension/init.cpp:290
 #: ../src/extension/internal/filter/filter-file.cpp:56
 #, c-format
 msgid "Modules directory (%s) is unavailable.  External modules in that directory will not be loaded."
-msgstr "Le répertoire des modules (%s) est indisponible. Les modules externes de ce répertoire ne seront pas chargés."
+msgstr "Le dossier des modules (%s) est indisponible. Les modules externes de ce dossier ne seront pas chargés."
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:38
 msgid "Adaptive Threshold"
@@ -8809,7 +8809,7 @@ msgstr "En relief"
 
 #: ../src/extension/internal/bitmap/raise.cpp:49
 msgid "Alter lightness the edges of selected bitmap(s) to create a raised appearance."
-msgstr "Changer la luminosité des bitmaps sélectionnés pour les faire apparaître « en  relief »."
+msgstr "Changer la luminosité des bitmaps sélectionnés pour les faire apparaître « en relief »."
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:39
 msgid "Reduce Noise"
@@ -9098,7 +9098,7 @@ msgstr "Personnel"
 
 #: ../src/extension/internal/filter/filter-file.cpp:44
 msgid "Null external module directory name.  Filters will not be loaded."
-msgstr "Le nom de répertoire des modules externes est vide. Les filtres ne seront pas chargés."
+msgstr "Le nom de dossier des modules externes est vide. Les filtres ne seront pas chargés."
 
 #: ../src/extension/internal/filter/snow.h:32
 msgid "Snow crest"
@@ -11835,7 +11835,7 @@ msgstr "L’Id de l’objet dont les dimensions sont demandées"
 #. TRANSLATORS: this option makes Inkscape print the name (path) of the extension directory
 #: ../src/main.cpp:438
 msgid "Print out the extension directory and exit"
-msgstr "Lister le répertoire d’extensions, puis sortir"
+msgstr "Lister le dossier d’extensions, puis sortir"
 
 #: ../src/main.cpp:443
 msgid "Remove unused definitions from the defs section(s) of the document"
@@ -12151,7 +12151,7 @@ msgstr "<b>Poignée de contrôle</b>: angle %3.2f&#176;, longueur %s; <b>Ctrl</b
 #: ../src/pen-context.cpp:1326
 #, c-format
 msgid "<b>Curve handle, symmetric</b>: angle %3.2f&#176;, length %s; with <b>Ctrl</b> to snap angle, with <b>Shift</b> to move this handle only"
-msgstr "<b>Poignée de la courbe, symétrique</b> : angle %3.2f&#176;, longueur %s ; avec  <b>Ctrl</b> pour tourner par incréments ; <b>Maj</b> pour ne déplacer que cette poignée"
+msgstr "<b>Poignée de la courbe, symétrique</b> : angle %3.2f&#176;, longueur %s ; avec <b>Ctrl</b> pour tourner par incréments ; <b>Maj</b> pour ne déplacer que cette poignée"
 
 #: ../src/pen-context.cpp:1327
 #, c-format
@@ -12231,7 +12231,7 @@ msgstr ""
 #: ../src/preferences.cpp:145
 #, c-format
 msgid "Cannot create profile directory %s."
-msgstr "Impossible de créer le répertoire de profil %s."
+msgstr "Impossible de créer le dossier de profil %s."
 
 #. The profile dir is not actually a directory
 #. _reportError(Glib::ustring::compose(_("%1 is not a valid directory."),
@@ -12239,7 +12239,7 @@ msgstr "Impossible de créer le répertoire de profil %s."
 #: ../src/preferences.cpp:163
 #, c-format
 msgid "%s is not a valid directory."
-msgstr "%s n’est pas un répertoire valide."
+msgstr "%s n’est pas un dossier valide."
 
 #. The write failed.
 #. _reportError(Glib::ustring::compose(_("Failed to create the preferences file %1."),
@@ -12499,7 +12499,7 @@ msgstr "<b>Entourer</b> les objets pour les sélectionner; appuyer sur <b>Alt</b
 
 #: ../src/select-context.cpp:727
 msgid "<b>Ctrl</b>: click to select in groups; drag to move hor/vert"
-msgstr "<b>Ctrl</b> : Cliquer pour sélectionner dans les groupes; cliquer-déplacer  pour déplacer horizontalement/verticalment"
+msgstr "<b>Ctrl</b> : Cliquer pour sélectionner dans les groupes; cliquer-déplacer pour déplacer horizontalement/verticalment"
 
 #: ../src/select-context.cpp:728
 msgid "<b>Shift</b>: click to toggle select; drag for rubberband selection"
@@ -14702,7 +14702,7 @@ msgstr "(chaîne UTF-8 invalide)"
 #: ../src/ui/dialog/document-properties.cpp:349
 #, c-format
 msgid "Color profiles directory (%s) is unavailable."
-msgstr "Le répertoire des profils (%s) est indisponible."
+msgstr "Le dossier des profils (%s) est indisponible."
 
 #. TODO check if this next line was sometimes needed. It being there caused an assertion.
 #. Inkscape::GC::release(defsRepr);
@@ -15220,7 +15220,7 @@ msgstr "Constante :"
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2209
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2242
 msgid "This constant affects the Phong lighting model."
-msgstr "Cette constante agit sur le  modèle d’éclairage Phong."
+msgstr "Cette constante agit sur le modèle d’éclairage Phong."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2210
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2244
@@ -15348,7 +15348,7 @@ msgstr "<b>feBlend</b> fournit quatre modes de fondu d’image : produit, super
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2288
 msgid "The <b>feColorMatrix</b> filter primitive applies a matrix transformation to color of each rendered pixel. This allows for effects like turning object to grayscale, modifying color saturation and changing color hue."
-msgstr "<b>feColorMatrix</b> applique une transformation matricielle à la couleur de chaque pixel. Cela permet des effets comme la  transformation d’objets en niveaux de gris, la modification de la saturation des couleurs et la modification de la teinte des couleurs."
+msgstr "<b>feColorMatrix</b> applique une transformation matricielle à la couleur de chaque pixel. Cela permet des effets comme la transformation d’objets en niveaux de gris, la modification de la saturation des couleurs et la modification de la teinte des couleurs."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2292
 msgid "The <b>feComponentTransfer</b> filter primitive manipulates the input's color components (red, green, blue, and alpha) according to particular transfer functions, allowing operations like brightness and contrast adjustment, color balance, and thresholding."
@@ -17565,7 +17565,7 @@ msgstr "Imposer les commandes répétitives"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1093
 msgid "Force repeating of the same path command (for example, 'L 1,2 L 3,4' instead of 'L 1,2 3,4')"
-msgstr "Si coché, impose la répétition de la même commande de chemin (écrit  'L 1,2 L 3,4' à la place de 'L 1,2 3,4')."
+msgstr "Si coché, impose la répétition de la même commande de chemin (écrit 'L 1,2 L 3,4' à la place de 'L 1,2 3,4')."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1095
 msgid "Numbers"
@@ -18693,7 +18693,7 @@ msgstr "Convertir"
 #: ../src/ui/dialog/swatches.cpp:435
 #, c-format
 msgid "Palettes directory (%s) is unavailable."
-msgstr "Le répertoire des palettes (%s) est indisponible."
+msgstr "Le dossier des palettes (%s) est indisponible."
 
 #: ../src/ui/dialog/tile.cpp:348
 msgid "Arrange in a grid"
@@ -18967,7 +18967,7 @@ msgstr "Mettre à jour"
 
 #: ../src/ui/dialog/tracedialog.cpp:658
 msgid "Preview the intermediate bitmap with the current settings, without actual tracing"
-msgstr "Aperçu du bitmap intermédiaire avec les paramètres définis,  sans vectorisation effective"
+msgstr "Aperçu du bitmap intermédiaire avec les paramètres définis, sans vectorisation effective"
 
 #: ../src/ui/dialog/tracedialog.cpp:662
 msgid "Preview"
@@ -19217,7 +19217,7 @@ msgstr "Retourner les nœuds horizontalement"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:657
 msgid "Flip nodes vertically"
-msgstr "Retourner les nœud verticalement"
+msgstr "Retourner les nœuds verticalement"
 
 #: ../src/ui/tool/node-tool.cpp:537
 msgctxt "Node tool tip"
@@ -24647,7 +24647,7 @@ msgstr "Crénage horizontal (px)"
 #. name
 #: ../src/widgets/toolbox.cpp:7813
 msgid "Vertical Shift"
-msgstr "Décalage vertical :"
+msgstr "Décalage vertical"
 
 #. label
 #: ../src/widgets/toolbox.cpp:7814
