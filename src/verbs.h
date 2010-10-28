@@ -346,6 +346,8 @@ private:
 
     /** \brief Tooltip for the verb. */
     gchar const * _tip;
+    gchar * _full_tip; // includes shortcut
+    unsigned int _shortcut;
 
     /** \brief Name of the image that represents the verb. */
     gchar const * _image;
@@ -423,6 +425,7 @@ public:
         _id(id),
         _name(name),
         _tip(tip),
+        _full_tip(0),
         _image(image),
         _code(code),
         _default_sensitive(true)
