@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-09-29 08:01+0100\n"
+"PO-Revision-Date: 2010-11-01 20:03+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -24150,7 +24150,7 @@ msgstr "Hoek:"
 
 #: ../src/widgets/toolbox.cpp:5167
 msgid "The angle of the pen's nib (in degrees; 0 = horizontal; has no effect if fixation = 0)"
-msgstr "De hoek van de punt van de pen (in graden; 0 = horizontaal. Heeft geen invloed als de oriëntatie 0 is)."
+msgstr "De hoek van de punt van de pen (in graden; 0 = horizontaal. Heeft geen invloed als de fixatie 0 is)."
 
 #. Fixation
 #: ../src/widgets/toolbox.cpp:5181
@@ -24167,15 +24167,15 @@ msgstr "(vaste oriëntatie, \"pen\")"
 
 #: ../src/widgets/toolbox.cpp:5184
 msgid "Fixation"
-msgstr "Oriëntatie"
+msgstr "Fixatie"
 
 #: ../src/widgets/toolbox.cpp:5184
 msgid "Fixation:"
-msgstr "Oriëntatie:"
+msgstr "Fixatie:"
 
 #: ../src/widgets/toolbox.cpp:5185
 msgid "Angle behavior (0 = nib always perpendicular to stroke direction, 100 = fixed angle)"
-msgstr "Oriëntatie van de pen (0 = altijd loodrecht op de tekenrichting, 100 = vaste hoek)"
+msgstr "Hoekgedrag van de pen (0 = altijd loodrecht op de tekenrichting, 100 = vaste hoek)"
 
 #. Cap Rounding
 #: ../src/widgets/toolbox.cpp:5197
