@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-11-01 20:03+0100\n"
+"PO-Revision-Date: 2010-11-04 08:26+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -24238,7 +24238,7 @@ msgstr "Verhoog dit om lijnen ruw en bevend te maken"
 #. Wiggle
 #: ../src/widgets/toolbox.cpp:5232
 msgid "(no wiggle)"
-msgstr "(geen zwalking)"
+msgstr "(zonder wegglijden)"
 
 #: ../src/widgets/toolbox.cpp:5232
 msgid "(slight deviation)"
@@ -24250,15 +24250,15 @@ msgstr "(wilde golven en krullen)"
 
 #: ../src/widgets/toolbox.cpp:5235
 msgid "Pen Wiggle"
-msgstr "Penzwalking"
+msgstr "Wegglijden van de pen"
 
 #: ../src/widgets/toolbox.cpp:5235
 msgid "Wiggle:"
-msgstr "Zwalking:"
+msgstr "Wegglijden:"
 
 #: ../src/widgets/toolbox.cpp:5236
 msgid "Increase to make the pen waver and wiggle"
-msgstr "Verhoog dit om de pen onvast te maken en te laten zwalken"
+msgstr "Verhoog dit om de pen onvast te maken en te laten wegglijden"
 
 #. Mass
 #: ../src/widgets/toolbox.cpp:5249
