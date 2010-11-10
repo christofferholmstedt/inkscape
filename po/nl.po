@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-11-04 08:26+0100\n"
+"PO-Revision-Date: 2010-11-08 22:56+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -4985,7 +4985,7 @@ msgstr "Binnenrand"
 
 #: ../share/filters/filters.svg.h:92
 msgid "Draws an outline around"
-msgstr "Een contour tekenen"
+msgstr "Contour tekenen"
 
 #: ../share/filters/filters.svg.h:93
 msgid "Outline, double"
@@ -6265,7 +6265,7 @@ msgstr "<b>Ellips</b>: %s &#215; %s; gebruik <b>Ctrl</b> om een ellips met gehel
 
 #: ../src/arc-context.cpp:504
 msgid "Create ellipse"
-msgstr "Een ellips maken"
+msgstr "Ellips maken"
 
 #: ../src/box3d-context.cpp:440
 #: ../src/box3d-context.cpp:447
@@ -6283,7 +6283,7 @@ msgstr "<b>3D-kubus</b>; gebruik <b>Shift</b> om over de z-as uit te trekken"
 
 #: ../src/box3d-context.cpp:671
 msgid "Create 3D box"
-msgstr "Een 3D-kubus maken"
+msgstr "3D-kubus maken"
 
 #: ../src/box3d.cpp:327
 msgid "<b>3D Box</b>"
@@ -13813,7 +13813,7 @@ msgstr "<b>Klik</b> om een tekst te beginnen of te selecteren, <b>sleep</b> om i
 
 #: ../src/text-context.cpp:1741
 msgid "Type text"
-msgstr "Tik tekst"
+msgstr "Tekst typen"
 
 #: ../src/text-editing.cpp:40
 msgid "You cannot edit <b>cloned character data</b>."
@@ -14493,7 +14493,7 @@ msgstr "Lijnkleur instellen uit palet"
 
 #: ../src/ui/dialog/color-item.cpp:716
 msgid "Set fill color from swatch"
-msgstr "Vulling instellen van palet"
+msgstr "Vulling instellen uit palet"
 
 #: ../src/ui/dialog/debug.cpp:68
 msgid "Messages"
@@ -19250,7 +19250,7 @@ msgstr "Knooppunten verwijderen"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:618
 msgid "Move nodes"
-msgstr "Items verplaatsen"
+msgstr "Knooppunten verplaatsen"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:621
 msgid "Move nodes horizontally"
@@ -22091,11 +22091,11 @@ msgstr "Het gebruik van de extensie interpoleren"
 #. "tutorial_interpolate"
 #: ../src/verbs.cpp:2676
 msgid "_Elements of Design"
-msgstr "Ont_werptheorieën"
+msgstr "Ont_werpbeginselen"
 
 #: ../src/verbs.cpp:2677
 msgid "Principles of design in the tutorial form"
-msgstr "Een handleiding over de principes en theorieën van ontwerpen"
+msgstr "Beginselen van een ontwerp in de vorm van een handleiding"
 
 #. "tutorial_design"
 #: ../src/verbs.cpp:2678
@@ -24042,7 +24042,7 @@ msgstr "Draaihoek:"
 #: ../src/widgets/toolbox.cpp:4759
 #, no-c-format
 msgid "Variation of the rotation of the sprayed objects. 0% for the same rotation than the original object."
-msgstr "Variatie van de draaihoek van de verstoven objecten. 0% voor de draaihoek van het originele object."
+msgstr "Variatie van de draaiing van de verstoven objecten. 0% voor dezelfde rotatie als het originele object."
 
 #. Scale
 #: ../src/widgets/toolbox.cpp:4772
