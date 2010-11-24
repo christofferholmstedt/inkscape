@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-11-13 21:13+0100\n"
+"PO-Revision-Date: 2010-11-24 22:17+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -6766,7 +6766,7 @@ msgstr "De vervaging voor elke kolom om-en-om afwisselen"
 
 #: ../src/dialogs/clonetiler.cpp:2392
 msgid "<b>Fade out:</b>"
-msgstr "<b>Oplossing:</b>"
+msgstr "<b>Ondoorzichtigheid:</b>"
 
 #: ../src/dialogs/clonetiler.cpp:2399
 msgid "Decrease tile opacity by this percentage for each row"
@@ -9920,7 +9920,7 @@ msgstr "<b>Einde</b> van lineair kleurverloop"
 #: ../src/gradient-context.cpp:134
 #: ../src/gradient-drag.cpp:78
 msgid "Linear gradient <b>mid stop</b>"
-msgstr "<b>Overgangspunt</b> in lineair kleurverloop"
+msgstr "<b>Overgang</b> in lineair kleurverloop"
 
 #: ../src/gradient-context.cpp:135
 #: ../src/gradient-drag.cpp:79
@@ -9945,7 +9945,7 @@ msgstr "<b>Brandpunt</b> van radiaal kleurverloop"
 #: ../src/gradient-drag.cpp:83
 #: ../src/gradient-drag.cpp:84
 msgid "Radial gradient <b>mid stop</b>"
-msgstr "<b>Overgangspunt</b> in radiaal kleurverloop"
+msgstr "<b>Overgang</b> in radiaal kleurverloop"
 
 #. TRANSLATORS: %s will be substituted with the point name (see previous messages); This is part of a compound message
 #: ../src/gradient-context.cpp:165
@@ -9985,16 +9985,16 @@ msgstr[1] "Handvat geselecteerd dat %d overgangen verenigt (sleep met <b>Shift</
 #, c-format
 msgid "<b>%d</b> gradient handle selected out of %d"
 msgid_plural "<b>%d</b> gradient handles selected out of %d"
-msgstr[0] "<b>%d</b> van %d kleurverloophandvat geselecteerd"
-msgstr[1] "<b>%d</b> van %d kleurverloophandvatten geselecteerd"
+msgstr[0] "<b>%d</b> (van %d) kleurverloophandvat geselecteerd"
+msgstr[1] "<b>%d</b> (van %d) kleurverloophandvatten geselecteerd"
 
 #. TRANSLATORS: The plural refers to number of selected objects
 #: ../src/gradient-context.cpp:189
 #, c-format
 msgid "<b>No</b> gradient handles selected out of %d on %d selected object"
 msgid_plural "<b>No</b> gradient handles selected out of %d on %d selected objects"
-msgstr[0] "<b>Geen</b> van %d kleurverloophandvat geselecteerd op %d geselecteerde objecten"
-msgstr[1] "<b>Geen</b> van %d kleurverloophandvatten geselecteerd op %d geselecteerde objecten"
+msgstr[0] "<b>Geen</b> (van %d) kleurverloophandvat geselecteerd op %d geselecteerd object"
+msgstr[1] "<b>Geen</b> (van %d) kleurverloophandvat geselecteerd op %d geselecteerde objecten"
 
 #: ../src/gradient-context.cpp:389
 #: ../src/gradient-context.cpp:482
@@ -14352,35 +14352,35 @@ msgstr "Grondlijn van teksten uitlijnen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:850
 msgid "Make horizontal gaps between objects equal"
-msgstr "De horizontale afstand tussen objecten gelijk maken"
+msgstr "Horizontale afstand tussen objecten gelijk maken"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:854
 msgid "Distribute left edges equidistantly"
-msgstr "De afstand tussen de linkerzijden van de objecten gelijkmatig verdelen"
+msgstr "Afstand tussen de linkerzijden van de objecten gelijkmatig verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:857
 msgid "Distribute centers equidistantly horizontally"
-msgstr "De objectmiddens gelijkmatig verdelen in horizontale richting"
+msgstr "Objectmiddens gelijkmatig verdelen in horizontale richting"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:860
 msgid "Distribute right edges equidistantly"
-msgstr "De afstand tussen de rechterzijden van de objecten gelijkmatig verdelen"
+msgstr "Afstand tussen de rechterzijden van de objecten gelijkmatig verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:864
 msgid "Make vertical gaps between objects equal"
-msgstr "De verticale afstand tussen de objecten gelijk maken"
+msgstr "Verticale afstand tussen de objecten gelijk maken"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:868
 msgid "Distribute top edges equidistantly"
-msgstr "De afstand tussen de bovenzijden van de objecten gelijkmatig verdelen"
+msgstr "Afstand tussen de bovenzijden van de objecten gelijkmatig verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:871
 msgid "Distribute centers equidistantly vertically"
-msgstr "De objectmiddens gelijkmatig verdelen in verticale richting"
+msgstr "Objectmiddens gelijkmatig verdelen in verticale richting"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:874
 msgid "Distribute bottom edges equidistantly"
-msgstr "De afstand tussen de onderzijden van de objecten gelijkmatig verdelen"
+msgstr "Afstand tussen de onderzijden van de objecten gelijkmatig verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:879
 msgid "Distribute baseline anchors of texts horizontally"
@@ -14388,15 +14388,15 @@ msgstr "Geselecteerde teksten horizontaal verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:882
 msgid "Distribute baselines of texts vertically"
-msgstr "De grondlijnen van geselecteerde teksten verticaal verdelen"
+msgstr "Grondlijnen van geselecteerde teksten verticaal verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:887
 msgid "Randomize centers in both dimensions"
-msgstr "De objectmiddens in beide richtingen willekeurig verdelen"
+msgstr "Objectmiddens in beide richtingen willekeurig verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:890
 msgid "Unclump objects: try to equalize edge-to-edge distances"
-msgstr "Objecten ontklonteren; proberen de rand-tot-rand afstanden gelijk te maken"
+msgstr "Objecten ontklonteren: rand-tot-rand afstanden gelijk proberen maken"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:895
 msgid "Move objects as little as possible so that their bounding boxes do not overlap"
@@ -14409,19 +14409,19 @@ msgstr "Het geselecteerde verbindingennetwerk netjes schikken"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:907
 msgid "Align selected nodes to a common horizontal line"
-msgstr "De geselecteerde knopen uitlijnen op een gemeenschappelijke horizontale lijn"
+msgstr "Geselecteerde knopen uitlijnen op een gemeenschappelijke horizontale lijn"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:910
 msgid "Align selected nodes to a common vertical line"
-msgstr "De geselecteerde knopen uitlijnen op een gemeenschappelijke verticale lijn"
+msgstr "Geselecteerde knopen uitlijnen op een gemeenschappelijke verticale lijn"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:913
 msgid "Distribute selected nodes horizontally"
-msgstr "De geselecteerde knopen horizontaal verdelen"
+msgstr "Geselecteerde knopen horizontaal verdelen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:916
 msgid "Distribute selected nodes vertically"
-msgstr "De geselecteerde knopen verticaal verdelen"
+msgstr "Geselecteerde knopen verticaal verdelen"
 
 #. Rest of the widgetry
 #: ../src/ui/dialog/align-and-distribute.cpp:921
@@ -17024,7 +17024,7 @@ msgstr "Vensters"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:637
 msgid "Move in parallel"
-msgstr "Parallel meeverplaatsen"
+msgstr "Parallel verplaatsen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:639
 msgid "Stay unmoved"
@@ -17109,7 +17109,7 @@ msgstr "Voor toepassen afsnijpad/masker:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:682
 msgid "Do not group clipped/masked objects"
-msgstr "Afgescneden/gemaskerde objecten niet groeperen"
+msgstr "Afgesneden/gemaskerde objecten niet groeperen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:683
 msgid "Enclose every clipped/masked object in its own group"
@@ -20440,7 +20440,7 @@ msgstr "tutorial-elements.nl.svg"
 #. TRANSLATORS: See "tutorial-basic.svg" comment.
 #: ../src/verbs.cpp:1889
 msgid "tutorial-tips.svg"
-msgstr "tutorial-tips.svg"
+msgstr "tutorial-tips.nl.svg"
 
 #: ../src/verbs.cpp:2165
 #: ../src/verbs.cpp:2696
@@ -22100,11 +22100,11 @@ msgstr "Beginselen van een ontwerp in de vorm van een handleiding"
 #. "tutorial_design"
 #: ../src/verbs.cpp:2678
 msgid "_Tips and Tricks"
-msgstr "_Tips en ideeën"
+msgstr "_Tips en trucs"
 
 #: ../src/verbs.cpp:2679
 msgid "Miscellaneous tips and tricks"
-msgstr "Verschillende tips en ideeën"
+msgstr "Verschillende tips en trucs"
 
 #. "tutorial_tips"
 #. Effect -- renamed Extension
@@ -22949,7 +22949,7 @@ msgstr "Breedbeeld"
 
 #: ../src/widgets/toolbox.cpp:1001
 msgid "Setup for widescreen work"
-msgstr "Setup voor breedbeelwerk"
+msgstr "Setup voor breedbeeldwerk"
 
 #: ../src/widgets/toolbox.cpp:1004
 msgid "Task"
@@ -24367,7 +24367,7 @@ msgstr "Kies ondoorzichtigheid"
 
 #: ../src/widgets/toolbox.cpp:5730
 msgid "Pick both the color and the alpha (transparency) under cursor; otherwise, pick only the visible color premultiplied by alpha"
-msgstr "Neem zowel de kleur als de alfa (transparantie) onder de cursor; zoniet, neem alleen de zichtbare kleur voorvermenigvuldigd met alfa"
+msgstr "Zowel kleur als alfa (transparantie) onder de cursor nemen; zoniet, alleen de zichtbare kleur voorvermenigvuldigd met alfa nemen"
 
 #: ../src/widgets/toolbox.cpp:5733
 msgid "Pick"
