@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-11-24 22:17+0100\n"
+"PO-Revision-Date: 2010-12-05 11:52+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -13746,7 +13746,7 @@ msgstr "Cursief maken"
 
 #: ../src/text-context.cpp:937
 msgid "New line"
-msgstr "Nieuwe regel"
+msgstr "Nieuwe regel invoegen"
 
 #: ../src/text-context.cpp:971
 msgid "Backspace"
@@ -20311,7 +20311,7 @@ msgstr "Verplaatst naar de volgende laag."
 
 #: ../src/verbs.cpp:1105
 msgid "Cannot go past last layer."
-msgstr "Kan niet voorbij de laatste laag verplaatsen."
+msgstr "Kan niet verder dan de laatste laag gaan."
 
 #: ../src/verbs.cpp:1114
 msgid "Switch to previous layer"
@@ -20323,7 +20323,7 @@ msgstr "Verplaatst naar de vorige laag."
 
 #: ../src/verbs.cpp:1117
 msgid "Cannot go before first layer."
-msgstr "Kan niet voorbij de eerste laag verplaatsen."
+msgstr "Kan niet verder dan de eerste laag gaan."
 
 #: ../src/verbs.cpp:1134
 #: ../src/verbs.cpp:1230
