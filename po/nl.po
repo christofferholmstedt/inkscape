@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-12-05 11:52+0100\n"
+"PO-Revision-Date: 2010-12-09 17:59+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -12818,11 +12818,11 @@ msgstr "Kloon ontkoppelen"
 
 #: ../src/selection-chemistry.cpp:2189
 msgid "Select a <b>clone</b> to go to its original. Select a <b>linked offset</b> to go to its source. Select a <b>text on path</b> to go to the path. Select a <b>flowed text</b> to go to its frame."
-msgstr "Selecteer een <b>kloon</b> om naar zijn origineel te gaan. Selecteer een <b>gekoppelde rand</b> om naar zijn bron te gaan. Selecteer <b>tekst op een pad</b> om naar het pad te gaan. Selecteer <b>ingekaderde tekst</b> om naar het vormende object te gaan."
+msgstr "Selecteer een <b>kloon</b> om naar zijn origineel te gaan. Selecteer een <b>gekoppelde offset</b> om naar zijn bron te gaan. Selecteer <b>tekst op een pad</b> om naar het pad te gaan. Selecteer <b>ingekaderde tekst</b> om naar het vormende object te gaan."
 
 #: ../src/selection-chemistry.cpp:2212
 msgid "<b>Cannot find</b> the object to select (orphaned clone, offset, textpath, flowed text?)"
-msgstr "Het te selecteren object <b>is onvindbaar</b> (verweesde kloon, rand, tekstpad of ingekaderde tekst?)"
+msgstr "Het te selecteren object <b>is onvindbaar</b> (verweesde kloon, offset, tekstpad of ingekaderde tekst?)"
 
 #: ../src/selection-chemistry.cpp:2218
 msgid "The object you're trying to select is <b>not visible</b> (it is in &lt;defs&gt;)"
@@ -13295,7 +13295,7 @@ msgstr "Er is een fout opgetreden tijdens het uitvoeren van het padeffect."
 #: ../src/sp-offset.cpp:426
 #, c-format
 msgid "<b>Linked offset</b>, %s by %f pt"
-msgstr "<b>Gekoppelde rand</b>, %s met %f pt"
+msgstr "<b>Gekoppelde offset</b>, %s met %f pt"
 
 #: ../src/sp-offset.cpp:427
 #: ../src/sp-offset.cpp:431
@@ -13311,7 +13311,7 @@ msgstr "vernauwing"
 #: ../src/sp-offset.cpp:430
 #, c-format
 msgid "<b>Dynamic offset</b>, %s by %f pt"
-msgstr "<b>Dynamische rand</b>, %s met %f pt"
+msgstr "<b>Dynamische offset</b>, %s met %f pt"
 
 #: ../src/sp-path.cpp:156
 #, c-format
@@ -13491,12 +13491,12 @@ msgstr "Het geselecteerde object is <b>geen pad</b>, en kan dus niet versmalt/ve
 #: ../src/splivarot.cpp:1425
 #: ../src/splivarot.cpp:1494
 msgid "Create linked offset"
-msgstr "Gekoppelde rand aanmaken"
+msgstr "Gekoppelde offset maken"
 
 #: ../src/splivarot.cpp:1426
 #: ../src/splivarot.cpp:1495
 msgid "Create dynamic offset"
-msgstr "Dynamische rand aanmaken"
+msgstr "Dynamische offset maken"
 
 #: ../src/splivarot.cpp:1520
 msgid "Select <b>path(s)</b> to inset/outset."
@@ -17044,7 +17044,7 @@ msgstr "Verwijderen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:648
 msgid "When the original moves, its clones and linked offsets:"
-msgstr "Gedrag van klonen bij het verplaatsen van het origineel:"
+msgstr "Gedrag van klonen en gekoppelde randen bij verplaatsen van het origineel:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:650
 msgid "Clones are translated by the same vector as their original"
@@ -17527,7 +17527,7 @@ msgstr "Indien aangevinkt en er is uitgezoomd, dan worden rasterlijnen in de nor
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1026
 msgid "Default grid settings"
-msgstr "Standaard rasterinstellingen:"
+msgstr "Standaard rasterinstellingen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1032
 #: ../src/ui/dialog/inkscape-preferences.cpp:1053
@@ -21033,19 +21033,19 @@ msgstr "Geselecteerde paden met 10 pixels vernauwen"
 
 #: ../src/verbs.cpp:2362
 msgid "D_ynamic Offset"
-msgstr "D_ynamische rand"
+msgstr "D_ynamische offset"
 
 #: ../src/verbs.cpp:2362
 msgid "Create a dynamic offset object"
-msgstr "Een 'dynamische rand'-object aanmaken"
+msgstr "Een 'dynamische offset'-object aanmaken"
 
 #: ../src/verbs.cpp:2364
 msgid "_Linked Offset"
-msgstr "_Gekoppelde rand"
+msgstr "_Gekoppelde offset"
 
 #: ../src/verbs.cpp:2365
 msgid "Create a dynamic offset object linked to the original path"
-msgstr "Een 'dynamische rand'-object aanmaken, gekoppeld aan het originele pad"
+msgstr "Een 'dynamische offset'-object aanmaken, gekoppeld aan het originele pad"
 
 #: ../src/verbs.cpp:2367
 msgid "_Stroke to Path"
