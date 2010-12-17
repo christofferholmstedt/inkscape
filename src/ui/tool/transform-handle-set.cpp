@@ -18,6 +18,8 @@
 #include "desktop-handles.h"
 #include "display/sodipodi-ctrlrect.h"
 #include "preferences.h"
+#include "snap.h"
+#include "sp-namedview.h"
 #include "ui/tool/commit-events.h"
 #include "ui/tool/control-point.h"
 #include "ui/tool/event-utils.h"
@@ -473,7 +475,40 @@ public:
     }
 
 protected:
+    virtual void dragged(Geom::Point &new_pos, GdkEventMotion *event) {
+        SnapManager &sm = _desktop->namedview->snap_manager;
+        bool snap = !held_shift(*event) && sm.someSnapperMightSnap();
+        if (snap) {
+            sm.setup(_desktop);
+        }
+        if (held_control(*event)) {
+            if (snap) {
+                // constrain to axes
+                Inkscape::SnappedPoint x, y;
+                Geom::Point origin = _last_drag_origin();
+                Inkscape::Snapper::ConstraintLine line_x(origin, Geom::Point(1, 0));
+                Inkscape::Snapper::ConstraintLine line_y(origin, Geom::Point(0, 1));
+                x = sm.constrainedSnap(Inkscape::SnapCandidatePoint(new_pos,
+                    SNAPSOURCE_ROTATION_CENTER), line_x);
+                y = sm.constrainedSnap(Inkscape::SnapCandidatePoint(new_pos,
+                    SNAPSOURCE_ROTATION_CENTER), line_y);
 
+                if (x.getSnapped() || y.getSnapped()) {
+                    if (x.isOtherSnapBetter(y, false)) {
+                        x = y;
+                    }
+                    x.getPoint(new_pos);
+                }
+            } else {
+                Geom::Point origin = _last_drag_origin();
+                Geom::Point delta = new_pos - origin;
+                Geom::Dim2 d = (fabs(delta[Geom::X]) < fabs(delta[Geom::Y])) ? Geom::X : Geom::Y;
+                new_pos[d] = origin[d];
+            }
+        } else if (snap) {
+            sm.freeSnapReturnByRef(new_pos, SNAPSOURCE_ROTATION_CENTER);
+        }
+    }
     virtual Glib::ustring _getTip(unsigned /*state*/) {
         return C_("Transform handle tip",
             "<b>Rotation center</b>: drag to change the origin of transforms");
