@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-10-21 15:30+0200\n"
+"PO-Revision-Date: 2010-12-21 10:36+0100\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -232,7 +232,7 @@ msgstr "Menos saturación"
 
 #: ../share/extensions/color_morehue.inx.h:2
 msgid "More Hue"
-msgstr "más tono"
+msgstr "Más tono"
 
 #: ../share/extensions/color_morelight.inx.h:2
 msgid "More Light"
@@ -532,7 +532,7 @@ msgstr "Radio / px"
 #: ../share/extensions/render_barcode_datamatrix.inx.h:3
 #: ../share/extensions/wireframe_sphere.inx.h:5
 msgid "Render"
-msgstr "Renderizar"
+msgstr "Generar"
 
 #: ../share/extensions/draw_from_triangle.inx.h:31
 msgid "Report this triangle's properties"
@@ -938,7 +938,7 @@ msgstr "Subdivisiones"
 
 #: ../share/extensions/funcplot.inx.h:1
 msgid "Calculate first derivative numerically"
-msgstr "Calcular el primer derivado numérico"
+msgstr "Calcular numéricamente la primera derivada"
 
 #: ../share/extensions/funcplot.inx.h:2
 #: ../share/extensions/param_curves.inx.h:1
@@ -947,11 +947,11 @@ msgstr "Dibujar ejes"
 
 #: ../share/extensions/funcplot.inx.h:3
 msgid "End X value"
-msgstr "Valor x final"
+msgstr "Valor X final"
 
 #: ../share/extensions/funcplot.inx.h:4
 msgid "First derivative"
-msgstr "Primer derivado"
+msgstr "Primera derivada"
 
 #: ../share/extensions/funcplot.inx.h:5
 msgid "Function"
@@ -2554,7 +2554,7 @@ msgstr "Políedro 3D"
 
 #: ../share/extensions/polyhedron_3d.inx.h:2
 msgid "Clockwise wound object"
-msgstr "Objeto enredado hacia la derecha"
+msgstr "Dibujar objeto a la inversa"
 
 #: ../share/extensions/polyhedron_3d.inx.h:3
 msgid "Cube"
@@ -2570,7 +2570,7 @@ msgstr "Dodecaedro"
 
 #: ../share/extensions/polyhedron_3d.inx.h:6
 msgid "Draw back-facing polygons"
-msgstr "Dibujar polígonos que están de espaldas"
+msgstr "Dibujar polígonos que están por detrás"
 
 #: ../share/extensions/polyhedron_3d.inx.h:7
 msgid "Edge-Specified"
@@ -2582,7 +2582,7 @@ msgstr "Bordes"
 
 #: ../share/extensions/polyhedron_3d.inx.h:9
 msgid "Face-Specified"
-msgstr "Especificado pora caras"
+msgstr "Especificado por caras"
 
 #: ../share/extensions/polyhedron_3d.inx.h:10
 msgid "Faces"
@@ -10585,15 +10585,15 @@ msgstr "Maestro"
 
 #: ../src/libgdl/gdl-dock-bar.c:109
 msgid "GdlDockMaster object which the dockbar widget is attached to"
-msgstr "Objeto GdlDockMaster a la que está unida la barra acoplable"
+msgstr "Objeto GdlDockMaster al que está unido el widget de la barra acoplable"
 
 #: ../src/libgdl/gdl-dock-bar.c:116
 msgid "Dockbar style"
-msgstr "Estilo acoplable"
+msgstr "Estilo de la barra acoplable"
 
 #: ../src/libgdl/gdl-dock-bar.c:117
 msgid "Dockbar style to show items on it"
-msgstr "Estilo de barra acoplable"
+msgstr "Estilo de la barra acoplable para mostrar elementos en ella"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:395
 msgid "Iconify"
@@ -10675,7 +10675,7 @@ msgstr "Altura preferida"
 
 #: ../src/libgdl/gdl-dock-item.c:337
 msgid "Preferred height for the dock item"
-msgstr "Altura preferida"
+msgstr "Altura preferida del elemento acoplable"
 
 #: ../src/libgdl/gdl-dock-item.c:616
 #, c-format
@@ -10683,7 +10683,7 @@ msgid ""
 "You can't add a dock object (%p of type %s) inside a %s. Use a GdlDock or "
 "some other compound dock object."
 msgstr ""
-"No puede añadir un objeto acoplable (%p de tipo %s) a un %s. Utilice un "
+"No se puede añadir un objeto acoplable (%p de tipo %s) a un %s. Utilice un "
 "GdlDock u otro objeto acoplable compuesto."
 
 #: ../src/libgdl/gdl-dock-item.c:623
@@ -14171,11 +14171,11 @@ msgstr "Retirar texto de trayecto"
 
 #: ../src/text-chemistry.cpp:269 ../src/text-chemistry.cpp:290
 msgid "Select <b>text(s)</b> to remove kerns from."
-msgstr "Seleccione los <b>textos</b> de los que desea eliminar el espaciado."
+msgstr "Seleccione los <b>textos</b> de los que desea eliminar el interletraje."
 
 #: ../src/text-chemistry.cpp:293
 msgid "Remove manual kerns"
-msgstr "Eliminar el espaciado manual"
+msgstr "Eliminar el interletrajemanual"
 
 #: ../src/text-chemistry.cpp:313
 msgid ""
@@ -14297,19 +14297,19 @@ msgstr "Retroceso"
 
 #: ../src/text-context.cpp:1019
 msgid "Kern to the left"
-msgstr "Ajuste por la izquierda"
+msgstr "Interletrar a la izquierda"
 
 #: ../src/text-context.cpp:1044
 msgid "Kern to the right"
-msgstr "Ajuste por la derecha"
+msgstr "Interletrar a la derecha"
 
 #: ../src/text-context.cpp:1069
 msgid "Kern up"
-msgstr "Ajuste por arriba"
+msgstr "Interletrar por arriba"
 
 #: ../src/text-context.cpp:1095
 msgid "Kern down"
-msgstr "Ajuste por abajo"
+msgstr "Interletrar por abajo"
 
 #: ../src/text-context.cpp:1172
 msgid "Rotate counterclockwise"
@@ -19655,7 +19655,7 @@ msgstr "Definir atributo de fuente SVG"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:174
 msgid "Adjust kerning value"
-msgstr "Ajustar valor de kerning"
+msgstr "Ajustar valor de interletraje"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:364
 msgid "Family Name:"
@@ -19715,7 +19715,7 @@ msgstr "Eliminar glifo"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:638
 msgid "Remove kerning pair"
-msgstr "Eliminar pareja de kerning"
+msgstr "Eliminar pareja de interletraje"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:648
 msgid "Missing Glyph:"
@@ -19748,12 +19748,12 @@ msgstr "Obtener curvas de la selección..."
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:726
 msgid "Add kerning pair"
-msgstr "Añadir pareja de kerning"
+msgstr "Añadir pareja de interletraje"
 
 #. Kerning Setup:
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:734
 msgid "Kerning Setup:"
-msgstr "Configuración de kerning:"
+msgstr "Configuración de interletraje:"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:736
 msgid "1st Glyph:"
@@ -19777,7 +19777,7 @@ msgstr "Segundo rango Unicode"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:761
 msgid "Kerning value:"
-msgstr "Valor de kerning:"
+msgstr "Valor de interletraje:"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:819
 msgid "Set font family"
@@ -19806,7 +19806,7 @@ msgstr "_Glifos"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:872
 msgid "_Kerning"
-msgstr "_Kerning"
+msgstr "_Interletraje"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:879
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:880
@@ -22101,13 +22101,13 @@ msgstr "_Retirar del trayecto"
 
 #: ../src/verbs.cpp:2320
 msgid "Remove Manual _Kerns"
-msgstr "Eliminar todos los _kerns manuales"
+msgstr "Eliminar todos los _interletrajes manuales"
 
 #. TRANSLATORS: "glyph": An image used in the visual representation of characters;
 #. roughly speaking, how a character looks. A font is a set of glyphs.
 #: ../src/verbs.cpp:2323
 msgid "Remove all manual kerns and glyph rotations from a text object"
-msgstr "Eliminar todos los kerns manuales y rotaciones de glifo de un objeto de texto"
+msgstr "Eliminar todos los interletrajes manuales y rotaciones de glifo de un objeto de texto"
 
 #: ../src/verbs.cpp:2325
 msgid "_Union"
@@ -25787,7 +25787,7 @@ msgstr "Texto: Cambiar el espaciado entre letras"
 
 #: ../src/widgets/toolbox.cpp:7007
 msgid "Text: Change dx (kern)"
-msgstr "Texto: Cambiar dx (kerning)"
+msgstr "Texto: Cambiar dx (interletraje)"
 
 #: ../src/widgets/toolbox.cpp:7038
 msgid "Text: Change dy"
@@ -25974,17 +25974,17 @@ msgstr "Espacio entre letras (px)"
 #. name
 #: ../src/widgets/toolbox.cpp:7782
 msgid "Kerning"
-msgstr "Kerning"
+msgstr "Interletraje"
 
 #. label
 #: ../src/widgets/toolbox.cpp:7783
 msgid "Kern:"
-msgstr "Kern:"
+msgstr "Interletraje:"
 
 #. short label
 #: ../src/widgets/toolbox.cpp:7784
 msgid "Horizontal kerning (px)"
-msgstr "Kerning horizontal (px)"
+msgstr "Interletraje horizontal (px)"
 
 #. name
 #: ../src/widgets/toolbox.cpp:7813
