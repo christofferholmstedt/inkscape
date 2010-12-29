@@ -216,6 +216,7 @@ SPConnEndPair::getEndpoints(Geom::Point endPts[]) const {
     SPCurve *curve = _path->original_curve ? _path->original_curve : _path->curve;
     SPItem *h2attItem[2];
     getAttachedItems(h2attItem);
+    Geom::Matrix i2d = sp_item_i2doc_affine(SP_ITEM(_path));
 
     for (unsigned h = 0; h < 2; ++h) {
         if ( h2attItem[h] ) {
@@ -225,10 +226,10 @@ SPConnEndPair::getEndpoints(Geom::Point endPts[]) const {
         else
         {
             if (h == 0) {
-                endPts[h] = *(curve->first_point());
+                endPts[h] = *(curve->first_point())*i2d;
             }
             else {
-                endPts[h] = *(curve->last_point());
+                endPts[h] = *(curve->last_point())*i2d;
             }
         }
     }
