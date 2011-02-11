@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2011-02-10 19:06+0100\n"
+"PO-Revision-Date: 2011-02-11 10:14+0100\n"
 "Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
 "Language-Team: Galego <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -12958,7 +12958,7 @@ msgstr "Pegar"
 
 #: ../src/selection-chemistry.cpp:1077
 msgid "Paste style"
-msgstr "Pegar estilo"
+msgstr "Pegar o estilo"
 
 #: ../src/selection-chemistry.cpp:1087
 msgid "Paste live path effect"
@@ -20997,7 +20997,7 @@ msgstr "Escalar verticalmente a selección para que teña a altura do obxecto co
 
 #: ../src/verbs.cpp:2247
 msgid "Paste Size Separately"
-msgstr "Pegar tamaño por separado"
+msgstr "Pegar o tamaño por separado"
 
 #: ../src/verbs.cpp:2248
 msgid "Scale each selected object to match the size of the copied object"
@@ -21013,7 +21013,7 @@ msgstr "Escalar horizontalmente cada obxecto seleccionado para que teña a largu
 
 #: ../src/verbs.cpp:2251
 msgid "Paste Height Separately"
-msgstr "Pegar altura por separado"
+msgstr "Pegar a altura por separado"
 
 #: ../src/verbs.cpp:2252
 msgid "Scale each selected object vertically to match the height of the copied object"
@@ -21021,7 +21021,7 @@ msgstr "Escalar verticalmente cada obxecto da selección para que teña a altura
 
 #: ../src/verbs.cpp:2253
 msgid "Paste _In Place"
-msgstr "Pega_r na localización"
+msgstr "Pega_r no lugar"
 
 #: ../src/verbs.cpp:2254
 msgid "Paste objects from clipboard to the original location"
@@ -22437,7 +22437,7 @@ msgstr "Uso da ferramenta pluma de Caligrafía"
 
 #: ../src/verbs.cpp:2674
 msgid "Inkscape: _Interpolate"
-msgstr "Inkscape: _interpolar"
+msgstr "Inkscape: _interpolación"
 
 #: ../src/verbs.cpp:2675
 msgid "Using the interpolate extension"
@@ -23748,7 +23748,7 @@ msgstr "Redondeado"
 
 #: ../src/widgets/toolbox.cpp:3007
 msgid "Rounded:"
-msgstr "Redondeado:"
+msgstr "Redondez:"
 
 #: ../src/widgets/toolbox.cpp:3007
 msgid "How much rounded are the corners (0 for sharp)"
