@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-12-09 17:59+0100\n"
+"PO-Revision-Date: 2011-03-18 18:29+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -22594,7 +22594,7 @@ msgstr "Hoogte"
 
 #: ../src/widgets/select-toolbar.cpp:497
 msgid "select toolbar|H"
-msgstr "H"
+msgstr "select toolbar|H"
 
 #: ../src/widgets/select-toolbar.cpp:499
 msgid "Height of selection"
