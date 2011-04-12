@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-06-10 11:47+0100\n"
+"PO-Revision-Date: 2011-04-12 13:55+0100\n"
 "Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
 "Language-Team: An Drouizig - www.drouizig.org <alan.monfort@free.fr>\n"
 "MIME-Version: 1.0\n"
@@ -10720,7 +10720,7 @@ msgstr "Kae niv. %d"
 
 #: ../src/libnrtype/FontFactory.cpp:897
 msgid "Ignoring font without family that will crash Pango"
-msgstr "Leuskel a-gostez an nodrezhioù hep familh a gasfe Pango d'ar chanad"
+msgstr "Leuskel a-gostez an nodrezhoù hep familh a gasfe Pango d'ar chanad"
 
 #: ../src/live_effects/effect.cpp:87
 msgid "doEffect stack test"
@@ -12299,7 +12299,7 @@ msgstr "Arz dieub"
 
 #: ../src/rdf.cpp:212
 msgid "Open Font License"
-msgstr "Lañvaz an nodrezhioù Open"
+msgstr "Lañvaz an nodrezhoù Open"
 
 #: ../src/rdf.cpp:229
 msgid "Title"
@@ -16807,11 +16807,11 @@ msgstr "Benveg Efedoù Bev an Treug"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:552
 msgid "Show font samples in the drop-down list"
-msgstr "Diskouez ar standilhonoù nodrezhioù war ar roll dibunadus"
+msgstr "Diskouez ar standilhonoù nodrezhoù war ar roll dibunadus"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:553
 msgid "Show font samples alongside font names in the drop-down list in Text bar"
-msgstr "Diskouez ar standilhonoù nodrezhioù a-hed anvioù an nodrezhioù war ar roll dibunadus e barrenn an destenn"
+msgstr "Diskouez ar standilhonoù nodrezhoù a-hed anvioù an nodrezhoù war ar roll dibunadus e barrenn an destenn"
 
 #. Gradient
 #: ../src/ui/dialog/inkscape-preferences.cpp:558
@@ -17924,7 +17924,7 @@ msgstr "Ketal"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1177
 msgid "Use current directory for \"Save As ...\""
-msgstr "Arverañ ar c'havlec'hiad bremanel evit \"Enrollañ da...\""
+msgstr "Arverañ ar c'havlec'hiad bremanel evit \"Enrollañ evel...\""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1179
 msgid "When this option is on, the \"Save as...\" dialog will always open in the directory where the currently open document is; when it's off, it will open in the directory where you last saved a file using that dialog"
@@ -19598,7 +19598,7 @@ msgstr ""
 #: ../src/ui/view/edit-widget.cpp:1262
 #: ../src/widgets/desktop-widget.cpp:925
 msgid "_Save as SVG"
-msgstr "Enrollañ da _SVG"
+msgstr "Enrollañ evel _SVG"
 
 #: ../src/ui/widget/filter-effect-chooser.cpp:25
 msgid "_Blend mode:"
@@ -20416,7 +20416,7 @@ msgstr "Enrollañ an teul"
 
 #: ../src/verbs.cpp:2203
 msgid "Save _As..."
-msgstr "Enrollañ d_a..."
+msgstr "Enrollañ _evel..."
 
 #: ../src/verbs.cpp:2204
 msgid "Save document under a new name"
@@ -21789,11 +21789,11 @@ msgstr "Dizober ar Roll istor"
 
 #: ../src/verbs.cpp:2613
 msgid "_Text and Font..."
-msgstr "_Testenn ha nodrezhioù..."
+msgstr "_Testenn ha nodrezhoù..."
 
 #: ../src/verbs.cpp:2614
 msgid "View and select font family, font size and other text properties"
-msgstr "Gwelout ha diuzañ familhoù nodrezhioù, ment an arouezennoù ha perzhioù testennoù all"
+msgstr "Gwelout ha diuzañ familhoù nodrezhoù, ment an arouezennoù ha perzhioù testennoù all"
 
 #: ../src/verbs.cpp:2615
 msgid "_XML Editor..."
@@ -22199,7 +22199,7 @@ msgstr "Arventenniñ ar goustur war an tres"
 #. Family frame
 #: ../src/widgets/font-selector.cpp:157
 msgid "Font family"
-msgstr "Familh nodrezhioù"
+msgstr "Familh nodrezhoù"
 
 #. TRANSLATORS: only translate "string" in "context|string".
 #. For more details, see http://developer.gnome.org/doc/API/2.0/glib/glib-I18N.html#Q-:CAPS
@@ -22695,7 +22695,7 @@ msgstr "Arventenniñ ar markerioù"
 #. Stroke width
 #: ../src/widgets/stroke-style.cpp:677
 msgid "StrokeWidth|Width:"
-msgstr "StrokeWidth|Led :"
+msgstr "Led :"
 
 #. Join type
 #. TRANSLATORS: The line join style specifies the shape to be used at the
@@ -24425,7 +24425,7 @@ msgstr "Testenn : Kemmañ ar reteradur"
 
 #: ../src/widgets/toolbox.cpp:7478
 msgid "Font Family"
-msgstr "Familh nodrezhioù"
+msgstr "Familh nodrezhoù"
 
 #: ../src/widgets/toolbox.cpp:7479
 msgid "Select Font Family (Alt-X to access)"
