@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2011-04-05 22:54+0330\n"
+"PO-Revision-Date: 2011-04-16 01:10+0330\n"
 "Last-Translator: Ali Ghanavatian <ghanavatian.ali@gmail.com>\n"
 "Language-Team: Farsi <fa@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "باز کردن فایل‌های Corel DRAW Compressed Exchange ذخی�
 
 #: ../share/extensions/cdr_input.inx.h:1
 msgid "Corel DRAW 7-X4 files (*.cdr)"
-msgstr "Corel DRAW 7-X4 (*.cdr) فایل‌های "
+msgstr "Corel DRAW 7-X4 (*.cdr)"
 
 #: ../share/extensions/cdr_input.inx.h:2
 msgid "Corel DRAW Input"
@@ -107,7 +107,7 @@ msgstr "باز کردن فایل‌های ذخیره شده در Corel DRAW 7-X4
 
 #: ../share/extensions/cdt_input.inx.h:1
 msgid "Corel DRAW 7-13 template files (.cdt)"
-msgstr "Corel DRAW 7-13 template (.cdt) فایل‌های "
+msgstr "Corel DRAW 7-13 template (.cdt)"
 
 #: ../share/extensions/cdt_input.inx.h:2
 msgid "Corel DRAW templates input"
@@ -119,7 +119,7 @@ msgstr "باز کردن فایل‌های ذخیره شده در Corel DRAW 7-13
 
 #: ../share/extensions/cgm_input.inx.h:1
 msgid "Computer Graphics Metafile files (.cgm)"
-msgstr "Computer Graphics Metafile (.cgm)فایل‌های "
+msgstr "Computer Graphics Metafile (.cgm)"
 
 #: ../share/extensions/cgm_input.inx.h:2
 msgid "Computer Graphics Metafile files input"
@@ -131,7 +131,7 @@ msgstr "فایل‌های Open Computer Graphics Metafile"
 
 #: ../share/extensions/cmx_input.inx.h:1
 msgid "Corel DRAW Presentation Exchange files (.cmx)"
-msgstr "Corel DRAW Presentation Exchange (.cmx) فایل‌های"
+msgstr "Corel DRAW Presentation Exchange (.cmx)"
 
 #: ../share/extensions/cmx_input.inx.h:2
 msgid "Corel DRAW Presentation Exchange files input"
@@ -585,10 +585,15 @@ msgid ""
 "- layers are preserved only on File->Open, not Import.\n"
 "- limited support for BLOCKS, use AutoCAD Explode Blocks instead, if needed."
 msgstr ""
+"-AutoCAD نسخه‌ی سیزدهم و جدیدتر. \n"
+"- طرح dxf را در مقیاس میلی‌متر در نظر می‌گیرد.\n"
+"- طرح svg را در مقیاس پیکسل با ۹۰ DPI در نظر می‌گیرد. \n"
+"-  لایه‌ها فقط در پرونده->گشودن حفظ می‌شوند، نه با «وارد کردن». \n"
+"- پشتیبانی بلوک‌ها محدود است، در صورت نیاز از AutoCAD سرشار از بلوک استفاده شود."
 
 #: ../share/extensions/dxf_input.inx.h:6
 msgid "AutoCAD DXF R13 (*.dxf)"
-msgstr ""
+msgstr "AutoCAD DXF R13 (*.dxf)"
 
 #: ../share/extensions/dxf_input.inx.h:7
 msgid "Character Encoding"
@@ -718,12 +723,12 @@ msgstr ""
 #: ../share/extensions/eps_input.inx.h:2
 #: ../src/extension/internal/cairo-ps-out.cpp:363
 msgid "Encapsulated PostScript"
-msgstr ""
+msgstr "پست اسکریپت کپسوله شده"
 
 #: ../share/extensions/eps_input.inx.h:3
 #: ../src/extension/internal/cairo-ps-out.cpp:381
 msgid "Encapsulated PostScript (*.eps)"
-msgstr ""
+msgstr "Encapsulated PostScript (*.eps)"
 
 #: ../share/extensions/eqtexsvg.inx.h:1
 msgid "Additional packages (comma-separated): "
@@ -1193,7 +1198,7 @@ msgstr ""
 #: ../src/widgets/stroke-style.cpp:362
 #: ../src/widgets/toolbox.cpp:4089
 msgid "None"
-msgstr ""
+msgstr "هیچکدام"
 
 #: ../share/extensions/grid_polar.inx.h:17
 msgid "Polar Grid"
@@ -1289,7 +1294,7 @@ msgstr ""
 
 #: ../share/extensions/hpgl_output.inx.h:2
 msgid "HP Graphics Language file (*.hpgl)"
-msgstr ""
+msgstr "HP Graphics Language file (*.hpgl)"
 
 #: ../share/extensions/hpgl_output.inx.h:3
 msgid "HPGL Output"
@@ -1390,7 +1395,7 @@ msgstr ""
 #: ../share/extensions/interp_att_g.inx.h:4
 #: ../src/ui/dialog/fill-and-stroke.cpp:57
 msgid "Fill"
-msgstr ""
+msgstr " پر شدگی"
 
 #: ../share/extensions/interp_att_g.inx.h:5
 msgid "Float Number"
@@ -2702,12 +2707,12 @@ msgstr ""
 #: ../share/extensions/ps_input.inx.h:1
 #: ../src/extension/internal/cairo-ps-out.cpp:325
 msgid "PostScript"
-msgstr ""
+msgstr "پست اسکریپت"
 
 #: ../share/extensions/ps_input.inx.h:2
 #: ../src/extension/internal/cairo-ps-out.cpp:343
 msgid "PostScript (*.ps)"
-msgstr ""
+msgstr "PostScript (*.ps)"
 
 #: ../share/extensions/ps_input.inx.h:3
 msgid "PostScript Input"
@@ -2939,12 +2944,12 @@ msgstr ""
 
 #: ../share/extensions/sk1_input.inx.h:1
 msgid "Open files saved in sK1 vector graphics editor"
-msgstr ""
+msgstr "باز کردن فایل‌های ذخیره شده با ویرایشگر برداری sK1"
 
 #: ../share/extensions/sk1_input.inx.h:2
 #: ../share/extensions/sk1_output.inx.h:2
 msgid "sK1 vector graphics files (.sk1)"
-msgstr ""
+msgstr "sK1 vector graphics files (.sk1)"
 
 #: ../share/extensions/sk1_input.inx.h:3
 msgid "sK1 vector graphics files input"
@@ -3053,12 +3058,12 @@ msgstr "پاکت نامه"
 #: ../share/extensions/svg2xaml.inx.h:1
 #: ../share/extensions/xaml2svg.inx.h:1
 msgid "Microsoft XAML (*.xaml)"
-msgstr ""
+msgstr "Microsoft XAML (*.xaml)"
 
 #: ../share/extensions/svg2xaml.inx.h:2
 #: ../share/extensions/xaml2svg.inx.h:2
 msgid "Microsoft's GUI definition format"
-msgstr ""
+msgstr "فرمت تعریف GUI مایکروسافت"
 
 #: ../share/extensions/svg2xaml.inx.h:3
 msgid "XAML Output"
@@ -3424,18 +3429,16 @@ msgid "Format:"
 msgstr ""
 
 #: ../share/extensions/webslicer_create_rect.inx.h:15
-#, fuzzy
 msgid "GIF specific options"
-msgstr "مشخصات SVG 1.1"
+msgstr "آپشن‌های مختص GIF"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:19
 msgid "If set, this will replace DPI."
 msgstr ""
 
 #: ../share/extensions/webslicer_create_rect.inx.h:20
-#, fuzzy
 msgid "JPG specific options"
-msgstr "مشخصات SVG 1.1"
+msgstr "آپشن‌های مختص JPG"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:21
 msgid "Layout disposition:"
@@ -3711,7 +3714,7 @@ msgstr ""
 #: ../share/extensions/wmf_input.inx.h:2
 #: ../share/extensions/wmf_output.inx.h:2
 msgid "Windows Metafile (*.wmf)"
-msgstr ""
+msgstr "Windows Metafile (*.wmf)"
 
 #: ../share/extensions/wmf_input.inx.h:3
 #: ../share/extensions/wmf_output.inx.h:3
@@ -5918,167 +5921,167 @@ msgstr "ایجاد یک پالت با فاصله سه‌گام با تُن رن�
 
 #: ../share/patterns/patterns.svg.h:2
 msgid "Stripes 1:1"
-msgstr ""
+msgstr "نوارها ۱:۱"
 
 #: ../share/patterns/patterns.svg.h:3
 msgid "Stripes 1:1 white"
-msgstr ""
+msgstr "نوارها ۱:۱ سفید"
 
 #: ../share/patterns/patterns.svg.h:4
 msgid "Stripes 1:1.5"
-msgstr ""
+msgstr "نوارها ۱:۱.۵"
 
 #: ../share/patterns/patterns.svg.h:5
 msgid "Stripes 1:1.5 white"
-msgstr ""
+msgstr "نوارها ۱:۱.۵ سفید"
 
 #: ../share/patterns/patterns.svg.h:6
 msgid "Stripes 1:2"
-msgstr ""
+msgstr "نوارها ۱:۲"
 
 #: ../share/patterns/patterns.svg.h:7
 msgid "Stripes 1:2 white"
-msgstr ""
+msgstr "نوارها ۱:۲ سفید"
 
 #: ../share/patterns/patterns.svg.h:8
 msgid "Stripes 1:3"
-msgstr ""
+msgstr "نوارها ۱:۳"
 
 #: ../share/patterns/patterns.svg.h:9
 msgid "Stripes 1:3 white"
-msgstr ""
+msgstr "نوارها ۱:۳ سفید"
 
 #: ../share/patterns/patterns.svg.h:10
 msgid "Stripes 1:4"
-msgstr ""
+msgstr "نوارها ۱:۴"
 
 #: ../share/patterns/patterns.svg.h:11
 msgid "Stripes 1:4 white"
-msgstr ""
+msgstr "نوارها ۱:۴ سفید"
 
 #: ../share/patterns/patterns.svg.h:12
 msgid "Stripes 1:5"
-msgstr ""
+msgstr "نوارها ۱:۵"
 
 #: ../share/patterns/patterns.svg.h:13
 msgid "Stripes 1:5 white"
-msgstr ""
+msgstr "نوارها ۱:۵ سفید"
 
 #: ../share/patterns/patterns.svg.h:14
 msgid "Stripes 1:8"
-msgstr ""
+msgstr "نوارها ۱:۸"
 
 #: ../share/patterns/patterns.svg.h:15
 msgid "Stripes 1:8 white"
-msgstr ""
+msgstr "نوارها ۱:۸ سفید"
 
 #: ../share/patterns/patterns.svg.h:16
 msgid "Stripes 1:10"
-msgstr ""
+msgstr "نوارها ۱:۱۰"
 
 #: ../share/patterns/patterns.svg.h:17
 msgid "Stripes 1:10 white"
-msgstr ""
+msgstr "نوارها ۱:۱۰ سفید"
 
 #: ../share/patterns/patterns.svg.h:18
 msgid "Stripes 1:16"
-msgstr ""
+msgstr "نوارها ۱:۱۶"
 
 #: ../share/patterns/patterns.svg.h:19
 msgid "Stripes 1:16 white"
-msgstr ""
+msgstr "نوارها ۱:۱۶ سفید"
 
 #: ../share/patterns/patterns.svg.h:20
 msgid "Stripes 1:32"
-msgstr ""
+msgstr "نوارها ۱:۳۲"
 
 #: ../share/patterns/patterns.svg.h:21
 msgid "Stripes 1:32 white"
-msgstr ""
+msgstr "نوارها ۱:۳۲ سفید"
 
 #: ../share/patterns/patterns.svg.h:22
 msgid "Stripes 1:64"
-msgstr ""
+msgstr "نوارها ۱:۶۴"
 
 #: ../share/patterns/patterns.svg.h:23
 msgid "Stripes 2:1"
-msgstr ""
+msgstr "نوارها ۲:۱"
 
 #: ../share/patterns/patterns.svg.h:24
 msgid "Stripes 2:1 white"
-msgstr ""
+msgstr "نوارها ۲:۱ سفید"
 
 #: ../share/patterns/patterns.svg.h:25
 msgid "Stripes 4:1"
-msgstr ""
+msgstr "نوارها ۴:۱"
 
 #: ../share/patterns/patterns.svg.h:26
 msgid "Stripes 4:1 white"
-msgstr ""
+msgstr "نوارها ۴:۱ سفید"
 
 #: ../share/patterns/patterns.svg.h:27
 msgid "Checkerboard"
-msgstr ""
+msgstr "شطرنجی"
 
 #: ../share/patterns/patterns.svg.h:28
 msgid "Checkerboard white"
-msgstr ""
+msgstr "شطرنجی سفید"
 
 #: ../share/patterns/patterns.svg.h:29
 msgid "Packed circles"
-msgstr ""
+msgstr "پک دایره‌ها"
 
 #: ../share/patterns/patterns.svg.h:30
 msgid "Polka dots, small"
-msgstr ""
+msgstr "توپ توپی، ریز"
 
 #: ../share/patterns/patterns.svg.h:31
 msgid "Polka dots, small white"
-msgstr ""
+msgstr "توپ توپی، ریز سفید"
 
 #: ../share/patterns/patterns.svg.h:32
 msgid "Polka dots, medium"
-msgstr ""
+msgstr "توپ توپی، متوسط"
 
 #: ../share/patterns/patterns.svg.h:33
 msgid "Polka dots, medium white"
-msgstr ""
+msgstr "توپ توپی متوسط سفید"
 
 #: ../share/patterns/patterns.svg.h:34
 msgid "Polka dots, large"
-msgstr ""
+msgstr "توپ توپی، درشت"
 
 #: ../share/patterns/patterns.svg.h:35
 msgid "Polka dots, large white"
-msgstr ""
+msgstr "توپ توپی، درشت سفید"
 
 #: ../share/patterns/patterns.svg.h:36
 msgid "Wavy"
-msgstr ""
+msgstr "موجی"
 
 #: ../share/patterns/patterns.svg.h:37
 msgid "Wavy white"
-msgstr ""
+msgstr "موجی سفید"
 
 #: ../share/patterns/patterns.svg.h:38
 msgid "Camouflage"
-msgstr ""
+msgstr "ارتشی"
 
 #: ../share/patterns/patterns.svg.h:39
 msgid "Ermine"
-msgstr ""
+msgstr "خز قاقم"
 
 #: ../share/patterns/patterns.svg.h:40
 msgid "Sand (bitmap)"
-msgstr ""
+msgstr "شن (بیتمپ)"
 
 #: ../share/patterns/patterns.svg.h:41
 msgid "Cloth (bitmap)"
-msgstr ""
+msgstr "لباس (بیتمپ)"
 
 #: ../share/patterns/patterns.svg.h:42
 msgid "Old paint (bitmap)"
-msgstr ""
+msgstr "رنگ قدیمی (بیتمپ)"
 
 #: ../src/conn-avoid-ref.cpp:237
 msgid "Add a new connection point"
@@ -7008,7 +7011,7 @@ msgstr ""
 #: ../src/dialogs/export.cpp:484
 #: ../src/ui/widget/page-sizer.cpp:231
 msgid "_Width:"
-msgstr ""
+msgstr "_عرض:"
 
 #: ../src/dialogs/export.cpp:484
 #: ../src/dialogs/export.cpp:498
@@ -7130,109 +7133,109 @@ msgstr ""
 #: ../src/dialogs/find.cpp:372
 #: ../src/ui/dialog/find.cpp:447
 msgid "No objects found"
-msgstr ""
+msgstr "هیچ شیء‌ای یافت نشد"
 
 #: ../src/dialogs/find.cpp:530
 msgid "T_ype: "
-msgstr ""
+msgstr "_نوع:"
 
 #: ../src/dialogs/find.cpp:537
 #: ../src/ui/dialog/find.cpp:69
 msgid "Search in all object types"
-msgstr ""
+msgstr "جستجو در همه انواع اشیاء"
 
 #: ../src/dialogs/find.cpp:537
 #: ../src/ui/dialog/find.cpp:69
 msgid "All types"
-msgstr ""
+msgstr "همه انواع"
 
 #: ../src/dialogs/find.cpp:548
 #: ../src/ui/dialog/find.cpp:70
 msgid "Search all shapes"
-msgstr ""
+msgstr "جستجو همه اشکال"
 
 #: ../src/dialogs/find.cpp:548
 #: ../src/ui/dialog/find.cpp:70
 msgid "All shapes"
-msgstr ""
+msgstr "همه اشکال"
 
 #: ../src/dialogs/find.cpp:565
 #: ../src/ui/dialog/find.cpp:71
 msgid "Search rectangles"
-msgstr ""
+msgstr "جستجوی مستطیل‌ها"
 
 #: ../src/dialogs/find.cpp:565
 #: ../src/ui/dialog/find.cpp:71
 msgid "Rectangles"
-msgstr ""
+msgstr "مستطیل"
 
 #: ../src/dialogs/find.cpp:570
 #: ../src/ui/dialog/find.cpp:72
 msgid "Search ellipses, arcs, circles"
-msgstr ""
+msgstr "جستجوی بیضی‌ها، کمان‌ها و دایره‌ها"
 
 #: ../src/dialogs/find.cpp:570
 #: ../src/ui/dialog/find.cpp:72
 msgid "Ellipses"
-msgstr ""
+msgstr "بیضوی‌ها"
 
 #: ../src/dialogs/find.cpp:575
 #: ../src/ui/dialog/find.cpp:73
 msgid "Search stars and polygons"
-msgstr ""
+msgstr "جستجوی ستاره‌ها و چندضلعی‌ها"
 
 #: ../src/dialogs/find.cpp:575
 #: ../src/ui/dialog/find.cpp:73
 msgid "Stars"
-msgstr ""
+msgstr "ستاره‌ها"
 
 #: ../src/dialogs/find.cpp:580
 #: ../src/ui/dialog/find.cpp:74
 msgid "Search spirals"
-msgstr ""
+msgstr "جستجوی مارپیچ‌ها"
 
 #: ../src/dialogs/find.cpp:580
 #: ../src/ui/dialog/find.cpp:74
 msgid "Spirals"
-msgstr ""
+msgstr "مارپیچ‌ها"
 
 #. TRANSLATORS: polyline is a set of connected straight line segments
 #. http://www.w3.org/TR/SVG11/shapes.html#PolylineElement
 #: ../src/dialogs/find.cpp:593
 #: ../src/ui/dialog/find.cpp:75
 msgid "Search paths, lines, polylines"
-msgstr ""
+msgstr "جستجوی مسیر‌ها، خطوط، چندخطی‌ها"
 
 #: ../src/dialogs/find.cpp:593
 #: ../src/ui/dialog/find.cpp:75
 #: ../src/widgets/toolbox.cpp:2292
 msgid "Paths"
-msgstr ""
+msgstr "مسیر‌ها"
 
 #: ../src/dialogs/find.cpp:598
 #: ../src/ui/dialog/find.cpp:76
 msgid "Search text objects"
-msgstr ""
+msgstr "جستجوی اشیا متنی"
 
 #: ../src/dialogs/find.cpp:598
 #: ../src/ui/dialog/find.cpp:76
 msgid "Texts"
-msgstr ""
+msgstr "متن‌ها"
 
 #: ../src/dialogs/find.cpp:603
 #: ../src/ui/dialog/find.cpp:77
 msgid "Search groups"
-msgstr ""
+msgstr "جستجوی گروه‌ها"
 
 #: ../src/dialogs/find.cpp:603
 #: ../src/ui/dialog/find.cpp:77
 msgid "Groups"
-msgstr ""
+msgstr "گروه‌ها"
 
 #: ../src/dialogs/find.cpp:608
 #: ../src/ui/dialog/find.cpp:82
 msgid "Search clones"
-msgstr ""
+msgstr "جستجوی تکثیر شده‌ها"
 
 #. TRANSLATORS: only translate "string" in "context|string".
 #. For more details, see http://developer.gnome.org/doc/API/2.0/glib/glib-I18N.html#Q-:CAPS
@@ -7250,92 +7253,92 @@ msgstr ""
 #: ../src/dialogs/find.cpp:622
 #: ../src/ui/dialog/find.cpp:84
 msgid "Search offset objects"
-msgstr ""
+msgstr "جستجوی اشیا آفست"
 
 #: ../src/dialogs/find.cpp:622
 #: ../src/ui/dialog/find.cpp:84
 msgid "Offsets"
-msgstr ""
+msgstr "آفست‌ها"
 
 #: ../src/dialogs/find.cpp:687
 #: ../src/ui/dialog/find.cpp:60
 msgid "_Text: "
-msgstr ""
+msgstr "م_تن:"
 
 #: ../src/dialogs/find.cpp:687
 #: ../src/ui/dialog/find.cpp:60
 msgid "Find objects by their text content (exact or partial match)"
-msgstr ""
+msgstr "یافتن اشیا بر اساس متنشان (تطبیق کامل یا جزیی)"
 
 #: ../src/dialogs/find.cpp:688
 #: ../src/ui/dialog/find.cpp:61
 msgid "_ID: "
-msgstr ""
+msgstr "_شناسه:"
 
 #: ../src/dialogs/find.cpp:688
 #: ../src/ui/dialog/find.cpp:61
 msgid "Find objects by the value of the id attribute (exact or partial match)"
-msgstr ""
+msgstr "یافتن اشیا با مقدار ویژگی id آن‌ها (تطبیق کامل یا جزیی)"
 
 #: ../src/dialogs/find.cpp:689
 #: ../src/ui/dialog/find.cpp:62
 msgid "_Style: "
-msgstr ""
+msgstr "_سبک:"
 
 #: ../src/dialogs/find.cpp:689
 #: ../src/ui/dialog/find.cpp:62
 msgid "Find objects by the value of the style attribute (exact or partial match)"
-msgstr ""
+msgstr "یافتن اشیا با مقدار ویژگی style آن‌ها (تطبیق کلی یا جزیی)"
 
 #: ../src/dialogs/find.cpp:690
 #: ../src/ui/dialog/find.cpp:63
 msgid "_Attribute: "
-msgstr ""
+msgstr "_ویژگی:"
 
 #: ../src/dialogs/find.cpp:690
 #: ../src/ui/dialog/find.cpp:63
 msgid "Find objects by the name of an attribute (exact or partial match)"
-msgstr ""
+msgstr "یافتن اشیا با نام ویژگیشان (تطبیق کامل یا جزیی)"
 
 #: ../src/dialogs/find.cpp:704
 #: ../src/ui/dialog/find.cpp:64
 msgid "Search in s_election"
-msgstr ""
+msgstr "جستجو _در میان انتخاب شده‌ها"
 
 #: ../src/dialogs/find.cpp:708
 #: ../src/ui/dialog/find.cpp:64
 msgid "Limit search to the current selection"
-msgstr ""
+msgstr "محدود کردن جستجو به اشیا انتخاب شده"
 
 #: ../src/dialogs/find.cpp:713
 #: ../src/ui/dialog/find.cpp:65
 msgid "Search in current _layer"
-msgstr ""
+msgstr "جستجو در _لایه‌ی فعلی"
 
 #: ../src/dialogs/find.cpp:717
 #: ../src/ui/dialog/find.cpp:65
 msgid "Limit search to the current layer"
-msgstr ""
+msgstr "محدود کردن جستجو به لایه‌ی فعلی"
 
 #: ../src/dialogs/find.cpp:722
 #: ../src/ui/dialog/find.cpp:66
 msgid "Include _hidden"
-msgstr ""
+msgstr "شامل _مخفی‌ها"
 
 #: ../src/dialogs/find.cpp:726
 #: ../src/ui/dialog/find.cpp:66
 msgid "Include hidden objects in search"
-msgstr ""
+msgstr "لحاظ کردن اشیا مخفی در جستجو"
 
 #: ../src/dialogs/find.cpp:731
 #: ../src/ui/dialog/find.cpp:67
 msgid "Include l_ocked"
-msgstr ""
+msgstr "شامل قفل‌ شده‌ها"
 
 #: ../src/dialogs/find.cpp:735
 #: ../src/ui/dialog/find.cpp:67
 msgid "Include locked objects in search"
-msgstr ""
+msgstr "لحاظ کردن اشیا قفل شده در جستجو"
 
 #. TRANSLATORS: "Clear" is a verb here
 #: ../src/dialogs/find.cpp:746
@@ -7344,22 +7347,22 @@ msgstr ""
 #: ../src/ui/dialog/messages.cpp:53
 #: ../src/ui/dialog/scriptdialog.cpp:209
 msgid "_Clear"
-msgstr ""
+msgstr "_پاک کردن"
 
 #: ../src/dialogs/find.cpp:746
 #: ../src/ui/dialog/find.cpp:86
 msgid "Clear values"
-msgstr ""
+msgstr "پاک کردن مقادیر"
 
 #: ../src/dialogs/find.cpp:747
 #: ../src/ui/dialog/find.cpp:87
 msgid "_Find"
-msgstr ""
+msgstr "‌_جستجو"
 
 #: ../src/dialogs/find.cpp:747
 #: ../src/ui/dialog/find.cpp:87
 msgid "Select objects matching all of the fields you filled in"
-msgstr ""
+msgstr "انتخاب اشیایی که با فیلد‌های پر شده تطبیق می‌کنند"
 
 #. Create the label for the object id
 #: ../src/dialogs/item-properties.cpp:120
@@ -7530,7 +7533,7 @@ msgstr ""
 #: ../src/widgets/toolbox.cpp:5133
 #: ../src/widgets/toolbox.cpp:6156
 msgid "Width:"
-msgstr ""
+msgstr "عرض:"
 
 #: ../src/dialogs/object-attributes.cpp:54
 #: ../src/dialogs/object-attributes.cpp:62
@@ -8234,7 +8237,7 @@ msgstr ""
 
 #: ../src/event-log.cpp:37
 msgid "[Unchanged]"
-msgstr ""
+msgstr "[بدون تغییر]"
 
 #. Edit
 #: ../src/event-log.cpp:264
@@ -8259,7 +8262,7 @@ msgstr ""
 
 #: ../src/extension/dependency.cpp:248
 msgid "  location: "
-msgstr ""
+msgstr "محل:"
 
 #: ../src/extension/dependency.cpp:249
 msgid "  string: "
@@ -8930,39 +8933,39 @@ msgstr ""
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2401
 msgid "EMF Input"
-msgstr ""
+msgstr "ورودی EMF"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2406
 msgid "Enhanced Metafiles (*.emf)"
-msgstr ""
+msgstr "Enhanced Metafiles (*.emf)"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2407
 msgid "Enhanced Metafiles"
-msgstr ""
+msgstr "متافایل‌های بهبود یافته"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2415
 msgid "WMF Input"
-msgstr ""
+msgstr "ورودی WMF"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2420
 msgid "Windows Metafiles (*.wmf)"
-msgstr ""
+msgstr "Windows Metafiles (*.wmf)"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2421
 msgid "Windows Metafiles"
-msgstr ""
+msgstr "فرمت Windows Metafiles"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2429
 msgid "EMF Output"
-msgstr ""
+msgstr "خروجی EMF"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2435
 msgid "Enhanced Metafile (*.emf)"
-msgstr ""
+msgstr "Enhanced Metafile (*.emf)"
 
 #: ../src/extension/internal/emf-win32-inout.cpp:2436
 msgid "Enhanced Metafile"
-msgstr ""
+msgstr "متافایل بهبود یافته"
 
 #: ../src/extension/internal/filter/drop-shadow.h:35
 msgid "Drop Shadow"
@@ -9060,15 +9063,15 @@ msgstr ""
 
 #: ../src/extension/internal/gimpgrad.cpp:274
 msgid "GIMP Gradients"
-msgstr ""
+msgstr "گرادیان‌های Gimp"
 
 #: ../src/extension/internal/gimpgrad.cpp:279
 msgid "GIMP Gradient (*.ggr)"
-msgstr ""
+msgstr "GIMP Gradient (*.ggr)"
 
 #: ../src/extension/internal/gimpgrad.cpp:280
 msgid "Gradients used in GIMP"
-msgstr ""
+msgstr "گرادیان‌های مورد استفاده در GIMP"
 
 #: ../src/extension/internal/grid.cpp:196
 #: ../src/ui/widget/panel.cpp:112
@@ -9239,11 +9242,11 @@ msgstr ""
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:759
 msgid "Adobe PDF (*.pdf)"
-msgstr ""
+msgstr "Adobe PDF (*.pdf)"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:760
 msgid "Adobe Portable Document Format"
-msgstr ""
+msgstr "فرمت سند قابل حمل Adobe"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:767
 msgid "AI Input"
@@ -9251,19 +9254,19 @@ msgstr ""
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:772
 msgid "Adobe Illustrator 9.0 and above (*.ai)"
-msgstr ""
+msgstr "Adobe Illustrator 9.0 and above (*.ai)"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:773
 msgid "Open files saved in Adobe Illustrator 9.0 and newer versions"
-msgstr ""
+msgstr "فایل‌های ذخیره شده به فرمت Adobe Illustrator 9.0 و نسخه‌های جدیدتر را باز می‌کند"
 
 #: ../src/extension/internal/pov-out.cpp:700
 msgid "PovRay Output"
-msgstr ""
+msgstr "خروجی PovRay"
 
 #: ../src/extension/internal/pov-out.cpp:705
 msgid "PovRay (*.pov) (paths and shapes only)"
-msgstr ""
+msgstr "PovRay (*.pov) (فقط مسیر‌ها و شکل‌ها)"
 
 #: ../src/extension/internal/pov-out.cpp:706
 msgid "PovRay Raytracer File"
@@ -9275,11 +9278,11 @@ msgstr ""
 
 #: ../src/extension/internal/svg.cpp:92
 msgid "Scalable Vector Graphic (*.svg)"
-msgstr ""
+msgstr "Scalable Vector Graphic (*.svg)"
 
 #: ../src/extension/internal/svg.cpp:93
 msgid "Inkscape native file format and W3C standard"
-msgstr ""
+msgstr "فرمت بومی Inkscape و استاندارد W3C"
 
 #: ../src/extension/internal/svg.cpp:101
 msgid "SVG Output Inkscape"
@@ -9287,23 +9290,23 @@ msgstr ""
 
 #: ../src/extension/internal/svg.cpp:106
 msgid "Inkscape SVG (*.svg)"
-msgstr ""
+msgstr "Inkscape SVG (*.svg)"
 
 #: ../src/extension/internal/svg.cpp:107
 msgid "SVG format with Inkscape extensions"
-msgstr ""
+msgstr "فرمت SVG با افزونه‌های Inskcape"
 
 #: ../src/extension/internal/svg.cpp:115
 msgid "SVG Output"
-msgstr ""
+msgstr "خروجی SVG"
 
 #: ../src/extension/internal/svg.cpp:120
 msgid "Plain SVG (*.svg)"
-msgstr ""
+msgstr "Plain SVG (*.svg)"
 
 #: ../src/extension/internal/svg.cpp:121
 msgid "Scalable Vector Graphics format as defined by the W3C"
-msgstr ""
+msgstr "فرمت تصاویر برداری نگاشت‌پذیر منطبق با تعاریف W3C"
 
 #: ../src/extension/internal/svgz.cpp:47
 msgid "SVGZ Input"
@@ -9312,11 +9315,11 @@ msgstr ""
 #: ../src/extension/internal/svgz.cpp:53
 #: ../src/extension/internal/svgz.cpp:67
 msgid "Compressed Inkscape SVG (*.svgz)"
-msgstr ""
+msgstr "Compressed Inkscape SVG (*.svgz)"
 
 #: ../src/extension/internal/svgz.cpp:54
 msgid "SVG file format compressed with GZip"
-msgstr ""
+msgstr "فرمت فایلی SVG که با GZip فشرده شده"
 
 #: ../src/extension/internal/svgz.cpp:62
 #: ../src/extension/internal/svgz.cpp:76
@@ -9345,11 +9348,11 @@ msgstr ""
 
 #: ../src/extension/internal/wpg-input.cpp:107
 msgid "WordPerfect Graphics (*.wpg)"
-msgstr ""
+msgstr "WordPerfect Graphics (*.wpg)"
 
 #: ../src/extension/internal/wpg-input.cpp:108
 msgid "Vector graphics format used by Corel WordPerfect"
-msgstr ""
+msgstr "فرمت تصاویر برداری نرم افزار Corel WordPerfect"
 
 #: ../src/extension/prefdialog.cpp:236
 msgid "Live preview"
@@ -9365,38 +9368,38 @@ msgstr "اثر بلافاصله در صفحه نمایش داده شود؟"
 #. sp_ui_error_dialog(_("Format autodetect failed. The file is being opened as SVG."));
 #: ../src/extension/system.cpp:107
 msgid "Format autodetect failed. The file is being opened as SVG."
-msgstr ""
+msgstr "شناسایی خودکار فرمت ناموفق بود. فایل به عنوان SVG باز شده است."
 
 #: ../src/file.cpp:147
 msgid "default.svg"
-msgstr ""
+msgstr "default.svg"
 
 #: ../src/file.cpp:265
 #: ../src/file.cpp:1071
 #, c-format
 msgid "Failed to load the requested file %s"
-msgstr ""
+msgstr "ناتوان در بارگذاری فایل درخواست شده %s"
 
 #: ../src/file.cpp:290
 msgid "Document not saved yet.  Cannot revert."
-msgstr ""
+msgstr "سند هنوز ذخیره نشده است. بازگردانی امکان‌پذیر نیست."
 
 #: ../src/file.cpp:296
 #, c-format
 msgid "Changes will be lost!  Are you sure you want to reload document %s?"
-msgstr ""
+msgstr "تغییرات از دست خواهند رفت! مطمئنید که می‌خواهید سند %s را مجددا بارگذاری کنید؟"
 
 #: ../src/file.cpp:325
 msgid "Document reverted."
-msgstr ""
+msgstr "سند برگردانده شد."
 
 #: ../src/file.cpp:327
 msgid "Document not reverted."
-msgstr ""
+msgstr "سند برگردانده نشد."
 
 #: ../src/file.cpp:477
 msgid "Select file to open"
-msgstr ""
+msgstr "انتخاب فایلی برای باز کردن"
 
 #: ../src/file.cpp:564
 msgid "Vacuum &lt;defs&gt;"
@@ -9424,21 +9427,21 @@ msgstr ""
 #: ../src/file.cpp:628
 #: ../src/file.cpp:633
 msgid "Document not saved."
-msgstr ""
+msgstr "سند ذخیره نشد."
 
 #: ../src/file.cpp:613
 #, c-format
 msgid "File %s is write protected. Please remove write protection and try again."
-msgstr ""
+msgstr "فایل %s در مقابل نوشتن حفاظت می‌شود. لطفا حالت محافظت در مقابل نوشتن را حذف کرده و مجددا امتحان کنید."
 
 #: ../src/file.cpp:621
 #, c-format
 msgid "File %s could not be saved."
-msgstr ""
+msgstr "فایل %s نمی‌تواند ذخیره شود."
 
 #: ../src/file.cpp:638
 msgid "Document saved."
-msgstr ""
+msgstr "سند ذخیره شد."
 
 #. We are saving for the first time; create a unique default filename
 #: ../src/file.cpp:770
@@ -9455,35 +9458,35 @@ msgstr ""
 #: ../src/file.cpp:780
 #, c-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: ../src/file.cpp:795
 msgid "Select file to save a copy to"
-msgstr ""
+msgstr "فایلی برای ذخیره شدن یک کپی در آن انتخاب کنید"
 
 #: ../src/file.cpp:797
 msgid "Select file to save to"
-msgstr ""
+msgstr "انتخاب فایلی برای ذخیره کردن"
 
 #: ../src/file.cpp:892
 msgid "No changes need to be saved."
-msgstr ""
+msgstr "تغییری برای ذخیره شدن وجود ندارد"
 
 #: ../src/file.cpp:909
 msgid "Saving document..."
-msgstr ""
+msgstr "در حال ذخیره سند..."
 
 #: ../src/file.cpp:1068
 msgid "Import"
-msgstr ""
+msgstr "وارد کردن"
 
 #: ../src/file.cpp:1118
 msgid "Select file to import"
-msgstr ""
+msgstr "انتخاب فایلی برای وارد کردن"
 
 #: ../src/file.cpp:1230
 msgid "Select file to export to"
-msgstr ""
+msgstr "انتخاب فایلی برای صادر کردن"
 
 #: ../src/file.cpp:1473
 #: ../src/verbs.cpp:2218
@@ -9576,21 +9579,21 @@ msgstr ""
 
 #: ../src/filter-enums.cpp:54
 msgid "Multiply"
-msgstr ""
+msgstr "تکثیر"
 
 #: ../src/filter-enums.cpp:55
 #: ../src/ui/dialog/input.cpp:347
 #: ../src/ui/dialog/input.cpp:359
 msgid "Screen"
-msgstr ""
+msgstr "پرده"
 
 #: ../src/filter-enums.cpp:56
 msgid "Darken"
-msgstr ""
+msgstr "تیرگی"
 
 #: ../src/filter-enums.cpp:57
 msgid "Lighten"
-msgstr ""
+msgstr "درخشیدن"
 
 #: ../src/filter-enums.cpp:63
 msgid "Matrix"
@@ -9656,7 +9659,7 @@ msgstr ""
 #: ../src/selection-chemistry.cpp:425
 #: ../src/widgets/gradient-selector.cpp:141
 msgid "Duplicate"
-msgstr ""
+msgstr "تکثیر"
 
 #: ../src/filter-enums.cpp:95
 msgid "Wrap"
@@ -10292,19 +10295,19 @@ msgstr ""
 
 #: ../src/libgdl/gdl-dock-item-grip.c:395
 msgid "Iconify"
-msgstr ""
+msgstr "کوچک کردن"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:395
 msgid "Iconify this dock"
-msgstr ""
+msgstr "کوچک کردن پنل"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:397
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:397
 msgid "Close this dock"
-msgstr ""
+msgstr "بستن این پنل"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:706
 #: ../src/libgdl/gdl-dock-tablabel.c:128
@@ -14684,57 +14687,57 @@ msgstr ""
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:383
 msgid "No preview"
-msgstr ""
+msgstr "بدون پیش‌نمایش"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:489
 msgid "too large for preview"
-msgstr ""
+msgstr "فایل برای نمایش پیش‌نمایش بزرگ است"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:577
 msgid "Enable preview"
-msgstr ""
+msgstr "فعال کردن پیش‌نمایش"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:711
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:712
 #: ../src/ui/dialog/filedialogimpl-win32.cpp:197
 msgid "All Inkscape Files"
-msgstr ""
+msgstr "همه‌ فایل‌های Inkscape"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:716
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:717
 #: ../src/ui/dialog/filedialogimpl-win32.cpp:196
 msgid "All Files"
-msgstr ""
+msgstr "همه فایل‌ها"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:722
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:723
 #: ../src/ui/dialog/filedialogimpl-win32.cpp:198
 msgid "All Images"
-msgstr ""
+msgstr "همه تصاویر"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:727
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:728
 #: ../src/ui/dialog/filedialogimpl-win32.cpp:199
 msgid "All Vectors"
-msgstr ""
+msgstr "همه فایل‌های برداری"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:732
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:733
 #: ../src/ui/dialog/filedialogimpl-win32.cpp:200
 msgid "All Bitmaps"
-msgstr ""
+msgstr "همه فایل‌های بیت‌مپ"
 
 #. ###### File options
 #. ###### Do we want the .xxx extension automatically added?
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:927
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1475
 msgid "Append filename extension automatically"
-msgstr ""
+msgstr "الطاق خودکار پسوند فایل"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1085
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1339
 msgid "Guess from extension"
-msgstr ""
+msgstr "تشخیص از روی پسوند فایل"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1360
 msgid "Left edge of source"
@@ -14806,11 +14809,11 @@ msgstr ""
 
 #: ../src/ui/dialog/fill-and-stroke.cpp:58
 msgid "Stroke _paint"
-msgstr ""
+msgstr "رنگ خط حاشیه"
 
 #: ../src/ui/dialog/fill-and-stroke.cpp:59
 msgid "Stroke st_yle"
-msgstr ""
+msgstr "سبک خط حاشیه"
 
 #. TRANSLATORS: this dialog is accessible via menu Filters - Filter editor
 #: ../src/ui/dialog/filter-effects-dialog.cpp:471
@@ -14856,7 +14859,7 @@ msgstr ""
 #: ../src/ui/dialog/filter-effects-dialog.cpp:965
 #: ../src/ui/dialog/filter-effects-dialog.cpp:968
 msgid "Location"
-msgstr ""
+msgstr "محل"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:965
 #: ../src/ui/dialog/filter-effects-dialog.cpp:968
@@ -16811,7 +16814,7 @@ msgstr ""
 #: ../src/widgets/toolbox.cpp:7715
 #: ../src/widgets/toolbox.cpp:7746
 msgid "Normal"
-msgstr ""
+msgstr "عادی"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:586
 msgid "Aggressive"
@@ -18134,56 +18137,56 @@ msgstr ""
 
 #: ../src/ui/dialog/layer-properties.cpp:41
 msgid "Layer name:"
-msgstr ""
+msgstr "اسم لایه:"
 
 #: ../src/ui/dialog/layer-properties.cpp:109
 msgid "Add layer"
-msgstr ""
+msgstr "افزودن لایه"
 
 #: ../src/ui/dialog/layer-properties.cpp:147
 msgid "Above current"
-msgstr ""
+msgstr "بالای فعلی"
 
 #: ../src/ui/dialog/layer-properties.cpp:151
 msgid "Below current"
-msgstr ""
+msgstr "زیر فعلی"
 
 #: ../src/ui/dialog/layer-properties.cpp:154
 msgid "As sublayer of current"
-msgstr ""
+msgstr "بعنوان زیرلایه فعلی"
 
 #: ../src/ui/dialog/layer-properties.cpp:158
 msgid "Position:"
-msgstr ""
+msgstr "موقعیت:"
 
 #: ../src/ui/dialog/layer-properties.cpp:176
 msgid "Rename Layer"
-msgstr ""
+msgstr "تغییر نام لایه"
 
 #: ../src/ui/dialog/layer-properties.cpp:179
 msgid "_Rename"
-msgstr ""
+msgstr "_تغییر نام"
 
 #: ../src/ui/dialog/layer-properties.cpp:192
 msgid "Rename layer"
-msgstr ""
+msgstr "تغییر نام لایه"
 
 #. TRANSLATORS: This means "The layer has been renamed"
 #: ../src/ui/dialog/layer-properties.cpp:194
 msgid "Renamed layer"
-msgstr ""
+msgstr "نام لایه تغییر یافت."
 
 #: ../src/ui/dialog/layer-properties.cpp:198
 msgid "Add Layer"
-msgstr ""
+msgstr "افزودن لایه"
 
 #: ../src/ui/dialog/layer-properties.cpp:201
 msgid "_Add"
-msgstr ""
+msgstr "_اضافه کردن"
 
 #: ../src/ui/dialog/layer-properties.cpp:225
 msgid "New layer created."
-msgstr ""
+msgstr "لایه جدید ساخته شد."
 
 #: ../src/ui/dialog/layers.cpp:472
 #: ../src/ui/widget/layer-selector.cpp:595
@@ -18380,7 +18383,7 @@ msgstr ""
 
 #: ../src/ui/dialog/print.cpp:185
 msgid "Print"
-msgstr ""
+msgstr "چاپ"
 
 #. build custom preferences tab
 #: ../src/ui/dialog/print.cpp:219
@@ -18625,7 +18628,7 @@ msgstr ""
 #: ../src/widgets/gradient-selector.cpp:146
 #: ../src/widgets/gradient-toolbar.cpp:486
 msgid "Edit..."
-msgstr ""
+msgstr "ویرایش..."
 
 #: ../src/ui/dialog/swatches.cpp:237
 msgid "Convert"
@@ -19541,11 +19544,11 @@ msgstr ""
 
 #: ../src/ui/widget/filter-effect-chooser.cpp:25
 msgid "_Blend mode:"
-msgstr ""
+msgstr "_حالت ترکیب:"
 
 #: ../src/ui/widget/filter-effect-chooser.cpp:26
 msgid "B_lur:"
-msgstr ""
+msgstr "محو _شدگی:"
 
 #: ../src/ui/widget/layer-selector.cpp:114
 msgid "Toggle current layer visibility"
@@ -19762,12 +19765,12 @@ msgstr ""
 #: ../src/ui/widget/selected-style.cpp:112
 #: ../src/ui/widget/style-swatch.cpp:117
 msgid "Fill:"
-msgstr ""
+msgstr "پرشدگی:"
 
 #: ../src/ui/widget/selected-style.cpp:113
 #: ../src/ui/widget/style-swatch.cpp:118
 msgid "Stroke:"
-msgstr ""
+msgstr "خط حاشیه:"
 
 #: ../src/ui/widget/selected-style.cpp:114
 msgid "O:"
@@ -19775,13 +19778,13 @@ msgstr ""
 
 #: ../src/ui/widget/selected-style.cpp:156
 msgid "N/A"
-msgstr ""
+msgstr "م/ن"
 
 #: ../src/ui/widget/selected-style.cpp:159
 #: ../src/ui/widget/selected-style.cpp:1026
 #: ../src/ui/widget/selected-style.cpp:1027
 msgid "Nothing selected"
-msgstr ""
+msgstr "هیچ چیز انتخاب نشده"
 
 #: ../src/ui/widget/selected-style.cpp:161
 #: ../src/ui/widget/style-swatch.cpp:296
@@ -19791,29 +19794,29 @@ msgstr ""
 #: ../src/ui/widget/selected-style.cpp:164
 #: ../src/ui/widget/style-swatch.cpp:298
 msgid "No fill"
-msgstr ""
+msgstr "بدون پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:164
 #: ../src/ui/widget/style-swatch.cpp:298
 msgid "No stroke"
-msgstr ""
+msgstr "بدون خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:166
 #: ../src/ui/widget/style-swatch.cpp:277
 #: ../src/widgets/paint-selector.cpp:239
 msgid "Pattern"
-msgstr ""
+msgstr "الگو"
 
 #: ../src/ui/widget/selected-style.cpp:169
 #: ../src/ui/widget/style-swatch.cpp:279
 #: ../src/widgets/paint-selector.cpp:1027
 msgid "Pattern fill"
-msgstr ""
+msgstr "الگو پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:169
 #: ../src/ui/widget/style-swatch.cpp:279
 msgid "Pattern stroke"
-msgstr ""
+msgstr "الگو خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:171
 msgid "<b>L</b>"
@@ -19822,12 +19825,12 @@ msgstr ""
 #: ../src/ui/widget/selected-style.cpp:174
 #: ../src/ui/widget/style-swatch.cpp:271
 msgid "Linear gradient fill"
-msgstr ""
+msgstr "گرادیان خطی پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:174
 #: ../src/ui/widget/style-swatch.cpp:271
 msgid "Linear gradient stroke"
-msgstr ""
+msgstr "گرادیان خطی خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:181
 msgid "<b>R</b>"
@@ -19836,12 +19839,12 @@ msgstr ""
 #: ../src/ui/widget/selected-style.cpp:184
 #: ../src/ui/widget/style-swatch.cpp:275
 msgid "Radial gradient fill"
-msgstr ""
+msgstr "گرادیان شعاعی پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:184
 #: ../src/ui/widget/style-swatch.cpp:275
 msgid "Radial gradient stroke"
-msgstr ""
+msgstr "گرادیان شعاعی خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:191
 msgid "Different"
@@ -19867,7 +19870,7 @@ msgstr ""
 #: ../src/ui/widget/style-swatch.cpp:303
 #: ../src/widgets/fill-style.cpp:674
 msgid "Unset fill"
-msgstr ""
+msgstr "حذف پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:199
 #: ../src/ui/widget/selected-style.cpp:257
@@ -19875,15 +19878,15 @@ msgstr ""
 #: ../src/ui/widget/style-swatch.cpp:303
 #: ../src/widgets/fill-style.cpp:674
 msgid "Unset stroke"
-msgstr ""
+msgstr "حذف خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:202
 msgid "Flat color fill"
-msgstr ""
+msgstr "رنگ پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:202
 msgid "Flat color stroke"
-msgstr ""
+msgstr "رنگ خط حاشیه"
 
 #. TRANSLATOR COMMENT: A means "Averaged"
 #: ../src/ui/widget/selected-style.cpp:205
@@ -19905,122 +19908,122 @@ msgstr ""
 
 #: ../src/ui/widget/selected-style.cpp:214
 msgid "Multiple selected objects have the same fill"
-msgstr ""
+msgstr "چند شی انتخاب شده پرشدگی یکسان دارند"
 
 #: ../src/ui/widget/selected-style.cpp:214
 msgid "Multiple selected objects have the same stroke"
-msgstr ""
+msgstr "چند شی انتخاب شده خط حاشیه یکسان دارند"
 
 #: ../src/ui/widget/selected-style.cpp:216
 msgid "Edit fill..."
-msgstr ""
+msgstr "ویرایش پرشدگی..."
 
 #: ../src/ui/widget/selected-style.cpp:216
 msgid "Edit stroke..."
-msgstr ""
+msgstr "ویرایش خط حاشیه..."
 
 #: ../src/ui/widget/selected-style.cpp:220
 msgid "Last set color"
-msgstr ""
+msgstr "آخرین رنگ اعمال شده"
 
 #: ../src/ui/widget/selected-style.cpp:224
 msgid "Last selected color"
-msgstr ""
+msgstr "آخرین رنگ انتخاب شده"
 
 #: ../src/ui/widget/selected-style.cpp:232
 msgid "White"
-msgstr ""
+msgstr "سفید"
 
 #: ../src/ui/widget/selected-style.cpp:240
 msgid "Copy color"
-msgstr ""
+msgstr "کپی رنگ"
 
 #: ../src/ui/widget/selected-style.cpp:244
 msgid "Paste color"
-msgstr ""
+msgstr "چسباندن رنگ"
 
 #: ../src/ui/widget/selected-style.cpp:248
 #: ../src/ui/widget/selected-style.cpp:782
 msgid "Swap fill and stroke"
-msgstr ""
+msgstr "جابجایی پرشدگی با خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:252
 #: ../src/ui/widget/selected-style.cpp:524
 #: ../src/ui/widget/selected-style.cpp:533
 msgid "Make fill opaque"
-msgstr ""
+msgstr "مات کردن پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:252
 msgid "Make stroke opaque"
-msgstr ""
+msgstr "مات کردن خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:261
 #: ../src/ui/widget/selected-style.cpp:481
 #: ../src/widgets/fill-style.cpp:484
 msgid "Remove fill"
-msgstr ""
+msgstr "حذف پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:261
 #: ../src/ui/widget/selected-style.cpp:490
 #: ../src/widgets/fill-style.cpp:484
 msgid "Remove stroke"
-msgstr ""
+msgstr "حذف خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:314
 msgid "Remove"
-msgstr ""
+msgstr "حذف"
 
 #: ../src/ui/widget/selected-style.cpp:545
 msgid "Apply last set color to fill"
-msgstr ""
+msgstr "اعمال آخرین رنگ به پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:557
 msgid "Apply last set color to stroke"
-msgstr ""
+msgstr "اعمال آخرین رنگ به خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:568
 msgid "Apply last selected color to fill"
-msgstr ""
+msgstr "اعمال آخرین رنگ انتخاب شده به پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:579
 msgid "Apply last selected color to stroke"
-msgstr ""
+msgstr "اعمال آخرین رنگ انتخاب شده به خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:599
 msgid "Invert fill"
-msgstr ""
+msgstr "وارون کردن پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:619
 msgid "Invert stroke"
-msgstr ""
+msgstr "وارون کردن پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:631
 msgid "White fill"
-msgstr ""
+msgstr "پر کردن با سفید"
 
 #: ../src/ui/widget/selected-style.cpp:643
 msgid "White stroke"
-msgstr ""
+msgstr "خط حاشیه سفید"
 
 #: ../src/ui/widget/selected-style.cpp:655
 msgid "Black fill"
-msgstr ""
+msgstr "پر کردن با سیاه"
 
 #: ../src/ui/widget/selected-style.cpp:667
 msgid "Black stroke"
-msgstr ""
+msgstr "خط حاشیه سیاه"
 
 #: ../src/ui/widget/selected-style.cpp:710
 msgid "Paste fill"
-msgstr ""
+msgstr "چسباندن پرشدگی"
 
 #: ../src/ui/widget/selected-style.cpp:728
 msgid "Paste stroke"
-msgstr ""
+msgstr "چسباندن خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:892
 msgid "Change stroke width"
-msgstr ""
+msgstr "تغییر ضخامت خط حاشیه"
 
 #: ../src/ui/widget/selected-style.cpp:987
 msgid ", drag to adjust"
@@ -20029,19 +20032,19 @@ msgstr ""
 #: ../src/ui/widget/selected-style.cpp:1068
 #, c-format
 msgid "Stroke width: %.5g%s%s"
-msgstr ""
+msgstr "ضخامت حاشیه: %.5g%s%s"
 
 #: ../src/ui/widget/selected-style.cpp:1072
 msgid " (averaged)"
-msgstr ""
+msgstr "(میانگین)"
 
 #: ../src/ui/widget/selected-style.cpp:1100
 msgid "0 (transparent)"
-msgstr ""
+msgstr "۰ (شفاف)"
 
 #: ../src/ui/widget/selected-style.cpp:1124
 msgid "100% (opaque)"
-msgstr ""
+msgstr "۱۰۰% (مات)"
 
 #: ../src/ui/widget/selected-style.cpp:1278
 msgid "Adjust saturation"
@@ -20400,7 +20403,7 @@ msgstr "_وارد کردن..."
 
 #: ../src/verbs.cpp:2215
 msgid "Import a bitmap or SVG image into this document"
-msgstr ""
+msgstr "وارد کردن یک تصویر بیتمپ یا SVG به این سند"
 
 #: ../src/verbs.cpp:2216
 msgid "_Export Bitmap..."
@@ -20408,7 +20411,7 @@ msgstr "_صدور Bitmap"
 
 #: ../src/verbs.cpp:2217
 msgid "Export this document or a selection as a bitmap image"
-msgstr ""
+msgstr "صدور این سند یا ناحیه‌ی انتخاب شده بصورت یک تصویر بیتمپ"
 
 #: ../src/verbs.cpp:2218
 msgid "Import a document from Open Clip Art Library"
@@ -20537,7 +20540,7 @@ msgstr "چسباندن در _محل"
 
 #: ../src/verbs.cpp:2254
 msgid "Paste objects from clipboard to the original location"
-msgstr ""
+msgstr "چسباندن اشیاء از کلیپ برد در موقعیت اصلی"
 
 #: ../src/verbs.cpp:2255
 msgid "Paste Path _Effect"
@@ -20569,7 +20572,7 @@ msgstr "_حذف"
 
 #: ../src/verbs.cpp:2262
 msgid "Delete selection"
-msgstr ""
+msgstr "حذف کردن اشیا انتخاب شده"
 
 #: ../src/verbs.cpp:2263
 msgid "Duplic_ate"
@@ -20577,7 +20580,7 @@ msgstr "تک_ثیر"
 
 #: ../src/verbs.cpp:2264
 msgid "Duplicate selected objects"
-msgstr ""
+msgstr "تکثیر اشیاء انتخاب شده"
 
 #: ../src/verbs.cpp:2265
 msgid "Create Clo_ne"
@@ -20645,11 +20648,11 @@ msgstr "خارج کردن اشیاء از یک الگو کاشی شده"
 
 #: ../src/verbs.cpp:2281
 msgid "Clea_r All"
-msgstr ""
+msgstr "حذف کردن همه"
 
 #: ../src/verbs.cpp:2282
 msgid "Delete all objects from document"
-msgstr ""
+msgstr "حذف کردن همه‌ اشیا از سند"
 
 #: ../src/verbs.cpp:2283
 msgid "Select Al_l"
@@ -20657,7 +20660,7 @@ msgstr "انتخاب _همه"
 
 #: ../src/verbs.cpp:2284
 msgid "Select all objects or all nodes"
-msgstr ""
+msgstr "انتخاب همه اشیا یا همه نود‌ها"
 
 #: ../src/verbs.cpp:2285
 msgid "Select All in All La_yers"
@@ -20665,7 +20668,7 @@ msgstr "انتخاب همه در همه‌ لا_یه‌ها"
 
 #: ../src/verbs.cpp:2286
 msgid "Select all objects in all visible and unlocked layers"
-msgstr ""
+msgstr "انتخاب همه اشیاء در همه لایه‌های مریی و قفل نشده"
 
 #: ../src/verbs.cpp:2287
 msgid "In_vert Selection"
@@ -20673,7 +20676,7 @@ msgstr "وا_رون کردن انتخاب"
 
 #: ../src/verbs.cpp:2288
 msgid "Invert selection (unselect what is selected and select everything else)"
-msgstr ""
+msgstr "وارون کردن انتخاب (نادیده گرفتن اشیا انتخاب شده و انتخاب سایرین)"
 
 #: ../src/verbs.cpp:2289
 msgid "Invert in All Layers"
@@ -20705,7 +20708,7 @@ msgstr "_خارج کردن از انتخاب"
 
 #: ../src/verbs.cpp:2296
 msgid "Deselect any selected objects or nodes"
-msgstr ""
+msgstr "خارج کردن اشیا یا نود‌های انتخاب شده از حالت انتخاب"
 
 #: ../src/verbs.cpp:2297
 msgid "_Guides Around Page"
@@ -20713,7 +20716,7 @@ msgstr "راهنماهای ا_طراف"
 
 #: ../src/verbs.cpp:2298
 msgid "Create four guides aligned with the page borders"
-msgstr ""
+msgstr "ساختن چهار راهنما در چهار حاشیه صفحه"
 
 #: ../src/verbs.cpp:2299
 msgid "Next Path Effect Parameter"
@@ -20945,7 +20948,7 @@ msgstr "_ایجاد یک کپی Bitmap"
 
 #: ../src/verbs.cpp:2377
 msgid "Export selection to a bitmap and insert it into document"
-msgstr ""
+msgstr "صدور ناحیه‌ی انتخاب شده به بیتمپ و وارد کردن آن به سند"
 
 #: ../src/verbs.cpp:2378
 msgid "_Combine"
@@ -21044,7 +21047,7 @@ msgstr "بالا ب_ردن لایه"
 
 #: ../src/verbs.cpp:2404
 msgid "Raise the current layer"
-msgstr ""
+msgstr "بالا بردن لایه‌ی فعلی"
 
 #: ../src/verbs.cpp:2405
 msgid "_Lower Layer"
@@ -21072,7 +21075,7 @@ msgstr "حذف کردن لایه‌ی فعلی"
 
 #: ../src/verbs.cpp:2411
 msgid "_Show/hide other layers"
-msgstr ""
+msgstr "نمایش/مخفی کردن سایر لایه‌ها"
 
 #: ../src/verbs.cpp:2412
 msgid "Solo the current layer"
@@ -21557,7 +21560,7 @@ msgstr "_تکثیر پنجره"
 
 #: ../src/verbs.cpp:2561
 msgid "Open a new window with the same document"
-msgstr ""
+msgstr "باز کردن پنجره‌ی جدیدی با همین سند"
 
 #: ../src/verbs.cpp:2563
 msgid "_New View Preview"
@@ -21622,7 +21625,7 @@ msgstr "پیش‌نمای_ش آیکن..."
 
 #: ../src/verbs.cpp:2581
 msgid "Open a window to preview objects at different icon resolutions"
-msgstr ""
+msgstr "باز کردن پنجره‌ای برای نمایش اشیاء در رزولوشن‌های مختلف"
 
 #: ../src/verbs.cpp:2583
 msgid "Zoom to fit page in window"
@@ -21651,7 +21654,7 @@ msgstr "تن_ظیمات Inkscape"
 
 #: ../src/verbs.cpp:2593
 msgid "Edit global Inkscape preferences"
-msgstr ""
+msgstr "ویرایش تنظیمات عمومی Inkscape"
 
 #: ../src/verbs.cpp:2594
 msgid "_Document Properties..."
@@ -21659,7 +21662,7 @@ msgstr "وی_ژگی‌های سند..."
 
 #: ../src/verbs.cpp:2595
 msgid "Edit properties of this document (to be saved with the document)"
-msgstr ""
+msgstr "ویرایش ویژگی‌های این سند (که به همراه سند ذخیره شوند)"
 
 #: ../src/verbs.cpp:2596
 msgid "Document _Metadata..."
@@ -21667,7 +21670,7 @@ msgstr "اَبَرداده‌های _سند"
 
 #: ../src/verbs.cpp:2597
 msgid "Edit document metadata (to be saved with the document)"
-msgstr ""
+msgstr "ویرایش اَبَر داده‌های سند (که به همراه سند ذخیره شوند)"
 
 #: ../src/verbs.cpp:2598
 msgid "_Fill and Stroke..."
@@ -21740,7 +21743,7 @@ msgstr "ویرایش_گر XML..."
 
 #: ../src/verbs.cpp:2616
 msgid "View and edit the XML tree of the document"
-msgstr ""
+msgstr "مشاهده و ویرایش ساختار XML سند"
 
 #: ../src/verbs.cpp:2617
 msgid "_Find..."
@@ -21748,7 +21751,7 @@ msgstr "_جستجو..."
 
 #: ../src/verbs.cpp:2618
 msgid "Find objects in document"
-msgstr ""
+msgstr "یافتن اشیاء در سند"
 
 #: ../src/verbs.cpp:2619
 msgid "Find and _Replace Text..."
@@ -21772,7 +21775,7 @@ msgstr "پی_غام‌ها..."
 
 #: ../src/verbs.cpp:2624
 msgid "View debug messages"
-msgstr ""
+msgstr "نمایش پیام‌های دیباگ"
 
 #: ../src/verbs.cpp:2625
 msgid "S_cripts..."
@@ -21816,7 +21819,7 @@ msgstr "ابزارآلا_ت ورودی..."
 
 #: ../src/verbs.cpp:2638
 msgid "Configure extended input devices, such as a graphics tablet"
-msgstr ""
+msgstr "پیکربندی ابزارهای ورودی اضافه، مثل یک تبلت"
 
 #: ../src/verbs.cpp:2639
 msgid "_Extensions..."
@@ -22096,11 +22099,11 @@ msgstr ""
 #: ../src/widgets/ege-paint-def.cpp:92
 #: ../src/widgets/gradient-selector.cpp:169
 msgid "none"
-msgstr ""
+msgstr "هیچکدام"
 
 #: ../src/widgets/ege-paint-def.cpp:89
 msgid "remove"
-msgstr ""
+msgstr "حذف"
 
 #: ../src/widgets/fill-style.cpp:336
 msgid "Change fill rule"
@@ -22109,28 +22112,28 @@ msgstr ""
 #: ../src/widgets/fill-style.cpp:421
 #: ../src/widgets/fill-style.cpp:500
 msgid "Set fill color"
-msgstr ""
+msgstr "تنظیم رنگ پرشدگی"
 
 #: ../src/widgets/fill-style.cpp:421
 #: ../src/widgets/fill-style.cpp:500
 msgid "Set stroke color"
-msgstr ""
+msgstr "تنظیم رنگ خط حاشیه"
 
 #: ../src/widgets/fill-style.cpp:587
 msgid "Set gradient on fill"
-msgstr ""
+msgstr "تنظیم گرادیان روی پرشدگی"
 
 #: ../src/widgets/fill-style.cpp:587
 msgid "Set gradient on stroke"
-msgstr ""
+msgstr "تنظیم گرادیان روی خط حاشیه"
 
 #: ../src/widgets/fill-style.cpp:647
 msgid "Set pattern on fill"
-msgstr ""
+msgstr "تنظیم الگو روی پرشدگی"
 
 #: ../src/widgets/fill-style.cpp:648
 msgid "Set pattern on stroke"
-msgstr ""
+msgstr "تنظیم الگو روی خط حاشیه"
 
 #. Family frame
 #: ../src/widgets/font-selector.cpp:157
@@ -22163,19 +22166,19 @@ msgstr ""
 
 #: ../src/widgets/gradient-selector.cpp:173
 msgid "reflected"
-msgstr ""
+msgstr "انعکاسی"
 
 #: ../src/widgets/gradient-selector.cpp:177
 msgid "direct"
-msgstr ""
+msgstr "مستقیم"
 
 #: ../src/widgets/gradient-selector.cpp:185
 msgid "Repeat:"
-msgstr ""
+msgstr "تکرار:"
 
 #: ../src/widgets/gradient-toolbar.cpp:155
 msgid "Assign gradient to object"
-msgstr ""
+msgstr "انتساب گرادیان به شی"
 
 #: ../src/widgets/gradient-toolbar.cpp:190
 msgid "<small>No gradients</small>"
@@ -22187,15 +22190,15 @@ msgstr "<small>چیزی انتخاب نشده</small>"
 
 #: ../src/widgets/gradient-toolbar.cpp:211
 msgid "<small>No gradients in selection</small>"
-msgstr ""
+msgstr "<small>گرادیانی در ناحیه انتخاب شده نیست</small>"
 
 #: ../src/widgets/gradient-toolbar.cpp:221
 msgid "<small>Multiple gradients</small>"
-msgstr ""
+msgstr "<small>چندین گرادیان</small>"
 
 #: ../src/widgets/gradient-toolbar.cpp:487
 msgid "Edit the stops of the gradient"
-msgstr ""
+msgstr "ویرایش وقفه‌های رنگ گرادیان"
 
 #: ../src/widgets/gradient-toolbar.cpp:547
 #: ../src/widgets/toolbox.cpp:2837
@@ -22211,11 +22214,11 @@ msgstr "<b>جدید:</b>"
 
 #: ../src/widgets/gradient-toolbar.cpp:560
 msgid "Create linear gradient"
-msgstr ""
+msgstr "ساخت گرادیان خطی"
 
 #: ../src/widgets/gradient-toolbar.cpp:574
 msgid "Create radial (elliptic or circular) gradient"
-msgstr ""
+msgstr "ساخت گرادیان شعاعی (بیضوی یا دایره‌ای)"
 
 #. TODO replace aux_toolbox_space(tbl, AUX_SPACING);
 #: ../src/widgets/gradient-toolbar.cpp:589
@@ -22224,11 +22227,11 @@ msgstr ""
 
 #: ../src/widgets/gradient-toolbar.cpp:602
 msgid "Create gradient in the fill"
-msgstr ""
+msgstr "ساختن گرادیان در پرشدگی"
 
 #: ../src/widgets/gradient-toolbar.cpp:616
 msgid "Create gradient in the stroke"
-msgstr ""
+msgstr "ساختن گرادیان در خط حاشیه"
 
 #. FIXME: implement averaging of all parameters for multiple selected
 #. gtk_label_set_markup(GTK_LABEL(l), _("<b>Average:</b>"));
@@ -22247,113 +22250,112 @@ msgstr "<b>تغییر:</b>"
 #: ../src/widgets/paint-selector.cpp:914
 #: ../src/widgets/stroke-style.cpp:417
 msgid "No document selected"
-msgstr ""
+msgstr "سندی انتخاب نشده"
 
 #: ../src/widgets/gradient-vector.cpp:273
 msgid "No gradients in document"
-msgstr ""
+msgstr "گرادیانی در سند نیست"
 
 #: ../src/widgets/gradient-vector.cpp:279
 msgid "No gradient selected"
-msgstr ""
+msgstr "گرادیانی انتخاب نشده"
 
 #: ../src/widgets/gradient-vector.cpp:546
 msgid "No stops in gradient"
-msgstr ""
+msgstr "وقفه‌ای در گرادیان نیست"
 
 #: ../src/widgets/gradient-vector.cpp:670
 msgid "Change gradient stop offset"
-msgstr ""
+msgstr "تغییر موقعیت وقفه رنگ گرادیان"
 
 #. TRANSLATORS: "Stop" means: a "phase" of a gradient
 #: ../src/widgets/gradient-vector.cpp:808
 msgid "Add stop"
-msgstr ""
+msgstr "افزودن وقفه"
 
 #: ../src/widgets/gradient-vector.cpp:811
 msgid "Add another control stop to gradient"
-msgstr ""
+msgstr "افزودن یک وقفه رنگ دیگر به گرادیان"
 
 #: ../src/widgets/gradient-vector.cpp:813
 msgid "Delete stop"
-msgstr ""
+msgstr "حذف وقفه"
 
 #: ../src/widgets/gradient-vector.cpp:816
 msgid "Delete current control stop from gradient"
-msgstr ""
+msgstr "حذف وقفه رنگ فعلی از گرادیان"
 
 #. TRANSLATORS: "Stop" means: a "phase" of a gradient
 #: ../src/widgets/gradient-vector.cpp:872
 msgid "Stop Color"
-msgstr ""
+msgstr "وقفه رنگ"
 
 #: ../src/widgets/gradient-vector.cpp:902
 msgid "Gradient editor"
-msgstr ""
+msgstr "ویرایشگر گرادیان"
 
 #: ../src/widgets/gradient-vector.cpp:1201
 msgid "Change gradient stop color"
-msgstr ""
+msgstr "تغییر وقفه رنگ گرادیان"
 
 #: ../src/widgets/paint-selector.cpp:231
 #: ../src/widgets/paint-selector.cpp:614
 msgid "No paint"
-msgstr ""
+msgstr "بدون رنگ"
 
 #: ../src/widgets/paint-selector.cpp:233
 #: ../src/widgets/paint-selector.cpp:678
 msgid "Flat color"
-msgstr ""
+msgstr "رنگ یکدست"
 
 #. sp_gradient_selector_set_mode(SP_GRADIENT_SELECTOR(gsel), SP_GRADIENT_SELECTOR_MODE_LINEAR);
 #: ../src/widgets/paint-selector.cpp:235
 #: ../src/widgets/paint-selector.cpp:741
 msgid "Linear gradient"
-msgstr ""
+msgstr "گرادیان خطی"
 
 #: ../src/widgets/paint-selector.cpp:237
 #: ../src/widgets/paint-selector.cpp:744
 msgid "Radial gradient"
-msgstr ""
+msgstr "گرادیان شعاعی"
 
 #: ../src/widgets/paint-selector.cpp:241
-#, fuzzy
 msgid "Swatch"
-msgstr "_سواچ‌ها..."
+msgstr "سواچ‌"
 
 #: ../src/widgets/paint-selector.cpp:243
 msgid "Unset paint (make it undefined so it can be inherited)"
-msgstr ""
+msgstr "حذف رنگ (دادن مقدار تعریف نشده به آن، تا بتواند رنگ را به ارث ببرد)"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:255
 msgid "Any path self-intersections or subpaths create holes in the fill (fill-rule: evenodd)"
-msgstr ""
+msgstr "هر مسیر متعامل یا زیر مسیر حفره‌ای در پرشدگی ایجاد کند (قانون پرشدگی:زوج-فرد)"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:266
 msgid "Fill is solid unless a subpath is counterdirectional (fill-rule: nonzero)"
-msgstr ""
+msgstr "پرشدگی یک دست، مگر اینکه زیرمسیری در جهت مخالف باشد (قانون پرشدگی: غیرصفر)"
 
 #: ../src/widgets/paint-selector.cpp:581
 msgid "No objects"
-msgstr ""
+msgstr "شیئی نیست"
 
 #: ../src/widgets/paint-selector.cpp:592
 msgid "Multiple styles"
-msgstr ""
+msgstr "چندین سبک"
 
 #: ../src/widgets/paint-selector.cpp:603
 msgid "Paint is undefined"
-msgstr ""
+msgstr "رنگ تعریف نشده"
 
 #: ../src/widgets/paint-selector.cpp:1014
 msgid "Use the <b>Node tool</b> to adjust position, scale, and rotation of the pattern on canvas. Use <b>Object &gt; Pattern &gt; Objects to Pattern</b> to create a new pattern from selection."
-msgstr ""
+msgstr "برای تعیین موقعیت، مقیاس کردن، و چرخاندن الگو روی صفحه از <b>ابزار نود</b>  استفاده کنید. برای ساختن الگویی جدید از <b> شی&gt; الگو&gt; اشیاء به الگو </b> استفاده کنید."
 
 #: ../src/widgets/paint-selector.cpp:1103
 msgid "Swatch fill"
-msgstr ""
+msgstr "پرکردن سواچ"
 
 #: ../src/widgets/select-toolbar.cpp:247
 msgid "Transform by toolbar"
@@ -22492,70 +22494,70 @@ msgstr ""
 #: ../src/widgets/sp-color-icc-selector.cpp:220
 #: ../src/widgets/sp-color-scales.cpp:411
 msgid "_R"
-msgstr ""
+msgstr "_R"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:220
 #: ../src/widgets/sp-color-icc-selector.cpp:221
 #: ../src/widgets/sp-color-scales.cpp:414
 msgid "_G"
-msgstr ""
+msgstr "_G"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:220
 #: ../src/widgets/sp-color-scales.cpp:417
 msgid "_B"
-msgstr ""
+msgstr "_B"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:222
 #: ../src/widgets/sp-color-icc-selector.cpp:223
 #: ../src/widgets/sp-color-scales.cpp:437
 msgid "_H"
-msgstr ""
+msgstr "_H"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:222
 #: ../src/widgets/sp-color-icc-selector.cpp:223
 #: ../src/widgets/sp-color-scales.cpp:440
 msgid "_S"
-msgstr ""
+msgstr "_S"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:223
 #: ../src/widgets/sp-color-scales.cpp:443
 msgid "_L"
-msgstr ""
+msgstr "_L"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:224
 #: ../src/widgets/sp-color-icc-selector.cpp:225
 #: ../src/widgets/sp-color-scales.cpp:465
 msgid "_C"
-msgstr ""
+msgstr "_C"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:224
 #: ../src/widgets/sp-color-icc-selector.cpp:225
 #: ../src/widgets/sp-color-scales.cpp:468
 msgid "_M"
-msgstr ""
+msgstr "_M"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:224
 #: ../src/widgets/sp-color-icc-selector.cpp:225
 #: ../src/widgets/sp-color-scales.cpp:471
 msgid "_Y"
-msgstr ""
+msgstr "_Y"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:224
 #: ../src/widgets/sp-color-scales.cpp:474
 msgid "_K"
-msgstr ""
+msgstr "_K"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:235
 msgid "Gray"
-msgstr ""
+msgstr "خاکستری"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:296
 msgid "Fix"
-msgstr ""
+msgstr "ترمیم"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:299
 msgid "Fix RGB fallback to match icc-color() value."
-msgstr ""
+msgstr "ترمیم ضعف RGB برای انطباق با مقدار ()icc-color"
 
 #. Label
 #: ../src/widgets/sp-color-icc-selector.cpp:380
@@ -22564,7 +22566,7 @@ msgstr ""
 #: ../src/widgets/sp-color-scales.cpp:477
 #: ../src/widgets/sp-color-wheel-selector.cpp:135
 msgid "_A"
-msgstr ""
+msgstr "_A"
 
 #: ../src/widgets/sp-color-icc-selector.cpp:390
 #: ../src/widgets/sp-color-icc-selector.cpp:402
@@ -22577,15 +22579,15 @@ msgstr ""
 #: ../src/widgets/sp-color-wheel-selector.cpp:145
 #: ../src/widgets/sp-color-wheel-selector.cpp:157
 msgid "Alpha (opacity)"
-msgstr ""
+msgstr "آلفا (شفافیت)"
 
 #: ../src/widgets/sp-color-notebook.cpp:339
 msgid "Color Managed"
-msgstr ""
+msgstr "رنگ مدیریت شده"
 
 #: ../src/widgets/sp-color-notebook.cpp:347
 msgid "Out of gamut!"
-msgstr ""
+msgstr "خارج از محدوده!"
 
 #: ../src/widgets/sp-color-notebook.cpp:355
 msgid "Too much ink!"
@@ -22594,35 +22596,35 @@ msgstr "جوهر خیلی زیاد!"
 #. Create RGBA entry and color preview
 #: ../src/widgets/sp-color-notebook.cpp:362
 msgid "RGBA_:"
-msgstr ""
+msgstr "RGBA_:"
 
 #: ../src/widgets/sp-color-notebook.cpp:370
 msgid "Hexadecimal RGBA value of the color"
-msgstr ""
+msgstr "کد هگزادسیمال RGBA رنگ"
 
 #: ../src/widgets/sp-color-scales.cpp:81
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../src/widgets/sp-color-scales.cpp:81
 msgid "HSL"
-msgstr ""
+msgstr "HSL"
 
 #: ../src/widgets/sp-color-scales.cpp:81
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: ../src/widgets/sp-color-selector.cpp:64
 msgid "Unnamed"
-msgstr ""
+msgstr "بی‌نام"
 
 #: ../src/widgets/sp-color-wheel-selector.cpp:62
 msgid "Wheel"
-msgstr ""
+msgstr "چرخ"
 
 #: ../src/widgets/sp-xmlview-attr-list.cpp:46
 msgid "Attribute"
-msgstr ""
+msgstr "ویژگی"
 
 #: ../src/widgets/sp-xmlview-content.cpp:169
 msgid "Type text in a text node"
@@ -22630,7 +22632,7 @@ msgstr ""
 
 #: ../src/widgets/stroke-style.cpp:502
 msgid "Set markers"
-msgstr ""
+msgstr "تعیین نشانگر‌ها"
 
 #. TRANSLATORS: only translate "string" in "context|string".
 #. For more details, see http://developer.gnome.org/doc/API/2.0/glib/glib-I18N.html#Q-:CAPS
@@ -22644,28 +22646,28 @@ msgstr ""
 #. corners of paths. It can be "miter", "round" or "bevel".
 #: ../src/widgets/stroke-style.cpp:715
 msgid "Join:"
-msgstr ""
+msgstr "مفصل:"
 
 #. TRANSLATORS: Miter join: joining lines with a sharp (pointed) corner.
 #. For an example, draw a triangle with a large stroke width and modify the
 #. "Join" option (in the Fill and Stroke dialog).
 #: ../src/widgets/stroke-style.cpp:727
 msgid "Miter join"
-msgstr ""
+msgstr "مفصل شکسته"
 
 #. TRANSLATORS: Round join: joining lines with a rounded corner.
 #. For an example, draw a triangle with a large stroke width and modify the
 #. "Join" option (in the Fill and Stroke dialog).
 #: ../src/widgets/stroke-style.cpp:737
 msgid "Round join"
-msgstr ""
+msgstr "مفصل گرد"
 
 #. TRANSLATORS: Bevel join: joining lines with a blunted (flattened) corner.
 #. For an example, draw a triangle with a large stroke width and modify the
 #. "Join" option (in the Fill and Stroke dialog).
 #: ../src/widgets/stroke-style.cpp:747
 msgid "Bevel join"
-msgstr ""
+msgstr "مفصل اریب"
 
 #. Miterlimit
 #. TRANSLATORS: Miter limit: only for "miter join", this limits the length
@@ -22676,75 +22678,75 @@ msgstr ""
 #. when they become too long.
 #: ../src/widgets/stroke-style.cpp:759
 msgid "Miter limit:"
-msgstr ""
+msgstr "حد تاج:"
 
 #: ../src/widgets/stroke-style.cpp:767
 msgid "Maximum length of the miter (in units of stroke width)"
-msgstr ""
+msgstr "حداکثر طول تاج (در واحد عرض خط حاشیه)"
 
 #. Cap type
 #. TRANSLATORS: cap type specifies the shape for the ends of lines
 #: ../src/widgets/stroke-style.cpp:779
 msgid "Cap:"
-msgstr ""
+msgstr "لبه:"
 
 #. TRANSLATORS: Butt cap: the line shape does not extend beyond the end point
 #. of the line; the ends of the line are square
 #: ../src/widgets/stroke-style.cpp:791
 msgid "Butt cap"
-msgstr ""
+msgstr "لبه تخت"
 
 #. TRANSLATORS: Round cap: the line shape extends beyond the end point of the
 #. line; the ends of the line are rounded
 #: ../src/widgets/stroke-style.cpp:799
 msgid "Round cap"
-msgstr ""
+msgstr "لبه گرد"
 
 #. TRANSLATORS: Square cap: the line shape extends beyond the end point of the
 #. line; the ends of the line are square
 #: ../src/widgets/stroke-style.cpp:807
 msgid "Square cap"
-msgstr ""
+msgstr "لبه مربع"
 
 #. Dash
 #: ../src/widgets/stroke-style.cpp:813
 msgid "Dashes:"
-msgstr ""
+msgstr "خط چین"
 
 #. TRANSLATORS: Path markers are an SVG feature that allows you to attach arbitrary shapes
 #. (arrowheads, bullets, faces, whatever) to the start, end, or middle nodes of a path.
 #: ../src/widgets/stroke-style.cpp:830
 msgid "Start Markers:"
-msgstr ""
+msgstr "نشانگر شروع:"
 
 #: ../src/widgets/stroke-style.cpp:832
 msgid "Start Markers are drawn on the first node of a path or shape"
-msgstr ""
+msgstr "نشانگر شروع بر روی اولین نود مسیر یا شکل رسم می‌شود"
 
 #: ../src/widgets/stroke-style.cpp:841
 msgid "Mid Markers:"
-msgstr ""
+msgstr "نشانگر میانی:"
 
 #: ../src/widgets/stroke-style.cpp:843
 msgid "Mid Markers are drawn on every node of a path or shape except the first and last nodes"
-msgstr ""
+msgstr "نشانگر میانی روی هر نوعی از مسیر یا شکل بجز نود‌های اول و آخر رسم می‌شود"
 
 #: ../src/widgets/stroke-style.cpp:852
 msgid "End Markers:"
-msgstr ""
+msgstr "نشانگر پایان:"
 
 #: ../src/widgets/stroke-style.cpp:854
 msgid "End Markers are drawn on the last node of a path or shape"
-msgstr ""
+msgstr "نشانگر پایانی روی آخرین نود مسیر یا شکل رسم می‌شود"
 
 #: ../src/widgets/stroke-style.cpp:1207
 #: ../src/widgets/stroke-style.cpp:1304
 msgid "Set stroke style"
-msgstr ""
+msgstr "تعیین حالت خط حاشیه"
 
 #: ../src/widgets/swatch-selector.cpp:139
 msgid "Change swatch color"
-msgstr ""
+msgstr "تغییر رنگ سواچ"
 
 #: ../src/widgets/toolbox.cpp:216
 msgid "Color/opacity used for color tweaking"
@@ -22975,7 +22977,7 @@ msgstr ""
 
 #: ../src/widgets/toolbox.cpp:2229
 msgid "Enable snapping"
-msgstr ""
+msgstr "فعال کردن حالت چسبناکی"
 
 #: ../src/widgets/toolbox.cpp:2238
 msgid "Bounding box"
