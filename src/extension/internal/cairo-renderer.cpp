@@ -170,11 +170,13 @@ static void sp_shape_render_invoke_marker_rendering(SPMarker* marker, Geom::Matr
 
     if (render) {
         SPItem* marker_item = sp_item_first_item_child (SP_OBJECT (marker));
-        tr = (Geom::Matrix)marker_item->transform * (Geom::Matrix)marker->c2p * tr;
-        Geom::Matrix old_tr = marker_item->transform;
-        marker_item->transform = tr;
-        ctx->getRenderer()->renderItem (ctx, marker_item);
-        marker_item->transform = old_tr;
+        if (marker_item) {
+            tr = (Geom::Matrix)marker_item->transform * (Geom::Matrix)marker->c2p * tr;
+            Geom::Matrix old_tr = marker_item->transform;
+            marker_item->transform = tr;
+            ctx->getRenderer()->renderItem (ctx, marker_item);
+            marker_item->transform = old_tr;
+        }
     }
 }
 

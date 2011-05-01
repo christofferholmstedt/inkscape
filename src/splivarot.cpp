@@ -606,6 +606,9 @@ void sp_selected_path_outline_add_marker( SPObject *marker_object, Geom::Matrix 
 {
     SPMarker* marker = SP_MARKER (marker_object);
     SPItem* marker_item = sp_item_first_item_child (SP_OBJECT (marker_object));
+    if (!marker_item) {
+        return;
+    }
 
     Geom::Matrix tr(marker_transform);
 
@@ -630,21 +633,23 @@ void item_outline_add_marker( SPObject const *marker_object, Geom::Matrix marker
 {
     SPMarker* marker = SP_MARKER (marker_object);
     SPItem* marker_item = sp_item_first_item_child(SP_OBJECT(marker_object));
+    if (marker_item) {
 
-    Geom::Matrix tr(marker_transform);
-    if (marker->markerUnits == SP_MARKER_UNITS_STROKEWIDTH) {
-        tr = stroke_scale * tr;
-    }
-    // total marker transform
-    tr = marker_item->transform * marker->c2p * tr;
-
-    Geom::PathVector* marker_pathv = item_outline(marker_item);
-    
-    if (marker_pathv) {
-        for (unsigned int j=0; j < marker_pathv->size(); j++) {
-            pathv_in->push_back((*marker_pathv)[j] * tr);
+        Geom::Matrix tr(marker_transform);
+        if (marker->markerUnits == SP_MARKER_UNITS_STROKEWIDTH) {
+            tr = stroke_scale * tr;
         }
-        delete marker_pathv;
+        // total marker transform
+        tr = marker_item->transform * marker->c2p * tr;
+
+        Geom::PathVector* marker_pathv = item_outline(marker_item);
+        
+        if (marker_pathv) {
+            for (unsigned int j=0; j < marker_pathv->size(); j++) {
+                pathv_in->push_back((*marker_pathv)[j] * tr);
+            }
+            delete marker_pathv;
+        }
     }
 }
 
