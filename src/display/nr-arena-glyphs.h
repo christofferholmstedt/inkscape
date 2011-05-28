@@ -21,12 +21,12 @@
 
 #include <display/display-forward.h>
 #include <forward.h>
-#include <sp-paint-server.h>
 #include <display/nr-arena-item.h>
 
 #define test_glyph_liv
 
 class Shape;
+class SPPainter;
 
 NRType nr_arena_glyphs_get_type (void);
 

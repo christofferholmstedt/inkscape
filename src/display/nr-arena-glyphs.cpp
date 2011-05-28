@@ -24,6 +24,7 @@
 #include "nr-arena-glyphs.h"
 #include <cairo.h>
 #include "inkscape-cairo.h"
+#include "sp-paint-server.h"
 
 #ifdef test_glyph_liv
 #include "../display/canvas-bpath.h"

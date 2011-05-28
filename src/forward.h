@@ -126,9 +126,6 @@ class SPTSpanClass;
 class SPString;
 class SPStringClass;
 
-class SPPaintServer;
-class SPPaintServerClass;
-
 class SPStop;
 class SPStopClass;
 
