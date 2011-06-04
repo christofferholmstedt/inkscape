@@ -28,6 +28,7 @@
 #include "interface.h"
 
 #include <gdk/gdkkeysyms.h>
+#include <gdk/gdk.h>
 
 #include "icon.h"
 #include "button.h"

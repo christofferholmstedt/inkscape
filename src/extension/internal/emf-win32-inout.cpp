@@ -31,7 +31,7 @@
 //#include "color.h"
 //#include "display/curve.h"
 //#include "libnr/nr-point-matrix-ops.h"
-//#include "gtk/gtk.h"
+//#include <gtk/gtk.h>
 #include "print.h"
 //#include "glibmm/i18n.h"
 //#include "extension/extension.h"

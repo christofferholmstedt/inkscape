@@ -39,10 +39,8 @@
 //#include "display/canvas-bpath.h"
 #include "sp-item.h"
 
-//#include "glib.h"
-//#include "gtk/gtkdialog.h"
-//#include "gtk/gtkbox.h"
-//#include "gtk/gtkstock.h"
+//#include <glib.h>
+//#include <gtk/gtk.h>
 
 //#include "glibmm/i18n.h"
 //#include "enums.h"

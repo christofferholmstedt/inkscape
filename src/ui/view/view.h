@@ -14,7 +14,7 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
-#include <gdk/gdktypes.h>
+#include <gdk/gdk.h>
 #include <sigc++/connection.h>
 #include "message.h"
 #include "gc-managed.h"

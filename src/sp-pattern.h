@@ -12,7 +12,7 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
-#include <gtk/gtktypeutils.h>
+#include <gtk/gtk.h>
 
 #include "forward.h"
 

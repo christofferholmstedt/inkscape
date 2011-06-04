@@ -12,6 +12,7 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
+#include <gdk/gdk.h>
 #include "display/sodipodi-ctrl.h"
 #include <2geom/forward.h>
 

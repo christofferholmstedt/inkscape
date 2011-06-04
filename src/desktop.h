@@ -25,8 +25,8 @@
 #include "config.h"
 #endif
 
-#include <gdk/gdkevents.h>
-#include <gtk/gtktypeutils.h>
+#include <gdk/gdk.h>
+#include <gtk/gtk.h>
 #include <sigc++/sigc++.h>
 
 #include <2geom/matrix.h>

@@ -13,6 +13,7 @@
 # include "config.h"
 #endif
 
+#include <gdk/gdk.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 

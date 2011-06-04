@@ -61,7 +61,7 @@
 }
 
 #include "preferences.h"
-#include <gtk/gtkmessagedialog.h>
+#include <gtk/gtk.h>
 #endif // DEBUG_LCMS
 #endif // ENABLE_LCMS
 /*

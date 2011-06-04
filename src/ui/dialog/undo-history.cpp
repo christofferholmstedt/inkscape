@@ -13,7 +13,7 @@
 #endif
 
 #include <glibmm/i18n.h>
-#include <gtk/gtkimage.h>
+#include <gtk/gtk.h>
 #include <sigc++/sigc++.h>
 
 

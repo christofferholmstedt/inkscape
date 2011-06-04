@@ -39,7 +39,7 @@
 #include "application/application.h"
 
 #include "dialogs/dialog-events.h"
-#include <gtk/gtkdialog.h>
+#include <gtk/gtk.h>
 
 namespace Inkscape {
 namespace Extension {

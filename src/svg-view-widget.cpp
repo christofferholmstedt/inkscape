@@ -13,7 +13,7 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
-#include <gtk/gtkscrolledwindow.h>
+#include <gtk/gtk.h>
 #include "display/canvas-arena.h"
 #include "document.h"
 #include "svg-view.h"

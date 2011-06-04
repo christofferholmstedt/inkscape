@@ -11,8 +11,7 @@
  *      ? -2004
  */
 
-#include <gtk/gtktooltips.h>
-#include <gtk/gtkwindow.h>
+#include <gtk/gtk.h>
 
 #include "display/display-forward.h"
 #include "libnr/nr-point.h"

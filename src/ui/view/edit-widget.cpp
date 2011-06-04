@@ -31,9 +31,7 @@
 # include <config.h>
 #endif
 
-#include <gtk/gtkwindow.h>
-#include <gtk/gtkversion.h>
-#include <gtk/gtklabel.h>
+#include <gtk/gtk.h>
 #include <gtkmm/radioaction.h>
 #include <gtkmm/menubar.h>
 #include <gtkmm/messagedialog.h>

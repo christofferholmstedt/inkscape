@@ -40,7 +40,7 @@ sp_object_menu(SPObject *object, SPDesktop *desktop, GtkMenu *menu)
 
 /* Implementation */
 
-#include <gtk/gtkmenuitem.h>
+#include <gtk/gtk.h>
 
 #include <glibmm/i18n.h>
 

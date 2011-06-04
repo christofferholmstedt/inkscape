@@ -14,9 +14,8 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
-/*  #include <gdk/gdkic.h> */
 #include <sigc++/sigc++.h>
-#include <gtk/gtkimcontext.h>
+#include <gtk/gtk.h>
 
 #include "event-context.h"
 #include <display/display-forward.h>

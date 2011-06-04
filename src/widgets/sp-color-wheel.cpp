@@ -17,7 +17,7 @@
 #include <cstring>
 #include <string>
 
-#include <gtk/gtksignal.h>
+#include <gtk/gtk.h>
 #include "sp-color-wheel.h"
 
 #include "libnr/nr-rotate-ops.h"

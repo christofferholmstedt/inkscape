@@ -45,20 +45,7 @@
 #include <string.h>
 
 #include <gdk/gdkkeysyms.h>
-#include <gtk/gtkversion.h>
-#include <gtk/gtktoolitem.h>
 #include <gtk/gtk.h>
-#include <gtk/gtkhscale.h>
-#if GTK_CHECK_VERSION(2,12,0)
-#include <gtk/gtkscalebutton.h>
-#include <gtk/gtkstock.h>
-#endif /* GTK_CHECK_VERSION(2,12,0) */
-#include <gtk/gtkhbox.h>
-#include <gtk/gtklabel.h>
-#include <gtk/gtkmisc.h>
-#include <gtk/gtktoolbar.h>
-#include <gtk/gtktooltips.h>
-#include <gtk/gtkradiomenuitem.h>
 
 #include "widgets/icon.h"
 #include "icon-size.h"
