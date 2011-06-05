@@ -733,7 +733,7 @@ assert_empty_path(PEMF_CALLBACK_DATA d, const char * /*fun*/)
 
 
 static int CALLBACK
-myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR, int /*nObj*/, LPARAM lpData)
+myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, const ENHMETARECORD *lpEMFR, int /*nObj*/, LPARAM lpData)
 {
     PEMF_CALLBACK_DATA d;
     SVGOStringStream tmp_outsvg;
@@ -774,7 +774,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
                 *(d->outsvg) += " -->\n";
             }
 
-            ENHMETAHEADER *pEmr = (ENHMETAHEADER *) lpEMFR;
+            const ENHMETAHEADER *pEmr = (const ENHMETAHEADER *) lpEMFR;
             tmp_outsvg << "<svg\n";
             tmp_outsvg << "  xmlns:svg=\"http://www.w3.org/2000/svg\"\n";
             tmp_outsvg << "  xmlns=\"http://www.w3.org/2000/svg\"\n";
@@ -824,7 +824,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYBEZIER -->\n";
 
-            PEMRPOLYBEZIER pEmr = (PEMRPOLYBEZIER) lpEMFR;
+            const PEMRPOLYBEZIER pEmr = (const PEMRPOLYBEZIER) lpEMFR;
             DWORD i,j;
 
             if (pEmr->cptl<4)
@@ -866,7 +866,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYGON -->\n";
 
-            EMRPOLYGON *pEmr = (EMRPOLYGON *) lpEMFR;
+            const EMRPOLYGON *pEmr = (const EMRPOLYGON *) lpEMFR;
             DWORD i;
 
             if (pEmr->cptl < 2)
@@ -899,7 +899,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYLINE -->\n";
 
-            EMRPOLYLINE *pEmr = (EMRPOLYLINE *) lpEMFR;
+            const EMRPOLYLINE *pEmr = (const EMRPOLYLINE *) lpEMFR;
             DWORD i;
 
             if (pEmr->cptl<2)
@@ -939,7 +939,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYBEZIERTO -->\n";
 
-            PEMRPOLYBEZIERTO pEmr = (PEMRPOLYBEZIERTO) lpEMFR;
+            const PEMRPOLYBEZIERTO pEmr = (const PEMRPOLYBEZIERTO) lpEMFR;
             DWORD i,j;
 
             if (d->path->empty()) {
@@ -962,7 +962,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYLINETO -->\n";
 
-            PEMRPOLYLINETO pEmr = (PEMRPOLYLINETO) lpEMFR;
+            const PEMRPOLYLINETO pEmr = (const PEMRPOLYLINETO) lpEMFR;
             DWORD i;
 
             if (d->path->empty()) {
@@ -987,7 +987,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
             if (lpEMFR->iType == EMR_POLYPOLYGON)
                 dbg_str << "<!-- EMR_POLYPOLYGON -->\n";
 
-            PEMRPOLYPOLYGON pEmr = (PEMRPOLYPOLYGON) lpEMFR;
+            const PEMRPOLYPOLYGON pEmr = (const PEMRPOLYPOLYGON) lpEMFR;
             unsigned int n, i, j;
 
             if (!d->inpath) {
@@ -1036,7 +1036,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETWINDOWEXTEX -->\n";
 
-            PEMRSETWINDOWEXTEX pEmr = (PEMRSETWINDOWEXTEX) lpEMFR;
+            const PEMRSETWINDOWEXTEX pEmr = (const PEMRSETWINDOWEXTEX) lpEMFR;
 
             d->dc[d->level].sizeWnd = pEmr->szlExtent;
 
@@ -1079,7 +1079,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETWINDOWORGEX -->\n";
 
-            PEMRSETWINDOWORGEX pEmr = (PEMRSETWINDOWORGEX) lpEMFR;
+            const PEMRSETWINDOWORGEX pEmr = (const PEMRSETWINDOWORGEX) lpEMFR;
             d->dc[d->level].winorg = pEmr->ptlOrigin;
             break;
         }
@@ -1087,7 +1087,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETVIEWPORTEXTEX -->\n";
 
-            PEMRSETVIEWPORTEXTEX pEmr = (PEMRSETVIEWPORTEXTEX) lpEMFR;
+            const PEMRSETVIEWPORTEXTEX pEmr = (const PEMRSETVIEWPORTEXTEX) lpEMFR;
 
             d->dc[d->level].sizeView = pEmr->szlExtent;
 
@@ -1130,7 +1130,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETVIEWPORTORGEX -->\n";
 
-            PEMRSETVIEWPORTORGEX pEmr = (PEMRSETVIEWPORTORGEX) lpEMFR;
+            const PEMRSETVIEWPORTORGEX pEmr = (const PEMRSETVIEWPORTORGEX) lpEMFR;
             d->dc[d->level].vieworg = pEmr->ptlOrigin;
             break;
         }
@@ -1162,7 +1162,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETPOLYFILLMODE -->\n";
 
-            PEMRSETPOLYFILLMODE pEmr = (PEMRSETPOLYFILLMODE) lpEMFR;
+            const PEMRSETPOLYFILLMODE pEmr = (const PEMRSETPOLYFILLMODE) lpEMFR;
             d->dc[d->level].style.fill_rule.value =
                 (pEmr->iMode == ALTERNATE ? 0 :
                  pEmr->iMode == WINDING ? 1 : 0);
@@ -1178,7 +1178,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETTEXTALIGN -->\n";
 
-            PEMRSETTEXTALIGN pEmr = (PEMRSETTEXTALIGN) lpEMFR;
+            const PEMRSETTEXTALIGN pEmr = (const PEMRSETTEXTALIGN) lpEMFR;
             d->dc[d->level].textAlign = pEmr->iMode;
             break;
         }
@@ -1189,7 +1189,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETTEXTCOLOR -->\n";
 
-            PEMRSETTEXTCOLOR pEmr = (PEMRSETTEXTCOLOR) lpEMFR;
+            const PEMRSETTEXTCOLOR pEmr = (const PEMRSETTEXTCOLOR) lpEMFR;
             d->dc[d->level].textColor = pEmr->crColor;
             d->dc[d->level].textColorSet = true;
             break;
@@ -1204,7 +1204,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_MOVETOEX -->\n";
 
-            PEMRMOVETOEX pEmr = (PEMRMOVETOEX) lpEMFR;
+            const PEMRMOVETOEX pEmr = (const PEMRMOVETOEX) lpEMFR;
 
             if (d->path->empty()) {
                 d->pathless_stroke = true;
@@ -1246,7 +1246,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_RESTOREDC -->\n";
             
-            PEMRRESTOREDC pEmr = (PEMRRESTOREDC) lpEMFR;
+            const PEMRRESTOREDC pEmr = (const PEMRRESTOREDC) lpEMFR;
             int old_level = d->level;
             if (pEmr->iRelative >= 0) {
                 if (pEmr->iRelative < d->level)
@@ -1275,7 +1275,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_MODIFYWORLDTRANSFORM -->\n";
 
-            PEMRMODIFYWORLDTRANSFORM pEmr = (PEMRMODIFYWORLDTRANSFORM) lpEMFR;
+            const PEMRMODIFYWORLDTRANSFORM pEmr = (const PEMRMODIFYWORLDTRANSFORM) lpEMFR;
             switch (pEmr->iMode)
             {
                 case MWT_IDENTITY:
@@ -1383,7 +1383,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SELECTOBJECT -->\n";
 
-            PEMRSELECTOBJECT pEmr = (PEMRSELECTOBJECT) lpEMFR;
+            const PEMRSELECTOBJECT pEmr = (const PEMRSELECTOBJECT) lpEMFR;
             unsigned int index = pEmr->ihObject;
 
             if (index >= ENHMETA_STOCK_OBJECT) {
@@ -1462,7 +1462,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_CREATEPEN -->\n";
 
-            PEMRCREATEPEN pEmr = (PEMRCREATEPEN) lpEMFR;
+            const PEMRCREATEPEN pEmr = (const PEMRCREATEPEN) lpEMFR;
             int index = pEmr->ihPen;
 
             EMRCREATEPEN *pPen =
@@ -1476,7 +1476,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_CREATEBRUSHINDIRECT -->\n";
 
-            PEMRCREATEBRUSHINDIRECT pEmr = (PEMRCREATEBRUSHINDIRECT) lpEMFR;
+            const PEMRCREATEBRUSHINDIRECT pEmr = (const PEMRCREATEBRUSHINDIRECT) lpEMFR;
             int index = pEmr->ihBrush;
 
             EMRCREATEBRUSHINDIRECT *pBrush =
@@ -1496,7 +1496,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_ELLIPSE -->\n";
 
-            PEMRELLIPSE pEmr = (PEMRELLIPSE) lpEMFR;
+            const PEMRELLIPSE pEmr = (const PEMRELLIPSE) lpEMFR;
             RECTL rclBox = pEmr->rclBox;
 
             double l = pix_to_x_point( d, pEmr->rclBox.left, pEmr->rclBox.top );
@@ -1529,7 +1529,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_RECTANGLE -->\n";
 
-            PEMRRECTANGLE pEmr = (PEMRRECTANGLE) lpEMFR;
+            const PEMRRECTANGLE pEmr = (const PEMRRECTANGLE) lpEMFR;
             RECTL rc = pEmr->rclBox;
 
             double l = pix_to_x_point( d, rc.left, rc.top );
@@ -1589,7 +1589,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_LINETO -->\n";
 
-            PEMRLINETO pEmr = (PEMRLINETO) lpEMFR;
+            const PEMRLINETO pEmr = (const PEMRLINETO) lpEMFR;
 
             if (d->path->empty()) {
                 d->pathless_stroke = true;
@@ -1615,7 +1615,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_SETMITERLIMIT -->\n";
 
-            PEMRSETMITERLIMIT pEmr = (PEMRSETMITERLIMIT) lpEMFR;
+            const PEMRSETMITERLIMIT pEmr = (const PEMRSETMITERLIMIT) lpEMFR;
 
             float miterlimit = pEmr->eMiterLimit;
             miterlimit = miterlimit * 4.0 / 10.0;
@@ -1683,7 +1683,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_GDICOMMENT -->\n";
             
-            PEMRGDICOMMENT pEmr = (PEMRGDICOMMENT) lpEMFR;
+            const PEMRGDICOMMENT pEmr = (const PEMRGDICOMMENT) lpEMFR;
 
             CHAR *szTxt = (CHAR *) pEmr->Data;
 
@@ -1741,7 +1741,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_EXTCREATEFONTINDIRECTW -->\n";
 
-            PEMREXTCREATEFONTINDIRECTW pEmr = (PEMREXTCREATEFONTINDIRECTW) lpEMFR;
+            const PEMREXTCREATEFONTINDIRECTW pEmr = (const PEMREXTCREATEFONTINDIRECTW) lpEMFR;
             int index = pEmr->ihFont;
 
             EMREXTCREATEFONTINDIRECTW *pFont =
@@ -1759,7 +1759,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_EXTTEXTOUTW -->\n";
 
-            PEMREXTTEXTOUTW pEmr = (PEMREXTTEXTOUTW) lpEMFR;
+            const PEMREXTTEXTOUTW pEmr = (const PEMREXTTEXTOUTW) lpEMFR;
 
             double x1 = pEmr->emrtext.ptlReference.x;
             double y1 = pEmr->emrtext.ptlReference.y;
@@ -1855,7 +1855,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYBEZIER16 -->\n";
 
-            PEMRPOLYBEZIER16 pEmr = (PEMRPOLYBEZIER16) lpEMFR;
+            const PEMRPOLYBEZIER16 pEmr = (const PEMRPOLYBEZIER16) lpEMFR;
             POINTS *apts = (POINTS *) pEmr->apts; // Bug in MinGW wingdi.h ?
             DWORD i,j;
 
@@ -1898,7 +1898,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYGON16 -->\n";
 
-            PEMRPOLYGON16 pEmr = (PEMRPOLYGON16) lpEMFR;
+            const PEMRPOLYGON16 pEmr = (const PEMRPOLYGON16) lpEMFR;
             POINTS *apts = (POINTS *) pEmr->apts; // Bug in MinGW wingdi.h ?
             SVGOStringStream tmp_poly;
             unsigned int i;
@@ -1930,7 +1930,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYLINE16 -->\n";
 
-            EMRPOLYLINE16 *pEmr = (EMRPOLYLINE16 *) lpEMFR;
+            const EMRPOLYLINE16 *pEmr = (const EMRPOLYLINE16 *) lpEMFR;
             POINTS *apts = (POINTS *) pEmr->apts; // Bug in MinGW wingdi.h ?
             DWORD i;
 
@@ -1971,7 +1971,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYBEZIERTO16 -->\n";
 
-            PEMRPOLYBEZIERTO16 pEmr = (PEMRPOLYBEZIERTO16) lpEMFR;
+            const PEMRPOLYBEZIERTO16 pEmr = (const PEMRPOLYBEZIERTO16) lpEMFR;
             POINTS *apts = (POINTS *) pEmr->apts; // Bug in MinGW wingdi.h ?
             DWORD i,j;
 
@@ -1995,7 +1995,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_POLYLINETO16 -->\n";
 
-            PEMRPOLYLINETO16 pEmr = (PEMRPOLYLINETO16) lpEMFR;
+            const PEMRPOLYLINETO16 pEmr = (const PEMRPOLYLINETO16) lpEMFR;
             POINTS *apts = (POINTS *) pEmr->apts; // Bug in MinGW wingdi.h ?
             DWORD i;
 
@@ -2021,7 +2021,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
             if (lpEMFR->iType == EMR_POLYPOLYGON16)
                 dbg_str << "<!-- EMR_POLYPOLYGON16 -->\n";
 
-            PEMRPOLYPOLYGON16 pEmr = (PEMRPOLYPOLYGON16) lpEMFR;
+            const PEMRPOLYPOLYGON16 pEmr = (const PEMRPOLYPOLYGON16) lpEMFR;
             unsigned int n, i, j;
 
             if (!d->inpath) {
@@ -2079,7 +2079,7 @@ myEnhMetaFileProc(HDC /*hDC*/, HANDLETABLE * /*lpHTable*/, ENHMETARECORD *lpEMFR
         {
             dbg_str << "<!-- EMR_EXTCREATEPEN -->\n";
 
-            PEMREXTCREATEPEN pEmr = (PEMREXTCREATEPEN) lpEMFR;
+            const PEMREXTCREATEPEN pEmr = (const PEMREXTCREATEPEN) lpEMFR;
             int index = pEmr->ihPen;
 
             EMREXTCREATEPEN *pPen =
