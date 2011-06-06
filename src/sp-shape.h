@@ -19,6 +19,7 @@
 #include "sp-marker-loc.h"
 #include <2geom/forward.h>
 
+#include <stddef.h>
 #include <sigc++/connection.h>
 
 #define SP_TYPE_SHAPE (sp_shape_get_type ())

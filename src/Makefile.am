@@ -205,7 +205,11 @@ libinkscape_a_SOURCES = $(ink_common_sources)
 
 inkscape_SOURCES += main.cpp $(win32_sources)
 inkscape_LDADD = $(all_libs)
+if PLATFORM_OSX
 inkscape_LDFLAGS = --export-dynamic $(kdeldflags) $(mwindows)
+else
+inkscape_LDFLAGS = -Wl,--export-dynamic $(kdeldflags) $(mwindows)
+endif
 
 inkview_SOURCES += inkview.cpp $(win32_sources)
 inkview_LDADD = $(all_libs)

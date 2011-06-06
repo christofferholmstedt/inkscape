@@ -24,6 +24,7 @@
 #include "uri.h"
 #include "sp-paint-server-reference.h"
 
+#include <stddef.h>
 #include <sigc++/connection.h>
 
 namespace Inkscape {

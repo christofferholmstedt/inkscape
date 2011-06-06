@@ -34,6 +34,7 @@
  */
 
 #include <cmath>
+#include <cstddef>
 #include <vector>
 
 namespace Geom {

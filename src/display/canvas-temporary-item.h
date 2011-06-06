@@ -14,6 +14,7 @@
 
 #include "display/display-forward.h"
 
+#include <stddef.h>
 #include <sigc++/sigc++.h>
 
 namespace Inkscape {

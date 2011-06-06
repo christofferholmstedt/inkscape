@@ -27,6 +27,7 @@
 
 #include <gdk/gdk.h>
 #include <gtk/gtk.h>
+#include <stddef.h>
 #include <sigc++/sigc++.h>
 
 #include <2geom/matrix.h>

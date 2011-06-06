@@ -14,6 +14,7 @@
  */
 
 #include <map>
+#include <stddef.h>
 #include <sigc++/sigc++.h>
 #include "xml/event-fns.h"
 #include "sp-defs.h"
