@@ -76,9 +76,9 @@
             <param name="lv_y" type="float" min="-100" max="100" _gui-text="Light Y">1</param>
             <param name="lv_z" type="float" min="-100" max="100" _gui-text="Light Z">-2</param>
             <param name="show" type="optiongroup" appearance="minimal" _gui-text="Show:">
-                <_option value="fce">Faces</_option></param>
+                <_option value="fce">Faces</_option>
                 <_option value="edg">Edges</_option>
-                <_option value="vtx">Vertices</_option>
+                <_option value="vtx">Vertices</_option></param>
             <param name="back"  type="boolean" _gui-text="Draw back-facing polygons">0</param>
             <param name="z_sort" type="optiongroup" appearance="minimal" _gui-text="Z-sort faces by:">
                 <_option value="max">Maximum</_option>
