@@ -35,7 +35,7 @@ def export_MTEXT():
         size = 12                       # default fontsize in px
         if vals[groups['40']]:
             size = scale*vals[groups['40']][0]
-        attribs = {'x': '%f' % x, 'y': '%f' % y, 'style': 'font-size: %.1fpx; fill: %s' % (size, color)}
+        attribs = {'x': '%f' % x, 'y': '%f' % y, 'style': 'font-size: %.1fpx; fill: %s; font-family: %s' % (size, color, options.font)}
         angle = 0                       # default angle in degrees
         if vals[groups['50']]:
             angle = vals[groups['50']][0]
@@ -65,24 +65,51 @@ def export_MTEXT():
 def export_POINT():
     # mandatory group codes : (10, 20) (x, y)
     if vals[groups['10']] and vals[groups['20']]:
-        generate_ellipse(vals[groups['10']][0], vals[groups['20']][0], w/2, 0.0, 1.0, 0.0, 0.0)
+        if options.gcodetoolspoints:
+            generate_gcodetools_point(vals[groups['10']][0], vals[groups['20']][0])
+        else:
+            generate_ellipse(vals[groups['10']][0], vals[groups['20']][0], w/2, 0.0, 1.0, 0.0, 0.0)
 
 def export_LINE():
     # mandatory group codes : (10, 11, 20, 21) (x1, x2, y1, y2)
     if vals[groups['10']] and vals[groups['11']] and vals[groups['20']] and vals[groups['21']]:
-        path = 'M %f,%f %f,%f' % (vals[groups['10']][0], vals[groups['20']][0], scale*(vals[groups['11']][0] - xmin), - scale*(vals[groups['21']][0] - ymax))
+        path = 'M %f,%f %f,%f' % (vals[groups['10']][0], vals[groups['20']][0], scale*(vals[groups['11']][0] - xmin), height - scale*(vals[groups['21']][0] - ymin))
         attribs = {'d': path, 'style': style}
         inkex.etree.SubElement(layer, 'path', attribs)
 
 def export_SPLINE():
-    # mandatory group codes : (10, 20, 70) (x, y, flags)
-    if vals[groups['10']] and vals[groups['20']] and vals[groups['70']]:
-        if not (vals[groups['70']][0] & 3) and len(vals[groups['10']]) == 4 and len(vals[groups['20']]) == 4:
-            path = 'M %f,%f C %f,%f %f,%f %f,%f' % (vals[groups['10']][0], vals[groups['20']][0], vals[groups['10']][1], vals[groups['20']][1], vals[groups['10']][2], vals[groups['20']][2], vals[groups['10']][3], vals[groups['20']][3])
+    # see : http://www.mactech.com/articles/develop/issue_25/schneider.html
+    # mandatory group codes : (10, 20, 40, 70) (x[], y[], knots[], flags)
+    if vals[groups['70']] and not (vals[groups['70']][0] & 3) and len(vals[groups['10']]) == len(vals[groups['20']]) and vals[groups['10']] and vals[groups['20']] and vals[groups['40']]:
+        knots = len(vals[groups['40']])
+        ctrls = len(vals[groups['10']])
+        if ctrls > 3 and knots == ctrls + 4:    # cubic
+            if ctrls > 4:
+                for i in range (knots - 5, 3, -1):
+                    a0 = (vals[groups['40']][i] - vals[groups['40']][i-2])/(vals[groups['40']][i+1] - vals[groups['40']][i-2])
+                    a1 = (vals[groups['40']][i] - vals[groups['40']][i-1])/(vals[groups['40']][i+2] - vals[groups['40']][i-1])
+                    vals[groups['10']].insert(i-1, (1.0 - a1)*vals[groups['10']][i-2] + a1*vals[groups['10']][i-1])
+                    vals[groups['20']].insert(i-1, (1.0 - a1)*vals[groups['20']][i-2] + a1*vals[groups['20']][i-1])
+                    vals[groups['10']][i-2] = (1.0 - a0)*vals[groups['10']][i-3] + a0*vals[groups['10']][i-2]
+                    vals[groups['20']][i-2] = (1.0 - a0)*vals[groups['20']][i-3] + a0*vals[groups['20']][i-2]
+                    vals[groups['40']].insert(i, vals[groups['40']][i])
+                knots = len(vals[groups['40']])
+                for i in range (knots - 6, 3, -2):
+                    a1 = (vals[groups['40']][i] - vals[groups['40']][i-1])/(vals[groups['40']][i+2] - vals[groups['40']][i-1])
+                    vals[groups['10']].insert(i-1, (1.0 - a1)*vals[groups['10']][i-2] + a1*vals[groups['10']][i-1])
+                    vals[groups['20']].insert(i-1, (1.0 - a1)*vals[groups['20']][i-2] + a1*vals[groups['20']][i-1])
+            ctrls = len(vals[groups['10']])
+            path = 'M %f,%f' % (vals[groups['10']][0], vals[groups['20']][0])
+            for i in range (0, (ctrls - 1)/3):
+                path += ' C %f,%f %f,%f %f,%f' % (vals[groups['10']][3*i + 1], vals[groups['20']][3*i + 1], vals[groups['10']][3*i + 2], vals[groups['20']][3*i + 2], vals[groups['10']][3*i + 3], vals[groups['20']][3*i + 3])
             attribs = {'d': path, 'style': style}
             inkex.etree.SubElement(layer, 'path', attribs)
-        if not (vals[groups['70']][0] & 3) and len(vals[groups['10']]) == 3 and len(vals[groups['20']]) == 3:
+        if ctrls == 3 and knots == 6:           # quadratic
             path = 'M %f,%f Q %f,%f %f,%f' % (vals[groups['10']][0], vals[groups['20']][0], vals[groups['10']][1], vals[groups['20']][1], vals[groups['10']][2], vals[groups['20']][2])
+            attribs = {'d': path, 'style': style}
+            inkex.etree.SubElement(layer, 'path', attribs)
+        if ctrls == 5 and knots == 8:           # spliced quadratic
+            path = 'M %f,%f Q %f,%f %f,%f Q %f,%f %f,%f' % (vals[groups['10']][0], vals[groups['20']][0], vals[groups['10']][1], vals[groups['20']][1], vals[groups['10']][2], vals[groups['20']][2], vals[groups['10']][3], vals[groups['20']][3], vals[groups['10']][4], vals[groups['20']][4])
             attribs = {'d': path, 'style': style}
             inkex.etree.SubElement(layer, 'path', attribs)
 
@@ -118,6 +145,10 @@ def export_LWPOLYLINE():
             # optional group codes : (42) (bulge)
             iseqs = 0
             ibulge = 0
+            if vals[groups['70']][0]:           # closed path
+                seqs.append('20')
+                vals[groups['10']].append(vals[groups['10']][0])
+                vals[groups['20']].append(vals[groups['20']][0])
             while seqs[iseqs] != '20':
                 iseqs += 1
             path = 'M %f,%f' % (vals[groups['10']][0], vals[groups['20']][0])
@@ -146,7 +177,7 @@ def export_LWPOLYLINE():
                     path += ' L %f,%f' % (vals[groups['10']][i], vals[groups['20']][i])
                 xold = vals[groups['10']][i]
                 yold = vals[groups['20']][i]
-            if vals[groups['70']][0] == 1:      # closed path
+            if vals[groups['70']][0]:           # closed path
                 path += ' z'
             attribs = {'d': path, 'style': style}
             inkex.etree.SubElement(layer, 'path', attribs)
@@ -154,7 +185,7 @@ def export_LWPOLYLINE():
 def export_HATCH():
     # mandatory group codes : (10, 20, 70, 72, 92, 93) (x, y, fill, Edge Type, Path Type, Number of edges)
     if vals[groups['10']] and vals[groups['20']] and vals[groups['70']] and vals[groups['72']] and vals[groups['92']] and vals[groups['93']]:
-        if vals[groups['70']][0] and len(vals[groups['10']]) > 1 and len(vals[groups['20']]) == len(vals[groups['10']]):
+        if len(vals[groups['10']]) > 1 and len(vals[groups['20']]) == len(vals[groups['10']]):
             # optional group codes : (11, 21, 40, 50, 51, 73) (x, y, r, angle1, angle2, CCW)
             i10 = 1    # count start points
             i11 = 0    # count line end points
@@ -193,12 +224,15 @@ def export_HATCH():
                         i40 += 1
                         i72 += 1
                     elif vals[groups['72']][i72] == 1:      # line
-                        path += 'L %f,%f ' % (scale*(vals[groups['11']][i11] - xmin), -scale*(vals[groups['21']][i11] - ymax))
+                        path += 'L %f,%f ' % (scale*(vals[groups['11']][i11] - xmin), height - scale*(vals[groups['21']][i11] - ymin))
                         i11 += 1
                         i72 += 1
                     i10 += 1
                 path += "z "
-            style = simplestyle.formatStyle({'fill': '%s' % color})
+            if vals[groups['70']][0]:
+                style = simplestyle.formatStyle({'fill': '%s' % color})
+            else:
+                style = simplestyle.formatStyle({'fill': 'url(#Hatch)', 'fill-opacity': '1.0'})
             attribs = {'d': path, 'style': style}
             inkex.etree.SubElement(layer, 'path', attribs)
 
@@ -217,17 +251,17 @@ def export_DIMENSION():
             path = 'M %f,%f %f,%f' % (vals[groups['10']][0], vals[groups['20']][0], vals[groups['10']][0], vals[groups['23']][0])
         else:
             return
-        attribs = {'d': path, 'style': style + '; marker-start: url(#DistanceX); marker-end: url(#DistanceX)'}
+        attribs = {'d': path, 'style': style + '; marker-start: url(#DistanceX); marker-end: url(#DistanceX); stroke-width: 0.25px'}
         inkex.etree.SubElement(layer, 'path', attribs)
         x = scale*(vals[groups['11']][0] - xmin)
-        y = - scale*(vals[groups['21']][0] - ymax)
+        y = height - scale*(vals[groups['21']][0] - ymin)
         size = 12                   # default fontsize in px
         if vals[groups['3']]:
             if DIMTXT.has_key(vals[groups['3']][0]):
                 size = scale*DIMTXT[vals[groups['3']][0]]
                 if size < 2:
                     size = 2
-        attribs = {'x': '%f' % x, 'y': '%f' % y, 'style': 'font-size: %.1fpx; fill: %s' % (size, color)}
+        attribs = {'x': '%f' % x, 'y': '%f' % y, 'style': 'font-size: %.1fpx; fill: %s; font-family: %s; text-anchor: middle; text-align: center' % (size, color, options.font)}
         if dx == 0:
             attribs.update({'transform': 'rotate (%f %f %f)' % (-90, x, y)})
         node = inkex.etree.SubElement(layer, 'text', attribs)
@@ -237,8 +271,8 @@ def export_DIMENSION():
 def export_INSERT():
     # mandatory group codes : (2, 10, 20) (block name, x, y)
     if vals[groups['2']] and vals[groups['10']] and vals[groups['20']]:
-        x = vals[groups['10']][0]
-        y = vals[groups['20']][0] - scale*ymax
+        x = vals[groups['10']][0] + scale*xmin
+        y = vals[groups['20']][0] - scale*ymin - height
         attribs = {'x': '%f' % x, 'y': '%f' % y, inkex.addNS('href','xlink'): '#' + quote(vals[groups['2']][0].encode("utf-8"))}
         inkex.etree.SubElement(layer, 'use', attribs)
 
@@ -280,6 +314,11 @@ def generate_ellipse(xc, yc, xm, ym, w, a1, a2):
     attribs = {'d': path, 'style': style}
     inkex.etree.SubElement(layer, 'path', attribs)
 
+def generate_gcodetools_point(xc, yc):
+    path= 'm %s,%s 2.9375,-6.34375 0.8125,1.90625 6.84375,-6.84375 0,0 0.6875,0.6875 -6.84375,6.84375 1.90625,0.8125 z' % (xc,yc)
+    attribs = {'d': path, inkex.addNS('dxfpoint','inkscape'):'1', 'style': 'stroke:#ff0000;fill:#ff0000'}
+    inkex.etree.SubElement(layer, 'path', attribs)
+
 def get_line():
     return (stream.readline().strip(), stream.readline().strip())
 
@@ -292,7 +331,7 @@ def get_group(group):
 
 #   define DXF Entities and specify which Group Codes to monitor
 
-entities = {'MTEXT': export_MTEXT, 'TEXT': export_MTEXT, 'POINT': export_POINT, 'LINE': export_LINE, 'SPLINE': export_SPLINE, 'CIRCLE': export_CIRCLE, 'ARC': export_ARC, 'ELLIPSE': export_ELLIPSE, 'LEADER': export_LEADER, 'LWPOLYLINE': export_LWPOLYLINE, 'HATCH': export_HATCH, 'DIMENSION': export_DIMENSION, 'INSERT': export_INSERT, 'BLOCK': export_BLOCK, 'ENDBLK': export_ENDBLK, 'ATTDEF': export_ATTDEF, 'DICTIONARY': False}
+entities = {'MTEXT': export_MTEXT, 'TEXT': export_MTEXT, 'POINT': export_POINT, 'LINE': export_LINE, 'SPLINE': export_SPLINE, 'CIRCLE': export_CIRCLE, 'ARC': export_ARC, 'ELLIPSE': export_ELLIPSE, 'LEADER': export_LEADER, 'LWPOLYLINE': export_LWPOLYLINE, 'HATCH': export_HATCH, 'DIMENSION': export_DIMENSION, 'INSERT': export_INSERT, 'BLOCK': export_BLOCK, 'ENDBLK': export_ENDBLK, 'ATTDEF': export_ATTDEF, 'VIEWPORT': False, 'ENDSEC': False}
 groups = {'1': 0, '2': 1, '3': 2, '6': 3, '8': 4, '10': 5, '11': 6, '13': 7, '14': 8, '20': 9, '21': 10, '23': 11, '24': 12, '40': 13, '41': 14, '42': 15, '50': 16, '51': 17, '62': 18, '70': 19, '72': 20, '73': 21, '92': 22, '93': 23, '370': 24}
 colors = {  1: '#FF0000',   2: '#FFFF00',   3: '#00FF00',   4: '#00FFFF',   5: '#0000FF',
             6: '#FF00FF',   8: '#414141',   9: '#808080',  12: '#BD0000',  30: '#FF7F00',
@@ -301,18 +340,26 @@ colors = {  1: '#FF0000',   2: '#FFFF00',   3: '#00FF00',   4: '#00FFFF',   5: '
 parser = inkex.optparse.OptionParser(usage="usage: %prog [options] SVGfile", option_class=inkex.InkOption)
 parser.add_option("--auto", action="store", type="inkbool", dest="auto", default=True)
 parser.add_option("--scale", action="store", type="string", dest="scale", default="1.0")
+parser.add_option("--xmin", action="store", type="string", dest="xmin", default="0.0")
+parser.add_option("--ymin", action="store", type="string", dest="ymin", default="0.0")
+parser.add_option("--gcodetoolspoints", action="store", type="inkbool", dest="gcodetoolspoints", default=True)
 parser.add_option("--encoding", action="store", type="string", dest="input_encode", default="latin_1")
+parser.add_option("--font", action="store", type="string", dest="font", default="Arial")
 parser.add_option("--tab", action="store", type="string", dest="tab", default="Options")
 parser.add_option("--inputhelp", action="store", type="string", dest="inputhelp", default="")
 (options, args) = parser.parse_args(inkex.sys.argv[1:])
-doc = inkex.etree.parse(StringIO('<svg xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"></svg>'))
+doc = inkex.etree.parse(StringIO('<svg xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="%s" height="%s"></svg>' % (210*90/25.4, 297*90/25.4)))
 desc = inkex.etree.SubElement(doc.getroot(), 'desc', {})
 defs = inkex.etree.SubElement(doc.getroot(), 'defs', {})
 marker = inkex.etree.SubElement(defs, 'marker', {'id': 'DistanceX', 'orient': 'auto', 'refX': '0.0', 'refY': '0.0', 'style': 'overflow:visible'})
 inkex.etree.SubElement(marker, 'path', {'d': 'M 3,-3 L -3,3 M 0,-5 L  0,5', 'style': 'stroke:#000000; stroke-width:0.5'})
+pattern = inkex.etree.SubElement(defs, 'pattern', {'id': 'Hatch', 'patternUnits': 'userSpaceOnUse', 'width': '8', 'height': '8', 'x': '0', 'y': '0'})
+inkex.etree.SubElement(pattern, 'path', {'d': 'M8 4 l-4,4', 'stroke': '#000000', 'stroke-width': '0.25', 'linecap': 'square'})
+inkex.etree.SubElement(pattern, 'path', {'d': 'M6 2 l-4,4', 'stroke': '#000000', 'stroke-width': '0.25', 'linecap': 'square'})
+inkex.etree.SubElement(pattern, 'path', {'d': 'M4 0 l-4,4', 'stroke': '#000000', 'stroke-width': '0.25', 'linecap': 'square'})
 stream = open(args[0], 'r')
-xmax = xmin = 0.0
-ymax = 297.0                                        # default A4 height in mm
+xmax = xmin = ymin = 0.0
+height = 297.0*90.0/25.4                            # default A4 height in pixels
 line = get_line()
 flag = 0                                            # (0, 1, 2, 3) = (none, LAYER, LTYPE, DIMTXT)
 layer_colors = {}                                   # store colors by layer
@@ -325,9 +372,9 @@ while line[0] and line[1] != 'BLOCKS':
     if options.auto:
         if line[1] == '$EXTMIN':
             xmin = get_group('10')
+            ymin = get_group('20')
         if line[1] == '$EXTMAX':
             xmax = get_group('10')
-            ymax = get_group('20')
     if flag == 1 and line[0] == '2':
         layername = unicode(line[1], options.input_encode)
         attribs = {inkex.addNS('groupmode','inkscape'): 'layer', inkex.addNS('label','inkscape'): '%s' % layername}
@@ -358,6 +405,8 @@ if options.auto:
         scale = 210.0/(xmax - xmin)                 # scale to A4 width
 else:
     scale = float(options.scale)                    # manual scale factor
+    xmin = float(options.xmin)
+    ymin = float(options.ymin)
 desc.text = '%s - scale = %f' % (unicode(args[0], options.input_encode), scale)
 scale *= 90.0/25.4                                  # convert from mm to pixels
 
@@ -369,13 +418,22 @@ if not layer_nodes:
 for linename in linetypes.keys():                   # scale the dashed lines
     linetype = ''
     for length in linetypes[linename]:
-        linetype += '%.4f,' % math.fabs(length*scale)
-    linetypes[linename] = 'stroke-dasharray:' + linetype
+        if length == 0:                             # test for dot
+            linetype += ' 0.5,'
+        else:
+            linetype += '%.4f,' % math.fabs(length*scale)
+    if linetype == '':
+        linetypes[linename] = 'stroke-linecap: round'
+    else:
+        linetypes[linename] = 'stroke-dasharray:' + linetype
 
 entity = ''
+inENTITIES = False
 block = defs                                        # initiallize with dummy
-while line[0] and line[1] != 'DICTIONARY':
+while line[0] and (line[1] != 'ENDSEC' or not inENTITIES):
     line = get_line()
+    if line[1] == 'ENTITIES':
+        inENTITIES = True
     if entity and groups.has_key(line[0]):
         seqs.append(line[0])                        # list of group codes
         if line[0] == '1' or line[0] == '2' or line[0] == '3' or line[0] == '6' or line[0] == '8':  # text value
@@ -396,7 +454,7 @@ while line[0] and line[1] != 'DICTIONARY':
         elif line[0] == '10' or line[0] == '13' or line[0] == '14': # scaled float x value
             val = scale*(float(line[1]) - xmin)
         elif line[0] == '20' or line[0] == '23' or line[0] == '24': # scaled float y value
-            val = - scale*(float(line[1]) - ymax)
+            val = height - scale*(float(line[1]) - ymin)
         else:                                       # unscaled float value
             val = float(line[1])
         vals[groups[line[0]]].append(val)
@@ -425,11 +483,12 @@ while line[0] and line[1] != 'DICTIONARY':
             if vals[groups['6']]:                   # Common Linetype
                 if linetypes.has_key(vals[groups['6']][0]):
                     style += ';' + linetypes[vals[groups['6']][0]]
-            entities[entity]()
+            if entities[entity]:
+                entities[entity]()
         entity = line[1]
         vals = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
         seqs = []
 
 doc.write(inkex.sys.stdout)
 
-# vim: expandtab shiftwidth=4 tabstop=8 softtabstop=4 encoding=utf-8 textwidth=99
+# vim: expandtab shiftwidth=4 tabstop=8 softtabstop=4 fileencoding=utf-8 textwidth=99
