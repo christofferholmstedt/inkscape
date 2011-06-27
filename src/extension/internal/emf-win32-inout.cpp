@@ -208,6 +208,7 @@ typedef struct emf_device_context {
 typedef struct emf_callback_data {
     Glib::ustring *outsvg;
     Glib::ustring *path;
+    Glib::ustring *outdef;
 
     EMF_DEVICE_CONTEXT dc[EMF_MAX_DC+1]; // FIXME: This should be dynamic..
     int level;
