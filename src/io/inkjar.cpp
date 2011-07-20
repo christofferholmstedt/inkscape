@@ -139,16 +139,18 @@ bool JarFile::read_signature()
 #endif
 
     if (signature == 0x08074b50) {
-	//skip data descriptor
-	bytes = (guint8 *)malloc(sizeof(guint8) * 12);
-	if (!read(bytes, 12)) {
-	    g_free(bytes);
-	    return false;
-	}
+    //skip data descriptor
+        bytes = (guint8 *)g_malloc(sizeof(guint8) * 12);
+        if (!read(bytes, 12)) {
+            g_free(bytes);
+            return false;
+        } else {
+            g_free(bytes);
+        }
     } else if (signature == 0x02014b50 || signature == 0x04034b50) {
-	return true;
+    return true;
     } else {
-	return false;
+    return false;
     }
     return false;
 }
