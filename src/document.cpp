@@ -1168,7 +1168,7 @@ sp_document_item_from_list_at_point_bottom(unsigned int dkey, SPGroup *group, GS
 
         SPItem *item = SP_ITEM(o);
         NRArenaItem *arenaitem = sp_item_get_arenaitem(item, dkey);
-        if (arenaitem && nr_arena_item_invoke_pick(arenaitem, p, delta, 1) != NULL
+        if (arenaitem && nr_arena_item_invoke_pick(arenaitem, p, delta, NR_ARENA_ITEM_PICK_STICKY) != NULL
             && (take_insensitive || item->isVisibleAndUnlocked(dkey))) {
             if (g_slist_find((GSList *) list, item) != NULL)
                 return item;
@@ -1221,7 +1221,7 @@ find_item_at_point(unsigned int dkey, SPGroup *group, Geom::Point const p, gbool
             NRArenaItem *arenaitem = sp_item_get_arenaitem(child, dkey);
 
             // seen remembers the last (topmost) of items pickable at this point
-            if (arenaitem && nr_arena_item_invoke_pick(arenaitem, p, delta, 1) != NULL
+            if (arenaitem && nr_arena_item_invoke_pick(arenaitem, p, delta, NR_ARENA_ITEM_PICK_STICKY) != NULL
                 && (take_insensitive || child->isVisibleAndUnlocked(dkey))) {
                 seen = child;
             }
@@ -1254,7 +1254,7 @@ find_group_at_point(unsigned int dkey, SPGroup *group, Geom::Point const p)
             NRArenaItem *arenaitem = sp_item_get_arenaitem(child, dkey);
 
             // seen remembers the last (topmost) of groups pickable at this point
-            if (arenaitem && nr_arena_item_invoke_pick(arenaitem, p, delta, 1) != NULL) {
+            if (arenaitem && nr_arena_item_invoke_pick(arenaitem, p, delta, NR_ARENA_ITEM_PICK_STICKY) != NULL) {
                 seen = child;
             }
         }

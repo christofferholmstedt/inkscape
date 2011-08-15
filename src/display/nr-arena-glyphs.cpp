@@ -46,7 +46,7 @@ static void nr_arena_glyphs_finalize(NRObject *object);
 
 static guint nr_arena_glyphs_update(NRArenaItem *item, NRRectL *area, NRGC *gc, guint state, guint reset);
 static guint nr_arena_glyphs_clip(NRArenaItem *item, NRRectL *area, NRPixBlock *pb);
-static NRArenaItem *nr_arena_glyphs_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int sticky);
+static NRArenaItem *nr_arena_glyphs_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int flags);
 
 static NRArenaItemClass *glyphs_parent_class;
 
@@ -235,7 +235,7 @@ nr_arena_glyphs_clip(NRArenaItem *item, NRRectL */*area*/, NRPixBlock */*pb*/)
 }
 
 static NRArenaItem *
-nr_arena_glyphs_pick(NRArenaItem *item, Geom::Point p, gdouble delta, unsigned int /*sticky*/)
+nr_arena_glyphs_pick(NRArenaItem *item, Geom::Point p, gdouble delta, unsigned int /*flags*/)
 {
     NRArenaGlyphs *glyphs;
 
@@ -321,7 +321,7 @@ static void nr_arena_glyphs_group_finalize(NRObject *object);
 static guint nr_arena_glyphs_group_update(NRArenaItem *item, NRRectL *area, NRGC *gc, guint state, guint reset);
 static unsigned int nr_arena_glyphs_group_render(cairo_t *ct, NRArenaItem *item, NRRectL *area, NRPixBlock *pb, unsigned int flags);
 static unsigned int nr_arena_glyphs_group_clip(NRArenaItem *item, NRRectL *area, NRPixBlock *pb);
-static NRArenaItem *nr_arena_glyphs_group_pick(NRArenaItem *item, Geom::Point p, gdouble delta, unsigned int sticky);
+static NRArenaItem *nr_arena_glyphs_group_pick(NRArenaItem *item, Geom::Point p, gdouble delta, unsigned int flags);
 
 static NRArenaGroupClass *group_parent_class;
 
@@ -589,12 +589,12 @@ nr_arena_glyphs_group_clip(NRArenaItem *item, NRRectL *area, NRPixBlock *pb)
 }
 
 static NRArenaItem *
-nr_arena_glyphs_group_pick(NRArenaItem *item, Geom::Point p, gdouble delta, unsigned int sticky)
+nr_arena_glyphs_group_pick(NRArenaItem *item, Geom::Point p, gdouble delta, unsigned int flags)
 {
     NRArenaItem *picked = NULL;
 
     if (((NRArenaItemClass *) group_parent_class)->pick)
-        picked = ((NRArenaItemClass *) group_parent_class)->pick(item, p, delta, sticky);
+        picked = ((NRArenaItemClass *) group_parent_class)->pick(item, p, delta, flags);
 
     if (picked) picked = item;
 

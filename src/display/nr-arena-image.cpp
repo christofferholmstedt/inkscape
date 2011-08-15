@@ -41,7 +41,7 @@ static void nr_arena_image_finalize (NRObject *object);
 
 static unsigned int nr_arena_image_update (NRArenaItem *item, NRRectL *area, NRGC *gc, unsigned int state, unsigned int reset);
 static unsigned int nr_arena_image_render (cairo_t *ct, NRArenaItem *item, NRRectL *area, NRPixBlock *pb, unsigned int flags);
-static NRArenaItem *nr_arena_image_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int sticky);
+static NRArenaItem *nr_arena_image_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int flags);
 
 static NRArenaItemClass *parent_class;
 
@@ -278,7 +278,7 @@ distance_to_segment (Geom::Point p, Geom::Point a1, Geom::Point a2)
 }
 
 static NRArenaItem *
-nr_arena_image_pick( NRArenaItem *item, Geom::Point p, double delta, unsigned int /*sticky*/ )
+nr_arena_image_pick( NRArenaItem *item, Geom::Point p, double delta, unsigned int /*flags*/ )
 {
     NRArenaImage *image = NR_ARENA_IMAGE (item);
 

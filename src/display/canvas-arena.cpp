@@ -158,7 +158,8 @@ sp_canvas_arena_update (SPCanvasItem *item, Geom::Matrix const &affine, unsigned
 
     if (arena->cursor) {
         /* Mess with enter/leave notifiers */
-        NRArenaItem *new_arena = nr_arena_item_invoke_pick (arena->root, arena->c, arena->arena->delta, arena->sticky);
+        NRArenaItem *new_arena = nr_arena_item_invoke_pick (arena->root, arena->c, arena->arena->delta,
+            arena->sticky ? NR_ARENA_ITEM_PICK_STICKY : 0);
         if (new_arena != arena->active) {
             GdkEventCrossing ec;
             ec.window = GTK_WIDGET (item->canvas)->window;
@@ -235,7 +236,8 @@ sp_canvas_arena_point (SPCanvasItem *item, Geom::Point p, SPCanvasItem **actual_
                                  NR_ARENA_ITEM_STATE_BBOX | NR_ARENA_ITEM_STATE_PICK,
                                  NR_ARENA_ITEM_STATE_NONE);
 
-    NRArenaItem *picked = nr_arena_item_invoke_pick (arena->root, p, arena->arena->delta, arena->sticky);
+    NRArenaItem *picked = nr_arena_item_invoke_pick (arena->root, p, arena->arena->delta,
+        arena->sticky ? NR_ARENA_ITEM_PICK_STICKY : 0);
 
     arena->picked = picked;
 
@@ -271,7 +273,8 @@ sp_canvas_arena_event (SPCanvasItem *item, GdkEvent *event)
 
                 /* fixme: Not sure abut this, but seems the right thing (Lauris) */
                 nr_arena_item_invoke_update (arena->root, NULL, &arena->gc, NR_ARENA_ITEM_STATE_PICK, NR_ARENA_ITEM_STATE_NONE);
-                arena->active = nr_arena_item_invoke_pick (arena->root, arena->c, arena->arena->delta, arena->sticky);
+                arena->active = nr_arena_item_invoke_pick (arena->root, arena->c, arena->arena->delta,
+                    arena->sticky ? NR_ARENA_ITEM_PICK_STICKY : 0);
                 if (arena->active) nr_object_ref ((NRObject *) arena->active);
                 ret = sp_canvas_arena_send_event (arena, event);
             }
@@ -292,7 +295,8 @@ sp_canvas_arena_event (SPCanvasItem *item, GdkEvent *event)
 
             /* fixme: Not sure abut this, but seems the right thing (Lauris) */
             nr_arena_item_invoke_update (arena->root, NULL, &arena->gc, NR_ARENA_ITEM_STATE_PICK, NR_ARENA_ITEM_STATE_NONE);
-            new_arena = nr_arena_item_invoke_pick (arena->root, arena->c, arena->arena->delta, arena->sticky);
+            new_arena = nr_arena_item_invoke_pick (arena->root, arena->c, arena->arena->delta,
+                arena->sticky ? NR_ARENA_ITEM_PICK_STICKY : 0);
             if (new_arena != arena->active) {
                 GdkEventCrossing ec;
                 ec.window = event->motion.window;

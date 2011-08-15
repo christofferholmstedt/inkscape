@@ -36,7 +36,7 @@ static void nr_arena_group_set_child_position (NRArenaItem *item, NRArenaItem *c
 static unsigned int nr_arena_group_update (NRArenaItem *item, NRRectL *area, NRGC *gc, unsigned int state, unsigned int reset);
 static unsigned int nr_arena_group_render (cairo_t *ct, NRArenaItem *item, NRRectL *area, NRPixBlock *pb, unsigned int flags);
 static unsigned int nr_arena_group_clip (NRArenaItem *item, NRRectL *area, NRPixBlock *pb);
-static NRArenaItem *nr_arena_group_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int sticky);
+static NRArenaItem *nr_arena_group_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int flags);
 
 static NRArenaItemClass *parent_class;
 
@@ -249,12 +249,12 @@ nr_arena_group_clip (NRArenaItem *item, NRRectL *area, NRPixBlock *pb)
 }
 
 static NRArenaItem *
-nr_arena_group_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int sticky)
+nr_arena_group_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int flags)
 {
     NRArenaGroup *group = NR_ARENA_GROUP (item);
 
     for (NRArenaItem *child = group->last; child != NULL; child = child->prev) {
-        NRArenaItem *picked = nr_arena_item_invoke_pick (child, p, delta, sticky);
+        NRArenaItem *picked = nr_arena_item_invoke_pick (child, p, delta, flags);
         if (picked)
             return (group->transparent) ? picked : item;
     }

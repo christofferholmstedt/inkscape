@@ -314,7 +314,7 @@ nr_arena_item_invoke_render (cairo_t *ct, NRArenaItem *item, NRRectL const *area
    bool outline = (item->arena->rendermode == Inkscape::RENDERMODE_OUTLINE);
     bool filter = (item->arena->rendermode != Inkscape::RENDERMODE_OUTLINE &&
                    item->arena->rendermode != Inkscape::RENDERMODE_NO_FILTERS);
-    bool print_colors = (item->arena->rendermode == Inkscape::RENDERMODE_PRINT_COLORS_PREVIEW);
+    //bool print_colors = (item->arena->rendermode == Inkscape::RENDERMODE_PRINT_COLORS_PREVIEW);
 
     nr_return_val_if_fail (item != NULL, NR_ARENA_ITEM_STATE_INVALID);
     nr_return_val_if_fail (NR_IS_ARENA_ITEM (item),
@@ -643,7 +643,7 @@ nr_arena_item_invoke_clip (NRArenaItem *item, NRRectL *area, NRPixBlock *pb)
 
 NRArenaItem *
 nr_arena_item_invoke_pick (NRArenaItem *item, Geom::Point p, double delta,
-                           unsigned int sticky)
+                           unsigned int flags)
 {
     nr_return_val_if_fail (item != NULL, NULL);
     nr_return_val_if_fail (NR_IS_ARENA_ITEM (item), NULL);
@@ -653,8 +653,21 @@ nr_arena_item_invoke_pick (NRArenaItem *item, Geom::Point p, double delta,
         || !(item->state & NR_ARENA_ITEM_STATE_PICK))
         return NULL;
 
-    if (!sticky && !(item->visible && item->sensitive))
+    if (!(flags & NR_ARENA_ITEM_PICK_STICKY) && !(item->visible && item->sensitive))
         return NULL;
+
+    bool outline = (item->arena->rendermode == Inkscape::RENDERMODE_OUTLINE);
+    if (!outline) {
+        if (item->clip) {
+            NRArenaItem *cpick = nr_arena_item_invoke_pick(item->clip, p, delta,
+                flags | NR_ARENA_ITEM_PICK_AS_CLIP);
+            if (!cpick) return NULL;
+        }
+        if (item->mask) {
+            NRArenaItem *mpick = nr_arena_item_invoke_pick(item->mask, p, delta, flags);
+            if (!mpick) return NULL;
+        }
+    }
 
     // TODO: rewrite using Geom::Rect
     const double x = p[Geom::X];
@@ -665,7 +678,7 @@ nr_arena_item_invoke_pick (NRArenaItem *item, Geom::Point p, double delta,
         ((y + delta) >= item->bbox.y0) && ((y - delta) < item->bbox.y1)) {
         if (((NRArenaItemClass *) NR_OBJECT_GET_CLASS (item))->pick)
             return ((NRArenaItemClass *) NR_OBJECT_GET_CLASS (item))->
-                pick (item, p, delta, sticky);
+                pick (item, p, delta, flags);
     }
 
     return NULL;

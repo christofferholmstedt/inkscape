@@ -46,6 +46,9 @@
 #define NR_ARENA_ITEM_STATE_NONE  0x0000
 #define NR_ARENA_ITEM_STATE_ALL   0x01fe
 
+#define NR_ARENA_ITEM_PICK_STICKY  (1 << 1)
+#define NR_ARENA_ITEM_PICK_AS_CLIP (1 << 2)
+
 #define NR_ARENA_ITEM_STATE(i,s) (NR_ARENA_ITEM (i)->state & (s))
 #define NR_ARENA_ITEM_SET_STATE(i,s) (NR_ARENA_ITEM (i)->state |= (s))
 #define NR_ARENA_ITEM_UNSET_STATE(i,s) (NR_ARENA_ITEM (i)->state &= ~(s))
@@ -160,7 +163,7 @@ unsigned int nr_arena_item_invoke_update (NRArenaItem *item, NRRectL *area, NRGC
 unsigned int nr_arena_item_invoke_render(cairo_t *ct, NRArenaItem *item, NRRectL const *area, NRPixBlock *pb, unsigned int flags);
 
 unsigned int nr_arena_item_invoke_clip (NRArenaItem *item, NRRectL *area, NRPixBlock *pb);
-NRArenaItem *nr_arena_item_invoke_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int sticky);
+NRArenaItem *nr_arena_item_invoke_pick (NRArenaItem *item, Geom::Point p, double delta, unsigned int flags);
 
 void nr_arena_item_request_update (NRArenaItem *item, unsigned int reset, unsigned int propagate);
 void nr_arena_item_request_render (NRArenaItem *item);

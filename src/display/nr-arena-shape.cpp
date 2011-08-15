@@ -56,7 +56,7 @@ static void nr_arena_shape_set_child_position(NRArenaItem *item, NRArenaItem *ch
 static guint nr_arena_shape_update(NRArenaItem *item, NRRectL *area, NRGC *gc, guint state, guint reset);
 static unsigned int nr_arena_shape_render(cairo_t *ct, NRArenaItem *item, NRRectL *area, NRPixBlock *pb, unsigned int flags);
 static guint nr_arena_shape_clip(NRArenaItem *item, NRRectL *area, NRPixBlock *pb);
-static NRArenaItem *nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int sticky);
+static NRArenaItem *nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int flags);
 
 static NRArenaItemClass *shape_parent_class;
 
@@ -1074,7 +1074,7 @@ nr_arena_shape_clip(NRArenaItem *item, NRRectL *area, NRPixBlock *pb)
 }
 
 static NRArenaItem *
-nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int /*sticky*/)
+nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int flags)
 {
     NRArenaShape *shape = NR_ARENA_SHAPE(item);
 
@@ -1088,6 +1088,7 @@ nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int
     if (!shape->style) return NULL;
 
     bool outline = (NR_ARENA_ITEM(shape)->arena->rendermode == Inkscape::RENDERMODE_OUTLINE);
+    bool pick_as_clip = flags & NR_ARENA_ITEM_PICK_AS_CLIP;
 
     if (SP_SCALE24_TO_FLOAT(shape->style->opacity.value) == 0 && !outline) 
         // fully transparent, no pick unless outline mode
@@ -1097,7 +1098,9 @@ nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int
     g_get_current_time (&tstart);
 
     double width;
-    if (outline) {
+    if (pick_as_clip) {
+        width = 0;
+    } else if (outline) {
         width = 0.5;
     } else if (shape->_stroke.paint.type() != NRArenaShape::Paint::NONE && shape->_stroke.opacity > 1e-3) {
         float const scale = shape->ctm.descrim();
@@ -1108,7 +1111,7 @@ nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int
 
     double dist = NR_HUGE;
     int wind = 0;
-    bool needfill = (shape->_fill.paint.type() != NRArenaShape::Paint::NONE 
+    bool needfill = pick_as_clip || (shape->_fill.paint.type() != NRArenaShape::Paint::NONE 
              && shape->_fill.opacity > 1e-3 && !outline);
 
     if (item->arena->canvasarena) {
@@ -1129,7 +1132,7 @@ nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int
 
     // covered by fill?
     if (needfill) {
-        if (!shape->style->fill_rule.computed) {
+        if (!shape->style->fill_rule.computed || pick_as_clip) {
             if (wind != 0) {
                 shape->last_pick = item;
                 return item;
@@ -1153,7 +1156,8 @@ nr_arena_shape_pick(NRArenaItem *item, Geom::Point p, double delta, unsigned int
 
     // if not picked on the shape itself, try its markers
     for (NRArenaItem *child = shape->markers; child != NULL; child = child->next) {
-        NRArenaItem *ret = nr_arena_item_invoke_pick(child, p, delta, 0);
+        NRArenaItem *ret = nr_arena_item_invoke_pick(child, p, delta,
+            flags & ~NR_ARENA_ITEM_PICK_STICKY);
         if (ret) {
             shape->last_pick = item;
             return item;
