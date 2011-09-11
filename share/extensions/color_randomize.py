@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import coloreffect,random,inkex
 
 class C(coloreffect.ColorEffect):

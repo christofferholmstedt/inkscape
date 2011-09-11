@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import chardataeffect, inkex, string
 
 import random

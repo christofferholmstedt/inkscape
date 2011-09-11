@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import coloreffect,sys
 
 class C(coloreffect.ColorEffect):
