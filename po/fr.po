@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2010-10-20 21:07+0100\n"
+"PO-Revision-Date: 2011-09-12 21:25+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -13160,17 +13160,17 @@ msgstr "Guides autour de la page"
 
 #: ../src/sp-guide.cpp:421
 msgid "<b>Shift+drag</b> to rotate, <b>Ctrl+drag</b> to move origin, <b>Del</b> to delete"
-msgstr "<b>Maj+déplacer</b> pour pivoter, <b>Ctrl+déplacer</b>pour déplacer l’origine, <b>Del</b> pour supprimer"
+msgstr "<b>Maj+déplacer</b> pour pivoter, <b>Ctrl+déplacer</b> pour déplacer l’origine, <b>Del</b> pour supprimer"
 
 #: ../src/sp-guide.cpp:426
 #, c-format
 msgid "vertical, at %s"
-msgstr "vertical, à %s"
+msgstr "verticale, à %s"
 
 #: ../src/sp-guide.cpp:429
 #, c-format
 msgid "horizontal, at %s"
-msgstr "horizontal, à %s"
+msgstr "horizontale, à %s"
 
 #: ../src/sp-guide.cpp:434
 #, c-format
@@ -24882,6 +24882,7 @@ msgstr "Sphère fil de fer"
 
 #~ msgid "order"
 #~ msgstr "ordre"
+
 #~ msgid "type"
 #~ msgstr "type"
 
@@ -24892,9 +24893,11 @@ msgstr "Sphère fil de fer"
 #, fuzzy
 #~ msgid "mouse handler"
 #~ msgstr "gestionnaire de souris"
+
 #~ msgid "view"
 #~ msgstr "vue"
 #~ msgctxt "split"
+
 #~ msgid "Lines"
 #~ msgstr "Lignes"
 
@@ -24921,14 +24924,19 @@ msgstr "Sphère fil de fer"
 #, fuzzy
 #~ msgid "Transform handle tip"
 #~ msgstr "Poignée de transformation"
+
 #~ msgid "Select Font Size"
 #~ msgstr "Définir la taille de la police"
+
 #~ msgid "Toggle On/Off Bold Style"
 #~ msgstr "Basculer le style Gras"
+
 #~ msgid "Toggle On/Off Italic/Oblique Style"
 #~ msgstr "Basculer le style Italique/Oblique"
+
 #~ msgid "Horizontal Text"
 #~ msgstr "Texte horizontal"
+
 #~ msgid "Vertical Text"
 #~ msgstr "Texte vertical"
 
@@ -25053,52 +25061,71 @@ msgstr "Sphère fil de fer"
 #, fuzzy
 #~ msgid "tr"
 #~ msgstr "Étoile"
+
 #~ msgid "Refresh the icons"
 #~ msgstr "Rafraîchir les icônes"
+
 #~ msgid "How many digits to write after the decimal dot"
 #~ msgstr "Combien de chiffres écrire après le point décimal"
+
 #~ msgid "Color/opacity used for color spraying"
 #~ msgstr "Couleur et opacités pour la pulvérisation de couleur"
+
 #~ msgid "Show node transformation handles"
 #~ msgstr "Afficher les poignées de transformation de nœud"
+
 #~ msgid "Show next path effect parameter for editing"
 #~ msgstr "Afficher le paramètre d’effet de chemin suivant pour le modifier"
+
 #~ msgid "Select Font Family"
 #~ msgstr "Définir la famille de la police"
+
 #~ msgid ""
 #~ "This font is currently not installed on your system. Inkscape will use "
 #~ "the default font instead."
 #~ msgstr ""
 #~ "Cette police n’est pas installée sur votre système. Inkscape utilisera la "
 #~ "police par défaut à la place"
+
 #~ msgid "Bold"
 #~ msgstr "Gras"
+
 #~ msgid "Italic"
 #~ msgstr "Italique"
+
 #~ msgid "Note: The file extension is appended automatically."
 #~ msgstr "Note : l’extension du fichier est ajoutée automatiquement"
+
 #~ msgid "_Input Devices (new)..."
 #~ msgstr "Périphériques de saisie... (nouveau)"
+
 #~ msgid "Failed to read from child pipe (%s)"
 #~ msgstr "Échec de lecture sur le tube fils (%s)"
+
 #~ msgid "Failed to change to directory '%s' (%s)"
 #~ msgstr ""
 #~ "Impossible de choisir le répertoire %s.\n"
 #~ "%s"
+
 #~ msgid "Failed to execute child process (%s)"
 #~ msgstr "Échec lors de l’exécution du processus fils (%s)"
+
 #~ msgid "Invalid program name: %s"
 #~ msgstr "Nom de programme erroné : %s"
+
 #~ msgid "Invalid string in argument vector at %d: %s"
 #~ msgstr "Chaîne invalide dans le vecteur d’argument dans %d: %s"
+
 #~ msgid "Invalid string in environment: %s"
 #~ msgstr "Chaîne invalide dans l’environnement : %s"
+
 #~ msgid "Failed to create pipe for communicating with child process (%s)"
 #~ msgstr ""
 #~ "Échec de création d’un tube pour la communication avec le processus fils "
 #~ "(%s)"
+
 #~ msgid "Invalid working directory: %s"
 #~ msgstr "%s n’est pas un répertoire valide."
+
 #~ msgid "Failed to execute helper program (%s)"
 #~ msgstr "Échec de l’exécution du programme auxiliaire (%s)"
-
