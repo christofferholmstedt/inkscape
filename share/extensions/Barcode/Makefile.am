@@ -1,7 +1,7 @@
 
 barcodedir = $(datadir)/inkscape/extensions/Barcode
 
-barcode_SCRIPTS = \
+barcode_DATA = \
 	Base.py \
 	Code128.py \
 	Code39Ext.py \
@@ -16,5 +16,5 @@ barcode_SCRIPTS = \
 	UPCE.py
 
 EXTRA_DIST = \
-	$(barcode_SCRIPTS)
+	$(barcode_DATA)
 
