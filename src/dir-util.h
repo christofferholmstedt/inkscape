@@ -10,7 +10,7 @@
  */
 
 #include <stdlib.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 
 char const *sp_relative_path_from_path(char const *path, char const *base);
 char const *sp_extension_from_path(char const *path);

@@ -17,7 +17,6 @@
 
 #include <glib.h>
 #include <glib/gstdio.h>
-#include <glib/gutils.h>
 #include <glibmm/fileutils.h>
 #if GLIB_CHECK_VERSION(2,6,0)
     #include <glib/gstdio.h>

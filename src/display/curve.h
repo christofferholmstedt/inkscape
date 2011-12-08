@@ -15,8 +15,7 @@
  * Released under GNU GPL
  */
 
-#include <glib/gtypes.h>
-#include <glib/gslist.h>
+#include <glib.h>
 
 #include <2geom/forward.h>
 

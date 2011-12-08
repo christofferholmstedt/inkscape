@@ -27,7 +27,7 @@
 # endif
 #endif
 
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <gdk/gdk.h>
 #include <gtk/gtk.h>
 

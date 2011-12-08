@@ -7,9 +7,7 @@
 #include "util/share.h"
 #include "xml/attribute-record.h"
 #include "xml/node.h"
-#include <glib/gmem.h>
-#include <glib/gurifuncs.h>
-#include <glib/gutils.h>
+#include <glib.h>
 using Inkscape::XML::AttributeRecord;
 
 

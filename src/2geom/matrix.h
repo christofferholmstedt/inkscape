@@ -17,7 +17,7 @@
  * This code is in public domain.
  */
 
-//#include <glib/gmessages.h>
+//#include <glib.h>
 
 #include <2geom/point.h>
 

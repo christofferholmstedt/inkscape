@@ -12,7 +12,7 @@
 #include "document.h"
 #include "sp-object.h"
 
-#include <glib/gmessages.h>
+#include <glib.h>
 
 #include <sigc++/signal.h>
 #include <sigc++/functors/mem_fun.h>

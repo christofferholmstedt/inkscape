@@ -7,11 +7,7 @@
 #include <errno.h>
 #include <string>
 #include <cstring>
-#include <glib/gutils.h>
-#include <glib/gmem.h>
-#include <glib/gerror.h>
-#include <glib/gconvert.h>
-#include <glib/gstrfuncs.h>
+#include <glib.h>
 
 /** Returns a form of \a path relative to \a base if that is easy to construct (e.g. if \a path
     appears to be in the directory specified by \a base), otherwise returns \a path.

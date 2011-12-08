@@ -13,7 +13,7 @@
 #ifndef INKSCAPE_APPLICATION_APPLICATION_H
 #define INKSCAPE_APPLICATION_APPLICATION_H
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 namespace Gtk {
 class Main;

@@ -13,7 +13,7 @@
  *
  */
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 #include <display/sp-canvas.h>
 

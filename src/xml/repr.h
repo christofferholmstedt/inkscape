@@ -14,7 +14,7 @@
 #define __SP_REPR_H__
 
 #include <stdio.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 #include "gc-anchored.h"
 
 #include "xml/node.h"

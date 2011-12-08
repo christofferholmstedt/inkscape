@@ -49,7 +49,7 @@ class XRef;
 class SPCSSAttr;
 
 #include <vector>
-#include <glib/gtypes.h>
+#include <glib.h>
 
 namespace Inkscape {
 namespace Extension {

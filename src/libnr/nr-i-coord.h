@@ -1,7 +1,7 @@
 #ifndef SEEN_NR_I_COORD_H
 #define SEEN_NR_I_COORD_H
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 namespace NR {
 

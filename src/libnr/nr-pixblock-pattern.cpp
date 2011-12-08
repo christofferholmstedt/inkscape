@@ -10,7 +10,7 @@
  */
 
 
-#include <glib/gmem.h>
+#include <glib.h>
 #include "nr-pixops.h"
 #include "nr-pixblock-pattern.h"
 

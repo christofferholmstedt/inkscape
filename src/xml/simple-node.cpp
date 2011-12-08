@@ -16,7 +16,7 @@
 
 #include <cstring>
 #include <string>
-#include <glib/gstrfuncs.h>
+#include <glib.h>
 
 #include "xml/node.h"
 #include "xml/simple-node.h"

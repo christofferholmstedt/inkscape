@@ -13,7 +13,7 @@
 #include <cstring>
 #include <string>
 #include <string.h>
-#include <glib/gmem.h>
+#include <glib.h>
 #include "nr-pixblock.h"
 
 /// Size of buffer that needs no allocation (default 4).

@@ -3,7 +3,7 @@
 
 #include <cassert>
 #include <cmath>
-#include <glib/gmacros.h>
+#include <glib.h>
 #include <stdlib.h>
 
 #include "libnr/nr-point-fns.h"

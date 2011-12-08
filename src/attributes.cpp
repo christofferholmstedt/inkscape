@@ -17,8 +17,7 @@
 # include "config.h"
 #endif
 
-#include <glib.h> // g_assert()
-#include <glib/ghash.h>
+#include <glib.h>
 #include "attributes.h"
 
 typedef struct {

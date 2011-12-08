@@ -26,7 +26,7 @@
 #include <libnr/nr-blit.h>
 #include <libnr/nr-gradient.h>
 #include <libnr/nr-matrix-ops.h>
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <stdio.h>
 
 /* Common */

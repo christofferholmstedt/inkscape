@@ -16,7 +16,7 @@
 #define INKSCAPE_APPLICATION_EDITOR_H
 
 #include <sigc++/sigc++.h>
-#include <glib/gslist.h>
+#include <glib.h>
 #include <glibmm/ustring.h>
 #include <set>
 #include "app-prototype.h"

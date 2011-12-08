@@ -39,7 +39,7 @@
 #include <sys/stat.h>
 #include <locale.h>
 
-#include <glib/gmem.h>
+#include <glib.h>
 #include <libnr/nr-macros.h>
 
 // #include <stropts.h>

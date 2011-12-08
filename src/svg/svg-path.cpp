@@ -31,10 +31,7 @@
 #include <cstring>
 #include <string>
 #include <cassert>
-#include <glib/gmem.h>
-#include <glib/gmessages.h>
-#include <glib/gstrfuncs.h>
-#include <glib.h> // g_assert()
+#include <glib.h>
 
 #include "svg/svg.h"
 #include "svg/path-string.h"

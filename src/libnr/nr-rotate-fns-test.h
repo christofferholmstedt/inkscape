@@ -1,7 +1,7 @@
 #include <cxxtest/TestSuite.h>
 
 #include <cmath>
-#include <glib/gmacros.h>
+#include <glib.h>
 
 #include <libnr/nr-rotate-fns.h>
 

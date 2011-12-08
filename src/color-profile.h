@@ -5,7 +5,7 @@
  * SPColorProfile: SVG <color-profile> implementation
  */
 
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <sp-object.h>
 #include <glibmm/ustring.h>
 #if ENABLE_LCMS

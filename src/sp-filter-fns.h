@@ -5,7 +5,7 @@
  * Macros and fn declarations related to filters.
  */
 
-#include <glib/gtypes.h>
+#include <glib.h>
 #include <glib-object.h>
 #include "libnr/nr-forward.h"
 #include "sp-filter-units.h"

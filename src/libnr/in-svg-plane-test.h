@@ -1,6 +1,6 @@
 #include <cxxtest/TestSuite.h>
 
-#include <glib/gmacros.h>
+#include <glib.h>
 #include <cmath>
 
 #include "libnr/in-svg-plane.h"

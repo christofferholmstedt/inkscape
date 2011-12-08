@@ -19,7 +19,7 @@
 # include "config.h"
 #endif
 
-#include <glib/gmem.h>
+#include <glib.h>
 #include <gtk/gtk.h>
 #include "sp-namedview.h"
 #include "selection.h"

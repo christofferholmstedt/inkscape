@@ -29,7 +29,7 @@
 #include "svg/svg.h"
 #include "display/canvas-bpath.h"
 
-#include <glib/gmem.h>
+#include <glib.h>
 #include "macros.h"
 #include "document.h"
 #include "selection.h"

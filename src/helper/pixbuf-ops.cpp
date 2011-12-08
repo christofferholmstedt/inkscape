@@ -18,7 +18,6 @@
 #include <interface.h>
 #include <libnr/nr-pixops.h>
 #include <glib.h>
-#include <glib/gmessages.h>
 #include <png.h>
 #include "png-write.h"
 #include <display/nr-arena-item.h>

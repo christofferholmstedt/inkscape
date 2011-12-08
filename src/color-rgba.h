@@ -12,8 +12,7 @@
 #ifndef SEEN_COLOR_RGBA_H
 #define SEEN_COLOR_RGBA_H
 
-#include <glib.h> // g_assert()
-#include <glib/gmessages.h>
+#include <glib.h>
 #include "libnr/nr-pixops.h"
 #include "decimal-round.h"
 

@@ -15,7 +15,7 @@
 #include "config.h"
 #endif
 
-#include <glib/gtypes.h>
+#include <glib.h>
 #include "gc-managed.h"
 #include "gc-finalized.h"
 #include "gc-anchored.h"

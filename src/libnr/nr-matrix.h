@@ -17,8 +17,7 @@
  * This code is in public domain.
  */
 
-#include <glib.h> // g_assert()
-#include <glib/gmessages.h>
+#include <glib.h>
 
 #include "libnr/nr-coord.h"
 #include "libnr/nr-values.h"

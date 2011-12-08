@@ -13,7 +13,7 @@
 # include "config.h"
 #endif
 
-#include <glib/gmem.h>
+#include <glib.h>
 #include <libnr/nr-macros.h>
 #include <2geom/transforms.h>
 

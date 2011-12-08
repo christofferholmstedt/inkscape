@@ -15,7 +15,7 @@
 
 #include <typeinfo>
 
-#include <glib/gmem.h>
+#include <glib.h>
 #include <libnr/nr-macros.h>
 
 #include "nr-object.h"

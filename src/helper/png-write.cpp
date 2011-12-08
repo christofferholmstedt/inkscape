@@ -20,7 +20,7 @@
 #include <libnr/nr-pixops.h>
 #include <libnr/nr-translate-scale-ops.h>
 #include <2geom/rect.h>
-#include <glib/gmessages.h>
+#include <glib.h>
 #include <png.h>
 #include "png-write.h"
 #include "io/sys.h"

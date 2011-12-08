@@ -16,7 +16,7 @@
  *
  */
 
-#include <glib/gtypes.h>
+#include <glib.h>
 #include "sp-canvas.h"
 
 #define SP_TYPE_CTRLRECT (sp_ctrlrect_get_type ())
