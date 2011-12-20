@@ -588,7 +588,7 @@ CanvasAxonomGrid::Render (SPCanvasBuf *buf)
     // x-axis always goes from topleft to bottomright. (0,0) - (1,1)
     gdouble const xintercept_y_bc = (buf_tl_gc[Geom::X] * tan_angle[X]) - buf_tl_gc[Geom::Y] ;
     gdouble const xstart_y_sc = ( xintercept_y_bc - floor(xintercept_y_bc/lyw)*lyw ) + buf->rect.y0;
-    gint const xlinestart = (gint) Inkscape::round( (xstart_y_sc - buf->rect.x0*tan_angle[X] -ow[Geom::Y]) / lyw );
+    gint const xlinestart = (gint) Inkscape::round( (xstart_y_sc - buf_tl_gc[Geom::X]*tan_angle[X] -ow[Geom::Y]) / lyw );
     gint xlinenum = xlinestart;
     // lines starting on left side.
     for (y = xstart_y_sc; y < buf->rect.y1; y += lyw, xlinenum++) {
@@ -636,7 +636,7 @@ CanvasAxonomGrid::Render (SPCanvasBuf *buf)
     // z-axis always goes from bottomleft to topright. (0,1) - (1,0)
     gdouble const zintercept_y_bc = (buf_tl_gc[Geom::X] * -tan_angle[Z]) - buf_tl_gc[Geom::Y] ;
     gdouble const zstart_y_sc = ( zintercept_y_bc - floor(zintercept_y_bc/lyw)*lyw ) + buf->rect.y0;
-    gint const  zlinestart = (gint) Inkscape::round( (zstart_y_sc + buf->rect.x0*tan_angle[Z] - ow[Geom::Y]) / lyw );
+    gint const  zlinestart = (gint) Inkscape::round( (zstart_y_sc + buf_tl_gc[Geom::X]*tan_angle[Z] - ow[Geom::Y]) / lyw );
     gint zlinenum = zlinestart;
     // lines starting from left side
     for (y = zstart_y_sc; y < buf->rect.y1; y += lyw, zlinenum++) {
