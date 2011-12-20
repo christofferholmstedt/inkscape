@@ -1,7 +1,7 @@
 /** @file
  * @brief Cartesian grid implementation
  */
-/* Copyright (C) Johan Engelen 2006-2007 <johan@shouraizou.nl>
+/* Copyright (C) Johan Engelen 2006-2011 <johan@shouraizou.nl>
  * Copyright (C) Lauris Kaplinski 2000
  */
 
@@ -20,6 +20,7 @@
 #include "desktop-handles.h"
 #include "helper/units.h"
 #include "svg/svg-color.h"
+#include "svg/stringstream.h"
 #include "xml/node-event-vector.h"
 #include "sp-object.h"
 
@@ -373,6 +374,21 @@ bool CanvasGrid::isEnabled()
     }
 
     return snapper->getEnabled();
+}
+
+void CanvasGrid::setOrigin(Geom::Point const &origin_px)
+{
+    Inkscape::SVGOStringStream os_x, os_y;
+    gdouble val;
+ 
+    val = origin_px[Geom::X];
+    val = sp_pixels_get_units (val, *gridunit);
+    os_x << val << sp_unit_get_abbreviation(gridunit);
+    val = origin_px[Geom::Y];
+    val = sp_pixels_get_units (val, *gridunit);
+    os_y << val << sp_unit_get_abbreviation(gridunit);
+    repr->setAttribute("originx", os_x.str().c_str());
+    repr->setAttribute("originy", os_y.str().c_str());
 }
 
 // ##########################################################
