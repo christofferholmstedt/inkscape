@@ -89,7 +89,7 @@ public:
     void invertSelection();
     void spatialGrow(SelectableControlPoint *origin, int dir);
 
-    virtual bool event(GdkEvent *);
+    virtual bool event(SPEventContext *, GdkEvent *);
 
     void transform(Geom::Matrix const &m);
     void align(Geom::Dim2 d);
