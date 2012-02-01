@@ -145,3 +145,4 @@ src/svg/test-svg.cpp
 src/util/test-util.cpp
 src/xml/test-xml.cpp
 gc.log
+mkinstalldirs
