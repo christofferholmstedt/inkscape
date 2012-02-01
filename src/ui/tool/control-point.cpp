@@ -18,6 +18,8 @@
 #include "event-context.h"
 #include "message-context.h"
 #include "preferences.h"
+#include "snap-preferences.h"
+#include "sp-namedview.h"
 #include "ui/tool/control-point.h"
 #include "ui/tool/event-utils.h"
 
@@ -392,11 +394,8 @@ bool ControlPoint::_eventHandler(SPEventContext *event_context, GdkEvent *event)
             _event_grab = false;
 
             if (_drag_initiated) {
-                sp_canvas_end_forced_full_redraws(_desktop->canvas);
-            }
-
-            if (_drag_initiated) {
                 // it is the end of a drag
+                sp_canvas_end_forced_full_redraws(_desktop->canvas);
                 _drag_initiated = false;
                 ungrabbed(&event->button);
                 return true;
@@ -433,8 +432,49 @@ bool ControlPoint::_eventHandler(SPEventContext *event_context, GdkEvent *event)
         break;
 
     // update tips on modifier state change
-    // TODO add ESC keybinding as drag cancel
     case GDK_KEY_PRESS:
+        // ignore Escape if this is not a drag
+        if (_drag_initiated && get_group0_keyval(&event->key) == GDK_Escape) {
+
+            // temporarily disable snapping - we might snap to a different place than we were initially
+            sp_event_context_discard_delayed_snap_event(_desktop->event_context);
+            SnapPreferences &snapprefs = _desktop->namedview->snap_manager.snapprefs;
+            bool snap_save = snapprefs.getSnapEnabledGlobally();
+            snapprefs.setSnapEnabledGlobally(false);
+
+            Geom::Point new_pos = _drag_origin;
+
+            // make a fake event for dragging
+            // ASSUMPTION: dragging a point without modifiers will never prevent us from moving it
+            //             to its original position
+            GdkEventMotion fake;
+            fake.type = GDK_MOTION_NOTIFY;
+            fake.window = event->key.window;
+            fake.send_event = event->key.send_event;
+            fake.time = event->key.time;
+            fake.x = 0; // not used in handlers (and shouldn't be)
+            fake.y = 0; // not used in handlers (and shouldn't be)
+            fake.axes = NULL;
+            fake.state = 0; // unconstrained drag
+            fake.is_hint = FALSE;
+            fake.device = NULL;
+            fake.x_root = -1; // not used in handlers (and shouldn't be)
+            fake.y_root = -1; // can be used as a flag to check for cancelled drag
+            
+            dragged(new_pos, &fake);
+
+            sp_canvas_item_ungrab(_canvas_item, event->key.time);
+            _clearMouseover(); // this will also reset state to normal
+            sp_canvas_end_forced_full_redraws(_desktop->canvas);
+            _event_grab = false;
+            _drag_initiated = false;
+
+            ungrabbed(NULL); // ungrabbed handlers can handle a NULL event
+
+            snapprefs.setSnapEnabledGlobally(snap_save);
+            return true;
+        }
+        // fall through if this was not Escape
     case GDK_KEY_RELEASE: 
         if (mouseovered_point != this) return false;
         if (_drag_initiated) {
@@ -557,6 +597,11 @@ void ControlPoint::_setState(State state)
 void ControlPoint::_setColors(ColorEntry colors)
 {
     g_object_set(_canvas_item, "fill_color", colors.fill, "stroke_color", colors.stroke, NULL);
+}
+
+bool ControlPoint::_is_drag_cancelled(GdkEventMotion *event)
+{
+    return !event || event->x_root == -1;
 }
 
 // dummy implementations for handlers
