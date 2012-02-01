@@ -831,7 +831,7 @@ sp_offset_distance_to_original (SPOffset * offset, Geom::Point px)
         for (int i = 0; i < theRes->numberOfPoints(); i++)
         {
             if (theRes->getPoint(i).totalDegree() > 0)
-	    {
+        {
                 Geom::Point nx = theRes->getPoint(i).x;
                 Geom::Point nxpx = px-nx;
                 double ndist = sqrt (dot(nxpx,nxpx));
@@ -1025,30 +1025,37 @@ sp_offset_move_compensate(Geom::Matrix const *mp, SPItem */*original*/, SPOffset
 {
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
     guint mode = prefs->getInt("/options/clonecompensation/value", SP_CLONE_COMPENSATION_PARALLEL);
-    if (mode == SP_CLONE_COMPENSATION_NONE) return;
 
-    Geom::Matrix m(*mp);
-    if (!(m.isTranslation())) return;
-
-    // calculate the compensation matrix and the advertized movement matrix
     SPItem *item = SP_ITEM(self);
 
-    Geom::Matrix compensate;
+    Geom::Matrix m(*mp);
+    if (!(m.isTranslation()) || mode == SP_CLONE_COMPENSATION_NONE) {
+        self->sourceDirty=true;
+        item->requestDisplayUpdate(SP_OBJECT_MODIFIED_FLAG);
+        return;
+    }
+
+    // calculate the compensation matrix and the advertized movement matrix
+    sp_object_read_attr(item, "transform");
+
+    Geom::Matrix t = self->transform;
+    Geom::Matrix offset_move = t.inverse() * m * t;
     Geom::Matrix advertized_move;
 
-    if (mode == SP_CLONE_COMPENSATION_UNMOVED) {
-        compensate = Geom::identity();
-        advertized_move.setIdentity();
-    } else if (mode == SP_CLONE_COMPENSATION_PARALLEL) {
-        compensate = m;
+    if (mode == SP_CLONE_COMPENSATION_PARALLEL) {
+        offset_move = offset_move.inverse() * m;
         advertized_move = m;
+    } else if (mode == SP_CLONE_COMPENSATION_UNMOVED) {
+        offset_move = offset_move.inverse();
+        advertized_move.setIdentity();
     } else {
         g_assert_not_reached();
     }
 
-    item->transform *= compensate;
+    self->sourceDirty = true;
 
     // commit the compensation
+    item->transform *= offset_move;
     sp_item_write_transform(item, SP_OBJECT_REPR(item), item->transform, &advertized_move);
     SP_OBJECT(item)->requestDisplayUpdate(SP_OBJECT_MODIFIED_FLAG);
 }
@@ -1071,12 +1078,13 @@ sp_offset_delete_self(SPObject */*deleted*/, SPOffset *offset)
 }
 
 static void
-sp_offset_source_modified (SPObject */*iSource*/, guint /*flags*/, SPItem *item)
+sp_offset_source_modified (SPObject */*iSource*/, guint flags, SPItem *item)
 {
     SPOffset *offset = SP_OFFSET(item);
-    offset->sourceDirty=true;
-    refresh_offset_source(offset);
-    sp_shape_set_shape ((SPShape *) offset);
+    offset->sourceDirty = true;
+    if (flags & (SP_OBJECT_MODIFIED_FLAG | SP_OBJECT_CHILD_MODIFIED_FLAG)) {
+        offset->requestDisplayUpdate(SP_OBJECT_MODIFIED_FLAG);
+    }
 }
 
 static void
@@ -1107,6 +1115,15 @@ refresh_offset_source(SPOffset* offset)
     orig->LoadPathVector(curve->get_pathvector());
     curve->unref();
 
+    if (!item->transform.isIdentity()) {
+        gchar const *t_attr = SP_OBJECT_REPR(item)->attribute("transform");
+        if (t_attr) {
+            Geom::Matrix t;
+            if (sp_svg_transform_read(t_attr, &t)) {
+                orig->Transform(t);
+            }
+        }
+    }
 
     // Finish up.
     {
