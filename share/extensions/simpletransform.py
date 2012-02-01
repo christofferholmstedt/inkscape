@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 '''
 Copyright (C) 2006 Jean-Francois Barraud, barraud@math.univ-lille1.fr
+Copyright (C) 2010 Alvin Penner, penner@vaxxine.com
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -88,6 +89,14 @@ def composeTransform(M1,M2):
     v2 = M1[1][0]*M2[0][2] + M1[1][1]*M2[1][2] + M1[1][2]
     return [[a11,a12,v1],[a21,a22,v2]]
 
+def composeParents(node, mat):
+    trans = node.get('transform')
+    if trans:
+        mat = composeTransform(parseTransform(trans), mat)
+    if node.getparent().tag == inkex.addNS('g','svg'):
+        mat = composeParents(node.getparent(), mat)
+    return mat
+
 def applyTransformToNode(mat,node):
     m=parseTransform(node.get("transform"))
     newtransf=formatTransform(composeTransform(mat,m))
@@ -142,6 +151,44 @@ def roughBBox(path):
                 yMax = max(yMax,pt[1])
     return xmin,xMax,ymin,yMax
 
+def refinedBBox(path):
+    xmin,xMax,ymin,yMax = path[0][0][1][0],path[0][0][1][0],path[0][0][1][1],path[0][0][1][1]
+    for pathcomp in path:
+        for i in range(1, len(pathcomp)):
+            cmin, cmax = cubicExtrema(pathcomp[i-1][1][0], pathcomp[i-1][2][0], pathcomp[i][0][0], pathcomp[i][1][0])
+            xmin = min(xmin, cmin)
+            xMax = max(xMax, cmax)
+            cmin, cmax = cubicExtrema(pathcomp[i-1][1][1], pathcomp[i-1][2][1], pathcomp[i][0][1], pathcomp[i][1][1])
+            ymin = min(ymin, cmin)
+            yMax = max(yMax, cmax)
+    return xmin,xMax,ymin,yMax
+
+def cubicExtrema(y0, y1, y2, y3):
+    cmin = min(y0, y3)
+    cmax = max(y0, y3)
+    d1 = y1 - y0
+    d2 = y2 - y1
+    d3 = y3 - y2
+    if (d1 - 2*d2 + d3):
+        if (d2*d2 > d1*d3):
+            t = (d1 - d2 + math.sqrt(d2*d2 - d1*d3))/(d1 - 2*d2 + d3)
+            if (t > 0) and (t < 1):
+                y = y0*(1-t)*(1-t)*(1-t) + 3*y1*t*(1-t)*(1-t) + 3*y2*t*t*(1-t) + y3*t*t*t
+                cmin = min(cmin, y)
+                cmax = max(cmax, y)
+            t = (d1 - d2 - math.sqrt(d2*d2 - d1*d3))/(d1 - 2*d2 + d3)
+            if (t > 0) and (t < 1):
+                y = y0*(1-t)*(1-t)*(1-t) + 3*y1*t*(1-t)*(1-t) + 3*y2*t*t*(1-t) + y3*t*t*t
+                cmin = min(cmin, y)
+                cmax = max(cmax, y)
+    elif (d3 - d1):
+        t = -d1/(d3 - d1)
+        if (t > 0) and (t < 1):
+            y = y0*(1-t)*(1-t)*(1-t) + 3*y1*t*(1-t)*(1-t) + 3*y2*t*t*(1-t) + y3*t*t*t
+            cmin = min(cmin, y)
+            cmax = max(cmax, y)
+    return cmin, cmax
+
 def computeBBox(aList,mat=[[1,0,0],[0,1,0]]):
     bbox=None
     for node in aList:
@@ -153,7 +200,7 @@ def computeBBox(aList,mat=[[1,0,0],[0,1,0]]):
             d = node.get('d')
         elif node.get('points'):
             d = 'M' + node.get('points')
-        elif node.tag in [ inkex.addNS('rect','svg'), 'rect' ]:
+        elif node.tag in [ inkex.addNS('rect','svg'), 'rect', inkex.addNS('image','svg'), 'image' ]:
             d = 'M' + node.get('x', '0') + ',' + node.get('y', '0') + \
                 'h' + node.get('width') + 'v' + node.get('height') + \
                 'h-' + node.get('width')
@@ -179,7 +226,7 @@ def computeBBox(aList,mat=[[1,0,0],[0,1,0]]):
         if d is not None:
             p = cubicsuperpath.parsePath(d)
             applyTransformToPath(m,p)
-            bbox=boxunion(roughBBox(p),bbox)
+            bbox=boxunion(refinedBBox(p),bbox)
 
         elif node.tag == inkex.addNS('use','svg') or node.tag=='use':
             refid=node.get(inkex.addNS('href','xlink'))
@@ -191,4 +238,4 @@ def computeBBox(aList,mat=[[1,0,0],[0,1,0]]):
     return bbox
 
 
-# vim: expandtab shiftwidth=4 tabstop=8 softtabstop=4 encoding=utf-8 textwidth=99
+# vim: expandtab shiftwidth=4 tabstop=8 softtabstop=4 fileencoding=utf-8 textwidth=99

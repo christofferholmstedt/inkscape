@@ -145,6 +145,7 @@ extensions = \
 	uniconv-ext.py \
 	uniconv_output.py \
 	voronoi.py \
+	voronoi2svg.py \
 	webslicer_create_group.py \
 	webslicer_create_rect.py \
 	webslicer_effect.py \
