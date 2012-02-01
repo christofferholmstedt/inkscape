@@ -709,21 +709,21 @@ int FilterGaussian::render(FilterSlot &slot, FilterUnits const &units)
     } else if ( scr_len_x > 0 ) { // !use_IIR_x
         // Filter kernel for x direction
         FIRValue kernel[scr_len_x+1];
-        _make_kernel(kernel, deviation_x);
+        _make_kernel(&kernel[0], deviation_x);
 
         // Filter (x)
         switch(in->mode) {
         case NR_PIXBLOCK_MODE_A8:        ///< Grayscale
-            filter2D_FIR<unsigned char,1>(NR_PIXBLOCK_PX(out), 1, out->rs, NR_PIXBLOCK_PX(ssin), 1, ssin->rs, width, height, kernel, scr_len_x, NTHREADS);
+            filter2D_FIR<unsigned char,1>(NR_PIXBLOCK_PX(out), 1, out->rs, NR_PIXBLOCK_PX(ssin), 1, ssin->rs, width, height, &kernel[0], scr_len_x, NTHREADS);
             break;
         case NR_PIXBLOCK_MODE_R8G8B8:    ///< 8 bit RGB
-            filter2D_FIR<unsigned char,3>(NR_PIXBLOCK_PX(out), 3, out->rs, NR_PIXBLOCK_PX(ssin), 3, ssin->rs, width, height, kernel, scr_len_x, NTHREADS);
+            filter2D_FIR<unsigned char,3>(NR_PIXBLOCK_PX(out), 3, out->rs, NR_PIXBLOCK_PX(ssin), 3, ssin->rs, width, height, &kernel[0], scr_len_x, NTHREADS);
             break;
         //case NR_PIXBLOCK_MODE_R8G8B8A8N: ///< Normal 8 bit RGBA
-        //    filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), 4, out->rs, NR_PIXBLOCK_PX(ssin), 4, ssin->rs, width, height, kernel, scr_len_x, NTHREADS);
+        //    filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), 4, out->rs, NR_PIXBLOCK_PX(ssin), 4, ssin->rs, width, height, &kernel[0], scr_len_x, NTHREADS);
         //    break;
         case NR_PIXBLOCK_MODE_R8G8B8A8P: ///< Premultiplied 8 bit RGBA
-            filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), 4, out->rs, NR_PIXBLOCK_PX(ssin), 4, ssin->rs, width, height, kernel, scr_len_x, NTHREADS);
+            filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), 4, out->rs, NR_PIXBLOCK_PX(ssin), 4, ssin->rs, width, height, &kernel[0], scr_len_x, NTHREADS);
             break;
         default:
             assert(false);
@@ -771,21 +771,21 @@ int FilterGaussian::render(FilterSlot &slot, FilterUnits const &units)
     } else if ( scr_len_y > 0 ) { // !use_IIR_y
         // Filter kernel for y direction
         FIRValue kernel[scr_len_y+1];
-        _make_kernel(kernel, deviation_y);
+        _make_kernel(&kernel[0], deviation_y);
 
         // Filter (y)
         switch(in->mode) {
         case NR_PIXBLOCK_MODE_A8:        ///< Grayscale
-            filter2D_FIR<unsigned char,1>(NR_PIXBLOCK_PX(out), out->rs, 1, NR_PIXBLOCK_PX(out), out->rs, 1, height, width, kernel, scr_len_y, NTHREADS);
+            filter2D_FIR<unsigned char,1>(NR_PIXBLOCK_PX(out), out->rs, 1, NR_PIXBLOCK_PX(out), out->rs, 1, height, width, &kernel[0], scr_len_y, NTHREADS);
             break;
         case NR_PIXBLOCK_MODE_R8G8B8:    ///< 8 bit RGB
-            filter2D_FIR<unsigned char,3>(NR_PIXBLOCK_PX(out), out->rs, 3, NR_PIXBLOCK_PX(out), out->rs, 3, height, width, kernel, scr_len_y, NTHREADS);
+            filter2D_FIR<unsigned char,3>(NR_PIXBLOCK_PX(out), out->rs, 3, NR_PIXBLOCK_PX(out), out->rs, 3, height, width, &kernel[0], scr_len_y, NTHREADS);
             break;
         //case NR_PIXBLOCK_MODE_R8G8B8A8N: ///< Normal 8 bit RGBA
-        //    filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), out->rs, 4, NR_PIXBLOCK_PX(out), out->rs, 4, height, width, kernel, scr_len_y, NTHREADS);
+        //    filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), out->rs, 4, NR_PIXBLOCK_PX(out), out->rs, 4, height, width, &kernel[0], scr_len_y, NTHREADS);
         //    break;
         case NR_PIXBLOCK_MODE_R8G8B8A8P: ///< Premultiplied 8 bit RGBA
-            filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), out->rs, 4, NR_PIXBLOCK_PX(out), out->rs, 4, height, width, kernel, scr_len_y, NTHREADS);
+            filter2D_FIR<unsigned char,4>(NR_PIXBLOCK_PX(out), out->rs, 4, NR_PIXBLOCK_PX(out), out->rs, 4, height, width, &kernel[0], scr_len_y, NTHREADS);
             break;
         default:
             assert(false);
