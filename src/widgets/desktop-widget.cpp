@@ -1226,13 +1226,11 @@ void SPDesktopWidget::layoutWidgets()
         pref_root = "/window/";
     }
 
-#ifndef GDK_WINDOWING_QUARTZ
     if (!prefs->getBool(pref_root + "menu/state", true)) {
         gtk_widget_hide_all (dtw->menubar);
     } else {
         gtk_widget_show_all (dtw->menubar);
     }
-#endif
 
     if (!prefs->getBool(pref_root + "commands/state", true)) {
         gtk_widget_hide_all (dtw->commands_toolbox);
@@ -1427,10 +1425,8 @@ SPDesktopWidget* SPDesktopWidget::createInstance(SPNamedView *namedview)
     dtw->layer_selector->setDesktop(dtw->desktop);
 
     dtw->menubar = sp_ui_main_menubar (dtw->desktop);
-#ifndef GDK_WINDOWING_QUARTZ
     gtk_widget_show_all (dtw->menubar);
     gtk_box_pack_start (GTK_BOX (dtw->vbox), dtw->menubar, FALSE, FALSE, 0);
-#endif
 
     dtw->layoutWidgets();
 
