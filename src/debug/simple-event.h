@@ -14,7 +14,7 @@
 
 #include <stdarg.h>
 #include <vector>
-#include <glib.h>
+#include <glib.h> // g_assert()
 
 #include "gc-alloc.h"
 #include "debug/event.h"

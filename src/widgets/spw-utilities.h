@@ -19,8 +19,7 @@
 */
 
 #include <glib.h>
-
-typedef struct _GtkWidget GtkWidget;
+#include <gtk/gtk.h>
 
 namespace Gtk {
   class Label;

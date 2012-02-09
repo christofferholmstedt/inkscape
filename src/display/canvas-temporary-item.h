@@ -16,6 +16,7 @@
 
 #include <stddef.h>
 #include <sigc++/sigc++.h>
+#include <glib.h>
 
 namespace Inkscape {
 namespace Display {

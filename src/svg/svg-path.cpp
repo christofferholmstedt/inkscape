@@ -31,7 +31,7 @@
 #include <cstring>
 #include <string>
 #include <cassert>
-#include <glib.h>
+#include <glib.h> // g_assert()
 
 #include "svg/svg.h"
 #include "svg/path-string.h"

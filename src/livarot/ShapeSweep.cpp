@@ -10,6 +10,8 @@
 #include <cstdlib>
 #include <cstring>
 #include <glib.h>
+
+#include <2geom/matrix.h>
 #include "Shape.h"
 #include "livarot/sweep-event-queue.h"
 #include "livarot/sweep-tree-list.h"

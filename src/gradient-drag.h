@@ -14,8 +14,8 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
-#include <glib.h>
 #include <stddef.h>
+#include <glib.h>
 #include <sigc++/sigc++.h>
 #include <vector>
 

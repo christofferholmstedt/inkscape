@@ -23,7 +23,7 @@
 #include <string>
 #include <cassert>
 #include <math.h>
-#include <glib.h>
+#include <glib.h> // g_assert
 #include <errno.h>
 
 #include "strneq.h"

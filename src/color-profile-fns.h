@@ -7,6 +7,7 @@
 
 #include <glib-object.h>
 #include <glib.h>
+
 #if ENABLE_LCMS
 #include <vector>
 #include <glibmm/ustring.h>

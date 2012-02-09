@@ -18,9 +18,7 @@
 #include <glib.h>
 #include <glib/gstdio.h>
 #include <glibmm/fileutils.h>
-#if GLIB_CHECK_VERSION(2,6,0)
-    #include <glib/gstdio.h>
-#endif
+
 #include <glibmm/ustring.h>
 #include <gtk/gtk.h>
 
