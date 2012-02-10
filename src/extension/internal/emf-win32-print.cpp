@@ -859,6 +859,8 @@ PrintEmfWin32::text(Inkscape::Extension::Print * /*mod*/, char const *text, Geom
     if (!hdc) return 0;
 
     HFONT hfont = NULL;
+    Geom::Matrix tf = m_tr_stack.top();
+    double rot = 1800.0*std::atan2(tf[1], tf[0])/M_PI;	// 0.1 degree rotation
     
 #ifdef USE_PANGO_WIN32
 /*
@@ -878,8 +880,8 @@ PrintEmfWin32::text(Inkscape::Extension::Print * /*mod*/, char const *text, Geom
         
         lf->lfHeight = -style->font_size.computed * IN_PER_PX * dwDPI;
         lf->lfWidth = 0;
-        lf->lfEscapement = 0;
-        lf->lfOrientation = 0;
+        lf->lfEscapement = rot;
+        lf->lfOrientation = rot;
         lf->lfWeight =
             style->font_weight.computed == SP_CSS_FONT_WEIGHT_100 ? FW_THIN :
             style->font_weight.computed == SP_CSS_FONT_WEIGHT_200 ? FW_EXTRALIGHT :
@@ -905,7 +907,7 @@ PrintEmfWin32::text(Inkscape::Extension::Print * /*mod*/, char const *text, Geom
         g_free(unicode_name);
 
         hfont = CreateFontIndirectW(lf);
-        
+
         g_free(lf);
     }
     
@@ -923,8 +925,6 @@ PrintEmfWin32::text(Inkscape::Extension::Print * /*mod*/, char const *text, Geom
 
     // Transparent text background
     SetBkMode(hdc, TRANSPARENT);
-
-    Geom::Matrix tf = m_tr_stack.top();
 
     p = p * tf;
     p[Geom::X] = (p[Geom::X] * IN_PER_PX * dwDPI);
