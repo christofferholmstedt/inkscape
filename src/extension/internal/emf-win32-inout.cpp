@@ -2490,7 +2490,7 @@ EmfWin32::open( Inkscape::Extension::Input * /*mod*/, const gchar *uri )
 
 //    std::cout << "SVG Output: " << std::endl << *(d.outsvg) << std::endl;
 
-    SPDocument *doc = sp_document_new_from_mem(d.outsvg->c_str(), d.outsvg->length(), TRUE);
+    SPDocument *doc = sp_document_new_from_mem(d.outsvg->c_str(), strlen(d.outsvg->c_str()), TRUE);
 
     delete d.outsvg;
     delete d.path;
