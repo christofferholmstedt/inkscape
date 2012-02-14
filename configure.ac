@@ -53,7 +53,7 @@ if test "$GCC" = "yes"; then
   CPPFLAGS="-Wformat -Wformat-security $CPPFLAGS"
   # Enable all default warnings
   CPPFLAGS="-Wall $CPPFLAGS"
-  # Enforce single-header includes for GLib (required since 2.31)
+  # Enforce including only <glib.h> (required since 2.31)
   CPPFLAGS="-DG_DISABLE_SINGLE_INCLUDES $CPPFLAGS"
 
   # Test for -Werror=... (introduced some time post-4.0)
