@@ -9,7 +9,6 @@
 
 
 #include "color-profile.h"
-#include "color-profile-fns.h"
 
 class ColorProfileTest : public CxxTest::TestSuite
 {
