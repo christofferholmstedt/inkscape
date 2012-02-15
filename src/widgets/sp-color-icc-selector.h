@@ -8,11 +8,9 @@
 #include "sp-color-slider.h"
 #include "sp-color-selector.h"
 
-#if ENABLE_LCMS
-#include "color-profile.h"
-#endif // ENABLE_LCMS
-
-
+namespace Inkscape {
+struct ColorProfile;
+}
 
 struct SPColorICCSelector;
 struct SPColorICCSelectorClass;
@@ -39,10 +37,10 @@ protected:
     static void _profileSelected( GtkWidget* src, gpointer data );
 
     void _recalcColor( gboolean changing );
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     void _setProfile( SVGICCColor* profile );
     void _switchToProfile( gchar const* name );
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     void _updateSliders( gint ignore );
     void _profilesChanged( std::string const & name );
 
@@ -68,12 +66,12 @@ protected:
 
     GtkTooltips* _tt; /* tooltip container */
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     std::string _profileName;
     Inkscape::ColorProfile* _prof;
     guint _profChannelCount;
     gulong _profChangedID;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 private:
     // By default, disallow copy constructor and assignment operator

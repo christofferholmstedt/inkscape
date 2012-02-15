@@ -1,5 +1,6 @@
-/** @file
- * @brief Document properties dialog, Gtkmm-style
+/**
+ * @file
+ * Document properties dialog, Gtkmm-style.
  */
 /* Authors:
  *   bulia byak <buliabyak@users.sf.net>
@@ -8,6 +9,7 @@
  *   Jon Phillips <jon@rejon.org>
  *   Ralf Stephan <ralf@ark.in-berlin.de> (Gtkmm)
  *   Diederik van Lierop <mail@diedenrezi.nl>
+ *   Jon A. Cruz <jon@joncruz.org>
  *
  * Copyright (C) 2006-2008 Johan Engelen  <johan@shouraizou.nl>
  * Copyright (C) 2000 - 2008 Authors
@@ -40,11 +42,9 @@
 #include "xml/node-event-vector.h"
 #include "xml/repr.h"
 
-#if ENABLE_LCMS
-#include <lcms.h>
-//#include "color-profile-fns.h"
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 #include "color-profile.h"
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 using std::pair;
 
@@ -126,9 +126,9 @@ DocumentProperties::DocumentProperties()
     build_guides();
     build_gridspage();
     build_snap();
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     build_cms();
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     build_scripting();
 
     _grids_button_new.signal_clicked().connect(sigc::mem_fun(*this, &DocumentProperties::onNewGrid));
@@ -308,57 +308,25 @@ DocumentProperties::build_snap()
     attach_all(_page_snap.table(), array, G_N_ELEMENTS(array));
  }
 
-#if ENABLE_LCMS
-static void
-lcms_profile_get_name (cmsHPROFILE   profile, const gchar **name)
-{
-  if (profile)
-    {
-      *name = cmsTakeProductDesc (profile);
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+/// Populates the available color profiles combo box
+void DocumentProperties::populate_available_profiles(){
+#if WITH_GTKMM_2_24
+    _combo_avail.remove_all(); // Clear any existing items in the combo box
+#else
+    _combo_avail.clear_items(); // Clear any existing items in the combo box
+#endif
 
-      if (! *name)
-        *name = cmsTakeProductName (profile);
-
-      if (*name && ! g_utf8_validate (*name, -1, NULL))
-        *name = _("(invalid UTF-8 string)");
+    // Iterate through the list of profiles and add the name to the combo box.
+    std::vector<std::pair<Glib::ustring, Glib::ustring> > pairs = ColorProfile::getProfileFilesWithNames();
+    for ( std::vector<std::pair<Glib::ustring, Glib::ustring> >::const_iterator it = pairs.begin(); it != pairs.end(); ++it ) {
+        Glib::ustring name = it->second;
+#if WITH_GTKMM_2_24
+	_combo_avail.append(name);
+#else
+	_combo_avail.append_text(name);
+#endif
     }
-  else
-    {
-      *name = _("None");
-    }
-}
-
-void
-DocumentProperties::populate_available_profiles(){
-    Glib::ListHandle<Gtk::Widget*> children = _menu.get_children();
-    for ( Glib::ListHandle<Gtk::Widget*>::iterator it2 = children.begin(); it2 != children.end(); ++it2 ) {
-        _menu.remove(**it2);
-        delete(*it2);
-    }
-
-    std::list<Glib::ustring> files = ColorProfile::getProfileFiles();
-    for ( std::list<Glib::ustring>::const_iterator it = files.begin(); it != files.end(); ++it ) {
-        cmsHPROFILE hProfile = cmsOpenProfileFromFile(it->c_str(), "r");
-        if ( hProfile ){
-            const gchar* name = 0;
-            lcms_profile_get_name(hProfile, &name);
-            Gtk::MenuItem* mi = manage(new Gtk::MenuItem());
-            mi->set_data("filepath", g_strdup(it->c_str()));
-            mi->set_data("name", g_strdup(name));
-            Gtk::HBox *hbox = manage(new Gtk::HBox());
-            hbox->show();
-            Gtk::Label* lbl = manage(new Gtk::Label(name));
-            lbl->show();
-            hbox->pack_start(*lbl, true, true, 0);
-            mi->add(*hbox);
-            mi->show_all();
-            _menu.append(*mi);
-//            g_free((void*)name);
-            cmsCloseProfile(hProfile);
-        }
-    }
-
-    _menu.show_all();
 }
 
 /**
@@ -394,8 +362,8 @@ static void sanitizeName( Glib::ustring& str )
     }
 }
 
-void
-DocumentProperties::linkSelectedProfile()
+/// Links the selected color profile in the combo box to the document
+void DocumentProperties::linkSelectedProfile()
 {
 //store this profile in the SVG document (create <color-profile> element in the XML)
     // TODO remove use of 'active' desktop
@@ -403,17 +371,26 @@ DocumentProperties::linkSelectedProfile()
     if (!desktop){
         g_warning("No active desktop");
     } else {
-        if (!_menu.get_active()){
+	// Find the index of the currently-selected row in the color profiles combobox
+	int row = _combo_avail.get_active_row_number();
+
+	if (row == -1){
             g_warning("No color profile available.");
             return;
         }
+	
+	// Read the filename and description from the list of available profiles
+	std::vector<std::pair<Glib::ustring, Glib::ustring> > pairs = ColorProfile::getProfileFilesWithNames();
+        Glib::ustring file = pairs[row].first;
+        Glib::ustring name = pairs[row].second;
+
         Inkscape::XML::Document *xml_doc = sp_document_repr_doc(desktop->doc());
         Inkscape::XML::Node *cprofRepr = xml_doc->createElement("svg:color-profile");
-        gchar* tmp = static_cast<gchar*>(_menu.get_active()->get_data("name"));
+        gchar* tmp = g_strdup(name.c_str());
         Glib::ustring nameStr = tmp ? tmp : "profile"; // TODO add some auto-numbering to avoid collisions
         sanitizeName(nameStr);
         cprofRepr->setAttribute("name", nameStr.c_str());
-        cprofRepr->setAttribute("xlink:href", (gchar*) _menu.get_active()->get_data("filepath"));
+        cprofRepr->setAttribute("xlink:href", (gchar*) file.c_str());
 
         // Checks whether there is a defs element. Creates it when needed
         Inkscape::XML::Node *defsRepr = sp_repr_lookup_name(xml_doc, "svg:defs");
@@ -440,7 +417,9 @@ DocumentProperties::populate_linked_profiles_box()
 {
     _LinkedProfilesListStore->clear();
     const GSList *current = sp_document_get_resource_list( SP_ACTIVE_DOCUMENT, "iccprofile" );
-    if (current) _emb_profiles_observer.set(SP_OBJECT(current->data)->parent);
+    if (current) {
+        _emb_profiles_observer.set(SP_OBJECT(current->data)->parent);
+    }
     while ( current ) {
         SPObject* obj = SP_OBJECT(current->data);
         Inkscape::ColorProfile* prof = reinterpret_cast<Inkscape::ColorProfile*>(obj);
@@ -510,14 +489,21 @@ void DocumentProperties::removeSelectedProfile(){
     populate_linked_profiles_box();
 }
 
-void
-DocumentProperties::build_cms()
+void DocumentProperties::build_cms()
 {
     _page_cms.show();
 
+#if WITH_GTKMM_2_22
+    Gtk::Label *label_link= manage (new Gtk::Label("", Gtk::ALIGN_START));
+#else
     Gtk::Label *label_link= manage (new Gtk::Label("", Gtk::ALIGN_LEFT));
+#endif
     label_link->set_markup (_("<b>Linked Color Profiles:</b>"));
+#if WITH_GTKMM_2_22
+    Gtk::Label *label_avail = manage (new Gtk::Label("", Gtk::ALIGN_START));
+#else
     Gtk::Label *label_avail = manage (new Gtk::Label("", Gtk::ALIGN_LEFT));
+#endif
     label_avail->set_markup (_("<b>Available Color Profiles:</b>"));
 
     _link_btn.set_label(_("Link Profile"));
@@ -543,10 +529,6 @@ DocumentProperties::build_cms()
     _page_cms.table().attach(_link_btn, 2, 3, row, row + 1, Gtk::FILL|Gtk::EXPAND, (Gtk::AttachOptions)0, 0, 0);
 
     populate_available_profiles();
-
-    _combo_avail.set_menu(_menu);
-    _combo_avail.set_history(0);
-    _combo_avail.show_all();
 
     //# Set up the Linked Profiles combo box
     _LinkedProfilesListStore = Gtk::ListStore::create(_LinkedProfilesListColumns);
@@ -574,10 +556,9 @@ DocumentProperties::build_cms()
     }
     _emb_profiles_observer.signal_changed().connect(sigc::mem_fun(*this, &DocumentProperties::populate_linked_profiles_box));
 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
-void
-DocumentProperties::build_scripting()
+void DocumentProperties::build_scripting()
 {
     _page_scripting.show();
 
@@ -620,10 +601,10 @@ DocumentProperties::build_scripting()
 
     _add_btn.signal_clicked().connect(sigc::mem_fun(*this, &DocumentProperties::addExternalScript));
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     _ExternalScriptsList.signal_button_release_event().connect_notify(sigc::mem_fun(*this, &DocumentProperties::external_scripts_list_button_release));
     scripting_create_popup_menu(_ExternalScriptsList, sigc::mem_fun(*this, &DocumentProperties::removeExternalScript));
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 //TODO: review this observers code:
     const GSList *current = sp_document_get_resource_list( SP_ACTIVE_DOCUMENT, "script" );
@@ -826,10 +807,10 @@ DocumentProperties::update()
 
     //------------------------------------------------Color Management page
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     populate_linked_profiles_box();
     populate_available_profiles();
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     _wr.setUpdating (false);
 }

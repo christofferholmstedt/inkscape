@@ -24,10 +24,17 @@
 #include <windows.h>
 #endif
 
+#if HAVE_LIBLCMS2
+#  include <lcms2.h>
+#elif HAVE_LIBLCMS1
+#  include <lcms.h>
+#endif // HAVE_LIBLCMS2
+
 #include "xml/repr.h"
 #include "color.h"
 #include "color-profile.h"
-#include "color-profile-fns.h"
+#include "cms-system.h"
+#include "color-profile-cms-fns.h"
 #include "attributes.h"
 #include "inkscape.h"
 #include "document.h"
@@ -42,13 +49,16 @@
 
 using Inkscape::ColorProfile;
 using Inkscape::ColorProfileClass;
+using Inkscape::ColorProfileImpl;
 
-namespace Inkscape
+namespace
 {
-#if ENABLE_LCMS
-static cmsHPROFILE colorprofile_get_system_profile_handle();
-static cmsHPROFILE colorprofile_get_proof_profile_handle();
-#endif // ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+cmsHPROFILE getSystemProfileHandle();
+cmsHPROFILE getProofProfileHandle();
+void loadProfiles();
+Glib::ustring getNameFromProfile(cmsHPROFILE profile);
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 }
 
 #ifdef DEBUG_LCMS
@@ -86,31 +96,91 @@ extern guint update_in_progress;
     g_message( __VA_ARGS__ );\
 }
 
+#else
+#define DEBUG_MESSAGE_SCISLAC(key, ...)
+#define DEBUG_MESSAGE(key, ...)
 #endif // DEBUG_LCMS
 
 static SPObjectClass *cprof_parent_class;
 
-#if ENABLE_LCMS
+class ColorProfileImpl {
+public:
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    static cmsHPROFILE _sRGBProf;
+    static cmsHPROFILE _NullProf;
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
-cmsHPROFILE ColorProfile::_sRGBProf = 0;
+    ColorProfileImpl();
 
-cmsHPROFILE ColorProfile::getSRGBProfile() {
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    static cmsUInt32Number _getInputFormat( cmsColorSpaceSignature space );
+
+    static cmsHPROFILE getNULLProfile();
+    static cmsHPROFILE getSRGBProfile();
+
+    void _clearProfile();
+
+    cmsHPROFILE _profHandle;
+    cmsProfileClassSignature _profileClass;
+    cmsColorSpaceSignature _profileSpace;
+    cmsHTRANSFORM _transf;
+    cmsHTRANSFORM _revTransf;
+    cmsHTRANSFORM _gamutTransf;
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+};
+
+
+
+namespace Inkscape {
+
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+cmsColorSpaceSignature asICColorSpaceSig(ColorSpaceSig const & sig)
+{
+    return ColorSpaceSigWrapper(sig);
+}
+
+cmsProfileClassSignature asICColorProfileClassSig(ColorProfileClassSig const & sig)
+{
+    return ColorProfileClassSigWrapper(sig);
+}
+#endif //  defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+
+} // namespace Inkscape
+
+ColorProfileImpl::ColorProfileImpl()
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+	:
+    _profHandle(0),
+    _profileClass(cmsSigInputClass),
+    _profileSpace(cmsSigRgbData),
+    _transf(0),
+    _revTransf(0),
+    _gamutTransf(0)
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+{
+}
+
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+
+cmsHPROFILE ColorProfileImpl::_sRGBProf = 0;
+
+cmsHPROFILE ColorProfileImpl::getSRGBProfile() {
     if ( !_sRGBProf ) {
         _sRGBProf = cmsCreate_sRGBProfile();
     }
-    return _sRGBProf;
+    return ColorProfileImpl::_sRGBProf;
 }
 
-cmsHPROFILE ColorProfile::_NullProf = 0;
+cmsHPROFILE ColorProfileImpl::_NullProf = 0;
 
-cmsHPROFILE ColorProfile::getNULLProfile() {
+cmsHPROFILE ColorProfileImpl::getNULLProfile() {
     if ( !_NullProf ) {
         _NullProf = cmsCreateNULLProfile();
     }
     return _NullProf;
 }
 
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 /**
  * Register ColorProfile class and return its type.
@@ -159,19 +229,13 @@ void ColorProfile::classInit( ColorProfileClass *klass )
  */
 void ColorProfile::init( ColorProfile *cprof )
 {
+    cprof->impl = new ColorProfileImpl();
+
     cprof->href = 0;
     cprof->local = 0;
     cprof->name = 0;
     cprof->intentStr = 0;
     cprof->rendering_intent = Inkscape::RENDERING_INTENT_UNKNOWN;
-#if ENABLE_LCMS
-    cprof->profHandle = 0;
-    cprof->_profileClass = icSigInputClass;
-    cprof->_profileSpace = icSigRgbData;
-    cprof->_transf = 0;
-    cprof->_revTransf = 0;
-    cprof->_gamutTransf = 0;
-#endif // ENABLE_LCMS
 }
 
 /**
@@ -180,8 +244,7 @@ void ColorProfile::init( ColorProfile *cprof )
 void ColorProfile::release( SPObject *object )
 {
     // Unregister ourselves
-    SPDocument* document = SP_OBJECT_DOCUMENT(object);
-    if ( document ) {
+    if ( object->document ) {
         sp_document_remove_resource (SP_OBJECT_DOCUMENT (object), "iccprofile", SP_OBJECT (object));
     }
 
@@ -206,15 +269,18 @@ void ColorProfile::release( SPObject *object )
         cprof->intentStr = 0;
     }
 
-#if ENABLE_LCMS
-    cprof->_clearProfile();
-#endif // ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    cprof->impl->_clearProfile();
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+
+    delete cprof->impl;
+    cprof->impl = 0;
 }
 
-#if ENABLE_LCMS
-void ColorProfile::_clearProfile()
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+void ColorProfileImpl::_clearProfile()
 {
-    _profileSpace = icSigRgbData;
+    _profileSpace = cmsSigRgbData;
 
     if ( _transf ) {
         cmsDeleteTransform( _transf );
@@ -228,12 +294,12 @@ void ColorProfile::_clearProfile()
         cmsDeleteTransform( _gamutTransf );
         _gamutTransf = 0;
     }
-    if ( profHandle ) {
-        cmsCloseProfile( profHandle );
-        profHandle = 0;
+    if ( _profHandle ) {
+        cmsCloseProfile( _profHandle );
+        _profHandle = 0;
     }
 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 /**
  * Callback: set attributes from associated repr.
@@ -276,15 +342,17 @@ void ColorProfile::set( SPObject *object, unsigned key, gchar const *value )
             if ( value ) {
                 cprof->href = g_strdup( value );
                 if ( *cprof->href ) {
-#if ENABLE_LCMS
+#if HAVE_LIBLCMS1
                     cmsErrorAction( LCMS_ERROR_SHOW );
+#endif
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
                     // TODO open filename and URIs properly
                     //FILE* fp = fopen_utf8name( filename, "r" );
-                    //LCMSAPI cmsHPROFILE   LCMSEXPORT cmsOpenProfileFromMem(LPVOID MemPtr, DWORD dwSize);
+                    //LCMSAPI cmsHPROFILE   LCMSEXPORT cmsOpenProfileFromMem(LPVOID MemPtr, cmsUInt32Number dwSize);
 
                     // Try to open relative
-                    SPDocument *doc = SP_OBJECT_DOCUMENT(object);
+                    SPDocument *doc = object->document;
                     if (!doc) {
                         doc = SP_ACTIVE_DOCUMENT;
                         g_warning("object has no document.  using active");
@@ -307,19 +375,17 @@ void ColorProfile::set( SPObject *object, unsigned key, gchar const *value )
                     //      the w3c specs.  All absolute and relative issues are considered
                     org::w3c::dom::URI cprofUri = docUri.resolve(hrefUri);
                     gchar* fullname = g_uri_unescape_string(cprofUri.getNativePath().c_str(), "");
-                    cprof->_clearProfile();
-                    cprof->profHandle = cmsOpenProfileFromFile( fullname, "r" );
-                    if ( cprof->profHandle ) {
-                        cprof->_profileSpace = cmsGetColorSpace( cprof->profHandle );
-                        cprof->_profileClass = cmsGetDeviceClass( cprof->profHandle );
+                    cprof->impl->_clearProfile();
+                    cprof->impl->_profHandle = cmsOpenProfileFromFile( fullname, "r" );
+                    if ( cprof->impl->_profHandle ) {
+                        cprof->impl->_profileSpace = cmsGetColorSpace( cprof->impl->_profHandle );
+                        cprof->impl->_profileClass = cmsGetDeviceClass( cprof->impl->_profHandle );
                     }
-#ifdef DEBUG_LCMS
-                    DEBUG_MESSAGE( lcmsOne, "cmsOpenProfileFromFile( '%s'...) = %p", fullname, (void*)cprof->profHandle );
-#endif // DEBUG_LCMS
+                    DEBUG_MESSAGE( lcmsOne, "cmsOpenProfileFromFile( '%s'...) = %p", fullname, (void*)cprof->impl->_profHandle );
                     g_free(escaped);
                     escaped = 0;
                     g_free(fullname);
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
                 }
             }
             object->requestModified(SP_OBJECT_MODIFIED_FLAG);
@@ -418,27 +484,27 @@ Inkscape::XML::Node* ColorProfile::write( SPObject *object, Inkscape::XML::Docum
 }
 
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 struct MapMap {
-    icColorSpaceSignature space;
-    DWORD inForm;
+    cmsColorSpaceSignature space;
+    cmsUInt32Number inForm;
 };
 
-DWORD ColorProfile::_getInputFormat( icColorSpaceSignature space )
+cmsUInt32Number ColorProfileImpl::_getInputFormat( cmsColorSpaceSignature space )
 {
     MapMap possible[] = {
-        {icSigXYZData,   TYPE_XYZ_16},
-        {icSigLabData,   TYPE_Lab_16},
-        //icSigLuvData
-        {icSigYCbCrData, TYPE_YCbCr_16},
-        {icSigYxyData,   TYPE_Yxy_16},
-        {icSigRgbData,   TYPE_RGB_16},
-        {icSigGrayData,  TYPE_GRAY_16},
-        {icSigHsvData,   TYPE_HSV_16},
-        {icSigHlsData,   TYPE_HLS_16},
-        {icSigCmykData,  TYPE_CMYK_16},
-        {icSigCmyData,   TYPE_CMY_16},
+        {cmsSigXYZData,   TYPE_XYZ_16},
+        {cmsSigLabData,   TYPE_Lab_16},
+        //cmsSigLuvData
+        {cmsSigYCbCrData, TYPE_YCbCr_16},
+        {cmsSigYxyData,   TYPE_Yxy_16},
+        {cmsSigRgbData,   TYPE_RGB_16},
+        {cmsSigGrayData,  TYPE_GRAY_16},
+        {cmsSigHsvData,   TYPE_HSV_16},
+        {cmsSigHlsData,   TYPE_HLS_16},
+        {cmsSigCmykData,  TYPE_CMYK_16},
+        {cmsSigCmyData,   TYPE_CMY_16},
     };
 
     int index = 0;
@@ -494,128 +560,168 @@ static SPObject* bruteFind( SPDocument* document, gchar const* name )
     return result;
 }
 
-cmsHPROFILE Inkscape::colorprofile_get_handle( SPDocument* document, guint* intent, gchar const* name )
+cmsHPROFILE Inkscape::CMSSystem::getHandle( SPDocument* document, guint* intent, gchar const* name )
 {
     cmsHPROFILE prof = 0;
 
     SPObject* thing = bruteFind( document, name );
     if ( thing ) {
-        prof = COLORPROFILE(thing)->profHandle;
+        prof = COLORPROFILE(thing)->impl->_profHandle;
     }
 
     if ( intent ) {
         *intent = thing ? COLORPROFILE(thing)->rendering_intent : (guint)RENDERING_INTENT_UNKNOWN;
     }
 
-#ifdef DEBUG_LCMS
     DEBUG_MESSAGE( lcmsThree, "<color-profile> queried for profile of '%s'. Returning %p with intent of %d", name, prof, (intent? *intent:0) );
-#endif // DEBUG_LCMS
 
     return prof;
 }
 
+Inkscape::ColorSpaceSig ColorProfile::getColorSpace() const {
+    return ColorSpaceSigWrapper(impl->_profileSpace);
+}
+
+Inkscape::ColorProfileClassSig ColorProfile::getProfileClass() const {
+    return ColorProfileClassSigWrapper(impl->_profileClass);
+}
+
 cmsHTRANSFORM ColorProfile::getTransfToSRGB8()
 {
-    if ( !_transf && profHandle ) {
+    if ( !impl->_transf && impl->_profHandle ) {
         int intent = getLcmsIntent(rendering_intent);
-        _transf = cmsCreateTransform( profHandle, _getInputFormat(_profileSpace), getSRGBProfile(), TYPE_RGBA_8, intent, 0 );
+        impl->_transf = cmsCreateTransform( impl->_profHandle, ColorProfileImpl::_getInputFormat(impl->_profileSpace), ColorProfileImpl::getSRGBProfile(), TYPE_RGBA_8, intent, 0 );
     }
-    return _transf;
+    return impl->_transf;
 }
 
 cmsHTRANSFORM ColorProfile::getTransfFromSRGB8()
 {
-    if ( !_revTransf && profHandle ) {
+    if ( !impl->_revTransf && impl->_profHandle ) {
         int intent = getLcmsIntent(rendering_intent);
-        _revTransf = cmsCreateTransform( getSRGBProfile(), TYPE_RGBA_8, profHandle, _getInputFormat(_profileSpace), intent, 0 );
+        impl->_revTransf = cmsCreateTransform( ColorProfileImpl::getSRGBProfile(), TYPE_RGBA_8, impl->_profHandle, ColorProfileImpl::_getInputFormat(impl->_profileSpace), intent, 0 );
     }
-    return _revTransf;
+    return impl->_revTransf;
 }
 
 cmsHTRANSFORM ColorProfile::getTransfGamutCheck()
 {
-    if ( !_gamutTransf ) {
-        _gamutTransf = cmsCreateProofingTransform(getSRGBProfile(), TYPE_RGBA_8, getNULLProfile(), TYPE_GRAY_8, profHandle, INTENT_RELATIVE_COLORIMETRIC, INTENT_RELATIVE_COLORIMETRIC, (cmsFLAGS_GAMUTCHECK|cmsFLAGS_SOFTPROOFING));
+    if ( !impl->_gamutTransf ) {
+        impl->_gamutTransf = cmsCreateProofingTransform(ColorProfileImpl::getSRGBProfile(),
+                                                        TYPE_RGBA_8,
+                                                        ColorProfileImpl::getNULLProfile(),
+                                                        TYPE_GRAY_8,
+                                                        impl->_profHandle,
+                                                        INTENT_RELATIVE_COLORIMETRIC,
+                                                        INTENT_RELATIVE_COLORIMETRIC,
+                                                        (cmsFLAGS_GAMUTCHECK | cmsFLAGS_SOFTPROOFING));
     }
-    return _gamutTransf;
+    return impl->_gamutTransf;
 }
 
-bool ColorProfile::GamutCheck(SPColor color){
-    BYTE outofgamut = 0;
-    
+bool ColorProfile::GamutCheck(SPColor color)
+{
+    bool result = false;
+
     guint32 val = color.toRGBA32(0);
+
+#if HAVE_LIBLCMS1
+    int alarm_r = 0;
+    int alarm_g = 0;
+    int alarm_b = 0;
+    cmsGetAlarmCodes(&alarm_r, &alarm_g, &alarm_b);
+    cmsSetAlarmCodes(255, 255, 255);
+#elif HAVE_LIBLCMS2
+    cmsUInt16Number oldAlarmCodes[cmsMAXCHANNELS] = {0};
+    cmsGetAlarmCodes(oldAlarmCodes);
+    cmsUInt16Number newAlarmCodes[cmsMAXCHANNELS] = {0};
+    newAlarmCodes[0] = ~0;
+    cmsSetAlarmCodes(newAlarmCodes);
+#endif // HAVE_LIBLCMS1
+
+    cmsUInt8Number outofgamut = 0;
     guchar check_color[4] = {
         SP_RGBA32_R_U(val),
         SP_RGBA32_G_U(val),
         SP_RGBA32_B_U(val),
         255};
-
-    int alarm_r, alarm_g, alarm_b;
-    cmsGetAlarmCodes(&alarm_r, &alarm_g, &alarm_b);
-    cmsSetAlarmCodes(255, 255, 255);
     cmsDoTransform(ColorProfile::getTransfGamutCheck(), &check_color, &outofgamut, 1);
+
+#if HAVE_LIBLCMS1
     cmsSetAlarmCodes(alarm_r, alarm_g, alarm_b);
-    return (outofgamut == 255);
+#elif HAVE_LIBLCMS2
+    cmsSetAlarmCodes(oldAlarmCodes);
+#endif // HAVE_LIBLCMS1
+
+    result = (outofgamut != 0);
+
+    return result;
 }
 
 class ProfileInfo
 {
 public:
-    ProfileInfo( cmsHPROFILE, Glib::ustring const & path );
+    ProfileInfo( cmsHPROFILE prof, Glib::ustring const & path );
 
     Glib::ustring const& getName() {return _name;}
     Glib::ustring const& getPath() {return _path;}
-    icColorSpaceSignature getSpace() {return _profileSpace;}
-    icProfileClassSignature getClass() {return _profileClass;}
+    cmsColorSpaceSignature getSpace() {return _profileSpace;}
+    cmsProfileClassSignature getClass() {return _profileClass;}
 
 private:
     Glib::ustring _path;
     Glib::ustring _name;
-    icColorSpaceSignature _profileSpace;
-    icProfileClassSignature _profileClass;
+    cmsColorSpaceSignature _profileSpace;
+    cmsProfileClassSignature _profileClass;
 };
 
+#include <iostream>
 
-ProfileInfo::ProfileInfo( cmsHPROFILE prof, Glib::ustring const & path )
+ProfileInfo::ProfileInfo( cmsHPROFILE prof, Glib::ustring const & path ) :
+    _path( path ),
+    _name( getNameFromProfile(prof) ),
+    _profileSpace( cmsGetColorSpace( prof ) ),
+    _profileClass( cmsGetDeviceClass( prof ) )
 {
-    _path = path;
-    _name = cmsTakeProductDesc(prof);
-    _profileSpace = cmsGetColorSpace( prof );
-    _profileClass = cmsGetDeviceClass( prof );
 }
 
 
 
 static std::vector<ProfileInfo> knownProfiles;
 
-std::vector<Glib::ustring> Inkscape::colorprofile_get_display_names()
+std::vector<Glib::ustring> Inkscape::CMSSystem::getDisplayNames()
 {
+    loadProfiles();
     std::vector<Glib::ustring> result;
 
     for ( std::vector<ProfileInfo>::iterator it = knownProfiles.begin(); it != knownProfiles.end(); ++it ) {
-        if ( it->getClass() == icSigDisplayClass && it->getSpace() == icSigRgbData ) {
+        if ( it->getClass() == cmsSigDisplayClass && it->getSpace() == cmsSigRgbData ) {
             result.push_back( it->getName() );
         }
     }
+    std::sort(result.begin(), result.end());
 
     return result;
 }
 
-std::vector<Glib::ustring> Inkscape::colorprofile_get_softproof_names()
+std::vector<Glib::ustring> Inkscape::CMSSystem::getSoftproofNames()
 {
+    loadProfiles();
     std::vector<Glib::ustring> result;
 
     for ( std::vector<ProfileInfo>::iterator it = knownProfiles.begin(); it != knownProfiles.end(); ++it ) {
-        if ( it->getClass() == icSigOutputClass ) {
+        if ( it->getClass() == cmsSigOutputClass ) {
             result.push_back( it->getName() );
         }
     }
+    std::sort(result.begin(), result.end());
 
     return result;
 }
 
-Glib::ustring Inkscape::get_path_for_profile(Glib::ustring const& name)
+Glib::ustring Inkscape::CMSSystem::getPathForProfile(Glib::ustring const& name)
 {
+    loadProfiles();
     Glib::ustring result;
 
     for ( std::vector<ProfileInfo>::iterator it = knownProfiles.begin(); it != knownProfiles.end(); ++it ) {
@@ -627,17 +733,48 @@ Glib::ustring Inkscape::get_path_for_profile(Glib::ustring const& name)
 
     return result;
 }
-#endif // ENABLE_LCMS
 
-std::list<Glib::ustring> ColorProfile::getBaseProfileDirs() {
-#if ENABLE_LCMS
+void Inkscape::CMSSystem::doTransform(cmsHTRANSFORM transform, void *inBuf, void *outBuf, unsigned int size)
+{
+    cmsDoTransform(transform, inBuf, outBuf, size);
+}
+
+bool Inkscape::CMSSystem::isPrintColorSpace(ColorProfile const *profile)
+{
+    bool isPrint = false;
+    if ( profile ) {
+        ColorSpaceSigWrapper colorspace = profile->getColorSpace();
+        isPrint = (colorspace == cmsSigCmykData) || (colorspace == cmsSigCmyData);
+    }
+    return isPrint;
+}
+
+gint Inkscape::CMSSystem::getChannelCount(ColorProfile const *profile)
+{
+    gint count = 0;
+    if ( profile ) {
+#if HAVE_LIBLCMS1
+        count = _cmsChannelsOf( asICColorSpaceSig(profile->getColorSpace()) );
+#elif HAVE_LIBLCMS2
+        count = cmsChannelsOf( asICColorSpaceSig(profile->getColorSpace()) );
+#endif
+    }
+    return count;
+}
+
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+
+std::vector<Glib::ustring> ColorProfile::getBaseProfileDirs() {
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     static bool warnSet = false;
     if (!warnSet) {
+#if HAVE_LIBLCMS1
         cmsErrorAction( LCMS_ERROR_SHOW );
+#endif
         warnSet = true;
     }
-#endif // ENABLE_LCMS
-    std::list<Glib::ustring> sources;
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    std::vector<Glib::ustring> sources;
 
     gchar* base = profile_path("XXX");
     {
@@ -663,10 +800,10 @@ std::list<Glib::ustring> ColorProfile::getBaseProfileDirs() {
     // On OS X:
     {
         bool onOSX = false;
-        std::list<Glib::ustring> possible;
+        std::vector<Glib::ustring> possible;
         possible.push_back("/System/Library/ColorSync/Profiles");
         possible.push_back("/Library/ColorSync/Profiles");
-        for ( std::list<Glib::ustring>::const_iterator it = possible.begin(); it != possible.end(); ++it ) {
+        for ( std::vector<Glib::ustring>::const_iterator it = possible.begin(); it != possible.end(); ++it ) {
             if ( g_file_test(it->c_str(), G_FILE_TEST_EXISTS)  && g_file_test(it->c_str(), G_FILE_TEST_IS_DIR) ) {
                 sources.push_back(it->c_str());
                 onOSX = true;
@@ -684,7 +821,7 @@ std::list<Glib::ustring> ColorProfile::getBaseProfileDirs() {
 #ifdef WIN32
     wchar_t pathBuf[MAX_PATH + 1];
     pathBuf[0] = 0;
-    DWORD pathSize = sizeof(pathBuf);
+    cmsUInt32Number pathSize = sizeof(pathBuf);
     g_assert(sizeof(wchar_t) == sizeof(gunichar2));
     if ( GetColorDirectoryW( NULL, pathBuf, &pathSize ) ) {
         gchar * utf8Path = g_utf16_to_utf8( (gunichar2*)(&pathBuf[0]), -1, NULL, NULL, NULL );
@@ -722,28 +859,32 @@ static bool isIccFile( gchar const *filepath )
             }
 
             close(fd);
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
             if (isIccFile) {
                 cmsHPROFILE prof = cmsOpenProfileFromFile( filepath, "r" );
                 if ( prof ) {
-                    icProfileClassSignature profClass = cmsGetDeviceClass(prof);
-                    if ( profClass == icSigNamedColorClass ) {
+                    cmsProfileClassSignature profClass = cmsGetDeviceClass(prof);
+                    if ( profClass == cmsSigNamedColorClass ) {
                         isIccFile = false; // Ignore named color profiles for now.
                     }
                     cmsCloseProfile( prof );
                 }
             }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         }
     }
     return isIccFile;
 }
 
-std::list<Glib::ustring> ColorProfile::getProfileFiles()
+std::vector<Glib::ustring> ColorProfile::getProfileFiles()
 {
-    std::list<Glib::ustring> files;
+    std::vector<Glib::ustring> files;
 
-    std::list<Glib::ustring> sources = ColorProfile::getBaseProfileDirs();
+    std::list<Glib::ustring> sources;
+    {
+        std::vector<Glib::ustring> tmp = ColorProfile::getBaseProfileDirs();
+        sources.insert(sources.begin(), tmp.begin(), tmp.end());
+    }
     for ( std::list<Glib::ustring>::const_iterator it = sources.begin(); it != sources.end(); ++it ) {
         if ( g_file_test( it->c_str(), G_FILE_TEST_EXISTS ) && g_file_test( it->c_str(), G_FILE_TEST_IS_DIR ) ) {
             GError *err = 0;
@@ -775,37 +916,126 @@ std::list<Glib::ustring> ColorProfile::getProfileFiles()
     return files;
 }
 
-#if ENABLE_LCMS
-static void findThings() {
-    std::list<Glib::ustring> files = ColorProfile::getProfileFiles();
+std::vector<std::pair<Glib::ustring, Glib::ustring> > ColorProfile::getProfileFilesWithNames()
+{
+    std::vector<std::pair<Glib::ustring, Glib::ustring> > result;
 
-    for ( std::list<Glib::ustring>::const_iterator it = files.begin(); it != files.end(); ++it ) {
-        cmsHPROFILE prof = cmsOpenProfileFromFile( it->c_str(), "r" );
-        if ( prof ) {
-            ProfileInfo info( prof, Glib::filename_to_utf8( it->c_str() ) );
-            cmsCloseProfile( prof );
-
-            bool sameName = false;
-            for ( std::vector<ProfileInfo>::iterator it = knownProfiles.begin(); it != knownProfiles.end(); ++it ) {
-                if ( it->getName() == info.getName() ) {
-                    sameName = true;
-                    break;
-                }
-            }
-
-            if ( !sameName ) {
-                knownProfiles.push_back(info);
-            }
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    std::vector<Glib::ustring> files = getProfileFiles();
+    for ( std::vector<Glib::ustring>::const_iterator it = files.begin(); it != files.end(); ++it ) {
+        cmsHPROFILE hProfile = cmsOpenProfileFromFile(it->c_str(), "r");
+        if ( hProfile ) {
+            Glib::ustring name = getNameFromProfile(hProfile);
+            result.push_back( std::make_pair(*it, name) );
+            cmsCloseProfile(hProfile);
         }
     }
+    std::sort(result.begin(), result.end());
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+
+    return result;
 }
 
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+#if HAVE_LIBLCMS1
 int errorHandlerCB(int ErrorCode, const char *ErrorText)
 {
     g_message("lcms: Error %d; %s", ErrorCode, ErrorText);
 
     return 1;
 }
+#elif HAVE_LIBLCMS2
+void errorHandlerCB(cmsContext /*contextID*/, cmsUInt32Number errorCode, char const *errorText)
+{
+    g_message("lcms: Error %d", errorCode);
+    g_message("                 %p", errorText);
+    //g_message("lcms: Error %d; %s", errorCode, errorText);
+}
+#endif
+
+namespace
+{
+
+Glib::ustring getNameFromProfile(cmsHPROFILE profile)
+{
+    Glib::ustring nameStr;
+    if ( profile ) {
+#if HAVE_LIBLCMS1
+        gchar const *name = cmsTakeProductDesc(profile);
+        if ( !name ) {
+            name = cmsTakeProductName(profile);
+        }
+        if ( name && !g_utf8_validate(name, -1, NULL) ) {
+            name = _("(invalid UTF-8 string)");
+        }
+        nameStr = (name) ? name : _("None");
+#elif HAVE_LIBLCMS2
+    cmsUInt32Number byteLen = cmsGetProfileInfo(profile, cmsInfoDescription, "en", "US", NULL, 0);
+    if (byteLen > 0) {
+        // TODO investigate wchar_t and cmsGetProfileInfo()
+        std::vector<char> data(byteLen);
+        cmsUInt32Number readLen = cmsGetProfileInfoASCII(profile, cmsInfoDescription,
+                                                         "en", "US",
+                                                         data.data(), data.size());
+        if (readLen < data.size()) {
+            data.resize(readLen);
+        }
+        nameStr = Glib::ustring(data.begin(), data.end());
+    }
+    if (nameStr.empty()) {
+        nameStr = _("(invalid UTF-8 string)");
+    }
+#endif
+    }
+    return nameStr;
+}
+
+/**
+ * This function loads or refreshes data in knownProfiles.
+ * Call it at the start of every call that requires this data.
+ */
+void loadProfiles()
+{
+    static bool error_handler_set = false;
+    if (!error_handler_set) {
+#if HAVE_LIBLCMS1
+        cmsSetErrorHandler(errorHandlerCB);
+#elif HAVE_LIBLCMS2
+        //cmsSetLogErrorHandler(errorHandlerCB);
+        //g_message("LCMS error handler set");
+#endif
+        error_handler_set = true;
+    }
+
+    static bool profiles_searched = false;
+    if ( !profiles_searched ) {
+        knownProfiles.clear();
+        std::vector<Glib::ustring> files = ColorProfile::getProfileFiles();
+
+        for ( std::vector<Glib::ustring>::const_iterator it = files.begin(); it != files.end(); ++it ) {
+            cmsHPROFILE prof = cmsOpenProfileFromFile( it->c_str(), "r" );
+            if ( prof ) {
+                ProfileInfo info( prof, Glib::filename_to_utf8( it->c_str() ) );
+                cmsCloseProfile( prof );
+                prof = 0;
+
+                bool sameName = false;
+                for ( std::vector<ProfileInfo>::iterator it = knownProfiles.begin(); it != knownProfiles.end(); ++it ) {
+                    if ( it->getName() == info.getName() ) {
+                        sameName = true;
+                        break;
+                    }
+                }
+
+                if ( !sameName ) {
+                    knownProfiles.push_back(info);
+                }
+            }
+        }
+        profiles_searched = true;
+    }
+}
+} // namespace
 
 static bool gamutWarn = false;
 static Gdk::Color lastGamutColor("#808080");
@@ -817,18 +1047,13 @@ static int lastIntent = INTENT_PERCEPTUAL;
 static int lastProofIntent = INTENT_PERCEPTUAL;
 static cmsHTRANSFORM transf = 0;
 
-cmsHPROFILE Inkscape::colorprofile_get_system_profile_handle()
+namespace {
+cmsHPROFILE getSystemProfileHandle()
 {
     static cmsHPROFILE theOne = 0;
     static Glib::ustring lastURI;
 
-    static bool init = false;
-    if ( !init ) {
-        cmsSetErrorHandler(errorHandlerCB);
-
-        findThings();
-        init = true;
-    }
+    loadProfiles();
 
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
     Glib::ustring uri = prefs->getString("/options/displayprofile/uri");
@@ -846,14 +1071,14 @@ cmsHPROFILE Inkscape::colorprofile_get_system_profile_handle()
             theOne = cmsOpenProfileFromFile( uri.data(), "r" );
             if ( theOne ) {
                 // a display profile must have the proper stuff
-                icColorSpaceSignature space = cmsGetColorSpace(theOne);
-                icProfileClassSignature profClass = cmsGetDeviceClass(theOne);
+                cmsColorSpaceSignature space = cmsGetColorSpace(theOne);
+                cmsProfileClassSignature profClass = cmsGetDeviceClass(theOne);
 
-                if ( profClass != icSigDisplayClass ) {
+                if ( profClass != cmsSigDisplayClass ) {
                     g_warning("Not a display profile");
                     cmsCloseProfile( theOne );
                     theOne = 0;
-                } else if ( space != icSigRgbData ) {
+                } else if ( space != cmsSigRgbData ) {
                     g_warning("Not an RGB profile");
                     cmsCloseProfile( theOne );
                     theOne = 0;
@@ -876,18 +1101,12 @@ cmsHPROFILE Inkscape::colorprofile_get_system_profile_handle()
 }
 
 
-cmsHPROFILE Inkscape::colorprofile_get_proof_profile_handle()
+cmsHPROFILE getProofProfileHandle()
 {
     static cmsHPROFILE theOne = 0;
     static Glib::ustring lastURI;
 
-    static bool init = false;
-    if ( !init ) {
-        cmsSetErrorHandler(errorHandlerCB);
-
-        findThings();
-        init = true;
-    }
+    loadProfiles();
 
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
     bool which = prefs->getBool( "/options/softproof/enable");
@@ -906,17 +1125,17 @@ cmsHPROFILE Inkscape::colorprofile_get_proof_profile_handle()
             theOne = cmsOpenProfileFromFile( uri.data(), "r" );
             if ( theOne ) {
                 // a display profile must have the proper stuff
-                icColorSpaceSignature space = cmsGetColorSpace(theOne);
-                icProfileClassSignature profClass = cmsGetDeviceClass(theOne);
+                cmsColorSpaceSignature space = cmsGetColorSpace(theOne);
+                cmsProfileClassSignature profClass = cmsGetDeviceClass(theOne);
 
                 (void)space;
                 (void)profClass;
 /*
-                if ( profClass != icSigDisplayClass ) {
+                if ( profClass != cmsSigDisplayClass ) {
                     g_warning("Not a display profile");
                     cmsCloseProfile( theOne );
                     theOne = 0;
-                } else if ( space != icSigRgbData ) {
+                } else if ( space != cmsSigRgbData ) {
                     g_warning("Not an RGB profile");
                     cmsCloseProfile( theOne );
                     theOne = 0;
@@ -940,10 +1159,11 @@ cmsHPROFILE Inkscape::colorprofile_get_proof_profile_handle()
 
     return theOne;
 }
+} // namespace
 
 static void free_transforms();
 
-cmsHTRANSFORM Inkscape::colorprofile_get_display_transform()
+cmsHTRANSFORM Inkscape::CMSSystem::getDisplayTransform()
 {
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
     bool fromDisplay = prefs->getBool( "/options/displayprofile/from_display");
@@ -986,15 +1206,24 @@ cmsHTRANSFORM Inkscape::colorprofile_get_display_transform()
     }
 
     // Fetch these now, as they might clear the transform as a side effect.
-    cmsHPROFILE hprof = Inkscape::colorprofile_get_system_profile_handle();
-    cmsHPROFILE proofProf = hprof ? Inkscape::colorprofile_get_proof_profile_handle() : 0;
+    cmsHPROFILE hprof = getSystemProfileHandle();
+    cmsHPROFILE proofProf = hprof ? getProofProfileHandle() : 0;
 
     if ( !transf ) {
         if ( hprof && proofProf ) {
-            DWORD dwFlags = cmsFLAGS_SOFTPROOFING;
+            cmsUInt32Number dwFlags = cmsFLAGS_SOFTPROOFING;
             if ( gamutWarn ) {
                 dwFlags |= cmsFLAGS_GAMUTCHECK;
+#if HAVE_LIBLCMS1
                 cmsSetAlarmCodes(gamutColor.get_red() >> 8, gamutColor.get_green() >> 8, gamutColor.get_blue() >> 8);
+#elif HAVE_LIBLCMS2
+                cmsUInt16Number newAlarmCodes[cmsMAXCHANNELS] = {0};
+                newAlarmCodes[0] = gamutColor.get_red();
+                newAlarmCodes[1] = gamutColor.get_green();
+                newAlarmCodes[2] = gamutColor.get_blue();
+                newAlarmCodes[3] = ~0;
+                cmsSetAlarmCodes(newAlarmCodes);
+#endif
             }
             if ( bpc ) {
                 dwFlags |= cmsFLAGS_BLACKPOINTCOMPENSATION;
@@ -1004,9 +1233,9 @@ cmsHTRANSFORM Inkscape::colorprofile_get_display_transform()
                 dwFlags |= cmsFLAGS_PRESERVEBLACK;
             }
 #endif // defined(cmsFLAGS_PRESERVEBLACK)
-            transf = cmsCreateProofingTransform( ColorProfile::getSRGBProfile(), TYPE_RGBA_8, hprof, TYPE_RGBA_8, proofProf, intent, proofIntent, dwFlags );
+            transf = cmsCreateProofingTransform( ColorProfileImpl::getSRGBProfile(), TYPE_RGBA_8, hprof, TYPE_RGBA_8, proofProf, intent, proofIntent, dwFlags );
         } else if ( hprof ) {
-            transf = cmsCreateTransform( ColorProfile::getSRGBProfile(), TYPE_RGBA_8, hprof, TYPE_RGBA_8, intent, 0 );
+            transf = cmsCreateTransform( ColorProfileImpl::getSRGBProfile(), TYPE_RGBA_8, hprof, TYPE_RGBA_8, intent, 0 );
         }
     }
 
@@ -1054,7 +1283,7 @@ void free_transforms()
     }
 }
 
-Glib::ustring Inkscape::colorprofile_get_display_id( int screen, int monitor )
+Glib::ustring Inkscape::CMSSystem::getDisplayId( int screen, int monitor )
 {
     Glib::ustring id;
 
@@ -1069,7 +1298,7 @@ Glib::ustring Inkscape::colorprofile_get_display_id( int screen, int monitor )
     return id;
 }
 
-Glib::ustring Inkscape::colorprofile_set_display_per( gpointer buf, guint bufLen, int screen, int monitor )
+Glib::ustring Inkscape::CMSSystem::setDisplayPer( gpointer buf, guint bufLen, int screen, int monitor )
 {
     Glib::ustring id;
 
@@ -1102,7 +1331,7 @@ Glib::ustring Inkscape::colorprofile_set_display_per( gpointer buf, guint bufLen
     return id;
 }
 
-cmsHTRANSFORM Inkscape::colorprofile_get_display_per( Glib::ustring const& id )
+cmsHTRANSFORM Inkscape::CMSSystem::getDisplayPer( Glib::ustring const& id )
 {
     cmsHTRANSFORM result = 0;
     if ( id.empty() ) {
@@ -1147,14 +1376,23 @@ cmsHTRANSFORM Inkscape::colorprofile_get_display_per( Glib::ustring const& id )
                 }
 
                 // Fetch these now, as they might clear the transform as a side effect.
-                cmsHPROFILE proofProf = item.hprof ? Inkscape::colorprofile_get_proof_profile_handle() : 0;
+                cmsHPROFILE proofProf = item.hprof ? getProofProfileHandle() : 0;
 
                 if ( !item.transf ) {
                     if ( item.hprof && proofProf ) {
-                        DWORD dwFlags = cmsFLAGS_SOFTPROOFING;
+                        cmsUInt32Number dwFlags = cmsFLAGS_SOFTPROOFING;
                         if ( gamutWarn ) {
                             dwFlags |= cmsFLAGS_GAMUTCHECK;
+#if HAVE_LIBLCMS1
                             cmsSetAlarmCodes(gamutColor.get_red() >> 8, gamutColor.get_green() >> 8, gamutColor.get_blue() >> 8);
+#elif HAVE_LIBLCMS2
+                            cmsUInt16Number newAlarmCodes[cmsMAXCHANNELS] = {0};
+                            newAlarmCodes[0] = gamutColor.get_red();
+                            newAlarmCodes[1] = gamutColor.get_green();
+                            newAlarmCodes[2] = gamutColor.get_blue();
+                            newAlarmCodes[3] = ~0;
+                            cmsSetAlarmCodes(newAlarmCodes);
+#endif
                         }
                         if ( bpc ) {
                             dwFlags |= cmsFLAGS_BLACKPOINTCOMPENSATION;
@@ -1164,9 +1402,9 @@ cmsHTRANSFORM Inkscape::colorprofile_get_display_per( Glib::ustring const& id )
                             dwFlags |= cmsFLAGS_PRESERVEBLACK;
                         }
 #endif // defined(cmsFLAGS_PRESERVEBLACK)
-                        item.transf = cmsCreateProofingTransform( ColorProfile::getSRGBProfile(), TYPE_RGBA_8, item.hprof, TYPE_RGBA_8, proofProf, intent, proofIntent, dwFlags );
+                        item.transf = cmsCreateProofingTransform( ColorProfileImpl::getSRGBProfile(), TYPE_RGBA_8, item.hprof, TYPE_RGBA_8, proofProf, intent, proofIntent, dwFlags );
                     } else if ( item.hprof ) {
-                        item.transf = cmsCreateTransform( ColorProfile::getSRGBProfile(), TYPE_RGBA_8, item.hprof, TYPE_RGBA_8, intent, 0 );
+                        item.transf = cmsCreateTransform( ColorProfileImpl::getSRGBProfile(), TYPE_RGBA_8, item.hprof, TYPE_RGBA_8, intent, 0 );
                     }
                 }
 
@@ -1181,7 +1419,7 @@ cmsHTRANSFORM Inkscape::colorprofile_get_display_per( Glib::ustring const& id )
 
 
 
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 /*
   Local Variables:
@@ -1192,4 +1430,4 @@ cmsHTRANSFORM Inkscape::colorprofile_get_display_per( Glib::ustring const& id )
   fill-column:99
   End:
 */
-// vim: filetype=cpp:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:encoding=utf-8:textwidth=99 :
+// vim: filetype=cpp:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:fileencoding=utf-8:textwidth=99 :

@@ -1,6 +1,4 @@
-#define __SP_CANVAS_C__
-
-/** \file
+/*
  * Port of GnomeCanvas for Inkscape needs
  *
  * Authors:
@@ -9,6 +7,7 @@
  *   Lauris Kaplinski <lauris@kaplinski.com>
  *   fred
  *   bbyak
+ *   Jon A. Cruz <jon@joncruz.org>
  *
  * Copyright (C) 1998 The Free Software Foundation
  * Copyright (C) 2002-2006 authors
@@ -35,9 +34,7 @@
 #include "preferences.h"
 #include "inkscape.h"
 #include "sodipodi-ctrlrect.h"
-#if ENABLE_LCMS
-#include "color-profile-fns.h"
-#endif // ENABLE_LCMS
+#include "cms-system.h"
 #include "display/rendermode.h"
 #include "libnr/nr-blit.h"
 #include "display/inkscape-cairo.h"
@@ -1046,10 +1043,10 @@ sp_canvas_init (SPCanvas *canvas)
     canvas->forced_redraw_count = 0;
     canvas->forced_redraw_limit = -1;
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     canvas->enable_cms_display_adj = false;
     canvas->cms_key = new Glib::ustring("");
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     canvas->is_scrolling = false;
 }
@@ -1659,23 +1656,23 @@ sp_canvas_paint_single_buffer (SPCanvas *canvas, int x0, int y0, int x1, int y1,
         SP_CANVAS_ITEM_GET_CLASS (canvas->root)->render (canvas->root, &buf);
     }
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     cmsHTRANSFORM transf = 0;
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
     bool fromDisplay = prefs->getBool( "/options/displayprofile/from_display");
     if ( fromDisplay ) {
-        transf = Inkscape::colorprofile_get_display_per( canvas->cms_key ? *(canvas->cms_key) : "" );
+        transf = Inkscape::CMSSystem::getDisplayPer( *(canvas->cms_key) );
     } else {
-        transf = Inkscape::colorprofile_get_display_transform();
+        transf = Inkscape::CMSSystem::getDisplayTransform();
     }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     if (buf.is_empty) {
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         if ( transf && canvas->enable_cms_display_adj ) {
-            cmsDoTransform( transf, &buf.bg_color, &buf.bg_color, 1 );
+            Inkscape::CMSSystem::doTransform(transf, &buf.bg_color, &buf.bg_color, 1);
         }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         gdk_rgb_gc_set_foreground (canvas->pixmap_gc, buf.bg_color);
         gdk_draw_rectangle (SP_CANVAS_WINDOW (canvas),
                             canvas->pixmap_gc,
@@ -1684,14 +1681,14 @@ sp_canvas_paint_single_buffer (SPCanvas *canvas, int x0, int y0, int x1, int y1,
                             x1 - x0, y1 - y0);
     } else {
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         if ( transf && canvas->enable_cms_display_adj ) {
             for ( gint yy = 0; yy < (y1 - y0); yy++ ) {
                 guchar* p = buf.buf + (buf.buf_rowstride * yy);
-                cmsDoTransform( transf, p, p, (x1 - x0) );
+                Inkscape::CMSSystem::doTransform( transf, p, p, (x1 - x0) );
             }
         }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 // Now we only need to output the prepared pixmap to the actual screen, and this define chooses one
 // of the two ways to do it. The cairo way is direct and straightforward, but unfortunately

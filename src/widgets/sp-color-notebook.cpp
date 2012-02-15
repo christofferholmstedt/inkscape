@@ -1,5 +1,3 @@
-#define __SP_COLOR_NOTEBOOK_C__
-
 /*
  * A notebook with RGB, CMYK, CMS, HSL, and Wheel pages
  *
@@ -37,6 +35,10 @@
 #include "../inkscape.h"
 #include "../document.h"
 #include "../profile-manager.h"
+#include "color-profile.h"
+#include "cms-system.h"
+
+using Inkscape::CMSSystem;
 
 struct SPColorNotebookTracker {
     const gchar* name;
@@ -81,18 +83,12 @@ GType sp_color_notebook_get_type(void)
     return type;
 }
 
-static void
-sp_color_notebook_class_init (SPColorNotebookClass *klass)
+static void sp_color_notebook_class_init(SPColorNotebookClass *klass)
 {
-    GtkObjectClass *object_class;
-    GtkWidgetClass *widget_class;
-    SPColorSelectorClass *selector_class;
+    GtkObjectClass *object_class = reinterpret_cast<GtkObjectClass *>(klass);
+    GtkWidgetClass *widget_class = reinterpret_cast<GtkWidgetClass *>(klass);
 
-    object_class = (GtkObjectClass *) klass;
-    widget_class = (GtkWidgetClass *) klass;
-    selector_class = SP_COLOR_SELECTOR_CLASS (klass);
-
-    parent_class = SP_COLOR_SELECTOR_CLASS (g_type_class_peek_parent (klass));
+    parent_class = SP_COLOR_SELECTOR_CLASS(g_type_class_peek_parent(klass));
 
     object_class->destroy = sp_color_notebook_destroy;
 
@@ -208,9 +204,9 @@ void ColorNotebook::init()
     /* tempory hardcoding to get types loaded */
     SP_TYPE_COLOR_SCALES;
     SP_TYPE_COLOR_WHEEL_SELECTOR;
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     SP_TYPE_COLOR_ICC_SELECTOR;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     /* REJON: Comment out the next line to not use the normal GTK Color
            wheel. */
@@ -331,7 +327,7 @@ void ColorNotebook::init()
 
     GtkWidget *rgbabox = gtk_hbox_new (FALSE, 0);
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     /* Create color management icons */
     _box_colormanaged = gtk_event_box_new ();
     GtkWidget *colormanaged = gtk_image_new_from_icon_name ("color-management-icon", GTK_ICON_SIZE_SMALL_TOOLBAR);
@@ -357,7 +353,7 @@ void ColorNotebook::init()
     gtk_widget_set_sensitive (_box_toomuchink, false);
     gtk_box_pack_start(GTK_BOX(rgbabox), _box_toomuchink, FALSE, FALSE, 2);
 
-#endif //ENABLE_LCMS
+#endif //defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     /* Create RGBA entry and color preview */
     _rgbal = gtk_label_new_with_mnemonic (_("RGBA_:"));
@@ -375,10 +371,10 @@ void ColorNotebook::init()
     sp_set_font_size_smaller (rgbabox);
     gtk_widget_show_all (rgbabox);
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     //the "too much ink" icon is initially hidden
     gtk_widget_hide(GTK_WIDGET(_box_toomuchink));
-#endif //ENABLE_LCMS
+#endif //defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     gtk_table_attach (GTK_TABLE (table), rgbabox, 0, 2, row, row + 1, GTK_FILL, GTK_SHRINK, XPAD, YPAD);
 
@@ -525,7 +521,7 @@ void ColorNotebook::_updateRgbaEntry( const SPColor& color, gfloat alpha )
 {
     g_return_if_fail( ( 0.0 <= alpha ) && ( alpha <= 1.0 ) );
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     /* update color management icon*/
     gtk_widget_set_sensitive (_box_colormanaged, color.icc != NULL);
 
@@ -541,7 +537,7 @@ void ColorNotebook::_updateRgbaEntry( const SPColor& color, gfloat alpha )
     gtk_widget_set_sensitive (_box_toomuchink, false);
     if (color.icc){
         Inkscape::ColorProfile* prof = SP_ACTIVE_DOCUMENT->profileManager->find(color.icc->colorProfile.c_str());
-        if ( prof && ( (prof->getColorSpace() == icSigCmykData) || (prof->getColorSpace() == icSigCmyData) ) ) {
+        if ( prof && CMSSystem::isPrintColorSpace(prof) ) {
             gtk_widget_show(GTK_WIDGET(_box_toomuchink));
             double ink_sum = 0;
             for (unsigned int i=0; i<color.icc->colors.size(); i++){
@@ -557,7 +553,7 @@ void ColorNotebook::_updateRgbaEntry( const SPColor& color, gfloat alpha )
             gtk_widget_hide(GTK_WIDGET(_box_toomuchink));
         }
     }
-#endif //ENABLE_LCMS
+#endif //defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     if ( !_updatingrgba )
     {

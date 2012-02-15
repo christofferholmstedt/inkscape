@@ -17,6 +17,8 @@
 #include <list>
 #include <stddef.h>
 #include <sigc++/sigc++.h>//
+#include <gtkmm/comboboxtext.h>
+#include <gtkmm/liststore.h>
 #include <gtkmm/notebook.h>
 #include <glibmm/i18n.h>
 
@@ -47,21 +49,21 @@ protected:
     void  build_guides();
     void  build_snap();
     void  build_gridspage();
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     void  build_cms();
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     void  build_scripting();
     void  init();
 
     virtual void  on_response (int);
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     void  populate_available_profiles();
     void  populate_linked_profiles_box();
     void  linkSelectedProfile();
     void  removeSelectedProfile();
     void  linked_profiles_list_button_release(GdkEventButton* event);
     void  cms_create_popup_menu(Gtk::Widget& parent, sigc::slot<void> rem);
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     void  external_scripts_list_button_release(GdkEventButton* event);
     void  populate_external_scripts_box();
@@ -103,8 +105,7 @@ protected:
     UI::Widget::ToleranceSlider       _rsu_sn;
     UI::Widget::ToleranceSlider       _rsu_gusn;
     //---------------------------------------------------------------
-    Gtk::Menu   _menu;
-    Gtk::OptionMenu   _combo_avail;
+    Gtk::ComboBoxText _combo_avail;
     Gtk::Button         _link_btn;
     class LinkedProfilesColumns : public Gtk::TreeModel::ColumnRecord
         {

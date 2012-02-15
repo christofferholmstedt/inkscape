@@ -494,29 +494,34 @@ AC_ARG_ENABLE(lcms,
 	[enable_lcms=$enableval], [enable_lcms=yes])
 
 if test "x$enable_lcms" = "xno"; then
-	dnl Asked to ignore LittleCms
-	lcms=no
+    # Asked to ignore LittleCms
+    lcms=no
+    have_lcms2=no
 else
-        dnl Have to test LittleCms presence
-	PKG_CHECK_MODULES(LCMS, lcms >= 1.13, lcms=yes, lcms=no)
-	if test "x$lcms" != "xyes"; then
-	        dnl No lcms found
-		if test "x$enable_lcms" = "xyes"; then
-		        dnl LittleCms was explicitly asked for, so stop
-			AC_MSG_ERROR([--enable-lcms was specified, but appropriate LittleCms development packages could not be found])
-		else
-			# lcms is no, tell us for the log file
-			AC_MSG_RESULT($lcms)
-		fi
-	else
-		dnl Working lcms
-		LIBS="$LIBS $LCMS_LIBS"
-		AC_DEFINE(ENABLE_LCMS, 1, [Use LittleCms color management])
-	fi
-fi
+    # Have to test LittleCms presence
+    if test "x${platform_osx}" != "xyes"; then
+       # lcms 2.2 & 2.3 have problems on OSX
+	PKG_CHECK_MODULES(LCMS2, lcms2, have_lcms2="yes", have_lcms2="no")
+    fi
 
-AC_SUBST(LCMS_CFLAGS)
-AC_SUBST(LCMS_LIBS)
+    if test "x${have_lcms2}" = "xyes"; then
+        LIBS="$LIBS $LCMS2_LIBS"
+        AC_DEFINE(HAVE_LIBLCMS2, 1, [define to 1 if you have lcms version 2.x])
+	AC_SUBST(LCMS2_CFLAGS)
+	AC_SUBST(LCMS2_LIBS)
+    else
+        PKG_CHECK_MODULES(LCMS, lcms >= 1.13, lcms=yes, lcms=no)
+        if test "x$lcms" = "xyes"; then
+            LIBS="$LIBS $LCMS_LIBS"
+            AC_DEFINE(HAVE_LIBLCMS1, 1, [define to 1 if you have lcms version 1.x])
+	    AC_SUBST(LCMS_CFLAGS)
+	    AC_SUBST(LCMS_LIBS)
+        else
+            # No lcms found. LittleCms was explicitly asked for, so stop
+            AC_MSG_ERROR([--enable-lcms was specified, but appropriate LittleCms development packages could not be found])
+        fi
+    fi
+fi
 
 dnl ******************************
 dnl Libpoppler checking
@@ -718,6 +723,18 @@ else
   min_sigc_version=2.0.11
 fi
 PKG_CHECK_MODULES(INKSCAPE, gdkmm-2.4  glibmm-2.4 giomm-2.4 gtkmm-2.4 >= 2.10.0  gtk+-2.0  libxml-2.0 >= 2.6.11  libxslt >= 1.0.15  cairo  sigc++-2.0 >= $min_sigc_version  $ink_spell_pkg  gthread-2.0 >= 2.0 libpng >= 1.2 gsl)
+
+dnl gtkmm provides no preprocessor macros for easily checking versions.  This check is used
+dnl to figure out if we are working with the newer 2.24 series or not.
+PKG_CHECK_MODULES(GTKMM_2_24, gtkmm-2.4 >= 2.24, with_gtkmm_2_24=yes, with_gtkmm_2_24=no)
+if test "x$with_gtkmm_2_24" = "xyes"; then
+	AC_DEFINE(WITH_GTKMM_2_24,1,[Build with Gtkmm 2.24.x])
+fi
+
+PKG_CHECK_MODULES(GTKMM_2_22, gtkmm-2.4 >= 2.22, with_gtkmm_2_22=yes, with_gtkmm_2_22=no)
+if test "x$with_gtkmm_2_22" = "xyes"; then
+	AC_DEFINE(WITH_GTKMM_2_22,1,[Build with Gtkmm 2.22.x])
+fi
 
 # Check for GTK+ backend target
 AC_MSG_CHECKING([for GTK+ backend target])

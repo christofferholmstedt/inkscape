@@ -1,5 +1,6 @@
-/** @file
- * @brief Inkscape Preferences dialog - implementation
+/**
+ * @file
+ * Inkscape Preferences dialog - implementation.
  */
 /* Authors:
  *   Carl Hetherington
@@ -7,7 +8,7 @@
  *   Johan Engelen <j.b.c.engelen@ewi.utwente.nl>
  *   Bruno Dilly <bruno.dilly@gmail.com>
  *
- * Copyright (C) 2004-2007 Authors
+ * Copyright (C) 2004-2012 Authors
  *
  * Released under GNU GPL.  Read the file 'COPYING' for more information.
  */
@@ -40,7 +41,7 @@
 #include "ui/widget/style-swatch.h"
 #include "display/nr-filter-gaussian.h"
 #include "display/nr-filter-types.h"
-#include "color-profile-fns.h"
+#include "cms-system.h"
 #include "color-profile.h"
 #include "display/canvas-grid.h"
 #include "path-prefix.h"
@@ -61,6 +62,7 @@ using Inkscape::UI::Widget::PrefCheckButton;
 using Inkscape::UI::Widget::PrefRadioButton;
 using Inkscape::UI::Widget::PrefSpinButton;
 using Inkscape::UI::Widget::StyleSwatch;
+using Inkscape::CMSSystem;
 
 
 InkscapePreferences::InkscapePreferences()
@@ -838,7 +840,7 @@ void InkscapePreferences::initPageImportExport()
     this->AddPage(_page_importexport, _("Import/Export"), PREFS_PAGE_IMPORTEXPORT);
 }
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 static void profileComboChanged( Gtk::ComboBoxText* combo )
 {
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
@@ -848,7 +850,7 @@ static void profileComboChanged( Gtk::ComboBoxText* combo )
     } else {
         Glib::ustring active = combo->get_active_text();
 
-        Glib::ustring path = get_path_for_profile(active);
+        Glib::ustring path = CMSSystem::getPathForProfile(active);
         if ( !path.empty() ) {
             prefs->setString("/options/displayprofile/uri", path);
         }
@@ -858,7 +860,7 @@ static void profileComboChanged( Gtk::ComboBoxText* combo )
 static void proofComboChanged( Gtk::ComboBoxText* combo )
 {
     Glib::ustring active = combo->get_active_text();
-    Glib::ustring path = get_path_for_profile(active);
+    Glib::ustring path = CMSSystem::getPathForProfile(active);
 
     if ( !path.empty() ) {
         Inkscape::Preferences *prefs = Inkscape::Preferences::get();
@@ -878,7 +880,7 @@ static void gamutColorChanged( Gtk::ColorButton* btn ) {
     prefs->setString("/options/softproof/gamutcolor", tmp);
     g_free(tmp);
 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 void InkscapePreferences::initPageCMS()
 {
@@ -888,16 +890,16 @@ void InkscapePreferences::initPageCMS()
     Glib::ustring intentLabels[numIntents] = {_("Perceptual"), _("Relative Colorimetric"), _("Saturation"), _("Absolute Colorimetric")};
     int intentValues[numIntents] = {0, 1, 2, 3};
 
-#if !ENABLE_LCMS
+#if !defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     Gtk::Label* lbl = new Gtk::Label(_("(Note: Color management has been disabled in this build)"));
     _page_cms.add_line( false, "", *lbl, "", "", true);
-#endif // !ENABLE_LCMS
+#endif // !defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     _page_cms.add_group_header( _("Display adjustment"));
 
     Glib::ustring tmpStr;
-    std::list<Glib::ustring> sources = ColorProfile::getBaseProfileDirs();
-    for ( std::list<Glib::ustring>::const_iterator it = sources.begin(); it != sources.end(); ++it ) {
+    std::vector<Glib::ustring> sources = ColorProfile::getBaseProfileDirs();
+    for ( std::vector<Glib::ustring>::const_iterator it = sources.begin(); it != sources.end(); ++it ) {
         gchar* part = g_strdup_printf( "\n%s", it->c_str() );
         tmpStr += part;
         g_free(part);
@@ -963,17 +965,25 @@ void InkscapePreferences::initPageCMS()
 #endif // !defined(cmsFLAGS_PRESERVEBLACK)
 
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     {
-        std::vector<Glib::ustring> names = ::Inkscape::colorprofile_get_display_names();
+        std::vector<Glib::ustring> names = ::Inkscape::CMSSystem::getDisplayNames();
         Glib::ustring current = prefs->getString( "/options/displayprofile/uri" );
 
         gint index = 0;
+#if WITH_GTKMM_2_24
+        _cms_display_profile.append(_("<none>"));
+#else
         _cms_display_profile.append_text(_("<none>"));
+#endif
         index++;
         for ( std::vector<Glib::ustring>::iterator it = names.begin(); it != names.end(); ++it ) {
+#if WITH_GTKMM_2_24
+            _cms_display_profile.append( *it );
+#else
             _cms_display_profile.append_text( *it );
-            Glib::ustring path = get_path_for_profile(*it);
+#endif
+            Glib::ustring path = CMSSystem::getPathForProfile(*it);
             if ( !path.empty() && path == current ) {
                 _cms_display_profile.set_active(index);
             }
@@ -983,12 +993,16 @@ void InkscapePreferences::initPageCMS()
             _cms_display_profile.set_active(0);
         }
 
-        names = ::Inkscape::colorprofile_get_softproof_names();
+        names = ::Inkscape::CMSSystem::getSoftproofNames();
         current = prefs->getString("/options/softproof/uri");
         index = 0;
         for ( std::vector<Glib::ustring>::iterator it = names.begin(); it != names.end(); ++it ) {
+#if WITH_GTKMM_2_24
+            _cms_proof_profile.append( *it );
+#else
             _cms_proof_profile.append_text( *it );
-            Glib::ustring path = get_path_for_profile(*it);
+#endif
+            Glib::ustring path = CMSSystem::getPathForProfile(*it);
             if ( !path.empty() && path == current ) {
                 _cms_proof_profile.set_active(index);
             }
@@ -1012,7 +1026,7 @@ void InkscapePreferences::initPageCMS()
     _cms_proof_profile.set_sensitive( false );
     _cms_proof_blackpoint.set_sensitive( false );
     _cms_proof_preserveblack.set_sensitive( false );
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     this->AddPage(_page_cms, _("Color management"), PREFS_PAGE_CMS);
 }

@@ -1,13 +1,16 @@
 #ifndef SEEN_SP_CANVAS_H
 #define SEEN_SP_CANVAS_H
 
-/** \file
+/**
+ * @file
  * SPCanvas, SPCanvasBuf, and SPCanvasItem.
- *
+ */
+/*
  * Authors:
  *   Federico Mena <federico@nuclecu.unam.mx>
  *   Raph Levien <raph@gimp.org>
  *   Lauris Kaplinski <lauris@kaplinski.com>
+ *   Jon A. Cruz <jon@joncruz.org>
  *
  * Copyright (C) 1998 The Free Software Foundation
  * Copyright (C) 2002 Lauris Kaplinski
@@ -183,10 +186,10 @@ struct SPCanvas {
 
     int rendermode;
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     bool enable_cms_display_adj;
     Glib::ustring* cms_key;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     bool is_scrolling;
 

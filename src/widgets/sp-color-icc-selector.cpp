@@ -14,14 +14,15 @@
 
 #define noDEBUG_LCMS
 
-#if ENABLE_LCMS
-#include "color-profile-fns.h"
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 #include "color-profile.h"
+#include "cms-system.h"
+#include "color-profile-cms-fns.h"
 
 #ifdef DEBUG_LCMS
 #include "preferences.h"
 #endif // DEBUG_LCMS
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 
 #ifdef DEBUG_LCMS
@@ -128,6 +129,8 @@ ColorICCSelector::ColorICCSelector( SPColorSelector* csel )
       _updating( FALSE ),
       _dragging( FALSE ),
       _fixupNeeded(0),
+      _fixupBtn(0),
+      _profileSel(0),
       _fooCount(0),
       _fooScales(0),
       _fooAdj(0),
@@ -136,16 +139,17 @@ ColorICCSelector::ColorICCSelector( SPColorSelector* csel )
       _fooLabel(0),
       _fooMap(0),
       _adj(0),
+      _slider(0),
       _sbtn(0),
       _label(0),
       _tt(0)
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     ,
       _profileName(""),
       _prof(),
       _profChannelCount(0),
       _profChangedID(0)
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 {
 }
 
@@ -168,41 +172,41 @@ void sp_color_icc_selector_init (SPColorICCSelector *cs)
 
 
 /*
-icSigRgbData
-icSigCmykData
-icSigCmyData
+cmsSigRgbData
+cmsSigCmykData
+cmsSigCmyData
 */
 #define SPACE_ID_RGB 0
 #define SPACE_ID_CMY 1
 #define SPACE_ID_CMYK 2
 
 
-#if ENABLE_LCMS
-static icUInt16Number* getScratch() {
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+static cmsUInt16Number* getScratch() {
     // bytes per pixel * input channels * width
-    static icUInt16Number* scritch = static_cast<icUInt16Number*>(g_new(icUInt16Number, 4 * 1024));
+    static cmsUInt16Number* scritch = static_cast<cmsUInt16Number*>(g_new(cmsUInt16Number, 4 * 1024));
 
     return scritch;
 }
 
 struct MapMap {
-    DWORD space;
-    DWORD inForm;
+    cmsUInt32Number space;
+    cmsUInt32Number inForm;
 };
 
-void getThings( DWORD space, gchar const**& namers, gchar const**& tippies, guint const*& scalies ) {
+void getThings( cmsUInt32Number space, gchar const**& namers, gchar const**& tippies, guint const*& scalies ) {
     MapMap possible[] = {
-        {icSigXYZData,   TYPE_XYZ_16},
-        {icSigLabData,   TYPE_Lab_16},
-        //icSigLuvData
-        {icSigYCbCrData, TYPE_YCbCr_16},
-        {icSigYxyData,   TYPE_Yxy_16},
-        {icSigRgbData,   TYPE_RGB_16},
-        {icSigGrayData,  TYPE_GRAY_16},
-        {icSigHsvData,   TYPE_HSV_16},
-        {icSigHlsData,   TYPE_HLS_16},
-        {icSigCmykData,  TYPE_CMYK_16},
-        {icSigCmyData,   TYPE_CMY_16},
+        {cmsSigXYZData,   TYPE_XYZ_16},
+        {cmsSigLabData,   TYPE_Lab_16},
+        //cmsSigLuvData
+        {cmsSigYCbCrData, TYPE_YCbCr_16},
+        {cmsSigYxyData,   TYPE_Yxy_16},
+        {cmsSigRgbData,   TYPE_RGB_16},
+        {cmsSigGrayData,  TYPE_GRAY_16},
+        {cmsSigHsvData,   TYPE_HSV_16},
+        {cmsSigHlsData,   TYPE_HLS_16},
+        {cmsSigCmykData,  TYPE_CMYK_16},
+        {cmsSigCmyData,   TYPE_CMY_16},
     };
 
     static gchar const *names[][6] = {
@@ -259,7 +263,13 @@ void getThings( DWORD space, gchar const**& namers, gchar const**& tippies, guin
     tippies = tips[index];
     scalies = scales[index];
 }
-#endif // ENABLE_LCMS
+
+
+void getThings( Inkscape::ColorProfile *prof, gchar const**& namers, gchar const**& tippies, guint const*& scalies ) {
+    getThings( asICColorSpaceSig(prof->getColorSpace()), namers, tippies, scalies );
+}
+
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 
 void ColorICCSelector::init()
@@ -276,12 +286,12 @@ void ColorICCSelector::init()
     gtk_widget_show (t);
     gtk_box_pack_start (GTK_BOX (_csel), t, TRUE, TRUE, 0);
 
-#if ENABLE_LCMS
-    //guint partCount = _cmsChannelsOf( icSigRgbData );
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    //guint partCount = _cmsChannelsOf( cmsSigRgbData );
     gchar const** names = 0;
     gchar const** tips = 0;
-    getThings( icSigRgbData, names, tips, _fooScales );
-#endif // ENABLE_LCMS
+    getThings( cmsSigRgbData, names, tips, _fooScales );
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     /* Create components */
     row = 0;
@@ -296,17 +306,22 @@ void ColorICCSelector::init()
     gtk_table_attach( GTK_TABLE (t), _fixupBtn, 0, 1, row, row + 1, GTK_FILL, GTK_FILL, XPAD, YPAD );
 
 
+#if GTK_CHECK_VERSION(2,24,0)
+    _profileSel = gtk_combo_box_text_new();
+    gtk_combo_box_text_append_text( GTK_COMBO_BOX_TEXT(_profileSel), _("<none>") );
+#else
     _profileSel = gtk_combo_box_new_text();
     gtk_combo_box_append_text( GTK_COMBO_BOX(_profileSel), _("<none>") );
+#endif
     gtk_widget_show( _profileSel );
     gtk_combo_box_set_active( GTK_COMBO_BOX(_profileSel), 0 );
     gtk_table_attach( GTK_TABLE(t), _profileSel, 1, 2, row, row + 1, GTK_FILL, GTK_FILL, XPAD, YPAD );
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     _profChangedID = g_signal_connect( G_OBJECT(_profileSel), "changed", G_CALLBACK(_profileSelected), (gpointer)this );
 #else
     gtk_widget_set_sensitive( _profileSel, false );
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 
     row++;
@@ -320,11 +335,11 @@ void ColorICCSelector::init()
 
     for ( guint i = 0; i < _fooCount; i++ ) {
         /* Label */
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         _fooLabel[i] = gtk_label_new_with_mnemonic( names[i] );
 #else
         _fooLabel[i] = gtk_label_new_with_mnemonic( "." );
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         gtk_misc_set_alignment( GTK_MISC (_fooLabel[i]), 1.0, 0.5 );
         gtk_widget_show( _fooLabel[i] );
         gtk_table_attach( GTK_TABLE (t), _fooLabel[i], 0, 1, row, row + 1, GTK_FILL, GTK_FILL, XPAD, YPAD );
@@ -337,20 +352,20 @@ void ColorICCSelector::init()
 
         /* Slider */
         _fooSlider[i] = sp_color_slider_new( _fooAdj[i] );
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         gtk_tooltips_set_tip( _tt, _fooSlider[i], tips[i], NULL );
 #else
         gtk_tooltips_set_tip( _tt, _fooSlider[i], ".", NULL );
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         gtk_widget_show( _fooSlider[i] );
         gtk_table_attach( GTK_TABLE (t), _fooSlider[i], 1, 2, row, row + 1, (GtkAttachOptions)(GTK_EXPAND | GTK_FILL), (GtkAttachOptions)GTK_FILL, XPAD, YPAD );
 
         _fooBtn[i] = gtk_spin_button_new( _fooAdj[i], step, digits );
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         gtk_tooltips_set_tip( _tt, _fooBtn[i], tips[i], NULL );
 #else
         gtk_tooltips_set_tip( _tt, _fooBtn[i], ".", NULL );
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         sp_dialog_defocus_on_enter( _fooBtn[i] );
         gtk_label_set_mnemonic_widget( GTK_LABEL(_fooLabel[i]), _fooBtn[i] );
         gtk_widget_show( _fooBtn[i] );
@@ -448,20 +463,24 @@ void ColorICCSelector::_fixupHit( GtkWidget* /*src*/, gpointer data )
     self->_adjustmentChanged( self->_fooAdj[0], SP_COLOR_ICC_SELECTOR(self->_csel) );
 }
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 void ColorICCSelector::_profileSelected( GtkWidget* /*src*/, gpointer data )
 {
     ColorICCSelector* self = reinterpret_cast<ColorICCSelector*>(data);
     gint activeIndex = gtk_combo_box_get_active( GTK_COMBO_BOX(self->_profileSel) );
+#if GTK_CHECK_VERSION(2,24,0)
+    gchar* name = (activeIndex != 0) ? gtk_combo_box_text_get_active_text( GTK_COMBO_BOX_TEXT(self->_profileSel) ) : 0;
+#else
     gchar* name = (activeIndex != 0) ? gtk_combo_box_get_active_text( GTK_COMBO_BOX(self->_profileSel) ) : 0;
+#endif //GTK_CHECK_VERSION
     self->_switchToProfile( name );
     if ( name ) {
         g_free( name );
     }
 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
-#ifdef ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 void ColorICCSelector::_switchToProfile( gchar const* name )
 {
     bool dirty = false;
@@ -495,17 +514,21 @@ void ColorICCSelector::_switchToProfile( gchar const* name )
 #ifdef DEBUG_LCMS
                     g_message("Shoving in [%02x] [%02x] [%02x]", pre[0], pre[1], pre[2]);
 #endif // DEBUG_LCMS
-                    icUInt16Number post[4] = {0,0,0,0};
+                    cmsUInt16Number post[4] = {0,0,0,0};
                     cmsDoTransform( trans, pre, post, 1 );
 #ifdef DEBUG_LCMS
                     g_message("got on out [%04x] [%04x] [%04x] [%04x]", post[0], post[1], post[2], post[3]);
 #endif // DEBUG_LCMS
-                    guint count = _cmsChannelsOf( newProf->getColorSpace() );
+#if HAVE_LIBLCMS1
+                    guint count = _cmsChannelsOf( asICColorSpaceSig(newProf->getColorSpace()) );
+#elif HAVE_LIBLCMS2
+                    guint count = cmsChannelsOf( asICColorSpaceSig(newProf->getColorSpace()) );
+#endif
 
                     gchar const** names = 0;
                     gchar const** tips = 0;
                     guint const* scales = 0;
-                    getThings( newProf->getColorSpace(), names, tips, scales );
+                    getThings( asICColorSpaceSig(newProf->getColorSpace()), names, tips, scales );
 
                     for ( guint i = 0; i < count; i++ ) {
                         gdouble val = (((gdouble)post[i])/65535.0) * (gdouble)scales[i];
@@ -555,11 +578,11 @@ void ColorICCSelector::_switchToProfile( gchar const* name )
 #endif // DEBUG_LCMS
     }
 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 void ColorICCSelector::_profilesChanged( std::string const & name )
 {
-#ifdef ENABLE_LCMS
     GtkComboBox* combo = GTK_COMBO_BOX(_profileSel);
 
     g_signal_handler_block( G_OBJECT(_profileSel), _profChangedID );
@@ -567,10 +590,18 @@ void ColorICCSelector::_profilesChanged( std::string const & name )
     GtkTreeModel* model = gtk_combo_box_get_model( combo );
     GtkTreeIter iter;
     while ( gtk_tree_model_get_iter_first( model, &iter ) ) {
+#if GTK_CHECK_VERSION(2,24,0)
+        gtk_combo_box_text_remove( GTK_COMBO_BOX_TEXT(combo), 0 );
+#else
         gtk_combo_box_remove_text( combo, 0 );
+#endif
     }
 
+#if GTK_CHECK_VERSION(2,24,0)
+    gtk_combo_box_text_append_text( GTK_COMBO_BOX_TEXT(combo), _("<none>"));
+#else
     gtk_combo_box_append_text( combo, _("<none>"));
+#endif
 
     gtk_combo_box_set_active( combo, 0 );
 
@@ -579,7 +610,11 @@ void ColorICCSelector::_profilesChanged( std::string const & name )
     while ( current ) {
         SPObject* obj = SP_OBJECT(current->data);
         Inkscape::ColorProfile* prof = reinterpret_cast<Inkscape::ColorProfile*>(obj);
+#if GTK_CHECK_VERSION(2,24,0)
+        gtk_combo_box_text_append_text( GTK_COMBO_BOX_TEXT(combo), prof->name );
+#else
         gtk_combo_box_append_text( combo, prof->name );
+#endif
         if ( name == prof->name ) {
             gtk_combo_box_set_active( combo, index );
         }
@@ -589,8 +624,12 @@ void ColorICCSelector::_profilesChanged( std::string const & name )
     }
 
     g_signal_handler_unblock( G_OBJECT(_profileSel), _profChangedID );
-#endif // ENABLE_LCMS
 }
+#else
+void ColorICCSelector::_profilesChanged( std::string const & /*name*/ )
+{
+}
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 /* Helpers for setting color value */
 
@@ -612,13 +651,13 @@ void ColorICCSelector::_colorChanged()
     _profilesChanged( (_color.icc) ? _color.icc->colorProfile : std::string("") );
     ColorScales::setScaled( _adj, _alpha );
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     _setProfile( _color.icc );
     _fixupNeeded = 0;
     gtk_widget_set_sensitive( _fixupBtn, FALSE );
 
     if ( _prof && _prof->getTransfToSRGB8() ) {
-        icUInt16Number tmp[4];
+        cmsUInt16Number tmp[4];
         for ( guint i = 0; i < _profChannelCount; i++ ) {
             gdouble val = 0.0;
             if ( _color.icc->colors.size() > i ) {
@@ -646,7 +685,7 @@ void ColorICCSelector::_colorChanged()
     }
 #else
     //(void)color;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     _updateSliders( -1 );
 
 
@@ -656,7 +695,7 @@ void ColorICCSelector::_colorChanged()
 #endif // DEBUG_LCMS
 }
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 void ColorICCSelector::_setProfile( SVGICCColor* profile )
 {
 #ifdef DEBUG_LCMS
@@ -683,12 +722,16 @@ void ColorICCSelector::_setProfile( SVGICCColor* profile )
 
     if ( profile ) {
         _prof = SP_ACTIVE_DOCUMENT->profileManager->find(profile->colorProfile.c_str());
-        if ( _prof && _prof->getProfileClass() != icSigNamedColorClass ) {
-            _profChannelCount = _cmsChannelsOf( _prof->getColorSpace() );
+        if ( _prof && (asICColorProfileClassSig(_prof->getProfileClass()) != cmsSigNamedColorClass) ) {
+#if HAVE_LIBLCMS1
+            _profChannelCount = _cmsChannelsOf( asICColorSpaceSig(_prof->getColorSpace()) );
+#elif HAVE_LIBLCMS2
+            _profChannelCount = cmsChannelsOf( asICColorSpaceSig(_prof->getColorSpace()) );
+#endif
 
             gchar const** names = 0;
             gchar const** tips = 0;
-            getThings( _prof->getColorSpace(), names, tips, _fooScales );
+            getThings( asICColorSpaceSig(_prof->getColorSpace()), names, tips, _fooScales );
 
             if ( profChanged ) {
                 for ( guint i = 0; i < _profChannelCount; i++ ) {
@@ -731,11 +774,11 @@ void ColorICCSelector::_setProfile( SVGICCColor* profile )
     g_message( "\\_________  %p::_setProfile()", this );
 #endif // DEBUG_LCMS
 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
 void ColorICCSelector::_updateSliders( gint ignore )
 {
-#ifdef ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     if ( _color.icc )
     {
         for ( guint i = 0; i < _profChannelCount; i++ ) {
@@ -753,13 +796,13 @@ void ColorICCSelector::_updateSliders( gint ignore )
         if ( _prof && _prof->getTransfToSRGB8() ) {
             for ( guint i = 0; i < _profChannelCount; i++ ) {
                 if ( static_cast<gint>(i) != ignore ) {
-                    icUInt16Number* scratch = getScratch();
-                    icUInt16Number filler[4] = {0, 0, 0, 0};
+                    cmsUInt16Number* scratch = getScratch();
+                    cmsUInt16Number filler[4] = {0, 0, 0, 0};
                     for ( guint j = 0; j < _profChannelCount; j++ ) {
                         filler[j] = 0x0ffff * ColorScales::getScaled( _fooAdj[j] );
                     }
 
-                    icUInt16Number* p = scratch;
+                    cmsUInt16Number* p = scratch;
                     for ( guint x = 0; x < 1024; x++ ) {
                         for ( guint j = 0; j < _profChannelCount; j++ ) {
                             if ( j == i ) {
@@ -781,7 +824,7 @@ void ColorICCSelector::_updateSliders( gint ignore )
     }
 #else
     (void)ignore;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     guint32 start = _color.toRGBA32( 0x00 );
     guint32 mid = _color.toRGBA32( 0x7f );
@@ -820,7 +863,7 @@ void ColorICCSelector::_adjustmentChanged( GtkAdjustment *adjustment, SPColorICC
          g_message("ALPHA");
 #endif // DEBUG_LCMS
      } else {
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
          for ( guint i = 0; i < iccSelector->_fooCount; i++ ) {
              if ( iccSelector->_fooAdj[i] == adjustment ) {
                  match = i;
@@ -834,7 +877,7 @@ void ColorICCSelector::_adjustmentChanged( GtkAdjustment *adjustment, SPColorICC
          }
 
 
-         icUInt16Number tmp[4];
+         cmsUInt16Number tmp[4];
          for ( guint i = 0; i < 4; i++ ) {
              tmp[i] = ColorScales::getScaled( iccSelector->_fooAdj[i] ) * 0x0ffff;
          }
@@ -872,7 +915,7 @@ void ColorICCSelector::_adjustmentChanged( GtkAdjustment *adjustment, SPColorICC
                  newColor.icc->colors.push_back( val );
              }
          }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
      }
      iccSelector->_updateInternals( newColor, scaled, iccSelector->_dragging );
      iccSelector->_updateSliders( match );

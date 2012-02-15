@@ -4,6 +4,7 @@
  * Authors:
  *   Lauris Kaplinski <lauris@kaplinski.com>
  *   Edward Flick (EAF)
+ *   Jon A. Cruz <jon@joncruz.org>
  *
  * Copyright (C) 1999-2005 Authors
  * Copyright (C) 2000-2001 Ximian, Inc.
@@ -48,9 +49,16 @@
 #include "libnr/nr-matrix-fns.h"
 
 #include "io/sys.h"
-#if ENABLE_LCMS
-#include "color-profile-fns.h"
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+#include "cms-system.h"
 #include "color-profile.h"
+
+#if HAVE_LIBLCMS2
+#  include <lcms2.h>
+#elif HAVE_LIBLCMS1
+#  include <lcms.h>
+#endif // HAVE_LIBLCMS2
+
 //#define DEBUG_LCMS
 #ifdef DEBUG_LCMS
 
@@ -63,7 +71,7 @@
 #include "preferences.h"
 #include <gtk/gtk.h>
 #endif // DEBUG_LCMS
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 /*
  * SPImage
  */
@@ -622,9 +630,9 @@ static void sp_image_init( SPImage *image )
     image->curve = NULL;
 
     image->href = 0;
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     image->color_profile = 0;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     image->pixbuf = 0;
     image->pixPath = 0;
     image->lastMod = 0;
@@ -669,12 +677,12 @@ sp_image_release (SPObject *object)
         image->pixbuf = NULL;
     }
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     if (image->color_profile) {
         g_free (image->color_profile);
         image->color_profile = NULL;
     }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     if (image->pixPath) {
         g_free(image->pixPath);
@@ -787,7 +795,7 @@ sp_image_set (SPObject *object, unsigned int key, const gchar *value)
                 image->aspect_clip = clip;
             }
             break;
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         case SP_PROP_COLOR_PROFILE:
             if ( image->color_profile ) {
                 g_free (image->color_profile);
@@ -803,7 +811,7 @@ sp_image_set (SPObject *object, unsigned int key, const gchar *value)
             // TODO check on this HREF_MODIFIED flag
             object->requestDisplayUpdate(SP_OBJECT_MODIFIED_FLAG | SP_IMAGE_HREF_MODIFIED_FLAG);
             break;
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
         default:
             if (((SPObjectClass *) (parent_class))->set)
                 ((SPObjectClass *) (parent_class))->set (object, key, value);
@@ -844,7 +852,7 @@ sp_image_update (SPObject *object, SPCtx *ctx, unsigned int flags)
             if (pixbuf) {
                 pixbuf = sp_image_pixbuf_force_rgba (pixbuf);
 // BLIP
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
                 if ( image->color_profile )
                 {
                     int imagewidth = gdk_pixbuf_get_width( pixbuf );
@@ -857,12 +865,12 @@ sp_image_update (SPObject *object, SPCtx *ctx, unsigned int flags)
                         DEBUG_MESSAGE( lcmsFive, "in <image>'s sp_image_update. About to call colorprofile_get_handle()" );
 #endif // DEBUG_LCMS
                         guint profIntent = Inkscape::RENDERING_INTENT_UNKNOWN;
-                        cmsHPROFILE prof = Inkscape::colorprofile_get_handle( SP_OBJECT_DOCUMENT( object ),
-                                                                              &profIntent,
-                                                                              image->color_profile );
+                        cmsHPROFILE prof = Inkscape::CMSSystem::getHandle( object->document,
+                                                                           &profIntent,
+                                                                           image->color_profile );
                         if ( prof ) {
-                            icProfileClassSignature profileClass = cmsGetDeviceClass( prof );
-                            if ( profileClass != icSigNamedColorClass ) {
+                            cmsProfileClassSignature profileClass = cmsGetDeviceClass( prof );
+                            if ( profileClass != cmsSigNamedColorClass ) {
                                 int intent = INTENT_PERCEPTUAL;
                                 switch ( profIntent ) {
                                     case Inkscape::RENDERING_INTENT_RELATIVE_COLORIMETRIC:
@@ -919,7 +927,7 @@ sp_image_update (SPObject *object, SPCtx *ctx, unsigned int flags)
 #endif // DEBUG_LCMS
                     }
                 }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
                 image->pixbuf = pixbuf;
             }
         }
@@ -1057,11 +1065,11 @@ sp_image_write (SPObject *object, Inkscape::XML::Document *xml_doc, Inkscape::XM
         sp_repr_set_svg_double(repr, "height", image->height.computed);
     }
     repr->setAttribute("preserveAspectRatio", object->repr->attribute("preserveAspectRatio"));
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
     if (image->color_profile) {
         repr->setAttribute("color-profile", image->color_profile);
     }
-#endif // ENABLE_LCMS
+#endif // defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
 
     if (((SPObjectClass *) (parent_class))->write) {
         ((SPObjectClass *) (parent_class))->write (object, xml_doc, repr, flags);

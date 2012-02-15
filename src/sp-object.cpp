@@ -1,4 +1,3 @@
-#define __SP_OBJECT_C__
 /** \file
  * SPObject implementation.
  *
@@ -6,6 +5,7 @@
  *   Lauris Kaplinski <lauris@kaplinski.com>
  *   bulia byak <buliabyak@users.sf.net>
  *   Stephen Silver <sasilver@users.sourceforge.net>
+ *   Jon A. Cruz <jon@joncruz.org>
  *
  * Copyright (C) 1999-2008 authors
  * Copyright (C) 2001-2002 Ximian, Inc.
@@ -38,7 +38,7 @@
 #include "helper/sp-marshal.h"
 #include "xml/node-event-vector.h"
 #include "attributes.h"
-#include "color-profile-fns.h"
+#include "color-profile.h"
 #include "document.h"
 #include "style.h"
 #include "sp-object-repr.h"
