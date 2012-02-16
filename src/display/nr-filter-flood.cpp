@@ -58,10 +58,11 @@ int FilterFlood::render(FilterSlot &slot, FilterUnits const &/*units*/) {
         b = CLAMP_D_TO_U8((color >>  8) % 256);
         a = CLAMP_D_TO_U8(opacity*255);
 
-#if ENABLE_LCMS
+#if defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+    if (icc) {
         icc_color_to_sRGB(icc, &r, &g, &b);
-//g_message("result: r:%d g:%d b:%d", r, g, b);
-#endif //ENABLE_LCMS
+    }
+#endif
 
     for(i=0; i < 4*in_h*in_w; i+=4){
             out_data[i]=r;
