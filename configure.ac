@@ -54,7 +54,11 @@ if test "$GCC" = "yes"; then
   # Enable all default warnings
   CPPFLAGS="-Wall $CPPFLAGS"
   # Enforce including only <glib.h> (required since 2.31)
-  CPPFLAGS="-DG_DISABLE_SINGLE_INCLUDES $CPPFLAGS"
+  PKG_CHECK_MODULES(NEW_GLIBMM, glibmm-2.4 >= 2.28, new_glibmm=yes,
+new_glibmm=no)
+  if test "x$new_glibmm" = "xyes"; then
+    CPPFLAGS="-DG_DISABLE_SINGLE_INCLUDES $CPPFLAGS"
+  fi
 
   # Test for -Werror=... (introduced some time post-4.0)
   # If we hit a format error -- it should be fatal.
