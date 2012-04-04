@@ -1637,7 +1637,7 @@ void FileSaveDialogImplWin32::GetSaveFileName_thread()
 
     WCHAR* current_directory_string = (WCHAR*)g_utf8_to_utf16(
         _current_directory.data(), _current_directory.length(),
-		NULL, NULL, NULL);
+        NULL, NULL, NULL);
 
     // Copy the selected file name, converting from UTF-8 to UTF-16
     memset(_path_string, 0, sizeof(_path_string));
@@ -1656,7 +1656,7 @@ void FileSaveDialogImplWin32::GetSaveFileName_thread()
     ofn.nMaxFileTitle = 0;
     ofn.lpstrInitialDir = current_directory_string;
     ofn.lpstrTitle = _title;
-    ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST | OFN_EXPLORER | OFN_ENABLEHOOK;
+    ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST | OFN_EXPLORER | OFN_ENABLEHOOK | OFN_ENABLESIZING;
     ofn.lpstrFilter = _filter;
     ofn.nFilterIndex = _filter_index;
     ofn.lpfnHook = GetSaveFileName_hookproc;
@@ -1664,7 +1664,7 @@ void FileSaveDialogImplWin32::GetSaveFileName_thread()
 
     _result = GetSaveFileNameW(&ofn) != 0;
 
-	g_assert(ofn.nFilterIndex >= 1 && ofn.nFilterIndex <= _filter_count);
+    g_assert(ofn.nFilterIndex >= 1 && ofn.nFilterIndex <= _filter_count);
     _filter_index = ofn.nFilterIndex;
     _extension = _extension_map[ofn.nFilterIndex - 1];
 
