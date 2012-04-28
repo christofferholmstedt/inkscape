@@ -66,6 +66,26 @@ SPDocument *
 open(Extension *key, gchar const *filename)
 {
     Input *imod = NULL;
+    int relpath;
+    gchar * curdir;
+
+    // Convert to absolute pathname to tolerate chdir().
+    relpath = *filename != '/';
+#ifdef WIN32
+    relpath &= *filename != '\\' && !(isalpha(*filename) && filename[1] == ':');
+#endif
+
+    if (relpath) {
+#ifndef WIN32
+        curdir = getcwd(NULL, 0);
+#else
+        curdir = _getcwd(NULL, 0);
+#endif
+
+        filename = g_build_filename(curdir, filename, NULL);
+        free(curdir);
+    }
+    
     if (key == NULL) {
         gpointer parray[2];
         parray[0] = (gpointer)filename;
@@ -91,8 +111,12 @@ open(Extension *key, gchar const *filename)
         throw Input::open_failed();
     }
 
-    if (!imod->prefs(filename))
+    if (!imod->prefs(filename)) {
+        if (relpath){
+            free((void *) filename);
+        }
         return NULL;
+    }
 
     SPDocument *doc = imod->open(filename);
     if (!doc) {
@@ -113,6 +137,9 @@ open(Extension *key, gchar const *filename)
 
     sp_document_set_uri(doc, filename);
 
+    if (relpath){
+        free((void *) filename);
+    }
     return doc;
 }
 
