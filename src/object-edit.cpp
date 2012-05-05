@@ -727,6 +727,7 @@ class ArcKnotHolderEntityStart : public KnotHolderEntity {
 public:
     virtual Geom::Point knot_get();
     virtual void knot_set(Geom::Point const &p, Geom::Point const &origin, guint state);
+    virtual void knot_click(guint state);
 };
 
 class ArcKnotHolderEntityEnd : public KnotHolderEntity {
@@ -798,6 +799,17 @@ ArcKnotHolderEntityStart::knot_get()
     SPArc *arc = SP_ARC(item);
 
     return sp_arc_get_xy(arc, ge->start);
+}
+
+void
+ArcKnotHolderEntityStart::knot_click(guint state)
+{
+    SPGenericEllipse *ge = SP_GENERICELLIPSE(item);
+
+    if (state & GDK_SHIFT_MASK) {
+        ge->end = ge->start = 0;
+        (static_cast<SPObject *>(ge))->updateRepr();
+    }
 }
 
 void
