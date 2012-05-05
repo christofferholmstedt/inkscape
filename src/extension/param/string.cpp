@@ -46,8 +46,9 @@ ParamString::set (const gchar * in, SPDocument * /*doc*/, Inkscape::XML::Node * 
 {
     if (in == NULL) return NULL; /* Can't have NULL string */
 
-    if (_value != NULL)
+    if (_value != NULL){
         g_free(_value);
+	}
     _value = g_strdup(in);
 
     gchar * prefname = this->pref_name();
@@ -74,18 +75,30 @@ ParamString::ParamString (const gchar * name, const gchar * guitext, const gchar
     Parameter(name, guitext, desc, scope, gui_hidden, gui_tip, ext), _value(NULL)
 {
     const char * defaultval = NULL;
-    if (sp_repr_children(xml) != NULL)
+    if (sp_repr_children(xml) != NULL) {
         defaultval = sp_repr_children(xml)->content();
-
+	}
+		
     gchar * pref_name = this->pref_name();
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
     Glib::ustring paramval = prefs->getString(extension_pref_root + pref_name);
     g_free(pref_name);
 
-    if (!paramval.empty())
+    if (!paramval.empty()) {
         defaultval = paramval.data();
-    if (defaultval != NULL)
-        _value = g_strdup(defaultval);
+	}
+    if (defaultval != NULL) {
+        char const * chname = xml->name();
+        if (!strcmp(chname, INKSCAPE_EXTENSION_NS "_param")) {
+            if (xml->attribute("msgctxt") != NULL) {
+                _value =  g_strdup(g_dpgettext2(NULL, xml->attribute("msgctxt"), defaultval));
+            } else {
+                _value = g_strdup(_(defaultval));
+            }
+        } else {
+            _value = g_strdup(defaultval);
+        }
+	}
     
     _max_length = 0;
 
