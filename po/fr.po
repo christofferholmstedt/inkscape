@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2011-09-12 21:25+0100\n"
+"PO-Revision-Date: 2012-05-16 22:28+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18301,7 +18301,7 @@ msgstr "Effet courant"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:81
 msgid "Effect list"
-msgstr "Listes des effets"
+msgstr "Liste des effets"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:270
 msgid "Unknown effect is applied"
