@@ -75,6 +75,16 @@ open(Extension *key, gchar const *filename)
     relpath &= *filename != '\\' && !(isalpha(*filename) && filename[1] == ':');
 #endif
 
+    // Do not consider an URI as a relative path.
+    if (relpath) {
+        gchar const * cp = filename;
+
+        while (isalpha(*cp) || isdigit(*cp) || *cp == '+' || *cp == '-' || *cp == '.')
+            cp++;
+
+        relpath = *cp != ':' || cp[1] != '/' || cp[2] != '/';
+    }
+
     if (relpath) {
 #ifndef WIN32
         curdir = getcwd(NULL, 0);
