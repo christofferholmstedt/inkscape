@@ -390,11 +390,13 @@ Glib::ustring Layout::dumpAsText() const
         Glib::ustring::const_iterator iter_char = _spans[span_index].input_stream_first_character;
         // very inefficent code. what the hell, it's only debug stuff.
         for (unsigned char_index = 0 ; char_index < _characters.size() ; char_index++) {
+            union {const PangoLogAttr* pattr; const unsigned* uattr;} u;
+            u.pattr = &_characters[char_index].char_attributes;
             if (_characters[char_index].in_span != span_index) continue;
             if (_input_stream[_spans[span_index].in_input_stream_item]->Type() != TEXT_SOURCE) {
-                snprintf(line, sizeof(line), "      %d: control x=%f flags=%03x glyph=%d\n", char_index, _characters[char_index].x, *(unsigned*)&_characters[char_index].char_attributes, _characters[char_index].in_glyph);
+                snprintf(line, sizeof(line), "      %d: control x=%f flags=%03x glyph=%d\n", char_index, _characters[char_index].x, *u.uattr, _characters[char_index].in_glyph);
             } else {
-                snprintf(line, sizeof(line), "      %d: '%c' x=%f flags=%03x glyph=%d\n", char_index, *iter_char, _characters[char_index].x, *(unsigned*)&_characters[char_index].char_attributes, _characters[char_index].in_glyph);
+                snprintf(line, sizeof(line), "      %d: '%c' x=%f flags=%03x glyph=%d\n", char_index, *iter_char, _characters[char_index].x, *u.uattr, _characters[char_index].in_glyph);
                 iter_char++;
             }
             result += line;
