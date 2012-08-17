@@ -781,6 +781,13 @@ static GtkWidget* create_menu_item( GtkAction* action )
 void value_changed_cb( GtkSpinButton* spin, EgeAdjustmentAction* act )
 {
     if ( GTK_WIDGET_HAS_FOCUS( GTK_WIDGET(spin) ) ) {
+        gint start = 0, end = 0;
+        if (GTK_IS_EDITABLE(spin) && gtk_editable_get_selection_bounds (GTK_EDITABLE(spin), &start, &end)
+                && start != end) {
+            // #167846, #363000 If the spin button has a selection, its probably
+            // because we got here from a Tab key from another spin, if so dont defocus
+            return;
+        }
         ege_adjustment_action_defocus( act );
     }
 }
