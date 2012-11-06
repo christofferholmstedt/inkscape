@@ -735,7 +735,7 @@ cairo_arena_shape_render_outline(cairo_t *ct, NRArenaItem *item, Geom::OptRect a
     cairo_set_source_rgba(ct, SP_RGBA32_B_F(rgba), SP_RGBA32_G_F(rgba), SP_RGBA32_R_F(rgba), SP_RGBA32_A_F(rgba));
 
     cairo_set_line_width(ct, 0.5);
-    cairo_set_tolerance(ct, 1.25); // low quality, but good enough for outline mode
+    cairo_set_tolerance(ct, 0.5); // low quality, but good enough for outline mode
     cairo_new_path(ct);
 
     feed_pathvector_to_cairo (ct, shape->curve->get_pathvector(), shape->ctm, area, true, 0);

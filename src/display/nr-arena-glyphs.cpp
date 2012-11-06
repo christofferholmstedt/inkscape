@@ -456,7 +456,7 @@ nr_arena_glyphs_group_render(cairo_t *ct, NRArenaItem *item, NRRectL *area, NRPi
         // FIXME: we use RGBA buffers but cairo writes BGRA (on i386), so we must cheat
         // by setting color channels in the "wrong" order
         cairo_set_source_rgba(ct, SP_RGBA32_B_F(rgba), SP_RGBA32_G_F(rgba), SP_RGBA32_R_F(rgba), SP_RGBA32_A_F(rgba));
-        cairo_set_tolerance(ct, 1.25); // low quality, but good enough for outline mode
+        cairo_set_tolerance(ct, 0.5); // low quality, but good enough for outline mode
 
         for (child = group->children; child != NULL; child = child->next) {
             NRArenaGlyphs *g = NR_ARENA_GLYPHS(child);
