@@ -22,6 +22,7 @@
 #include <display/nr-arena-group.h>
 #include <display/canvas-arena.h>
 #include <display/inkscape-cairo.h>
+#include "preferences.h"
 
 enum {
     ARENA_EVENT,
@@ -321,13 +322,17 @@ sp_canvas_arena_event (SPCanvasItem *item, GdkEvent *event)
             ret = sp_canvas_arena_send_event (arena, event);
             break;
 
-        case GDK_SCROLL:
-            if (event->scroll.state & GDK_CONTROL_MASK) {
+        case GDK_SCROLL: {
+            Inkscape::Preferences *prefs = Inkscape::Preferences::get();
+            bool wheelzooms = prefs->getBool("/options/wheelzooms/value");
+            bool ctrl = (event->scroll.state & GDK_CONTROL_MASK);
+            if ((ctrl && !wheelzooms) || (!ctrl && wheelzooms)) {
                 /* Zoom is emitted by the canvas as well, ignore here */
                 return FALSE;
             }
             ret = sp_canvas_arena_send_event (arena, event);
             break;
+            }
 
         default:
             /* Just send event */
