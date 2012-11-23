@@ -114,6 +114,28 @@ struct SPDocument : public Inkscape::GC::Managed<>,
 
     bool oldSignalsConnected;
 
+    /** Returns our SPRoot */
+    Inkscape::XML::Node *getReprRoot() { return rroot; }
+
+    /** Our Inkscape::XML::Document. */
+    Inkscape::XML::Document *getReprDoc() { return rdoc; }
+    Inkscape::XML::Document const *getReprDoc() const { return rdoc; }
+
+    /** A filename (not a URI yet), or NULL */
+    gchar const *getURI() const { return uri; }
+    void setUri(gchar const *uri);
+
+    /** To be used for resolving relative hrefs. */
+    gchar const *getBase() const { return base; };
+    void setBase( gchar const* base );
+
+    /** basename(uri) or other human-readable label for the document. */
+    gchar const* getName() const { return name; }
+
+    /** Return the main defs object for the document. */
+    SPDefs *getDefs();
+
+
     void setCurrentPersp3D(Persp3D * const persp);
     inline void setCurrentPersp3DImpl(Persp3DImpl * const persp_impl) { current_persp3d_impl = persp_impl; }
     /*

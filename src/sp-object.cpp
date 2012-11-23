@@ -1813,6 +1813,14 @@ SPObject::textualContent() const
     return text;
 }
 
+Inkscape::XML::Node * SPObject::getRepr() {
+    return repr;
+}
+
+Inkscape::XML::Node const* SPObject::getRepr() const{
+    return repr;
+}
+
 /*
   Local Variables:
   mode:c++

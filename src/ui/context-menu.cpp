@@ -14,6 +14,7 @@
 #endif
 
 #include "context-menu.h"
+#include "inkscape.h"
 #include "../xml/repr.h"
 #include "desktop.h"
 #include "document.h"
@@ -448,21 +449,62 @@ static gchar* getImageEditorName() {
 
 static void sp_image_image_edit(GtkMenuItem *menuitem, SPAnchor *anchor)
 {
-    SPObject* obj = SP_OBJECT(anchor);
-    Inkscape::XML::Node *ir = SP_OBJECT_REPR(obj);
+    SPObject* obj = anchor;
+    Inkscape::XML::Node *ir = obj->getRepr();
     const gchar *href = ir->attribute("xlink:href");
 
     GError* errThing = 0;
-    gchar* editorBin = getImageEditorName();
-    gchar const* args[] = {editorBin, href, 0};
-    g_spawn_async(0, // working dir
-                  const_cast<gchar **>(args),
-                  0, //envp
-                  G_SPAWN_SEARCH_PATH,
-                  0, // child_setup
-                  0, // user_data
-                  0, //GPid *child_pid
-                  &errThing);
+    Glib::ustring cmdline = getImageEditorName();
+    Glib::ustring name;
+    Glib::ustring fullname;
+    
+#ifdef WIN32
+    // g_spawn_command_line_sync parsing is done according to Unix shell rules,
+    // not Windows command interpreter rules. Thus we need to enclose the
+    // executable path with sigle quotes.
+    int index = cmdline.find(".exe");
+    if ( index < 0 ) index = cmdline.find(".bat");
+    if ( index < 0 ) index = cmdline.find(".com");
+    if ( index >= 0 ) {
+        Glib::ustring editorBin = cmdline.substr(0, index + 4).c_str();
+        Glib::ustring args = cmdline.substr(index + 4, cmdline.length()).c_str();
+        editorBin.insert(0, "'");
+        editorBin.append("'");
+        cmdline = editorBin;
+        cmdline.append(args);
+    } else {
+        // Enclose the whole command line if no executable path can be extracted.
+        cmdline.insert(0, "'");
+        cmdline.append("'");
+    }
+#endif
+
+    if (strncmp (href,"file:",5) == 0) {
+    // URI to filename conversion
+      name = g_filename_from_uri(href, NULL, NULL);
+    } else {
+      name.append(href);
+    }
+
+
+    if (Glib::path_is_absolute(name)) {
+        fullname = name;
+    } else if (SP_ACTIVE_DOCUMENT->getBase()) {
+        fullname = Glib::build_filename(SP_ACTIVE_DOCUMENT->getBase(), name);
+    } else {
+        fullname = Glib::build_filename(Glib::get_current_dir(), name);
+    }
+
+
+    cmdline.append(" '");
+    cmdline.append(fullname.c_str());
+    cmdline.append("'");
+
+    //g_warning("##Command line: %s\n", cmdline.c_str());
+
+    g_spawn_command_line_async(cmdline.c_str(),
+                  &errThing); 
+
     if ( errThing ) {
         g_warning("Problem launching editor (%d). %s", errThing->code, errThing->message);
         SPDesktop *desktop = (SPDesktop*)gtk_object_get_data(GTK_OBJECT(menuitem), "desktop");
@@ -470,7 +512,6 @@ static void sp_image_image_edit(GtkMenuItem *menuitem, SPAnchor *anchor)
         g_error_free(errThing);
         errThing = 0;
     }
-    g_free(editorBin);
 }
 
 /* SPShape */

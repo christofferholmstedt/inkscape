@@ -166,6 +166,16 @@ public:
      */
     gchar const* getId() const;
 
+    /**
+     * Returns the XML representation of tree
+     */
+    Inkscape::XML::Node * getRepr();
+
+    /**
+     * Returns the XML representation of tree
+     */
+    Inkscape::XML::Node const* getRepr() const;
+
     /** @brief cleans up an SPObject, releasing its references and
      *         requesting that references to it be released
      */
