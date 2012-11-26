@@ -1491,7 +1491,10 @@ void FilterEffectsDialog::PrimitiveList::update()
                 row[_columns.primitive] = prim;
                 row[_columns.type_id] = FPConverter.get_id_from_key(prim->repr->name());
                 row[_columns.type] = _(FPConverter.get_label(row[_columns.type_id]).c_str());
-                row[_columns.id] = prim->getId();
+
+                if (prim->getId()) {
+                    row[_columns.id] =  Glib::ustring(prim->getId());
+                }
 
                 if(prim == active_prim) {
                     get_selection()->select(row);
