@@ -1366,6 +1366,13 @@ sp_export_browse_clicked (GtkButton */*button*/, gpointer /*userdata*/)
     WCHAR* title_string = (WCHAR*)g_utf8_to_utf16(_("Select a filename for exporting"), -1, NULL, NULL, NULL);
     WCHAR* extension_string = (WCHAR*)g_utf8_to_utf16("*.png", -1, NULL, NULL, NULL);
     // Copy the selected file name, converting from UTF-8 to UTF-16
+    std::string dirname = Glib::path_get_dirname(filename);
+    if ( !Glib::file_test(dirname, Glib::FILE_TEST_EXISTS) ||
+         g_file_test (filename, G_FILE_TEST_IS_DIR) ||
+         dirname.empty() )
+    {
+        filename = create_filepath_from_id(NULL, NULL);
+    }
     WCHAR _filename[_MAX_PATH + 1];
     memset(_filename, 0, sizeof(_filename));
     gunichar2* utf16_path_string = g_utf8_to_utf16(filename, -1, NULL, NULL, NULL);
