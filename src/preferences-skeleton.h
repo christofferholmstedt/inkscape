@@ -315,6 +315,10 @@ static char const preferences_skeleton[] =
 "           clips=\"16711935\"" // 00ff00ff
 "           masks=\"65535\"/>\n" // 0x0000ffff
 "    <group id=\"svgoutput\" usenamedcolors=\"0\" numericprecision=\"8\" minimumexponent=\"-8\" inlineattrs=\"0\" indent=\"2\" allowrelativecoordinates=\"1\" forcerepeatcommands=\"0\"/>\n"
+"    <group id=\"externalresources\">\n"
+"      <group id=\"xml\" "
+"           allow_net_access=\"0\"/>\n"
+"    </group>\n"
 "    <group id=\"forkgradientvectors\" value=\"1\"/>\n"
 "    <group id=\"iconrender\" named_nodelay=\"0\"/>\n"
 "    <group id=\"autosave\" enable=\"0\" interval=\"10\" path=\"\" max=\"10\"/>\n"

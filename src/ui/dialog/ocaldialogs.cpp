@@ -468,9 +468,16 @@ void FileImportFromOCALDialog::searchTagEntryChangedCallback()
     xmlDoc *doc = NULL;
     xmlNode *root_element = NULL;
 
+    int parse_options = XML_PARSE_RECOVER + XML_PARSE_NOWARNING + XML_PARSE_NOERROR;  // do not use XML_PARSE_NOENT ! see bug lp:1025185
+    Inkscape::Preferences *prefs = Inkscape::Preferences::get();
+    bool allowNetAccess = prefs->getBool("/options/externalresources/xml/allow_net_access", false);
+    if (!allowNetAccess) {
+        parse_options |= XML_PARSE_NONET;
+    }
+
     doc = xmlReadIO ((xmlInputReadCallback) vfs_read_callback,
-        (xmlInputCloseCallback) gnome_vfs_close, from_handle, uri.c_str(), NULL,
-        XML_PARSE_RECOVER + XML_PARSE_NOWARNING + XML_PARSE_NOERROR);
+        (xmlInputCloseCallback) gnome_vfs_close, from_handle, uri.c_str(), NULL, parse_options);
+
     if (doc == NULL) {
         sp_ui_error_dialog(_("Server supplied malformed Clip Art feed"));
         g_warning("Failed to parse %s\n", uri.c_str());
