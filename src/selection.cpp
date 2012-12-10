@@ -431,54 +431,19 @@ std::vector<Inkscape::SnapCandidatePoint> Selection::getSnapPoints(SnapPreferenc
 
     SnapPreferences snapprefs_dummy = *snapprefs; // create a local copy of the snapping prefs
     snapprefs_dummy.setIncludeItemCenter(false); // locally disable snapping to the item center
-    snapprefs_dummy.setSnapToItemNode(true); // consider any type of nodes as a snap source
-    snapprefs_dummy.setSnapSmoothNodes(true); // i.e. disregard the smooth / cusp node preference
     std::vector<Inkscape::SnapCandidatePoint> p;
     for (GSList const *iter = items; iter != NULL; iter = iter->next) {
         SPItem *this_item = SP_ITEM(iter->data);
         sp_item_snappoints(this_item, p, &snapprefs_dummy);
 
         //Include the transformation origin for snapping
-        //For a selection or group only the overall origin is considered
+        //For a selection or group only the overall center is considered, not for each item individually
         if (snapprefs != NULL && snapprefs->getIncludeItemCenter()) {
             p.push_back(Inkscape::SnapCandidatePoint(this_item->getCenter(), SNAPSOURCE_ROTATION_CENTER));
         }
     }
 
     return p;
-}
-// TODO: both getSnapPoints and getSnapPointsConvexHull are called, subsequently. Can we do this more efficient?
-// Why do we need to include the transformation center in one case and not the other?
-std::vector<Inkscape::SnapCandidatePoint> Selection::getSnapPointsConvexHull(SnapPreferences const *snapprefs) const {
-    GSList const *items = const_cast<Selection *>(this)->itemList();
-
-    SnapPreferences snapprefs_dummy = *snapprefs; // create a local copy of the snapping prefs
-    snapprefs_dummy.setSnapToItemNode(true); // consider any type of nodes as a snap source
-    snapprefs_dummy.setSnapSmoothNodes(true); // i.e. disregard the smooth / cusp node preference
-
-    std::vector<Inkscape::SnapCandidatePoint> p;
-    for (GSList const *iter = items; iter != NULL; iter = iter->next) {
-        sp_item_snappoints(SP_ITEM(iter->data), p, &snapprefs_dummy);
-    }
-
-    std::vector<Inkscape::SnapCandidatePoint> pHull;
-    if (!p.empty()) {
-        std::vector<Inkscape::SnapCandidatePoint>::iterator i;
-        Geom::RectHull cvh((p.front()).getPoint());
-        for (i = p.begin(); i != p.end(); i++) {
-            // these are the points we get back
-            cvh.add((*i).getPoint());
-        }
-
-        Geom::OptRect rHull = cvh.bounds();
-        if (rHull) {
-            for ( unsigned i = 0 ; i < 4 ; ++i ) {
-                pHull.push_back(Inkscape::SnapCandidatePoint(rHull->corner(i), SNAPSOURCE_CONVEX_HULL_CORNER));
-            }
-        }
-    }
-
-    return pHull;
 }
 
 void Selection::_removeObjectDescendants(SPObject *obj) {

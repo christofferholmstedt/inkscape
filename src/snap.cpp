@@ -111,9 +111,14 @@ SnapManager::getGridSnappers() const
  * \return true if one of the snappers will try to snap to something.
  */
 
-bool SnapManager::someSnapperMightSnap() const
+bool SnapManager::someSnapperMightSnap(bool immediately) const
 {
-    if ( !snapprefs.getSnapEnabledGlobally() || snapprefs.getSnapPostponedGlobally() ) {
+    if ( !snapprefs.getSnapEnabledGlobally() ) {
+        return false;
+    }
+
+    // If we're asking if some snapper might snap RIGHT NOW (without the snap being postponed)...
+    if ( immediately && snapprefs.getSnapPostponedGlobally() ) {
         return false;
     }
 

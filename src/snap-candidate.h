@@ -24,6 +24,8 @@ namespace Inkscape {
 class SnapCandidatePoint
 {
 public:
+    SnapCandidatePoint() {}; // only needed / used for resizing() of a vector in seltrans.cpp; do not use uninitialized instances!
+
     SnapCandidatePoint(Geom::Point const &point, Inkscape::SnapSourceType const source, long const source_num, Inkscape::SnapTargetType const target, Geom::OptRect const &bbox)
         : _point(point),
         _source_type(source),

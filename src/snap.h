@@ -77,7 +77,21 @@ public:
 
     typedef std::list<const Inkscape::Snapper*> SnapperList;
 
-    bool someSnapperMightSnap() const;
+    /**
+     * Return true if any snapping might occur, whether its to grids, guides or objects.
+     *
+     * Each snapper instance handles its own snapping target, e.g. grids, guides or
+     * objects. This method iterates through all these snapper instances and returns
+     * true if any of the snappers might possible snap, considering only the relevant
+     * snapping preferences.
+     *
+     * @return true if one of the snappers will try to snap to something.
+     */
+    bool someSnapperMightSnap(bool immediately = true) const;
+
+    /**
+     * @return true if one of the grids might be snapped to.
+     */
     bool gridSnapperMightSnap() const;
 
     void setup(SPDesktop const *desktop,

@@ -290,33 +290,21 @@ void Inkscape::SelTrans::grab(Geom::Point const &p, gdouble x, gdouble y, bool s
     // Next, get all points to consider for snapping
     SnapManager const &m = _desktop->namedview->snap_manager;
     _snap_points.clear();
-    _snap_points = selection->getSnapPoints(&m.snapprefs);
-    std::vector<Inkscape::SnapCandidatePoint> snap_points_hull = selection->getSnapPointsConvexHull(&m.snapprefs);
+    if (m.someSnapperMightSnap(false)) { // Only search for snap sources when really needed, to avoid unnecessary delays
+        _snap_points = selection->getSnapPoints(&m.snapprefs); // This might take some time!
+    }
     if (_snap_points.size() > 200) {
         /* Snapping a huge number of nodes will take way too long, so limit the number of snappable nodes
-        An average user would rarely ever try to snap such a large number of nodes anyway, because
-        (s)he could hardly discern which node would be snapping */
-        if (prefs->getBool("/options/snapclosestonly/value", false)) {
-            _keepClosestPointOnly(_snap_points, p);
-        } else {
-            _snap_points = snap_points_hull;
-        }
+        A typical user would rarely ever try to snap such a large number of nodes anyway, because
+        (s)he would hardly be able to discern which node would be snapping */
+        _snap_points.resize(200);
         // Unfortunately, by now we will have lost the font-baseline snappoints :-(
     }
 
     // Find bbox hulling all special points, which excludes stroke width. Here we need to include the
     // path nodes, for example because a rectangle which has been converted to a path doesn't have
     // any other special points
-    Geom::Rect snap_points_bbox;
-    if ( snap_points_hull.empty() == false ) {
-        std::vector<Inkscape::SnapCandidatePoint>::iterator i = snap_points_hull.begin();
-        snap_points_bbox = Geom::Rect((*i).getPoint(), (*i).getPoint());
-        i++;
-        while (i != snap_points_hull.end()) {
-            snap_points_bbox.expandTo((*i).getPoint());
-            i++;
-        }
-    }
+    Geom::OptRect snap_points_bbox = selection->bounds(SPItem::GEOMETRIC_BBOX);
 
     _bbox_points.clear();
     _bbox_points_for_translating.clear();
@@ -348,7 +336,11 @@ void Inkscape::SelTrans::grab(Geom::Point const &p, gdouble x, gdouble y, bool s
         // These distinct "opposites" are needed in the snapmanager to avoid bugs such as #sf1540195 (in which
         // a box is caught between two guides)
         _opposite_for_bboxpoints = _bbox->min() + _bbox->dimensions() * Geom::Scale(1-x, 1-y);
-        _opposite_for_specpoints = snap_points_bbox.min() + snap_points_bbox.dimensions() * Geom::Scale(1-x, 1-y);
+        if (snap_points_bbox) {
+            _opposite_for_specpoints = (*snap_points_bbox).min() + (*snap_points_bbox).dimensions() * Geom::Scale(1-x, 1-y);
+        } else {
+            _opposite_for_specpoints = _opposite_for_bboxpoints;
+        }
         _opposite = _opposite_for_bboxpoints;
     }
 
