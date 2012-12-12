@@ -522,7 +522,7 @@ void LayersPanel::_handleRowChange( Gtk::TreeModel::Path const& /*path*/, Gtk::T
                 _desktop->layer_manager->renameLayer( obj, tmp.c_str(), FALSE );
                 row[_model->_colLabel] = obj->label();
                 sp_document_done( _desktop->doc() , SP_VERB_NONE,
-                                                    _("Renamed layer"));
+                                                    _("Rename layer"));
             }
         }
     }
