@@ -890,10 +890,10 @@ void InkscapePreferences::initPageCMS()
     Glib::ustring intentLabels[numIntents] = {_("Perceptual"), _("Relative Colorimetric"), _("Saturation"), _("Absolute Colorimetric")};
     int intentValues[numIntents] = {0, 1, 2, 3};
 
-#if !defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+#if !defined(HAVE_LIBLCMS1) && !defined(HAVE_LIBLCMS2)
     Gtk::Label* lbl = new Gtk::Label(_("(Note: Color management has been disabled in this build)"));
     _page_cms.add_line( false, "", *lbl, "", "", true);
-#endif // !defined(HAVE_LIBLCMS1) || defined(HAVE_LIBLCMS2)
+#endif // !defined(HAVE_LIBLCMS1) && !defined(HAVE_LIBLCMS2)
 
     _page_cms.add_group_header( _("Display adjustment"));
 
@@ -952,6 +952,8 @@ void InkscapePreferences::initPageCMS()
                         _("Enables black point compensation"), false);
 
     _cms_proof_preserveblack.init( _("Preserve black"), "/options/softproof/preserveblack", false);
+
+#if !defined(HAVE_LIBLCMS2)
     _page_cms.add_line( false, "", _cms_proof_preserveblack,
 #if defined(cmsFLAGS_PRESERVEBLACK)
                         "",
@@ -959,6 +961,7 @@ void InkscapePreferences::initPageCMS()
                         _("(LittleCMS 1.15 or later required)"),
 #endif // defined(cmsFLAGS_PRESERVEBLACK)
                         _("Preserve K channel in CMYK -> CMYK transforms"), false);
+#endif // !defined(HAVE_LIBLCMS2)
 
 #if !defined(cmsFLAGS_PRESERVEBLACK)
     _cms_proof_preserveblack.set_sensitive( false );
