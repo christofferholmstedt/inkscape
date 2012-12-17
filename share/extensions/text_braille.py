@@ -1,6 +1,6 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-#encoding: utf-8
 import chardataeffect, inkex, string
 
 convert_table = {\
