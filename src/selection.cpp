@@ -431,6 +431,8 @@ std::vector<Inkscape::SnapCandidatePoint> Selection::getSnapPoints(SnapPreferenc
 
     SnapPreferences snapprefs_dummy = *snapprefs; // create a local copy of the snapping prefs
     snapprefs_dummy.setIncludeItemCenter(false); // locally disable snapping to the item center
+    snapprefs_dummy.setSnapToItemNode(true); // consider any type of nodes as a snap source
+    snapprefs_dummy.setSnapSmoothNodes(true); // i.e. disregard the smooth / cusp node preference
     std::vector<Inkscape::SnapCandidatePoint> p;
     for (GSList const *iter = items; iter != NULL; iter = iter->next) {
         SPItem *this_item = SP_ITEM(iter->data);
