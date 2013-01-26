@@ -52,7 +52,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.48\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-06-08 21:39+0200\n"
-"PO-Revision-Date: 2011-03-18 18:29+0100\n"
+"PO-Revision-Date: 2013-01-26 21:18+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -20525,7 +20525,7 @@ msgstr "_Definities opruimen"
 
 #: ../src/verbs.cpp:2210
 msgid "Remove unused definitions (such as gradients or clipping paths) from the &lt;defs&gt; of the document"
-msgstr "Ongebruikte definities (zoals kleurverlopen of hulplijnen) uit het &lt;defs&gt-onderdeel van het bestand verwijderen"
+msgstr "Ongebruikte definities (zoals kleurverlopen of afsnijpaden) uit het &lt;defs&gt;-onderdeel van het bestand verwijderen"
 
 #: ../src/verbs.cpp:2212
 msgid "Print Previe_w"
