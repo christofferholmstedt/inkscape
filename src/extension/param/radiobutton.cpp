@@ -156,7 +156,7 @@ ParamRadioButton::set (const gchar * in, SPDocument * /*doc*/, Inkscape::XML::No
     Glib::ustring * settext = NULL;
     for (GSList * list = choices; list != NULL; list = g_slist_next(list)) {
         optionentry * entr = reinterpret_cast<optionentry *>(list->data);
-        if ( !entr->guitext->compare(in) ) {
+        if ( !entr->value->compare(in) ) {
             settext = entr->value;
             break;  // break out of for loop
         }
