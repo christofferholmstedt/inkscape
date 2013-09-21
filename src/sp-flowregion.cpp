@@ -267,7 +267,7 @@ sp_flowregion_write (SPObject *object, Inkscape::XML::Document *xml_doc, Inkscap
 static gchar *sp_flowregion_description(SPItem */*item*/)
 {
 	// TRANSLATORS: "Flow region" is an area where text is allowed to flow
-	return g_strdup_printf(_("Flow region"));
+	return g_strdup_printf("%s", _("Flow region"));
 }
 
 /*
@@ -484,7 +484,7 @@ static gchar *sp_flowregionexclude_description(SPItem */*item*/)
 	 * flow excluded region.  flowRegionExclude in SVG 1.2: see
 	 * http://www.w3.org/TR/2004/WD-SVG12-20041027/flow.html#flowRegion-elem and
 	 * http://www.w3.org/TR/2004/WD-SVG12-20041027/flow.html#flowRegionExclude-elem. */
-	return g_strdup_printf(_("Flow excluded region"));
+	return g_strdup_printf("%s", _("Flow excluded region"));
 }
 
 /*

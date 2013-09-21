@@ -443,7 +443,7 @@ spellcheck_finished ()
         if (_stops)
             label = g_strdup_printf(_("<b>Finished</b>, <b>%d</b> words added to dictionary"), _adds);
         else
-            label = g_strdup_printf(_("<b>Finished</b>, nothing suspicious found"));
+            label = g_strdup_printf("%s", _("<b>Finished</b>, nothing suspicious found"));
         gtk_label_set_markup (GTK_LABEL(l), label);
         g_free(label);
     }

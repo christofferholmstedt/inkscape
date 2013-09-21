@@ -640,7 +640,7 @@ static void sp_box3d_drag(Box3DContext &bc, guint /*state*/)
     box3d_position_set(box);
 
     // status text
-    bc._message_context->setF(Inkscape::NORMAL_MESSAGE, _("<b>3D Box</b>; with <b>Shift</b> to extrude along the Z axis"));
+    bc._message_context->setF(Inkscape::NORMAL_MESSAGE, "%s", _("<b>3D Box</b>; with <b>Shift</b> to extrude along the Z axis"));
 }
 
 static void sp_box3d_finish(Box3DContext *bc)

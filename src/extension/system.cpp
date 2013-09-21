@@ -138,7 +138,7 @@ open(Extension *key, gchar const *filename)
            running from the console, in which case calling sp_ui
            routines will cause a segfault.  See bug 1000350 - bryce */
         // sp_ui_error_dialog(_("Format autodetect failed. The file is being opened as SVG."));
-        g_warning(_("Format autodetect failed. The file is being opened as SVG."));
+        g_warning("%s", _("Format autodetect failed. The file is being opened as SVG."));
     }
 
     /* This kinda overkill as most of these are already set, but I want
