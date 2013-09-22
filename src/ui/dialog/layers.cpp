@@ -606,7 +606,8 @@ LayersPanel::LayersPanel() :
     int nameColNum = _tree.append_column_editable("Name", _model->_colLabel) - 1;
 
     _tree.set_expander_column( *_tree.get_column(nameColNum) );
-
+    _tree.set_search_column(nameColNum + 1);
+	
     _compositeSettings.setSubject(&_subject);
 
     _selectedConnection = _tree.get_selection()->signal_changed().connect( sigc::mem_fun(*this, &LayersPanel::_pushTreeSelectionToCurrent) );
