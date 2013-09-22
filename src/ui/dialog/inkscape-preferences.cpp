@@ -1240,7 +1240,7 @@ void InkscapePreferences::initPageBitmaps()
         gchar** splits = g_strsplit(choices.data(), ",", 0);
         gint numIems = g_strv_length(splits);
 
-        Glib::ustring labels[numIems];
+        Glib::ustring *labels = new Glib::ustring[numIems];
         int values[numIems];
         for ( gint i = 0; i < numIems; i++) {
             values[i] = i;
@@ -1250,6 +1250,7 @@ void InkscapePreferences::initPageBitmaps()
         _page_bitmaps.add_line( false, _("Bitmap editor:"), _misc_bitmap_editor, "", "", false);
 
         g_strfreev(splits);
+        delete[] labels;
     }
 
     _bitmap_copy_res.init("/options/createbitmap/resolution", 1.0, 6000.0, 1.0, 1.0, PX_PER_IN, true, false);
