@@ -106,31 +106,6 @@ fi
 dnl Honor aclocal flags
 ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
 
-dnl Verify our GCC version
-if test "x$GXX" = "xyes"; then
-	AC_MSG_CHECKING([GNU compiler version])
-
-	# Don't pass CXXFLAGS to the following CXX command as some 
-	# of them can't be specified along with '-v'.
-	cc_version=["`$CXX -v 2>&1 </dev/null |grep 'gcc version' |\
-		sed 's/.*gcc version \([-a-z0-9\.]*\).*/\1/'`"]
-
-	AC_MSG_RESULT([$cc_version])
-
-	# Some version numbers
-	cc_vers_major=`echo $cc_version | cut -f1 -d.`
-	cc_vers_minor=`echo $cc_version | cut -f2 -d.`
-	cc_vers_patch=`echo $cc_version | cut -f3 -d.`
-	test -n "$cc_vers_major" || cc_vers_major=0
-	test -n "$cc_vers_minor" || cc_vers_minor=0
-	test -n "$cc_vers_patch" || cc_vers_patch=0
-	cc_vers_all=`expr $cc_vers_major '*' 1000000 + $cc_vers_minor '*' 1000 + $cc_vers_patch`
-
-	if test $cc_vers_major -lt 3; then
-		AC_MSG_ERROR([gcc >= 3.0 is needed to compile inkscape])
-	fi
-fi
-
 # Detect a working version of unordered containers.
 AC_MSG_CHECKING([TR1 unordered_set usability])
 AC_COMPILE_IFELSE([
@@ -726,13 +701,7 @@ dnl ******************************
 dnl   Unconditional dependencies
 dnl ******************************
 
-dnl sigc++-2.0 >= 2.0.12: using "visit_each" not available in 2.0.10
-if test $cc_vers_major -gt 3; then
-  min_sigc_version=2.0.12
-else
-  min_sigc_version=2.0.11
-fi
-PKG_CHECK_MODULES(INKSCAPE, gdkmm-2.4  glibmm-2.4 giomm-2.4 gtkmm-2.4 >= 2.10.0  gtk+-2.0 pangoft2 libxml-2.0 >= 2.6.11  libxslt >= 1.0.15  cairo  sigc++-2.0 >= $min_sigc_version  $ink_spell_pkg  gthread-2.0 >= 2.0 libpng >= 1.2 gsl)
+PKG_CHECK_MODULES(INKSCAPE, gdkmm-2.4  glibmm-2.4 giomm-2.4 gtkmm-2.4 >= 2.10.0  gtk+-2.0 pangoft2 libxml-2.0 >= 2.6.11  libxslt >= 1.0.15  cairo  sigc++-2.0 >= 2.0.12  $ink_spell_pkg  gthread-2.0 >= 2.0 libpng >= 1.2 gsl)
 
 dnl gtkmm provides no preprocessor macros for easily checking versions.  This check is used
 dnl to figure out if we are working with the newer 2.24 series or not.
