@@ -1241,7 +1241,7 @@ void InkscapePreferences::initPageBitmaps()
         gint numIems = g_strv_length(splits);
 
         Glib::ustring *labels = new Glib::ustring[numIems];
-        int values[numIems];
+        int *values = new int[numIems];
         for ( gint i = 0; i < numIems; i++) {
             values[i] = i;
             labels[i] = splits[i];
@@ -1250,6 +1250,7 @@ void InkscapePreferences::initPageBitmaps()
         _page_bitmaps.add_line( false, _("Bitmap editor:"), _misc_bitmap_editor, "", "", false);
 
         g_strfreev(splits);
+        delete[] values;
         delete[] labels;
     }
 
