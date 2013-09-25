@@ -771,6 +771,11 @@ _wr.setUpdating (false);
 
     _rcb_dotted->setActive(render_dotted);
 
+    _rsu_ox->setProgrammatically = false;
+    _rsu_oy->setProgrammatically = false;
+    _rsu_sx->setProgrammatically = false;
+    _rsu_sy->setProgrammatically = false;
+
     return table;
 }
 
