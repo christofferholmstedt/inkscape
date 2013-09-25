@@ -862,7 +862,9 @@ sp_group_perform_patheffect(SPGroup *group, SPGroup *topgroup, bool write)
             }
             // only run LPEs when the shape has a curve defined
             if (c) {
+                c->transform(i2anc_affine(subitem, topgroup));
                 sp_lpe_item_perform_path_effect(SP_LPE_ITEM(topgroup), c);
+                c->transform(i2anc_affine(subitem, topgroup).inverse());
                 sp_shape_set_curve(SP_SHAPE(subitem), c, TRUE);
 
                 if (write) {
