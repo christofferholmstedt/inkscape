@@ -429,8 +429,8 @@ void PathManipulator::weldSegments()
                     sp->erase(sel_beg);
                     sel_beg = next;
                 }
-                sel_beg = sel_end;
             }
+            sel_beg = sel_end;
             num_selected -= num_points;
         }
     }
