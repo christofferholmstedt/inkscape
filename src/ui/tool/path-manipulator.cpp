@@ -1211,6 +1211,10 @@ void PathManipulator::_getGeometry()
     } else {
         _spcurve->unref();
         _spcurve = sp_path_get_curve_for_edit(_path);
+        // never allow NULL spcurve!
+        if (_spcurve == NULL) {
+            _spcurve = new SPCurve();
+        }
     }
 }
 
