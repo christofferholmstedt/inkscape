@@ -16,6 +16,7 @@
 #endif
 
 //General includes
+#include <cmath>
 #include <list>
 #include <unistd.h>
 #include <sys/stat.h>
@@ -931,8 +932,9 @@ bool FileOpenDialogImplWin32::set_svg_preview()
     const double scaledSvgHeight = scaleFactor * svgHeight;
 
     Geom::Rect area(Geom::Point(0, 0), Geom::Point(scaledSvgWidth, scaledSvgHeight));
-    NRRectL areaL = {0, 0, scaledSvgWidth, scaledSvgHeight};
-    NRRectL bbox = {0, 0, scaledSvgWidth, scaledSvgHeight};
+    // assume that scaledSvgWidth and scaledSvgHeight are not bigger than largest int
+    NRRectL areaL = {0, 0, static_cast<int>(trunc(scaledSvgWidth)), static_cast<int>(trunc(scaledSvgHeight))};
+    NRRectL bbox =  {0, 0, static_cast<int>(trunc(scaledSvgWidth)), static_cast<int>(trunc(scaledSvgHeight))};
 
     // write object bbox to area
     Geom::OptRect maybeArea(area);
