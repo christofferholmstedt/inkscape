@@ -54,7 +54,7 @@ namespace io
  *
  */
 UriInputStream::UriInputStream(const URI &source)
-                    throw (StreamException): uri((URI &)source)
+    : uri((URI &)source)
 {
     init();
 }
@@ -62,7 +62,7 @@ UriInputStream::UriInputStream(const URI &source)
 /**
  *
  */
-void UriInputStream::init() throw (StreamException)
+void UriInputStream::init()
 {
     //get information from uri
     scheme = uri.getScheme();
@@ -116,7 +116,7 @@ void UriInputStream::init() throw (StreamException)
 /**
  *
  */
-UriInputStream::~UriInputStream() throw(StreamException)
+UriInputStream::~UriInputStream()
 {
     close();
 }
@@ -126,7 +126,7 @@ UriInputStream::~UriInputStream() throw(StreamException)
  * this input stream without blocking by the next caller of a method for
  * this input stream.
  */
-int UriInputStream::available() throw(StreamException)
+int UriInputStream::available()
 {
     return 0;
 }
@@ -136,7 +136,7 @@ int UriInputStream::available() throw(StreamException)
  *  Closes this input stream and releases any system resources
  *  associated with the stream.
  */
-void UriInputStream::close() throw(StreamException)
+void UriInputStream::close()
 {
     if (closed)
         return;
@@ -175,7 +175,7 @@ void UriInputStream::close() throw(StreamException)
 /**
  * Reads the next byte of data from the input stream.  -1 if EOF
  */
-int UriInputStream::get() throw(StreamException)
+int UriInputStream::get()
 {
     int retVal = -1;
     if (closed)
@@ -232,7 +232,7 @@ int UriInputStream::get() throw(StreamException)
 /**
  *
  */
-UriReader::UriReader(const URI &uri) throw (StreamException)
+UriReader::UriReader(const URI &uri)
 {
     inputStream = new UriInputStream(uri);
 }
@@ -240,7 +240,7 @@ UriReader::UriReader(const URI &uri) throw (StreamException)
 /**
  *
  */
-UriReader::~UriReader() throw (StreamException)
+UriReader::~UriReader()
 {
     delete inputStream;
 }
@@ -248,7 +248,7 @@ UriReader::~UriReader() throw (StreamException)
 /**
  *
  */
-int UriReader::available() throw(StreamException)
+int UriReader::available()
 {
     return inputStream->available();
 }
@@ -256,7 +256,7 @@ int UriReader::available() throw(StreamException)
 /**
  *
  */
-void UriReader::close() throw(StreamException)
+void UriReader::close()
 {
     inputStream->close();
 }
@@ -264,7 +264,7 @@ void UriReader::close() throw(StreamException)
 /**
  *
  */
-int UriReader::get() throw(StreamException)
+int UriReader::get()
 {
     int ch = (int)inputStream->get();
     return ch;
@@ -279,10 +279,10 @@ int UriReader::get() throw(StreamException)
  *
  */
 UriOutputStream::UriOutputStream(const URI &destination)
-                    throw (StreamException): closed(false),
-                                             ownsFile(true),
-                                             outf(NULL),
-                                             uri((URI &)destination)
+    : closed(false),
+      ownsFile(true),
+      outf(NULL),
+      uri((URI &)destination)
 {
     init();
 }
@@ -291,7 +291,7 @@ UriOutputStream::UriOutputStream(const URI &destination)
 /**
  *
  */
-void UriOutputStream::init() throw(StreamException)
+void UriOutputStream::init()
 {
     //get information from uri
     scheme = uri.getScheme();
@@ -328,7 +328,7 @@ void UriOutputStream::init() throw(StreamException)
 /**
  *
  */
-UriOutputStream::~UriOutputStream() throw(StreamException)
+UriOutputStream::~UriOutputStream()
 {
     close();
 }
@@ -337,7 +337,7 @@ UriOutputStream::~UriOutputStream() throw(StreamException)
  * Closes this output stream and releases any system resources
  * associated with this stream.
  */
-void UriOutputStream::close() throw(StreamException)
+void UriOutputStream::close()
 {
     if (closed)
         return;
@@ -372,7 +372,7 @@ void UriOutputStream::close() throw(StreamException)
  *  Flushes this output stream and forces any buffered output
  *  bytes to be written out.
  */
-void UriOutputStream::flush() throw(StreamException)
+void UriOutputStream::flush()
 {
     if (closed)
         return;
@@ -401,7 +401,7 @@ void UriOutputStream::flush() throw(StreamException)
 /**
  * Writes the specified byte to this output stream.
  */
-int UriOutputStream::put(XMLCh ch) throw(StreamException)
+int UriOutputStream::put(XMLCh ch)
 {
     if (closed)
         return -1;
@@ -437,7 +437,6 @@ int UriOutputStream::put(XMLCh ch) throw(StreamException)
  *
  */
 UriWriter::UriWriter(const URI &uri)
-                    throw (StreamException)
 {
     outputStream = new UriOutputStream(uri);
 }
@@ -445,7 +444,7 @@ UriWriter::UriWriter(const URI &uri)
 /**
  *
  */
-UriWriter::~UriWriter() throw (StreamException)
+UriWriter::~UriWriter()
 {
     delete outputStream;
 }
@@ -453,7 +452,7 @@ UriWriter::~UriWriter() throw (StreamException)
 /**
  *
  */
-void UriWriter::close() throw(StreamException)
+void UriWriter::close()
 {
     outputStream->close();
 }
@@ -461,7 +460,7 @@ void UriWriter::close() throw(StreamException)
 /**
  *
  */
-void UriWriter::flush() throw(StreamException)
+void UriWriter::flush()
 {
     outputStream->flush();
 }
@@ -469,7 +468,7 @@ void UriWriter::flush() throw(StreamException)
 /**
  *
  */
-int UriWriter::put(XMLCh ch) throw(StreamException)
+int UriWriter::put(XMLCh ch)
 {
     int ich = (int)ch;
     if (outputStream->put(ich) < 0)

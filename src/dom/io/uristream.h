@@ -65,19 +65,19 @@ class UriInputStream : public InputStream
 
 public:
 
-    UriInputStream(const URI &source) throw(StreamException);
+    UriInputStream(const URI &source);
 
-    virtual ~UriInputStream() throw(StreamException);
+    virtual ~UriInputStream();
 
-    virtual int available() throw(StreamException);
+    virtual int available();
 
-    virtual void close() throw(StreamException);
+    virtual void close();
 
-    virtual int get() throw(StreamException);
+    virtual int get();
 
 private:
 
-    void init() throw(StreamException);//common code called by constructor
+    void init() ;//common code called by constructor
 
     bool closed;
 
@@ -106,15 +106,15 @@ class UriReader : public Reader
 
 public:
 
-    UriReader(const URI &source) throw(StreamException);
+    UriReader(const URI &source);
 
-    virtual ~UriReader() throw(StreamException);
+    virtual ~UriReader();
 
-    virtual int available() throw(StreamException);
+    virtual int available();
 
-    virtual void close() throw(StreamException);
+    virtual void close();
 
-    virtual int get() throw(StreamException);
+    virtual int get();
 
 private:
 
@@ -138,19 +138,19 @@ class UriOutputStream : public OutputStream
 
 public:
 
-    UriOutputStream(const URI &destination) throw(StreamException);
+    UriOutputStream(const URI &destination);
 
-    virtual ~UriOutputStream() throw(StreamException);
+    virtual ~UriOutputStream();
 
-    virtual void close() throw(StreamException);
+    virtual void close();
 
-    virtual void flush() throw(StreamException);
+    virtual void flush();
 
-    virtual int put(XMLCh ch) throw(StreamException);
+    virtual int put(XMLCh ch);
 
 private:
 
-    void init() throw(StreamException); //common code called by constructor
+    void init() ; //common code called by constructor
 
     bool closed;
     bool ownsFile;
@@ -179,15 +179,15 @@ class UriWriter : public Writer
 
 public:
 
-    UriWriter(const URI &source) throw(StreamException);
+    UriWriter(const URI &source) ;
 
-    virtual ~UriWriter() throw(StreamException);
+    virtual ~UriWriter() ;
 
-    virtual void close() throw(StreamException);
+    virtual void close() ;
 
-    virtual void flush() throw(StreamException);
+    virtual void flush() ;
 
-    virtual int put(XMLCh ch) throw(StreamException);
+    virtual int put(XMLCh ch) ;
 
 private:
 
