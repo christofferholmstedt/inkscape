@@ -48,7 +48,7 @@ G_BEGIN_DECLS
 #define GDL_TRACE_EXTRA(format, args...) G_STMT_START {     \
     g_log (G_LOG_DOMAIN,                      \
 	   G_LOG_LEVEL_DEBUG,                 \
-	   "file %s: line %d (%s): "format,   \
+	   "file %s: line %d (%s): " format,   \
 	   __FILE__,                          \
 	   __LINE__,                          \
 	   __PRETTY_FUNCTION__,               \
