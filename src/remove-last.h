@@ -12,8 +12,9 @@ inline void remove_last(std::vector<T> &seq, T const &elem)
 
     typename vector<T>::reverse_iterator i(find(seq.rbegin(), seq.rend(), elem));
     g_assert( i != seq.rend() );
-    typename vector<T>::iterator ii(&*i);
-    seq.erase(ii);
+    //typename vector<T>::iterator ii(&*i);
+    //seq.erase(ii);
+	seq.erase(i.base());
 }
 
 

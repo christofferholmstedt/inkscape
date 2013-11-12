@@ -27,6 +27,7 @@
 #endif
 
 #include <glib.h>
+#include <stdio.h>
 
 namespace Inkjar {
 
@@ -91,7 +92,7 @@ typedef uint32_t ub4;
 class JarFile {
 public:
 
-    JarFile() : fd(-1), _filename(NULL), _last_filename(NULL) {}
+    JarFile() : fd(NULL), _filename(NULL), _last_filename(NULL) {}
     virtual ~JarFile();
     JarFile(gchar const *new_filename);
     
@@ -106,7 +107,8 @@ public:
 
 private:
 
-    int fd;
+//    int fd;
+FILE* fd;
     gchar *_filename;
     z_stream _zs;
     gchar *_last_filename;
