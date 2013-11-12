@@ -73,7 +73,7 @@ class XsltInputStream : public BasicInputStream
 
 public:
 
-    XsltInputStream(InputStream &xmlSource, XsltStyleSheet &stylesheet)
+    XsltInputStream(InputStream &xmlSource, XsltStyleSheet &stylesheet);
     
     virtual ~XsltInputStream();
     
