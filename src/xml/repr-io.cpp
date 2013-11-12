@@ -88,7 +88,9 @@ public:
         }
     }
 
-    int setFile( char const * filename );
+    int setFile( char const * filename, bool load_entities );
+
+    xmlDocPtr readXml();
 
     static int readCb( void * context, char * buffer, int len );
     static int closeCb( void * context );
@@ -102,12 +104,15 @@ private:
     FILE* fp;
     unsigned char firstFew[4];
     int firstFewLen;
+    bool LoadEntities; // Checks for SYSTEM Entities (requires cached data)
+    std::string cachedData;
+    unsigned int cachedPos;
     Inkscape::URI dummy;
     Inkscape::IO::UriInputStream* instr;
     Inkscape::IO::GzipInputStream* gzin;
 };
 
-int XmlSource::setFile(char const *filename)
+int XmlSource::setFile(char const *filename, bool load_entities=false)
 {
     int retVal = -1;
 
@@ -165,17 +170,67 @@ int XmlSource::setFile(char const *filename)
         }
     }
 
+    if(load_entities) {
+        this->cachedData = std::string("");
+        this->cachedPos = 0;
+ 
+        // First get data from file in typical way (cache it all)
+        char *buffer = new char [4096];
+        while(true) {
+            int len = this->read(buffer, 4096);
+            if(len <= 0) break;
+            buffer[len] = 0;
+            this->cachedData += buffer;
+        }
+        free(buffer);
+ 
+        // Check for SYSTEM or PUBLIC entities and remove them from the cache
+        GMatchInfo *info;
+        gint start, end;
+ 
+        GRegex *regex = g_regex_new(
+            "<!ENTITY\\s+[^>\\s]+\\s+(SYSTEM|PUBLIC\\s+\"[^>\"]+\")\\s+\"[^>\"]+\"\\s*>",
+            G_REGEX_CASELESS, G_REGEX_MATCH_NEWLINE_ANY, NULL);
+ 
+        g_regex_match (regex, this->cachedData.c_str(), G_REGEX_MATCH_NEWLINE_ANY, &info);
+ 
+        while (g_match_info_matches (info)) {
+            if (g_match_info_fetch_pos (info, 1, &start, &end))
+                this->cachedData.erase(start, end - start);
+            g_match_info_next (info, NULL);
+        }
+        g_match_info_free(info);
+        g_regex_unref(regex);
+    }
+    // Do this after loading cache, so reads don't return cache to fill cache.
+    this->LoadEntities = load_entities;
     return retVal;
 }
 
+xmlDocPtr XmlSource::readXml()
+{
+    int parse_options = XML_PARSE_HUGE | XML_PARSE_RECOVER;
+ 
+    Inkscape::Preferences *prefs = Inkscape::Preferences::get();
+    bool allowNetAccess = prefs->getBool("/options/externalresources/xml/allow_net_access", false);
+    if (!allowNetAccess) parse_options |= XML_PARSE_NONET;
+
+    // Allow NOENT only if we're filtering out SYSTEM and PUBLIC entities
+    if (LoadEntities)    parse_options |= XML_PARSE_NOENT;
+
+    return xmlReadIO( readCb, closeCb, this,
+                      filename, getEncoding(), parse_options);
+}
 
 int XmlSource::readCb( void * context, char * buffer, int len )
 {
     int retVal = -1;
+
     if ( context ) {
         XmlSource* self = static_cast<XmlSource*>(context);
         retVal = self->read( buffer, len );
     }
+
     return retVal;
 }
 
@@ -193,7 +248,15 @@ int XmlSource::read( char *buffer, int len )
     int retVal = 0;
     size_t got = 0;
 
-    if ( firstFewLen > 0 ) {
+    if ( LoadEntities ) {
+        if (cachedPos >= cachedData.length()) {
+            return -1;
+        } else {
+            retVal = cachedData.copy(buffer, len, cachedPos);
+            cachedPos += retVal;
+            return retVal; // Do NOT continue.
+        }
+    } else if ( firstFewLen > 0 ) {
         int some = (len < firstFewLen) ? len : firstFewLen;
         memcpy( buffer, firstFew, some );
         if ( len < firstFewLen ) {
@@ -289,22 +352,19 @@ sp_repr_read_file (const gchar * filename, const gchar *default_ns)
         XmlSource src;
 
         if ( (src.setFile(filename) == 0) ) {
-            int parse_options = XML_PARSE_HUGE; // do not use XML_PARSE_NOENT ! see bug lp:1025185
-            Inkscape::Preferences *prefs = Inkscape::Preferences::get();
-            bool allowNetAccess = prefs->getBool("/options/externalresources/xml/allow_net_access", false);
-            if (!allowNetAccess) {
-                parse_options |= XML_PARSE_NONET;
+            doc = src.readXml();
+            rdoc = sp_repr_do_read( doc, default_ns );
+            // For some reason, failed ns loading results in this
+            // We try a system check version of load with NOENT for adobe
+            if(rdoc && strcmp(rdoc->root()->name(), "ns:svg") == 0) {
+                xmlFreeDoc( doc );
+                src.setFile(filename, true);
+                doc = src.readXml();
+                rdoc = sp_repr_do_read( doc, default_ns );
             }
-            doc = xmlReadIO( XmlSource::readCb,
-                             XmlSource::closeCb,
-                             &src,
-                             localFilename,
-                             src.getEncoding(),
-                             parse_options);
         }
     }
 
-    rdoc = sp_repr_do_read( doc, default_ns );
     if ( doc ) {
         xmlFreeDoc( doc );
     }
