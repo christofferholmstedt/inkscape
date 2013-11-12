@@ -235,7 +235,7 @@ gboolean eek_preview_expose_event( GtkWidget* widget, GdkEventExpose* event )
 
         GdkGC *gc = gdk_gc_new( widget->window );
         EekPreview* preview = EEK_PREVIEW(widget);
-        GdkColor fg = {0, preview->_r, preview->_g, preview->_b};
+        GdkColor fg = {0, static_cast<guint16>(preview->_r), static_cast<guint16>(preview->_g), static_cast<guint16>(preview->_b)};
 
         gdk_colormap_alloc_color( gdk_colormap_get_system(), &fg, FALSE, TRUE );
 
