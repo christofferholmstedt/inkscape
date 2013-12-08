@@ -325,7 +325,7 @@ protected:
 
     virtual Glib::ustring _getDragTip(GdkEventMotion */*event*/) {
         return format_tip(C_("Transform handle tip", "Rotate by %.2f°"),
-            _last_angle * 360.0);
+            _last_angle * 180.0 / M_PI);
     }
 
     virtual bool _hasDragTips() { return true; }
