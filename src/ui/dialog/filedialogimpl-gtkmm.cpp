@@ -595,8 +595,9 @@ void FileDialogBaseGtk::internalSetup()
 void FileDialogBaseGtk::cleanup( bool showConfirmed )
 {
     Inkscape::Preferences *prefs = Inkscape::Preferences::get();
-    if ( showConfirmed )
+    if ( showConfirmed ) {
         prefs->setBool( preferenceBase + "/enable_preview", previewCheckbox.get_active() );
+    }
 }
 
 
@@ -606,6 +607,9 @@ void FileDialogBaseGtk::_previewEnabledCB()
     set_preview_widget_active(enabled);
     if ( enabled ) {
         _updatePreviewCallback();
+    } else {
+        // Clears out any current preview image.
+        svgPreview.showNoPreview();
     }
 }
 
@@ -617,6 +621,7 @@ void FileDialogBaseGtk::_previewEnabledCB()
 void FileDialogBaseGtk::_updatePreviewCallback()
 {
     Glib::ustring fileName = get_preview_filename();
+    bool enabled = previewCheckbox.get_active();
 
 #ifdef WITH_GNOME_VFS
     if ( fileName.empty() && gnome_vfs_initialized() ) {
@@ -624,11 +629,11 @@ void FileDialogBaseGtk::_updatePreviewCallback()
     }
 #endif
 
-    if (fileName.empty()) {
-        return;
+    if ( enabled && !fileName.empty() ) {
+        svgPreview.set(fileName, _dialogType);
+    } else {
+        svgPreview.showNoPreview();
     }
-
-    svgPreview.set(fileName, _dialogType);
 }
 
 
