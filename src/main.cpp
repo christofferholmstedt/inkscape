@@ -520,6 +520,9 @@ static void _win32_set_inkscape_env(gchar const *exe)
     } else {
         printf("python not found\n\n");
     }*/
+	
+	// fix bug #950781
+	SetErrorMode(SEM_FAILCRITICALERRORS | SEM_NOGPFAULTERRORBOX | SEM_NOOPENFILEERRORBOX);
 
     g_free(python);
     g_free(scripts);
