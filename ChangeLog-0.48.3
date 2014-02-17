@@ -1,0 +1,258 @@
+2012-02-15  Ted Gould  <ted@gould.cx>
+
+	0.48.3
+
+2012-02-15  Ted Gould  <ted@gould.cx>
+
+	Fix color headers for make distcheck
+
+2012-02-15  Ted Gould  <ted@gould.cx>
+
+	Add veronoi2svg.py to POTFILES.in
+
+2012-02-15  Ted Gould  <ted@gould.cx>
+
+	Convert man file installation to use automake instead of custom stuff
+
+2012-02-14  Jon A. Cruz  <jon@joncruz.org>
+
+	Backport of revision 10969 to support LCMS2 and fix bug #885324.
+
+2012-02-14  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Clarify comment in configure.ac
+
+2012-02-13  John Smith  <removethis.john.q.public@bigmail.com>
+
+	Fix for 911079 : Error messages from Extensions hidden
+
+2012-02-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Backport fix for EMF export of circular paths
+
+2012-02-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Backport fix for the import of Unicode text in the EMF importer
+
+2012-02-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Backport fix for EMF text rotation problem
+
+2012-02-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Copy convert2dashes.py from trunk (bug #888793)
+
+2012-02-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Backport fix for EMF scaling problem
+
+2012-02-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Adjust build.xml to build with latest devlibs
+
+2012-02-09  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Fix build with glib 2.31 and later
+
+2012-02-07  Josh Andler  <scislac@gmail.com>
+
+	Backport commit from trunk r10026
+
+2012-02-07  Josh Andler  <scislac@gmail.com>
+
+	Patch from lp 721448 to make OSX Aqua builds more stable
+
+2012-02-07  Josh Andler  <scislac@gmail.com>
+
+	Patch from lp 819209 to fix python extensions on Lion
+
+2012-02-01  Alvin Penner  <penner@vaxxine.com>
+
+	Update DXF output extension to trunk version to fix bugs
+
+2012-02-01  Campbell Barton
+
+	Backport fixes for clang compilation
+
+2012-02-01  Alvin Penner  <penner@vaxxine.com>
+
+	Fix for Flatten Beziers extension and HPGL output crashes
+
+2012-02-01  Alvin Penner  <penner@vaxxine.com>
+
+	Update Envelope and Modify Path extensions to fix bugs with transforms
+
+2012-02-01  Adonis Papaderos  <ado.papas@yahoo.gr>
+
+	Backport linked offset fixes by Adonis Papaderos from trunk r10109
+
+2012-02-01  Gellule Xg  <gellule.xg@gmail.com>
+
+	Backport fixes for OSX Quartz problems by Gellule Xg from trunk
+
+2012-02-01  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Implement drag cancellation using Esc in the node tool.
+	Backported from trunk revisions 10925 and 10926.
+
+2012-01-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Backport fix for bug #668895: Extensions with <check> tags fail to load
+
+2012-01-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Restore pot file (deleted in r9855)
+
+2012-01-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Cherry-pick upstream GDL patch 31886 (2011-08-08).  Avoid a crash when the pane width is smaller than a button
+
+2012-01-23  Josh Andler  <scislac@gmail.com>
+
+	Backport patch from John Smith for 623660
+
+2012-01-13  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Fix for bug #915329 (Tweak objects tooltip: keyboard shortcut displayed twice [German locale] ).
+
+2012-01-13  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for bug #496793 (ctrl c ctrl v of text in edit mode crashes inkscape) by Chris Bainbridge.
+
+2012-01-10  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Fix docked dialog focus error
+
+2012-01-09  JazzyNico  <nicoduf@yahoo.fr>
+
+	UI. Message dialog modification (see Bug #911123).
+
+2012-01-04  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	fix bad bug in 2geom/path-intersection code. probably did not hurt anything, but still good to fix it.
+
+2012-01-02  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	file saving: fix appending of extension for files in directories with periods in name. (patch by David Xiong)
+
+2012-01-02  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	win32 saving: cleaner removal of extension, prevents possible bugs with dots in directory names
+
+2012-01-02  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	backport bugfix for saving to root C:\ on windows
+
+2012-01-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for bugs #902054, #884368 and #909958 (minimum widget size) by John Smith.
+
+2012-01-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for bugs #910463, #910467 and #910479 (default widget size too small) by John Smith.
+
+2011-12-31  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #494722 (Docked dialogs in a floating window crashes on shutdown), by John Smith.
+
+2011-12-29  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	fix pdf preview for non-ascii filenames
+
+2011-12-21  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	when resizing page, move the origin of the grids too. This way all objects will stay aligned to the grids.
+
+2011-12-21  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	fix bug in emphasized line drawing for axonometric grid when origin is not zero
+
+2011-12-08  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Use only top-level glib headers.  Thanks to DimStar for patch
+
+2011-12-06  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Backporting man pages changes (see Bug #900854, French manpage has accents replaced by some garbage).
+
+2011-11-21  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for bug #887539 (Permissions and #! in extension scripts need fixing).
+
+2011-11-21  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Backporting fix for Bug #168417 (parameters ending with \ causes python to bomb)
+
+2011-11-15  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Backporting fix for Bug #789122 (changing current layer through an extension).
+
+2011-11-09  JazzyNico  <nicoduf@yahoo.fr>
+
+	Filters. Workaround for bug #808013 (Drop Shadow; 0.0 for blur doesn't work).
+
+2011-11-04  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	add missing units to grid length interpretation (we have 4 different unit conversions thingies in Inkscape! ...)
+
+2011-11-04  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	add libpixman to dll's to be copied
+
+2011-10-08  JazzyNico  <nicoduf@yahoo.fr>
+
+	Doc. Keys and mouse reference update.
+
+2011-09-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Fixing some typos in the French translation.
+
+2011-09-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Backporting fix for Bug #298528 and Bug #837603 (simplestyle color parser improvements).
+
+2011-09-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Backporting fix for Bug #602005 (permissions of script files wrong/missing shebang lines).
+
+2011-09-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Backporting fix for Bug #821435 (Gimp XCF export fails when layer id contains a space character).
+
+2011-09-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Build. Backporting fix for Bug #725063 (compile error when configured without lcms).
+
+2011-09-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Markers. Backporting fix for Bug #479644 (Color Markers to Match Stroke doesn't work for InfiniteStartLine marker).
+	Repo. Removing mkinstalldirs.
+
+2011-08-21  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	fix for bad arguments crash for guides
+
+2011-08-18  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	fix old standing issue of converting 0.45 grids to >0.45
+
+2011-08-15  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Fix clipped / masked object selection. Fixes LP #365458.
+
+2011-07-20  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Memory leak fixes (Bug #812497)
+
+2011-07-18  Johan Engelen  <goejendaagh@zonnet.nl>
+
+	consistency fix (potential bug)
+
+2011-07-16  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Dutch tutorials: typos and update
+
+2011-07-08  Ted Gould  <ted@gould.cx>
+
+	0.48.2
+

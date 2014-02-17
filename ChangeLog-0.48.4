@@ -1,0 +1,224 @@
+2012-12-15  Ted Gould  <ted@gould.cx>
+
+	0.48.4
+
+2012-12-12  Josh Andler  <scislac@gmail.com>
+
+	backport fix for 985623
+
+2012-12-12  ~suv  <suv-sf@users.sourceforge.net>
+
+	Backporting r11903 (UI consistency: Fix undo history entry for layer renaming)
+
+2012-12-12  ~suv  <suv-sf@users.sourceforge.net>
+
+	Backporting fix for Bug #1026928 (HPGL output)
+
+2012-12-12  ~suv  <suv-sf@users.sourceforge.net>
+
+	Backporting fix for Bug #892496, Bug #957086, Bug #1001521 (DXF input/output)
+
+2012-12-10  Josh Andler  <scislac@gmail.com>
+
+	backport most of fix for bug 1087470 (seems to behave the same as trunk after the fix was applied)
+
+2012-12-06  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix build
+
+2012-12-05  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	- fix security bug lp:1025185
+	- make network access optional for XML loading
+
+2012-12-03  JazzyNico  <nicoduf@yahoo.fr>
+
+	Build. Updating Wordperfect libraries (please update to devlibs r39).
+
+2012-11-29  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting fix for Bug #1075321 (TypeError: decoding Unicode is not supported: embedimage.py).
+
+2012-11-29  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting fix for Bug #1071104 (Failure to open a browse window when choosing Export As while doing Export PNG Image).
+
+2012-11-29  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Fixing interpolation tutorials (see Bug #727394 - 0.48 menu structure not reflected in tutorial-interpolate.svg).
+
+2012-11-26  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting fix for Bug #685689 (Panning with Shift+RMB fails when dropper tool selected).
+
+2012-11-26  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting fix for Bug #1052645 (On select toolbar Object lock-Button resize icon on clicking).
+
+2012-11-26  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting fix for Bug #582552 (Make object -> Apply certain filters -> Open filter editor -> Undo -> Crash).
+
+2012-11-26  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting fix for Bug #431271 (Crash after 'undo/redo' a filter effect).
+
+2012-11-23  JazzyNico  <nicoduf@yahoo.fr>
+
+	UI. Fix for Bug #1072007 (Mouse scroll zoom depends on if the cursor is over an object).
+
+2012-11-23  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting patch for Bug #657463 (Mousewheel zooming by two steps, not one).
+
+2012-11-23  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting patch for Bug #499252 (Edit bitmap externally fails for relative links).
+
+2012-11-23  JazzyNico  <nicoduf@yahoo.fr>
+
+	Backporting patch for Bug #768149 (Incorrect Image URL can cause Loop).
+
+2012-11-08  JazzyNico  <nicoduf@yahoo.fr>
+
+	Win32. Updating the 0.48.X branch for devlibs r36.
+
+2012-11-06  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Change outline mode rendering tolerance from 1.25 to 0.5
+	Fixes disappearing lines with newer versions of Cairo.
+
+2012-10-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging/macosx: detect system language in launcher script
+	- add console messages to help debug incorrect LANG settings
+	- use 'en_US.UTF-8' fallback setting for LANG if currect detection fails
+	addresses issues with failing python extensions which use setlocale() 
+	as discussed in the comments of bug #406662
+
+2012-10-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	backport fix for bug #875577 (packaging/macosx: update default theme for newer Clearlooks engine)
+	- desktop-integration: no icons for buttons & menus
+	- default icon sizes (instead of tango)
+
+2012-10-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	backport fix for bug #446842 (packaging/macosx: copy hicolor index.theme into app bundle)
+
+2012-08-19  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Belarusian translation update by 375gnu.
+
+2012-08-17  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for 297070
+
+2012-08-17  Josh Andler  <scislac@gmail.com>
+
+	Authors update, correct name and duplicate removal
+
+2012-08-17  Josh Andler  <scislac@gmail.com>
+
+	Authors update
+
+2012-08-17  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for 167846
+
+2012-08-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Shortcuts. Fix for Bug #1035903 (adobe-illustrator-cs2 contains multiple display=true for EditPaste).
+
+2012-08-16  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Ukrainian translation update for 0.48.4 by Yuri Chornoivan.
+
+2012-08-14  Josh Andler  <scislac@gmail.com>
+
+	backport fix for 721029
+
+2012-08-14  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for 944077 using ~suvs whitespace fixed patch
+
+2012-08-14  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for 1005565
+
+2012-08-09  JazzyNico  <nicoduf@yahoo.fr>
+
+	Warnings. Fix for Bug #323414 (strict-aliasing rules warnings).
+
+2012-07-19  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1022719 (Inkscape fails to open file from the web (via URL) on the command line) by Patrick Monnerat.
+
+2012-07-18  JazzyNico  <nicoduf@yahoo.fr>
+
+	Importing. Fix for Bug #1026173 (Please make txt2svg.pl cope with UTF-8) by Reuben Thomas.
+
+2012-06-07  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Basque translation update by Iñaki Larrañaga Murgoitio.
+
+2012-05-16  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Typo correction in the French translation.
+
+2012-05-14  JazzyNico  <nicoduf@yahoo.fr>
+
+	XAML. Fix for Bug #999059 (radial gradients don't get properly exported to XAML) by Oxidative.
+
+2012-05-05  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of fix for Bug #968170 (Shift-click only works on one handle of an arc)
+
+2012-05-05  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of fix for Bug #946631 (Overlay scrollbars causing input boxes to be small)
+
+2012-05-05  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of fix for bug #955798 (Calendar extension: Default of month names, day names, etc. are not localized)
+
+2012-05-04  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of drawing visibility fix (Bug #986748 )
+
+2012-05-04  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Another backport of a null pointer dereference fix (Bug #973174 )
+
+2012-05-03  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of fix for Bug #944077 (null pointer dereference in script effect)
+
+2012-05-03  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of fix for Bug #941317 (crash with null pointer dereference for getObject)
+
+2012-05-02  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of revisions 11312-11313 (fix extension path scan and string class usage)
+
+2012-04-28  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Backport of fix for bug #695120 : paths fix when working with command line
+
+2012-04-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Packaging. Updating version number (0.48.1 to 0.48.4).
+
+2012-04-04  JazzyNico  <nicoduf@yahoo.fr>
+
+	UI. Fix for Bug #437521 (Save As dialog should be resizable in Windows) by Jaroslaw M. Gliwinski.
+
+2012-03-15  Josh Andler  <scislac@gmail.com>
+
+	Backport modified patch from Veronika Irvine for lp:806302
+
+2012-02-18  Ted Gould  <ted@gould.cx>
+
+	0.48.3.1
+
