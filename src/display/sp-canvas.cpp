@@ -1291,21 +1291,21 @@ emit_event (SPCanvas *canvas, GdkEvent *event)
      * offsets of the fields in the event structures.
      */
 
-    GdkEvent ev = *event;
+    GdkEvent *ev = gdk_event_copy(event);
 
-    switch (ev.type) {
+    switch (ev->type) {
     case GDK_ENTER_NOTIFY:
     case GDK_LEAVE_NOTIFY:
-        ev.crossing.x += canvas->x0;
-        ev.crossing.y += canvas->y0;
+        ev->crossing.x += canvas->x0;
+        ev->crossing.y += canvas->y0;
         break;
     case GDK_MOTION_NOTIFY:
     case GDK_BUTTON_PRESS:
     case GDK_2BUTTON_PRESS:
     case GDK_3BUTTON_PRESS:
     case GDK_BUTTON_RELEASE:
-        ev.motion.x += canvas->x0;
-        ev.motion.y += canvas->y0;
+        ev->motion.x += canvas->x0;
+        ev->motion.y += canvas->y0;
         break;
     default:
         break;
@@ -1354,11 +1354,13 @@ emit_event (SPCanvas *canvas, GdkEvent *event)
 
     while (item && !finished) {
         gtk_object_ref (GTK_OBJECT (item));
-        gtk_signal_emit (GTK_OBJECT (item), item_signals[ITEM_EVENT], &ev, &finished);
+        gtk_signal_emit (GTK_OBJECT (item), item_signals[ITEM_EVENT], ev, &finished);
         SPCanvasItem *parent = item->parent;
         gtk_object_unref (GTK_OBJECT (item));
         item = parent;
     }
+
+    gdk_event_free(ev);
 
     return finished;
 }
