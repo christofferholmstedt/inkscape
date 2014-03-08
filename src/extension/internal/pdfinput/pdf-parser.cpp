@@ -707,7 +707,11 @@ void PdfParser::opSetMiterLimit(Object args[], int numArgs) {
 }
 
 void PdfParser::opSetLineWidth(Object args[], int numArgs) {
-  state->setLineWidth(args[0].getNum());
+  if (args[0].getNum() > 0.0) {
+    state->setLineWidth(args[0].getNum());
+  } else {
+    state->setLineWidth(1.0); // default
+  }
   builder->updateStyle(state);
 }
 
