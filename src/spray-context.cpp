@@ -1,5 +1,3 @@
-#define __SP_SPRAY_CONTEXT_C__
-
 /*
  * Spray Tool
  *
@@ -507,10 +505,9 @@ bool sp_spray_recursive(SPDesktop *desktop,
         }
     } else if (mode == SPRAY_MODE_SINGLE_PATH) {
 
-        SPItem *father;         //initial Object
-        SPItem *item_copied;    //Projected Object
-        SPItem *unionResult;    //previous union
-        SPItem *son;            //father copy
+        SPItem *parent_item = NULL;         //initial Object
+        SPItem *item_copied = NULL;    //Projected Object
+        SPItem *union_result = NULL;    //previous union
 
         int i=1;
         for (GSList *items = g_slist_copy((GSList *) selection->itemList());
@@ -519,40 +516,31 @@ bool sp_spray_recursive(SPDesktop *desktop,
 
             SPItem *item1 = (SPItem *) items->data;
             if (i==1) {
-                father=item1;
+                parent_item = item1;
             }
             if (i==2) {
-                unionResult=item1;
+                union_result = item1;
             }
             i++;
         }
-        SPDocument *doc = SP_OBJECT_DOCUMENT(father);
+        SPDocument *doc = SP_OBJECT_DOCUMENT(parent_item);
         Inkscape::XML::Document* xml_doc = sp_document_repr_doc(doc);
-        Inkscape::XML::Node *old_repr = SP_OBJECT_REPR(father);
+        Inkscape::XML::Node *old_repr = SP_OBJECT_REPR(parent_item);
         Inkscape::XML::Node *parent = old_repr->parent();
 
-        Geom::OptRect a = father->getBounds(sp_item_i2doc_affine(father));
+        Geom::OptRect a = parent_item->getBounds(sp_item_i2doc_affine(parent_item));
         if (a) {
-            if (i==2) {
-                Inkscape::XML::Node *copy1 = old_repr->duplicate(xml_doc);
-                parent->appendChild(copy1);
-                SPObject *new_obj1 = doc->getObjectByRepr(copy1);
-                son = (SPItem *) new_obj1;   // conversion object->item
-                unionResult=son;
-                Inkscape::GC::release(copy1);
-               }
-
             if (_fid<=population) { // Rules the population of objects sprayed
-                // duplicates the father
-                Inkscape::XML::Node *copy2 = old_repr->duplicate(xml_doc);
-                parent->appendChild(copy2);
-                SPObject *new_obj2 = doc->getObjectByRepr(copy2);
-                item_copied = (SPItem *) new_obj2;
+                // duplicates the parent_item
+                Inkscape::XML::Node *copy = old_repr->duplicate(xml_doc);
+                parent->appendChild(copy);
+                SPObject *new_obj = doc->getObjectByRepr(copy);
+                item_copied = SP_ITEM(new_obj);
 
                 // Move around the cursor
                 Geom::Point move = (Geom::Point(cos(tilt)*cos(dp)*dr/(1-ratio)+sin(tilt)*sin(dp)*dr/(1+ratio),-sin(tilt)*cos(dp)*dr/(1-ratio)+cos(tilt)*sin(dp)*dr/(1+ratio)))+(p-a->midpoint()); 
 
-                Geom::Point center=father->getCenter();
+                Geom::Point center = parent_item->getCenter();
                 sp_spray_scale_rel(center,desktop,item_copied, Geom::Scale(_scale,_scale));
                 sp_spray_scale_rel(center,desktop,item_copied, Geom::Scale(scale,scale));
                 sp_spray_rotate_rel(center,desktop,item_copied, Geom::Rotate(angle));
@@ -561,10 +549,12 @@ bool sp_spray_recursive(SPDesktop *desktop,
                 // union and duplication
                 selection->clear();
                 selection->add(item_copied);
-                selection->add(unionResult);
+                if (union_result) {
+                    selection->add(union_result);
+                }
                 sp_selected_path_union_skip_undo(selection->desktop());
-                selection->add(father);
-                Inkscape::GC::release(copy2);
+                selection->add(parent_item);
+                Inkscape::GC::release(copy);
                 did = true;
             }
         }
@@ -580,9 +570,9 @@ bool sp_spray_recursive(SPDesktop *desktop,
 
                 // Creation of the clone
                 Inkscape::XML::Node *clone = xml_doc->createElement("svg:use");
-                // Ad the clone to the list of the father's sons
+                // Add the clone to the list of the parent_item's children
                 parent->appendChild(clone);
-                // Generates the link between father and son attributes
+                // Generates the link between parent_item and child attributes
                 clone->setAttribute("xlink:href", g_strdup_printf("#%s", old_repr->attribute("id")), false); 
 
                 SPObject *clone_object = doc->getObjectByRepr(clone);
