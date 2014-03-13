@@ -62,7 +62,7 @@ namespace Internal {
  * \brief Holds information about a PDF transparency group
  */
 struct SvgTransparencyGroup {
-    double bbox[6];
+    double bbox[4];
     Inkscape::XML::Node *container;
 
     bool isolated;
@@ -902,7 +902,7 @@ std::string SvgBuilder::_BestMatchingFont(std::string PDFname)
         std::string fontname = _availableFontNames[i];
         
         // At least the first word of the font name should match.
-        guint minMatch = fontname.find(" ");
+        std::size_t minMatch = fontname.find(" ");
         if (minMatch == std::string::npos) {
            minMatch = fontname.length();
         }
@@ -1773,7 +1773,7 @@ void SvgBuilder::pushTransparencyGroup(GfxState *state, double *bbox,
 
     // Setup new transparency group
     SvgTransparencyGroup *transpGroup = new SvgTransparencyGroup;
-    memcpy(&transpGroup->bbox, bbox, sizeof(bbox));
+    memcpy(&transpGroup->bbox, bbox, 4 * sizeof(double));
     transpGroup->isolated = isolated;
     transpGroup->knockout = knockout;
     transpGroup->for_softmask = for_softmask;
