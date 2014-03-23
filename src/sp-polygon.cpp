@@ -144,7 +144,7 @@ static gboolean polygon_get_value(gchar const **p, gdouble *v)
         (*p)++;
     }
 
-    if (*p == '\0') {
+    if (**p == '\0') {
         return false;
     }
 

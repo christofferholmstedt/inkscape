@@ -1287,15 +1287,15 @@ cc_connector_rerouting_finish(SPConnectorContext *const cc, Geom::Point *const p
         if (found) {
             if (cc->clickedhandle == cc->endpt_handle[0]) {
                 sp_object_setAttribute(cc->clickeditem,
-                        "inkscape:connection-start", shape_label, false);
+                        "inkscape:connection-start", shape_label, NULL);
                 sp_object_setAttribute(cc->clickeditem,
-                        "inkscape:connection-start-point", cpid, false);
+                        "inkscape:connection-start-point", cpid, NULL);
             }
             else {
                 sp_object_setAttribute(cc->clickeditem,
-                        "inkscape:connection-end", shape_label, false);
+                        "inkscape:connection-end", shape_label, NULL);
                 sp_object_setAttribute(cc->clickeditem,
-                        "inkscape:connection-end-point", cpid, false);
+                        "inkscape:connection-end-point", cpid, NULL);
             }
             g_free(shape_label);
         }
@@ -1435,26 +1435,26 @@ spcc_flush_white(SPConnectorContext *cc, SPCurve *gc)
 
         bool connection = false;
         sp_object_setAttribute(cc->newconn, "inkscape:connector-type",
-                cc->isOrthogonal ? "orthogonal" : "polyline", false);
+                cc->isOrthogonal ? "orthogonal" : "polyline", NULL);
         sp_object_setAttribute(cc->newconn, "inkscape:connector-curvature",
-                Glib::Ascii::dtostr(cc->curvature).c_str(), false);
+                Glib::Ascii::dtostr(cc->curvature).c_str(), NULL);
         if (cc->shref)
         {
             sp_object_setAttribute(cc->newconn, "inkscape:connection-start",
-                    cc->shref, false);
+                    cc->shref, NULL);
             if (cc->scpid)
                 sp_object_setAttribute(cc->newconn, "inkscape:connection-start-point",
-                        cc->scpid, false);
+                        cc->scpid, NULL);
             connection = true;
         }
 
         if (cc->ehref)
         {
             sp_object_setAttribute(cc->newconn, "inkscape:connection-end",
-                    cc->ehref, false);
+                    cc->ehref, NULL);
             if (cc->ecpid)
                 sp_object_setAttribute(cc->newconn, "inkscape:connection-end-point",
-                        cc->ecpid, false);
+                        cc->ecpid, NULL);
             connection = true;
         }
         // Process pending updates.
@@ -1937,7 +1937,7 @@ void cc_selection_set_avoid(bool const set_avoid)
 
         if (cc_item_is_shape(item)) {
             sp_object_setAttribute(item, "inkscape:connector-avoid",
-                    value, false);
+                    value, NULL);
             item->avoidRef->handleSettingChange();
             changes++;
         }

@@ -7932,7 +7932,7 @@ static void sp_connector_orthogonal_toggled( GtkToggleAction* act, GObject *tbl 
 
         if (cc_item_is_connector(item)) {
             sp_object_setAttribute(item, "inkscape:connector-type",
-                    value, false);
+                    value, NULL);
             item->avoidRef->handleSettingChange();
             modmade = true;
         }
@@ -7981,7 +7981,7 @@ static void connector_curvature_changed(GtkAdjustment *adj, GObject* tbl)
 
         if (cc_item_is_connector(item)) {
             sp_object_setAttribute(item, "inkscape:connector-curvature",
-                    value, false);
+                    value, NULL);
             item->avoidRef->handleSettingChange();
             modmade = true;
         }
