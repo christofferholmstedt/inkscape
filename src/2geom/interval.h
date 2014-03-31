@@ -238,7 +238,7 @@ public:
     /**
      * Check whether this OptInterval is empty or not.
      */
-    //inline bool isEmpty() { return (*this); };
+    //inline bool isEmpty() { return !(*this); };
     
     /**
      * If \c this is empty, copy argument \c a. Otherwise, union with it (and do nothing when \c a is empty)
