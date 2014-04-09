@@ -85,7 +85,7 @@ sp_export_jpg_file(SPDocument *doc, gchar const *filename,
      g_snprintf(c, 32, "%f", quality);
      gboolean saved = gdk_pixbuf_save (pixbuf, filename, "jpeg", NULL, "quality", c, NULL);
      g_free(c);
-     gdk_pixbuf_unref (pixbuf);
+     g_object_unref(G_OBJECT(pixbuf));
      if (saved) return true;
      else return false;
 }

@@ -502,7 +502,7 @@ static void sp_asbitmap_render(SPItem *item, CairoRenderContext *ctx)
         unsigned int h = gdk_pixbuf_get_height(pb);
         unsigned int rs = gdk_pixbuf_get_rowstride(pb);
         ctx->renderImage (px, w, h, rs, &t, SP_OBJECT_STYLE (item));
-        gdk_pixbuf_unref (pb);
+        g_object_unref(G_OBJECT(pb));
     }
     g_slist_free (items);
 }
