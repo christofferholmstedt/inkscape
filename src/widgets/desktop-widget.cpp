@@ -623,29 +623,26 @@ SPDesktopWidget::updateTitle(gchar const* uri)
     Gtk::Window *window = (Gtk::Window*)gtk_object_get_data (GTK_OBJECT(this), "window");
 
     if (window) {
-        gchar const *fname = ( TRUE
-                               ? uri
-                               : g_basename(uri) );
         GString *name = g_string_new ("");
         if (this->desktop->number > 1) {
             if (this->desktop->getMode() == Inkscape::RENDERMODE_OUTLINE) {
-                g_string_printf (name, _("%s: %d (outline) - Inkscape"), fname, this->desktop->number);
+                g_string_printf (name, _("%s: %d (outline) - Inkscape"), uri, this->desktop->number);
             } else if (this->desktop->getMode() == Inkscape::RENDERMODE_NO_FILTERS) {
-                g_string_printf (name, _("%s: %d (no filters) - Inkscape"), fname, this->desktop->number);
+                g_string_printf (name, _("%s: %d (no filters) - Inkscape"), uri, this->desktop->number);
             } else if (this->desktop->getMode() == Inkscape::RENDERMODE_PRINT_COLORS_PREVIEW) {
-                g_string_printf (name, _("%s: %d (print colors preview) - Inkscape"), fname, this->desktop->number);
+                g_string_printf (name, _("%s: %d (print colors preview) - Inkscape"), uri, this->desktop->number);
             } else {
-                g_string_printf (name, _("%s: %d - Inkscape"), fname, this->desktop->number);
+                g_string_printf (name, _("%s: %d - Inkscape"), uri, this->desktop->number);
             }
         } else {
             if (this->desktop->getMode() == Inkscape::RENDERMODE_OUTLINE) {
-                g_string_printf (name, _("%s (outline) - Inkscape"), fname);
+                g_string_printf (name, _("%s (outline) - Inkscape"), uri);
             } else if (this->desktop->getMode() == Inkscape::RENDERMODE_NO_FILTERS) {
-                g_string_printf (name, _("%s (no filters) - Inkscape"), fname);
+                g_string_printf (name, _("%s (no filters) - Inkscape"), uri);
             } else if (this->desktop->getMode() == Inkscape::RENDERMODE_PRINT_COLORS_PREVIEW) {
-                g_string_printf (name, _("%s (print colors preview) - Inkscape"), fname);
+                g_string_printf (name, _("%s (print colors preview) - Inkscape"), uri);
             } else {
-                g_string_printf (name, _("%s - Inkscape"), fname);
+                g_string_printf (name, _("%s - Inkscape"), uri);
             }
         }
         window->set_title (name->str);
