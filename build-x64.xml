@@ -548,7 +548,7 @@
     <link command="${arch}g++" out="${build}/inkscape-console.exe"
               strip="true" stripcommand="${archutil}strip">
        <flags>
-           -mconsole
+           -mwindows
            -mthreads
        </flags>
        <fileset dir="${build}">
@@ -736,7 +736,7 @@
     <copy todir="${dist}" file="${devlibs}/bin/msvcr70.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/msvcr71.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/zlib1.dll"/>
-	<copy todir="${dist}" file="${devlibs}/bin/bzip2.dll"/>
+	  <copy todir="${dist}" file="${devlibs}/bin/bz2-1.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/libiconv-2.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/libpopt-0.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/liblcms2-2.dll"/>
@@ -776,16 +776,23 @@
     </copy>
     <copy todir="${dist}/share"> <fileset dir="${devlibs}/share/locale"/> </copy>
     <copy todir="${dist}/share"> <fileset dir="${devlibs}/share/themes"/> </copy>
-    <copy todir="${dist}/share"> <fileset dir="${devlibs}/share/poppler"/> </copy>
-    <copy todir="${dist}" file="${devlibs}/bin/gdb.exe"/>
+    <copy todir="${dist}/lib">
+        <fileset dir="${devlibs}/lib/gdk-pixbuf-2.0">
+          <exclude name=".*\.la"/>
+          <exclude name=".*\.dll.a"/>
+        </fileset>
+    </copy>
+
+    <!-- <copy todir="${dist}/share"> <fileset dir="${devlibs}/share/poppler"/> </copy> -->
+    <!-- <copy todir="${dist}" file="${mingw_bin}/gdb.exe"/> -->
     <!-- Quick fix for the following problem: having the hicolor folder there with empty index file bugs booting inkscape... -->
     <delete dir="${dist}/share/icons/hicolor"/>
     <!-- Aspell dictionaries -->
     <!-- <copy todir="${dist}/lib"> <fileset dir="${devlibs}/lib/aspell-0.60"/> </copy> -->
 
     <!-- Necessary to run extensions on windows if it is not in the path -->
-    <copy todir="${dist}" file="${devlibs}/bin/gspawn-win32-helper.exe"/>
-    <copy todir="${dist}" file="${devlibs}/bin/gspawn-win32-helper-console.exe"/>
+    <copy todir="${dist}" file="${devlibs}/bin/gspawn-win64-helper.exe"/>
+    <copy todir="${dist}" file="${devlibs}/bin/gspawn-win64-helper-console.exe"/>
 
     <!-- PERL -->
     <copy todir="${dist}" file="${devlibs}/perl/bin/perl58.dll"/>
