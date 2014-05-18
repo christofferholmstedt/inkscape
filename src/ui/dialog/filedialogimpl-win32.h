@@ -10,10 +10,22 @@
  * Released under GNU GPL, read the file 'COPYING' for more information
  */
 
+#if HAVE_CONFIG_H
+# include "config.h"
+#endif
+
+#include <glibmm.h>
+
 #ifdef WIN32
 
 #include "gc-core.h"
+
+ // define WINVER high enough so we get the correct OPENFILENAMEW size
+#ifndef WINVER
+#define WINVER 0x0500 
+#endif
 #include <windows.h>
+#include "filedialogimpl-gtkmm.h"
 
 namespace Inkscape
 {

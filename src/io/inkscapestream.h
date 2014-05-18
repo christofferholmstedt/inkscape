@@ -14,6 +14,7 @@
 
 #include <cstdio>
 #include <glibmm.h>
+#include <glibmm/thread.h>
 
 namespace Inkscape
 {

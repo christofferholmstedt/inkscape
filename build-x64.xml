@@ -359,6 +359,7 @@
             <!--<exclude name="xml/test-xml-main.cpp"/>-->
             <exclude name="io/streamtest.cpp"/>
             <!--JABBER-->
+            <exclude name="pedro/pedromain.cpp"/>
             <exclude name="pedro/pedrogui.cpp"/>
             <exclude name="pedro/pedrogui.h"/>
             <exclude name="pedro/work/.*"/>
@@ -398,7 +399,6 @@
             -DVERSION=\"${version}\"
             -DHAVE_CONFIG_H
             -D_INTL_REDIRECT_INLINE
-            -DHAVE_SSL
             -DRELAYTOOL_SSL="static const int libssl_is_present=1; static int __attribute__((unused)) libssl_symbol_is_present(char *s){ return 1; }" <!-- inkboard -->
         </defines>
         <includes>
@@ -697,7 +697,7 @@
     <copy todir="${dist}" file="${devlibs}/bin/libpangomm-1.4-1.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/libcairomm-1.0-1.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/libsigc-2.0-0.dll"/>
-    <copy todir="${dist}" file="${devlibs}/bin/freetype-6.dll"/>
+    <copy todir="${dist}" file="${devlibs}/bin/libfreetype-6.dll"/>
 
     <copy todir="${dist}" file="${devlibs}/bin/libffi-6.dll"/>
     <copy todir="${dist}" file="${devlibs}/bin/libgc-1.dll"/>

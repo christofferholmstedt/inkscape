@@ -15,6 +15,7 @@
 # include <config.h>
 #endif
 
+
 //General includes
 #include <cmath>
 #include <list>
@@ -22,7 +23,6 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <set>
-#include <gdk/gdkwin32.h>
 #include <glib/gstdio.h>
 #include <glibmm/i18n.h>
 #include <gtkmm/window.h>
@@ -42,12 +42,14 @@
 #include "display/canvas-arena.h"
 
 #include "filedialog.h"
-#include "filedialogimpl-win32.h"
 
 #include <zlib.h>
 #include <cairomm/win32_surface.h>
 #include <cairomm/context.h>
 
+#include <gdk/gdkwin32.h>
+#include "filedialogimpl-win32.h"
+ 
 using namespace std;
 using namespace Glib;
 using namespace Cairo;
@@ -70,12 +72,6 @@ const unsigned long MaxPreviewFileSize = 10240; // kB
 
 #define IDC_SHOW_PREVIEW    1000
 
-// Windows 2000 version of OPENFILENAMEW
-struct OPENFILENAMEEXW : public OPENFILENAMEW {
-  void *        pvReserved;
-  DWORD         dwReserved;
-  DWORD         FlagsEx;
-};
 
 struct Filter
 {
@@ -377,7 +373,7 @@ void FileOpenDialogImplWin32::createFilterMenu()
 
 void FileOpenDialogImplWin32::GetOpenFileName_thread()
 {
-    OPENFILENAMEEXW ofn;
+    OPENFILENAMEW ofn;
 
     g_assert(this != NULL);
 	g_assert(_mutex != NULL);
@@ -1632,7 +1628,7 @@ void FileSaveDialogImplWin32::createFilterMenu()
 
 void FileSaveDialogImplWin32::GetSaveFileName_thread()
 {
-    OPENFILENAMEEXW ofn;
+    OPENFILENAMEW ofn;
 
     g_assert(this != NULL);
     g_assert(_main_loop != NULL);

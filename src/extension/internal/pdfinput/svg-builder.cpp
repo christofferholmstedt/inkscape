@@ -19,7 +19,6 @@
 #ifdef HAVE_POPPLER
 
 #include "svg-builder.h"
-#include "pdf-parser.h"
 
 #include <png.h>
 
@@ -47,6 +46,8 @@
 #include "UnicodeMap.h"
 #include "GlobalParams.h"
 
+#include "pdf-parser.h"
+ 
 namespace Inkscape {
 namespace Extension {
 namespace Internal {
