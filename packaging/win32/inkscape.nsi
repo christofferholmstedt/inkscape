@@ -315,7 +315,7 @@ Section $(Core) SecCore ; Mandatory Inkscape core files section {{{
   ; this files are added because it slips through the filter
   SetOutPath $INSTDIR\share\clipart
   !insertmacro UNINSTALL.LOG_OPEN_INSTALL
-  File /a ..\..\inkscape\share\clipart\inkscape.logo.svg
+  File /a ..\..\inkscape\share\icons\inkscape.svg
   !insertmacro UNINSTALL.LOG_CLOSE_INSTALL
   SetOutPath $INSTDIR\share\icons
   !insertmacro UNINSTALL.LOG_OPEN_INSTALL
