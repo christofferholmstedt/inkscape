@@ -12,7 +12,7 @@
 ;    out wrong or this script didn't compile properly then you can define
 ;    INKSCAPE_VERSION by uncommenting the next line and setting the correct
 ;    value:
-;      !define INKSCAPE_VERSION "0.48.4"
+;      !define INKSCAPE_VERSION "0.48.5"
 ;    If you ever need to do a second, third or Nth release of the build or
 ;    of the installer, then change the RELEASE_REVISION value below:
        !define RELEASE_REVISION 1

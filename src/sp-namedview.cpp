@@ -384,7 +384,7 @@ static void sp_namedview_set(SPObject *object, unsigned int key, const gchar *va
             break;
     case SP_ATTR_BORDERLAYER:
             nv->borderlayer = SP_BORDER_LAYER_BOTTOM;
-            if (value && !strcasecmp(value, "true")) nv->borderlayer = SP_BORDER_LAYER_TOP;
+            if (value && !g_ascii_strcasecmp(value, "true")) nv->borderlayer = SP_BORDER_LAYER_TOP;
             object->requestModified(SP_OBJECT_MODIFIED_FLAG);
             break;
     case SP_ATTR_BORDERCOLOR:
@@ -963,9 +963,9 @@ GSList const *SPNamedView::getViewList() const
 static gboolean sp_str_to_bool(const gchar *str)
 {
     if (str) {
-        if (!g_strcasecmp(str, "true") ||
-            !g_strcasecmp(str, "yes") ||
-            !g_strcasecmp(str, "y") ||
+        if (!g_ascii_strcasecmp(str, "true") ||
+            !g_ascii_strcasecmp(str, "yes") ||
+            !g_ascii_strcasecmp(str, "y") ||
             (atoi(str) != 0)) {
             return TRUE;
         }

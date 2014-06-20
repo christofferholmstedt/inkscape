@@ -501,9 +501,9 @@ sp_repr_get_boolean(Inkscape::XML::Node *repr, gchar const *key, unsigned int *v
     v = repr->attribute(key);
 
     if (v != NULL) {
-        if (!g_strcasecmp(v, "true") ||
-            !g_strcasecmp(v, "yes" ) ||
-            !g_strcasecmp(v, "y"   ) ||
+        if (!g_ascii_strcasecmp(v, "true") ||
+            !g_ascii_strcasecmp(v, "yes" ) ||
+            !g_ascii_strcasecmp(v, "y"   ) ||
             (atoi(v) != 0)) {
             *val = TRUE;
         } else {
