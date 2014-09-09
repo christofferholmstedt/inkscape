@@ -561,7 +561,7 @@ void Inkscape::ObjectSnapper::_snapPathsConstrained(SnappedConstraints &sc,
                         // When it's within snapping range, then return it
                         // (within snapping range == between p_min_on_cl and p_max_on_cl == 0 < ta < 1)
                         Geom::Coord dist = Geom::L2(_snapmanager->getDesktop()->dt2doc(p_proj_on_cl) - p_inters);
-                        SnappedPoint s(_snapmanager->getDesktop()->doc2dt(p_inters), p.getSourceType(), p.getSourceNum(), k->target_type, dist, getSnapperTolerance(), getSnapperAlwaysSnap(), true, k->target_bbox);
+                        SnappedPoint s(_snapmanager->getDesktop()->doc2dt(p_inters), p.getSourceType(), p.getSourceNum(), k->target_type, dist, getSnapperTolerance(), getSnapperAlwaysSnap(), true, false, k->target_bbox);
                         sc.points.push_back(s);
                     }
                 }
