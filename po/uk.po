@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-20 21:36+0300\n"
+"POT-Creation-Date: 2014-10-21 08:38+0200\n"
 "PO-Revision-Date: 2014-10-20 22:00+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
@@ -3380,1015 +3380,1015 @@ msgstr "Сукно (растр)"
 msgid "Old paint (bitmap)"
 msgstr "Стара картина (растр)"
 
-#. Symbols: ./MapSymbolsNPS.svg
+#. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:2
-msgctxt "Symbol"
-msgid "United States National Park Service Map Symbols"
-msgstr "Символи карт служб національних парків США"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
-msgctxt "Symbol"
-msgid "Airport"
-msgstr "Аеропорт"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:5 ../share/symbols/symbols.h:6
-msgctxt "Symbol"
-msgid "Amphitheatre"
-msgstr "Амфітеатр"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:7 ../share/symbols/symbols.h:8
-msgctxt "Symbol"
-msgid "Bicycle Trail"
-msgstr "Велосипедна траса"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:9 ../share/symbols/symbols.h:10
-msgctxt "Symbol"
-msgid "Boat Launch"
-msgstr "Місце спуску човнів"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:11 ../share/symbols/symbols.h:12
-msgctxt "Symbol"
-msgid "Boat Tour"
-msgstr "Човновий маршрут"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:13 ../share/symbols/symbols.h:14
-msgctxt "Symbol"
-msgid "Bus Stop"
-msgstr "Автобусна зупинка"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:15 ../share/symbols/symbols.h:16
-msgctxt "Symbol"
-msgid "Campfire"
-msgstr "Місце для багаття"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:17 ../share/symbols/symbols.h:18
-msgctxt "Symbol"
-msgid "Campground"
-msgstr "Майданчик для табору"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:19 ../share/symbols/symbols.h:20
-msgctxt "Symbol"
-msgid "CanoeAccess"
-msgstr "Доступ до каное"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:21 ../share/symbols/symbols.h:22
-msgctxt "Symbol"
-msgid "Crosscountry Ski Trail"
-msgstr "Траса для лижного кросу"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:23 ../share/symbols/symbols.h:24
-msgctxt "Symbol"
-msgid "Downhill Skiing"
-msgstr "Лижний спуск"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:25 ../share/symbols/symbols.h:26
-msgctxt "Symbol"
-msgid "Drinking Water"
-msgstr "Питна вода"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:27 ../share/symbols/symbols.h:28
-#: ../share/symbols/symbols.h:167 ../share/symbols/symbols.h:168
-msgctxt "Symbol"
-msgid "First Aid"
-msgstr "Перша допомога"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:29 ../share/symbols/symbols.h:30
-msgctxt "Symbol"
-msgid "Fishing"
-msgstr "Риболовля"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:31 ../share/symbols/symbols.h:32
-msgctxt "Symbol"
-msgid "Food Service"
-msgstr "Служба харчування"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:33 ../share/symbols/symbols.h:34
-msgctxt "Symbol"
-msgid "Four Wheel Drive Road"
-msgstr "Дорога для чотириколісних машин"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:35 ../share/symbols/symbols.h:36
-msgctxt "Symbol"
-msgid "Gas Station"
-msgstr "Автозаправка"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:37 ../share/symbols/symbols.h:38
-msgctxt "Symbol"
-msgid "Golfing"
-msgstr "Гольф"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:39 ../share/symbols/symbols.h:40
-msgctxt "Symbol"
-msgid "Horseback Riding"
-msgstr "Траса для кінської їзди"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:41 ../share/symbols/symbols.h:42
-msgctxt "Symbol"
-msgid "Hospital"
-msgstr "Лікарня"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:43 ../share/symbols/symbols.h:44
-msgctxt "Symbol"
-msgid "Ice Skating"
-msgstr "Катання на ковзанах"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:45 ../share/symbols/symbols.h:46
-#: ../share/symbols/symbols.h:201 ../share/symbols/symbols.h:202
-msgctxt "Symbol"
-msgid "Information"
-msgstr "Довідкова служба"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:47 ../share/symbols/symbols.h:48
-msgctxt "Symbol"
-msgid "Litter Receptacle"
-msgstr "Сховище нош"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:49 ../share/symbols/symbols.h:50
-msgctxt "Symbol"
-msgid "Lodging"
-msgstr "Кімнати"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:51 ../share/symbols/symbols.h:52
-msgctxt "Symbol"
-msgid "Marina"
-msgstr "Пристань"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:53 ../share/symbols/symbols.h:54
-msgctxt "Symbol"
-msgid "Recycling"
-msgstr "Пункт переробки"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:55 ../share/symbols/symbols.h:56
-#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
-msgctxt "Symbol"
-msgid "Parking"
-msgstr "Паркувальний майданчик"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:57 ../share/symbols/symbols.h:58
-msgctxt "Symbol"
-msgid "Pets On Leash"
-msgstr "Домашні тварини на повідді"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:59 ../share/symbols/symbols.h:60
-msgctxt "Symbol"
-msgid "Picnic Area"
-msgstr "Місце для пікніків"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
-msgctxt "Symbol"
-msgid "Post Office"
-msgstr "Поштове відділення"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
-msgctxt "Symbol"
-msgid "Ranger Station"
-msgstr "Станція рейнджерів"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:65 ../share/symbols/symbols.h:66
-msgctxt "Symbol"
-msgid "RV Campground"
-msgstr "Майданчик для трейлерів"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:67 ../share/symbols/symbols.h:68
-msgctxt "Symbol"
-msgid "Restrooms"
-msgstr "Туалети"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:69 ../share/symbols/symbols.h:70
-msgctxt "Symbol"
-msgid "Sailing"
-msgstr "Парусний спорт"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:71 ../share/symbols/symbols.h:72
-msgctxt "Symbol"
-msgid "Sanitary Disposal Station"
-msgstr "Станція утилізації відходів"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:73 ../share/symbols/symbols.h:74
-msgctxt "Symbol"
-msgid "Scuba Diving"
-msgstr "Пірнання з аквалангом"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:75 ../share/symbols/symbols.h:76
-msgctxt "Symbol"
-msgid "Self Guided Trail"
-msgstr "Стежка для самостійного огляду"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:77 ../share/symbols/symbols.h:78
-msgctxt "Symbol"
-msgid "Shelter"
-msgstr "Притулок"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:79 ../share/symbols/symbols.h:80
-msgctxt "Symbol"
-msgid "Showers"
-msgstr "Душові"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:81 ../share/symbols/symbols.h:82
-msgctxt "Symbol"
-msgid "Sledding"
-msgstr "Катання на санях"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:83 ../share/symbols/symbols.h:84
-msgctxt "Symbol"
-msgid "SnowmobileTrail"
-msgstr "Траса для снігоходів"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:85 ../share/symbols/symbols.h:86
-msgctxt "Symbol"
-msgid "Stable"
-msgstr "Стайня"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:87 ../share/symbols/symbols.h:88
-msgctxt "Symbol"
-msgid "Store"
-msgstr "Склад"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:89 ../share/symbols/symbols.h:90
-msgctxt "Symbol"
-msgid "Swimming"
-msgstr "Плавання"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:91 ../share/symbols/symbols.h:92
-#: ../share/symbols/symbols.h:157 ../share/symbols/symbols.h:158
-msgctxt "Symbol"
-msgid "Telephone"
-msgstr "Телефон"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:93 ../share/symbols/symbols.h:94
-msgctxt "Symbol"
-msgid "Emergency Telephone"
-msgstr "Телефон виклику служб надзвичайних ситуацій"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:95 ../share/symbols/symbols.h:96
-msgctxt "Symbol"
-msgid "Trailhead"
-msgstr "Початок маршруту"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
-msgctxt "Symbol"
-msgid "Wheelchair Accessible"
-msgstr "Візок"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
-msgctxt "Symbol"
-msgid "Wind Surfing"
-msgstr "Віндсерфінг"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:101
-msgctxt "Symbol"
-msgid "Flow Chart Shapes"
-msgstr "Форми блок-схем"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:102
-msgctxt "Symbol"
-msgid "Process"
-msgstr "Обробляти"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:103
-msgctxt "Symbol"
-msgid "Input/Output"
-msgstr "Вхід/Вихід"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:104
-msgctxt "Symbol"
-msgid "Document"
-msgstr "Документ"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:105
-msgctxt "Symbol"
-msgid "Manual Operation"
-msgstr "Ручна дія"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:106
-msgctxt "Symbol"
-msgid "Preparation"
-msgstr "Підготовка"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:107
-msgctxt "Symbol"
-msgid "Merge"
-msgstr "Об’єднання"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:108
-msgctxt "Symbol"
-msgid "Decision"
-msgstr "Рішення"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:109
-msgctxt "Symbol"
-msgid "Magnetic Tape"
-msgstr "Магнітна стрічка"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:110
-msgctxt "Symbol"
-msgid "Display"
-msgstr "Показ"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:111
-msgctxt "Symbol"
-msgid "Auxiliary Operation"
-msgstr "Допоміжна операція"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:112
-msgctxt "Symbol"
-msgid "Manual Input"
-msgstr "Ручний ввід"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:113
-msgctxt "Symbol"
-msgid "Extract"
-msgstr "Видобування"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:114
-msgctxt "Symbol"
-msgid "Terminal/Interrupt"
-msgstr "Завершення/Переривання"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:115
-msgctxt "Symbol"
-msgid "Punched Card"
-msgstr "Перфокартка"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:116
-msgctxt "Symbol"
-msgid "Punch Tape"
-msgstr "Перфострічка"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:117
-msgctxt "Symbol"
-msgid "Online Storage"
-msgstr "Сховище даних у мережі"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:118
-msgctxt "Symbol"
-msgid "Keying"
-msgstr "Набір"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:119
-msgctxt "Symbol"
-msgid "Sort"
-msgstr "Упорядкування"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:120
-msgctxt "Symbol"
-msgid "Connector"
-msgstr "З’єднання"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:121
-msgctxt "Symbol"
-msgid "Off-Page Connector"
-msgstr "З'єднання поза сторінкою"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:122
-msgctxt "Symbol"
-msgid "Transmittal Tape"
-msgstr "Передавальна стрічка"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:123
-msgctxt "Symbol"
-msgid "Communication Link"
-msgstr "З’єднання для обміну даними"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:124
-msgctxt "Symbol"
-msgid "Collate"
-msgstr "Об’єднання"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:125
-msgctxt "Symbol"
-msgid "Comment/Annotation"
-msgstr "Коментар/Анотація"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:126
-msgctxt "Symbol"
-msgid "Core"
-msgstr "Ядро"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:127
-msgctxt "Symbol"
-msgid "Predefined Process"
-msgstr "Наперед визначений процес"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:128
-msgctxt "Symbol"
-msgid "Magnetic Disk (Database)"
-msgstr "Магнітний диск (база даних)"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:129
-msgctxt "Symbol"
-msgid "Magnetic Drum (Direct Access)"
-msgstr "Магнітний барабан (безпосередній доступ)"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:130
-msgctxt "Symbol"
-msgid "Offline Storage"
-msgstr "Автономне сховище даних"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:131
-msgctxt "Symbol"
-msgid "Logical Or"
-msgstr "Логічне «АБО»"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:132
-msgctxt "Symbol"
-msgid "Logical And"
-msgstr "Логічне «ТА»"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:133
-msgctxt "Symbol"
-msgid "Delay"
-msgstr "Затримка"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:134
-msgctxt "Symbol"
-msgid "Loop Limit Begin"
-msgstr "Початок циклу"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:135
-msgctxt "Symbol"
-msgid "Loop Limit End"
-msgstr "Кінець циклу"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:136
-msgctxt "Symbol"
-msgid "Word Balloons"
-msgstr "Мовні бульки"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:137
-msgctxt "Symbol"
-msgid "Thought Balloon"
-msgstr "Булька думок"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:138
-msgctxt "Symbol"
-msgid "Dream Speaking"
-msgstr "Висловлення мрій"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:139
-msgctxt "Symbol"
-msgid "Rounded Balloon"
-msgstr "Заокруглена булька"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:140
-msgctxt "Symbol"
-msgid "Squared Balloon"
-msgstr "Квадрата булька"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:141
-msgctxt "Symbol"
-msgid "Over the Phone"
-msgstr "Телефоном"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:142
-msgctxt "Symbol"
-msgid "Hip Balloon"
-msgstr "Булька смутку"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:143
-msgctxt "Symbol"
-msgid "Circle Balloon"
-msgstr "Кругова булька"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:144
-msgctxt "Symbol"
-msgid "Exclaim Balloon"
-msgstr "Булька вигуку"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:145
-msgctxt "Symbol"
-msgid "Logic Symbols"
-msgstr "Символи логіки"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:146
-msgctxt "Symbol"
-msgid "Xnor Gate"
-msgstr "Ключ виключне заперечувальне АБО»"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:147
-msgctxt "Symbol"
-msgid "Xor Gate"
-msgstr "Ключ виключне І"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:148
-msgctxt "Symbol"
-msgid "Nor Gate"
-msgstr "Ключ АБО-НІ"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:149
-msgctxt "Symbol"
-msgid "Or Gate"
-msgstr "Ключ АБО"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:150
-msgctxt "Symbol"
-msgid "Nand Gate"
-msgstr "Ключ І-НІ"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:151
-msgctxt "Symbol"
-msgid "And Gate"
-msgstr "Ключ І"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:152
-msgctxt "Symbol"
-msgid "Buffer"
-msgstr "Буфер"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:153
-msgctxt "Symbol"
-msgid "Not Gate"
-msgstr "Ключ НІ"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:154
-msgctxt "Symbol"
-msgid "Buffer Small"
-msgstr "Малий буфер"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:155
-msgctxt "Symbol"
-msgid "Not Gate Small"
-msgstr "Малий ключ НІ"
-
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:156
 msgctxt "Symbol"
 msgid "AIGA Symbol Signs"
 msgstr "Знаки-символи AIGA"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:159 ../share/symbols/symbols.h:160
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
+#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+msgctxt "Symbol"
+msgid "Telephone"
+msgstr "Телефон"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:5 ../share/symbols/symbols.h:6
 msgctxt "Symbol"
 msgid "Mail"
 msgstr "Пошта"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:161 ../share/symbols/symbols.h:162
+#: ../share/symbols/symbols.h:7 ../share/symbols/symbols.h:8
 msgctxt "Symbol"
 msgid "Currency Exchange"
 msgstr "Обмін валют"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:163 ../share/symbols/symbols.h:164
+#: ../share/symbols/symbols.h:9 ../share/symbols/symbols.h:10
 msgctxt "Symbol"
 msgid "Currency Exchange - Euro"
 msgstr "Обмін валют — євро"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:165 ../share/symbols/symbols.h:166
+#: ../share/symbols/symbols.h:11 ../share/symbols/symbols.h:12
 msgctxt "Symbol"
 msgid "Cashier"
 msgstr "Каса"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:169 ../share/symbols/symbols.h:170
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:13 ../share/symbols/symbols.h:14
+#: ../share/symbols/symbols.h:213 ../share/symbols/symbols.h:214
+msgctxt "Symbol"
+msgid "First Aid"
+msgstr "Перша допомога"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:15 ../share/symbols/symbols.h:16
 msgctxt "Symbol"
 msgid "Lost and Found"
 msgstr "Втрачено і знайдено"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:171 ../share/symbols/symbols.h:172
+#: ../share/symbols/symbols.h:17 ../share/symbols/symbols.h:18
 msgctxt "Symbol"
 msgid "Coat Check"
 msgstr "Гардероб"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:173 ../share/symbols/symbols.h:174
+#: ../share/symbols/symbols.h:19 ../share/symbols/symbols.h:20
 msgctxt "Symbol"
 msgid "Baggage Lockers"
 msgstr "Шафи для зберігання речей"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:175 ../share/symbols/symbols.h:176
+#: ../share/symbols/symbols.h:21 ../share/symbols/symbols.h:22
 msgctxt "Symbol"
 msgid "Escalator"
 msgstr "Ескалатор"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:177 ../share/symbols/symbols.h:178
+#: ../share/symbols/symbols.h:23 ../share/symbols/symbols.h:24
 msgctxt "Symbol"
 msgid "Escalator Down"
 msgstr "Ескалатор вниз"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:179 ../share/symbols/symbols.h:180
+#: ../share/symbols/symbols.h:25 ../share/symbols/symbols.h:26
 msgctxt "Symbol"
 msgid "Escalator Up"
 msgstr "Ескалатор вгору"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:181 ../share/symbols/symbols.h:182
+#: ../share/symbols/symbols.h:27 ../share/symbols/symbols.h:28
 msgctxt "Symbol"
 msgid "Stairs"
 msgstr "Сходи"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:183 ../share/symbols/symbols.h:184
+#: ../share/symbols/symbols.h:29 ../share/symbols/symbols.h:30
 msgctxt "Symbol"
 msgid "Stairs Down"
 msgstr "Сходи вниз"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:185 ../share/symbols/symbols.h:186
+#: ../share/symbols/symbols.h:31 ../share/symbols/symbols.h:32
 msgctxt "Symbol"
 msgid "Stairs Up"
 msgstr "Сходи вгору"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:187 ../share/symbols/symbols.h:188
+#: ../share/symbols/symbols.h:33 ../share/symbols/symbols.h:34
 msgctxt "Symbol"
 msgid "Elevator"
 msgstr "Ліфт"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:189 ../share/symbols/symbols.h:190
+#: ../share/symbols/symbols.h:35 ../share/symbols/symbols.h:36
 msgctxt "Symbol"
 msgid "Toilets - Men"
 msgstr "Чоловічий туалет"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:191 ../share/symbols/symbols.h:192
+#: ../share/symbols/symbols.h:37 ../share/symbols/symbols.h:38
 msgctxt "Symbol"
 msgid "Toilets - Women"
 msgstr "Жіночий туалет"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
+#: ../share/symbols/symbols.h:39 ../share/symbols/symbols.h:40
 msgctxt "Symbol"
 msgid "Toilets"
 msgstr "Туалети"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
+#: ../share/symbols/symbols.h:41 ../share/symbols/symbols.h:42
 msgctxt "Symbol"
 msgid "Nursery"
 msgstr "Ясла"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
+#: ../share/symbols/symbols.h:43 ../share/symbols/symbols.h:44
 msgctxt "Symbol"
 msgid "Drinking Fountain"
 msgstr "Питний фонтанчик"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:199 ../share/symbols/symbols.h:200
+#: ../share/symbols/symbols.h:45 ../share/symbols/symbols.h:46
 msgctxt "Symbol"
 msgid "Waiting Room"
 msgstr "Зала очікування"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:203 ../share/symbols/symbols.h:204
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:47 ../share/symbols/symbols.h:48
+#: ../share/symbols/symbols.h:231 ../share/symbols/symbols.h:232
+msgctxt "Symbol"
+msgid "Information"
+msgstr "Довідкова служба"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:49 ../share/symbols/symbols.h:50
 msgctxt "Symbol"
 msgid "Hotel Information"
 msgstr "Інформація щодо готелів"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
+#: ../share/symbols/symbols.h:51 ../share/symbols/symbols.h:52
 msgctxt "Symbol"
 msgid "Air Transportation"
 msgstr "Повітряний транспорт"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:207 ../share/symbols/symbols.h:208
+#: ../share/symbols/symbols.h:53 ../share/symbols/symbols.h:54
 msgctxt "Symbol"
 msgid "Heliport"
 msgstr "Вертодром"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:209 ../share/symbols/symbols.h:210
+#: ../share/symbols/symbols.h:55 ../share/symbols/symbols.h:56
 msgctxt "Symbol"
 msgid "Taxi"
 msgstr "Таксі"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:211 ../share/symbols/symbols.h:212
+#: ../share/symbols/symbols.h:57 ../share/symbols/symbols.h:58
 msgctxt "Symbol"
 msgid "Bus"
 msgstr "Автобус"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:213 ../share/symbols/symbols.h:214
+#: ../share/symbols/symbols.h:59 ../share/symbols/symbols.h:60
 msgctxt "Symbol"
 msgid "Ground Transportation"
 msgstr "Наземний транспорт"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
+#: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
 msgctxt "Symbol"
 msgid "Rail Transportation"
 msgstr "Залізничний транспорт"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:217 ../share/symbols/symbols.h:218
+#: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
 msgctxt "Symbol"
 msgid "Water Transportation"
 msgstr "Водний транспорт"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:219 ../share/symbols/symbols.h:220
+#: ../share/symbols/symbols.h:65 ../share/symbols/symbols.h:66
 msgctxt "Symbol"
 msgid "Car Rental"
 msgstr "Оренда автомобілів"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:221 ../share/symbols/symbols.h:222
+#: ../share/symbols/symbols.h:67 ../share/symbols/symbols.h:68
 msgctxt "Symbol"
 msgid "Restaurant"
 msgstr "Ресторан"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:223 ../share/symbols/symbols.h:224
+#: ../share/symbols/symbols.h:69 ../share/symbols/symbols.h:70
 msgctxt "Symbol"
 msgid "Coffeeshop"
 msgstr "Кав’ярня"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:225 ../share/symbols/symbols.h:226
+#: ../share/symbols/symbols.h:71 ../share/symbols/symbols.h:72
 msgctxt "Symbol"
 msgid "Bar"
 msgstr "Бар"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:227 ../share/symbols/symbols.h:228
+#: ../share/symbols/symbols.h:73 ../share/symbols/symbols.h:74
 msgctxt "Symbol"
 msgid "Shops"
 msgstr "Крамниці"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:229 ../share/symbols/symbols.h:230
+#: ../share/symbols/symbols.h:75 ../share/symbols/symbols.h:76
 msgctxt "Symbol"
 msgid "Barber Shop - Beauty Salon"
 msgstr "Перукарня і салон краси"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:231 ../share/symbols/symbols.h:232
+#: ../share/symbols/symbols.h:77 ../share/symbols/symbols.h:78
 msgctxt "Symbol"
 msgid "Barber Shop"
 msgstr "Перукарня"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:233 ../share/symbols/symbols.h:234
+#: ../share/symbols/symbols.h:79 ../share/symbols/symbols.h:80
 msgctxt "Symbol"
 msgid "Beauty Salon"
 msgstr "Салон краси"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:235 ../share/symbols/symbols.h:236
+#: ../share/symbols/symbols.h:81 ../share/symbols/symbols.h:82
 msgctxt "Symbol"
 msgid "Ticket Purchase"
 msgstr "Придбання квитків"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:237 ../share/symbols/symbols.h:238
+#: ../share/symbols/symbols.h:83 ../share/symbols/symbols.h:84
 msgctxt "Symbol"
 msgid "Baggage Check In"
 msgstr "Приймання багажу"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
+#: ../share/symbols/symbols.h:85 ../share/symbols/symbols.h:86
 msgctxt "Symbol"
 msgid "Baggage Claim"
 msgstr "Видача багажу"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#: ../share/symbols/symbols.h:87 ../share/symbols/symbols.h:88
 msgctxt "Symbol"
 msgid "Customs"
 msgstr "Митні послуги"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+#: ../share/symbols/symbols.h:89 ../share/symbols/symbols.h:90
 msgctxt "Symbol"
 msgid "Immigration"
 msgstr "Міграційна служба"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+#: ../share/symbols/symbols.h:91 ../share/symbols/symbols.h:92
 msgctxt "Symbol"
 msgid "Departing Flights"
 msgstr "Відправлення"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+#: ../share/symbols/symbols.h:93 ../share/symbols/symbols.h:94
 msgctxt "Symbol"
 msgid "Arriving Flights"
 msgstr "Прибуття"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+#: ../share/symbols/symbols.h:95 ../share/symbols/symbols.h:96
 msgctxt "Symbol"
 msgid "Smoking"
 msgstr "Місце для куріння"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+#: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
 msgctxt "Symbol"
 msgid "No Smoking"
 msgstr "Куріння заборонено"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
+#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+msgctxt "Symbol"
+msgid "Parking"
+msgstr "Паркувальний майданчик"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:101 ../share/symbols/symbols.h:102
 msgctxt "Symbol"
 msgid "No Parking"
 msgstr "Паркування заборонено"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
+#: ../share/symbols/symbols.h:103 ../share/symbols/symbols.h:104
 msgctxt "Symbol"
 msgid "No Dogs"
 msgstr "Вигулювання собак заборонено"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
+#: ../share/symbols/symbols.h:105 ../share/symbols/symbols.h:106
 msgctxt "Symbol"
 msgid "No Entry"
 msgstr "Вхід заборонено"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
+#: ../share/symbols/symbols.h:107 ../share/symbols/symbols.h:108
 msgctxt "Symbol"
 msgid "Exit"
 msgstr "Вихід"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
+#: ../share/symbols/symbols.h:109 ../share/symbols/symbols.h:110
 msgctxt "Symbol"
 msgid "Fire Extinguisher"
 msgstr "Вогнегасник"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+#: ../share/symbols/symbols.h:111 ../share/symbols/symbols.h:112
 msgctxt "Symbol"
 msgid "Right Arrow"
 msgstr "Стрілка праворуч"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#: ../share/symbols/symbols.h:113 ../share/symbols/symbols.h:114
 msgctxt "Symbol"
 msgid "Forward and Right Arrow"
 msgstr "Стрілка вперед і праворуч"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+#: ../share/symbols/symbols.h:115 ../share/symbols/symbols.h:116
 msgctxt "Symbol"
 msgid "Up Arrow"
 msgstr "Стрілка вгору"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+#: ../share/symbols/symbols.h:117 ../share/symbols/symbols.h:118
 msgctxt "Symbol"
 msgid "Forward and Left Arrow"
 msgstr "Стрілка вперед і ліворуч"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+#: ../share/symbols/symbols.h:119 ../share/symbols/symbols.h:120
 msgctxt "Symbol"
 msgid "Left Arrow"
 msgstr "Стрілка ліворуч"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+#: ../share/symbols/symbols.h:121 ../share/symbols/symbols.h:122
 msgctxt "Symbol"
 msgid "Left and Down Arrow"
 msgstr "Стрілка ліворуч і вниз"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+#: ../share/symbols/symbols.h:123 ../share/symbols/symbols.h:124
 msgctxt "Symbol"
 msgid "Down Arrow"
 msgstr "Стрілка вниз"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+#: ../share/symbols/symbols.h:125 ../share/symbols/symbols.h:126
 msgctxt "Symbol"
 msgid "Right and Down Arrow"
 msgstr "Стрілка праворуч і вниз"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+#: ../share/symbols/symbols.h:127 ../share/symbols/symbols.h:128
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible - 1996"
 msgstr "Візок NPS — 1996"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+#: ../share/symbols/symbols.h:129 ../share/symbols/symbols.h:130
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible"
 msgstr "Візок NPS"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+#: ../share/symbols/symbols.h:131 ../share/symbols/symbols.h:132
 msgctxt "Symbol"
 msgid "New Wheelchair Accessible"
 msgstr "Новий візок"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:133
+msgctxt "Symbol"
+msgid "Word Balloons"
+msgstr "Мовні бульки"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:134
+msgctxt "Symbol"
+msgid "Thought Balloon"
+msgstr "Булька думок"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:135
+msgctxt "Symbol"
+msgid "Dream Speaking"
+msgstr "Висловлення мрій"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:136
+msgctxt "Symbol"
+msgid "Rounded Balloon"
+msgstr "Заокруглена булька"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:137
+msgctxt "Symbol"
+msgid "Squared Balloon"
+msgstr "Квадрата булька"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:138
+msgctxt "Symbol"
+msgid "Over the Phone"
+msgstr "Телефоном"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:139
+msgctxt "Symbol"
+msgid "Hip Balloon"
+msgstr "Булька смутку"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:140
+msgctxt "Symbol"
+msgid "Circle Balloon"
+msgstr "Кругова булька"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:141
+msgctxt "Symbol"
+msgid "Exclaim Balloon"
+msgstr "Булька вигуку"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:142
+msgctxt "Symbol"
+msgid "Flow Chart Shapes"
+msgstr "Форми блок-схем"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:143
+msgctxt "Symbol"
+msgid "Process"
+msgstr "Обробляти"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:144
+msgctxt "Symbol"
+msgid "Input/Output"
+msgstr "Вхід/Вихід"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:145
+msgctxt "Symbol"
+msgid "Document"
+msgstr "Документ"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:146
+msgctxt "Symbol"
+msgid "Manual Operation"
+msgstr "Ручна дія"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:147
+msgctxt "Symbol"
+msgid "Preparation"
+msgstr "Підготовка"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:148
+msgctxt "Symbol"
+msgid "Merge"
+msgstr "Об’єднання"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:149
+msgctxt "Symbol"
+msgid "Decision"
+msgstr "Рішення"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:150
+msgctxt "Symbol"
+msgid "Magnetic Tape"
+msgstr "Магнітна стрічка"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:151
+msgctxt "Symbol"
+msgid "Display"
+msgstr "Показ"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:152
+msgctxt "Symbol"
+msgid "Auxiliary Operation"
+msgstr "Допоміжна операція"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:153
+msgctxt "Symbol"
+msgid "Manual Input"
+msgstr "Ручний ввід"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:154
+msgctxt "Symbol"
+msgid "Extract"
+msgstr "Видобування"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:155
+msgctxt "Symbol"
+msgid "Terminal/Interrupt"
+msgstr "Завершення/Переривання"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:156
+msgctxt "Symbol"
+msgid "Punched Card"
+msgstr "Перфокартка"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:157
+msgctxt "Symbol"
+msgid "Punch Tape"
+msgstr "Перфострічка"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:158
+msgctxt "Symbol"
+msgid "Online Storage"
+msgstr "Сховище даних у мережі"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:159
+msgctxt "Symbol"
+msgid "Keying"
+msgstr "Набір"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:160
+msgctxt "Symbol"
+msgid "Sort"
+msgstr "Упорядкування"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:161
+msgctxt "Symbol"
+msgid "Connector"
+msgstr "З’єднання"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:162
+msgctxt "Symbol"
+msgid "Off-Page Connector"
+msgstr "З'єднання поза сторінкою"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:163
+msgctxt "Symbol"
+msgid "Transmittal Tape"
+msgstr "Передавальна стрічка"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:164
+msgctxt "Symbol"
+msgid "Communication Link"
+msgstr "З’єднання для обміну даними"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:165
+msgctxt "Symbol"
+msgid "Collate"
+msgstr "Об’єднання"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:166
+msgctxt "Symbol"
+msgid "Comment/Annotation"
+msgstr "Коментар/Анотація"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:167
+msgctxt "Symbol"
+msgid "Core"
+msgstr "Ядро"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:168
+msgctxt "Symbol"
+msgid "Predefined Process"
+msgstr "Наперед визначений процес"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:169
+msgctxt "Symbol"
+msgid "Magnetic Disk (Database)"
+msgstr "Магнітний диск (база даних)"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:170
+msgctxt "Symbol"
+msgid "Magnetic Drum (Direct Access)"
+msgstr "Магнітний барабан (безпосередній доступ)"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:171
+msgctxt "Symbol"
+msgid "Offline Storage"
+msgstr "Автономне сховище даних"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:172
+msgctxt "Symbol"
+msgid "Logical Or"
+msgstr "Логічне «АБО»"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:173
+msgctxt "Symbol"
+msgid "Logical And"
+msgstr "Логічне «ТА»"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:174
+msgctxt "Symbol"
+msgid "Delay"
+msgstr "Затримка"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:175
+msgctxt "Symbol"
+msgid "Loop Limit Begin"
+msgstr "Початок циклу"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:176
+msgctxt "Symbol"
+msgid "Loop Limit End"
+msgstr "Кінець циклу"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:177
+msgctxt "Symbol"
+msgid "Logic Symbols"
+msgstr "Символи логіки"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:178
+msgctxt "Symbol"
+msgid "Xnor Gate"
+msgstr "Ключ виключне заперечувальне АБО»"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:179
+msgctxt "Symbol"
+msgid "Xor Gate"
+msgstr "Ключ виключне І"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:180
+msgctxt "Symbol"
+msgid "Nor Gate"
+msgstr "Ключ АБО-НІ"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:181
+msgctxt "Symbol"
+msgid "Or Gate"
+msgstr "Ключ АБО"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:182
+msgctxt "Symbol"
+msgid "Nand Gate"
+msgstr "Ключ І-НІ"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:183
+msgctxt "Symbol"
+msgid "And Gate"
+msgstr "Ключ І"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:184
+msgctxt "Symbol"
+msgid "Buffer"
+msgstr "Буфер"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:185
+msgctxt "Symbol"
+msgid "Not Gate"
+msgstr "Ключ НІ"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:186
+msgctxt "Symbol"
+msgid "Buffer Small"
+msgstr "Малий буфер"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:187
+msgctxt "Symbol"
+msgid "Not Gate Small"
+msgstr "Малий ключ НІ"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:188
+msgctxt "Symbol"
+msgid "United States National Park Service Map Symbols"
+msgstr "Символи карт служб національних парків США"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:189 ../share/symbols/symbols.h:190
+msgctxt "Symbol"
+msgid "Airport"
+msgstr "Аеропорт"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:191 ../share/symbols/symbols.h:192
+msgctxt "Symbol"
+msgid "Amphitheatre"
+msgstr "Амфітеатр"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
+msgctxt "Symbol"
+msgid "Bicycle Trail"
+msgstr "Велосипедна траса"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
+msgctxt "Symbol"
+msgid "Boat Launch"
+msgstr "Місце спуску човнів"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
+msgctxt "Symbol"
+msgid "Boat Tour"
+msgstr "Човновий маршрут"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:199 ../share/symbols/symbols.h:200
+msgctxt "Symbol"
+msgid "Bus Stop"
+msgstr "Автобусна зупинка"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:201 ../share/symbols/symbols.h:202
+msgctxt "Symbol"
+msgid "Campfire"
+msgstr "Місце для багаття"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:203 ../share/symbols/symbols.h:204
+msgctxt "Symbol"
+msgid "Campground"
+msgstr "Майданчик для табору"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
+msgctxt "Symbol"
+msgid "CanoeAccess"
+msgstr "Доступ до каное"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:207 ../share/symbols/symbols.h:208
+msgctxt "Symbol"
+msgid "Crosscountry Ski Trail"
+msgstr "Траса для лижного кросу"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:209 ../share/symbols/symbols.h:210
+msgctxt "Symbol"
+msgid "Downhill Skiing"
+msgstr "Лижний спуск"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:211 ../share/symbols/symbols.h:212
+msgctxt "Symbol"
+msgid "Drinking Water"
+msgstr "Питна вода"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
+msgctxt "Symbol"
+msgid "Fishing"
+msgstr "Риболовля"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:217 ../share/symbols/symbols.h:218
+msgctxt "Symbol"
+msgid "Food Service"
+msgstr "Служба харчування"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:219 ../share/symbols/symbols.h:220
+msgctxt "Symbol"
+msgid "Four Wheel Drive Road"
+msgstr "Дорога для чотириколісних машин"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:221 ../share/symbols/symbols.h:222
+msgctxt "Symbol"
+msgid "Gas Station"
+msgstr "Автозаправка"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:223 ../share/symbols/symbols.h:224
+msgctxt "Symbol"
+msgid "Golfing"
+msgstr "Гольф"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:225 ../share/symbols/symbols.h:226
+msgctxt "Symbol"
+msgid "Horseback Riding"
+msgstr "Траса для кінської їзди"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:227 ../share/symbols/symbols.h:228
+msgctxt "Symbol"
+msgid "Hospital"
+msgstr "Лікарня"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:229 ../share/symbols/symbols.h:230
+msgctxt "Symbol"
+msgid "Ice Skating"
+msgstr "Катання на ковзанах"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:233 ../share/symbols/symbols.h:234
+msgctxt "Symbol"
+msgid "Litter Receptacle"
+msgstr "Сховище нош"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:235 ../share/symbols/symbols.h:236
+msgctxt "Symbol"
+msgid "Lodging"
+msgstr "Кімнати"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:237 ../share/symbols/symbols.h:238
+msgctxt "Symbol"
+msgid "Marina"
+msgstr "Пристань"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
+msgctxt "Symbol"
+msgid "Recycling"
+msgstr "Пункт переробки"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+msgctxt "Symbol"
+msgid "Pets On Leash"
+msgstr "Домашні тварини на повідді"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+msgctxt "Symbol"
+msgid "Picnic Area"
+msgstr "Місце для пікніків"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+msgctxt "Symbol"
+msgid "Post Office"
+msgstr "Поштове відділення"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+msgctxt "Symbol"
+msgid "Ranger Station"
+msgstr "Станція рейнджерів"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+msgctxt "Symbol"
+msgid "RV Campground"
+msgstr "Майданчик для трейлерів"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
+msgctxt "Symbol"
+msgid "Restrooms"
+msgstr "Туалети"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
+msgctxt "Symbol"
+msgid "Sailing"
+msgstr "Парусний спорт"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
+msgctxt "Symbol"
+msgid "Sanitary Disposal Station"
+msgstr "Станція утилізації відходів"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
+msgctxt "Symbol"
+msgid "Scuba Diving"
+msgstr "Пірнання з аквалангом"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
+msgctxt "Symbol"
+msgid "Self Guided Trail"
+msgstr "Стежка для самостійного огляду"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
+msgctxt "Symbol"
+msgid "Shelter"
+msgstr "Притулок"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+msgctxt "Symbol"
+msgid "Showers"
+msgstr "Душові"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+msgctxt "Symbol"
+msgid "Sledding"
+msgstr "Катання на санях"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+msgctxt "Symbol"
+msgid "SnowmobileTrail"
+msgstr "Траса для снігоходів"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+msgctxt "Symbol"
+msgid "Stable"
+msgstr "Стайня"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+msgctxt "Symbol"
+msgid "Store"
+msgstr "Склад"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+msgctxt "Symbol"
+msgid "Swimming"
+msgstr "Плавання"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+msgctxt "Symbol"
+msgid "Emergency Telephone"
+msgstr "Телефон виклику служб надзвичайних ситуацій"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+msgctxt "Symbol"
+msgid "Trailhead"
+msgstr "Початок маршруту"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+msgctxt "Symbol"
+msgid "Wheelchair Accessible"
+msgstr "Візок"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+msgctxt "Symbol"
+msgid "Wind Surfing"
+msgstr "Віндсерфінг"
 
 #: ../share/templates/templates.h:1
 msgid "A4 Landscape Page"
@@ -6365,7 +6365,6 @@ msgstr "Колір підсвічення"
 #: ../src/extension/internal/filter/transparency.h:214
 #: ../src/extension/internal/filter/transparency.h:287
 #: ../src/extension/internal/filter/transparency.h:349
-#, c-format
 msgid "Filters"
 msgstr "Фільтри"
 
@@ -8052,12 +8051,10 @@ msgid "%s bitmap image import"
 msgstr "Імпортування растрового зображення %s"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
-#, c-format
 msgid "Image Import Type:"
 msgstr "Тип імпортування зображення:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
-#, c-format
 msgid ""
 "Embed results in stand-alone, larger SVG files. Link references a file "
 "outside this SVG document and all files must be moved together."
@@ -8067,23 +8064,19 @@ msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:192
 #: ../src/ui/dialog/inkscape-preferences.cpp:1449
-#, c-format
 msgid "Embed"
 msgstr "Вбудувати"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:193 ../src/sp-anchor.cpp:119
 #: ../src/ui/dialog/inkscape-preferences.cpp:1449
-#, c-format
 msgid "Link"
 msgstr "Пов'язати"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
-#, c-format
 msgid "Image DPI:"
 msgstr "Роздільність зображення:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
-#, c-format
 msgid ""
 "Take information from file or use default bitmap import resolution as "
 "defined in the preferences."
@@ -8092,22 +8085,18 @@ msgstr ""
 "растрових зображень, визначеною у налаштуваннях."
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:197
-#, c-format
 msgid "From file"
 msgstr "З файла"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:198
-#, c-format
 msgid "Default import resolution"
 msgstr "Типова роздільна здатність для імпортування"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
-#, c-format
 msgid "Image Rendering Mode:"
 msgstr "Режим обробки зображення:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
-#, c-format
 msgid ""
 "When an image is upscaled, apply smoothing or keep blocky (pixelated). (Will "
 "not work in all browsers.)"
@@ -8118,30 +8107,25 @@ msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
-#, c-format
 msgid "None (auto)"
 msgstr "Немає (автоматично)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:203
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
-#, c-format
 msgid "Smooth (optimizeQuality)"
 msgstr "Згладжування (оптимальна якість)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:204
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
-#, c-format
 msgid "Blocky (optimizeSpeed)"
 msgstr "Блоками (оптимальна швидкість)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:207
-#, c-format
 msgid "Hide the dialog next time and always apply the same actions."
 msgstr ""
 "Не показувати це вікно наступного разу і завжди виконувати ті самі дії."
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:207
-#, c-format
 msgid "Don't ask again"
 msgstr "Більше не питати"
 
@@ -10997,8 +10981,8 @@ msgstr "Пов'язати параметр контуру з контуром"
 msgid "Change point parameter"
 msgstr "Змінити параметр точки"
 
-#: ../src/live_effects/parameter/powerstrokepointarray.cpp:217
-#: ../src/live_effects/parameter/powerstrokepointarray.cpp:229
+#: ../src/live_effects/parameter/powerstrokepointarray.cpp:243
+#: ../src/live_effects/parameter/powerstrokepointarray.cpp:255
 msgid ""
 "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl"
 "+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it."
@@ -23945,8 +23929,8 @@ msgstr[2] "<b>Нескінченна</b> точка сходу, спільна �
 msgid ""
 "shared by <b>%d</b> box; drag with <b>Shift</b> to separate selected box(es)"
 msgid_plural ""
-"shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected "
-"box(es)"
+"shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box"
+"(es)"
 msgstr[0] ""
 "міститься у <b>%d</b> об'єкті; перетягніть, утримуючи <b>Shift</b>, щоб "
 "відокремити вибрані об'єкти"
@@ -28736,11 +28720,11 @@ msgstr "Кінцеві маркери малюються на останньом
 msgid "Set markers"
 msgstr "Встановити маркери"
 
-#: ../src/widgets/stroke-style.cpp:1032 ../src/widgets/stroke-style.cpp:1117
+#: ../src/widgets/stroke-style.cpp:1030 ../src/widgets/stroke-style.cpp:1115
 msgid "Set stroke style"
 msgstr "Встановлення стилю штриха"
 
-#: ../src/widgets/stroke-style.cpp:1205
+#: ../src/widgets/stroke-style.cpp:1203
 msgid "Set marker color"
 msgstr "Встановити колір маркера"
 
@@ -29902,7 +29886,6 @@ msgstr ""
 "\n"
 
 #: ../share/extensions/jessyInk_autoTexts.py:54
-#, python-brace-format
 msgid ""
 "Node with id '{0}' is not a suitable text node and was therefore ignored.\n"
 "\n"
@@ -29936,7 +29919,6 @@ msgstr ""
 "основного слайда.\n"
 
 #: ../share/extensions/jessyInk_summary.py:69
-#, python-brace-format
 msgid "JessyInk script version {0} installed."
 msgstr "Встановлено версію {0} скрипту JessyInk."
 
@@ -29961,7 +29943,6 @@ msgstr ""
 "Слайд {0!s}:"
 
 #: ../share/extensions/jessyInk_summary.py:94
-#, python-brace-format
 msgid "{0}Layer name: {1}"
 msgstr "{0}Назва шару: {1}"
 
@@ -29970,7 +29951,6 @@ msgid "{0}Transition in: {1} ({2!s} s)"
 msgstr "{0}Перехід у {1} ({2!s} с)"
 
 #: ../share/extensions/jessyInk_summary.py:104
-#, python-brace-format
 msgid "{0}Transition in: {1}"
 msgstr "{0}Перехід у {1}"
 
@@ -29979,12 +29959,10 @@ msgid "{0}Transition out: {1} ({2!s} s)"
 msgstr "{0}Перехід з {1} ({2!s} с)"
 
 #: ../share/extensions/jessyInk_summary.py:113
-#, python-brace-format
 msgid "{0}Transition out: {1}"
 msgstr "{0}Вихідна позиція переходу: {1}"
 
 #: ../share/extensions/jessyInk_summary.py:120
-#, python-brace-format
 msgid ""
 "\n"
 "{0}Auto-texts:"
@@ -29993,12 +29971,10 @@ msgstr ""
 "{0}Автотексти:"
 
 #: ../share/extensions/jessyInk_summary.py:123
-#, python-brace-format
 msgid "{0}\t\"{1}\" (object id \"{2}\") will be replaced by \"{3}\"."
 msgstr "{0}\t\"{1}\" (ідентифікатор об'єкта «{2}») буде замінено на «{3}»."
 
 #: ../share/extensions/jessyInk_summary.py:168
-#, python-brace-format
 msgid ""
 "\n"
 "{0}Initial effect (order number {1}):"
@@ -30015,12 +29991,10 @@ msgstr ""
 "{0}Ефект {1!s} (порядковий номер {2}):"
 
 #: ../share/extensions/jessyInk_summary.py:174
-#, python-brace-format
 msgid "{0}\tView will be set according to object \"{1}\""
 msgstr "{0}\tОбласть перегляду буде встановлено відповідно до об'єкта «{1}»"
 
 #: ../share/extensions/jessyInk_summary.py:176
-#, python-brace-format
 msgid "{0}\tObject \"{1}\""
 msgstr "{0}\tОб'єкт «{1}»"
 
@@ -30033,7 +30007,6 @@ msgid " will disappear"
 msgstr " зникне"
 
 #: ../share/extensions/jessyInk_summary.py:184
-#, python-brace-format
 msgid " using effect \"{0}\""
 msgstr " з використанням ефекту «{0}»"
 
@@ -30194,22 +30167,8 @@ msgstr ""
 "вирізання на контури."
 
 #: ../share/extensions/plotter.py:143
-msgid ""
-"pySerial is not installed.\n"
-"\n"
-"1. Download pySerial here (not the \".exe\"!): http://pypi.python.org/pypi/"
-"pyserial\n"
-"2. Extract the \"serial\" subfolder from the zip to the following folder: C:"
-"\\[Program files]\\inkscape\\python\\Lib\\\n"
-"3. Restart Inkscape."
-msgstr ""
-"pySerial не встановлено.\n"
-"\n"
-"1. Отримайте пакунок pySerial (не файл «.exe»!) тут: http://pypi.python.org/"
-"pypi/pyserial\n"
-"2. Виконайте видобування підтеки «serial» з архіву zip до цієї теки: C:"
-"\\[Program files]\\inkscape\\python\\Lib\\\n"
-"3. Перезапустіть Inkscape."
+msgid "pySerial is not installed."
+msgstr "Не встановлено pySerial."
 
 #: ../share/extensions/plotter.py:163
 msgid ""
@@ -30353,18 +30312,8 @@ msgstr "Вам слід вибрати відповідне кодування �
 
 #: ../share/extensions/uniconv-ext.py:56
 #: ../share/extensions/uniconv_output.py:122
-msgid ""
-"You need to install the UniConvertor software.\n"
-"For GNU/Linux: install the package python-uniconvertor.\n"
-"For Windows: download it from\n"
-"http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
-"and install into your Inkscape's Python location\n"
-msgstr ""
-"Вам слід встановити програму UniConvertor.\n"
-"У GNU/Linux: встановіть пакунок python-uniconvertor.\n"
-"У Windows: отримайте пакунок зі сторінки\n"
-"http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
-"і встановіть його до теки Python Inkscape.\n"
+msgid "You need to install the UniConvertor software.\n"
+msgstr "Вам слід встановити UniConvertor.\n"
 
 #: ../share/extensions/voronoi2svg.py:215
 msgid "Please select objects!"
@@ -36406,6 +36355,36 @@ msgstr "Популярний графічний формат для кліпар
 msgid "XAML Input"
 msgstr "Імпорт з XAML"
 
+#~ msgid ""
+#~ "pySerial is not installed.\n"
+#~ "\n"
+#~ "1. Download pySerial here (not the \".exe\"!): http://pypi.python.org/"
+#~ "pypi/pyserial\n"
+#~ "2. Extract the \"serial\" subfolder from the zip to the following folder: "
+#~ "C:\\[Program files]\\inkscape\\python\\Lib\\\n"
+#~ "3. Restart Inkscape."
+#~ msgstr ""
+#~ "pySerial не встановлено.\n"
+#~ "\n"
+#~ "1. Отримайте пакунок pySerial (не файл «.exe»!) тут: http://pypi.python."
+#~ "org/pypi/pyserial\n"
+#~ "2. Виконайте видобування підтеки «serial» з архіву zip до цієї теки: C:"
+#~ "\\[Program files]\\inkscape\\python\\Lib\\\n"
+#~ "3. Перезапустіть Inkscape."
+
+#~ msgid ""
+#~ "You need to install the UniConvertor software.\n"
+#~ "For GNU/Linux: install the package python-uniconvertor.\n"
+#~ "For Windows: download it from\n"
+#~ "http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
+#~ "and install into your Inkscape's Python location\n"
+#~ msgstr ""
+#~ "Вам слід встановити програму UniConvertor.\n"
+#~ "У GNU/Linux: встановіть пакунок python-uniconvertor.\n"
+#~ "У Windows: отримайте пакунок зі сторінки\n"
+#~ "http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
+#~ "і встановіть його до теки Python Inkscape.\n"
+
 #~ msgctxt "Symbol"
 #~ msgid "Map Symbols"
 #~ msgstr "Символи карт"
@@ -36890,12 +36869,6 @@ msgstr "Імпорт з XAML"
 #~ "Варто зберегти ваш документ, перш ніж продовжувати.\n"
 #~ "\n"
 #~ "Продовжити обробку (без збереження)?"
-
-#~ msgid "pySerial is not installed."
-#~ msgstr "Не встановлено pySerial."
-
-#~ msgid "You need to install the UniConvertor software.\n"
-#~ msgstr "Вам слід встановити UniConvertor.\n"
 
 #~ msgctxt "Symbol"
 #~ msgid "Alternate Process"

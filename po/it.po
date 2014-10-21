@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-20 08:08+0200\n"
+"POT-Creation-Date: 2014-10-21 08:38+0200\n"
 "PO-Revision-Date: 2009-10-11 17:07+0100\n"
 "Last-Translator: Firas Hanife <FirasHanife@gmail.com>\n"
 "Language-Team: \n"
@@ -11110,8 +11110,8 @@ msgstr "Lega il parametro del tracciato al parametro"
 msgid "Change point parameter"
 msgstr "Modifica parametri del punto"
 
-#: ../src/live_effects/parameter/powerstrokepointarray.cpp:229
-#: ../src/live_effects/parameter/powerstrokepointarray.cpp:241
+#: ../src/live_effects/parameter/powerstrokepointarray.cpp:243
+#: ../src/live_effects/parameter/powerstrokepointarray.cpp:255
 msgid ""
 "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl"
 "+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it."

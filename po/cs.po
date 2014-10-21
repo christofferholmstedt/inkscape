@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-20 08:08+0200\n"
+"POT-Creation-Date: 2014-10-21 08:38+0200\n"
 "PO-Revision-Date: 2014-10-20 21:54+0100\n"
 "Last-Translator: Ivan Řihošek <osmdesat@seznam.cz>\n"
 "Language-Team:  <none>\n"
@@ -11581,8 +11581,8 @@ msgstr "Vložit šířku odděleně"
 msgid "Change point parameter"
 msgstr "Změnit parametr bodu"
 
-#: ../src/live_effects/parameter/powerstrokepointarray.cpp:229
-#: ../src/live_effects/parameter/powerstrokepointarray.cpp:241
+#: ../src/live_effects/parameter/powerstrokepointarray.cpp:243
+#: ../src/live_effects/parameter/powerstrokepointarray.cpp:255
 msgid ""
 "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl"
 "+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it."
