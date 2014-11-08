@@ -1721,7 +1721,6 @@ sp_css_attr_unset_text(SPCSSAttr *css)
     sp_repr_css_set_property(css, "font-family", NULL);
     sp_repr_css_set_property(css, "text-indent", NULL);
     sp_repr_css_set_property(css, "text-align", NULL);
-    sp_repr_css_set_property(css, "text-decoration", NULL);
     sp_repr_css_set_property(css, "line-height", NULL);
     sp_repr_css_set_property(css, "letter-spacing", NULL);
     sp_repr_css_set_property(css, "word-spacing", NULL);
@@ -1730,11 +1729,16 @@ sp_css_attr_unset_text(SPCSSAttr *css)
     sp_repr_css_set_property(css, "block-progression", NULL);
     sp_repr_css_set_property(css, "writing-mode", NULL);
     sp_repr_css_set_property(css, "text-anchor", NULL);
-    sp_repr_css_set_property(css, "white_space", NULL);
+    sp_repr_css_set_property(css, "white-space", NULL);
     sp_repr_css_set_property(css, "kerning", NULL); // not implemented yet
     sp_repr_css_set_property(css, "dominant-baseline", NULL); // not implemented yet
     sp_repr_css_set_property(css, "alignment-baseline", NULL); // not implemented yet
     sp_repr_css_set_property(css, "baseline-shift", NULL);
+
+    sp_repr_css_set_property(css, "text-decoration", NULL);
+    sp_repr_css_set_property(css, "text-decoration-line", NULL);
+    sp_repr_css_set_property(css, "text-decoration-color", NULL);
+    sp_repr_css_set_property(css, "text-decoration-style", NULL);
 
     return css;
 }
