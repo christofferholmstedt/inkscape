@@ -18,17 +18,16 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-10-21 08:38+0200\n"
-"PO-Revision-Date: 2014-10-02 10:31+0100\n"
+"PO-Revision-Date: 2014-11-12 21:45+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
-"Language: \n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: FRANCE\n"
 "X-Poedit-Bookmarks: 46,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -1711,7 +1710,7 @@ msgstr "Dessin d'image de base"
 
 #: ../share/filters/filters.svg.h:660
 msgid "Enhance and redraw color edges in 1 bit black and white"
-msgstr ""
+msgstr "Souligne et redessine les bords colorés en noir et blanc 1 bit"
 
 #: ../share/filters/filters.svg.h:662
 msgid "Poster Draw"
@@ -1719,7 +1718,7 @@ msgstr "Dessin de poster"
 
 #: ../share/filters/filters.svg.h:664
 msgid "Enhance and redraw edges around posterized areas"
-msgstr ""
+msgstr "Souligne et redessine les bords autours des zones postérisées"
 
 #: ../share/filters/filters.svg.h:666
 msgid "Cross Noise Poster"
@@ -1740,9 +1739,8 @@ msgid "Adds a small scale screen like noise locally"
 msgstr "Ajoute à l'image un grain de photo"
 
 #: ../share/filters/filters.svg.h:674
-#, fuzzy
 msgid "Poster Color Fun"
-msgstr "Coller la couleur"
+msgstr "Affiche couleur amusante"
 
 #: ../share/filters/filters.svg.h:678
 msgid "Poster Rough"
@@ -1751,6 +1749,7 @@ msgstr "Poster brut"
 #: ../share/filters/filters.svg.h:680
 msgid "Adds roughness to one of the two channels of the Poster paint filter"
 msgstr ""
+"Ajouter de la rugosité à un des deux canaux du filtre Peinture et poster"
 
 #: ../share/filters/filters.svg.h:682
 msgid "Alpha Monochrome Cracked"
@@ -1838,9 +1837,8 @@ msgid "Comics"
 msgstr "Bande dessinée"
 
 #: ../share/filters/filters.svg.h:732
-#, fuzzy
 msgid "Comics cartoon drawing effect"
-msgstr "Dessin de bande dessinée au brossé fluide"
+msgstr "Effet bande dessinée"
 
 #: ../share/filters/filters.svg.h:734
 msgid "Comics Draft"
@@ -1931,9 +1929,8 @@ msgid "Sharp Deco"
 msgstr "Déco net"
 
 #: ../share/filters/filters.svg.h:780
-#, fuzzy
 msgid "Unrealistic reflections with sharp edges"
-msgstr "Effet de chrome aux bords ombrés"
+msgstr "Réflexions non réalistes avec des arêtes vives"
 
 #: ../share/filters/filters.svg.h:782
 msgid "Deep Metal"
@@ -1956,9 +1953,8 @@ msgid "Refractive Glass"
 msgstr "Gel réfringent"
 
 #: ../share/filters/filters.svg.h:792
-#, fuzzy
 msgid "Double reflection through glass with some refraction"
-msgstr "Effet de gel avec réfringence forte"
+msgstr "Double réflexion à travers verre avec une certaine réfraction"
 
 #: ../share/filters/filters.svg.h:794
 msgid "Frosted Glass"
@@ -1977,9 +1973,8 @@ msgid "Carving emboss effect"
 msgstr "Effet de bosselage gravé"
 
 #: ../share/filters/filters.svg.h:802
-#, fuzzy
 msgid "Chromolitho Alternate"
-msgstr "Chromolitho"
+msgstr "Chromolitho alternatif"
 
 #: ../share/filters/filters.svg.h:804
 msgid "Old chromolithographic effect"
@@ -3879,7 +3874,6 @@ msgstr "Processus"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:144
-#, fuzzy
 msgctxt "Symbol"
 msgid "Input/Output"
 msgstr "Entrée/sortie"
@@ -3928,10 +3922,9 @@ msgstr "Affichage"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:152
-#, fuzzy
 msgctxt "Symbol"
 msgid "Auxiliary Operation"
-msgstr "Opération manuelle"
+msgstr "Opération auxiliaire"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:153
@@ -3947,37 +3940,33 @@ msgstr "Extraction"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:155
-#, fuzzy
 msgctxt "Symbol"
 msgid "Terminal/Interrupt"
-msgstr "Terminateur"
+msgstr "Fin de processus"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:156
-#, fuzzy
 msgctxt "Symbol"
 msgid "Punched Card"
-msgstr "Bande perforée"
+msgstr "Carte perforée"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:157
-#, fuzzy
 msgctxt "Symbol"
 msgid "Punch Tape"
 msgstr "Bande perforée"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:158
-#, fuzzy
 msgctxt "Symbol"
 msgid "Online Storage"
-msgstr "Stockage interne"
+msgstr "Données stockées"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:159
 msgctxt "Symbol"
 msgid "Keying"
-msgstr ""
+msgstr "Saisie"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:160
@@ -3993,23 +3982,21 @@ msgstr "Connecteur"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:162
-#, fuzzy
 msgctxt "Symbol"
 msgid "Off-Page Connector"
-msgstr "Connecteur"
+msgstr "Renvoi page suivante"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:163
-#, fuzzy
 msgctxt "Symbol"
 msgid "Transmittal Tape"
-msgstr "Antenne"
+msgstr "Bande de transmission"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:164
 msgctxt "Symbol"
 msgid "Communication Link"
-msgstr "Lien de communication"
+msgstr "Traitement à distance"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:165
@@ -4027,7 +4014,7 @@ msgstr "Commentaire ou annotation"
 #: ../share/symbols/symbols.h:167
 msgctxt "Symbol"
 msgid "Core"
-msgstr ""
+msgstr "Stockage interne"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:168
@@ -4039,21 +4026,19 @@ msgstr "Processus prédéfini"
 #: ../share/symbols/symbols.h:169
 msgctxt "Symbol"
 msgid "Magnetic Disk (Database)"
-msgstr "Disque magnétique (base de données)"
+msgstr "Données séquentielles"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:170
-#, fuzzy
 msgctxt "Symbol"
 msgid "Magnetic Drum (Direct Access)"
-msgstr "Disque magnétique (base de données)"
+msgstr "Données directes"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:171
-#, fuzzy
 msgctxt "Symbol"
 msgid "Offline Storage"
-msgstr "Stockage interne"
+msgstr "Données hors ligne"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:172
@@ -4077,13 +4062,13 @@ msgstr "Temporisation"
 #: ../share/symbols/symbols.h:175
 msgctxt "Symbol"
 msgid "Loop Limit Begin"
-msgstr ""
+msgstr "Limite de début de boucle"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:176
 msgctxt "Symbol"
 msgid "Loop Limit End"
-msgstr ""
+msgstr "Limite de fin de boucle"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:177
@@ -4155,7 +4140,7 @@ msgstr "Porte non (petite)"
 #: ../share/symbols/symbols.h:188
 msgctxt "Symbol"
 msgid "United States National Park Service Map Symbols"
-msgstr ""
+msgstr "Symboles du service des parcs nationaux des États-Unis"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:189 ../share/symbols/symbols.h:190
@@ -4171,22 +4156,21 @@ msgstr "Amphithéâtre"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
-#, fuzzy
 msgctxt "Symbol"
 msgid "Bicycle Trail"
-msgstr "Magasin de vélos"
+msgstr "Piste cyclable"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
 msgctxt "Symbol"
 msgid "Boat Launch"
-msgstr ""
+msgstr "Cale de mise à l'eau"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
 msgctxt "Symbol"
 msgid "Boat Tour"
-msgstr ""
+msgstr "Excursion en bateau"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:199 ../share/symbols/symbols.h:200
@@ -4196,72 +4180,66 @@ msgstr "Arrêt de bus"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:201 ../share/symbols/symbols.h:202
-#, fuzzy
 msgctxt "Symbol"
 msgid "Campfire"
-msgstr "Camping"
+msgstr "Feu de camp"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:203 ../share/symbols/symbols.h:204
-#, fuzzy
 msgctxt "Symbol"
 msgid "Campground"
-msgstr "Arrondi de la terminaison"
+msgstr "Terrain de camping"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
 msgctxt "Symbol"
 msgid "CanoeAccess"
-msgstr ""
+msgstr "Accès en canoë"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:207 ../share/symbols/symbols.h:208
 msgctxt "Symbol"
 msgid "Crosscountry Ski Trail"
-msgstr ""
+msgstr "Piste de ski de fond"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:209 ../share/symbols/symbols.h:210
 msgctxt "Symbol"
 msgid "Downhill Skiing"
-msgstr ""
+msgstr "Ski alpin"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:211 ../share/symbols/symbols.h:212
-#, fuzzy
 msgctxt "Symbol"
 msgid "Drinking Water"
 msgstr "Fontaine d'eau potable"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
-#, fuzzy
 msgctxt "Symbol"
 msgid "Fishing"
-msgstr "Poissonnier"
+msgstr "Pêche"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:217 ../share/symbols/symbols.h:218
 msgctxt "Symbol"
 msgid "Food Service"
-msgstr ""
+msgstr "Restauration"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:219 ../share/symbols/symbols.h:220
 msgctxt "Symbol"
 msgid "Four Wheel Drive Road"
-msgstr ""
+msgstr "Route pour véhicule tout-terrain"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:221 ../share/symbols/symbols.h:222
-#, fuzzy
 msgctxt "Symbol"
 msgid "Gas Station"
-msgstr "Gare routière"
+msgstr "Station service"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:223 ../share/symbols/symbols.h:224
-#, fuzzy
 msgctxt "Symbol"
 msgid "Golfing"
 msgstr "Golf"
@@ -4270,7 +4248,7 @@ msgstr "Golf"
 #: ../share/symbols/symbols.h:225 ../share/symbols/symbols.h:226
 msgctxt "Symbol"
 msgid "Horseback Riding"
-msgstr ""
+msgstr "Équitation"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:227 ../share/symbols/symbols.h:228
@@ -4288,13 +4266,13 @@ msgstr "Patinoire"
 #: ../share/symbols/symbols.h:233 ../share/symbols/symbols.h:234
 msgctxt "Symbol"
 msgid "Litter Receptacle"
-msgstr ""
+msgstr "Poubelle"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:235 ../share/symbols/symbols.h:236
 msgctxt "Symbol"
 msgid "Lodging"
-msgstr ""
+msgstr "Hébergement"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:237 ../share/symbols/symbols.h:238
@@ -4310,17 +4288,15 @@ msgstr "Recyclage"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
-#, fuzzy
 msgctxt "Symbol"
 msgid "Pets On Leash"
-msgstr "Texte suivant un chemin"
+msgstr "Animaux en laisse"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
-#, fuzzy
 msgctxt "Symbol"
 msgid "Picnic Area"
-msgstr "Parc, zone de pique-nique"
+msgstr "Zone de pique-nique"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
@@ -4330,23 +4306,21 @@ msgstr "Bureau de poste"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
-#, fuzzy
 msgctxt "Symbol"
 msgid "Ranger Station"
-msgstr "Station d'essence"
+msgstr "Garde forestier"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
-#, fuzzy
 msgctxt "Symbol"
 msgid "RV Campground"
-msgstr "Arrondi de la terminaison"
+msgstr "Terrain de caravaning"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
 msgctxt "Symbol"
 msgid "Restrooms"
-msgstr ""
+msgstr "Toilettes"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
@@ -4358,11 +4332,10 @@ msgstr "Voile"
 #: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
 msgid "Sanitary Disposal Station"
-msgstr ""
+msgstr "Aire de service pour camping-car"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
-#, fuzzy
 msgctxt "Symbol"
 msgid "Scuba Diving"
 msgstr "Plongée"
@@ -4371,7 +4344,7 @@ msgstr "Plongée"
 #: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
 msgctxt "Symbol"
 msgid "Self Guided Trail"
-msgstr ""
+msgstr "Sentier balisé"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
@@ -4381,37 +4354,33 @@ msgstr "Abri"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
-#, fuzzy
 msgctxt "Symbol"
 msgid "Showers"
-msgstr "Afficher :"
+msgstr "Douches"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
-#, fuzzy
 msgctxt "Symbol"
 msgid "Sledding"
-msgstr "Lors de la lecture"
+msgstr "Luge"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
 msgctxt "Symbol"
 msgid "SnowmobileTrail"
-msgstr ""
+msgstr "Sentier pour motoneige"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
-#, fuzzy
 msgctxt "Symbol"
 msgid "Stable"
-msgstr "Table"
+msgstr "Écurie"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
-#, fuzzy
 msgctxt "Symbol"
 msgid "Store"
-msgstr "Données stockées"
+msgstr "Boutique"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
@@ -4421,24 +4390,21 @@ msgstr "Natation"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
-#, fuzzy
 msgctxt "Symbol"
 msgid "Emergency Telephone"
-msgstr "Téléphone"
+msgstr "Téléphone de secours"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
-#, fuzzy
 msgctxt "Symbol"
 msgid "Trailhead"
-msgstr "Braille"
+msgstr "Départ de randonnée"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
-#, fuzzy
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
-msgstr "Accessible en fauteuil roulant (NPS)"
+msgstr "Accessible en fauteuil roulant"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
@@ -4800,9 +4766,8 @@ msgid "LaTex LaTeX latex grid beamer"
 msgstr ""
 
 #: ../share/templates/templates.h:1
-#, fuzzy
 msgid "Typography Canvas"
-msgstr "1 - Paramétrer le canevas typographique"
+msgstr "Canevas typographique"
 
 #: ../share/templates/templates.h:1
 msgid "Empty typography canvas with helping guidelines."
@@ -5699,7 +5664,6 @@ msgid "Right (px):"
 msgstr "Droite (px) :"
 
 #: ../src/extension/internal/bitmap/crop.cpp:77
-#, fuzzy
 msgid "Crop selected bitmap(s)"
 msgstr "Rogner les bitmaps sélectionnés"
 
@@ -5911,9 +5875,8 @@ msgid "Opacity:"
 msgstr "Opacité :"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:46
-#, fuzzy
 msgid "Modify opacity channel(s) of selected bitmap(s)"
-msgstr "Modifier la composante opacité des bitmaps sélectionnés."
+msgstr "Modifier la composante opacité des bitmaps sélectionnés"
 
 #: ../src/extension/internal/bitmap/raise.cpp:40
 msgid "Raise"
@@ -7936,9 +7899,8 @@ msgid "Snow crest"
 msgstr "Crête neigeuse"
 
 #: ../src/extension/internal/filter/protrusions.h:50
-#, fuzzy
 msgid "Drift Size"
-msgstr "Dimension de l'amas"
+msgstr "Quantité de neige"
 
 #: ../src/extension/internal/filter/protrusions.h:58
 msgid "Snow has fallen on object"
@@ -11370,13 +11332,15 @@ msgstr "Supprimer les éléments inutiles des section(s) defs du document"
 
 #: ../src/main.cpp:495
 msgid "Enter a listening loop for D-Bus messages in console mode"
-msgstr ""
+msgstr "Saisissez une boucle d'écoute pour les messages D-Bus en mode console"
 
 #: ../src/main.cpp:500
 msgid ""
 "Specify the D-Bus bus name to listen for messages on (default is org."
 "inkscape)"
 msgstr ""
+"Spécifie le nom du bus D-Bus sur lequel écouter les messages (org.inkscape "
+"par défaut)"
 
 #: ../src/main.cpp:501
 msgid "BUS-NAME"
@@ -11830,7 +11794,7 @@ msgstr "Titre :"
 
 #: ../src/rdf.cpp:236
 msgid "A name given to the resource"
-msgstr ""
+msgstr "Nom donné au document"
 
 #: ../src/rdf.cpp:238
 msgid "Date:"
@@ -11841,6 +11805,7 @@ msgid ""
 "A point or period of time associated with an event in the lifecycle of the "
 "resource"
 msgstr ""
+"Date ou période associée à un événement dans le cycle de vie du document"
 
 #: ../src/rdf.cpp:241 ../share/extensions/webslicer_create_rect.inx.h:3
 msgid "Format:"
@@ -11848,7 +11813,7 @@ msgstr "Format :"
 
 #: ../src/rdf.cpp:242
 msgid "The file format, physical medium, or dimensions of the resource"
-msgstr ""
+msgstr "Format de fichier, support physique ou dimensions du document"
 
 #: ../src/rdf.cpp:245
 msgid "The nature or genre of the resource"
@@ -11868,7 +11833,7 @@ msgstr "Droits :"
 
 #: ../src/rdf.cpp:252
 msgid "Information about rights held in and over the resource"
-msgstr ""
+msgstr "Informations sur les droits relatifs au document"
 
 #: ../src/rdf.cpp:254
 msgid "Publisher:"
@@ -11884,11 +11849,11 @@ msgstr "Identifiant :"
 
 #: ../src/rdf.cpp:259
 msgid "An unambiguous reference to the resource within a given context"
-msgstr ""
+msgstr "Référence univoque au document dans un contexte donné"
 
 #: ../src/rdf.cpp:262
 msgid "A related resource from which the described resource is derived"
-msgstr ""
+msgstr "Document duquel est dérivé ce document"
 
 #: ../src/rdf.cpp:264
 msgid "Relation:"
@@ -11904,7 +11869,7 @@ msgstr "Langue principale :"
 
 #: ../src/rdf.cpp:268
 msgid "A language of the resource"
-msgstr ""
+msgstr "Langue du document"
 
 #: ../src/rdf.cpp:270
 msgid "Keywords:"
@@ -11925,6 +11890,8 @@ msgid ""
 "The spatial or temporal topic of the resource, the spatial applicability of "
 "the resource, or the jurisdiction under which the resource is relevant"
 msgstr ""
+"Sujet spacial ou temporel du document, l'applicabilité spaciale du document, "
+"ou la juridiction dans laquelle le document s'inscrit"
 
 #: ../src/rdf.cpp:279
 msgid "Description:"
@@ -12142,7 +12109,7 @@ msgstr "Déplacer la sélection au calque"
 #. to a translation... but leave that for another day.
 #: ../src/selection-chemistry.cpp:1503 ../src/seltrans.cpp:388
 msgid "Cannot transform an embedded SVG."
-msgstr ""
+msgstr "Impossible de transformer un SVG intégré."
 
 #: ../src/selection-chemistry.cpp:1649
 msgid "Remove transform"
@@ -12846,7 +12813,7 @@ msgstr "à %d branche"
 
 #: ../src/sp-switch.cpp:76
 msgid "Conditional Group"
-msgstr ""
+msgstr "Groupe conditionnel"
 
 #: ../src/sp-text.cpp:325 ../src/verbs.cpp:328
 #: ../share/extensions/lorem_ipsum.inx.h:8
@@ -12883,7 +12850,7 @@ msgstr " depuis "
 
 #: ../src/sp-tref.cpp:252 ../src/sp-use.cpp:262
 msgid "[orphaned]"
-msgstr ""
+msgstr "[orphelin]"
 
 #: ../src/sp-tspan.cpp:217
 msgid "Text Span"
@@ -13697,9 +13664,8 @@ msgid "Smallest object"
 msgstr "Objet le plus petit"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1005
-#, fuzzy
 msgid "Selection Area"
-msgstr "Sélection"
+msgstr "Zone de sélection"
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:40
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:138
@@ -14578,6 +14544,8 @@ msgid ""
 "Color of the page background. Note: transparency setting ignored while "
 "editing but used when exporting to bitmap."
 msgstr ""
+"Couleur du fond de page. Note : les paramètres de transparence sont ignorés "
+"pendant l'édition, mais utilisées lors de l'exportation en PNG."
 
 #: ../src/ui/dialog/document-properties.cpp:116
 msgid "Border _color:"
@@ -16424,10 +16392,12 @@ msgid ""
 "\n"
 "Some fonts are not available and have been substituted."
 msgstr ""
+"\n"
+"Certaines fontes sont indisponibles et ont été remplacées."
 
 #: ../src/ui/dialog/font-substitution.cpp:90
 msgid "Font substitution"
-msgstr ""
+msgstr "Substitution de police"
 
 #: ../src/ui/dialog/font-substitution.cpp:109
 msgid "Select all the affected items"
@@ -18780,7 +18750,7 @@ msgstr "Données de chemin"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:887
 msgid "Absolute"
-msgstr ""
+msgstr "Absolu"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:887
 msgid "Relative"
@@ -18793,7 +18763,7 @@ msgstr "Optimisé"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:891
 msgid "Path string format:"
-msgstr ""
+msgstr "Format de la chaîne du chemin :"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:891
 msgid ""
@@ -18801,6 +18771,10 @@ msgid ""
 "relative coordinates, or optimized for string length (mixed absolute and "
 "relative coordinates)"
 msgstr ""
+"Les données de chemin doivent être écrite : seulement avec des coordonnées "
+"absolues, seulement avec des coordonnées relatives, ou optimisées en "
+"fonction de la longueur de la chaîne (mélange de coordonnées relatives et "
+"absolues)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:893
 msgid "Force repeat commands"
@@ -19115,6 +19089,9 @@ msgid ""
 "The directory where autosaves will be written. This should be an absolute "
 "path (starts with / on UNIX or a drive letter such as C: on Windows). "
 msgstr ""
+"Dossier dans lequel les enregistrements automatiques sont écrits. Il s'agit "
+"d'un chemin absolu (commençant par / sur les systèmes Gnu/Linux ou Unix, ou "
+"par la lettre du lecteur, C: par exemple, sous Windows)."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1096
 msgid "_Interval (in minutes):"
@@ -19293,7 +19270,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1164
 msgid "Wrap when cycling objects in z-order"
-msgstr ""
+msgstr "Défilement continu des objets dans le plan"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1166
 msgid "Alt+Scroll Wheel"
@@ -19302,6 +19279,8 @@ msgstr "Alt+molette"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1168
 msgid "Wrap around at start and end when cycling objects in z-order"
 msgstr ""
+"Défile la sélection des objets dans le plan en continu, sans arrêt aux "
+"objets placés aux extrémités du plan"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1170
 msgid "Selecting"
@@ -19802,6 +19781,8 @@ msgstr "Nettoyage du document"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1357
 msgid "Remove unused swatches when doing a document cleanup"
 msgstr ""
+"Supprimer les palettes inutilisées lorsqu'un nettoyage de document est "
+"effectué"
 
 #. tooltip
 #: ../src/ui/dialog/inkscape-preferences.cpp:1358
@@ -19964,10 +19945,13 @@ msgstr "Résolution utilisée par la commande Créer une copie bitmap"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1444
 msgid "Ask about linking and scaling when importing"
 msgstr ""
+"Demander les options de lien et de mise à l'échelle lors de l'importation"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1446
 msgid "Pop-up linking and scaling dialog when importing bitmap image."
 msgstr ""
+"Fait apparaître une boîte de dialogue pour sélectionner les options de lien "
+"et de mise à l'échelle chaque fois qu'une image matricielle est importée."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1452
 msgid "Bitmap link:"
@@ -19975,7 +19959,7 @@ msgstr "Importation de bitmap :"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1459
 msgid "Bitmap scale (image-rendering):"
-msgstr ""
+msgstr "Mise à l'échelle bitmap (rendu de l'image) :"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1464
 msgid "Default _import resolution:"
@@ -20007,6 +19991,8 @@ msgid ""
 "When active will render images while in outline mode instead of a red box "
 "with an x. This is useful for manual tracing."
 msgstr ""
+"Si coché, les images sont affichées en mode contour (à la place de l'image "
+"par défaut). Utile pour effectuer une vectorisation manuelle."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1475
 msgid "Bitmaps"
@@ -20317,6 +20303,9 @@ msgid ""
 "A device can be 'Disabled', its co-ordinates mapped to the whole 'Screen', "
 "or to a single (usually focused) 'Window'"
 msgstr ""
+"Un périphérique peut être désactivé, ou ses coordonnées peuvent être "
+"appliquées à l'ensemble de l'écran ou à une seule fenêtre (généralement "
+"sélectionnée)"
 
 #: ../src/ui/dialog/input.cpp:1616 ../src/widgets/calligraphy-toolbar.cpp:578
 #: ../src/widgets/spray-toolbar.cpp:224 ../src/widgets/tweak-toolbar.cpp:372
@@ -20325,11 +20314,11 @@ msgstr "Pression"
 
 #: ../src/ui/dialog/input.cpp:1616
 msgid "X tilt"
-msgstr ""
+msgstr "Inclinaison X"
 
 #: ../src/ui/dialog/input.cpp:1616
 msgid "Y tilt"
-msgstr ""
+msgstr "Inclinaison Y"
 
 #: ../src/ui/dialog/input.cpp:1616
 #: ../src/widgets/sp-color-wheel-selector.cpp:59
@@ -20798,45 +20787,43 @@ msgstr "Fermer"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:190
 msgid "_Curves (multiplier):"
-msgstr ""
+msgstr "_Courbes (multiplicateur) :"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:193
 msgid "Favors connections that are part of a long curve"
-msgstr ""
+msgstr "Favorise les connexion faisant partie d'une longue courbe"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:204
-#, fuzzy
 msgid "_Islands (weight):"
-msgstr "Hauteur de capitale :"
+msgstr "_Îles (poids) :"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:207
 msgid "Avoid single disconnected pixels"
-msgstr ""
+msgstr "Éviter les pixels seuls déconnectés"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:209
-#, fuzzy
 msgid "A constant vote value"
-msgstr "angle contraint"
+msgstr "Valeur de vote constant"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:219
 msgid "Sparse pixels (window _radius):"
-msgstr ""
+msgstr "Pixels clairsemés (_rayon de fenêtre) :"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:228
 msgid "The radius of the window analyzed"
-msgstr ""
+msgstr "Rayon de la fenêtre analysée"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:229
 msgid "Sparse pixels (_multiplier):"
-msgstr ""
+msgstr "Pixels clairsemés (_multiplicateur) :"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:240
 msgid "Favors connections that are part of foreground color"
-msgstr ""
+msgstr "Favorise les connexion faisant partie d'une couleur de fond"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:246
 msgid "The heuristic computed vote will be multiplied by this value"
-msgstr ""
+msgstr "Le vote calculé heuristique sera multiplié par cette valeur"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:259
 msgid "Heuristics"
@@ -20851,14 +20838,12 @@ msgid "Output composed of straight lines"
 msgstr "Sortie composée de lignes droites"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:273
-#, fuzzy
 msgid "Convert to _B-spline curves"
-msgstr "Convertir en canvas HTML5"
+msgstr "Convertir en courbes _B-spline"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:274
-#, fuzzy
 msgid "Preserve staircasing artifacts"
-msgstr "Préserver les identifiants débutant par :"
+msgstr "Préserver les artefacts en marche d'escalier"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:281
 msgid "_Smooth curves"
@@ -27599,7 +27584,7 @@ msgstr "Créer un dégradé linéaire"
 
 #: ../src/widgets/mesh-toolbar.cpp:208
 msgid "conical"
-msgstr ""
+msgstr "conique"
 
 #: ../src/widgets/mesh-toolbar.cpp:208
 msgid "Create conical gradient"
@@ -28140,9 +28125,8 @@ msgid "Make corners sharp"
 msgstr "Rendre les coins pointus"
 
 #: ../src/widgets/ruler.cpp:192
-#, fuzzy
 msgid "The orientation of the ruler"
-msgstr "Orientation des éléments détachables"
+msgstr "Orientation de la règle"
 
 #: ../src/widgets/ruler.cpp:202
 msgid "Unit of the ruler"
@@ -28153,9 +28137,8 @@ msgid "Lower"
 msgstr "Descendre"
 
 #: ../src/widgets/ruler.cpp:210
-#, fuzzy
 msgid "Lower limit of ruler"
-msgstr "Descendre au calque précédent."
+msgstr "Limite inférieure de la règle"
 
 #: ../src/widgets/ruler.cpp:219
 #, fuzzy
@@ -28164,12 +28147,11 @@ msgstr "Pipette"
 
 #: ../src/widgets/ruler.cpp:220
 msgid "Upper limit of ruler"
-msgstr ""
+msgstr "Limite supérieure de la règle"
 
 #: ../src/widgets/ruler.cpp:230
-#, fuzzy
 msgid "Position of mark on the ruler"
-msgstr "Emplacement des thèmes d'icône"
+msgstr "Emplacement des graduations sur la règle"
 
 #: ../src/widgets/ruler.cpp:239
 #, fuzzy
@@ -30405,7 +30387,7 @@ msgstr ""
 
 #: ../share/extensions/plotter.py:143
 msgid "pySerial is not installed."
-msgstr ""
+msgstr "pySerial n'est pas installé."
 
 #: ../share/extensions/plotter.py:163
 msgid ""
@@ -30460,7 +30442,7 @@ msgstr "Erreur interne. Aucun type de vue n'est sélectionné\n"
 
 #: ../share/extensions/print_win32_vector.py:41
 msgid "sorry, this will run only on Windows, exiting..."
-msgstr ""
+msgstr "Cette extension ne fonctionne que sous Windows."
 
 #: ../share/extensions/print_win32_vector.py:179
 msgid "Failed to open default printer"
@@ -30616,7 +30598,7 @@ msgstr "Les formats JPG et GIF nécessitent l'installation d'ImageMagick."
 #. lines of longitude are odd : abort
 #: ../share/extensions/wireframe_sphere.py:116
 msgid "Please enter an even number of lines of longitude."
-msgstr ""
+msgstr "Veuillez sélectionner un nombre pair de lignes de longitude."
 
 #. vim: expandtab shiftwidth=4 tabstop=8 softtabstop=4 fileencoding=utf-8 textwidth=99
 #: ../share/extensions/addnodes.inx.h:1
@@ -30791,7 +30773,7 @@ msgstr "Noir et blanc"
 
 #: ../share/extensions/color_blackandwhite.inx.h:2
 msgid "Threshold Color (1-255):"
-msgstr ""
+msgstr "Seuil de couleur (1-255) :"
 
 #: ../share/extensions/color_brighter.inx.h:1
 msgid "Brighter"
@@ -31505,7 +31487,7 @@ msgstr "Incorporer les images sélectionnées"
 
 #: ../share/extensions/empty_page.inx.h:1
 msgid "Empty Page"
-msgstr ""
+msgstr "Page vide"
 
 #: ../share/extensions/empty_page.inx.h:2
 msgid "Page size:"
@@ -31823,7 +31805,7 @@ msgstr "Largeur de la zone :"
 
 #: ../share/extensions/gcodetools_area.inx.h:4
 msgid "Area tool overlap (0..0.9):"
-msgstr ""
+msgstr "Superposition d'outil de zone (0..0.9) :"
 
 #: ../share/extensions/gcodetools_area.inx.h:5
 msgid ""
@@ -31844,7 +31826,7 @@ msgstr "Angle de remplissage de la zone"
 
 #: ../share/extensions/gcodetools_area.inx.h:8
 msgid "Area fill shift"
-msgstr ""
+msgstr "Décalage de remplissage de zone"
 
 #: ../share/extensions/gcodetools_area.inx.h:9
 msgid "Filling method"
@@ -31856,7 +31838,7 @@ msgstr "Zig-zag"
 
 #: ../share/extensions/gcodetools_area.inx.h:12
 msgid "Area artifacts"
-msgstr ""
+msgstr "Artefact de zone"
 
 #: ../share/extensions/gcodetools_area.inx.h:13
 msgid "Artifact diameter:"
@@ -31977,7 +31959,7 @@ msgstr "Décalage sur l'axe Z :"
 #: ../share/extensions/gcodetools_lathe.inx.h:25
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:14
 msgid "Select all paths if nothing is selected"
-msgstr ""
+msgstr "Sélectionner tous les chemins si rien n'est sélectionné"
 
 #: ../share/extensions/gcodetools_area.inx.h:33
 #: ../share/extensions/gcodetools_engraving.inx.h:11
@@ -32321,11 +32303,11 @@ msgstr "Créer de nouveaux objets avec :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:6
 msgid "Lathe X axis remap:"
-msgstr ""
+msgstr "Reconfiguration de l'axe X du tour :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:7
 msgid "Lathe Z axis remap:"
-msgstr ""
+msgstr "Reconfiguration de l'axe Y du tour :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:8
 msgid "Move path"
@@ -32345,6 +32327,8 @@ msgid ""
 "This function modifies path so it will be able to be cut with the "
 "rectangular cutter."
 msgstr ""
+"Cette fonction modifie le chemin de façon à ce qu'il soit possible de le "
+"découper avec un coupoir rectangulaire."
 
 #: ../share/extensions/gcodetools_orientation_points.inx.h:1
 msgid "Orientation points"
@@ -32352,11 +32336,11 @@ msgstr "Points d'orientation"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:1
 msgid "Prepare path for plasma"
-msgstr ""
+msgstr "Préparer le chemin pour plasma"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:2
 msgid "Prepare path for plasma or laser cuters"
-msgstr ""
+msgstr "Préparer le chemin pour plasma ou découpe laser"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:3
 #, fuzzy
@@ -32399,7 +32383,7 @@ msgstr "Aimanter aux coins des boîtes englobantes"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:12
 msgid "Maximum angle for corner (0-180 deg):"
-msgstr ""
+msgstr "Angle maximum pour le coin (0 à 180 degrés) :"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:14
 msgid "Perpendicular"
@@ -32427,7 +32411,7 @@ msgstr "défaut"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:4
 msgid "cylinder"
-msgstr "Cylindre"
+msgstr "cylindre"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:5
 msgid "cone"
@@ -32439,13 +32423,12 @@ msgid "plasma"
 msgstr "_Splash"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:7
-#, fuzzy
 msgid "tangent knife"
-msgstr "Décalage tangentiel"
+msgstr "couteau tangentiel"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:8
 msgid "lathe cutter"
-msgstr ""
+msgstr "découpe au tour"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:9
 msgid "graffiti"
@@ -32453,7 +32436,7 @@ msgstr "graffiti"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:10
 msgid "Just check tools"
-msgstr ""
+msgstr "vérifier seulement les outils"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:11
 msgid ""
@@ -32462,6 +32445,12 @@ msgid ""
 "active layer is used. If there is no tool inside the current layer it is "
 "taken from the upper layer. Press Apply to create new tool."
 msgstr ""
+"Le type d'outil sélectionné s'initialise avec des valeurs par défaut "
+"appropriées. Vous pouvez modifier ces valeurs en utilisant l'outil Texte par "
+"la suite. L'outil le plus haut (dans l'ordre des plans) dans le calque actif "
+"est utilisé. Si aucun outil n'est présent dans le calque, un outil est "
+"sélectionné dans la couche supérieure. Appuyez sur Appliquer pour créer un "
+"nouvel outil."
 
 #: ../share/extensions/generate_voronoi.inx.h:1
 msgid "Voronoi Pattern"
@@ -35704,7 +35693,7 @@ msgstr "Sortie XAML"
 
 #: ../share/extensions/svg2xaml.inx.h:2
 msgid "Silverlight compatible XAML"
-msgstr ""
+msgstr "XAML compatible Silverlight"
 
 #: ../share/extensions/svg2xaml.inx.h:3 ../share/extensions/xaml2svg.inx.h:2
 msgid "Microsoft XAML (*.xaml)"
