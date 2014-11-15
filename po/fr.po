@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-21 08:38+0200\n"
-"PO-Revision-Date: 2014-11-12 21:45+0100\n"
+"POT-Creation-Date: 2014-11-15 10:03+0100\n"
+"PO-Revision-Date: 2014-11-15 11:00+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "Language: fr_FR\n"
@@ -3062,7 +3062,7 @@ msgstr "rose clair (#FFB6C1)"
 #: ../share/palettes/palettes.h:166
 msgctxt "Palette"
 msgid "rebeccapurple (#663399)"
-msgstr ""
+msgstr "Pourpre Rebecca (#663399)"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:167
@@ -4498,11 +4498,11 @@ msgstr "Label de CD 120x120 "
 
 #: ../share/templates/templates.h:1
 msgid "Simple CD Label template with disc's pattern."
-msgstr ""
+msgstr "Modèle pour label de CD simple avec motif de disque."
 
 #: ../share/templates/templates.h:1
 msgid "CD label 120x120 disc disk"
-msgstr ""
+msgstr "CD modèle 120x120 disque"
 
 #: ../share/templates/templates.h:1
 msgid "DVD Cover Regular 300dpi "
@@ -4650,7 +4650,7 @@ msgstr "Letter Paysage"
 
 #: ../share/templates/templates.h:1
 msgid "Standard letter landscape sheet - 792x612"
-msgstr ""
+msgstr "Feuille au format letter standard (paysage) - 792x612"
 
 #: ../share/templates/templates.h:1
 msgid "letter landscape 792x612 empty"
@@ -4662,7 +4662,7 @@ msgstr "Letter"
 
 #: ../share/templates/templates.h:1
 msgid "Standard letter sheet - 612x792"
-msgstr ""
+msgstr "Feuille au format letter standard - 612x792"
 
 #: ../share/templates/templates.h:1
 msgid "letter 612x792 empty"
@@ -4694,47 +4694,47 @@ msgstr "sans calque vide"
 
 #: ../share/templates/templates.h:1
 msgid "Video HDTV 1920x1080"
-msgstr ""
+msgstr "Video HDTV 1920x1080"
 
 #: ../share/templates/templates.h:1
 msgid "HDTV video template for 1920x1080 resolution."
-msgstr ""
+msgstr "Modèle pour vidéo HDTV, résolution 1920x1080."
 
 #: ../share/templates/templates.h:1
 msgid "HDTV video empty 1920x1080"
-msgstr ""
+msgstr "Vidéo HDTV vide 1920x1080"
 
 #: ../share/templates/templates.h:1
 msgid "Video NTSC 720x486"
-msgstr ""
+msgstr "Vidéo NTSC 720x486"
 
 #: ../share/templates/templates.h:1
 msgid "NTSC video template for 720x486 resolution."
-msgstr ""
+msgstr "Modèle pour vidéo NTSC, résolution 720x486."
 
 #: ../share/templates/templates.h:1
 msgid "NTSC video empty 720x486"
-msgstr ""
+msgstr "NTSC vidéo vide 720x486"
 
 #: ../share/templates/templates.h:1
 msgid "Video PAL 728x576"
-msgstr ""
+msgstr "Vidéo PAL 728x576"
 
 #: ../share/templates/templates.h:1
 msgid "PAL video template for 728x576 resolution."
-msgstr ""
+msgstr "Modèle pour vidéo PAL, résolution 728x576."
 
 #: ../share/templates/templates.h:1
 msgid "PAL video empty 728x576"
-msgstr ""
+msgstr "PAL vidéo vide 728x576"
 
 #: ../share/templates/templates.h:1
 msgid "Web Banner 468x60"
-msgstr ""
+msgstr "Bannière web 468x60"
 
 #: ../share/templates/templates.h:1
 msgid "Empty 468x60 web banner template."
-msgstr ""
+msgstr "Modèle de bannière web vide en 468x60."
 
 #: ../share/templates/templates.h:1
 msgid "web banner 468x60 empty"
@@ -4742,28 +4742,27 @@ msgstr "bannière web 468x60 vide"
 
 #: ../share/templates/templates.h:1
 msgid "Web Banner 728x90"
-msgstr ""
+msgstr "Bannière web 728x90"
 
 #: ../share/templates/templates.h:1
 msgid "Empty 728x90 web banner template."
-msgstr ""
+msgstr "Modèle de bannière web vide en 728x90."
 
 #: ../share/templates/templates.h:1
 msgid "web banner 728x90 empty"
 msgstr "bannière web 728x90 vide"
 
 #: ../share/templates/templates.h:1
-#, fuzzy
 msgid "LaTeX Beamer"
-msgstr "Impression LaTeX"
+msgstr "LaTeX Beamer"
 
 #: ../share/templates/templates.h:1
 msgid "LaTeX beamer template with helping grid."
-msgstr ""
+msgstr "Modèle LaTeX beamer avec grille d'aide."
 
 #: ../share/templates/templates.h:1
 msgid "LaTex LaTeX latex grid beamer"
-msgstr ""
+msgstr "LaTex LaTeX latex grille beamer"
 
 #: ../share/templates/templates.h:1
 msgid "Typography Canvas"
@@ -4771,7 +4770,7 @@ msgstr "Canevas typographique"
 
 #: ../share/templates/templates.h:1
 msgid "Empty typography canvas with helping guidelines."
-msgstr ""
+msgstr "Canevas typographique vide avec guides d'aide."
 
 #: ../share/templates/templates.h:1
 #, fuzzy
@@ -8125,6 +8124,8 @@ msgid ""
 "When an image is upscaled, apply smoothing or keep blocky (pixelated). (Will "
 "not work in all browsers.)"
 msgstr ""
+"When an image is upscaled, apply smoothing or keep blocky (pixelated). (Will "
+"not work in all browsers.)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
@@ -10425,6 +10426,8 @@ msgstr "Trier les points"
 #: ../src/live_effects/lpe-powerstroke.cpp:233
 msgid "Sort offset points according to their time value along the curve"
 msgstr ""
+"Trie les points de décalage en fonction de leur valeur temps le long de la "
+"courbe"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:234
 msgid "Interpolator type:"
@@ -10435,6 +10438,8 @@ msgid ""
 "Determines which kind of interpolator will be used to interpolate between "
 "stroke width along the path"
 msgstr ""
+"Définit quel type d'interpolateur sera utilisé pour déterminer l'épaisseur "
+"du chemin"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:235
 #: ../share/extensions/fractalize.inx.h:3
@@ -10446,6 +10451,8 @@ msgid ""
 "Sets the smoothness for the CubicBezierJohan interpolator; 0 = linear "
 "interpolation, 1 = smooth"
 msgstr ""
+"Définit le lissage pour l'interpolateur CubicBezierJohan (0 pour "
+"interpolation linéaire, 1 pour interpolation douce)"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:236
 msgid "Start cap:"
@@ -11046,6 +11053,9 @@ msgid ""
 "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl"
 "+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it."
 msgstr ""
+"<b>point de contrôle de l'épaisseur de contour</b> : cliquer-glisser pour "
+"modifier l'épaisseur ; <b>Ctrl+clic</b> ajouter un point de contrôle ; "
+"<b>Ctrl+Alt+clic</b> supprime le point de contrôle"
 
 #: ../src/live_effects/parameter/random.cpp:134
 msgid "Change random parameter"
@@ -11142,6 +11152,8 @@ msgstr "La zone à exporter est la zone de travail entière"
 #: ../src/main.cpp:345
 msgid "Only for PS/EPS/PDF, sets margin in mm around exported area (default 0)"
 msgstr ""
+"Seulement pour PS/EPS/PDF, définit une marge en mm autour de la zone "
+"exportée (0 par défaut)"
 
 #: ../src/main.cpp:346 ../src/main.cpp:388
 msgid "VALUE"
@@ -11228,6 +11240,8 @@ msgid ""
 "Choose the PostScript Level used to export. Possible choices are 2 (the "
 "default) and 3"
 msgstr ""
+"Niveau PostScript utilisé pour l'exportation. Les choix possibles dont 2 "
+"(par défaut) ou 3."
 
 #: ../src/main.cpp:409
 msgid "PS Level"
@@ -11243,6 +11257,9 @@ msgid ""
 "Export PDF to given version. (hint: make sure to input the exact string "
 "found in the PDF export dialog, e.g. \"PDF 1.4\" which is PDF-a conformant)"
 msgstr ""
+"Exporter le PDF dans une version donnée (astuce : assurez-vous que la valeur "
+"saisie corresponde bien à la chaîne présentée dans la boîte de dialogue "
+"d'exportation PDF, par exemple  \"PDF 1.4\" - conforme PDF-a)"
 
 #: ../src/main.cpp:420
 msgid "PDF_VERSION"
@@ -11931,7 +11948,7 @@ msgstr "Fragment XML pour la section « Licence » (RDF)"
 
 #: ../src/resource-manager.cpp:332
 msgid "Fixup broken links"
-msgstr ""
+msgstr "Réparer les liens brisés"
 
 #: ../src/selection-chemistry.cpp:396
 msgid "Delete text"
@@ -12494,7 +12511,7 @@ msgid ""
 "<b>Center</b> of rotation and skewing: drag to reposition; scaling with "
 "Shift also uses this center"
 msgstr ""
-"<b>Centre</b> de rotation/inclinaison : cliquer-déplacer pour le déplacer; "
+"<b>Centre</b> de rotation/inclinaison : cliquer-déplacer pour le déplacer ; "
 "redimensionner avec <b>Maj</b> utilise aussi ce centre"
 
 #: ../src/seltrans.cpp:486 ../src/ui/dialog/transformation.cpp:982
@@ -12567,7 +12584,7 @@ msgstr "Sélectionner un fichier à importer"
 #: ../src/sp-anchor.cpp:125
 #, c-format
 msgid "to %s"
-msgstr ""
+msgstr "vers %s"
 
 #: ../src/sp-anchor.cpp:129
 msgid "without URI"
@@ -12733,7 +12750,7 @@ msgstr "Offset dynamique"
 #: ../src/sp-offset.cpp:347
 #, c-format
 msgid "%s by %f pt"
-msgstr ""
+msgstr "%s de %f pt"
 
 #: ../src/sp-offset.cpp:348
 msgid "outset"
@@ -12868,7 +12885,7 @@ msgstr "Cloner"
 #: ../src/sp-use.cpp:237 ../src/sp-use.cpp:239
 #, c-format
 msgid "called %s"
-msgstr ""
+msgstr "nommé %s"
 
 #: ../src/sp-use.cpp:239
 msgid "Unnamed Symbol"
@@ -17850,6 +17867,8 @@ msgstr "_Angle de dégradé linéaire :"
 msgid ""
 "Default angle of new linear gradients in degrees (clockwise from horizontal)"
 msgstr ""
+"Angle par défaut des nouveaux gradients linéaires (en degrés, dans le sens "
+"horaire à partir de l'horizontale)"
 
 #. Dropper
 #: ../src/ui/dialog/inkscape-preferences.cpp:495
@@ -18295,6 +18314,8 @@ msgid ""
 "Selects whether the vertical bars on the dockbar will show text labels, "
 "icons, or both"
 msgstr ""
+"Défini si les barres verticales affichent dans la barre détachable des "
+"labels, des icônes, ou les deux"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:622
 msgid "Switcher style (requires restart):"
@@ -18304,6 +18325,8 @@ msgstr "Style de bouton de commutation (nécessite un redémarrage)"
 msgid ""
 "Selects whether the dockbar switcher will show text labels, icons, or both"
 msgstr ""
+"Défini si les sélecteurs de boîtes de dialogue affichent dans la barre "
+"détachable des labels, des icônes, ou les deux"
 
 #. Windows
 #: ../src/ui/dialog/inkscape-preferences.cpp:627
@@ -20661,6 +20684,12 @@ msgid ""
 "Note that this behaviour is not defined in the SVG 1.1 specification and not "
 "all browsers follow this interpretation."
 msgstr ""
+"Ce paramètre peut joueur sur la façon dont un bitmap est agrandi :\n"
+"\t'auto' pas de préférence;\n"
+"\t'optimizeQuality' lissé;\n"
+"\t'optimizeSpeed' pixélisé.\n"
+"Notez que ce comportement n'est pas défini dans la spécification SVG 1.1 et "
+"que tous les navigateurs ne suivent pas cette interprétation."
 
 #. Hide
 #: ../src/ui/dialog/object-properties.cpp:293
@@ -21263,7 +21292,7 @@ msgstr "Afficher moins d'icônes sur chaque ligne"
 
 #: ../src/ui/dialog/symbols.cpp:258
 msgid "Toggle 'fit' symbols in icon space."
-msgstr ""
+msgstr "Contraindre les symboles à leur zone d'affichage"
 
 #: ../src/ui/dialog/symbols.cpp:270
 msgid "Make symbols smaller by zooming out."
@@ -25086,6 +25115,8 @@ msgstr "Vec_toriser en pixel art..."
 #: ../src/verbs.cpp:2552
 msgid "Create paths using Kopf-Lischinski algorithm to vectorize pixel art"
 msgstr ""
+"Créer des chemins en utilisant l'algorithme de Kopt-Lischinski  pour "
+"vectoriser en pixel art"
 
 #: ../src/verbs.cpp:2553
 msgid "Make a _Bitmap Copy"
@@ -28160,7 +28191,7 @@ msgstr "Dimensions"
 
 #: ../src/widgets/ruler.cpp:240
 msgid "Maximum size of the ruler"
-msgstr ""
+msgstr "Taille maximale de la règle"
 
 #: ../src/widgets/select-toolbar.cpp:260
 msgid "Transform by toolbar"
@@ -28970,11 +29001,11 @@ msgstr ""
 msgid "Set markers"
 msgstr "Appliquer des marqueurs"
 
-#: ../src/widgets/stroke-style.cpp:1030 ../src/widgets/stroke-style.cpp:1115
+#: ../src/widgets/stroke-style.cpp:1032 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
 msgstr "Appliquer un style de contour"
 
-#: ../src/widgets/stroke-style.cpp:1203
+#: ../src/widgets/stroke-style.cpp:1205
 msgid "Set marker color"
 msgstr "Appliquer une couleur de marqueur"
 
@@ -29323,7 +29354,7 @@ msgstr "Aux nœuds"
 
 #: ../src/widgets/toolbox.cpp:1754
 msgid "Snap cusp nodes, incl. rectangle corners"
-msgstr ""
+msgstr "Aimanter aux points de rebroussement, coins de rectangle inclus"
 
 #: ../src/widgets/toolbox.cpp:1763
 msgid "Smooth nodes"
@@ -29332,6 +29363,7 @@ msgstr "Nœuds doux"
 #: ../src/widgets/toolbox.cpp:1763
 msgid "Snap smooth nodes, incl. quadrant points of ellipses"
 msgstr ""
+"Aimanter aux points de rebroussement, points de quadrant des ellipses inclus"
 
 #: ../src/widgets/toolbox.cpp:1772
 msgid "Line Midpoints"
@@ -29729,10 +29761,14 @@ msgstr "Au moins deux chemins doivent être sélectionnés"
 #: ../share/extensions/funcplot.py:48
 msgid "x-interval cannot be zero. Please modify 'Start X' or 'End X'"
 msgstr ""
+"L'intervalle en X ne peut être nul. Veuillez modifier la valeur X de début "
+"ou la valeur X de fin"
 
 #: ../share/extensions/funcplot.py:60
 msgid "y-interval cannot be zero. Please modify 'Y top' or 'Y bottom'"
 msgstr ""
+"L'intervalle en Y ne peut être nul. Veuillez modifier la valeur Y basse ou "
+"la valeur Y haute"
 
 #: ../share/extensions/funcplot.py:315
 msgid "Please select a rectangle"
@@ -29970,24 +30006,33 @@ msgid ""
 "Orientation, Offset, Lathe or Tools library.\n"
 " Current active tab id is %s"
 msgstr ""
+"Sélectionnez un des onglets d'action : Chemin vers G-code, Aire, Gravure, "
+"Points DXF, Orientation, Tour ou Bibliothèque d'outils.\n"
+" L'onglet actif est actuellement %s"
 
 #: ../share/extensions/gcodetools.py:6668
 msgid ""
 "Orientation points have not been defined! A default set of orientation "
 "points has been automatically added."
 msgstr ""
+"Aucun point d'orientation n'a été défini. Un ensemble de points "
+"d'orientation par défaut a été automatiquement ajouté."
 
 #: ../share/extensions/gcodetools.py:6672
 msgid ""
 "Cutting tool has not been defined! A default tool has been automatically "
 "added."
 msgstr ""
+"Aucun outil de découpe n'a été défini. Un outil par défaut a été "
+"automatiquement ajouté."
 
 #: ../share/extensions/generate_voronoi.py:35
 msgid ""
 "Failed to import the subprocess module. Please report this as a bug at: "
 "https://bugs.launchpad.net/inkscape."
 msgstr ""
+"Échec lors de l'importation du module subprocess. Veuillez rapporter ce "
+"défaut à : https://bugs.launchpad.net/inkscape."
 
 #: ../share/extensions/generate_voronoi.py:36
 msgid "Python version is: "
@@ -30031,6 +30076,8 @@ msgid ""
 "The HPGL data contained unknown (unsupported) commands, there is a "
 "possibility that the drawing is missing some content."
 msgstr ""
+"Les données HPGL contiennent des commandes inconnues (et non supportées), et "
+"certains contenus pourraient ne pas apparaître sur le dessin."
 
 #. issue error if no paths found
 #: ../share/extensions/hpgl_output.py:58
@@ -30294,7 +30341,7 @@ msgstr ""
 
 #: ../share/extensions/measure.py:112
 msgid "Area is zero, cannot calculate Center of Mass"
-msgstr ""
+msgstr "L'aire est nulle, calcul du barycentre impossible"
 
 #: ../share/extensions/pathalongpath.py:208
 #: ../share/extensions/pathscatter.py:228
@@ -30924,7 +30971,7 @@ msgstr "Fichier ACECAD Digimemo (*.dhw)"
 
 #: ../share/extensions/dhw_input.inx.h:3
 msgid "Open files from ACECAD Digimemo"
-msgstr ""
+msgstr "Ouvrir les fichiers à partir d'ACECAD Digimemo"
 
 #: ../share/extensions/dia.inx.h:1
 msgid "Dia Input"
@@ -31242,7 +31289,7 @@ msgstr "Origine manuelle de l'axe y (mm) :"
 
 #: ../share/extensions/dxf_input.inx.h:7
 msgid "Gcodetools compatible point import"
-msgstr ""
+msgstr "Point d'importation compatible avec les outils G-code"
 
 #: ../share/extensions/dxf_input.inx.h:8
 #: ../share/extensions/render_barcode_qrcode.inx.h:16
@@ -31385,7 +31432,7 @@ msgstr "Couleurs visibles"
 
 #: ../share/extensions/dxf_outlines.inx.h:23
 msgid "By name match"
-msgstr ""
+msgstr "Correspondance par nom"
 
 #: ../share/extensions/dxf_outlines.inx.h:25
 #, fuzzy
@@ -31877,16 +31924,14 @@ msgstr "Chemin vers G-code"
 #: ../share/extensions/gcodetools_area.inx.h:20
 #: ../share/extensions/gcodetools_lathe.inx.h:13
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:2
-#, fuzzy
 msgid "Biarc interpolation tolerance:"
-msgstr "Étapes d'interpolation :"
+msgstr "Tolérance de l'interpolation biarc :"
 
 #: ../share/extensions/gcodetools_area.inx.h:21
 #: ../share/extensions/gcodetools_lathe.inx.h:14
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:3
-#, fuzzy
 msgid "Maximum splitting depth:"
-msgstr "Simplification des chemins :"
+msgstr "Profondeur de division maximale :"
 
 #: ../share/extensions/gcodetools_area.inx.h:22
 #: ../share/extensions/gcodetools_lathe.inx.h:15
@@ -31941,9 +31986,8 @@ msgstr ""
 #: ../share/extensions/gcodetools_graffiti.inx.h:22
 #: ../share/extensions/gcodetools_lathe.inx.h:23
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:12
-#, fuzzy
 msgid "Scale along Z axis:"
-msgstr "Longueur de base de l'axe z"
+msgstr "Échelle sur l'axe Z :"
 
 #: ../share/extensions/gcodetools_area.inx.h:31
 #: ../share/extensions/gcodetools_engraving.inx.h:9
@@ -32092,9 +32136,8 @@ msgstr "Aucun"
 #: ../share/extensions/gcodetools_graffiti.inx.h:38
 #: ../share/extensions/gcodetools_lathe.inx.h:42
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:31
-#, fuzzy
 msgid "Parameterize Gcode"
-msgstr "Paramètres"
+msgstr "Paramétrer G-code"
 
 #: ../share/extensions/gcodetools_area.inx.h:50
 #: ../share/extensions/gcodetools_dxf_points.inx.h:22
@@ -32172,9 +32215,8 @@ msgid "Smooth convex corners between this value and 180 degrees:"
 msgstr ""
 
 #: ../share/extensions/gcodetools_engraving.inx.h:3
-#, fuzzy
 msgid "Maximum distance for engraving (mm/inch):"
-msgstr "Distance maximum pour graver :"
+msgstr "Distance maximale pour graver (mm/pouce) :"
 
 #: ../share/extensions/gcodetools_engraving.inx.h:4
 msgid "Accuracy factor (2 low to 10 high):"
@@ -32199,14 +32241,12 @@ msgid "Graffiti"
 msgstr "Graffiti"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:2
-#, fuzzy
 msgid "Maximum segment length:"
-msgstr "Longueur maximum de segment (px) :"
+msgstr "Longueur maximale de segment :"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:3
-#, fuzzy
 msgid "Minimal connector radius:"
-msgstr "Rayon d'arc minimum :"
+msgstr "Rayon de connecteur minimum :"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:4
 msgid "Start position (x;y):"
@@ -32235,9 +32275,8 @@ msgstr "Type d'orientation :"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:11
 #: ../share/extensions/gcodetools_orientation_points.inx.h:4
-#, fuzzy
 msgid "Z surface:"
-msgstr "Ordonner les côtés sur l'axe Z par :"
+msgstr "Surface Z :"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:12
 #: ../share/extensions/gcodetools_orientation_points.inx.h:5
@@ -32261,9 +32300,8 @@ msgstr "Points graffiti"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:17
 #: ../share/extensions/gcodetools_orientation_points.inx.h:10
-#, fuzzy
 msgid "in-out reference point"
-msgstr "Préférences des dégradés"
+msgstr "Point de référence d'entrée-sortie"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:20
 #: ../share/extensions/gcodetools_orientation_points.inx.h:13
@@ -32395,7 +32433,7 @@ msgstr "Tangente"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:16
 msgid "-------------------------------------------------"
-msgstr ""
+msgstr "-------------------------------------------------"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:1
 msgid "Tools library"
@@ -32418,9 +32456,8 @@ msgid "cone"
 msgstr "cône"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:6
-#, fuzzy
 msgid "plasma"
-msgstr "_Splash"
+msgstr "plasma"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:7
 msgid "tangent knife"
@@ -32500,12 +32537,10 @@ msgid "Save Background"
 msgstr "Exporter le fond"
 
 #: ../share/extensions/gimp_xcf.inx.h:6
-#, fuzzy
 msgid "File Resolution:"
-msgstr "Résolution :"
+msgstr "Résolution du fichier :"
 
 #: ../share/extensions/gimp_xcf.inx.h:8
-#, fuzzy
 msgid ""
 "This extension exports the document to Gimp XCF format according to the "
 "following options:\n"
@@ -32526,6 +32561,7 @@ msgstr ""
 "grille Gimp (notez que la grille par défaut d'Inkscape est particulièrement "
 "étroite lorsque visualisée dans Gimp).\n"
 "  * Exporter le fond : ajoute le fond du document à chaque calque converti.\n"
+"  * Résolution du fichier : résolution du fichier XCF en DPI.\n"
 "\n"
 "Chaque calque de premier niveau est converti en calque Gimp. Les sous-"
 "calques sont concaténés et converti avec le calque de premier niveau "
@@ -32753,14 +32789,12 @@ msgid "Guides creator"
 msgstr "Générateur de guides"
 
 #: ../share/extensions/guides_creator.inx.h:2
-#, fuzzy
 msgid "Regular guides"
-msgstr "Grille rectangulaire"
+msgstr "Guides ordinaires"
 
 #: ../share/extensions/guides_creator.inx.h:3
-#, fuzzy
 msgid "Guides preset:"
-msgstr "Générateur de guides"
+msgstr "Guides prédéfinis :"
 
 #: ../share/extensions/guides_creator.inx.h:6
 msgid "Start from edges"
@@ -32783,68 +32817,56 @@ msgid "Rule-of-third"
 msgstr "Règle des tiers"
 
 #: ../share/extensions/guides_creator.inx.h:11
-#, fuzzy
 msgid "Diagonal guides"
-msgstr "Aimanter aux guides"
+msgstr "Guides diagonaux"
 
 #: ../share/extensions/guides_creator.inx.h:12
-#, fuzzy
 msgid "Upper left corner"
-msgstr "coin de page"
+msgstr "coin supérieur gauche"
 
 #: ../share/extensions/guides_creator.inx.h:13
-#, fuzzy
 msgid "Upper right corner"
-msgstr "coin de page"
+msgstr "coin supérieur droit"
 
 #: ../share/extensions/guides_creator.inx.h:14
-#, fuzzy
 msgid "Lower left corner"
-msgstr "Descendre le calque courant"
+msgstr "coin inférieur gauche"
 
 #: ../share/extensions/guides_creator.inx.h:15
-#, fuzzy
 msgid "Lower right corner"
-msgstr "Descendre le calque courant"
+msgstr "coin inférieur droit"
 
 #: ../share/extensions/guides_creator.inx.h:16
 msgid "Margins"
 msgstr "Marges"
 
 #: ../share/extensions/guides_creator.inx.h:17
-#, fuzzy
 msgid "Margins preset:"
-msgstr "Guide de marge"
+msgstr "Marges prédéfinies :"
 
 #: ../share/extensions/guides_creator.inx.h:18
-#, fuzzy
 msgid "Header margin:"
-msgstr "Marge de l'en-tête"
+msgstr "Marge de l'en-tête :"
 
 #: ../share/extensions/guides_creator.inx.h:19
-#, fuzzy
 msgid "Footer margin:"
-msgstr "Marge du pied de page"
+msgstr "Marge du pied de page :"
 
 #: ../share/extensions/guides_creator.inx.h:20
-#, fuzzy
 msgid "Left margin:"
-msgstr "Marge gauche"
+msgstr "Marge gauche :"
 
 #: ../share/extensions/guides_creator.inx.h:21
-#, fuzzy
 msgid "Right margin:"
-msgstr "Marge droite"
+msgstr "Marge droite :"
 
 #: ../share/extensions/guides_creator.inx.h:22
-#, fuzzy
 msgid "Left book page"
-msgstr "Rotation à gauche :"
+msgstr "Page de gauche"
 
 #: ../share/extensions/guides_creator.inx.h:23
-#, fuzzy
 msgid "Right book page"
-msgstr "Angle droit :"
+msgstr "Page de droite"
 
 #: ../share/extensions/guides_creator.inx.h:24
 msgctxt "Margin"
@@ -33094,9 +33116,8 @@ msgid "HP Graphics Language file (*.hpgl)"
 msgstr "Fichier HP Graphics Language (*.hpgl)"
 
 #: ../share/extensions/hpgl_input.inx.h:10
-#, fuzzy
 msgid "Import an HP Graphics Language file"
-msgstr "Exporter vers un fichier HP Graphics Language"
+msgstr "Importer un fichier HP Graphics Language"
 
 #: ../share/extensions/hpgl_output.inx.h:1
 msgid "HPGL Output"
@@ -34281,10 +34302,9 @@ msgid "Area"
 msgstr "Aire"
 
 #: ../share/extensions/measure.inx.h:13
-#, fuzzy
 msgctxt "measure extension"
 msgid "Center of Mass"
-msgstr "Inertie du stylo"
+msgstr "Barycentre"
 
 #: ../share/extensions/measure.inx.h:14
 msgctxt "measure extension"
