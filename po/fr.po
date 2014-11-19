@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-11-15 10:03+0100\n"
-"PO-Revision-Date: 2014-11-15 11:00+0100\n"
+"PO-Revision-Date: 2014-11-19 14:32+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "Language: fr_FR\n"
@@ -1734,9 +1734,8 @@ msgid "Cross Noise Poster B"
 msgstr "Poster de bruit croisé B"
 
 #: ../share/filters/filters.svg.h:672
-#, fuzzy
 msgid "Adds a small scale screen like noise locally"
-msgstr "Ajoute à l'image un grain de photo"
+msgstr "Ajoute une petite zone de bruit localement"
 
 #: ../share/filters/filters.svg.h:674
 msgid "Poster Color Fun"
@@ -1775,18 +1774,16 @@ msgid "Cross Noise B"
 msgstr "Bruit croisé B"
 
 #: ../share/filters/filters.svg.h:696
-#, fuzzy
 msgid "Adds a small scale crossy graininess"
-msgstr "Ajoute à l'image un grain de photo"
+msgstr "Ajoute une petite zone de grain croisé"
 
 #: ../share/filters/filters.svg.h:698
 msgid "Cross Noise"
 msgstr "Bruit croisé"
 
 #: ../share/filters/filters.svg.h:700
-#, fuzzy
 msgid "Adds a small scale screen like graininess"
-msgstr "Ajoute à l'image un grain de photo"
+msgstr "Ajoute une petite zone de grain "
 
 #: ../share/filters/filters.svg.h:702
 msgid "Duotone Turbulent"
@@ -2013,9 +2010,8 @@ msgid "Colorize separately the three color channels"
 msgstr "Coloration indépendante des trois canaux de couleur"
 
 #: ../share/filters/filters.svg.h:822
-#, fuzzy
 msgid "Posterized Light Eraser"
-msgstr "Gomme lumière"
+msgstr "Gomme lumière postérisée"
 
 #: ../share/filters/filters.svg.h:824
 msgid "Create a semi transparent posterized image"
@@ -4773,9 +4769,8 @@ msgid "Empty typography canvas with helping guidelines."
 msgstr "Canevas typographique vide avec guides d'aide."
 
 #: ../share/templates/templates.h:1
-#, fuzzy
 msgid "guidelines typography canvas"
-msgstr "1 - Paramétrer le canevas typographique"
+msgstr "guides typographie canevas"
 
 #. 3D box
 #: ../src/box3d.cpp:260 ../src/box3d.cpp:1313
@@ -5208,9 +5203,9 @@ msgid "New document %d"
 msgstr "Nouveau document %d"
 
 #: ../src/document.cpp:546
-#, fuzzy, c-format
+#, c-format
 msgid "Memory document %d"
-msgstr "Document d'information %1"
+msgstr "Document en mémoire %d"
 
 #: ../src/document.cpp:575
 msgid "Memory document %1"
@@ -8839,24 +8834,20 @@ msgid "Destination"
 msgstr "Destination"
 
 #: ../src/filter-enums.cpp:97
-#, fuzzy
 msgid "Destination Over"
-msgstr "Destination"
+msgstr "Destination Over"
 
 #: ../src/filter-enums.cpp:98
-#, fuzzy
 msgid "Destination In"
-msgstr "Destination"
+msgstr "Destination In"
 
 #: ../src/filter-enums.cpp:99
-#, fuzzy
 msgid "Destination Out"
-msgstr "Destination"
+msgstr "Destination Out"
 
 #: ../src/filter-enums.cpp:100
-#, fuzzy
 msgid "Destination Atop"
-msgstr "Destination"
+msgstr "Destination Atop"
 
 #: ../src/filter-enums.cpp:101
 msgid "Lighter"
@@ -10471,9 +10462,8 @@ msgid "Join:"
 msgstr "Raccord :"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:237
-#, fuzzy
 msgid "Determines the shape of the path's corners"
-msgstr "Définit la forme de la fin du chemin"
+msgstr "Définit la forme des coins du chemin"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:238
 msgid "Miter limit:"
@@ -12444,7 +12434,6 @@ msgid "Convert symbol to group to edit"
 msgstr "Convertir un symbole en groupe à éditer"
 
 #: ../src/selection-describer.cpp:191
-#, fuzzy
 msgid "Remove from symbols tray to edit symbol"
 msgstr "Supprimer le symbole de la liste pour l'éditer"
 
@@ -12878,9 +12867,8 @@ msgid "Symbol"
 msgstr "Symbole"
 
 #: ../src/sp-use.cpp:230
-#, fuzzy
 msgid "Clone"
-msgstr "Cloner"
+msgstr "Clone"
 
 #: ../src/sp-use.cpp:237 ../src/sp-use.cpp:239
 #, c-format
@@ -12898,9 +12886,9 @@ msgid "..."
 msgstr "..."
 
 #: ../src/sp-use.cpp:257
-#, fuzzy, c-format
+#, c-format
 msgid "of: %s"
-msgstr "Erreur : %s"
+msgstr "de : %s"
 
 #: ../src/splivarot.cpp:70 ../src/splivarot.cpp:76
 msgid "Union"
@@ -13114,18 +13102,16 @@ msgid "You cannot edit <b>cloned character data</b>."
 msgstr "Vous ne pouvez pas modifier des <b>données de caractères clonés</b>."
 
 #: ../src/tools-switch.cpp:91
-#, fuzzy
 msgid ""
 "<b>Click</b> to Select and Transform objects, <b>Drag</b> to select many "
 "objects."
 msgstr ""
-"<b>Cliquer</b> pour sélectionner des nœuds, <b>cliquer-déplacer</b> pour les "
-"déplacer."
+"<b>Cliquer</b> pour sélectionner et transformer des objets, <b>cliquer-"
+"déplacer</b> pour sélectionner plusieurs objets."
 
 #: ../src/tools-switch.cpp:92
-#, fuzzy
 msgid "Modify selected path points (nodes) directly."
-msgstr "Simplifier les chemins sélectionnés (supprimer des nœuds superflus)"
+msgstr "Modifier les points du chemin (nœuds) sélectionnés directement."
 
 #: ../src/tools-switch.cpp:93
 msgid "To tweak a path by pushing, select it and drag over it."
@@ -22723,31 +22709,33 @@ msgstr "Sélectionner un outil de construction dans la barre d'outils"
 
 #. TRANSLATORS: Mind the space in front. This is part of a compound message
 #: ../src/ui/tools/mesh-tool.cpp:132 ../src/ui/tools/mesh-tool.cpp:143
-#, fuzzy, c-format
+#, c-format
 msgid " out of %d mesh handle"
 msgid_plural " out of %d mesh handles"
-msgstr[0] " sur %d poignée de dégradé"
-msgstr[1] " sur %d poignées de dégradé"
+msgstr[0] " sur %d poignée de filet"
+msgstr[1] " sur %d poignées de filet"
 
 #: ../src/ui/tools/mesh-tool.cpp:150
-#, fuzzy, c-format
+#, c-format
 msgid "<b>%d</b> mesh handle selected out of %d"
 msgid_plural "<b>%d</b> mesh handles selected out of %d"
-msgstr[0] "<b>%d</b> poignée de dégradé sélectionnée sur %d"
-msgstr[1] "<b>%d</b> poignées de dégradé sélectionnées sur %d"
+msgstr[0] "<b>%d</b> poignée de filet sélectionnée sur %d"
+msgstr[1] "<b>%d</b> poignées de filet sélectionnées sur %d"
 
 #. TRANSLATORS: The plural refers to number of selected objects
 #: ../src/ui/tools/mesh-tool.cpp:157
-#, fuzzy, c-format
+#, c-format
 msgid "<b>No</b> mesh handles selected out of %d on %d selected object"
 msgid_plural "<b>No</b> mesh handles selected out of %d on %d selected objects"
-msgstr[0] "<b>Aucune</b> poignée sélectionnée sur %d dans %d objet sélectionné"
+msgstr[0] ""
+"<b>Aucune</b> poignée de filet sélectionnée sur %d dans %d objet sélectionné"
 msgstr[1] ""
-"<b>Aucune</b> poignée sélectionnée sur %d dans %d objets sélectionnés"
+"<b>Aucune</b> poignée de filet sélectionnée sur %d dans %d objets "
+"sélectionnés"
 
 #: ../src/ui/tools/mesh-tool.cpp:321
 msgid "Split mesh row/column"
-msgstr ""
+msgstr "Inverser les lignes et colonnes du filet"
 
 #: ../src/ui/tools/mesh-tool.cpp:407
 msgid "Toggled mesh path type."
@@ -22762,29 +22750,24 @@ msgid "Toggled mesh tensors."
 msgstr ""
 
 #: ../src/ui/tools/mesh-tool.cpp:419
-#, fuzzy
 msgid "Smoothed mesh corner color."
-msgstr "_Adoucir les coins"
+msgstr "Couleur de coin de filet adoucie."
 
 #: ../src/ui/tools/mesh-tool.cpp:423
-#, fuzzy
 msgid "Picked mesh corner color."
-msgstr "Capturer la teinte de la couleur"
+msgstr "Couleur de coin de filet choisie."
 
 #: ../src/ui/tools/mesh-tool.cpp:498
-#, fuzzy
 msgid "Create default mesh"
-msgstr "Créer un dégradé par défaut"
+msgstr "Créer un filet par défaut"
 
 #: ../src/ui/tools/mesh-tool.cpp:718
-#, fuzzy
 msgid "FIXME<b>Ctrl</b>: snap mesh angle"
-msgstr "<b>Ctrl</b> : pour tourner par incréments"
+msgstr "<b>Ctrl</b> : aimanter au angles du filet"
 
 #: ../src/ui/tools/mesh-tool.cpp:719
-#, fuzzy
 msgid "FIXME<b>Shift</b>: draw mesh around the starting point"
-msgstr "<b>Maj</b> : dessiner autour du point de départ"
+msgstr "<b>Maj</b> : dessiner le filet autour du point de départ"
 
 #: ../src/ui/tools/node-tool.cpp:594
 msgctxt "Node tool tip"
@@ -23325,9 +23308,8 @@ msgid "Type text"
 msgstr "Taper du texte"
 
 #: ../src/ui/tools/tool-base.cpp:704
-#, fuzzy
 msgid "<b>Space+mouse move</b> to pan canvas"
-msgstr "<b>Espace+déplacer avec la souris</b> pour bouger la zone de travail"
+msgstr "<b>Espace+déplacer avec la souris</b> pour déplacer la zone de travail"
 
 #: ../src/ui/tools/tweak-tool.cpp:174
 #, c-format
@@ -25557,7 +25539,7 @@ msgstr "Créer et éditer des dégradés"
 #: ../src/verbs.cpp:2674
 msgctxt "ContextVerb"
 msgid "Mesh"
-msgstr ""
+msgstr "Filet"
 
 #: ../src/verbs.cpp:2675
 msgid "Create and edit meshes"
@@ -27609,9 +27591,8 @@ msgid "normal"
 msgstr "normal"
 
 #: ../src/widgets/mesh-toolbar.cpp:204
-#, fuzzy
 msgid "Create mesh gradient"
-msgstr "Créer un dégradé linéaire"
+msgstr "Créer un dégradé filet"
 
 #: ../src/widgets/mesh-toolbar.cpp:208
 msgid "conical"
@@ -27632,9 +27613,8 @@ msgid "Rows:"
 msgstr "Lignes :"
 
 #: ../src/widgets/mesh-toolbar.cpp:263
-#, fuzzy
 msgid "Number of rows in new mesh"
-msgstr "Nombre de lignes"
+msgstr "Nombre de lignes dans le nouveau filet"
 
 #: ../src/widgets/mesh-toolbar.cpp:279
 msgid "Columns"
@@ -27646,27 +27626,24 @@ msgid "Columns:"
 msgstr "Colonnes :"
 
 #: ../src/widgets/mesh-toolbar.cpp:279
-#, fuzzy
 msgid "Number of columns in new mesh"
-msgstr "Nombre de colonnes"
+msgstr "Nombre de colonnes dans le nouveau filet"
 
 #: ../src/widgets/mesh-toolbar.cpp:293
 msgid "Edit Fill"
 msgstr "Éditer le remplissage"
 
 #: ../src/widgets/mesh-toolbar.cpp:294
-#, fuzzy
 msgid "Edit fill mesh"
-msgstr "Éditer le remplissage"
+msgstr "Éditer le remplissage du filet"
 
 #: ../src/widgets/mesh-toolbar.cpp:305
 msgid "Edit Stroke"
 msgstr "Éditer le contour"
 
 #: ../src/widgets/mesh-toolbar.cpp:306
-#, fuzzy
 msgid "Edit stroke mesh"
-msgstr "Éditer le contour..."
+msgstr "Éditer le contour du filet"
 
 #: ../src/widgets/mesh-toolbar.cpp:317 ../src/widgets/node-toolbar.cpp:521
 msgid "Show Handles"
@@ -28172,9 +28149,8 @@ msgid "Lower limit of ruler"
 msgstr "Limite inférieure de la règle"
 
 #: ../src/widgets/ruler.cpp:219
-#, fuzzy
 msgid "Upper"
-msgstr "Pipette"
+msgstr "Supérieur"
 
 #: ../src/widgets/ruler.cpp:220
 msgid "Upper limit of ruler"
@@ -28185,9 +28161,8 @@ msgid "Position of mark on the ruler"
 msgstr "Emplacement des graduations sur la règle"
 
 #: ../src/widgets/ruler.cpp:239
-#, fuzzy
 msgid "Max Size"
-msgstr "Dimensions"
+msgstr "Dimension maximale"
 
 #: ../src/widgets/ruler.cpp:240
 msgid "Maximum size of the ruler"
@@ -29785,9 +29760,8 @@ msgstr ""
 "disponibles."
 
 #: ../share/extensions/gcodetools.py:3324
-#, fuzzy
 msgid "Nothing is selected. Please select something."
-msgstr "Rien n'est sélectionné. Merci de sélectionner quelque chose."
+msgstr "Rien n'est sélectionné. Veuillez de sélectionner quelque chose."
 
 #: ../share/extensions/gcodetools.py:3864
 msgid ""
@@ -29916,7 +29890,8 @@ msgstr ""
 msgid ""
 "Nothing is selected. Please select something to convert to drill point "
 "(dxfpoint) or clear point sign."
-msgstr "Rien n'est sélectionné. Merci de sélectionner quelque chose."
+msgstr ""
+"Rien n'est sélectionné. Veuillez sélectionner quelque chose à convertir en "
 
 #: ../share/extensions/gcodetools.py:4750
 #: ../share/extensions/gcodetools.py:4996
@@ -30106,18 +30081,14 @@ msgstr ""
 "%s"
 
 #: ../share/extensions/inkex.py:162
-#, fuzzy, python-format
+#, python-format
 msgid "Unable to open specified file: %s"
-msgstr ""
-"Échec de l'écriture dans le fichier spécifié.\n"
-"%s"
+msgstr "Échec à l'ouverture du fichier spécifié : %s"
 
 #: ../share/extensions/inkex.py:171
-#, fuzzy, python-format
+#, python-format
 msgid "Unable to open object member file: %s"
-msgstr ""
-"Échec de l'écriture dans le fichier spécifié.\n"
-"%s"
+msgstr "Échec à l'ouverture du fichier objet membre : %s"
 
 #: ../share/extensions/inkex.py:276
 #, python-format
@@ -30328,16 +30299,15 @@ msgid "unable to locate marker: %s"
 msgstr "Impossible de localiser le marqueur %s"
 
 #: ../share/extensions/measure.py:50
-#, fuzzy
 msgid ""
 "Failed to import the numpy modules. These modules are required by this "
 "extension. Please install them and try again.  On a Debian-like system this "
 "can be done with the command, sudo apt-get install python-numpy."
 msgstr ""
-"Échec lors de l'import des modules numpy.linalg. Ces modules sont "
-"nécessaires à cette extension. Veuillez les installer et réessayer. Sur un "
-"système de type Debian, cette installation peut être réalisée avec la "
-"commande : sudo apt-get install python-numpy."
+"Échec lors de l'importation des modules numpy. Ces modules sont nécessaires "
+"à cette extension. Veuillez les installer et réessayer. Sur un système de "
+"type Debian, cette installation peut être réalisée avec la commande : sudo "
+"apt-get install python-numpy."
 
 #: ../share/extensions/measure.py:112
 msgid "Area is zero, cannot calculate Center of Mass"
@@ -31426,9 +31396,8 @@ msgid "All (default)"
 msgstr "Tout (défaut)"
 
 #: ../share/extensions/dxf_outlines.inx.h:22
-#, fuzzy
 msgid "Visible only"
-msgstr "Couleurs visibles"
+msgstr "Visible seulement"
 
 #: ../share/extensions/dxf_outlines.inx.h:23
 msgid "By name match"
@@ -32155,7 +32124,7 @@ msgstr ""
 #: ../share/extensions/gcodetools_lathe.inx.h:44
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:33
 msgid "Round all values to 4 digits"
-msgstr ""
+msgstr "Arrondir toutes les valeurs à 4 chiffres"
 
 #: ../share/extensions/gcodetools_area.inx.h:52
 #: ../share/extensions/gcodetools_dxf_points.inx.h:24
@@ -32164,7 +32133,7 @@ msgstr ""
 #: ../share/extensions/gcodetools_lathe.inx.h:45
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:34
 msgid "Fast pre-penetrate"
-msgstr ""
+msgstr "Pré-pénétration rapide"
 
 #: ../share/extensions/gcodetools_check_for_updates.inx.h:1
 msgid "Check for updates"
@@ -32286,12 +32255,12 @@ msgstr "Profondeur sur l'axe Z :"
 #: ../share/extensions/gcodetools_graffiti.inx.h:14
 #: ../share/extensions/gcodetools_orientation_points.inx.h:7
 msgid "2-points mode (move and rotate, maintained aspect ratio X/Y)"
-msgstr ""
+msgstr "Mode 2 points (déplacement et rotation, rapport X/Y maintenu)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:15
 #: ../share/extensions/gcodetools_orientation_points.inx.h:8
 msgid "3-points mode (move, rotate and mirror, different X/Y scale)"
-msgstr ""
+msgstr "Mode 3 points (déplacement, rotation et miroir, rapport X/Y différent)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:16
 #: ../share/extensions/gcodetools_orientation_points.inx.h:9
@@ -32315,6 +32284,16 @@ msgid ""
 "the group or by Ctrl+Click. Now press apply to create control points "
 "(independent set for each layer)."
 msgstr ""
+"Les points d'orientation sont utilisés pour calculer la transformation "
+"(décalage, échelle, miroir, rotation dans le plan XY) du chemin. En mode 3 "
+"points seulement : ne pas disposer les trois points sur une ligne (utilisez "
+"alors le mode 2 points). Vous pouvez modifier les valeurs de surface et de "
+"profondeur sur l'axe Z plus tard avec l'outil texte (3e coordonnée). En "
+"l'absence de points d'orientation dans le calque courant, ils sont récupérés "
+"dans le calque supérieur. Ne dégroupez pas les points d'orientation. Vous "
+"pouvez les sélectionner en double-cliquant pour rentrer dans le groupe, ou "
+"avec la combinaison Ctrl+clic. Appuyez sur Appliquer pour créer des points "
+"de contrôles (un ensemble indépendant pour chaque calque)."
 
 #: ../share/extensions/gcodetools_lathe.inx.h:1
 msgid "Lathe"
@@ -32325,19 +32304,16 @@ msgid "Lathe width:"
 msgstr "Largeur du tour :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:3
-#, fuzzy
 msgid "Fine cut width:"
-msgstr "Largeur de recouvrement :"
+msgstr "Largeur du découpage fin :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:4
-#, fuzzy
 msgid "Fine cut count:"
-msgstr "Rechercher cette police :"
+msgstr "Comptage du découpage fin :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:5
-#, fuzzy
 msgid "Create fine cut using:"
-msgstr "Créer de nouveaux objets avec :"
+msgstr "Créer un découpage fin avec :"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:6
 msgid "Lathe X axis remap:"
@@ -32381,26 +32357,26 @@ msgid "Prepare path for plasma or laser cuters"
 msgstr "Préparer le chemin pour plasma ou découpe laser"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:3
-#, fuzzy
 msgid "Create in-out paths"
-msgstr "Créer un chemin spirographique"
+msgstr "Créer un chemin d'entrée-sortie"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:4
-#, fuzzy
 msgid "In-out path length:"
-msgstr "Longueur du chemin"
+msgstr "Longueur du chemin d'entrée-sortie :"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:5
 msgid "In-out path max distance to reference point:"
 msgstr ""
+"Distance maximale du chemin d'entrée-sortie par rapport au point de "
+"référence :"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:6
 msgid "In-out path type:"
-msgstr ""
+msgstr "Type de chemin d'entrée-sortie :"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:7
 msgid "In-out path radius for round path:"
-msgstr ""
+msgstr "Rayon du chemin d'entrée-sortie pour un chemin courbe :"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:8
 msgid "Replace original path"
@@ -32408,7 +32384,7 @@ msgstr "Remplacer le chemin original"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:9
 msgid "Do not add in-out reference points"
-msgstr ""
+msgstr "Ne pas ajouter de points de référence d'entrée-sortie"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:10
 msgid "Prepare corners"
@@ -34274,7 +34250,7 @@ msgstr "Orientation du texte :"
 
 #: ../share/extensions/measure.inx.h:5
 msgid "Angle [with Fixed Angle option only] (°):"
-msgstr ""
+msgstr "Angle [avec l'option Angle fixe seulement] (°) :"
 
 #: ../share/extensions/measure.inx.h:6
 msgid "Font size (px):"
@@ -34361,6 +34337,10 @@ msgid ""
 "inline style attributes. Please use a name which best describes the kinds of "
 "objects and their common context for best effect."
 msgstr ""
+"Tous les nœuds sélectionnés seront groupés et leurs attributs de style "
+"communs seront remplacés par une nouvelle classe de styles. Veuillez "
+"utiliser un nom décrivant au mieux le type d'objets et leur contexte pour un "
+"meilleur effet."
 
 #: ../share/extensions/merge_styles.inx.h:3
 msgid "New Class Name:"
@@ -34754,6 +34734,9 @@ msgid ""
 "(depending on your plotter model), set to 0 to omit command. Most plotters "
 "ignore this command. (Default: 0)"
 msgstr ""
+"La vitesse du stylo est exprimée en cm/s ou en mm/s en fonction du modèle de "
+"traceur. La plupart des traceurs ignorent cette commande (Défaut à 0 pour "
+"ignorer la commande)."
 
 #: ../share/extensions/plotter.inx.h:33
 msgid "Rotation (°, clockwise):"
