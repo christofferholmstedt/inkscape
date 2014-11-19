@@ -12,15 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-21 08:38+0200\n"
-"PO-Revision-Date: 2009-10-13 23:42+0100\n"
-"Last-Translator: Jesper Öqvist <jesper@llbit.se>\n"
-"Language-Team: Svenska <sv@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-11-19 19:30+0100\n"
+"PO-Revision-Date: 2014-11-19 19:44+0100\n"
+"Last-Translator: Christoffer Holmstedt <christoffer.holmstedt@gmail.com>\n"
+"Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../inkscape.desktop.in.h:1
 #, fuzzy
@@ -1763,7 +1764,6 @@ msgstr ""
 
 #: ../share/filters/filters.svg.h:634
 #: ../src/extension/internal/bitmap/swirl.cpp:37
-#, fuzzy
 msgid "Swirl"
 msgstr "Virvla"
 
@@ -2342,307 +2342,307 @@ msgstr "Vit"
 #: ../share/palettes/palettes.h:16
 msgctxt "Palette"
 msgid "Maroon (#800000)"
-msgstr ""
+msgstr "Rödbrun (#800000)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:17
 msgctxt "Palette"
 msgid "Red (#FF0000)"
-msgstr ""
+msgstr "Röd (#FF0000)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:18
 msgctxt "Palette"
 msgid "Olive (#808000)"
-msgstr ""
+msgstr "Olivgrön (#808000)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:19
 msgctxt "Palette"
 msgid "Yellow (#FFFF00)"
-msgstr ""
+msgstr "Gul (#FFFF00)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:20
 msgctxt "Palette"
 msgid "Green (#008000)"
-msgstr ""
+msgstr "Grön"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:21
 msgctxt "Palette"
 msgid "Lime (#00FF00)"
-msgstr ""
+msgstr "Limegrön (#00FF00)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:22
 msgctxt "Palette"
 msgid "Teal (#008080)"
-msgstr ""
+msgstr "Blågrön (#008080)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:23
 msgctxt "Palette"
 msgid "Aqua (#00FFFF)"
-msgstr ""
+msgstr "Akvablå (#00FFFF)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:24
 msgctxt "Palette"
 msgid "Navy (#000080)"
-msgstr ""
+msgstr "Marinblå (#000080)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:25
 msgctxt "Palette"
 msgid "Blue (#0000FF)"
-msgstr ""
+msgstr "Blå (#0000FF)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:26
 msgctxt "Palette"
 msgid "Purple (#800080)"
-msgstr ""
+msgstr "Lila (#800080)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:27
 msgctxt "Palette"
 msgid "Fuchsia (#FF00FF)"
-msgstr ""
+msgstr "Rosa (#FF00FF)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:28
 msgctxt "Palette"
 msgid "black (#000000)"
-msgstr ""
+msgstr "Svart (#000000)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:29
 msgctxt "Palette"
 msgid "dimgray (#696969)"
-msgstr ""
+msgstr "Dimgrå (#696969)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:30
 msgctxt "Palette"
 msgid "gray (#808080)"
-msgstr ""
+msgstr "Grå (#808080)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:31
 msgctxt "Palette"
 msgid "darkgray (#A9A9A9)"
-msgstr ""
+msgstr "Mörkgrå (#A9A9A9)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:32
 msgctxt "Palette"
 msgid "silver (#C0C0C0)"
-msgstr ""
+msgstr "Silver (#C0C0C0)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:33
 msgctxt "Palette"
 msgid "lightgray (#D3D3D3)"
-msgstr ""
+msgstr "Ljusgrå (#D3D3D3)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:34
 msgctxt "Palette"
 msgid "gainsboro (#DCDCDC)"
-msgstr ""
+msgstr "Gainsboro (#DCDCDC)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:35
 msgctxt "Palette"
 msgid "whitesmoke (#F5F5F5)"
-msgstr ""
+msgstr "Rökvit (#F5F5F5)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:36
 msgctxt "Palette"
 msgid "white (#FFFFFF)"
-msgstr ""
+msgstr "Vit (#FFFFFF)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:37
 msgctxt "Palette"
 msgid "rosybrown (#BC8F8F)"
-msgstr ""
+msgstr "Brunrosa (#BC8F8F)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:38
 msgctxt "Palette"
 msgid "indianred (#CD5C5C)"
-msgstr ""
+msgstr "Indiskt röd (#CD5C5C)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:39
 msgctxt "Palette"
 msgid "brown (#A52A2A)"
-msgstr ""
+msgstr "Brun (#A52A2A)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:40
 msgctxt "Palette"
 msgid "firebrick (#B22222)"
-msgstr ""
+msgstr "Tegelstensbrun (#B22222)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:41
 msgctxt "Palette"
 msgid "lightcoral (#F08080)"
-msgstr ""
+msgstr "Ljus korallfärg (#F08080)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:42
 msgctxt "Palette"
 msgid "maroon (#800000)"
-msgstr ""
+msgstr "Rödbrun (#800000)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:43
 msgctxt "Palette"
 msgid "darkred (#8B0000)"
-msgstr ""
+msgstr "Mörkröd (#8B0000)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:44
 msgctxt "Palette"
 msgid "red (#FF0000)"
-msgstr ""
+msgstr "Röd (#FF0000)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:45
 msgctxt "Palette"
 msgid "snow (#FFFAFA)"
-msgstr ""
+msgstr "Snövit (#FFFAFA)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:46
 msgctxt "Palette"
 msgid "mistyrose (#FFE4E1)"
-msgstr ""
+msgstr "Dimrosa (#FFE4E1)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:47
 msgctxt "Palette"
 msgid "salmon (#FA8072)"
-msgstr ""
+msgstr "Laxrosa (#FA8072)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:48
 msgctxt "Palette"
 msgid "tomato (#FF6347)"
-msgstr ""
+msgstr "Tomatröd (#FF6347)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:49
 msgctxt "Palette"
 msgid "darksalmon (#E9967A)"
-msgstr ""
+msgstr "Mörk laxrosa (#E9967A)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:50
 msgctxt "Palette"
 msgid "coral (#FF7F50)"
-msgstr ""
+msgstr "Korallfärg (#FF7F50)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:51
 msgctxt "Palette"
 msgid "orangered (#FF4500)"
-msgstr ""
+msgstr "Orangeröd (#FF4500)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:52
 msgctxt "Palette"
 msgid "lightsalmon (#FFA07A)"
-msgstr ""
+msgstr "Ljus laxrosa (#FFA07A)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:53
 msgctxt "Palette"
 msgid "sienna (#A0522D)"
-msgstr ""
+msgstr "Organgebrun (#A0522D)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:54
 msgctxt "Palette"
 msgid "seashell (#FFF5EE)"
-msgstr ""
+msgstr "Snäckskalvit (#FFF5EE)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:55
 msgctxt "Palette"
 msgid "chocolate (#D2691E)"
-msgstr ""
+msgstr "Chokladbrun (#D2691E)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:56
 msgctxt "Palette"
 msgid "saddlebrown (#8B4513)"
-msgstr ""
+msgstr "Sadelbrun (#8B4513)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:57
 msgctxt "Palette"
 msgid "sandybrown (#F4A460)"
-msgstr ""
+msgstr "Sandbrun (#F4A460)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:58
 msgctxt "Palette"
 msgid "peachpuff (#FFDAB9)"
-msgstr ""
+msgstr "Peachpuff-rosa (#FFDAB9)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:59
 msgctxt "Palette"
 msgid "peru (#CD853F)"
-msgstr ""
+msgstr "Peru-brun"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:60
 msgctxt "Palette"
 msgid "linen (#FAF0E6)"
-msgstr ""
+msgstr "Linne vit (#FAF0E6)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:61
 msgctxt "Palette"
 msgid "bisque (#FFE4C4)"
-msgstr ""
+msgstr "Biskvi (#FFE4C4)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:62
 msgctxt "Palette"
 msgid "darkorange (#FF8C00)"
-msgstr ""
+msgstr "Mörkorange (#FF8C00)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:63
 msgctxt "Palette"
 msgid "burlywood (#DEB887)"
-msgstr ""
+msgstr "Sandbrun (#DEB887)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:64
 msgctxt "Palette"
 msgid "tan (#D2B48C)"
-msgstr ""
+msgstr "Ljusbrun (#D2B48C)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:65
 msgctxt "Palette"
 msgid "antiquewhite (#FAEBD7)"
-msgstr ""
+msgstr "Antikvit (#FAEBD7)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:66
 msgctxt "Palette"
 msgid "navajowhite (#FFDEAD)"
-msgstr ""
+msgstr "Orangevit (#FFDEAD)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:67
@@ -3605,7 +3605,7 @@ msgstr "Gammal färg (bitmap)"
 #: ../share/symbols/symbols.h:2
 msgctxt "Symbol"
 msgid "AIGA Symbol Signs"
-msgstr ""
+msgstr "American Institute of Graphic Arts symboler"
 
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
@@ -3613,13 +3613,13 @@ msgstr ""
 #: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
 msgctxt "Symbol"
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:5 ../share/symbols/symbols.h:6
 msgctxt "Symbol"
 msgid "Mail"
-msgstr ""
+msgstr "Post"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:7 ../share/symbols/symbols.h:8
@@ -3632,13 +3632,13 @@ msgstr "Aktuellt lager:"
 #: ../share/symbols/symbols.h:9 ../share/symbols/symbols.h:10
 msgctxt "Symbol"
 msgid "Currency Exchange - Euro"
-msgstr ""
+msgstr "Växlingskontor - Euro"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:11 ../share/symbols/symbols.h:12
 msgctxt "Symbol"
 msgid "Cashier"
-msgstr ""
+msgstr "Kassa"
 
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
@@ -3660,49 +3660,49 @@ msgstr "Icke rundad"
 #: ../share/symbols/symbols.h:17 ../share/symbols/symbols.h:18
 msgctxt "Symbol"
 msgid "Coat Check"
-msgstr ""
+msgstr "Garderob"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:19 ../share/symbols/symbols.h:20
 msgctxt "Symbol"
 msgid "Baggage Lockers"
-msgstr ""
+msgstr "Förvaringsboxar"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:21 ../share/symbols/symbols.h:22
 msgctxt "Symbol"
 msgid "Escalator"
-msgstr ""
+msgstr "Rulltrappa"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:23 ../share/symbols/symbols.h:24
 msgctxt "Symbol"
 msgid "Escalator Down"
-msgstr ""
+msgstr "Rulltrappa ned"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:25 ../share/symbols/symbols.h:26
 msgctxt "Symbol"
 msgid "Escalator Up"
-msgstr ""
+msgstr "Rulltrappa up"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:27 ../share/symbols/symbols.h:28
 msgctxt "Symbol"
 msgid "Stairs"
-msgstr ""
+msgstr "Trappa"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:29 ../share/symbols/symbols.h:30
 msgctxt "Symbol"
 msgid "Stairs Down"
-msgstr ""
+msgstr "Trappa ner"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:31 ../share/symbols/symbols.h:32
 msgctxt "Symbol"
 msgid "Stairs Up"
-msgstr ""
+msgstr "Trappa upp"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:33 ../share/symbols/symbols.h:34
@@ -3715,31 +3715,31 @@ msgstr "Höjd"
 #: ../share/symbols/symbols.h:35 ../share/symbols/symbols.h:36
 msgctxt "Symbol"
 msgid "Toilets - Men"
-msgstr ""
+msgstr "Toaletter - Män"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:37 ../share/symbols/symbols.h:38
 msgctxt "Symbol"
 msgid "Toilets - Women"
-msgstr ""
+msgstr "Toaletter - Kvinnor"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:39 ../share/symbols/symbols.h:40
 msgctxt "Symbol"
 msgid "Toilets"
-msgstr ""
+msgstr "Toaletter"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:41 ../share/symbols/symbols.h:42
 msgctxt "Symbol"
 msgid "Nursery"
-msgstr ""
+msgstr "Skötbord"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:43 ../share/symbols/symbols.h:44
 msgctxt "Symbol"
 msgid "Drinking Fountain"
-msgstr ""
+msgstr "Dricksvatten"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:45 ../share/symbols/symbols.h:46
@@ -3775,13 +3775,13 @@ msgstr "Transformering"
 #: ../share/symbols/symbols.h:53 ../share/symbols/symbols.h:54
 msgctxt "Symbol"
 msgid "Heliport"
-msgstr ""
+msgstr "Helikopterplatta"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:55 ../share/symbols/symbols.h:56
 msgctxt "Symbol"
 msgid "Taxi"
-msgstr ""
+msgstr "Taxi"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:57 ../share/symbols/symbols.h:58
@@ -3815,19 +3815,19 @@ msgstr "Transformering"
 #: ../share/symbols/symbols.h:65 ../share/symbols/symbols.h:66
 msgctxt "Symbol"
 msgid "Car Rental"
-msgstr ""
+msgstr "Biluthyrning"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:67 ../share/symbols/symbols.h:68
 msgctxt "Symbol"
 msgid "Restaurant"
-msgstr ""
+msgstr "Restaurang"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:69 ../share/symbols/symbols.h:70
 msgctxt "Symbol"
 msgid "Coffeeshop"
-msgstr ""
+msgstr "Café"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:71 ../share/symbols/symbols.h:72
@@ -3840,43 +3840,43 @@ msgstr "Bark"
 #: ../share/symbols/symbols.h:73 ../share/symbols/symbols.h:74
 msgctxt "Symbol"
 msgid "Shops"
-msgstr ""
+msgstr "Butiker"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:75 ../share/symbols/symbols.h:76
 msgctxt "Symbol"
 msgid "Barber Shop - Beauty Salon"
-msgstr ""
+msgstr "Barberarsalong - Skönhetssalong"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:77 ../share/symbols/symbols.h:78
 msgctxt "Symbol"
 msgid "Barber Shop"
-msgstr ""
+msgstr "Barberarsalong"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:79 ../share/symbols/symbols.h:80
 msgctxt "Symbol"
 msgid "Beauty Salon"
-msgstr ""
+msgstr "Skönhetssalong"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:81 ../share/symbols/symbols.h:82
 msgctxt "Symbol"
 msgid "Ticket Purchase"
-msgstr ""
+msgstr "Biljettkiosk"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:83 ../share/symbols/symbols.h:84
 msgctxt "Symbol"
 msgid "Baggage Check In"
-msgstr ""
+msgstr "Bagage incheckning"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:85 ../share/symbols/symbols.h:86
 msgctxt "Symbol"
 msgid "Baggage Claim"
-msgstr ""
+msgstr "Återfunnet bagage"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:87 ../share/symbols/symbols.h:88
@@ -3910,13 +3910,13 @@ msgstr "Ljusstyrka"
 #: ../share/symbols/symbols.h:95 ../share/symbols/symbols.h:96
 msgctxt "Symbol"
 msgid "Smoking"
-msgstr ""
+msgstr "Rökning"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
 msgctxt "Symbol"
 msgid "No Smoking"
-msgstr ""
+msgstr "Rökning ej tillåten"
 
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
@@ -3924,37 +3924,37 @@ msgstr ""
 #: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
 msgctxt "Symbol"
 msgid "Parking"
-msgstr ""
+msgstr "Parkering"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:101 ../share/symbols/symbols.h:102
 msgctxt "Symbol"
 msgid "No Parking"
-msgstr ""
+msgstr "Ej parkering"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:103 ../share/symbols/symbols.h:104
 msgctxt "Symbol"
 msgid "No Dogs"
-msgstr ""
+msgstr "Inga hundar"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:105 ../share/symbols/symbols.h:106
 msgctxt "Symbol"
 msgid "No Entry"
-msgstr ""
+msgstr "Ej utgång"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:107 ../share/symbols/symbols.h:108
 msgctxt "Symbol"
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:109 ../share/symbols/symbols.h:110
 msgctxt "Symbol"
 msgid "Fire Extinguisher"
-msgstr ""
+msgstr "Brandsläkare"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:111 ../share/symbols/symbols.h:112
@@ -3967,7 +3967,7 @@ msgstr "Höger"
 #: ../share/symbols/symbols.h:113 ../share/symbols/symbols.h:114
 msgctxt "Symbol"
 msgid "Forward and Right Arrow"
-msgstr ""
+msgstr "Framåt- och högerpil"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:115 ../share/symbols/symbols.h:116
@@ -3980,7 +3980,7 @@ msgstr "Pilar"
 #: ../share/symbols/symbols.h:117 ../share/symbols/symbols.h:118
 msgctxt "Symbol"
 msgid "Forward and Left Arrow"
-msgstr ""
+msgstr "Framåt- och vänsterpil "
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:119 ../share/symbols/symbols.h:120
@@ -3993,7 +3993,7 @@ msgstr "Pilar"
 #: ../share/symbols/symbols.h:121 ../share/symbols/symbols.h:122
 msgctxt "Symbol"
 msgid "Left and Down Arrow"
-msgstr ""
+msgstr "Vänster- och neråtpil"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:123 ../share/symbols/symbols.h:124
@@ -4006,43 +4006,43 @@ msgstr "Pilar"
 #: ../share/symbols/symbols.h:125 ../share/symbols/symbols.h:126
 msgctxt "Symbol"
 msgid "Right and Down Arrow"
-msgstr ""
+msgstr "Höger- och neråtpil"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:127 ../share/symbols/symbols.h:128
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible - 1996"
-msgstr ""
+msgstr "NPS Tillgängligt för rullstolsbundna"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:129 ../share/symbols/symbols.h:130
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible"
-msgstr ""
+msgstr "NPS Tillgängligt för rullstolsbundna"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:131 ../share/symbols/symbols.h:132
 msgctxt "Symbol"
 msgid "New Wheelchair Accessible"
-msgstr ""
+msgstr "Tillgängligt för rullstolsbundna "
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:133
 msgctxt "Symbol"
 msgid "Word Balloons"
-msgstr ""
+msgstr "Pratbubblor"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:134
 msgctxt "Symbol"
 msgid "Thought Balloon"
-msgstr ""
+msgstr "Tankebubbla"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:135
 msgctxt "Symbol"
 msgid "Dream Speaking"
-msgstr ""
+msgstr "Drömbubbla"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:136
@@ -4062,13 +4062,13 @@ msgstr "Fyrkantig avslutning"
 #: ../share/symbols/symbols.h:138
 msgctxt "Symbol"
 msgid "Over the Phone"
-msgstr ""
+msgstr "Prata i telefon"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:139
 msgctxt "Symbol"
 msgid "Hip Balloon"
-msgstr ""
+msgstr "Indragen pratbubbla"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:140
@@ -4081,19 +4081,19 @@ msgstr "Cirkel"
 #: ../share/symbols/symbols.h:141
 msgctxt "Symbol"
 msgid "Exclaim Balloon"
-msgstr ""
+msgstr "Pratbubbla - Ropande"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:142
 msgctxt "Symbol"
 msgid "Flow Chart Shapes"
-msgstr ""
+msgstr "Flödesdiagram"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:143
 msgctxt "Symbol"
 msgid "Process"
-msgstr ""
+msgstr "Process"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:144
@@ -4141,7 +4141,7 @@ msgstr "Precision"
 #: ../share/symbols/symbols.h:150
 msgctxt "Symbol"
 msgid "Magnetic Tape"
-msgstr ""
+msgstr "Magnetband"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:151
@@ -4310,67 +4310,67 @@ msgstr ""
 #: ../share/symbols/symbols.h:177
 msgctxt "Symbol"
 msgid "Logic Symbols"
-msgstr ""
+msgstr "Logiska funktioner"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:178
 msgctxt "Symbol"
 msgid "Xnor Gate"
-msgstr ""
+msgstr "Xnor-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:179
 msgctxt "Symbol"
 msgid "Xor Gate"
-msgstr ""
+msgstr "Xor-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:180
 msgctxt "Symbol"
 msgid "Nor Gate"
-msgstr ""
+msgstr "Nor-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:181
 msgctxt "Symbol"
 msgid "Or Gate"
-msgstr ""
+msgstr "Or-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:182
 msgctxt "Symbol"
 msgid "Nand Gate"
-msgstr ""
+msgstr "Nand-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:183
 msgctxt "Symbol"
 msgid "And Gate"
-msgstr ""
+msgstr "And-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:184
 msgctxt "Symbol"
 msgid "Buffer"
-msgstr ""
+msgstr "Buffer"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:185
 msgctxt "Symbol"
 msgid "Not Gate"
-msgstr ""
+msgstr "Icke-grind"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:186
 msgctxt "Symbol"
 msgid "Buffer Small"
-msgstr ""
+msgstr "Liten buffer"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:187
 msgctxt "Symbol"
 msgid "Not Gate Small"
-msgstr ""
+msgstr "Icke-grind liten"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:188
@@ -4453,7 +4453,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Symbol"
 msgid "Drinking Water"
-msgstr "Tryckmärken"
+msgstr "Dricksvatten"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
@@ -4526,7 +4526,7 @@ msgstr ""
 #: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
 msgctxt "Symbol"
 msgid "Recycling"
-msgstr ""
+msgstr "Återvinning"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
@@ -4546,7 +4546,7 @@ msgstr "Enfärgad"
 #: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
 msgctxt "Symbol"
 msgid "Post Office"
-msgstr ""
+msgstr "Postkontor"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
@@ -4645,7 +4645,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Symbol"
 msgid "Emergency Telephone"
-msgstr "Skillnad"
+msgstr "Telefon"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
@@ -4656,9 +4656,10 @@ msgstr "Blindskrift"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+#, fuzzy
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
-msgstr ""
+msgstr "NPS Tillgängligt för rullstolsbundna"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
@@ -6326,9 +6327,8 @@ msgstr ""
 "från orginalpositionen"
 
 #: ../src/extension/internal/bitmap/swirl.cpp:39
-#, fuzzy
 msgid "Degrees:"
-msgstr "grader"
+msgstr "Grader:"
 
 #: ../src/extension/internal/bitmap/swirl.cpp:45
 #, fuzzy
@@ -6362,19 +6362,16 @@ msgid "Sharpen selected bitmap(s) using unsharp mask algorithms"
 msgstr "Öka skärpa för markerade bitmappar mha. oskarp mask-algoritmer."
 
 #: ../src/extension/internal/bitmap/wave.cpp:38
-#, fuzzy
 msgid "Wave"
 msgstr "Våg"
 
 #: ../src/extension/internal/bitmap/wave.cpp:40
-#, fuzzy
 msgid "Amplitude:"
-msgstr "Amplitud"
+msgstr "Amplitud:"
 
 #: ../src/extension/internal/bitmap/wave.cpp:41
-#, fuzzy
 msgid "Wavelength:"
-msgstr "Våglängd"
+msgstr "Våglängd:"
 
 #: ../src/extension/internal/bitmap/wave.cpp:47
 #, fuzzy
@@ -6484,9 +6481,8 @@ msgstr ""
 #: ../src/extension/internal/cairo-ps-out.cpp:342
 #: ../src/extension/internal/cairo-ps-out.cpp:381
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:259
-#, fuzzy
 msgid "Limit export to the object with ID:"
-msgstr "Begränsa export till objektet med ID"
+msgstr "Begränsa export till objekt med ID:"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:346
 #: ../share/extensions/ps_input.inx.h:2
@@ -6520,14 +6516,12 @@ msgid "Encapsulated PostScript File"
 msgstr "Inkapslad PostScript-fil"
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:244
-#, fuzzy
 msgid "Restrict to PDF version:"
-msgstr "Begränsa till PDF version"
+msgstr "Begränsa till PDF version:"
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:246
-#, fuzzy
 msgid "PDF 1.5"
-msgstr "PDF 1.4"
+msgstr "PDF 1.5"
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:248
 msgid "PDF 1.4"
@@ -6773,6 +6767,7 @@ msgstr "Färg på _markering:"
 #: ../src/extension/internal/filter/transparency.h:214
 #: ../src/extension/internal/filter/transparency.h:287
 #: ../src/extension/internal/filter/transparency.h:349
+#, c-format
 msgid "Filters"
 msgstr "Filter"
 
@@ -6877,7 +6872,6 @@ msgstr "Blanda"
 #: ../src/extension/internal/filter/paint.h:705
 #: ../src/extension/internal/filter/transparency.h:63
 #: ../src/filter-enums.cpp:54
-#, fuzzy
 msgid "Darken"
 msgstr "Mörkare"
 
@@ -6913,7 +6907,6 @@ msgstr "Skärm"
 #: ../src/extension/internal/filter/paint.h:701
 #: ../src/extension/internal/filter/transparency.h:60
 #: ../src/filter-enums.cpp:52
-#, fuzzy
 msgid "Multiply"
 msgstr "Multiplicera"
 
@@ -6929,7 +6922,6 @@ msgstr "Multiplicera"
 #: ../src/extension/internal/filter/paint.h:704
 #: ../src/extension/internal/filter/transparency.h:64
 #: ../src/filter-enums.cpp:55
-#, fuzzy
 msgid "Lighten"
 msgstr "Ljusare"
 
@@ -7003,7 +6995,6 @@ msgstr "Filtyp:"
 #: ../src/extension/internal/filter/textures.h:77
 #: ../src/extension/internal/filter/transparency.h:61
 #: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:646
-#, fuzzy
 msgid "Normal"
 msgstr "Normal"
 
@@ -8391,7 +8382,6 @@ msgstr "Linjebredd"
 #: ../src/extension/internal/filter/paint.h:593
 #: ../src/extension/internal/filter/paint.h:861
 #: ../src/ui/widget/filter-effect-chooser.cpp:25
-#, fuzzy
 msgid "Blend mode:"
 msgstr "Blandningsläge:"
 
@@ -8697,10 +8687,12 @@ msgid "%s bitmap image import"
 msgstr "Släpp bitmappbild"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
+#, c-format
 msgid "Image Import Type:"
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
+#, c-format
 msgid ""
 "Embed results in stand-alone, larger SVG files. Link references a file "
 "outside this SVG document and all files must be moved together."
@@ -8711,43 +8703,45 @@ msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:192
 #: ../src/ui/dialog/inkscape-preferences.cpp:1449
-#, fuzzy
+#, fuzzy, c-format
 msgid "Embed"
 msgstr "infoga"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:193 ../src/sp-anchor.cpp:119
 #: ../src/ui/dialog/inkscape-preferences.cpp:1449
-#, fuzzy
+#, fuzzy, c-format
 msgid "Link"
 msgstr "Linje:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
-#, fuzzy
+#, fuzzy, c-format
 msgid "Image DPI:"
 msgstr "Bild"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
+#, c-format
 msgid ""
 "Take information from file or use default bitmap import resolution as "
 "defined in the preferences."
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:197
-#, fuzzy
+#, fuzzy, c-format
 msgid "From file"
 msgstr "Läs in från fil"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:198
-#, fuzzy
+#, fuzzy, c-format
 msgid "Default import resolution"
 msgstr "Standard exportupplösning:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
-#, fuzzy
+#, fuzzy, c-format
 msgid "Image Rendering Mode:"
 msgstr "Rendering"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
+#, c-format
 msgid ""
 "When an image is upscaled, apply smoothing or keep blocky (pixelated). (Will "
 "not work in all browsers.)"
@@ -8755,25 +8749,29 @@ msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
-#, fuzzy
+#, fuzzy, c-format
 msgid "None (auto)"
 msgstr "Ingen (standard)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:203
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#, c-format
 msgid "Smooth (optimizeQuality)"
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:204
 #: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#, c-format
 msgid "Blocky (optimizeSpeed)"
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:207
+#, c-format
 msgid "Hide the dialog next time and always apply the same actions."
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:207
+#, c-format
 msgid "Don't ask again"
 msgstr ""
 
@@ -9259,7 +9257,7 @@ msgstr "Välj en fil att öppna"
 #: ../src/file.cpp:625
 #, fuzzy
 msgid "Clean up document"
-msgstr "Spara dokument"
+msgstr "Rensa oanvända definitioner"
 
 #: ../src/file.cpp:632
 #, c-format
@@ -9343,9 +9341,8 @@ msgid "Select file to export to"
 msgstr "Välj fil att exportera till"
 
 #: ../src/file.cpp:1682
-#, fuzzy
 msgid "Import Clip Art"
-msgstr "Importering/Exportering"
+msgstr "Importera Clip Art bild"
 
 #: ../src/filter-enums.cpp:21
 msgid "Color Matrix"
@@ -9842,7 +9839,6 @@ msgstr ""
 #: ../src/interface.cpp:1392 ../src/ui/dialog/export.cpp:1302
 #: ../src/widgets/desktop-widget.cpp:1122
 #: ../src/widgets/desktop-widget.cpp:1184
-#, fuzzy
 msgid "_Cancel"
 msgstr "Avbryt"
 
@@ -9874,29 +9870,25 @@ msgstr "Markera detta"
 #: ../src/interface.cpp:1661
 #, fuzzy
 msgid "Select Same"
-msgstr "Välj sida:"
+msgstr "Välj objekt med likadana egenskaper"
 
 #. Select same fill and stroke
 #: ../src/interface.cpp:1671
-#, fuzzy
 msgid "Fill and Stroke"
-msgstr "_Fyllning och linje"
+msgstr "_Fyllningsfärg och linjefärg"
 
 #. Select same fill color
 #: ../src/interface.cpp:1678
-#, fuzzy
 msgid "Fill Color"
-msgstr "Enfärgad"
+msgstr "Fyllningsfärg"
 
 #. Select same stroke color
 #: ../src/interface.cpp:1685
-#, fuzzy
 msgid "Stroke Color"
-msgstr "Sött linjefärg"
+msgstr "Linjefärg"
 
 #. Select same stroke style
 #: ../src/interface.cpp:1692
-#, fuzzy
 msgid "Stroke Style"
 msgstr "Linjestil"
 
@@ -12272,9 +12264,8 @@ msgid "Clo_ne"
 msgstr "Klona"
 
 #: ../src/menus-skeleton.h:79
-#, fuzzy
 msgid "Select Sa_me"
-msgstr "Välj sida:"
+msgstr "Välj objekt med likadana egenskaper"
 
 #: ../src/menus-skeleton.h:97
 msgid "_View"
@@ -12300,7 +12291,6 @@ msgstr "Visningsläge"
 #. "         <verb verb-id=\"ViewColorModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
 #: ../src/menus-skeleton.h:136
-#, fuzzy
 msgid "Sh_ow/Hide"
 msgstr "Visa/Dölj"
 
@@ -13563,14 +13553,12 @@ msgstr[0] "_Infoga Unicode-styrtecken"
 msgstr[1] "_Infoga Unicode-styrtecken"
 
 #: ../src/sp-guide.cpp:303
-#, fuzzy
 msgid "Create Guides Around the Page"
-msgstr "_Stödlinjer Runt Sida"
+msgstr "Skapa stödlinjer runt sidan"
 
 #: ../src/sp-guide.cpp:315 ../src/verbs.cpp:2470
-#, fuzzy
 msgid "Delete All Guides"
-msgstr "Radera hjälplinje"
+msgstr "Radera alla stödlinjer"
 
 #. Guide has probably been deleted and no longer has an attached namedview.
 #: ../src/sp-guide.cpp:475
@@ -13804,7 +13792,7 @@ msgstr "Textinput"
 
 #: ../src/sp-use.cpp:227
 msgid "Symbol"
-msgstr ""
+msgstr "Symbol"
 
 #: ../src/sp-use.cpp:230
 #, fuzzy
@@ -14632,7 +14620,6 @@ msgid "Smallest object"
 msgstr "Minst objekt"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1005
-#, fuzzy
 msgid "Selection Area"
 msgstr "Markering"
 
@@ -14975,7 +14962,6 @@ msgid "Alternate the sign of blur change for each column"
 msgstr "Alternera tecknet på oskärpans förändring för varje kolumn"
 
 #: ../src/ui/dialog/clonetiler.cpp:608
-#, fuzzy
 msgid "<b>Opacity:</b>"
 msgstr "Opacitet:"
 
@@ -15703,12 +15689,10 @@ msgid "Scripting"
 msgstr "Skriptning"
 
 #: ../src/ui/dialog/document-properties.cpp:322
-#, fuzzy
 msgid "<b>General</b>"
 msgstr "<b>Allmänt</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:324
-#, fuzzy
 msgid "<b>Page Size</b>"
 msgstr "<b>Sidstorlek</b>"
 
@@ -15827,9 +15811,8 @@ msgid "<b>Content:</b>"
 msgstr "<b>Exponent:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:1045
-#, fuzzy
 msgid "_Save as default"
-msgstr "Ange som standard"
+msgstr "Spara som standard"
 
 #: ../src/ui/dialog/document-properties.cpp:1046
 msgid "Save this metadata as the default metadata"
@@ -15922,14 +15905,12 @@ msgid "Units:"
 msgstr "Enheter:"
 
 #: ../src/ui/dialog/export.cpp:172
-#, fuzzy
 msgid "_Export As..."
-msgstr "_Exportera bitmappsbild..."
+msgstr "_Exportera som..."
 
 #: ../src/ui/dialog/export.cpp:175
-#, fuzzy
 msgid "B_atch export all selected objects"
-msgstr "Exportera alla valda objekt satsvis"
+msgstr "Exportera alla valda objekt i omgångar"
 
 #: ../src/ui/dialog/export.cpp:175
 msgid ""
@@ -15940,7 +15921,6 @@ msgstr ""
 "sådana finns (varning, skriver över utan att fråga!)"
 
 #: ../src/ui/dialog/export.cpp:177
-#, fuzzy
 msgid "Hide a_ll except selected"
 msgstr "Dölj alla utom markerade"
 
@@ -15949,9 +15929,8 @@ msgid "In the exported image, hide all objects except those that are selected"
 msgstr "I den exporterade bilden, dölj alla objekt utom de som är markerade"
 
 #: ../src/ui/dialog/export.cpp:178
-#, fuzzy
 msgid "Close when complete"
-msgstr "Automatisk säkerhetskopiering klar."
+msgstr "Stäng flik när exporteringen är klar"
 
 #: ../src/ui/dialog/export.cpp:178
 msgid "Once the export completes, close this dialog"
@@ -15962,9 +15941,8 @@ msgid "_Export"
 msgstr "Exportera"
 
 #: ../src/ui/dialog/export.cpp:198
-#, fuzzy
 msgid "<b>Export area</b>"
-msgstr "<big><b>Exportera yta</b></big>"
+msgstr "<big><b>Yta att exportera</b></big>"
 
 #: ../src/ui/dialog/export.cpp:237
 msgid "_x0:"
@@ -15991,9 +15969,8 @@ msgid "Hei_ght:"
 msgstr "Hö_jd:"
 
 #: ../src/ui/dialog/export.cpp:272
-#, fuzzy
 msgid "<b>Image size</b>"
-msgstr "<b>Sidstorlek</b>"
+msgstr "<b>Bildstorlek</b>"
 
 #: ../src/ui/dialog/export.cpp:290 ../src/ui/dialog/export.cpp:301
 msgid "pixels at"
@@ -16016,7 +15993,6 @@ msgid "dpi"
 msgstr "punkter per tum (dpi)"
 
 #: ../src/ui/dialog/export.cpp:317
-#, fuzzy
 msgid "<b>_Filename</b>"
 msgstr "<big><b>_Filnamn</b></big>"
 
@@ -17053,7 +17029,7 @@ msgstr "Ange grundfilterattribut"
 
 #: ../src/ui/dialog/find.cpp:71
 msgid "F_ind:"
-msgstr ""
+msgstr "Sök efter:"
 
 #: ../src/ui/dialog/find.cpp:71
 #, fuzzy
@@ -17061,9 +17037,8 @@ msgid "Find objects by their content or properties (exact or partial match)"
 msgstr "Hitta objekt med detta textinnehåll (exakt eller delvis träff)"
 
 #: ../src/ui/dialog/find.cpp:72
-#, fuzzy
 msgid "R_eplace:"
-msgstr "Ersätt:"
+msgstr "Ersätt med:"
 
 #: ../src/ui/dialog/find.cpp:72
 #, fuzzy
@@ -17072,7 +17047,7 @@ msgstr "Duplicera objekt, med Skift ta bort"
 
 #: ../src/ui/dialog/find.cpp:74
 msgid "_All"
-msgstr ""
+msgstr "Hela filen"
 
 #: ../src/ui/dialog/find.cpp:74
 #, fuzzy
@@ -17080,16 +17055,14 @@ msgid "Search in all layers"
 msgstr "Markera i alla lager"
 
 #: ../src/ui/dialog/find.cpp:75
-#, fuzzy
 msgid "Current _layer"
-msgstr "Aktuellt lager:"
+msgstr "Aktuellt lager"
 
 #: ../src/ui/dialog/find.cpp:75
 msgid "Limit search to the current layer"
 msgstr "Begränsa sökningen till aktuellt lager"
 
 #: ../src/ui/dialog/find.cpp:76
-#, fuzzy
 msgid "Sele_ction"
 msgstr "Markering"
 
@@ -17103,36 +17076,32 @@ msgid "Search in text objects"
 msgstr "Sök textobjekt"
 
 #: ../src/ui/dialog/find.cpp:78
-#, fuzzy
 msgid "_Properties"
-msgstr "Egenskaper för %s"
+msgstr "Egenskaper"
 
 #: ../src/ui/dialog/find.cpp:78
 msgid "Search in object properties, styles, attributes and IDs"
 msgstr ""
 
 #: ../src/ui/dialog/find.cpp:80
-#, fuzzy
 msgid "Search in"
-msgstr "Sök"
+msgstr "Sök i"
 
 #: ../src/ui/dialog/find.cpp:81
 msgid "Scope"
-msgstr ""
+msgstr "Omfång"
 
 #: ../src/ui/dialog/find.cpp:83
-#, fuzzy
 msgid "Case sensiti_ve"
-msgstr "Markeringskänslighet:"
+msgstr "Skiftlägeskänslig"
 
 #: ../src/ui/dialog/find.cpp:83
 msgid "Match upper/lower case"
 msgstr ""
 
 #: ../src/ui/dialog/find.cpp:84
-#, fuzzy
 msgid "E_xact match"
-msgstr "Extrahera bild"
+msgstr "Endast exakta träffar"
 
 #: ../src/ui/dialog/find.cpp:84
 #, fuzzy
@@ -17148,9 +17117,8 @@ msgid "Include hidden objects in search"
 msgstr "Inkludera dolda objekt i sökningen"
 
 #: ../src/ui/dialog/find.cpp:86
-#, fuzzy
 msgid "Include loc_ked"
-msgstr "Inkludera låsta"
+msgstr "Inkludera låsta lager"
 
 #: ../src/ui/dialog/find.cpp:86
 msgid "Include locked objects in search"
@@ -17162,9 +17130,8 @@ msgid "General"
 msgstr "<b>Allmänt</b>"
 
 #: ../src/ui/dialog/find.cpp:90
-#, fuzzy
 msgid "_ID"
-msgstr "_ID: "
+msgstr "_ID"
 
 #: ../src/ui/dialog/find.cpp:90
 #, fuzzy
@@ -17172,7 +17139,6 @@ msgid "Search id name"
 msgstr "Sök bilder"
 
 #: ../src/ui/dialog/find.cpp:91
-#, fuzzy
 msgid "Attribute _name"
 msgstr "Attributnamn"
 
@@ -17182,7 +17148,6 @@ msgid "Search attribute name"
 msgstr "Attributnamn"
 
 #: ../src/ui/dialog/find.cpp:92
-#, fuzzy
 msgid "Attri_bute value"
 msgstr "Attributvärde"
 
@@ -17192,9 +17157,8 @@ msgid "Search attribute value"
 msgstr "Attributvärde"
 
 #: ../src/ui/dialog/find.cpp:93
-#, fuzzy
 msgid "_Style"
-msgstr " _Stil: "
+msgstr " _Stil"
 
 #: ../src/ui/dialog/find.cpp:93
 #, fuzzy
@@ -17211,9 +17175,8 @@ msgid "Search fonts"
 msgstr "Sök kloner"
 
 #: ../src/ui/dialog/find.cpp:95
-#, fuzzy
 msgid "Properties"
-msgstr "Egenskaper för %s"
+msgstr "Egenskaper"
 
 #: ../src/ui/dialog/find.cpp:97
 msgid "All types"
@@ -17285,7 +17248,6 @@ msgstr "Sök grupper"
 
 #. TRANSLATORS: "Clones" is a noun indicating type of object to find
 #: ../src/ui/dialog/find.cpp:107
-#, fuzzy
 msgctxt "Find dialog"
 msgid "Clones"
 msgstr "Kloner"
@@ -17314,9 +17276,8 @@ msgid "Search offset objects"
 msgstr "Sök avståndsobjekt"
 
 #: ../src/ui/dialog/find.cpp:111
-#, fuzzy
 msgid "Object types"
-msgstr "Objekttyp"
+msgstr "Objekttyper"
 
 #: ../src/ui/dialog/find.cpp:114
 msgid "_Find"
@@ -17328,14 +17289,12 @@ msgid "Select all objects matching the selection criteria"
 msgstr "Markera objekten som matchar alla fält du fyllt i"
 
 #: ../src/ui/dialog/find.cpp:115
-#, fuzzy
 msgid "_Replace All"
-msgstr "Ersätt"
+msgstr "Ersätt alla träffar"
 
 #: ../src/ui/dialog/find.cpp:115
-#, fuzzy
 msgid "Replace all matches"
-msgstr "Ersätt text"
+msgstr "Ersätt alla träffar"
 
 #: ../src/ui/dialog/find.cpp:775
 #, fuzzy
@@ -18315,7 +18274,6 @@ msgid "Actual Size:"
 msgstr "Verklig Storlek:"
 
 #: ../src/ui/dialog/icon-preview.cpp:245
-#, fuzzy
 msgctxt "Icon preview window"
 msgid "Sele_ction"
 msgstr "Markering"
@@ -18372,9 +18330,8 @@ msgstr ""
 "linjebredd)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:220
-#, fuzzy
 msgid "<b>No objects selected</b> to take the style from."
-msgstr "<b>Inga objekt markerade</b> att ta stil från."
+msgstr "<b>Inga objekt markerade</b> att kopiera stil från."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:229
 msgid ""
@@ -18770,7 +18727,6 @@ msgstr ""
 
 #. Text
 #: ../src/ui/dialog/inkscape-preferences.cpp:441 ../src/verbs.cpp:2670
-#, fuzzy
 msgctxt "ContextVerb"
 msgid "Text"
 msgstr "Text"
@@ -20847,9 +20803,8 @@ msgid "Clippaths and masks"
 msgstr "Beskärningsslingor och masker"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1343
-#, fuzzy
 msgid "Stroke Style Markers"
-msgstr "Linjestil"
+msgstr "Linjestil markörer"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1345
 #: ../src/ui/dialog/inkscape-preferences.cpp:1347
@@ -21750,7 +21705,6 @@ msgstr "Rendering"
 #: ../src/ui/dialog/object-properties.cpp:399
 #: ../src/ui/dialog/object-properties.cpp:470
 #: ../src/ui/dialog/object-properties.cpp:477
-#, fuzzy
 msgid "_ID:"
 msgstr "_ID: "
 
@@ -22394,7 +22348,6 @@ msgid "Add font"
 msgstr "Lägg till typsnitt"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:912 ../src/ui/dialog/text-edit.cpp:69
-#, fuzzy
 msgid "_Font"
 msgstr "_Typsnitt"
 
@@ -22455,55 +22408,48 @@ msgstr "Palett-bibliotek (%s) är inte tillgängligt."
 #. ******************* Symbol Sets ************************
 #: ../src/ui/dialog/symbols.cpp:139
 msgid "Symbol set: "
-msgstr ""
+msgstr "Symbol bibliotek:"
 
 #. Fill in later
 #: ../src/ui/dialog/symbols.cpp:148 ../src/ui/dialog/symbols.cpp:149
-#, fuzzy
 msgid "Current Document"
-msgstr "Skriv ut dokument"
+msgstr "Aktivt dokument"
 
 #: ../src/ui/dialog/symbols.cpp:216
-#, fuzzy
 msgid "Add Symbol from the current document."
-msgstr "Visa endast aktuellt lager"
+msgstr "Lägg till symbol från aktivt dokument"
 
 #: ../src/ui/dialog/symbols.cpp:225
-#, fuzzy
 msgid "Remove Symbol from the current document."
-msgstr "Redigera stopp i gradient"
+msgstr "Ta bort symbol från aktivt dokument"
 
 #: ../src/ui/dialog/symbols.cpp:239
-#, fuzzy
 msgid "Display more icons in row."
-msgstr "Visa mätinformation"
+msgstr "Visa fler ikoner per rad"
 
 #: ../src/ui/dialog/symbols.cpp:248
-#, fuzzy
 msgid "Display fewer icons in row."
-msgstr "Visa mätinformation"
+msgstr "Visa färre ikoner per rad"
 
 #: ../src/ui/dialog/symbols.cpp:258
 msgid "Toggle 'fit' symbols in icon space."
-msgstr ""
+msgstr "Aktivera/avaktivera möjligheten att ändra storlek på ikonerna."
 
 #: ../src/ui/dialog/symbols.cpp:270
 msgid "Make symbols smaller by zooming out."
-msgstr ""
+msgstr "Gör symboler mindre genom att zooma ut."
 
 #: ../src/ui/dialog/symbols.cpp:280
 msgid "Make symbols bigger by zooming in."
-msgstr ""
+msgstr "Gör symboler större genom att zooma in."
 
 #: ../src/ui/dialog/symbols.cpp:640
-#, fuzzy
 msgid "Unnamed Symbols"
-msgstr "Använd namngivna färger"
+msgstr "Ej namngivna symboler"
 
 #: ../src/ui/dialog/template-widget.cpp:37
-#, fuzzy
 msgid "More info"
-msgstr "Mera Ljus"
+msgstr "Mer information"
 
 #: ../src/ui/dialog/template-widget.cpp:39
 #, fuzzy
@@ -22527,7 +22473,7 @@ msgstr "Nyckelord"
 
 #: ../src/ui/dialog/template-widget.cpp:135
 msgid "By: "
-msgstr ""
+msgstr "Av:"
 
 #: ../src/ui/dialog/text-edit.cpp:72
 #, fuzzy
@@ -24795,7 +24741,7 @@ msgstr "Lås eller lås upp aktuellt lager"
 
 #: ../src/ui/widget/layer-selector.cpp:142
 msgid "Current layer"
-msgstr "Aktuellt lager:"
+msgstr "Aktuellt lager"
 
 #: ../src/ui/widget/layer-selector.cpp:583
 #, fuzzy
@@ -24814,7 +24760,6 @@ msgstr "MetadataLicence|Andra inställningar"
 #: ../src/ui/widget/object-composite-settings.cpp:67
 #: ../src/ui/widget/selected-style.cpp:1099
 #: ../src/ui/widget/selected-style.cpp:1100
-#, fuzzy
 msgid "Opacity (%)"
 msgstr "Opacitet, %"
 
@@ -25461,9 +25406,9 @@ msgid "O: %2.0f"
 msgstr ""
 
 #: ../src/ui/widget/style-swatch.cpp:368
-#, fuzzy, c-format
+#, c-format
 msgid "Opacity: %2.1f %%"
-msgstr "Transparens: %.3g"
+msgstr "Opacitet: %.3g"
 
 #: ../src/vanishing-point.cpp:132
 #, fuzzy
@@ -25508,8 +25453,8 @@ msgstr[1] ""
 msgid ""
 "shared by <b>%d</b> box; drag with <b>Shift</b> to separate selected box(es)"
 msgid_plural ""
-"shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box"
-"(es)"
+"shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected "
+"box(es)"
 msgstr[0] ""
 "Gradientpunkt delad med <b>%d</b> gradient; dra med <b>Shift</b> för att "
 "separera"
@@ -25620,24 +25565,20 @@ msgid "Deleted layer."
 msgstr "Raderade lagret."
 
 #: ../src/verbs.cpp:1411
-#, fuzzy
 msgid "Show all layers"
-msgstr "Markera i alla lager"
+msgstr "Visa alla lager"
 
 #: ../src/verbs.cpp:1416
-#, fuzzy
 msgid "Hide all layers"
-msgstr "Dölj lager"
+msgstr "Dölj alla lager"
 
 #: ../src/verbs.cpp:1421
-#, fuzzy
 msgid "Lock all layers"
-msgstr "Markera i alla lager"
+msgstr "Lås alla lager"
 
 #: ../src/verbs.cpp:1435
-#, fuzzy
 msgid "Unlock all layers"
-msgstr "Lås upp lager"
+msgstr "Lås upp alla lager"
 
 #: ../src/verbs.cpp:1519
 msgid "Flip horizontally"
@@ -25780,9 +25721,8 @@ msgstr "Skriv ut dokument"
 
 #. TRANSLATORS: "Vacuum Defs" means "Clean up defs" (so as to remove unused definitions)
 #: ../src/verbs.cpp:2367
-#, fuzzy
 msgid "Clean _up document"
-msgstr "Kunde inte öppna hjälpdokument"
+msgstr "Rensa oanvända definitioner"
 
 #: ../src/verbs.cpp:2367
 msgid ""
@@ -25802,9 +25742,8 @@ msgstr "Importera bitmappsbild eller SVG-bild till dokument"
 
 #. new FileVerb(SP_VERB_FILE_EXPORT, "FileExport", N_("_Export Bitmap..."), N_("Export this document or a selection as a bitmap image"), INKSCAPE_ICON("document-export")),
 #: ../src/verbs.cpp:2372
-#, fuzzy
 msgid "Import Clip Art..."
-msgstr "_Importera..."
+msgstr "Importera Clip Art bild..."
 
 #: ../src/verbs.cpp:2373
 #, fuzzy
@@ -25845,9 +25784,8 @@ msgid "Quit Inkscape"
 msgstr "Avsluta Inkscape"
 
 #: ../src/verbs.cpp:2382
-#, fuzzy
 msgid "_Templates..."
-msgstr "Färgprover..."
+msgstr "Mallar..."
 
 #: ../src/verbs.cpp:2383
 #, fuzzy
@@ -26127,9 +26065,8 @@ msgid "Select all objects in all visible and unlocked layers"
 msgstr "Markera alla objekt i alla synliga och olåsta lager"
 
 #: ../src/verbs.cpp:2450
-#, fuzzy
 msgid "Fill _and Stroke"
-msgstr "_Fyllning och linje"
+msgstr "_Fyllningsfärg och linjefärg"
 
 #: ../src/verbs.cpp:2451
 #, fuzzy
@@ -26139,9 +26076,8 @@ msgstr ""
 "Välj ett <b>objekt med mönsterfyllnad</b> för att extrahera objektets form."
 
 #: ../src/verbs.cpp:2452
-#, fuzzy
 msgid "_Fill Color"
-msgstr "Enfärgad"
+msgstr "Fyllningsfärg"
 
 #: ../src/verbs.cpp:2453
 #, fuzzy
@@ -26150,9 +26086,8 @@ msgstr ""
 "Välj ett <b>objekt med mönsterfyllnad</b> för att extrahera objektets form."
 
 #: ../src/verbs.cpp:2454
-#, fuzzy
 msgid "_Stroke Color"
-msgstr "Sött linjefärg"
+msgstr "Linjefärg"
 
 #: ../src/verbs.cpp:2455
 #, fuzzy
@@ -26162,7 +26097,6 @@ msgstr ""
 "kopierade objektet"
 
 #: ../src/verbs.cpp:2456
-#, fuzzy
 msgid "Stroke St_yle"
 msgstr "Linjestil"
 
@@ -26176,7 +26110,6 @@ msgstr ""
 "kopierade objektet"
 
 #: ../src/verbs.cpp:2458
-#, fuzzy
 msgid "_Object Type"
 msgstr "Objekttyp"
 
@@ -26208,7 +26141,6 @@ msgid "Invert selection in all visible and unlocked layers"
 msgstr "Markera alla objekt i alla synliga och olåsta lager"
 
 #: ../src/verbs.cpp:2464
-#, fuzzy
 msgid "Select Next"
 msgstr "Markera nästa"
 
@@ -26236,14 +26168,12 @@ msgid "Deselect any selected objects or nodes"
 msgstr "Avmarkera alla markerade objekt eller noder"
 
 #: ../src/verbs.cpp:2471
-#, fuzzy
 msgid "Delete all the guides in the document"
-msgstr "Ta bort alla objekt från dokumentet"
+msgstr "Radera alla stödlinjer i dokumentet"
 
 #: ../src/verbs.cpp:2472
-#, fuzzy
 msgid "Create _Guides Around the Page"
-msgstr "_Stödlinjer Runt Sida"
+msgstr "Skapa stödlinjer runt sidan"
 
 #: ../src/verbs.cpp:2473
 msgid "Create four guides aligned with the page borders"
@@ -26482,9 +26412,8 @@ msgid "Create paths using Kopf-Lischinski algorithm to vectorize pixel art"
 msgstr ""
 
 #: ../src/verbs.cpp:2553
-#, fuzzy
 msgid "Make a _Bitmap Copy"
-msgstr "Skapa en Bitmappskopia"
+msgstr "Skapa en Bitmapskopia"
 
 #: ../src/verbs.cpp:2554
 msgid "Export selection to a bitmap and insert it into document"
@@ -26568,9 +26497,8 @@ msgid "Move selection to the layer below the current"
 msgstr "Flytta markering till lagret under det aktuella"
 
 #: ../src/verbs.cpp:2576
-#, fuzzy
 msgid "Move Selection to Layer..."
-msgstr "Flytta markering till lagret över"
+msgstr "Flytta markering till lager..."
 
 #: ../src/verbs.cpp:2578
 msgid "Layer to _Top"
@@ -26605,9 +26533,8 @@ msgid "Lower the current layer"
 msgstr "Sänk det aktuella lagret"
 
 #: ../src/verbs.cpp:2586
-#, fuzzy
 msgid "D_uplicate Current Layer"
-msgstr "Duplicera aktuellt lager"
+msgstr "Duplicera aktivt lager"
 
 #: ../src/verbs.cpp:2587
 msgid "Duplicate an existing layer"
@@ -26622,9 +26549,8 @@ msgid "Delete the current layer"
 msgstr "Radera det aktuella lagret"
 
 #: ../src/verbs.cpp:2590
-#, fuzzy
 msgid "_Show/hide other layers"
-msgstr "Visa eller dölj statusrad"
+msgstr "Visa/dölj andra lager"
 
 #: ../src/verbs.cpp:2591
 #, fuzzy
@@ -26632,78 +26558,63 @@ msgid "Solo the current layer"
 msgstr "Visa endast aktuellt lager"
 
 #: ../src/verbs.cpp:2592
-#, fuzzy
 msgid "_Show all layers"
-msgstr "Markera i alla lager"
+msgstr "Visa alla lager"
 
 #: ../src/verbs.cpp:2593
-#, fuzzy
 msgid "Show all the layers"
-msgstr "Visa eller dölj statusrad"
+msgstr "Visa alla lager"
 
 #: ../src/verbs.cpp:2594
-#, fuzzy
 msgid "_Hide all layers"
-msgstr "Dölj lager"
+msgstr "Dölj alla lager"
 
 #: ../src/verbs.cpp:2595
-#, fuzzy
 msgid "Hide all the layers"
-msgstr "Dölj lager"
+msgstr "Dölj alla lager"
 
 #: ../src/verbs.cpp:2596
-#, fuzzy
 msgid "_Lock all layers"
-msgstr "Markera i alla lager"
+msgstr "Lås alla lager"
 
 #: ../src/verbs.cpp:2597
-#, fuzzy
 msgid "Lock all the layers"
-msgstr "Visa eller dölj statusrad"
+msgstr "Lås alla lager"
 
 #: ../src/verbs.cpp:2598
-#, fuzzy
 msgid "Lock/Unlock _other layers"
-msgstr "Lås eller lås upp aktuellt lager"
+msgstr "Lås/Lås upp andra lager"
 
 #: ../src/verbs.cpp:2599
-#, fuzzy
 msgid "Lock all the other layers"
-msgstr "Visa eller dölj statusrad"
+msgstr "Lås alla andra lager"
 
 #: ../src/verbs.cpp:2600
-#, fuzzy
 msgid "_Unlock all layers"
-msgstr "Lås upp lager"
+msgstr "Lås upp alla lager"
 
 #: ../src/verbs.cpp:2601
-#, fuzzy
 msgid "Unlock all the layers"
-msgstr "Visa eller dölj statusrad"
+msgstr "Lås upp alla lager"
 
 #: ../src/verbs.cpp:2602
-#, fuzzy
 msgid "_Lock/Unlock Current Layer"
-msgstr "Lås eller lås upp aktuellt lager"
+msgstr "Lås/Lås upp aktivt lager"
 
 #: ../src/verbs.cpp:2603
-#, fuzzy
 msgid "Toggle lock on current layer"
-msgstr "Visa endast aktuellt lager"
+msgstr "Växla nuvarande lager (låst/upplåst)"
 
 #: ../src/verbs.cpp:2604
-#, fuzzy
 msgid "_Show/hide Current Layer"
-msgstr "Visa eller dölj statusrad"
+msgstr "Visa/dölj aktivt lager"
 
 #: ../src/verbs.cpp:2605
-#, fuzzy
 msgid "Toggle visibility of current layer"
-msgstr "Visa endast aktuellt lager"
+msgstr "Växla synlighet för aktivt lager"
 
 #. Object
 #: ../src/verbs.cpp:2608
-#, fuzzy
 msgid "Rotate _90° CW"
 msgstr "Rotera 90&#176; medurs"
 
@@ -26714,7 +26625,6 @@ msgid "Rotate selection 90° clockwise"
 msgstr "Rotera markering 90° medurs"
 
 #: ../src/verbs.cpp:2612
-#, fuzzy
 msgid "Rotate 9_0° CCW"
 msgstr "Rotera 90&#176; moturs"
 
@@ -26790,7 +26700,6 @@ msgstr ""
 "Tillämpa mask på markering (genom att använda det översta objektet som mask)"
 
 #: ../src/verbs.cpp:2635
-#, fuzzy
 msgid "Edit mask"
 msgstr "R_edigera mask"
 
@@ -27295,9 +27204,8 @@ msgid "Show or hide the canvas scrollbars"
 msgstr "Visa eller dölj rullningslister för ritduken"
 
 #: ../src/verbs.cpp:2742
-#, fuzzy
 msgid "Page _Grid"
-msgstr "Sidans bredd"
+msgstr "Rutnät"
 
 #: ../src/verbs.cpp:2742
 #, fuzzy
@@ -27545,9 +27453,8 @@ msgstr "Passa in markeringen i fönstret"
 
 #. Dialogs
 #: ../src/verbs.cpp:2806
-#, fuzzy
 msgid "P_references..."
-msgstr "Inställningar för pennan"
+msgstr "Egenskaper..."
 
 #: ../src/verbs.cpp:2807
 msgid "Edit global Inkscape preferences"
@@ -27600,7 +27507,7 @@ msgstr "Välj färger från en färgprovspalett"
 
 #: ../src/verbs.cpp:2821
 msgid "S_ymbols..."
-msgstr ""
+msgstr "Symboler..."
 
 #: ../src/verbs.cpp:2822
 #, fuzzy
@@ -27654,9 +27561,8 @@ msgid "View and edit the XML tree of the document"
 msgstr "Visa och redigera dokumentets XML-träd"
 
 #: ../src/verbs.cpp:2835
-#, fuzzy
 msgid "_Find/Replace..."
-msgstr "Sök efter och ersätt text"
+msgstr "Sök och ersätt..."
 
 #: ../src/verbs.cpp:2836
 msgid "Find objects in document"
@@ -27786,9 +27692,8 @@ msgstr ""
 "Färgutskriftsförhandsgransknings-läge"
 
 #: ../src/verbs.cpp:2865
-#, fuzzy
 msgid "_Export PNG Image..."
-msgstr "Extrahera bild"
+msgstr "Generera PNG bild..."
 
 #: ../src/verbs.cpp:2866
 #, fuzzy
@@ -28678,9 +28583,8 @@ msgstr ""
 "Vill du spara filen i ett annat format?"
 
 #: ../src/widgets/desktop-widget.cpp:1179
-#, fuzzy
 msgid "_Save as Inkscape SVG"
-msgstr "_Spara som SVG"
+msgstr "_Spara som Inkscape SVG"
 
 #: ../src/widgets/desktop-widget.cpp:1392
 msgid "Note:"
@@ -29504,9 +29408,8 @@ msgstr ""
 "nonzero)"
 
 #: ../src/widgets/paint-selector.cpp:590
-#, fuzzy
 msgid "<b>No objects</b>"
-msgstr "<b>Fäst mot objekt</b>"
+msgstr "<b>Inga objekt</b>"
 
 #: ../src/widgets/paint-selector.cpp:601
 #, fuzzy
@@ -30649,11 +30552,11 @@ msgstr "Slutmarkörer ritas på den sista noden av en slinga eller form"
 msgid "Set markers"
 msgstr "Sätt markörer"
 
-#: ../src/widgets/stroke-style.cpp:1030 ../src/widgets/stroke-style.cpp:1115
+#: ../src/widgets/stroke-style.cpp:1032 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
 msgstr "Sätt linjestil"
 
-#: ../src/widgets/stroke-style.cpp:1203
+#: ../src/widgets/stroke-style.cpp:1205
 #, fuzzy
 msgid "Set marker color"
 msgstr "Sött linjefärg"
@@ -31825,6 +31728,7 @@ msgid ""
 msgstr "Duplicera markerade objekt"
 
 #: ../share/extensions/jessyInk_autoTexts.py:54
+#, python-brace-format
 msgid ""
 "Node with id '{0}' is not a suitable text node and was therefore ignored.\n"
 "\n"
@@ -31851,6 +31755,7 @@ msgid ""
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:69
+#, python-brace-format
 msgid "JessyInk script version {0} installed."
 msgstr ""
 
@@ -31872,7 +31777,7 @@ msgid ""
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:94
-#, fuzzy
+#, fuzzy, python-brace-format
 msgid "{0}Layer name: {1}"
 msgstr "Lagrets namn:"
 
@@ -31881,7 +31786,7 @@ msgid "{0}Transition in: {1} ({2!s} s)"
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:104
-#, fuzzy
+#, fuzzy, python-brace-format
 msgid "{0}Transition in: {1}"
 msgstr "Övergång i effekt"
 
@@ -31890,22 +31795,24 @@ msgid "{0}Transition out: {1} ({2!s} s)"
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:113
-#, fuzzy
+#, fuzzy, python-brace-format
 msgid "{0}Transition out: {1}"
 msgstr "Övergång ut-effekt"
 
 #: ../share/extensions/jessyInk_summary.py:120
-#, fuzzy
+#, fuzzy, python-brace-format
 msgid ""
 "\n"
 "{0}Auto-texts:"
 msgstr "Auto-texter"
 
 #: ../share/extensions/jessyInk_summary.py:123
+#, python-brace-format
 msgid "{0}\t\"{1}\" (object id \"{2}\") will be replaced by \"{3}\"."
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:168
+#, python-brace-format
 msgid ""
 "\n"
 "{0}Initial effect (order number {1}):"
@@ -31918,10 +31825,12 @@ msgid ""
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:174
+#, python-brace-format
 msgid "{0}\tView will be set according to object \"{1}\""
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:176
+#, python-brace-format
 msgid "{0}\tObject \"{1}\""
 msgstr ""
 
@@ -31935,6 +31844,7 @@ msgid " will disappear"
 msgstr ""
 
 #: ../share/extensions/jessyInk_summary.py:184
+#, python-brace-format
 msgid " using effect \"{0}\""
 msgstr ""
 
@@ -32081,7 +31991,14 @@ msgid ""
 msgstr ""
 
 #: ../share/extensions/plotter.py:143
-msgid "pySerial is not installed."
+msgid ""
+"pySerial is not installed.\n"
+"\n"
+"1. Download pySerial here (not the \".exe\"!): http://pypi.python.org/pypi/"
+"pyserial\n"
+"2. Extract the \"serial\" subfolder from the zip to the following folder: C:"
+"\\[Program files]\\inkscape\\python\\Lib\\\n"
+"3. Restart Inkscape."
 msgstr ""
 
 #: ../share/extensions/plotter.py:163
@@ -32217,8 +32134,13 @@ msgstr "Du måste markera åtminstone två objekt.\n"
 
 #: ../share/extensions/uniconv-ext.py:56
 #: ../share/extensions/uniconv_output.py:122
-msgid "You need to install the UniConvertor software.\n"
-msgstr "Ni måste installera programmet UniConvertor.\n"
+msgid ""
+"You need to install the UniConvertor software.\n"
+"For GNU/Linux: install the package python-uniconvertor.\n"
+"For Windows: download it from\n"
+"http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
+"and install into your Inkscape's Python location\n"
+msgstr ""
 
 #: ../share/extensions/voronoi2svg.py:215
 #, fuzzy
@@ -34219,14 +34141,12 @@ msgid "GIMP XCF"
 msgstr "GIMP XCF"
 
 #: ../share/extensions/gimp_xcf.inx.h:3
-#, fuzzy
 msgid "Save Guides"
-msgstr "Spara hjälplinjer:"
+msgstr "Spara stödlinjer:"
 
 #: ../share/extensions/gimp_xcf.inx.h:4
-#, fuzzy
 msgid "Save Grid"
-msgstr "Spara Rutnät:"
+msgstr "Spara rutnät"
 
 #: ../share/extensions/gimp_xcf.inx.h:5
 #, fuzzy
@@ -34631,9 +34551,8 @@ msgstr "Rendera"
 #: ../share/extensions/render_alphabetsoup.inx.h:2
 #: ../share/extensions/render_barcode_datamatrix.inx.h:2
 #: ../share/extensions/render_barcode_qrcode.inx.h:3
-#, fuzzy
 msgid "Text:"
-msgstr "Text"
+msgstr "Text:"
 
 #: ../share/extensions/hershey.inx.h:4
 #, fuzzy
@@ -36661,9 +36580,8 @@ msgid "Filename:"
 msgstr "Filnamn:"
 
 #: ../share/extensions/polyhedron_3d.inx.h:5
-#, fuzzy
 msgid "Object Type:"
-msgstr "Objekttyp"
+msgstr "Objekttyp:"
 
 #: ../share/extensions/polyhedron_3d.inx.h:6
 #, fuzzy
@@ -38526,6 +38444,9 @@ msgstr "Ett populärt filformat för clipart"
 #: ../share/extensions/xaml2svg.inx.h:1
 msgid "XAML Input"
 msgstr ""
+
+#~ msgid "You need to install the UniConvertor software.\n"
+#~ msgstr "Ni måste installera programmet UniConvertor.\n"
 
 #, fuzzy
 #~ msgctxt "Symbol"
@@ -42066,3 +41987,51 @@ msgstr ""
 
 #~ msgid "Vertical kerning"
 #~ msgstr "Vertikal kerning"
+
+#~ msgctxt "Symbol"
+#~ msgid "Youth Hostel"
+#~ msgstr "Vandrarhem"
+
+#~ msgctxt "Symbol"
+#~ msgid "Motel"
+#~ msgstr "Motell"
+
+#~ msgctxt "Symbol"
+#~ msgid "Hotel"
+#~ msgstr "Hotell"
+
+#~ msgctxt "Symbol"
+#~ msgid "Caravan Park"
+#~ msgstr "Campingplats (husvagnar)"
+
+#~ msgctxt "Symbol"
+#~ msgid "Alpine Hut"
+#~ msgstr "Bergshydda"
+
+#~ msgctxt "Symbol"
+#~ msgid "Bench or Park"
+#~ msgstr "Parkbänk eller park"
+
+#~ msgctxt "Symbol"
+#~ msgid "Fountain"
+#~ msgstr "Fontän"
+
+#~ msgctxt "Symbol"
+#~ msgid "Library"
+#~ msgstr "Bibliotek"
+
+#~ msgctxt "Symbol"
+#~ msgid "Town Hall"
+#~ msgstr "Stadshus"
+
+#~ msgctxt "Symbol"
+#~ msgid "Court"
+#~ msgstr "Domstol"
+
+#~ msgctxt "Symbol"
+#~ msgid "Fire Station / House"
+#~ msgstr "Brandstation"
+
+#~ msgctxt "Symbol"
+#~ msgid "Prison"
+#~ msgstr "Fängelse"
