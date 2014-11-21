@@ -59,7 +59,7 @@ msgstr ""
 "Project-Id-Version: inkscape 0.49\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-10-21 08:38+0200\n"
-"PO-Revision-Date: 2014-08-17 12:19+0100\n"
+"PO-Revision-Date: 2014-11-21 23:14+0100\n"
 "Last-Translator: Kris De Gussem <Kris.DeGussem@gmail.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -470,7 +470,7 @@ msgstr "Onder gebarsten glas"
 
 #: ../share/filters/filters.svg.h:130
 msgid "Bubbly Bumps"
-msgstr "Vervormde bellen"
+msgstr "Verhoging met bellen"
 
 # het blijkt hier ook om embossering te gaan: in Inkscape consistent als reliëf aangeduid
 #: ../share/filters/filters.svg.h:131 ../share/filters/filters.svg.h:307
@@ -675,44 +675,40 @@ msgid ""
 msgstr "Metaaleffect met gedimde verlichting, licht transparant aan de randen"
 
 #: ../share/filters/filters.svg.h:214
-#, fuzzy
 msgid "Dragee"
-msgstr "Kromme verslepen"
+msgstr "Pil"
 
 #: ../share/filters/filters.svg.h:216
 msgid "Gel Ridge with a pearlescent look"
-msgstr ""
+msgstr "Rand met parelmoer uitzicht"
 
 #: ../share/filters/filters.svg.h:218
-#, fuzzy
 msgid "Raised Border"
-msgstr "Spitse rand"
+msgstr "Verhoogde rand"
 
 #: ../share/filters/filters.svg.h:220
 msgid "Strongly raised border around a flat surface"
-msgstr ""
+msgstr "Sterk verhoogde rand rond een vlak oppervlak"
 
 #: ../share/filters/filters.svg.h:222
-#, fuzzy
 msgid "Metallized Ridge"
-msgstr "Gemetalliseerde verf"
+msgstr "Gemetalliseerde rand"
 
 #: ../share/filters/filters.svg.h:224
 msgid "Gel Ridge metallized at its top"
-msgstr ""
+msgstr "Rand met metalliseerde top"
 
 #: ../share/filters/filters.svg.h:226
 msgid "Fat Oil"
-msgstr ""
+msgstr "Olie"
 
 #: ../share/filters/filters.svg.h:228
 msgid "Fat oil with some adjustable turbulence"
-msgstr ""
+msgstr "Olie met aanpasbare turbulentie"
 
 #: ../share/filters/filters.svg.h:230
-#, fuzzy
 msgid "Black Hole"
-msgstr "Zwarte lijn"
+msgstr "Zwart gat"
 
 #: ../share/filters/filters.svg.h:231 ../share/filters/filters.svg.h:275
 #: ../share/filters/filters.svg.h:279 ../share/filters/filters.svg.h:835
@@ -725,389 +721,373 @@ msgstr "Morfologie"
 
 #: ../share/filters/filters.svg.h:232
 msgid "Creates a black light inside and outside"
-msgstr ""
+msgstr "Maakt een zwart licht binnen en buiten"
 
 #: ../share/filters/filters.svg.h:234
-#, fuzzy
 msgid "Cubes"
-msgstr "Kubus"
+msgstr "Kubussen"
 
 #: ../share/filters/filters.svg.h:236
 msgid "Scattered cubes; adjust the Morphology primitive to vary size"
 msgstr ""
+"Verspreidde kubussen; pas de morfologieprimitieve aan om de grootte aan te "
+"passen"
 
 #: ../share/filters/filters.svg.h:238
 msgid "Peel Off"
-msgstr ""
+msgstr "Afpellen"
 
 #: ../share/filters/filters.svg.h:240
 msgid "Peeling painting on a wall"
-msgstr ""
+msgstr "Afpellende verf aan een muur"
 
 #: ../share/filters/filters.svg.h:242
-#, fuzzy
 msgid "Gold Splatter"
-msgstr "Patronen verplaatsen"
+msgstr "Goudspatten"
 
 #: ../share/filters/filters.svg.h:244
 msgid "Splattered cast metal, with golden highlights"
-msgstr ""
+msgstr "Spatten metaal met gouden punten"
 
 #: ../share/filters/filters.svg.h:246
-#, fuzzy
 msgid "Gold Paste"
-msgstr "Plakken"
+msgstr "Goudpasta"
 
 #: ../share/filters/filters.svg.h:248
 msgid "Fat pasted cast metal, with golden highlights"
-msgstr ""
+msgstr "Metaalpasta met gouden punten"
 
 #: ../share/filters/filters.svg.h:250
 msgid "Crumpled Plastic"
-msgstr ""
+msgstr "Verkreukelde plastiek"
 
 #: ../share/filters/filters.svg.h:252
 msgid "Crumpled matte plastic, with melted edge"
-msgstr ""
+msgstr "Verkreukelde matte plastiek met gesmolten rand"
 
 #: ../share/filters/filters.svg.h:254
 msgid "Enamel Jewelry"
-msgstr ""
+msgstr "Glazure juwelen"
 
 #: ../share/filters/filters.svg.h:256
 msgid "Slightly cracked enameled texture"
-msgstr ""
+msgstr "Light gekrakelleerde glazuurtextuur"
 
 #: ../share/filters/filters.svg.h:258
-#, fuzzy
 msgid "Rough Paper"
-msgstr "Verruwen"
+msgstr "Ruw papier"
 
 #: ../share/filters/filters.svg.h:260
 msgid "Aquarelle paper effect which can be used for pictures as for objects"
-msgstr ""
+msgstr "Aquarelpapiereffect bruikbaar voor figuren en objecten"
 
 #: ../share/filters/filters.svg.h:262
-#, fuzzy
 msgid "Rough and Glossy"
-msgstr "Schaduw en gloed"
+msgstr "Ruw en glanzend"
 
 #: ../share/filters/filters.svg.h:264
 msgid ""
 "Crumpled glossy paper effect which can be used for pictures as for objects"
-msgstr ""
+msgstr "Verkreukeld glazend papiereffect bruikbaar voor figuren en objecten"
 
 #: ../share/filters/filters.svg.h:266
-#, fuzzy
 msgid "In and Out"
-msgstr "Iconen en tekst"
+msgstr "Binnen en buiten"
 
 #: ../share/filters/filters.svg.h:268
 msgid "Inner colorized shadow, outer black shadow"
-msgstr ""
+msgstr "Gekleurde schaduw langs binnenzijde, zwarte schaduw lands buitenzijde"
 
 #: ../share/filters/filters.svg.h:270
-#, fuzzy
 msgid "Air Spray"
 msgstr "Verstuiven"
 
 #: ../share/filters/filters.svg.h:272
 msgid "Convert to small scattered particles with some thickness"
-msgstr ""
+msgstr "Naar kleine verstrooide partikels met enige dikte omzetten"
 
 #: ../share/filters/filters.svg.h:274
-#, fuzzy
 msgid "Warm Inside"
-msgstr "Binnen"
+msgstr "Warm vanbinnen"
 
 #: ../share/filters/filters.svg.h:276
 msgid "Blurred colorized contour, filled inside"
-msgstr ""
+msgstr "Vage gekleurde contour, binnenin gevuld"
 
 #: ../share/filters/filters.svg.h:278
-#, fuzzy
 msgid "Cool Outside"
-msgstr "Buiten"
+msgstr "Koel vanbuiten"
 
 #: ../share/filters/filters.svg.h:280
 msgid "Blurred colorized contour, empty inside"
-msgstr ""
+msgstr "Vage gekleurde contour, binnenin leeg"
 
 #: ../share/filters/filters.svg.h:282
 msgid "Electronic Microscopy"
-msgstr ""
+msgstr "Elektronenmicroscopie"
 
 #: ../share/filters/filters.svg.h:284
 msgid ""
 "Bevel, crude light, discoloration and glow like in electronic microscopy"
 msgstr ""
+"Verhoging, ruw licht, ontkleuring en gloed zoals bij elektronenmicroscopie"
 
 #: ../share/filters/filters.svg.h:286
 msgid "Tartan"
-msgstr ""
+msgstr "Kilt"
 
 #: ../share/filters/filters.svg.h:288
 msgid "Checkered tartan pattern"
-msgstr ""
+msgstr "Geruitte kilt"
 
 #: ../share/filters/filters.svg.h:290
 msgid "Shaken Liquid"
-msgstr ""
+msgstr "Geschudde vloeistof"
 
 #: ../share/filters/filters.svg.h:292
 msgid "Colorizable filling with flow inside like transparency"
-msgstr ""
+msgstr "Gekleurde vulling met stromende transparantie"
 
 #: ../share/filters/filters.svg.h:294
 msgid "Soft Focus Lens"
-msgstr ""
+msgstr "Zachte focuslens"
 
 #: ../share/filters/filters.svg.h:296
 msgid "Glowing image content without blurring it"
-msgstr ""
+msgstr "Afbeelding met gloed zonder vervaging"
 
 #: ../share/filters/filters.svg.h:298
-#, fuzzy
 msgid "Stained Glass"
-msgstr "Gebarsten glas"
+msgstr "Glasraam"
 
 #: ../share/filters/filters.svg.h:300
-#, fuzzy
 msgid "Illuminated stained glass effect"
-msgstr "Belicht doorzichtig plastiek- of glaseffect"
+msgstr "Belicht glasraameffect"
 
 #: ../share/filters/filters.svg.h:302
-#, fuzzy
 msgid "Dark Glass"
-msgstr "Gebarsten glas"
+msgstr "Donker glas"
 
 #: ../share/filters/filters.svg.h:304
 msgid "Illuminated glass effect with light coming from beneath"
-msgstr ""
+msgstr "Glaseffect met licht van onder"
 
 #: ../share/filters/filters.svg.h:306
 msgid "HSL Bumps Alpha"
-msgstr ""
+msgstr "TVL alfaverhoging"
 
 #: ../share/filters/filters.svg.h:308
 msgid "Same as HSL Bumps but with transparent highlights"
-msgstr ""
+msgstr "Gelijkaardig aan TVL verhoging met transparante verhoging"
 
 #: ../share/filters/filters.svg.h:310
-#, fuzzy
 msgid "Bubbly Bumps Alpha"
-msgstr "Vervormde bellen"
+msgstr "Verhoging met alfabellen"
 
 #: ../share/filters/filters.svg.h:312
 msgid "Same as Bubbly Bumps but with transparent highlights"
-msgstr ""
+msgstr "Gelijkaardig aan verhoging met bellen met transparante verhoging"
 
 #: ../share/filters/filters.svg.h:314 ../share/filters/filters.svg.h:362
 msgid "Torn Edges"
 msgstr "Randen omplooien"
 
 #: ../share/filters/filters.svg.h:316 ../share/filters/filters.svg.h:364
-#, fuzzy
 msgid ""
 "Displace the outside of shapes and pictures without altering their content"
-msgstr "Masker dat aan de randen vervaagt zonder de inhoud aan te passen"
+msgstr ""
+"Verplaats buitenzijde van vormen en afbeeldingen zonder de inhoud aan te "
+"passen"
 
 #: ../share/filters/filters.svg.h:318
-#, fuzzy
 msgid "Roughen Inside"
-msgstr "Verruwingsmodus"
+msgstr "Verruwen langs binnen"
 
 #: ../share/filters/filters.svg.h:320
 msgid "Roughen all inside shapes"
-msgstr ""
+msgstr "Alle binnenranden van vormen verruwen"
 
 #: ../share/filters/filters.svg.h:322
-#, fuzzy
 msgid "Evanescent"
-msgstr "Javaans"
+msgstr "Vergankelijk"
 
 #: ../share/filters/filters.svg.h:324
 msgid ""
 "Blur the contents of objects, preserving the outline and adding progressive "
 "transparency at edges"
 msgstr ""
+"Inhoud van objecten vervagen, randen behouden met toenemende transparantie "
+"aan randen"
 
 #: ../share/filters/filters.svg.h:326
 msgid "Chalk and Sponge"
-msgstr ""
+msgstr "Krijt en spons"
 
 #: ../share/filters/filters.svg.h:328
 msgid "Low turbulence gives sponge look and high turbulence chalk"
-msgstr ""
+msgstr "Lage turbulentie voor sponslook en hoogturbulente kalk"
 
 #: ../share/filters/filters.svg.h:330
 msgid "People"
-msgstr ""
+msgstr "Mensen"
 
 #: ../share/filters/filters.svg.h:332
 msgid "Colorized blotches, like a crowd of people"
-msgstr ""
+msgstr "Gekleurde vlekken zoals een menigte mensen"
 
 #: ../share/filters/filters.svg.h:334
 msgid "Scotland"
-msgstr ""
+msgstr "Schotland"
 
 #: ../share/filters/filters.svg.h:336
 msgid "Colorized mountain tops out of the fog"
-msgstr ""
+msgstr "Gekleurde bergtoppen boven de mist"
 
 #: ../share/filters/filters.svg.h:338
-#, fuzzy
 msgid "Garden of Delights"
-msgstr "Helderheid korrel"
+msgstr "Tuin der Lusten"
 
 #: ../share/filters/filters.svg.h:340
 msgid ""
 "Phantasmagorical turbulent wisps, like Hieronymus Bosch's Garden of Delights"
 msgstr ""
+"Fantastische turbulende streken, zoals bij Hieronymus Bosch's Tuin der Lusten"
 
 #: ../share/filters/filters.svg.h:342
-#, fuzzy
 msgid "Cutout Glow"
-msgstr "Uitsnijding"
+msgstr "Uitgesneden gloed"
 
 #: ../share/filters/filters.svg.h:344
 msgid "In and out glow with a possible offset and colorizable flood"
-msgstr ""
+msgstr "Gloed langs binnen en buiten met eventuele offset en gekleurde vulling"
 
 #: ../share/filters/filters.svg.h:346
-#, fuzzy
 msgid "Dark Emboss"
-msgstr "Reliëf"
+msgstr "Donker reliëf"
 
 #: ../share/filters/filters.svg.h:348
 msgid "Emboss effect : 3D relief where white is replaced by black"
-msgstr ""
+msgstr "Reliëf: 3D reliëf waar wit veranderd is in zwart"
 
 #: ../share/filters/filters.svg.h:350
-#, fuzzy
 msgid "Bubbly Bumps Matte"
-msgstr "Vervormde bellen"
+msgstr "Verhoging met matte bellen"
 
 #: ../share/filters/filters.svg.h:352
 msgid "Same as Bubbly Bumps but with a diffuse light instead of a specular one"
 msgstr ""
+"Gelijkaardig aan verhoging met bellen met diffuus in plaats van direct licht"
 
 #: ../share/filters/filters.svg.h:354
 msgid "Blotting Paper"
-msgstr ""
+msgstr "Vloeipapier"
 
 #: ../share/filters/filters.svg.h:356
-#, fuzzy
 msgid "Inkblot on blotting paper"
-msgstr "Inktvlek op weefsel of ruw papier"
+msgstr "Inktvlek op vloeipapier"
 
 #: ../share/filters/filters.svg.h:358
-#, fuzzy
 msgid "Wax Print"
-msgstr "Afdrukken"
+msgstr "Waxafdruk"
 
 #: ../share/filters/filters.svg.h:360
 msgid "Wax print on tissue texture"
-msgstr ""
+msgstr "Waxafdruk op weefsel"
 
 #: ../share/filters/filters.svg.h:366
-#, fuzzy
 msgid "Watercolor"
-msgstr "Kleur plakken"
+msgstr "Aquarel"
 
 #: ../share/filters/filters.svg.h:368
 msgid "Cloudy watercolor effect"
-msgstr ""
+msgstr "Aquareleffect"
 
 #: ../share/filters/filters.svg.h:370
 msgid "Felt"
-msgstr ""
+msgstr "Vilt"
 
 #: ../share/filters/filters.svg.h:372
 msgid ""
 "Felt like texture with color turbulence and slightly darker at the edges"
 msgstr ""
+"Viltachtige textuur met turbulente kleuren en iets donkerder aan de randen"
 
 #: ../share/filters/filters.svg.h:374
-#, fuzzy
 msgid "Ink Paint"
 msgstr "Olieverf"
 
 #: ../share/filters/filters.svg.h:376
 msgid "Ink paint on paper with some turbulent color shift"
-msgstr ""
+msgstr "Olieverf op papier met enige turbulente kleurenshift"
 
 #: ../share/filters/filters.svg.h:378
 msgid "Tinted Rainbow"
-msgstr ""
+msgstr "Getinte regenboog"
 
 #: ../share/filters/filters.svg.h:380
 msgid "Smooth rainbow colors melted along the edges and colorizable"
 msgstr ""
+"Zachte regenboogkleuren in elkaar vloeiend langs de randen en aanpasbaar"
 
 #: ../share/filters/filters.svg.h:382
 msgid "Melted Rainbow"
-msgstr ""
+msgstr "Gesmolten regenboog"
 
 #: ../share/filters/filters.svg.h:384
 msgid "Smooth rainbow colors slightly melted along the edges"
-msgstr ""
+msgstr "Zachte regenboogkleuren licht in elkaar vloeiend langs de randen"
 
 #: ../share/filters/filters.svg.h:386
-#, fuzzy
 msgid "Flex Metal"
-msgstr "Gesmolten metaal"
+msgstr "Flexibel metaal"
 
 #: ../share/filters/filters.svg.h:388
 msgid "Bright, polished uneven metal casting, colorizable"
-msgstr ""
+msgstr "Onregelmatige metalen vormen, helder en gepolijst, aanpasbaar"
 
 #: ../share/filters/filters.svg.h:390
 msgid "Wavy Tartan"
-msgstr ""
+msgstr "Golvende tartan"
 
 #: ../share/filters/filters.svg.h:392
 msgid "Tartan pattern with a wavy displacement and bevel around the edges"
-msgstr ""
+msgstr "Golvend tartanpatroon met verhoging aan de randen"
 
 #: ../share/filters/filters.svg.h:394
 msgid "3D Marble"
-msgstr ""
+msgstr "3D marmer"
 
 #: ../share/filters/filters.svg.h:396
 msgid "3D warped marble texture"
-msgstr ""
+msgstr "3D marmertextuur"
 
 #: ../share/filters/filters.svg.h:398
 msgid "3D Wood"
-msgstr ""
+msgstr "3D hout"
 
 #: ../share/filters/filters.svg.h:400
 msgid "3D warped, fibered wood texture"
-msgstr ""
+msgstr "3D houtvezeltextuur"
 
 #: ../share/filters/filters.svg.h:402
 msgid "3D Mother of Pearl"
-msgstr ""
+msgstr "3D parelmoer"
 
 #: ../share/filters/filters.svg.h:404
 msgid "3D warped, iridescent pearly shell texture"
-msgstr ""
+msgstr "3D iriserende parelmoerschelp"
 
 #: ../share/filters/filters.svg.h:406
-#, fuzzy
 msgid "Tiger Fur"
-msgstr "Luipaardvacht"
+msgstr "Tijgervacht"
 
 #: ../share/filters/filters.svg.h:408
 msgid "Tiger fur pattern with folds and bevel around the edges"
-msgstr ""
+msgstr "Tijgervachtpatroon met vouwen en verhoging langs de randen"
 
 #: ../share/filters/filters.svg.h:410
-#, fuzzy
 msgid "Black Light"
-msgstr "Zwart punt:"
+msgstr ""
 
 #: ../share/filters/filters.svg.h:411 ../share/filters/filters.svg.h:575
 #: ../share/filters/filters.svg.h:587 ../share/filters/filters.svg.h:627
@@ -1173,25 +1153,23 @@ msgstr "Kleur"
 
 #: ../share/filters/filters.svg.h:412
 msgid "Light areas turn to black"
-msgstr ""
+msgstr "Lichte gebieden worden zwart"
 
 #: ../share/filters/filters.svg.h:414
-#, fuzzy
 msgid "Film Grain"
-msgstr "Korrel"
+msgstr "Filmkorrel"
 
 #: ../share/filters/filters.svg.h:416
 msgid "Adds a small scale graininess"
-msgstr ""
+msgstr "Een kleine korrel toevoegen"
 
 #: ../share/filters/filters.svg.h:418
-#, fuzzy
 msgid "Plaster Color"
-msgstr "Kleur plakken"
+msgstr "Gekleurde gips"
 
 #: ../share/filters/filters.svg.h:420
 msgid "Colored plaster emboss effect"
-msgstr ""
+msgstr "Gekleurd gipsreliëf"
 
 #: ../share/filters/filters.svg.h:422
 msgid "Velvet Bumps"
@@ -1224,7 +1202,7 @@ msgstr ""
 
 #: ../share/filters/filters.svg.h:430
 msgid "Chewing Gum"
-msgstr ""
+msgstr "Kauwgom"
 
 #: ../share/filters/filters.svg.h:432
 msgid ""
@@ -1233,7 +1211,6 @@ msgid ""
 msgstr ""
 
 #: ../share/filters/filters.svg.h:434
-#, fuzzy
 msgid "Dark And Glow"
 msgstr "Schaduw en gloed"
 
@@ -1258,27 +1235,24 @@ msgid "Create a turbulent contour around"
 msgstr ""
 
 #: ../share/filters/filters.svg.h:446
-#, fuzzy
 msgid "Old Postcard"
-msgstr "Oud Perzisch"
+msgstr "Oude postkaart"
 
 #: ../share/filters/filters.svg.h:448
 msgid "Slightly posterize and draw edges like on old printed postcards"
 msgstr ""
 
 #: ../share/filters/filters.svg.h:450
-#, fuzzy
 msgid "Dots Transparency"
-msgstr "Transparantie dialoogvenster"
+msgstr "Transparant pointillisme"
 
 #: ../share/filters/filters.svg.h:452
 msgid "Gives a pointillist HSL sensitive transparency"
 msgstr ""
 
 #: ../share/filters/filters.svg.h:454
-#, fuzzy
 msgid "Canvas Transparency"
-msgstr "Transparantie kleurkanaal"
+msgstr ""
 
 #: ../share/filters/filters.svg.h:456
 msgid "Gives a canvas like HSL sensitive transparency."
@@ -24137,11 +24111,11 @@ msgstr[1] ""
 msgid ""
 "shared by <b>%d</b> box; drag with <b>Shift</b> to separate selected box(es)"
 msgid_plural ""
-"shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box"
-"(es)"
+"shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected "
+"box(es)"
 msgstr[0] ""
-"gedeeld met <b>%d</b> kubus; sleep met <b>Shift</b> om de geselecteerde kubus"
-"(sen) te scheiden"
+"gedeeld met <b>%d</b> kubus; sleep met <b>Shift</b> om de geselecteerde "
+"kubus(sen) te scheiden"
 msgstr[1] ""
 "gedeeld met <b>%d</b> kubussen; sleep met <b>Shift</b> om de geselecteerde "
 "kubus(sen) te scheiden"
@@ -32180,8 +32154,8 @@ msgstr ""
 "gereedschap. De diepte kan gegeven zijn door elke Python uitdrukking. "
 "Bijvoorbeeld kegel....(45 graden)......................: w kegel....(hoogte/"
 "diameter=10/3)..: 10*w/3 sfeer..(straal r)...........................: math."
-"sqrt(max(0,r**2-w**2)) ellips.(korte as r, lange as 4r).....: math.sqrt(max"
-"(0,r**2-w**2))*4"
+"sqrt(max(0,r**2-w**2)) ellips.(korte as r, lange as 4r).....: math."
+"sqrt(max(0,r**2-w**2))*4"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:1
 msgid "Graffiti"
