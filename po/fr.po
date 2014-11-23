@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-11-15 10:03+0100\n"
-"PO-Revision-Date: 2014-11-19 14:32+0100\n"
+"POT-Creation-Date: 2014-11-23 18:18+0100\n"
+"PO-Revision-Date: 2014-11-23 18:21+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "Language: fr_FR\n"
@@ -3407,7 +3407,7 @@ msgstr "Panneaux signalétiques AIGA"
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
-#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
 msgctxt "Symbol"
 msgid "Telephone"
 msgstr "Téléphone"
@@ -3701,7 +3701,7 @@ msgstr "Non fumeur"
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
-#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
 msgctxt "Symbol"
 msgid "Parking"
 msgstr "Parking"
@@ -4279,134 +4279,152 @@ msgstr "Marina"
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
 msgctxt "Symbol"
+msgid "Motorbike Trail"
+msgstr "Piste pour moto"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+msgctxt "Symbol"
+msgid "Radiator Water"
+msgstr "Liquide de refroidissement"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+msgctxt "Symbol"
 msgid "Recycling"
 msgstr "Recyclage"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
 msgctxt "Symbol"
 msgid "Pets On Leash"
 msgstr "Animaux en laisse"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
 msgctxt "Symbol"
 msgid "Picnic Area"
 msgstr "Zone de pique-nique"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
 msgctxt "Symbol"
 msgid "Post Office"
 msgstr "Bureau de poste"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
 msgctxt "Symbol"
 msgid "Ranger Station"
 msgstr "Garde forestier"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
 msgctxt "Symbol"
 msgid "RV Campground"
 msgstr "Terrain de caravaning"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
+#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
 msgid "Restrooms"
 msgstr "Toilettes"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
+#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
 msgctxt "Symbol"
 msgid "Sailing"
 msgstr "Voile"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
+#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
 msgctxt "Symbol"
 msgid "Sanitary Disposal Station"
 msgstr "Aire de service pour camping-car"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
+#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
 msgctxt "Symbol"
 msgid "Scuba Diving"
 msgstr "Plongée"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
+#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
 msgctxt "Symbol"
 msgid "Self Guided Trail"
 msgstr "Sentier balisé"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
+#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
 msgctxt "Symbol"
 msgid "Shelter"
 msgstr "Abri"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
 msgctxt "Symbol"
 msgid "Showers"
 msgstr "Douches"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
 msgctxt "Symbol"
 msgid "Sledding"
 msgstr "Luge"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
 msgctxt "Symbol"
 msgid "SnowmobileTrail"
 msgstr "Sentier pour motoneige"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
 msgctxt "Symbol"
 msgid "Stable"
 msgstr "Écurie"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
 msgctxt "Symbol"
 msgid "Store"
 msgstr "Boutique"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
 msgctxt "Symbol"
 msgid "Swimming"
 msgstr "Natation"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
 msgctxt "Symbol"
 msgid "Emergency Telephone"
 msgstr "Téléphone de secours"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
 msgctxt "Symbol"
 msgid "Trailhead"
 msgstr "Départ de randonnée"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+#: ../share/symbols/symbols.h:287 ../share/symbols/symbols.h:288
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
 msgstr "Accessible en fauteuil roulant"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+#: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
 msgctxt "Symbol"
 msgid "Wind Surfing"
 msgstr "Planche à voile"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:291
+msgctxt "Symbol"
+msgid "Blank"
+msgstr "Vide"
 
 #: ../share/templates/templates.h:1
 msgid "A4 Landscape Page"
@@ -38833,9 +38851,6 @@ msgstr "Entrée XAML"
 
 #~ msgid "Image Blur"
 #~ msgstr "Flou par image"
-
-#~ msgid "Radiation"
-#~ msgstr "Radiation"
 
 #~ msgid "Blur, custom (ABCs)"
 #~ msgstr "Flou, paramétrable (ABC)"
