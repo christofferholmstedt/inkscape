@@ -1243,7 +1243,7 @@ msgstr "Oude postkaart"
 
 #: ../share/filters/filters.svg.h:448
 msgid "Slightly posterize and draw edges like on old printed postcards"
-msgstr "Licht posteriseren en randen zoals op oude postkaarten tekenen"
+msgstr "Licht verzadigen en randen zoals op oude postkaarten tekenen"
 
 #: ../share/filters/filters.svg.h:450
 msgid "Dots Transparency"
@@ -25043,7 +25043,7 @@ msgstr "Geselecteerde paden in subpaden opdelen"
 
 #: ../src/verbs.cpp:2561
 msgid "_Arrange..."
-msgstr "_Ordenen"
+msgstr "_Ordenen..."
 
 #: ../src/verbs.cpp:2562
 #, fuzzy
