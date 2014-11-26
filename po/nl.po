@@ -1307,68 +1307,63 @@ msgid "White splotches evocating carnaval masks"
 msgstr "Witte vlekken zoals carnavalmaskers"
 
 #: ../share/filters/filters.svg.h:478
-#, fuzzy
 msgid "Plastify"
-msgstr "Uitgevuld"
+msgstr "Plastificeren"
 
 #: ../share/filters/filters.svg.h:480
 msgid ""
 "HSL edges detection bump with a wavy reflective surface effect and variable "
 "crumple"
-msgstr ""
+msgstr "TVL-randherkenning met een golvend reflecterend oppervlak en variabele kreuken"
 
 #: ../share/filters/filters.svg.h:482
-#, fuzzy
 msgid "Plaster"
-msgstr "Plakken"
+msgstr "Gips"
 
 #: ../share/filters/filters.svg.h:484
 msgid ""
 "Combine a HSL edges detection bump with a matte and crumpled surface effect"
-msgstr ""
+msgstr "TVL-randherkenning met een mat verkreukt oppervlak combineren"
 
 #: ../share/filters/filters.svg.h:486
-#, fuzzy
 msgid "Rough Transparency"
-msgstr "Transparantie dialoogvenster"
+msgstr "Ruwe transparantie"
 
 #: ../share/filters/filters.svg.h:488
 msgid "Adds a turbulent transparency which displaces pixels at the same time"
-msgstr ""
+msgstr "Een turbulente transparantie toevoegent die gelijktijdig pixels verplaatst"
 
 #: ../share/filters/filters.svg.h:490
 msgid "Gouache"
-msgstr ""
+msgstr "Gouache"
 
 #: ../share/filters/filters.svg.h:492
 msgid "Partly opaque water color effect with bleed"
-msgstr ""
+msgstr "Gedeeltelijk opaak aquareleffect met vlekken"
 
 #: ../share/filters/filters.svg.h:494
-#, fuzzy
 msgid "Alpha Engraving"
-msgstr "Gravering"
+msgstr "Alfa-gravering"
 
 #: ../share/filters/filters.svg.h:496
 msgid "Gives a transparent engraving effect with rough line and filling"
-msgstr ""
+msgstr "Geeft een transparante gravering met ruwe lijn en vulling"
 
 #: ../share/filters/filters.svg.h:498
 msgid "Alpha Draw Liquid"
-msgstr ""
+msgstr "Vloeiende transparantie"
 
 #: ../share/filters/filters.svg.h:500
 msgid "Gives a transparent fluid drawing effect with rough line and filling"
-msgstr ""
+msgstr "Geeft het effect van een vloeiende transparante afbeelding met ruwe lijn en vulling"
 
 #: ../share/filters/filters.svg.h:502
-#, fuzzy
 msgid "Liquid Drawing"
-msgstr "Tekening"
+msgstr "Vloeiende tekening"
 
 #: ../share/filters/filters.svg.h:504
 msgid "Gives a fluid and wavy expressionist drawing effect to images"
-msgstr ""
+msgstr "Geeft het effect van een druppende en golvende expressionistische afbeelding"
 
 #: ../share/filters/filters.svg.h:506
 msgid "Marbled Ink"
@@ -8183,7 +8178,7 @@ msgstr "%s bitmap importeren"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
 msgid "Image Import Type:"
-msgstr ""
+msgstr "Wijze van importeren:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
 msgid ""
@@ -8212,21 +8207,19 @@ msgstr "PPI Afbeelding:"
 msgid ""
 "Take information from file or use default bitmap import resolution as "
 "defined in the preferences."
-msgstr ""
+msgstr "Informatie uit bestand halen of standaard afbeeldingsresolutie uit voorkeuren gebruiken."
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:197
 msgid "From file"
 msgstr "Uit bestand"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:198
-#, fuzzy
 msgid "Default import resolution"
-msgstr "Standaardresolutie voor _importeren:"
+msgstr "Standaardresolutie voor importeren"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
-#, fuzzy
 msgid "Image Rendering Mode:"
-msgstr "Renderen van afbeelding:"
+msgstr "Rendermodus afbeelding:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
 msgid ""
@@ -9187,7 +9180,7 @@ msgstr "Standaard"
 
 #: ../src/interface.cpp:748
 msgid "Default interface setup"
-msgstr "Standaard interface"
+msgstr "Standaardinterface"
 
 #: ../src/interface.cpp:749
 msgctxt "Interface setup"
@@ -12451,7 +12444,7 @@ msgstr "basis"
 #: ../src/selection-describer.cpp:130 ../src/widgets/ege-paint-def.cpp:66
 #: ../src/widgets/ege-paint-def.cpp:90
 msgid "none"
-msgstr "Niet"
+msgstr "geen"
 
 #: ../src/selection-describer.cpp:142
 #, c-format
@@ -17676,7 +17669,7 @@ msgstr "Meetlat"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:385
 msgid "Ignore first and last points"
-msgstr "De eerste en laatste punten negeren"
+msgstr "Eerste en laatste punten negeren"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:386
 msgid ""
@@ -19411,7 +19404,7 @@ msgstr ""
 #.
 #: ../src/ui/dialog/inkscape-preferences.cpp:1219
 msgid "Mouse wheel zooms by default"
-msgstr "Standaard zoom muiswiel"
+msgstr "Standaardzoom muiswiel"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1221
 msgid ""
@@ -19453,7 +19446,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1233
 msgid "Only snap the node closest to the pointer"
-msgstr "Enkel het knooppunt dichtst bij de cursor kleeft"
+msgstr "Enkel het meest nabije knooppunt bij de cursor kleeft"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1235
 msgid ""
@@ -19914,11 +19907,11 @@ msgstr "Resolutie gebruikt voor het commando Bitmapkopie Aanmaken:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1444
 msgid "Ask about linking and scaling when importing"
-msgstr ""
+msgstr "Vragen om te linken of schalen bij importeren"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1446
 msgid "Pop-up linking and scaling dialog when importing bitmap image."
-msgstr ""
+msgstr "Dialoogvenser linken of schalen tonen bij importeren bitmapafbeelding."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1452
 msgid "Bitmap link:"
@@ -19948,15 +19941,14 @@ msgstr ""
 
 #. rendering outlines for pixmap image tags
 #: ../src/ui/dialog/inkscape-preferences.cpp:1472
-#, fuzzy
 msgid "Images in Outline Mode"
-msgstr "Renderen van afbeelding:"
+msgstr "Afbeeldingen in contourmodus"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1473
 msgid ""
 "When active will render images while in outline mode instead of a red box "
 "with an x. This is useful for manual tracing."
-msgstr ""
+msgstr "Indien aangevinkt worden afbeeldingen gerenderd in contourmodus in plaats van een rode box met een x. Dit is handig bij manueel overtrekken."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1475
 msgid "Bitmaps"
@@ -19966,7 +19958,7 @@ msgstr "Bitmaps"
 msgid ""
 "Select a file of predefined shortcuts to use. Any customized shortcuts you "
 "create will be added seperately to "
-msgstr ""
+msgstr "Selecteer een bestand met voorgedefinieerde snelkoppelingen. Alle aangemaakte eigen snelkoppelingen worden afzonderlijk bewaard in "
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1490
 msgid "Shortcut file:"
@@ -20000,7 +19992,7 @@ msgid ""
 "in the shortcut file listed above"
 msgstr ""
 "Alle aangepaste sneltoetsen verwijderen en vervangen door de sneltoetsen in "
-"het hierboven geselecteerd sneltoetsbestand"
+"het hierboven geselecteerde sneltoetsbestand"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1565
 msgid "Import ..."
@@ -20008,7 +20000,7 @@ msgstr "Importeren..."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1565
 msgid "Import custom keyboard shortcuts from a file"
-msgstr "Aangepaste sneltoetsen van een bestand importeren"
+msgstr "Aangepaste sneltoetsen uit een bestand importeren"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1568
 msgid "Export ..."
@@ -25046,9 +25038,8 @@ msgid "_Arrange..."
 msgstr "_Ordenen..."
 
 #: ../src/verbs.cpp:2562
-#, fuzzy
 msgid "Arrange selected objects in a table or circle"
-msgstr "Geselecteerde objecten in een tabel rangschikken"
+msgstr "Geselecteerde objecten in een tabel of cirkel rangschikken"
 
 #. Layer
 #: ../src/verbs.cpp:2564
@@ -25738,12 +25729,10 @@ msgid "Show or hide the canvas scrollbars"
 msgstr "Schuifbalken weergeven of verbergen"
 
 #: ../src/verbs.cpp:2742
-#, fuzzy
 msgid "Page _Grid"
-msgstr "Pagina_breedte"
+msgstr "_Raster"
 
 #: ../src/verbs.cpp:2742
-#, fuzzy
 msgid "Show or hide the page grid"
 msgstr "Raster weergeven of verbergen"
 
@@ -26030,7 +26019,7 @@ msgstr "_Symbolen..."
 
 #: ../src/verbs.cpp:2822
 msgid "Select symbol from a symbols palette"
-msgstr "Symbool selecteren van symboolpalet"
+msgstr "Symbool uit symboolpalet selecteren"
 
 #: ../src/verbs.cpp:2823
 msgid "Transfor_m..."
@@ -26103,7 +26092,7 @@ msgstr "_Berichten..."
 
 #: ../src/verbs.cpp:2842
 msgid "View debug messages"
-msgstr "Debug-meldingen bekijken"
+msgstr "Debugmeldingen bekijken"
 
 #: ../src/verbs.cpp:2843
 msgid "Show/Hide D_ialogs"
