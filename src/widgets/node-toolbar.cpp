@@ -330,7 +330,7 @@ static void sp_node_toolbox_sel_modified(Inkscape::Selection *selection, guint /
 void sp_node_toolbox_prep(SPDesktop *desktop, GtkActionGroup* mainActions, GObject* holder)
 {
     UnitTracker* tracker = new UnitTracker(Inkscape::Util::UNIT_TYPE_LINEAR);
-    Unit doc_units = *sp_desktop_namedview(desktop)->doc_units;
+    Unit doc_units = *sp_desktop_namedview(desktop)->display_units;
     tracker->setActiveUnit(&doc_units);
     g_object_set_data( holder, "tracker", tracker );
 

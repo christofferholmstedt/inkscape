@@ -311,10 +311,10 @@ PageSizer::PageSizer(Registry & _wr)
     SPDesktop *dt = SP_ACTIVE_DESKTOP;
     SPNamedView *nv = sp_desktop_namedview(dt);
     _wr.setUpdating (true);
-    if (nv->units) {
-        _dimensionUnits.setUnit(nv->units->abbr);
-    } else if (nv->doc_units) {
-        _dimensionUnits.setUnit(nv->doc_units->abbr);
+    if (nv->page_size_units) {
+        _dimensionUnits.setUnit(nv->page_size_units->abbr);
+    } else if (nv->display_units) {
+        _dimensionUnits.setUnit(nv->display_units->abbr);
     }
     _wr.setUpdating (false);
     

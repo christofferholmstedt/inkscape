@@ -599,6 +599,14 @@ Inkscape::Util::Unit const* SPDocument::getDefaultUnit() const
     return nv ? nv->getDefaultUnit() : unit_table.getUnit("pt");
 }
 
+/// guaranteed not to return nullptr
+// returns 'px' units as default, like legacy Inkscape
+Inkscape::Util::Unit const& SPDocument::getSVGUnit() const
+{
+    SPNamedView const* nv = sp_document_namedview(this, NULL);
+    return nv ? nv->getSVGUnit() : *unit_table.getUnit("px");
+}
+
 Inkscape::Util::Quantity SPDocument::getWidth() const
 {
     g_return_val_if_fail(this->priv != NULL, Inkscape::Util::Quantity(0.0, unit_table.getUnit("")));
@@ -619,16 +627,10 @@ Inkscape::Util::Quantity SPDocument::getWidth() const
 void SPDocument::setWidth(const Inkscape::Util::Quantity &width)
 {
     gdouble old_computed = root->width.computed;
+
     root->width.computed = width.value("px");
-    /* SVG does not support meters as a unit, so we must translate meters to
-     * cm when writing */
-    if (*width.unit == *unit_table.getUnit("m")) {
-        root->width.value = width.value("cm");
-        root->width.unit = SVGLength::CM;
-    } else {
-        root->width.value = width.quantity;
-        root->width.unit = (SVGLength::Unit) width.unit->svgUnit();
-    }
+    root->width.value = width.quantity;
+    root->width.unit = (SVGLength::Unit) width.unit->svgUnit();
 
     if (root->viewBox_set)
         root->viewBox.setMax(Geom::Point(root->viewBox.left() + (root->width.computed / old_computed) * root->viewBox.width(), root->viewBox.bottom()));
@@ -657,16 +659,10 @@ Inkscape::Util::Quantity SPDocument::getHeight() const
 void SPDocument::setHeight(const Inkscape::Util::Quantity &height)
 {
     gdouble old_computed = root->height.computed;
+
     root->height.computed = height.value("px");
-    /* SVG does not support meters as a unit, so we must translate meters to
-     * cm when writing */
-    if (*height.unit == *unit_table.getUnit("m")) {
-        root->height.value = height.value("cm");
-        root->height.unit = SVGLength::CM;
-    } else {
-        root->height.value = height.quantity;
-        root->height.unit = (SVGLength::Unit) height.unit->svgUnit();
-    }
+    root->height.value = height.quantity;
+    root->height.unit = (SVGLength::Unit) height.unit->svgUnit();
 
     if (root->viewBox_set)
         root->viewBox.setMax(Geom::Point(root->viewBox.right(), root->viewBox.top() + (root->height.computed / old_computed) * root->viewBox.height()));

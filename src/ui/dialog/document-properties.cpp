@@ -1475,8 +1475,8 @@ void DocumentProperties::update()
     _rcb_antialias.set_xml_target(root->getRepr(), dt->getDocument());
     _rcb_antialias.setActive(root->style->shape_rendering.computed != SP_CSS_SHAPE_RENDERING_CRISPEDGES);
 
-    if (nv->doc_units) {
-        _rum_deflt.setUnit (nv->doc_units->abbr);
+    if (nv->display_units) {
+        _rum_deflt.setUnit (nv->display_units->abbr);
     }
 
     double doc_w = sp_desktop_document(dt)->getRoot()->width.value;
@@ -1703,7 +1703,10 @@ void DocumentProperties::onDocUnitChange()
     Inkscape::SVGOStringStream os;
     os << doc_unit->abbr;
     repr->setAttribute("inkscape:document-units", os.str().c_str());
-    
+
+    // Disable changing of SVG Units. The intent here is to change the units in the UI, not the units in SVG.
+    // This code should be moved (and fixed) once we have an "SVG Units" setting that sets what units are used in SVG data.
+#if 0    
     // Set viewBox
     if (doc->getRoot()->viewBox_set) {
         gdouble scale = Inkscape::Util::Quantity::convert(1, old_doc_unit, doc_unit);
@@ -1755,6 +1758,7 @@ void DocumentProperties::onDocUnitChange()
     prefs->setBool("/options/transform/rectcorners", transform_rectcorners);
     prefs->setBool("/options/transform/pattern",     transform_pattern);
     prefs->setBool("/options/transform/gradient",    transform_gradient);
+#endif
 
     doc->setModifiedSinceSave();
     
