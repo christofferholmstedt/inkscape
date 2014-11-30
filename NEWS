@@ -1,4 +1,4 @@
-649 lines
+653 lines
 Inkscape 0.91
 
 (not released yet - AnnouncePlanning091)
@@ -18,8 +18,7 @@ Released on «YYYY-MM-DD».
   • Improved support for Corel DRAW documents, Visio importer
   • Support for real world document and page size units, e.g. millimeters
   • Numerous usability improvements
-  • Native Windows 64-bit build Partha
-  • Native Mac OS X build? (Valerio Aimale?) Mailing List discussion
+  • Native Windows 64-bit build
   • See Notable bug fixes
 
 Rendering and performance
@@ -423,6 +422,8 @@ inkex.Effect class.
 Unit conversion calls should be replaced with inkex.Effect.unittouu and
 inkex.Effect.uutounit calls (usually self.unittouu and self.uutounit).
 
+See also: Notes On Units Handling in Extensions in 0.91
+
 New
 
   • The new guillotine extension is used for exporting PNG slices from a
@@ -445,6 +446,7 @@ New
     triangulations based on the selected objects' barycenter).
   • New Interpolate Attribute in a group extension.
   • New Typography extensions menu.
+  • New Hershey Text extension.
 
 Improvements
 
@@ -507,6 +509,8 @@ Notable bug fixes since last bug fix release (0.48.4):
     specification.
   • Values entered in the numeric input boxes for the selector tool (X, Y,
     width, height) are much more accurately applied.
+  • Inkscape launches faster due to new icon cache (on disk) and improved font
+    loading. (Bug #488247)
 
 Known issues
 
@@ -515,7 +519,7 @@ Known issues
     32-bit.
   • The Cairo library used in the new renderer does not implement downscaling,
     which causes large bitmaps to be pixelated on export. [2] The issue can be
-    fixed with an out-of-tree patch to Cairo. [3]
+    fixed by upgrading to Cairo 1.14.0. [3]
 
 
 For information on prior releases, please see:
