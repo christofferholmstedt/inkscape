@@ -769,7 +769,7 @@ PdfInput::open(::Inkscape::Extension::Input * /*mod*/, const gchar * uri) {
         if (dlg)
             dlg->getImportSettings(prefs);
 
-        printf("pdf import via %s.", (is_importvia_poppler != 0) ? "poppler" : "native");
+        //printf("pdf import via %s.", (is_importvia_poppler != 0) ? "poppler" : "native");
 
         // Apply crop settings
         PDFRectangle *clipToBox = NULL;
