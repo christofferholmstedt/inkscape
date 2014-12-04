@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-11-23 18:18+0100\n"
-"PO-Revision-Date: 2014-11-23 18:21+0100\n"
+"PO-Revision-Date: 2014-12-04 18:31+0100\n"
 "Last-Translator: Nicolas Dufour <nicoduf@yahoo.fr>\n"
 "Language-Team:  <fr@li.org>\n"
 "Language: fr_FR\n"
@@ -9308,7 +9308,7 @@ msgstr "Vec_toriser le bitmap..."
 #. Trace Pixel Art
 #: ../src/interface.cpp:1988
 msgid "Trace Pixel Art"
-msgstr "Vectoriser en Pixel Art"
+msgstr "Vectoriser du pixel art"
 
 #: ../src/interface.cpp:1998
 msgctxt "Context menu"
@@ -25110,7 +25110,7 @@ msgstr "Créer un ou plusieurs chemin en vectorisant un bitmap"
 
 #: ../src/verbs.cpp:2551
 msgid "Trace Pixel Art..."
-msgstr "Vec_toriser en pixel art..."
+msgstr "Vec_toriser du pixel art..."
 
 #: ../src/verbs.cpp:2552
 msgid "Create paths using Kopf-Lischinski algorithm to vectorize pixel art"
@@ -26380,11 +26380,11 @@ msgstr "Vectorisation de bitmap"
 #. "tutorial_tracing"
 #: ../src/verbs.cpp:2887
 msgid "Inkscape: Tracing Pixel Art"
-msgstr "Inkscape : vectorisation en pixel art"
+msgstr "Inkscape : vectorisation de pixel art"
 
 #: ../src/verbs.cpp:2888
 msgid "Using Trace Pixel Art dialog"
-msgstr ""
+msgstr "Utiliser la boîte de dialogue Vectoriser du pixel art"
 
 #: ../src/verbs.cpp:2889
 msgid "Inkscape: _Calligraphy"
@@ -31336,9 +31336,8 @@ msgid "Character Encoding"
 msgstr "Encodage de caractère"
 
 #: ../share/extensions/dxf_outlines.inx.h:7
-#, fuzzy
 msgid "Layer export selection"
-msgstr "Supprimer la sélection"
+msgstr "Sélection du cadre à exporter"
 
 #: ../share/extensions/dxf_outlines.inx.h:8
 msgid "Layer match name"
@@ -31422,7 +31421,6 @@ msgid "By name match"
 msgstr "Correspondance par nom"
 
 #: ../share/extensions/dxf_outlines.inx.h:25
-#, fuzzy
 msgid ""
 "- AutoCAD Release 14 DXF format.\n"
 "- The base unit parameter specifies in what unit the coordinates are output "
@@ -31449,8 +31447,9 @@ msgstr ""
 "utilisée que par des lecteurs ROBO-Master et AutoDesk, pas Inkscape.\n"
 "- La sortie LWPOLYLINE est une polyligne multi-connectée. Désactivez cette "
 "option pour utiliser une ancienne version de la sortie LINE.\n"
-"- Vous pouvez choisir d'exporter tous les calques ou seulement ceux qui sont "
-"visibles."
+"- Vous pouvez choisir d'exporter tous les calques, seulement ceux qui sont "
+"visibles, ou choisir par nom (insensible à la casse, utilisez une virgule "
+"comme séparateur)"
 
 #: ../share/extensions/dxf_outlines.inx.h:34
 msgid "Desktop Cutting Plotter (AutoCAD DXF R14) (*.dxf)"
@@ -33162,14 +33161,14 @@ msgid "Pen speed (cm/s or mm/s):"
 msgstr "Vitesse du stylo (cm/s ou mm/s) :"
 
 #: ../share/extensions/hpgl_output.inx.h:13
-#, fuzzy
 msgid ""
 "The speed the pen will move with in centimeters or millimeters per second "
 "(depending on your plotter model), set to 0 to omit command; most plotters "
 "ignore this command (Default: 0)"
 msgstr ""
-"La force d'appui du stylo, en grammes, ignorée lorsque la valeur est à 0 ; "
-"la plupart des traceurs ignorent cette commande (par défaut : 0)"
+"La vitesse à laquelle le stylo se déplace, en centimètres ou millimètres par "
+"seconde (en fonction du modèle de traceur), ignorée lorsque la valeur est à "
+"0 ; la plupart des traceurs ignorent cette commande (par défaut : 0)"
 
 #: ../share/extensions/hpgl_output.inx.h:14
 msgid "Rotation (°, Clockwise):"
@@ -33228,6 +33227,9 @@ msgid ""
 "The distance in mm that will be cut over the starting point of the path to "
 "prevent open paths, set to 0.0 to omit command (Default: 1.00)"
 msgstr ""
+"Distance en mm qui sera coupée au dessus du point de départ du chemin pour "
+"empêcher les chemins ouverts, ignorée lorsque la valeur est à zéro (1 par "
+"défaut)"
 
 #: ../share/extensions/hpgl_output.inx.h:25
 #: ../share/extensions/plotter.inx.h:44
@@ -33240,6 +33242,8 @@ msgid ""
 "The offset from the tool tip to the tool axis in mm, set to 0.0 to omit "
 "command (Default: 0.25)"
 msgstr ""
+"Décalage de la pointe de l'outil par rapport à son axe en mm, ignoré lorsque "
+"la valeur est à zéro (0,25 par défaut)"
 
 #: ../share/extensions/hpgl_output.inx.h:27
 #: ../share/extensions/plotter.inx.h:46
@@ -33252,6 +33256,8 @@ msgid ""
 "Check this to cut a small line before the real drawing starts to correctly "
 "align the tool orientation. (Default: Checked)"
 msgstr ""
+"Cochez pour découper une petite ligne avant le dessin pour aligner "
+"correctement l'orientation de l'outil (coché par défaut)"
 
 #: ../share/extensions/hpgl_output.inx.h:29
 #: ../share/extensions/plotter.inx.h:48
@@ -33280,6 +33286,10 @@ msgid ""
 "if used). If unchecked you have to make sure that all parts of your drawing "
 "are within the document border! (Default: Checked)"
 msgstr ""
+"Cochez pour aligner automatiquement le dessin au point zéro (en tenant "
+"compte du décalage de l'outil si utilisé). Si cette case est décochée, vous "
+"devez vous assurer que toutes les parties du dessin sont dans les marges du "
+"document (coché par défaut)"
 
 #: ../share/extensions/hpgl_output.inx.h:33
 #: ../share/extensions/plotter.inx.h:54
@@ -34082,7 +34092,6 @@ msgid "Margin box"
 msgstr "Boîte de marge"
 
 #: ../share/extensions/layout_nup.inx.h:25
-#, fuzzy
 msgid ""
 "\n"
 "Parameters:\n"
@@ -34097,13 +34106,18 @@ msgid ""
 msgstr ""
 "\n"
 "Paramètres :\n"
-"    * Page size: width and height.\n"
-"    * Page margins: extra space around each page.\n"
-"    * Layout rows and cols.\n"
-"    * Layout size: width and height, auto calculated if one is 0.\n"
-"    * Auto calculate layout size: don't use the layout size values.\n"
-"    * Layout margins: white space around each part of the layout.\n"
-"    * Layout padding: inner padding for each part of the layout.\n"
+"    * Dimensions de la page : hauteur et largeur.\n"
+"    * Marges de la page : espace supplémentaire autour de chaque page..\n"
+"    * Lignes et colonnes de la mise en page.\n"
+"    * Taille de la mise en page : hauteur et largeur, calculés "
+"automatiquement si l'un est à 0.\n"
+"    * Calcule automatiquement la mise en page : n'utilise pas les valeurs de "
+"taille.\n"
+"    * Marges de la mise en page : espace blanc autour de chaque partie de la "
+"mise en page.\n"
+"    * Marges internes de la mise en page : espace blanc intérieur à chaque "
+"partie de la mise en page.\n"
+"      "
 
 #: ../share/extensions/layout_nup.inx.h:36
 #: ../share/extensions/perfectboundcover.inx.h:20
@@ -34311,7 +34325,7 @@ msgid "Fixed Angle"
 msgstr "Angle fixe"
 
 #: ../share/extensions/measure.inx.h:18
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "This effect measures the length, area, or center-of-mass of the selected "
 "paths. Length and area are added as a text object with the selected units. "
@@ -34329,8 +34343,9 @@ msgid ""
 "Bezier curves. If a circle is used, the area may be too high by as much as "
 "0.03%."
 msgstr ""
-"Cet effet mesure la longueur ou l'aire du chemin sélectionné et l'ajoute "
-"comme un objet  texte avec l'unité sélectionnée.\n"
+"Cet effet mesure la longueur, l'aire ou le barycentre du chemin sélectionné "
+"et l'ajoute comme un objet  texte avec l'unité sélectionnée. Le barycentre "
+"s'affiche sous la forme d'un symbole en croix.\n"
 "\n"
 "  * L'affichage peut s'effectuer sur le chemin, ou comme texte indépendant "
 "sur un angle choisi.\n"
@@ -34492,15 +34507,14 @@ msgid "Ribbon"
 msgstr "Ruban"
 
 #: ../share/extensions/pathalongpath.inx.h:17
-#, fuzzy
 msgid ""
 "This effect scatters or bends a pattern along arbitrary \"skeleton\" paths. "
 "The pattern is the topmost object in the selection. Groups of paths, shapes "
 "or clones are allowed."
 msgstr ""
-"Cet effet disperse un motif le long de chemins « squelettes » arbitraires. "
-"Le motif doit être l'objet le plus haut dans la sélection. Les groupes de "
-"chemins, formes et clones sont permis."
+"Cet effet disperse ou courbe un motif le long de chemins « squelettes » "
+"arbitraires. Le motif doit être l'objet le plus haut dans la sélection. Les "
+"groupes de chemins, formes et clones sont permis."
 
 #: ../share/extensions/pathscatter.inx.h:3
 msgid "Follow path orientation"
@@ -34769,6 +34783,8 @@ msgid ""
 "Check this to get verbose information about the plot without actually "
 "sending something to the plotter (A.k.a. data dump) (Default: Unchecked)"
 msgstr ""
+"Cochez pour obtenir des informations détaillées sur le tracé sans envoyer de "
+"dessin au traceur (vidage de données) (décoché par défaut)"
 
 #: ../share/extensions/plt_input.inx.h:1
 msgid "AutoCAD Plot Input"
@@ -36480,7 +36496,6 @@ msgid "With HTML and CSS"
 msgstr "Avec HTML et CSS"
 
 #: ../share/extensions/webslicer_export.inx.h:7
-#, fuzzy
 msgid ""
 "All sliced images, and optionally - code, will be generated as you had "
 "configured and saved to one directory."
