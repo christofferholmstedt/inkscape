@@ -511,6 +511,7 @@ void SPDesktop::_setDisplayMode(Inkscape::RenderMode mode) {
     redrawDesktop();
     _widget->setTitle( sp_desktop_document(this)->getName() );
 }
+
 void SPDesktop::_setDisplayColorMode(Inkscape::ColorMode mode) {
     // reload grayscale matrix from prefs
     if (mode == Inkscape::COLORMODE_GRAYSCALE) {
@@ -522,7 +523,7 @@ void SPDesktop::_setDisplayColorMode(Inkscape::ColorMode mode) {
                                                r, g, b, 0, 0,
                                                r, g, b, 0, 0,
                                                0, 0, 0, 1, 0 };
-        g_message("%g",grayscale_value_matrix[0]);
+        //g_message("%g",grayscale_value_matrix[0]);
         SP_CANVAS_ARENA (drawing)->drawing.setGrayscaleMatrix(grayscale_value_matrix);
     }
 
