@@ -189,7 +189,11 @@ void UXManagerImpl::setTask(SPDesktop* dt, gint val)
     for (vector<SPDesktopWidget*>::iterator it = dtws.begin(); it != dtws.end(); ++it) {
         SPDesktopWidget* dtw = *it;
 
-        gboolean notDone = Inkscape::Preferences::get()->getBool("/options/workarounds/dynamicnotdone", false);
+        // This is disabled in the 0.91 stable version as it breaks the GUI.
+        // See bug #619903
+        // In case someone set this when it was enabled, we ignore this setting.
+        //gboolean notDone = Inkscape::Preferences::get()->getBool("/options/workarounds/dynamicnotdone", false);
+        gboolean notDone = false;
 
         if (dtw->desktop == dt) {
             int taskNum = val;

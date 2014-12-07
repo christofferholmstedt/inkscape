@@ -595,11 +595,6 @@ void InkscapePreferences::initPageUI()
     _page_ui.add_line( false, _("_Zoom correction factor (in %):"), _ui_zoom_correction, "",
                               _("Adjust the slider until the length of the ruler on your screen matches its real length. This information is used when zooming to 1:1, 1:2, etc., to display objects in their true sizes"), true);
 
-
-    _ui_partialdynamic.init( _("Enable dynamic relayout for incomplete sections"), "/options/workarounds/dynamicnotdone", false);
-    _page_ui.add_line( false, "", _ui_partialdynamic, "",
-                       _("When on, will allow dynamic layout of components that are not completely finished being refactored"), true);
-
     /* show infobox */
     _show_filters_info_box.init( _("Show filter primitives infobox (requires restart)"), "/options/showfiltersinfobox/value", true);
     _page_ui.add_line(false, "", _show_filters_info_box, "",
