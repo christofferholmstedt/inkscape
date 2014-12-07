@@ -27,8 +27,10 @@ static char const menus_skeleton[] =
 "       <separator/>\n"
 "       <verb verb-id=\"FileImport\" />\n"
 "       <verb verb-id=\"DialogExport\" />\n"
+#if !defined(ENABLE_OSX_APP_LOCATIONS)
 "       <verb verb-id=\"FileImportFromOCAL\" />\n"
 //"       <verb verb-id=\"FileExportToOCAL\" />\n"
+#endif
 "       <separator/>\n"
 "       <verb verb-id=\"FilePrint\" />\n"
 "       <separator/>\n"
