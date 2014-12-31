@@ -36,115 +36,115 @@
    <path id="path1793" d="m510.36 306.93c10.237-2.5598 33.886 0 30.119 15.058-3.7633 15.062-35.764 9.4119-56.473 1.8852-1.8823-15.061 21.529-15.737 26.354-16.943z" stroke-width="1pt"/>
    <path id="path831" d="m359.24 21.363c-11.313 0-22.606 4.3206-31.275 12.99l-154.09 154.06c-8.4969 8.4967-12.762 19.543-12.931 30.631h-0.0585c0 0.0395 0.0566 0.0774 0.0585 0.11702-0.002 0.18609-0.0585 0.36977-0.0585 0.55586h0.2633c2.9491 11.221 79.15 25.523 87.651 34.025 12.839 12.839-49.233 22.268-36.395 35.107 12.839 12.839 77.59 24.843 90.43 37.682 12.839 12.839-26.238 26.51-13.399 39.349s55.967-3.2094 48.155 30.28c17.338 17.338 53.512 9.0588 77.733-8.2795 12.839-12.839-24.629-11.707-11.79-24.546s45.247-12.908 72.555-43.621c-10.992-17.095-46.981-24.375-34.142-37.214s37.8-6.3179 91.659-30.777c26.292-11.941 24.12-21.01 24.019-32.006-0.002-0.23138 0-0.43973 0-0.67288h-0.0585c-0.16-11.07-4.46-22.12-12.95-30.62l-154.07-154.06c-8.66-8.667-19.99-12.987-31.3-12.987zm-1.3165 20.04c5.0295 0.13102 9.0916 3.9651 17.056 9.1279l72.789 53.977c0.79681 0.51671 1.5557 1.0557 2.2527 1.6091 0.69703 0.55327 1.3337 1.1401 1.9309 1.7261 0.5972 0.58495 1.14 1.1721 1.6383 1.7846 0.49726 0.61244 0.94845 1.2385 1.3458 1.8724 0.39844 0.6349 0.75476 1.2798 1.0532 1.9309 0.29867 0.65226 0.53281 1.325 0.7314 1.9894 0.19976 0.66341 0.36832 1.319 0.46811 1.9894 0.0999 0.67165 0.14627 1.3452 0.14627 2.0187l-43.123-20.83-4.3006 32.562-23.727-11.117-36.629 24.458-14.014-48.331-18.051 42.275-50.408 5.032 0.55587-22.439c0-5.3897 29.057-43.122 46.751-52.105l32.386-23.259c4.7787-3.0977 8.1289-4.35 11.147-4.2714zm-66.996 220.21c22.944 5.9503 48.476 13.757 68.957 13.897l0.87768 9.2157c-17.538-1.8078-54.648-10.276-63.398-14.745l-6.4363-8.3672z" stroke-width="1pt"/>
   </g>
-  <use id="use2086" style="color:#000000" xlink:href="#path1124" transform="matrix(3.7991 0 0 3.7991 -428.74 -36.475)" height="1052.3622" fill-opacity=".11077" width="320.00000" y="0.0000000" x="0.0000000" font-family="Sans" fill="#ffffff"/>
-  <text id="text7519" opacity=".5" line-height="125%" xml:space="preserve" transform="rotate(90)" font-size="6.9693px" y="-326.81229" x="3.6203015" font-family="Sans" sodipodi:linespacing="125%" fill="#000000"><tspan id="tspan7521" sodipodi:role="line" x="3.6203015" style="letter-spacing:.29056" y="-326.81229">Gunakan <tspan id="tspan2847" font-weight="bold">Ctrl+panah</tspan> bawah untuk menggulung</tspan></text>
+  <use id="use2086" style="color:#000000" xlink:href="#path1124" transform="matrix(3.7991 0 0 3.7991 -428.74 -36.475)" height="1052.3622" fill-opacity=".11077" width="320.00000" y="0.0000000" x="0.0000000" font-family="sans-serif" fill="#ffffff"/>
+  <text id="text7519" opacity=".5" line-height="125%" xml:space="preserve" transform="rotate(90)" font-size="6.9693px" y="-326.81229" x="3.6203015" font-family="sans-serif" sodipodi:linespacing="125%" fill="#000000"><tspan id="tspan7521" sodipodi:role="line" x="3.6203015" style="letter-spacing:.29056" y="-326.81229">Gunakan <tspan id="tspan2847" font-weight="bold">Ctrl+panah</tspan> bawah untuk menggulung</tspan></text>
   <path id="path7527" opacity=".5" style="color:#000000" d="m338.53 197.82-13.108-1.2709 7.6547-10.717z" fill-rule="evenodd" transform="matrix(.61496 .045496 .061919 -.45186 112.46 263.6)"/>
  </g>
- <text id="text1920" font-family="Sans" font-size="7" transform="scale(1.1307)" y="18.25828" x="176.24451" fill="#ffffff">
+ <text id="text1920" font-family="sans-serif" font-size="7" transform="scale(1.1307)" y="18.25828" x="176.24451" fill="#ffffff">
   <tspan id="tspan1668" style="letter-spacing:2.1813" fill="#ffffff" dx="0 -0.57057059 0 0 0 0 0">::DASAR</tspan>
  </text>
 <!--Author: bulia byak, buliabyak@users.sf.net-->
  <rect id="d0e15" display="none" height="1e3px" width="264" y="36" x="35"/>
- <flowRoot font-family="Sans" font-size="7.2" font-style="italic" line-height="150%" fill="#000000">
+ <flowRoot font-family="sans-serif" font-size="7.2" font-style="italic" line-height="150%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e15"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Tutorial ini menampilkan penggunaan dasar dari Inkscape. Ini adalah dokumen Inskscape reguler yang bisa anda lihat, atur, salin, atau simpan.</flowDiv>
  </flowRoot>
  <rect id="d0e18" display="none" height="1e3px" width="264" y="70.568" x="35"/>
- <flowRoot font-family="Sans" font-size="7.2" font-style="italic" line-height="150%" fill="#000000">
+ <flowRoot font-family="sans-serif" font-size="7.2" font-style="italic" line-height="150%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e18"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Tutorial Dasar ini meliputi navigasi kanvas, mengatur dokumen, dasar shape tool, tehnik seleksi, transformasi obyek dengan selector, grouping, mengatur fill and stroke, alignment, dan z-order. Untuk bahasan lebih dalam, lihat tutorial lain di menu Help.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="134.73593300000002" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="134.73593300000002" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="134.73593300000002" x="10">Menggulung kanvas</tspan>
  </text>
  <rect id="d0e27" display="none" height="1e3px" width="288" y="139.94" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e27"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Banyak cara untuk menggulung (scroll) kanvas dokumen. Bisa dengan <flowSpan font-weight="bold">Ctrl+tombol panah</flowSpan> pada keyboard. (Cobalah untuk menggulung dokumen ini kebawah.) Anda juga bisa menyeret kanvas ini dengan tombol tengah pada tetikus (mouse). Atau, anda bisa menggunakan scrollbar (tekan <flowSpan font-weight="bold">Ctrl+B</flowSpan> untuk menampilkan atau menyembunyikannya). <flowSpan font-weight="bold">Roda tengah</flowSpan> tetikus anda juga bisa digunakan untuk menggulung secara vertikal; gunakan <flowSpan font-weight="bold">Shift</flowSpan> dengan roda untuk menggulung secara horisontal</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="245.15025100000003" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="245.15025100000003" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="245.15025100000003" x="10">Zum kedalam atau keluar</tspan>
  </text>
  <rect id="d0e48" display="none" height="1e3px" width="288" y="250.35" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e48"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Cara paling mudah untuk zum adalah menekan tombol <flowSpan font-weight="bold">-</flowSpan> dan <flowSpan font-weight="bold">+</flowSpan>. Anda juga bisa menggunakan <flowSpan font-weight="bold">Ctrl+klik tengah</flowSpan> atau <flowSpan font-weight="bold">Ctrl+klik kanan</flowSpan> untuk zum masuk, <flowSpan font-weight="bold">Shift+klik tengah</flowSpan> atau <flowSpan font-weight="bold">Shift+klik tengah</flowSpan> untuk zum keluar, atau memutar roda mouse sambil menekan tombol <flowSpan font-weight="bold">Ctrl</flowSpan>. Atau, anda bisa menggunakan daerah masukan zum pada aplikasi (terletak di bawah kanan jendela dokumen ini), ketikkan nilai zum yang anda inginkan dalam %, kemudian tekan Enter. Kami juga memiliki Zoom tool (pada toolbar sebelah kiri) untuk melakukan zum dengan menyeretnya ke daerah yang ingin dizum.</flowDiv>
  </flowRoot>
  <rect id="d0e72" display="none" height="1e3px" width="288" y="353.38" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e72"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Inkscape juga menyimpan sejarah level zum yang anda telah gunakan setiap sesi. Tekan tombol <flowSpan font-weight="bold">`</flowSpan> untuk kembali ke zum sebelumnya, atau <flowSpan font-weight="bold">Shift+`</flowSpan> untuk zum selanjutnya.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="405.359747" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="405.359747" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="405.359747" x="10">Peralatan Inkscape</tspan>
  </text>
  <rect id="d0e87" display="none" height="1e3px" width="288" y="410.56" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e87"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Toolbar vertikal di sebelah kiri menampilkan peralatan menggambar dan mengedit Inkscape. Pada bagian atas dari jendela, dibawah menu, terdapat <flowSpan font-style="italic">Commands bar</flowSpan> dengan tombol command biasa, dan <flowSpan font-style="italic">Tool Controls bar</flowSpan> dengan kontrol spesifik untuk masing-masing peralatan. <flowSpan font-style="italic">status bar</flowSpan> pada bagian bawah jendela akan menampilkan petunjuk dan pesan yang berguna saat anda bekerja.</flowDiv>
  </flowRoot>
  <rect id="d0e99" display="none" height="1e3px" width="288" y="481.62" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e99"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Banyak operasi yang bisa dilakukan dengan shortcut keyboard. Bukalah Help &gt; Keys and Mouse untuk melihat referensi lengkapnya.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="522.910686" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="522.910686" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="522.910686" x="10">Membuat dan mengatur dokumen</tspan>
  </text>
  <rect id="d0e108" display="none" height="1e3px" width="288" y="528.11" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e108"/>
   </flowRegion>
-  <flowDiv xml:space="preserve">To create a new empty document, use <flowSpan font-family="Sans">File &gt; New &gt; Default</flowSpan> 
+  <flowDiv xml:space="preserve">To create a new empty document, use <flowSpan font-family="sans-serif">File &gt; New &gt; Default</flowSpan> 
 or press <flowSpan font-weight="bold">Ctrl+N</flowSpan>. To create a new document from one of Inkscape&apos;s many 
-templates, use <flowSpan font-family="Sans">File &gt; New &gt; Templates...</flowSpan> or press 
+templates, use <flowSpan font-family="sans-serif">File &gt; New &gt; Templates...</flowSpan> or press 
 <flowSpan font-weight="bold">Ctrl+Alt+N</flowSpan></flowDiv>
  </flowRoot>
  <rect id="d0e122" display="none" height="1e3px" width="288" y="567.17" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e122"/>
   </flowRegion>
-  <flowDiv xml:space="preserve">To open an existing SVG document, use <flowSpan font-family="Sans">File &gt;
-Open</flowSpan> (<flowSpan font-weight="bold">Ctrl+O</flowSpan>). To save, use <flowSpan font-family="Sans">File &gt; Save</flowSpan>
-(<flowSpan font-weight="bold">Ctrl+S</flowSpan>), or <flowSpan font-family="Sans">Save As</flowSpan> (<flowSpan font-weight="bold">Shift+Ctrl+S</flowSpan>)
+  <flowDiv xml:space="preserve">To open an existing SVG document, use <flowSpan font-family="sans-serif">File &gt;
+Open</flowSpan> (<flowSpan font-weight="bold">Ctrl+O</flowSpan>). To save, use <flowSpan font-family="sans-serif">File &gt; Save</flowSpan>
+(<flowSpan font-weight="bold">Ctrl+S</flowSpan>), or <flowSpan font-family="sans-serif">Save As</flowSpan> (<flowSpan font-weight="bold">Shift+Ctrl+S</flowSpan>)
 to save under a new name.  (Inkscape may still be unstable, so remember to save
 often!)</flowDiv>
  </flowRoot>
  <rect id="d0e143" display="none" height="1e3px" width="288" y="616.44" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e143"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Inkscape menggunakan format SVG (Scalable Vector Graphics) sebagai berkasnya. SVG adalah standar terbuka yang didukung oleh piranti lunak grafis. Berkas SVG didasari oleh XML dan bisa diedit dengan editor teks apa saja ataupun editor XML (yang tentu terpisa dari Inkscape). Selain SVG, Inkscape juga bisa mengimpor dan mengekspor beberapa format lain (EPS, PNG)</flowDiv>
  </flowRoot>
  <rect id="d0e146" display="none" height="1e3px" width="288" y="687.49" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e146"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Inkscape membuka jendela yang berbeda untuk tiap dokumen. Anda bisa berpindah-pindah antara jendela dengan menggunakan window manager anda (contohnya dengan <flowSpan font-weight="bold">Alt+Tab</flowSpan>) atau bisa juga dengan shortcut Inkscape <flowSpan font-weight="bold">Ctrl+Tab</flowSpan>, yang nantinya akan menampilkan semua jendela dokumen yang terbuka. (Buatlah sebuah dokumen baru dan berpindah-pindahlah antara dokumen baru tersebut dengan dokumen ini untuk latihan.) Pesan: Inkscape memperlakukan jendela-jendela ini seperti tab pada web browser, artinya, <flowSpan font-weight="bold">Ctrl+Tab</flowSpan> hanya bekerja pada dokumen yang prosesnya sama. Jika anda membuka banyak berkas atau menjalankan lebih dari satu proses Inkscape, itu tidak akan bekerja.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="824.6063079999999" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="824.6063079999999" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="824.6063079999999" x="10">Membuat bentuk</tspan>
  </text>
  <rect id="d0e164" display="none" height="1e3px" width="288" y="829.81" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e164"/>
   </flowRegion>
@@ -162,7 +162,7 @@ often!)</flowDiv>
  <rect id="basic-f01-id.svgrect744" fill-rule="evenodd" transform="translate(10 876.96)" height="1.7641" width="4.1162" stroke="#000" y="20.472" x="247.49" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#00f"/>
  <rect id="basic-f01-id.svgrect745" fill-rule="evenodd" transform="translate(10 876.96)" height="1.1761" width="2.9402" stroke="#000" y="17.532" x="259.25" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#00f"/>
  <rect id="d0e180" display="none" height="1e3px" width="288" y="938.7" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e180"/>
   </flowRegion>
@@ -187,24 +187,24 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f02-id.svgpath1314" sodipodi:sides="5" fill-opacity=".75" inkscape:flatsided="false" stroke="#000" stroke-width="1pt" fill="#ff0" style="color:#000000" fill-rule="evenodd" transform="translate(26.429 940.83)" inkscape:rounded="0.0000000" sodipodi:r1="7.9859571" sodipodi:r2="3.9929783" sodipodi:arg1="0.46364761" sodipodi:arg2="1.0919661" sodipodi:type="star" d="m162.5 66.648l-5.3-0.028-3.03 4.353-1.61-5.052-5.08-1.535 4.31-3.095-0.11-5.302 4.27 3.139 5.01-1.741-1.66 5.035 3.2 4.226z" inkscape:randomized="0.0000000" sodipodi:cy="63.076466" sodipodi:cx="155.35715"/>
  <path id="basic-f02-id.svgpath1316" sodipodi:sides="5" fill-opacity=".75" inkscape:flatsided="false" stroke="#000" stroke-width="1pt" fill="#ff0" style="color:#000000" fill-rule="evenodd" transform="translate(26.429 940.83)" inkscape:rounded="0.0000000" sodipodi:r1="5.8138647" sodipodi:r2="2.9069321" sodipodi:arg1="0.74194727" sodipodi:arg2="1.3702658" sodipodi:type="star" d="m180 69.505l-3.71-1.08-2.99 2.441-0.12-3.859-3.24-2.09 3.63-1.305 0.99-3.733 2.36 3.052 3.85-0.216-2.17 3.191 1.4 3.599z" inkscape:randomized="0.0000000" sodipodi:cy="65.576469" sodipodi:cx="175.71429"/>
  <rect id="d0e196" display="none" height="1e3px" width="288" y="1058.3" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e196"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Peralatan ini dikenal sebagai <flowSpan font-style="italic">shape tools</flowSpan>. Tiap bentuk (shape) yang anda buat menampilkan satu atau lebih <flowSpan font-style="italic">handles</flowSpan> berbentuk berlian; cobalah menyeret mereka untuk melihat bagaimana mereka bekerja. Panel Controls untuk shape tool adalah cara lain untuk mengatur bentuk; Panel tersebut mempengaruhi bentuk yang diseleksi (contohnya yang menampilkan handles) <flowSpan font-style="italic">and</flowSpan> dan mendefinisikan bawaan yang akan digunakan jika bentuk baru dibuat.</flowDiv>
  </flowRoot>
  <rect id="d0e208" display="none" height="1e3px" width="288" y="1140" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e208"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Untuk membatalkan perubahan yang terakhir anda lakukan (<flowSpan font-style="italic">undo</flowSpan>), tekan <flowSpan font-weight="bold">Ctrl+Z</flowSpan>. (Atau jika anda berubah pikiran, anda ingin kembali ke perubahan terakhir, <flowSpan font-style="italic">redo</flowSpan>, anda bisa menggunakan <flowSpan font-weight="bold">Shift+Ctrl+Z</flowSpan>.)</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="1191.975028" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="1191.975028" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="1191.975028" x="10">Memindahkan, mengatur skala, memutar</tspan>
  </text>
  <rect id="d0e229" display="none" height="1e3px" width="288" y="1197.2" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e229"/>
   </flowRegion>
@@ -212,7 +212,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <rect id="basic-f03-id.svgrect804" fill-rule="evenodd" fill-opacity=".75" transform="translate(10 1255)" height="38.81" width="40.574" stroke="#000" y="-.47140" x="25.427" stroke-width="1pt" fill="#00f"/>
  <rect id="d0e251" display="none" height="1e3px" width="288" y="1307" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e251"/>
   </flowRegion>
@@ -220,7 +220,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <circle cy="0" cx="0" r="2" transform="translate(15 1341.5)"/>
  <rect id="d0e258" display="none" height="1e3px" width="258" y="1335.5" x="20"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e258"/>
   </flowRegion>
@@ -228,14 +228,14 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <circle cy="0" cx="0" r="2" transform="translate(15 1370)"/>
  <rect id="d0e267" display="none" height="1e3px" width="258" y="1364" x="20"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e267"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Mengatur skala, besar kecilnya obyek, dengan menyeret handle apa saja. (Tekan <flowSpan font-weight="bold">Ctrl</flowSpan> untuk mempertahankan rasio panjang/lebar asal.)</flowDiv>
  </flowRoot>
  <rect id="d0e274" display="none" height="1e3px" width="288" y="1403.2" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e274"/>
   </flowRegion>
@@ -243,7 +243,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <circle cy="0" cx="0" r="2" transform="translate(15 1436)"/>
  <rect id="d0e281" display="none" height="1e3px" width="258" y="1430" x="20"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e281"/>
   </flowRegion>
@@ -251,62 +251,62 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <circle cy="0" cx="0" r="2" transform="translate(15 1485.8)"/>
  <rect id="d0e290" display="none" height="1e3px" width="258" y="1479.8" x="20"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e290"/>
   </flowRegion>
   <flowDiv xml:space="preserve"><flowSpan font-style="italic">Skew</flowSpan> (shear) obyek dengan menyeret handles yang bukan sudut. (Tekan <flowSpan font-weight="bold">Ctrl</flowSpan> untuk membatasi pergerakan setiap 15 derajat.)</flowDiv>
  </flowRoot>
  <rect id="d0e299" display="none" height="1e3px" width="288" y="1519" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e299"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Saat masih di Selector, anda bisa juga menggunakan masukan nomor yang terdapat pada Controls bar (disebelah atas kanvas) untuk mengatur nilai eksak bagi koordinat (X dan Y) dan ukuran (W dan H) dari seleksi.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="1579.889238" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="1579.889238" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="1579.889238" x="10">Merubah dengan tombol keyboard</tspan>
  </text>
  <rect id="d0e308" display="none" height="1e3px" width="288" y="1585.1" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e308"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Salah satu fitur Inkscape yang jarang ditemui dari editor vektor lainnya adalah aksesibilitas keyboard. Sangat sulit menemukan perintah atau aksi yang tidak bisa dilakukan oleh keyboard. Merubah (transforming) obyek juga termasuk.</flowDiv>
  </flowRoot>
  <rect id="d0e311" display="none" height="1e3px" width="288" y="1634.9" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e311"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Anda bisa menggunakan keyboard untuk memindahkan (tombol <flowSpan font-weight="bold">arrow</flowSpan>/panah), mengubah ukuran (tombol <flowSpan font-weight="bold">&lt;</flowSpan> dan <flowSpan font-weight="bold">&gt;</flowSpan>), dan memutar (tombol <flowSpan font-weight="bold">[</flowSpan> dan <flowSpan font-weight="bold">]</flowSpan>) obyek. Pergerakan pindah dan skala bawaan adalah 2px; dengan <flowSpan font-weight="bold">Shift</flowSpan>, anda bergerak 10 kali lipat. <flowSpan font-weight="bold">Ctrl+&gt;</flowSpan> dan <flowSpan font-weight="bold">Ctrl+&lt;</flowSpan> menaikkan atau menurunkan skala sampai 200% atau 50% dari asalnya. Rotasi/putaran bawaan adalah 15 derajat; dengan <flowSpan font-weight="bold">Ctrl</flowSpan>, anda memutarnya 90 derajat.</flowDiv>
  </flowRoot>
  <rect id="d0e341" display="none" height="1e3px" width="288" y="1716.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e341"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Tetapi, mungkin yang paling berguna adalah <flowSpan font-style="italic">pixel-size transformations</flowSpan>, yang dijalankan dengan <flowSpan font-weight="bold">Alt</flowSpan> bersama tombol transform (perubahan). Sebagai contoh, <flowSpan font-weight="bold">Alt+arrows</flowSpan>/panah akan memindahkan seleksi sebesar 1 pixel <flowSpan font-style="italic">pada tingkat zum saat itu</flowSpan> (atau 1  <flowSpan font-style="italic">screen pixel</flowSpan> - pixel pada layar, bukan pada program). Ini berarti jika anda melakukan zum masuk, satu kali <flowSpan font-weight="bold">Alt+arrow</flowSpan>/panah akan menghasilkan pergerakan yang tampak kecil/pendek pada layar anda. Ini memungkinkan pemosisian obyek dengan tingkat presisi yang akurat dengan melakukan zum keluar atau kedalam sesuai yang diperlukan.</flowDiv>
  </flowRoot>
  <rect id="d0e362" display="none" height="1e3px" width="288" y="1830.2" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e362"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Sedikit mirip, <flowSpan font-weight="bold">Alt+&gt;</flowSpan> dan <flowSpan font-weight="bold">Alt+&lt;</flowSpan> mengatur ukuran yang diseleksi sehingga ukuran yang nampak akan berubah per 1 screen pixel, dan <flowSpan font-weight="bold">Alt+[</flowSpan> dan <flowSpan font-weight="bold">Alt+]</flowSpan> memutarnya sehingga titik paling jauh dari titik tengah akan bergerak per 1 screen pixel.</flowDiv>
  </flowRoot>
  <rect id="d0e377" display="none" height="1e3px" width="288" y="1880" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e377"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Pesan: Pengguna Linux mungkin tidak bisa mendapatkan hasil yang diharapkan dengan <flowSpan font-weight="bold">Alt+arrow</flowSpan> dan beberapa kombinasi tombol yang lain jika Window Manager mereka menangkap penekanan kombinasi tombol ini sebelum kombinasi tersebut ditangkap aplikasi Inkscape. Salah satu solusinya adalah mengatur ulang konfigurasi Window Manager.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="1963.89043" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="1963.89043" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="1963.89043" x="10">Seleksi lebih dari satu</tspan>
  </text>
  <rect id="d0e389" display="none" height="1e3px" width="288" y="1969.1" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e389"/>
   </flowRegion>
@@ -316,7 +316,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f04-id.svgpath879" d="m134.86 1251.7c0 9.8339-9.8015 17.806-21.892 17.806-12.091 0-21.892-7.9719-21.892-17.806 0-9.8338 9.8015-17.806 21.892-17.806 12.091 0 21.892 7.9719 21.892 17.806z" fill-rule="evenodd" fill-opacity=".75" transform="translate(10 2058.8) matrix(.80106 0 0 .80106 32.311 -983.83)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#f00"/>
  <path id="basic-f04-id.svgpath1290" style="color:#000000" d="m182.84 29.583-13.183-3.2184-10.125 9.0355-1.013-13.533-11.722-6.8373 12.557-5.1452 2.8804-13.261 8.7737 10.353 13.502-1.3585-7.1347 11.543z" fill-rule="evenodd" fill-opacity=".75" transform="translate(10 2058.8) matrix(.87302 0 0 .87302 27.6 4.0534)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".91757pt" fill="#ff0"/>
  <rect id="d0e411" display="none" height="1e3px" width="288" y="2106.8" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e411"/>
   </flowRegion>
@@ -326,31 +326,31 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f05-id.svgpath1290" style="color:#000000" d="m94.643 25.041c0 6.9036-2.9581 12.5-6.6071 12.5s-6.6071-5.5964-6.6071-12.5 2.9581-12.5 6.6071-12.5 6.6071 5.5964 6.6071 12.5z" fill-rule="evenodd" fill-opacity=".75" transform="translate(10 2143.3) matrix(.70711 -.70711 .70711 .70711 28.793 65.478)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".48693pt" fill="#f00"/>
  <path id="basic-f05-id.svgpath1292" style="color:#000000" d="m94.643 25.041c0 6.9036-2.9581 12.5-6.6071 12.5s-6.6071-5.5964-6.6071-12.5 2.9581-12.5 6.6071-12.5 6.6071 5.5964 6.6071 12.5z" fill-rule="evenodd" fill-opacity=".75" transform="translate(10 2143.3) matrix(.70711 -.70711 .70711 .70711 56.471 65.835)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".48693pt" fill="#f00"/>
  <rect id="d0e427" display="none" height="1e3px" width="288" y="2196.2" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e427"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Setiap obyek individual yang dipilih menampilkan <flowSpan font-style="italic">selection cue</flowSpan> —, sebuah bingkai garis persegi. Cue/tanda ini memudahkan anda untuk melihat apakah obyek terpilih atau tidak. Contohnya, jika anda memilih dua lingkaran dan persegi, tanpa tanda tersebut anda akan sulit menebak apakah lingkaran tersebut terpilih/terseleksi atau tidak.</flowDiv>
  </flowRoot>
  <rect id="d0e433" display="none" height="1e3px" width="288" y="2256.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e433"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Menggunakan <flowSpan font-weight="bold">Shift+klik</flowSpan> pada obyek yang dipilih memisahkan dia dari seleksi. Pilih tiga obyek diatas, kemudian gunakan <flowSpan font-weight="bold">Shift+klik</flowSpan> untuk memisahkan lingkaran dari seleksi dan menyisakan hanya persegi.</flowDiv>
  </flowRoot>
  <rect id="d0e442" display="none" height="1e3px" width="288" y="2306.4" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e442"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Menekan tombol <flowSpan font-weight="bold">Esc</flowSpan> memisahkan semua obyek yang sudah dipilih. <flowSpan font-weight="bold">Ctrl+A</flowSpan> memilih semua obyek yang ada pada layer (jika anda tidak membuat layer, berarti semua obyek yang ada pada dokumen).</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="2358.352885" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="2358.352885" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="2358.352885" x="10">Grouping</tspan>
  </text>
  <rect id="d0e457" display="none" height="1e3px" width="288" y="2363.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e457"/>
   </flowRegion>
@@ -365,31 +365,31 @@ also create ellipses, stars, and spirals:</flowDiv>
   <path id="basic-f06-id.svgpolygon1375" d="m184.48 1254.9-15.238-3.72-11.703 10.444-1.1708-15.642-13.549-7.9029 14.514-5.9471 3.3293-15.328 10.141 11.966 15.607-1.5703-8.2467 13.343z" transform="translate(86.386 261.2)" fill="#ff0"/>
  </g>
  <rect id="d0e473" display="none" height="1e3px" width="288" y="2510.2" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e473"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Untuk membuat grup, pilihlah satu atau lebih obyek, dan tekan <flowSpan font-weight="bold">Ctrl+G</flowSpan>. Untuk melepas satu atau lebih dari grup, tekan <flowSpan font-weight="bold">Ctrl+U</flowSpan>. Sebuah grup yang sudah jadi masih bisa digrup lagi, seperti obyek yang lain; menghasilkan rantai grup yang sangat panjang. Meskipun begitu, <flowSpan font-weight="bold">Ctrl+U</flowSpan> hanya melepas grup yang terakhir dibuat; Anda harus menekan <flowSpan font-weight="bold">Ctrl+U</flowSpan> berkali-kali jika ingin melepas total sebuah grup yang terdiri dari banyak grup.</flowDiv>
  </flowRoot>
  <rect id="d0e488" display="none" height="1e3px" width="288" y="2592" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e488"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Anda tidak perlu melepas grup jika hanya ingin mengedit sebuah obyek dalam grup. Gunakan <flowSpan font-weight="bold">Ctrl+klik</flowSpan> pada objel tersebut, dan obyek tersebut akan terseleksi dan bisa diedit sendiri secara terpisah, atau <flowSpan font-weight="bold">Shift+Ctrl+klik</flowSpan> pada beberapa obyek (diluar atau didalam grup) untuk memilih lebih dari satu seleksi tanpa harus digrup. Cobalah untuk memindahkan atau merubah bentuk masing-masing bentuh yang berada dalam satu grup (kanan atas) tanpa melepas grupnya, kemudian coba jalankan sebagai grup normal untuk melihat apakah obyek-obyek tersebut masih berada dalam satu grup.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="2707.8054909999996" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="2707.8054909999996" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="2707.8054909999996" x="10">Fill dan stroke</tspan>
  </text>
  <rect id="d0e503" display="none" height="1e3px" width="288" y="2713" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e503"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Banyak fungsi Inkscape yang tersedia via <flowSpan font-style="italic">dialogs</flowSpan>. Mungkin yang paling sederhana adalah mengecat sebuah obyek dengan sebuah warna dengan membuka dialog Swatches dari menu View (atau tekan <flowSpan font-weight="bold">Shift+Ctrl+W</flowSpan>), pilihlah sebuah obyek, kemudian klik swatch untuk mengecatnya (mengganti warna yang mengisinya/fill color).</flowDiv>
  </flowRoot>
  <rect id="d0e512" display="none" height="1e3px" width="288" y="2773.5" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e512"/>
   </flowRegion>
@@ -397,21 +397,21 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <path id="basic-f07-id.svgpath930" d="m190.32 1450.2c0 9.0277-29.666 16.346-66.261 16.346s-66.261-7.3185-66.261-16.346c0-9.0278 29.666-16.346 66.261-16.346s66.261 7.3185 66.261 16.346z" fill-rule="evenodd" fill-opacity=".75" transform="translate(13.066 1386.7)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#f00"/>
  <rect id="d0e531" display="none" height="1e3px" width="288" y="2864.9" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e531"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Anda akan melihat dialog tersebut memiliki tiga tab: Fill, Stroke paint, dan Stroke style. Tab Fill membuat anda bisa mengedit <flowSpan font-style="italic">fill</flowSpan>  (interior, warna isi) dari obyek yang terpilih. Menggunakan tombol dibawah tab tersebut, anda bisa memilih tipe fill, termasuk diantaranya tanpa fill (tombol dengan tulisan X), bisa dengan satu warna (flat color fill), atau gradiasi linear dan radial. Untuk bentuk diatas, tombol flat fill akan diaktifkan.</flowDiv>
  </flowRoot>
  <rect id="d0e537" display="none" height="1e3px" width="288" y="2945.9" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e537"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Dibawahnya, anda bisa melihat koleksi dari <flowSpan font-style="italic">color pickers</flowSpan>, masing-masing dengan tabnya sendiri: RGB, CMYK, HSL, dan Wheel. Yang paling mudah mungkin Wheel picker, dimana anda bisa memutar segitiga untuk memilih hue pada wheel/roda/lingkaran, untuk kemudian memilih tingkat bayangan hue tersebut dalam segitiga. Semua color picker memiliki tombol geser untuk mengatur nilai <flowSpan font-style="italic">alpha</flowSpan> (opasitas) obyek yang dipilih.</flowDiv>
  </flowRoot>
  <rect id="d0e546" display="none" height="1e3px" width="288" y="3027.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e546"/>
   </flowRegion>
@@ -425,7 +425,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f08-id.svgpath974" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" fill-opacity=".74902" transform="translate(10 3096) matrix(.99777 0 0 .93574 167.81 -1529)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#6fe225"/>
  <path id="basic-f08-id.svgpath975" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3096) matrix(.99777 0 0 .93574 199.63 -1529)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#ff3077"/>
  <rect id="d0e562" display="none" height="1e3px" width="288" y="3143.1" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e562"/>
   </flowRegion>
@@ -440,7 +440,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f09-id.svgpath1016" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3190.2) matrix(.99850 0 0 .93643 176.67 -1530.2)" stroke="#7c7016" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1pt" fill="#dbdbdb"/>
  <path id="basic-f09-id.svgpath1017" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3190.2) matrix(.99850 0 0 .93643 203.21 -1530.2)" xmlns:cc="http://creativecommons.org/ns#" fill="#dbdbdb"/>
  <rect id="d0e578" display="none" height="1e3px" width="288" y="3236.7" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e578"/>
   </flowRegion>
@@ -454,7 +454,7 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f10-id.svgpath1038" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3273.1) matrix(.98881 0 0 .92734 168.1 -1511.2)" stroke="#000" stroke-dasharray="7.26312, 3.63156, 1.81578, 3.63156" xmlns:cc="http://creativecommons.org/ns#" stroke-width="1.8158" fill="#dbdbdb"/>
  <path id="basic-f10-id.svgpath1039" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3273.1) matrix(.98881 0 0 .92734 204.24 -1511.2)" stroke="#000" stroke-dasharray="0.847366, 0.847366" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".84737" fill="#dbdbdb"/>
  <rect id="d0e591" display="none" height="1e3px" width="288" y="3327.1" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e591"/>
   </flowRegion>
@@ -505,24 +505,24 @@ also create ellipses, stars, and spirals:</flowDiv>
  <path id="basic-f11-id.svgpath1075" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3363.6) matrix(-1.0663 0 0 -1 263.1 1673.3)" stroke="url(#basic-f11-id.svgradialGradient1076)" xmlns:cc="http://creativecommons.org/ns#" stroke-width="3.6437" fill="url(#basic-f11-id.svgradialGradient1083)"/>
  <path id="basic-f11-id.svgpath1084" d="m67.136 1653c0 9.8338-12.415 17.806-27.73 17.806s-27.73-7.9719-27.73-17.806c0-9.8338 12.415-17.806 27.73-17.806s27.73 7.9719 27.73 17.806z" fill-rule="evenodd" transform="translate(10 3363.6) matrix(1.0663 0 0 1 214.49 -1632.8)" stroke="url(#basic-f11-id.svgradialGradient1085)" stroke-dasharray="3.64368, 3.64368" xmlns:cc="http://creativecommons.org/ns#" stroke-width="3.6437" fill="url(#basic-f11-id.svgradialGradient1086)"/>
  <rect id="d0e607" display="none" height="1e3px" width="288" y="3414.8" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e607"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Saat anda berubah dari satu warna menjadi gradiasi, gradiasi yang baru diciptakan akan menggunakan warna sebelumnya, dari jelas menjadi transparan. Beralihlah ke Gradient tool (<flowSpan font-weight="bold">Ctrl+F1</flowSpan>) untuk menyeret <flowSpan font-style="italic">gradient handles</flowSpan> — kontrol tersebut ditampilkan dengan sebuah garis yang menentukan arah dan panjang gradiasi. Setiap handle gradiasi dipilih (disorot dengan warna biru), dialog Fill and Stroke akan menata warna handle tersebut, bukan seluruh obyek.</flowDiv>
  </flowRoot>
  <rect id="d0e616" display="none" height="1e3px" width="288" y="3496.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e616"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Salah satu cara lain untuk mengganti warna obyek adalah menggukana Dropper tool (<flowSpan font-weight="bold">F7</flowSpan>). Hanya dengan mengklik bagian manapun dari gambar dengannya, warna yang dipilih akan diberikan ke Fill dari obyek tersebut (<flowSpan font-weight="bold">Shift+click</flowSpan> untuk warna stroke).</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="3559.1772419999993" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="3559.1772419999993" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="3559.1772419999993" x="10">Duplikasi, perataan, distribusi</tspan>
  </text>
  <rect id="d0e631" display="none" height="1e3px" width="288" y="3564.4" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e631"/>
   </flowRegion>
@@ -530,12 +530,12 @@ also create ellipses, stars, and spirals:</flowDiv>
  </flowRoot>
  <rect id="basic-f12-id.svgrect1117" fill-rule="evenodd" transform="translate(10 3643.3)" height="11.092" width="11.092" y=".90725" x="-.11450"/>
  <rect id="d0e650" display="none" height="1e3px" width="288" y="3666.4" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e650"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Chances are, your copies of the square are placed more or less randomly. This is
-where the Align dialog (<flowSpan font-weight="bold">Shift+Ctrl+A</flowSpan>) is useful. Select all the squares
+where the Align and Distribute dialog (<flowSpan font-weight="bold">Shift+Ctrl+A</flowSpan>) is useful. Select all the squares
 (<flowSpan font-weight="bold">Shift+click</flowSpan> or drag a rubberband), open the dialog and press the
 “Center on horizontal axis” button, then the “Make horizontal gaps between objects
 equal” button (read the button tooltips). The objects are now neatly aligned and
@@ -600,18 +600,18 @@ examples:</flowDiv>
  <path id="basic-f13-id.svgpath1687" d="m233.97 52.063c0 0.158-0.21 1.613 0.74 2.238" transform="translate(10 3766.7)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".36291pt" fill="none"/>
  <path id="basic-f13-id.svgpath1688" d="m238.47 51.84c1.06 1.233 1.13 2.685 6.63 3.58" transform="translate(10 3766.7)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".36291pt" fill="none"/>
  <path id="basic-f13-id.svgpath1689" d="m248.88 52.511c0 0.84-0.1 1.67 0.74 2.461" transform="translate(10 3766.7)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width=".36291pt" fill="none"/>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="3847.512283999999" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="3847.512283999999" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="3847.512283999999" x="10">Z-order</tspan>
  </text>
  <rect id="d0e675" display="none" height="1e3px" width="288" y="3852.7" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e675"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Istilah <flowSpan font-style="italic">z-order</flowSpan> mengacu pada susunan tumpukan dari obyek pada sebuah gambar, misalnya obyek mana yang diatas dan menutupi lainnya. Dua perintah pada menu Obyek, Raise to Top (tombol <flowSpan font-weight="bold">Home</flowSpan>) dan Lower to Bottom (tombol <flowSpan font-weight="bold">End</flowSpan>), akan memindahkan obyek yang terpilih ke bagian paling atas atau paling bawah dari z-order pada layar yang bersangkutan. Dua perintah lainnya, Raise (<flowSpan font-weight="bold">PgUp</flowSpan>) and Lower (<flowSpan font-weight="bold">PgDn</flowSpan>), akan menenggelamkan atau memunculkan satu langkah saja, misalnya memindahkannya melewati satu obyek yang tidak terpilih dalam z-order (hanya obyek yang overlap yang dihitung; Jika tidak ada overlap pada seleksi, Raise dan Lower akan memindahkannya langsung dari atas atau bawah.</flowDiv>
  </flowRoot>
  <rect id="d0e693" display="none" height="1e3px" width="288" y="3977" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e693"/>
   </flowRegion>
@@ -624,45 +624,45 @@ examples:</flowDiv>
  <path id="basic-f14-id.svgpath1131" d="m142.61 2347.1c0 4.2135-5.2549 7.6291-11.737 7.6291-6.4822 0-11.737-3.4156-11.737-7.6291 0-4.2134 5.2549-7.6291 11.737-7.6291 6.4822 0 11.737 3.4157 11.737 7.6291z" fill-rule="evenodd" transform="translate(10 4024.2) matrix(1 0 0 1.0513 37.632 -2444.9)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width="0.6" fill="#f90"/>
  <path id="basic-f14-id.svgpath1132" d="m150.23 2347.4c0 3.079-3.2843 5.5751-7.3357 5.5751s-7.3357-2.4961-7.3357-5.5751c0-3.0791 3.2843-5.5751 7.3357-5.5751s7.3357 2.496 7.3357 5.5751z" fill-rule="evenodd" transform="translate(10 4024.2) matrix(1 0 0 1.0513 37.045 -2450.2)" stroke="#000" xmlns:cc="http://creativecommons.org/ns#" stroke-width="0.6" fill="#f90"/>
  <rect id="d0e706" display="none" height="1e3px" width="288" y="4089" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e706"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Shortkut seleksi yang sangat berguna adalah tombol <flowSpan font-weight="bold">Tab</flowSpan>. Jika tidak ada yang terseleksi/dipilih, dia akan memilih obyek yang paling dibawah; atau dia akan memilih obyek <flowSpan font-style="italic">diatas obyek yang dipilih</flowSpan> dalam z-order. Menekan <flowSpan font-weight="bold">Shift+Tab</flowSpan> tanpa ada obyek yang dipilih akan memilih obyek terakhir yang anda buat. Berlatihlah menggunakan <flowSpan font-weight="bold">Tab</flowSpan> dan <flowSpan font-weight="bold">Shift+Tab</flowSpan> pada tumpukan lingkaran diatas.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="4172.890124999999" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="4172.890124999999" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="4172.890124999999" x="10">Memilih yang dibawah dan menyeret yang dipilih</tspan>
  </text>
  <rect id="d0e730" display="none" height="1e3px" width="288" y="4178.1" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e730"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Apa yang harus dilakukan jika obyek yang anda butuhkan tersembunyi dibalik obyek yang lain? Anda mungkin masih bisa melihat obyek dibawah jika diatasnya (sebagian) transparan, tapi jika anda klik, yang dipilih adalah obyek yang diatas, bukan dibawahnya.</flowDiv>
  </flowRoot>
  <rect id="d0e733" display="none" height="1e3px" width="288" y="4227.9" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e733"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Inilah gunanya <flowSpan font-weight="bold">Alt+klik</flowSpan>. Pertama-tama, <flowSpan font-weight="bold">Alt+klik</flowSpan> akan memilih obyek paling atas seperti klik biasa. Tapi, <flowSpan font-weight="bold">Alt+klik</flowSpan> berikutnya pada titik yang sama akan memilih obyek dibawahnya, dan seterusnya. Dengan demikian, beberapa kali <flowSpan font-weight="bold">Alt+klik</flowSpan> dalam satu putaran akan hinggap pada masing-masing obyek, dari atas kebawah, dari sususan z-order. Saat sampai ke obyek paling bawah, <flowSpan font-weight="bold">Alt+klik</flowSpan> berikutnya akan memilih yang paling atas.</flowDiv>
  </flowRoot>
  <rect id="d0e751" display="none" height="1e3px" width="288" y="4309.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e751"/>
   </flowRegion>
   <flowDiv xml:space="preserve">[Jika anda menggunakan Linux, anda mungkin menemukan bahwa <flowSpan font-weight="bold">Alt+klik</flowSpan> tidak bekerja sebagaimana mestinya. Mungkin malah memindahkan seluruh jendela inkscape. Ini dikarenakan window manager anda mendefinisikan Alt+klik untuk aksi yang lain. Cara memperbaiki ini adalah menemukan konfigurasi Window Behavior window manager anda, untuk dimatikan, atau menggantinya dengan tombol Meta (alias Tombol windos), sehingga Inkscape dan aplikasi lain bisa menggunakan tombol Alt secara bebas.]</flowDiv>
  </flowRoot>
  <rect id="d0e757" display="none" height="1e3px" width="288" y="4402" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e757"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Bagus, tapi begitu anda bisa memilih sebuah obyek dibawah obyek lain, apa yang bisa anda lakukan? Anda bisa merubah bentuknya, dan anda bisa menyeret handle yang dipilih. Meskipun begitu, menyeret obyek itu sendiri akan membuat obyek yang dipilih kembali ke yang diatas (inilah cara klik-dan-geser bekerja - ia memilih obyek (di kasus ini, obyek paling atas) yang berada dibawah kursor, untuk kemudian menyeret seleksinya). Untuk memberi tahu Inkscape untuk menyeret <flowSpan font-style="italic">apa yang dipilih sekarang</flowSpan> tanpa memilih yang lain, gunakan <flowSpan font-weight="bold">Alt+drag</flowSpan>/seret. Ini akan memindahkan obyek yang dipilih saat itu kemanapun anda menyeret tetikus.</flowDiv>
  </flowRoot>
  <rect id="d0e766" display="none" height="1e3px" width="288" y="4515.6" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e766"/>
   </flowRegion>
@@ -671,17 +671,17 @@ examples:</flowDiv>
  <path id="basic-f15-id.svgpath2575" sodipodi:sides="7" inkscape:flatsided="false" fill="#ac7335" style="color:#000000" transform="translate(10 4552.1) matrix(.39512 .68437 -.68437 .39512 2780 -1592.9)" inkscape:rounded="0.21000000" sodipodi:r1="28.739008" sodipodi:r2="16.983238" sodipodi:arg1="0.52143444" sodipodi:arg2="0.97023339" sodipodi:type="star" d="m126.89 3940.5c-1.71 2.8-13.23-2-15.92-0.2-2.69 1.7-2.72 13.9-5.86 14.5-3.14 0.5-6.349-10.3-9.539-11.1s-13.307 5.7-15.627 3.5 6.076-11.8 4.656-14.7c-1.419-3-12.432-3.1-12.315-6.3s12.009-3.8 13.505-6.6c1.495-2.7-2.945-13.2-0.399-15.1 2.547-1.8 10.874 5.7 14.077 5.1 3.202-0.6 7.302-9.5 10.362-8.7 3.07 0.9 0.25 11.3 2.78 13.4 2.53 2 12.65-0.8 13.8 2.2 1.16 3.1-8.72 9.8-8.76 13-0.04 3.1 10.95 8.3 9.24 11z" inkscape:randomized="0.047000000" sodipodi:cy="3927.1016" sodipodi:cx="100.73942"/>
  <path id="basic-f15-id.svgpath2574" sodipodi:sides="6" inkscape:flatsided="false" fill="#ff9400" style="color:#000000" transform="translate(10 4552.1) matrix(.83260 .48070 -.48070 .83260 1947.5 -3288.4)" inkscape:rounded="0.21000000" sodipodi:r1="19.212250" sodipodi:r2="9.3934679" sodipodi:arg1="0.48833395" sodipodi:arg2="0.77161843" sodipodi:type="star" d="m107.62 3941.6c-0.53 2.1-9.076-3.5-10.951-2.4-2.497 1.5-1.972 11.9-4.862 12.6-2.17 0.6-1.585-8.5-3.563-9.5-2.636-1.2-11.029 4.1-13.221 2.2-1.646-1.5 6.95-5.7 6.894-8-0.075-3-9.644-9.8-9.082-12.7 0.421-2.2 9.473 5.2 11.397 4 2.564-1.5 2.337-12.6 5.229-13.2 2.17-0.5 1.693 9 3.66 10.1 2.621 1.3 12.059-3.4 14.219-1.4 1.61 1.6-7.377 4.8-7.27 7 0.15 3 8.25 8.5 7.55 11.3z" inkscape:randomized="0.047000000" sodipodi:cy="3933.4641" sodipodi:cx="90.665482"/>
  <rect id="basic-f15-id.svgrect3197" ry="10.424" style="color:#000000" fill-opacity=".29609" rx="10.424" transform="translate(10 4552.1)" height="56.564" width="171.79" y="-.21458" x="44.416" fill="#2dd268"/>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="4633.489914999998" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="4633.489914999998" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="4633.489914999998" x="10">Selecting similar objects</tspan>
  </text>
  <rect id="d0e791" display="none" height="1e3px" width="288" y="4638.7" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e791"/>
   </flowRegion>
   <flowDiv xml:space="preserve">Inkscape can select other objects similar to the object currently selected. 
 For example, if you want to select all the blue squares below first select one of the 
-blue squares, and use <flowSpan font-family="Sans">Edit &gt; Select Same &gt; 
+blue squares, and use <flowSpan font-family="sans-serif">Edit &gt; Select Same &gt; 
 Fill Color</flowSpan> from the menu. All the objects with a fill color the same 
 shade of blue are now selected.</flowDiv>
  </flowRoot>
@@ -725,22 +725,22 @@ shade of blue are now selected.</flowDiv>
  <rect id="basic-f16-id.svgrect4179" opacity="0.924" ry="0" style="color-rendering:auto;color:#000000;isolation:auto;shape-rendering:auto;image-rendering:auto" rx="0" transform="translate(10 4705.4)" height="14.205" width="15.152" y="38.895" x="28.789" xmlns:cc="http://creativecommons.org/ns#" fill="#204a87"/>
  <rect id="basic-f16-id.svgrect4167" opacity="0.924" style="color-rendering:auto;color:#000000;isolation:auto;shape-rendering:auto;image-rendering:auto" rx="0" transform="translate(10 4705.4)" ry="0" width="15.152" y="38.895" x="233.85" xmlns:cc="http://creativecommons.org/ns#" height="14.205" fill="#204a87"/>
  <rect id="d0e807" display="none" height="1e3px" width="288" y="4766.5" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e807"/>
   </flowRegion>
   <flowDiv xml:space="preserve">In addition to selecting by fill color, you can select multiple similar objects
 by stroke color, stroke style, fill &amp; stroke, and object type.</flowDiv>
  </flowRoot>
- <text style="writing-mode:lr" font-weight="bold" font-size="8" y="4807.7923249999985" x="10" font-family="Sans" fill="#000000">
+ <text style="writing-mode:lr" font-weight="bold" font-size="8" y="4807.7923249999985" x="10" font-family="sans-serif" fill="#000000">
   <tspan y="4807.7923249999985" x="10">Akhir</tspan>
  </text>
  <rect id="d0e816" display="none" height="1e3px" width="288" y="4813" x="10"/>
- <flowRoot font-size="8" font-family="Serif" line-height="133.00000%" fill="#000000">
+ <flowRoot font-size="8" font-family="serif" line-height="133.00000%" fill="#000000">
   <flowRegion>
    <use y="0" x="0" xlink:href="#d0e816"/>
   </flowRegion>
-  <flowDiv xml:space="preserve">Ini mengakhiri tutorial Dasar. Masih banyak yang bisa dilakukan dengan Inkscape, tapi dengan tehnik-tehnik yang diterangkan tadi, anda sudah bisa menghasilkan grafis yang sederhana tetapi berguna. Untuk pembahasan yang lebih kompleks, cobalah Advanced dan tutorial-tutorial lain melalui <flowSpan font-family="Sans">Help &gt; Tutorials</flowSpan>.</flowDiv>
+  <flowDiv xml:space="preserve">Ini mengakhiri tutorial Dasar. Masih banyak yang bisa dilakukan dengan Inkscape, tapi dengan tehnik-tehnik yang diterangkan tadi, anda sudah bisa menghasilkan grafis yang sederhana tetapi berguna. Untuk pembahasan yang lebih kompleks, cobalah Advanced dan tutorial-tutorial lain melalui <flowSpan font-family="sans-serif">Help &gt; Tutorials</flowSpan>.</flowDiv>
  </flowRoot>
  <g transform="translate(0 4873.3)">
   <defs id="defs3" xmlns:cc="http://creativecommons.org/ns#">
@@ -772,8 +772,8 @@ by stroke color, stroke style, fill &amp; stroke, and object type.</flowDiv>
     <path id="path1520" d="m510.36 306.93c10.237-2.5598 33.886 0 30.119 15.058-3.7633 15.062-35.764 9.4119-56.473 1.8852-1.8823-15.061 21.529-15.737 26.354-16.943z" stroke-width="1pt"/>
     <path id="path1521" d="m359.24 21.363c-11.313 0-22.606 4.3206-31.275 12.99l-154.09 154.06c-8.4969 8.4967-12.762 19.543-12.931 30.631h-0.0585c0 0.0395 0.0566 0.0774 0.0585 0.11702-0.002 0.18609-0.0585 0.36977-0.0585 0.55586h0.2633c2.9491 11.221 79.15 25.523 87.651 34.025 12.839 12.839-49.233 22.268-36.395 35.107 12.839 12.839 77.59 24.843 90.43 37.682 12.839 12.839-26.238 26.51-13.399 39.349s55.967-3.2094 48.155 30.28c17.338 17.338 53.512 9.0588 77.733-8.2795 12.839-12.839-24.629-11.707-11.79-24.546s45.247-12.908 72.555-43.621c-10.992-17.095-46.981-24.375-34.142-37.214s37.8-6.3179 91.659-30.777c26.292-11.941 24.12-21.01 24.019-32.006-0.002-0.23138 0-0.43973 0-0.67288h-0.0585c-0.16-11.07-4.46-22.12-12.95-30.62l-154.07-154.06c-8.66-8.667-19.99-12.987-31.3-12.987zm-1.3165 20.04c5.0295 0.13102 9.0916 3.9651 17.056 9.1279l72.789 53.977c0.79681 0.51671 1.5557 1.0557 2.2527 1.6091 0.69703 0.55327 1.3337 1.1401 1.9309 1.7261 0.5972 0.58495 1.14 1.1721 1.6383 1.7846 0.49726 0.61244 0.94845 1.2385 1.3458 1.8724 0.39844 0.6349 0.75476 1.2798 1.0532 1.9309 0.29867 0.65226 0.53281 1.325 0.7314 1.9894 0.19976 0.66341 0.36832 1.319 0.46811 1.9894 0.0999 0.67165 0.14627 1.3452 0.14627 2.0187l-43.123-20.83-4.3006 32.562-23.727-11.117-36.629 24.458-14.014-48.331-18.051 42.275-50.408 5.032 0.55587-22.439c0-5.3897 29.057-43.122 46.751-52.105l32.386-23.259c4.7787-3.0977 8.1289-4.35 11.147-4.2714zm-66.996 220.21c22.944 5.9503 48.476 13.757 68.957 13.897l0.87768 9.2157c-17.538-1.8078-54.648-10.276-63.398-14.745l-6.4363-8.3672z" stroke-width="1pt"/>
    </g>
-   <use id="use1328" style="color:#000000" xlink:href="#path1508" transform="matrix(5.1767 0 0 5.1767 -102.7 -256.62)" height="1052.3622" fill-opacity=".064615" width="744.09448" y="0" x="0" font-family="Sans" fill="#ffffff"/>
-   <text id="text7519" opacity=".5" line-height="125%" xml:space="preserve" transform="rotate(-90)" font-size="6.9693px" y="-6.5672836" x="-70.83046" font-family="Sans" sodipodi:linespacing="125%" fill="#000000"><tspan id="tspan7521" sodipodi:role="line" x="-70.83046" style="letter-spacing:.29056" y="-6.5672836">Gunakan <tspan id="tspan2855" font-weight="bold">Ctrl+panah</tspan> atas untuk menggulung</tspan></text>
+   <use id="use1328" style="color:#000000" xlink:href="#path1508" transform="matrix(5.1767 0 0 5.1767 -102.7 -256.62)" height="1052.3622" fill-opacity=".064615" width="744.09448" y="0" x="0" font-family="sans-serif" fill="#ffffff"/>
+   <text id="text7519" opacity=".5" line-height="125%" xml:space="preserve" transform="rotate(-90)" font-size="6.9693px" y="-6.5672836" x="-70.83046" font-family="sans-serif" sodipodi:linespacing="125%" fill="#000000"><tspan id="tspan7521" sodipodi:role="line" x="-70.83046" style="letter-spacing:.29056" y="-6.5672836">Gunakan <tspan id="tspan2855" font-weight="bold">Ctrl+panah</tspan> atas untuk menggulung</tspan></text>
    <path id="path7527" opacity=".5" style="color:#000000" d="m338.53 197.82-13.108-1.2709 7.6547-10.717z" fill-rule="evenodd" transform="matrix(-.61496 -.045496 -.061919 .45186 207.79 -181.15)"/>
   </g>
  </g>
