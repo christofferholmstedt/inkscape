@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-21 08:38+0200\n"
+"POT-Creation-Date: 2015-01-09 18:18+0100\n"
 "PO-Revision-Date: 2011-03-02 21:00+0730\n"
 "Last-Translator: Waluyo Adi Siswanto <was.uthm@gmail.com>\n"
 "Language-Team: Indonesian <was.uthm@gmail.com>\n"
@@ -3542,7 +3542,7 @@ msgstr ""
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
-#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
 msgctxt "Symbol"
 msgid "Telephone"
 msgstr ""
@@ -3853,7 +3853,7 @@ msgstr ""
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
-#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
 msgctxt "Symbol"
 msgid "Parking"
 msgstr ""
@@ -4460,145 +4460,164 @@ msgstr ""
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
 msgctxt "Symbol"
+msgid "Motorbike Trail"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#, fuzzy
+msgctxt "Symbol"
+msgid "Radiator Water"
+msgstr "Radiasi"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+msgctxt "Symbol"
 msgid "Recycling"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
 #, fuzzy
 msgctxt "Symbol"
 msgid "Pets On Leash"
 msgstr "_Letak di Tapak"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
 #, fuzzy
 msgctxt "Symbol"
 msgid "Picnic Area"
 msgstr "Warna isian"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
 msgctxt "Symbol"
 msgid "Post Office"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
 #, fuzzy
 msgctxt "Symbol"
 msgid "Ranger Station"
 msgstr "Relasi"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
 #, fuzzy
 msgctxt "Symbol"
 msgid "RV Campground"
 msgstr "Ujung bulatan"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
-msgctxt "Symbol"
-msgid "Restrooms"
-msgstr ""
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
-#, fuzzy
-msgctxt "Symbol"
-msgid "Sailing"
-msgstr "Penggulungan"
-
-#. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
-msgid "Sanitary Disposal Station"
+msgid "Restrooms"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
 #, fuzzy
 msgctxt "Symbol"
-msgid "Scuba Diving"
-msgstr "Divisi"
+msgid "Sailing"
+msgstr "Penggulungan"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
 msgctxt "Symbol"
-msgid "Self Guided Trail"
+msgid "Sanitary Disposal Station"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
 #, fuzzy
 msgctxt "Symbol"
+msgid "Scuba Diving"
+msgstr "Divisi"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+msgctxt "Symbol"
+msgid "Self Guided Trail"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#, fuzzy
+msgctxt "Symbol"
 msgid "Shelter"
 msgstr "penapis"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
 #, fuzzy
 msgctxt "Symbol"
 msgid "Showers"
 msgstr "Tampilkan:"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
 #, fuzzy
 msgctxt "Symbol"
 msgid "Sledding"
 msgstr "Pembayangan"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
 msgctxt "Symbol"
 msgid "SnowmobileTrail"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
 #, fuzzy
 msgctxt "Symbol"
 msgid "Stable"
 msgstr "Tabel"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
 msgctxt "Symbol"
 msgid "Store"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
 msgctxt "Symbol"
 msgid "Swimming"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
 #, fuzzy
 msgctxt "Symbol"
 msgid "Emergency Telephone"
 msgstr "Divergensi:"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
 #, fuzzy
 msgctxt "Symbol"
 msgid "Trailhead"
 msgstr "Braille"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+#: ../share/symbols/symbols.h:287 ../share/symbols/symbols.h:288
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+#: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
 msgctxt "Symbol"
 msgid "Wind Surfing"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:291
+msgctxt "Symbol"
+msgid "Blank"
 msgstr ""
 
 #: ../share/templates/templates.h:1
@@ -5026,11 +5045,11 @@ msgstr "Menghapus panduan"
 msgid "<b>Guideline</b>: %s"
 msgstr "<b>Panduan</b>: %s"
 
-#: ../src/desktop.cpp:880
+#: ../src/desktop.cpp:881
 msgid "No previous zoom."
 msgstr "Tidak ada zoom terdahulu"
 
-#: ../src/desktop.cpp:901
+#: ../src/desktop.cpp:902
 msgid "No next zoom."
 msgstr "Tidak ada zoom berikut"
 
@@ -5043,8 +5062,8 @@ msgid "_Origin X:"
 msgstr "_Titik asal X:"
 
 #: ../src/display/canvas-axonomgrid.cpp:319 ../src/display/canvas-grid.cpp:695
-#: ../src/ui/dialog/inkscape-preferences.cpp:739
-#: ../src/ui/dialog/inkscape-preferences.cpp:764
+#: ../src/ui/dialog/inkscape-preferences.cpp:734
+#: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "X coordinate of grid origin"
 msgstr "Koordinat X dari titik asal kisi"
 
@@ -5053,8 +5072,8 @@ msgid "O_rigin Y:"
 msgstr "T_itik asal Y:"
 
 #: ../src/display/canvas-axonomgrid.cpp:321 ../src/display/canvas-grid.cpp:697
-#: ../src/ui/dialog/inkscape-preferences.cpp:740
-#: ../src/ui/dialog/inkscape-preferences.cpp:765
+#: ../src/ui/dialog/inkscape-preferences.cpp:735
+#: ../src/ui/dialog/inkscape-preferences.cpp:760
 msgid "Y coordinate of grid origin"
 msgstr "Koordinat Y dari titik asal kisi"
 
@@ -5063,29 +5082,29 @@ msgid "Spacing _Y:"
 msgstr "Spasi _Y:"
 
 #: ../src/display/canvas-axonomgrid.cpp:323
-#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:763
 msgid "Base length of z-axis"
 msgstr "Basis panjang dari sumbu z"
 
 #: ../src/display/canvas-axonomgrid.cpp:325
-#: ../src/ui/dialog/inkscape-preferences.cpp:771
+#: ../src/ui/dialog/inkscape-preferences.cpp:766
 #: ../src/widgets/box3d-toolbar.cpp:299
 msgid "Angle X:"
 msgstr "Sudut X:"
 
 #: ../src/display/canvas-axonomgrid.cpp:325
-#: ../src/ui/dialog/inkscape-preferences.cpp:771
+#: ../src/ui/dialog/inkscape-preferences.cpp:766
 msgid "Angle of x-axis"
 msgstr "Sudut terhadap sumbu-x"
 
 #: ../src/display/canvas-axonomgrid.cpp:327
-#: ../src/ui/dialog/inkscape-preferences.cpp:772
+#: ../src/ui/dialog/inkscape-preferences.cpp:767
 #: ../src/widgets/box3d-toolbar.cpp:378
 msgid "Angle Z:"
 msgstr "Sudut Z:"
 
 #: ../src/display/canvas-axonomgrid.cpp:327
-#: ../src/ui/dialog/inkscape-preferences.cpp:772
+#: ../src/ui/dialog/inkscape-preferences.cpp:767
 msgid "Angle of z-axis"
 msgstr "Sudut terhadap sumbu-z"
 
@@ -5095,7 +5114,7 @@ msgid "Minor grid line _color:"
 msgstr "Warna garis kisi utama:"
 
 #: ../src/display/canvas-axonomgrid.cpp:331 ../src/display/canvas-grid.cpp:705
-#: ../src/ui/dialog/inkscape-preferences.cpp:723
+#: ../src/ui/dialog/inkscape-preferences.cpp:718
 #, fuzzy
 msgid "Minor grid line color"
 msgstr "Warna garis kisi utama"
@@ -5110,7 +5129,7 @@ msgid "Ma_jor grid line color:"
 msgstr "Wa_rna garis kisi utama:"
 
 #: ../src/display/canvas-axonomgrid.cpp:336 ../src/display/canvas-grid.cpp:710
-#: ../src/ui/dialog/inkscape-preferences.cpp:725
+#: ../src/ui/dialog/inkscape-preferences.cpp:720
 msgid "Major grid line color"
 msgstr "Warna garis kisi utama"
 
@@ -5179,12 +5198,12 @@ msgid "Spacing _X:"
 msgstr "Spasi _X:"
 
 #: ../src/display/canvas-grid.cpp:699
-#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:740
 msgid "Distance between vertical grid lines"
 msgstr "Jarak antara garis kisi vertikal"
 
 #: ../src/display/canvas-grid.cpp:701
-#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:741
 msgid "Distance between horizontal grid lines"
 msgstr "Jarak antara garis kisi horisontal"
 
@@ -6829,7 +6848,7 @@ msgstr "Unit grid"
 #: ../src/extension/internal/filter/paint.h:702
 #: ../src/extension/internal/filter/textures.h:77
 #: ../src/extension/internal/filter/transparency.h:61
-#: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:646
+#: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:641
 msgid "Normal"
 msgstr "Normal"
 
@@ -6927,7 +6946,7 @@ msgstr "Cahaya Miring"
 #: ../src/extension/internal/filter/bumps.h:98
 #: ../src/extension/internal/filter/bumps.h:329
 #: ../src/libgdl/gdl-dock-placeholder.c:175 ../src/libgdl/gdl-dock.c:199
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 #: ../share/extensions/interp_att_g.inx.h:11
 msgid "Height"
 msgstr "Tinggi"
@@ -7170,7 +7189,7 @@ msgstr "Lukisan"
 #: ../src/extension/internal/filter/color.h:156
 #: ../src/extension/internal/filter/color.h:257
 #: ../src/extension/internal/filter/paint.h:87 ../src/filter-enums.cpp:65
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 #: ../src/ui/tools/flood-tool.cpp:197
 #: ../src/widgets/sp-color-icc-selector.cpp:362
 #: ../src/widgets/sp-color-icc-selector.cpp:367
@@ -7820,7 +7839,7 @@ msgstr "B_uka..."
 
 #: ../src/extension/internal/filter/morphology.h:65
 #: ../src/libgdl/gdl-dock-placeholder.c:167 ../src/libgdl/gdl-dock.c:191
-#: ../src/widgets/rect-toolbar.cpp:314 ../src/widgets/spray-toolbar.cpp:116
+#: ../src/widgets/rect-toolbar.cpp:315 ../src/widgets/spray-toolbar.cpp:116
 #: ../src/widgets/tweak-toolbar.cpp:128
 #: ../share/extensions/interp_att_g.inx.h:10
 msgid "Width"
@@ -8364,7 +8383,6 @@ msgid "External"
 msgstr "Sunting secara eksternal..."
 
 #: ../src/extension/internal/filter/textures.h:81
-#: ../share/extensions/markers_strokepaint.inx.h:8
 msgid "Custom"
 msgstr "Suaian"
 
@@ -8478,13 +8496,13 @@ msgid ""
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:192
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
 #, fuzzy
 msgid "Embed"
 msgstr "ditempel"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:193 ../src/sp-anchor.cpp:119
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
 #, fuzzy
 msgid "Link"
 msgstr "Tautan"
@@ -8522,18 +8540,18 @@ msgid ""
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 #, fuzzy
 msgid "None (auto)"
 msgstr "Kosong (bawaan)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:203
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Smooth (optimizeQuality)"
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:204
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Blocky (optimizeSpeed)"
 msgstr ""
 
@@ -8582,7 +8600,7 @@ msgid "Vertical Offset:"
 msgstr "Ofset Vertikal:"
 
 #: ../src/extension/internal/grid.cpp:220
-#: ../src/ui/dialog/inkscape-preferences.cpp:1470
+#: ../src/ui/dialog/inkscape-preferences.cpp:1465
 #: ../share/extensions/draw_from_triangle.inx.h:58
 #: ../share/extensions/eqtexsvg.inx.h:4
 #: ../share/extensions/foldablebox.inx.h:9
@@ -8613,7 +8631,7 @@ msgstr "Pencitraan"
 
 #: ../src/extension/internal/grid.cpp:221
 #: ../src/ui/dialog/document-properties.cpp:155
-#: ../src/ui/dialog/inkscape-preferences.cpp:780
+#: ../src/ui/dialog/inkscape-preferences.cpp:775
 #: ../src/widgets/toolbox.cpp:1826
 msgid "Grids"
 msgstr "Kisi"
@@ -9072,7 +9090,7 @@ msgstr "Tidak ada perubahan yang perlu disimpan"
 msgid "Saving document..."
 msgstr "Menyimpan dokumen..."
 
-#: ../src/file.cpp:1246 ../src/ui/dialog/inkscape-preferences.cpp:1443
+#: ../src/file.cpp:1246 ../src/ui/dialog/inkscape-preferences.cpp:1438
 #: ../src/ui/dialog/ocaldialogs.cpp:1244
 msgid "Import"
 msgstr "Impor"
@@ -9960,7 +9978,7 @@ msgid "The index of the current page"
 msgstr "Indeks dari halaman ini"
 
 #: ../src/libgdl/gdl-dock-object.c:125
-#: ../src/ui/dialog/inkscape-preferences.cpp:1504
+#: ../src/ui/dialog/inkscape-preferences.cpp:1499
 #: ../src/ui/widget/page-sizer.cpp:258
 #: ../src/widgets/gradient-selector.cpp:158
 #: ../src/widgets/sp-xmlview-attr-list.cpp:54
@@ -10123,8 +10141,8 @@ msgstr ""
 msgid "Dockitem which 'owns' this tablabel"
 msgstr ""
 
-#: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:635
-#: ../src/ui/dialog/inkscape-preferences.cpp:678
+#: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:630
+#: ../src/ui/dialog/inkscape-preferences.cpp:673
 msgid "Floating"
 msgstr "Mengambang"
 
@@ -11593,7 +11611,7 @@ msgid "The ID of the object to export"
 msgstr "ID obyek yang diekspor"
 
 #: ../src/main.cpp:366 ../src/main.cpp:479
-#: ../src/ui/dialog/inkscape-preferences.cpp:1507
+#: ../src/ui/dialog/inkscape-preferences.cpp:1502
 msgid "ID"
 msgstr "ID"
 
@@ -11797,41 +11815,40 @@ msgstr "_Berkas"
 msgid "_New"
 msgstr "_Baru"
 
-#. "       <verb verb-id=\"FileExportToOCAL\" />\n"
 #. "       <verb verb-id=\"DialogMetadata\" />\n"
-#: ../src/menus-skeleton.h:43 ../src/verbs.cpp:2634 ../src/verbs.cpp:2640
+#: ../src/menus-skeleton.h:45 ../src/verbs.cpp:2634 ../src/verbs.cpp:2640
 msgid "_Edit"
 msgstr "_Sunting"
 
-#: ../src/menus-skeleton.h:53 ../src/verbs.cpp:2398
+#: ../src/menus-skeleton.h:55 ../src/verbs.cpp:2398
 msgid "Paste Si_ze"
 msgstr "T_empel Ukuran"
 
-#: ../src/menus-skeleton.h:65
+#: ../src/menus-skeleton.h:67
 msgid "Clo_ne"
 msgstr "Pen_ggandaan"
 
-#: ../src/menus-skeleton.h:79
+#: ../src/menus-skeleton.h:81
 #, fuzzy
 msgid "Select Sa_me"
 msgstr "Pilih halaman:"
 
-#: ../src/menus-skeleton.h:97
+#: ../src/menus-skeleton.h:99
 msgid "_View"
 msgstr "_Tampilan"
 
-#: ../src/menus-skeleton.h:98
+#: ../src/menus-skeleton.h:100
 msgid "_Zoom"
 msgstr "Per_besar/perkecil"
 
-#: ../src/menus-skeleton.h:114
+#: ../src/menus-skeleton.h:116
 msgid "_Display mode"
 msgstr "_Mode Tampilan"
 
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
-#: ../src/menus-skeleton.h:123
+#: ../src/menus-skeleton.h:125
 #, fuzzy
 msgid "_Color display mode"
 msgstr "Pengaturan rumus mode display"
@@ -11839,55 +11856,55 @@ msgstr "Pengaturan rumus mode display"
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewColorModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
-#: ../src/menus-skeleton.h:136
+#: ../src/menus-skeleton.h:138
 #, fuzzy
 msgid "Sh_ow/Hide"
 msgstr "Tampil/Sembunyi"
 
 #. Not quite ready to be in the menus.
 #. "       <verb verb-id=\"FocusToggle\" />\n"
-#: ../src/menus-skeleton.h:156
+#: ../src/menus-skeleton.h:158
 msgid "_Layer"
 msgstr "_Lapis"
 
-#: ../src/menus-skeleton.h:180
+#: ../src/menus-skeleton.h:182
 msgid "_Object"
 msgstr "_Obyek"
 
-#: ../src/menus-skeleton.h:188
+#: ../src/menus-skeleton.h:190
 msgid "Cli_p"
 msgstr "Kli_p"
 
-#: ../src/menus-skeleton.h:192
+#: ../src/menus-skeleton.h:194
 msgid "Mas_k"
 msgstr "T_openg"
 
-#: ../src/menus-skeleton.h:196
+#: ../src/menus-skeleton.h:198
 msgid "Patter_n"
 msgstr "Pol_a"
 
-#: ../src/menus-skeleton.h:220
+#: ../src/menus-skeleton.h:222
 msgid "_Path"
 msgstr "Ta_pak"
 
-#: ../src/menus-skeleton.h:248 ../src/ui/dialog/find.cpp:77
+#: ../src/menus-skeleton.h:250 ../src/ui/dialog/find.cpp:77
 #: ../src/ui/dialog/text-edit.cpp:71
 msgid "_Text"
 msgstr "T_eks"
 
-#: ../src/menus-skeleton.h:266
+#: ../src/menus-skeleton.h:268
 msgid "Filter_s"
 msgstr "Penap_is"
 
-#: ../src/menus-skeleton.h:272
+#: ../src/menus-skeleton.h:274
 msgid "Exte_nsions"
 msgstr "Ekste_nsi"
 
-#: ../src/menus-skeleton.h:278
+#: ../src/menus-skeleton.h:280
 msgid "_Help"
 msgstr "Bant_uan"
 
-#: ../src/menus-skeleton.h:282
+#: ../src/menus-skeleton.h:284
 msgid "Tutorials"
 msgstr "Tutorial"
 
@@ -12271,7 +12288,7 @@ msgstr "Relasi:"
 msgid "A related resource"
 msgstr "Mode Campuran:"
 
-#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1859
+#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1854
 msgid "Language:"
 msgstr "Bahasa:"
 
@@ -15295,7 +15312,7 @@ msgstr "<b>Definisi kisi</b>"
 msgid "Remove grid"
 msgstr "Hapus kisi"
 
-#: ../src/ui/dialog/document-properties.cpp:1761
+#: ../src/ui/dialog/document-properties.cpp:1765
 #, fuzzy
 msgid "Changed document unit"
 msgstr "Dokumen tidak bernama %d"
@@ -15409,9 +15426,9 @@ msgid "_Height:"
 msgstr "_Tinggi"
 
 #: ../src/ui/dialog/export.cpp:309
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
+#: ../src/ui/dialog/inkscape-preferences.cpp:1435
+#: ../src/ui/dialog/inkscape-preferences.cpp:1459
 msgid "dpi"
 msgstr "dpi"
 
@@ -18107,12 +18124,6 @@ msgstr ""
 msgid "Always output text size in pixels (px)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:461
-msgid ""
-"Always convert the text size units above into pixels (px) before saving to "
-"file"
-msgstr ""
-
 #. Spray
 #: ../src/ui/dialog/inkscape-preferences.cpp:466
 msgid "Spray"
@@ -18480,12 +18491,12 @@ msgid "Set the language for menus and number formats"
 msgstr "Pilih bahasa untuk menu dan format"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:565
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Large"
 msgstr "Besar"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:565
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Small"
 msgstr "Kecil"
 
@@ -18567,25 +18578,13 @@ msgstr ""
 "pembesaran sampai skala 1:1, 1:2, dll., untuk menampilkan obyek dalam ukuran "
 "yang betul"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:599
-msgid "Enable dynamic relayout for incomplete sections"
-msgstr "Aktifkan atur tataletak dinamik untuk seksi tidak lengkap"
-
-#: ../src/ui/dialog/inkscape-preferences.cpp:601
-msgid ""
-"When on, will allow dynamic layout of components that are not completely "
-"finished being refactored"
-msgstr ""
-"Jika dipilih, akan menggunakan tataletak dinamik dari komponen yang belum "
-"sepenuhnya selesai diskalakan"
-
 #. show infobox
-#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:599
 #, fuzzy
 msgid "Show filter primitives infobox (requires restart)"
 msgstr "Menampilkan kotak info penapis primitif"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:606
+#: ../src/ui/dialog/inkscape-preferences.cpp:601
 msgid ""
 "Show icons and descriptions for the filter primitives available at the "
 "filter effects dialog"
@@ -18593,131 +18592,131 @@ msgstr ""
 "Menampilkan ikon dan deskripsi untuk penapis primitif yang tersedia di "
 "dialog penapis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 #, fuzzy
 msgid "Icons only"
 msgstr " Warna saja"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 #, fuzzy
 msgid "Text only"
 msgstr "Huruf Teks"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 #, fuzzy
 msgid "Icons and text"
 msgstr "Kedalam dan Keluar"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:614
+#: ../src/ui/dialog/inkscape-preferences.cpp:609
 #, fuzzy
 msgid "Dockbar style (requires restart):"
 msgstr "Bahasa (perlu jalan ulang):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:615
+#: ../src/ui/dialog/inkscape-preferences.cpp:610
 msgid ""
 "Selects whether the vertical bars on the dockbar will show text labels, "
 "icons, or both"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:622
+#: ../src/ui/dialog/inkscape-preferences.cpp:617
 #, fuzzy
 msgid "Switcher style (requires restart):"
 msgstr "(perlu dijalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:623
+#: ../src/ui/dialog/inkscape-preferences.cpp:618
 msgid ""
 "Selects whether the dockbar switcher will show text labels, icons, or both"
 msgstr ""
 
 #. Windows
-#: ../src/ui/dialog/inkscape-preferences.cpp:627
+#: ../src/ui/dialog/inkscape-preferences.cpp:622
 msgid "Save and restore window geometry for each document"
 msgstr "Simpan dan gunakan jendela geometri tiap dokumen"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:628
+#: ../src/ui/dialog/inkscape-preferences.cpp:623
 msgid "Remember and use last window's geometry"
 msgstr "Simpan dan gunakan geometri jendela terakhir"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:629
+#: ../src/ui/dialog/inkscape-preferences.cpp:624
 msgid "Don't save window geometry"
 msgstr "Jangan simpan geometri jendela"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:631
+#: ../src/ui/dialog/inkscape-preferences.cpp:626
 msgid "Save and restore dialogs status"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:632
-#: ../src/ui/dialog/inkscape-preferences.cpp:668
+#: ../src/ui/dialog/inkscape-preferences.cpp:627
+#: ../src/ui/dialog/inkscape-preferences.cpp:663
 msgid "Don't save dialogs status"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:634
-#: ../src/ui/dialog/inkscape-preferences.cpp:676
+#: ../src/ui/dialog/inkscape-preferences.cpp:629
+#: ../src/ui/dialog/inkscape-preferences.cpp:671
 msgid "Dockable"
 msgstr "Dapat dipindah dengan isinya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:638
+#: ../src/ui/dialog/inkscape-preferences.cpp:633
 msgid "Native open/save dialogs"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:639
+#: ../src/ui/dialog/inkscape-preferences.cpp:634
 msgid "GTK open/save dialogs"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:641
+#: ../src/ui/dialog/inkscape-preferences.cpp:636
 msgid "Dialogs are hidden in taskbar"
 msgstr "Dialog disembunyikan di kotak"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:642
+#: ../src/ui/dialog/inkscape-preferences.cpp:637
 #, fuzzy
 msgid "Save and restore documents viewport"
 msgstr "Simpan dan gunakan jendela geometri tiap dokumen"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:643
+#: ../src/ui/dialog/inkscape-preferences.cpp:638
 msgid "Zoom when window is resized"
 msgstr "Sesuaikan ketika jendela diubah ukuran"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:644
+#: ../src/ui/dialog/inkscape-preferences.cpp:639
 msgid "Show close button on dialogs"
 msgstr "Tampilkan tombol penutup di dialog"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:645
+#: ../src/ui/dialog/inkscape-preferences.cpp:640
 #, fuzzy
 msgctxt "Dialog on top"
 msgid "None"
 msgstr "Tidak ada"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:647
+#: ../src/ui/dialog/inkscape-preferences.cpp:642
 msgid "Aggressive"
 msgstr "Agresif"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 #, fuzzy
 msgid "Maximized"
 msgstr "Dioptimasi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:654
+#: ../src/ui/dialog/inkscape-preferences.cpp:649
 #, fuzzy
 msgid "Default window size:"
 msgstr "Pengaturan kisi bawaan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:655
+#: ../src/ui/dialog/inkscape-preferences.cpp:650
 #, fuzzy
 msgid "Set the default window size"
 msgstr "Membuat gradiasi bawaan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:658
+#: ../src/ui/dialog/inkscape-preferences.cpp:653
 msgid "Saving window geometry (size and position)"
 msgstr "Menyimpan jendela geometri (ukuran dan posisi)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:660
+#: ../src/ui/dialog/inkscape-preferences.cpp:655
 msgid "Let the window manager determine placement of all windows"
 msgstr "Biarkan sistem pengatur jendela menentukan penemapatan semua jendela"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:662
+#: ../src/ui/dialog/inkscape-preferences.cpp:657
 msgid ""
 "Remember and use the last window's geometry (saves geometry to user "
 "preferences)"
@@ -18725,7 +18724,7 @@ msgstr ""
 "Menyimpan dan menggunakan jendela geometri yang terakhir digunakan "
 "(menyimpan geometri yang digunakan pengguna)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:664
+#: ../src/ui/dialog/inkscape-preferences.cpp:659
 msgid ""
 "Save and restore window geometry for each document (saves geometry in the "
 "document)"
@@ -18733,79 +18732,79 @@ msgstr ""
 "Menyimpan dan menggunakan jendela geometri di tiap-tiap dokumen (setiap "
 "dokumen mempunyai definisi jendela geometri sendiri)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:666
+#: ../src/ui/dialog/inkscape-preferences.cpp:661
 #, fuzzy
 msgid "Saving dialogs status"
 msgstr "Tampilkan dialog saat jalan ulang"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:670
+#: ../src/ui/dialog/inkscape-preferences.cpp:665
 msgid ""
 "Save and restore dialogs status (the last open windows dialogs are saved "
 "when it closes)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:674
+#: ../src/ui/dialog/inkscape-preferences.cpp:669
 msgid "Dialog behavior (requires restart)"
 msgstr "Perilaku dialog (perlu jalan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:680
+#: ../src/ui/dialog/inkscape-preferences.cpp:675
 #, fuzzy
 msgid "Desktop integration"
 msgstr "Tujuan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:682
+#: ../src/ui/dialog/inkscape-preferences.cpp:677
 msgid "Use Windows like open and save dialogs"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:684
+#: ../src/ui/dialog/inkscape-preferences.cpp:679
 msgid "Use GTK open and save dialogs "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:688
+#: ../src/ui/dialog/inkscape-preferences.cpp:683
 msgid "Dialogs on top:"
 msgstr "Dialog ada diatas"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:691
+#: ../src/ui/dialog/inkscape-preferences.cpp:686
 msgid "Dialogs are treated as regular windows"
 msgstr "Dialog diperlakukan seperti jendela yang biasa"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:693
+#: ../src/ui/dialog/inkscape-preferences.cpp:688
 msgid "Dialogs stay on top of document windows"
 msgstr "Dialog akan selalu berada diatas jendela dokumen"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:695
+#: ../src/ui/dialog/inkscape-preferences.cpp:690
 msgid "Same as Normal but may work better with some window managers"
 msgstr "Seperti yang Normal, tetapi lebih baik di beberapa pengatur jendela"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:698
+#: ../src/ui/dialog/inkscape-preferences.cpp:693
 msgid "Dialog Transparency"
 msgstr "Dialog Transparansi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:700
+#: ../src/ui/dialog/inkscape-preferences.cpp:695
 #, fuzzy
 msgid "_Opacity when focused:"
 msgstr "Opasitas ketika fokus:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:702
+#: ../src/ui/dialog/inkscape-preferences.cpp:697
 #, fuzzy
 msgid "Opacity when _unfocused:"
 msgstr "Opasitas ketika tidak fokus:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:704
+#: ../src/ui/dialog/inkscape-preferences.cpp:699
 #, fuzzy
 msgid "_Time of opacity change animation:"
 msgstr "Waktu animasi perubahan opasitas: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:707
+#: ../src/ui/dialog/inkscape-preferences.cpp:702
 msgid "Miscellaneous"
 msgstr "Pengaturan lain"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:710
+#: ../src/ui/dialog/inkscape-preferences.cpp:705
 msgid "Whether dialog windows are to be hidden in the window manager taskbar"
 msgstr ""
 "Jika dipilih jendela dialog akan disembunyikan di kotak pengatur jendela"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:713
+#: ../src/ui/dialog/inkscape-preferences.cpp:708
 msgid ""
 "Zoom drawing when document window is resized, to keep the same area visible "
 "(this is the default which can be changed in any window using the button "
@@ -18815,117 +18814,117 @@ msgstr ""
 "tetap tampak (ini adalah pilihan bawaan yang bisa diubah di jendela "
 "menggunakan tombol diatas kotak penggulung sebelah kanan)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:715
+#: ../src/ui/dialog/inkscape-preferences.cpp:710
 msgid ""
 "Save documents viewport (zoom and panning position). Useful to turn off when "
 "sharing version controlled files."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:717
+#: ../src/ui/dialog/inkscape-preferences.cpp:712
 msgid "Whether dialog windows have a close button (requires restart)"
 msgstr ""
 "Jika dipilih jendela dialog mempunyai tombol penutup (perlu dijalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:718
+#: ../src/ui/dialog/inkscape-preferences.cpp:713
 msgid "Windows"
 msgstr "Jendela"
 
 #. Grids
-#: ../src/ui/dialog/inkscape-preferences.cpp:721
+#: ../src/ui/dialog/inkscape-preferences.cpp:716
 msgid "Line color when zooming out"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:724
+#: ../src/ui/dialog/inkscape-preferences.cpp:719
 #, fuzzy
 msgid "The gridlines will be shown in minor grid line color"
 msgstr ""
 "Apabila dipilih, waktu diperkecil garis kisi ditampilkan dengan warna biasa "
 "bukan warna garis kisi utama"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:726
+#: ../src/ui/dialog/inkscape-preferences.cpp:721
 #, fuzzy
 msgid "The gridlines will be shown in major grid line color"
 msgstr ""
 "Apabila dipilih, waktu diperkecil garis kisi ditampilkan dengan warna biasa "
 "bukan warna garis kisi utama"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:728
+#: ../src/ui/dialog/inkscape-preferences.cpp:723
 msgid "Default grid settings"
 msgstr "Pengaturan kisi bawaan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:734
-#: ../src/ui/dialog/inkscape-preferences.cpp:759
+#: ../src/ui/dialog/inkscape-preferences.cpp:729
+#: ../src/ui/dialog/inkscape-preferences.cpp:754
 msgid "Grid units:"
 msgstr "Satuan kisi:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:739
-#: ../src/ui/dialog/inkscape-preferences.cpp:764
+#: ../src/ui/dialog/inkscape-preferences.cpp:734
+#: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "Origin X:"
 msgstr "Titik asal X:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:740
-#: ../src/ui/dialog/inkscape-preferences.cpp:765
+#: ../src/ui/dialog/inkscape-preferences.cpp:735
+#: ../src/ui/dialog/inkscape-preferences.cpp:760
 msgid "Origin Y:"
 msgstr "Titik asal Y:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:740
 msgid "Spacing X:"
 msgstr "Spasi X:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:746
-#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:741
+#: ../src/ui/dialog/inkscape-preferences.cpp:763
 msgid "Spacing Y:"
 msgstr "Spasi Y:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:748
-#: ../src/ui/dialog/inkscape-preferences.cpp:749
-#: ../src/ui/dialog/inkscape-preferences.cpp:773
-#: ../src/ui/dialog/inkscape-preferences.cpp:774
+#: ../src/ui/dialog/inkscape-preferences.cpp:743
+#: ../src/ui/dialog/inkscape-preferences.cpp:744
+#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:769
 #, fuzzy
 msgid "Minor grid line color:"
 msgstr "Warna garis kisi utama:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:749
-#: ../src/ui/dialog/inkscape-preferences.cpp:774
+#: ../src/ui/dialog/inkscape-preferences.cpp:744
+#: ../src/ui/dialog/inkscape-preferences.cpp:769
 msgid "Color used for normal grid lines"
 msgstr "Warna untuk garis kisi normal"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:750
-#: ../src/ui/dialog/inkscape-preferences.cpp:751
-#: ../src/ui/dialog/inkscape-preferences.cpp:775
-#: ../src/ui/dialog/inkscape-preferences.cpp:776
+#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:770
+#: ../src/ui/dialog/inkscape-preferences.cpp:771
 msgid "Major grid line color:"
 msgstr "Warna garis kisi utama:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:751
-#: ../src/ui/dialog/inkscape-preferences.cpp:776
+#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:771
 msgid "Color used for major (highlighted) grid lines"
 msgstr "Warna untuk garis kisi utama (warna cerah)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:753
-#: ../src/ui/dialog/inkscape-preferences.cpp:778
+#: ../src/ui/dialog/inkscape-preferences.cpp:748
+#: ../src/ui/dialog/inkscape-preferences.cpp:773
 msgid "Major grid line every:"
 msgstr "Garis kisi utama setiap:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:754
+#: ../src/ui/dialog/inkscape-preferences.cpp:749
 msgid "Show dots instead of lines"
 msgstr "Tampilkan sebagai titik bukan garis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:755
+#: ../src/ui/dialog/inkscape-preferences.cpp:750
 msgid "If set, display dots at gridpoints instead of gridlines"
 msgstr ""
 "Jika dipilih, garis kisi akan dtampilkan sebagai titik-titik bukan garis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:836
+#: ../src/ui/dialog/inkscape-preferences.cpp:831
 #, fuzzy
 msgid "Input/Output"
 msgstr "Keluaran"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:839
+#: ../src/ui/dialog/inkscape-preferences.cpp:834
 msgid "Use current directory for \"Save As ...\""
 msgstr "Gunakan direktori sekarang untuk  \"Simpan sebagai ...\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:841
+#: ../src/ui/dialog/inkscape-preferences.cpp:836
 #, fuzzy
 msgid ""
 "When this option is on, the \"Save as...\" and \"Save a Copy\" dialogs will "
@@ -18936,11 +18935,11 @@ msgstr ""
 "direktori dimana dokumen berada; jika tidak dipilih, akan membuka direktori "
 "yang terakhir untuk menyimpan melalui dialog"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:843
+#: ../src/ui/dialog/inkscape-preferences.cpp:838
 msgid "Add label comments to printing output"
 msgstr "Tambah label komentar pada keluaran cetak"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:845
+#: ../src/ui/dialog/inkscape-preferences.cpp:840
 msgid ""
 "When on, a comment will be added to the raw print output, marking the "
 "rendered output for an object with its label"
@@ -18948,28 +18947,28 @@ msgstr ""
 "Jika dipilih, komentar akan ditambahkan ke hasil keluaran cetak, memberikan "
 "tanda pada hasil cetakan obyek dengan label tertentu"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:847
+#: ../src/ui/dialog/inkscape-preferences.cpp:842
 #, fuzzy
 msgid "Add default metadata to new documents"
 msgstr "Sunting metadata dokumen (disimpan bersama dokumen)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:849
+#: ../src/ui/dialog/inkscape-preferences.cpp:844
 msgid ""
 "Add default metadata to new documents. Default metadata can be set from "
 "Document Properties->Metadata."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:853
+#: ../src/ui/dialog/inkscape-preferences.cpp:848
 #, fuzzy
 msgid "_Grab sensitivity:"
 msgstr "Sensitivitas genggaman:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:853
+#: ../src/ui/dialog/inkscape-preferences.cpp:848
 #, fuzzy
 msgid "pixels (requires restart)"
 msgstr "(perlu dijalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:854
+#: ../src/ui/dialog/inkscape-preferences.cpp:849
 msgid ""
 "How close on the screen you need to be to an object to be able to grab it "
 "with mouse (in screen pixels)"
@@ -18977,40 +18976,40 @@ msgstr ""
 "Seberapa dekat terhadap layar yang anda perlukan agar obyek dapat anda "
 "genggam menggunakan tetikus (dalam piksel layar)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:856
+#: ../src/ui/dialog/inkscape-preferences.cpp:851
 #, fuzzy
 msgid "_Click/drag threshold:"
 msgstr "Ambang klik/seret:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:856
-#: ../src/ui/dialog/inkscape-preferences.cpp:1198
-#: ../src/ui/dialog/inkscape-preferences.cpp:1202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1212
+#: ../src/ui/dialog/inkscape-preferences.cpp:851
+#: ../src/ui/dialog/inkscape-preferences.cpp:1193
+#: ../src/ui/dialog/inkscape-preferences.cpp:1197
+#: ../src/ui/dialog/inkscape-preferences.cpp:1207
 msgid "pixels"
 msgstr "piksel"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:857
+#: ../src/ui/dialog/inkscape-preferences.cpp:852
 msgid ""
 "Maximum mouse drag (in screen pixels) which is considered a click, not a drag"
 msgstr ""
 "Maksimum seretan tetikus (dalam piksel layar) yang dianggap sebagai klik, "
 "bukan seret."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:860
+#: ../src/ui/dialog/inkscape-preferences.cpp:855
 #, fuzzy
 msgid "_Handle size:"
 msgstr "Handel"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:861
+#: ../src/ui/dialog/inkscape-preferences.cpp:856
 #, fuzzy
 msgid "Set the relative size of node handles"
 msgstr "Geser handel nodal"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:863
+#: ../src/ui/dialog/inkscape-preferences.cpp:858
 msgid "Use pressure-sensitive tablet (requires restart)"
 msgstr "Gunakan sensitivitas tekanan tablet (perlu jalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:865
+#: ../src/ui/dialog/inkscape-preferences.cpp:860
 msgid ""
 "Use the capabilities of a tablet or other pressure-sensitive device. Disable "
 "this only if you have problems with the tablet (you can still use it as a "
@@ -19020,28 +19019,28 @@ msgstr ""
 "jika anda mempunyai masalah dengan tablet (anda masih bisa menggunakannya "
 "sebagai tetikus)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:867
+#: ../src/ui/dialog/inkscape-preferences.cpp:862
 msgid "Switch tool based on tablet device (requires restart)"
 msgstr "Ganti alat berdasarkan piranti tablet (perlu jalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:869
+#: ../src/ui/dialog/inkscape-preferences.cpp:864
 msgid ""
 "Change tool as different devices are used on the tablet (pen, eraser, mouse)"
 msgstr ""
 "Ganti alat sebagai piranti lain yang digunakan tablet (pena, penghapus, "
 "tetikus)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:870
+#: ../src/ui/dialog/inkscape-preferences.cpp:865
 #, fuzzy
 msgid "Input devices"
 msgstr "Piranti M_asukan..."
 
 #. SVG output options
-#: ../src/ui/dialog/inkscape-preferences.cpp:873
+#: ../src/ui/dialog/inkscape-preferences.cpp:868
 msgid "Use named colors"
 msgstr "Gunakan nama warna"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:874
+#: ../src/ui/dialog/inkscape-preferences.cpp:869
 msgid ""
 "If set, write the CSS name of the color when available (e.g. 'red' or "
 "'magenta') instead of the numeric value"
@@ -19049,24 +19048,24 @@ msgstr ""
 "Jika dipilih, tulis nama warna CSS jika ada (misal, 'merah' atau 'magenta') "
 "bukan kode angka"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:876
+#: ../src/ui/dialog/inkscape-preferences.cpp:871
 msgid "XML formatting"
 msgstr "Pemformatan XML"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:878
+#: ../src/ui/dialog/inkscape-preferences.cpp:873
 msgid "Inline attributes"
 msgstr "Atribut baris"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:879
+#: ../src/ui/dialog/inkscape-preferences.cpp:874
 msgid "Put attributes on the same line as the element tag"
 msgstr "Letakkan atribut di baris yang sama sebagai tanda elemen"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:877
 #, fuzzy
 msgid "_Indent, spaces:"
 msgstr "Indentasi, spasi:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:877
 msgid ""
 "The number of spaces to use for indenting nested elements; set to 0 for no "
 "indentation"
@@ -19074,40 +19073,40 @@ msgstr ""
 "Jumlah spasi yang digunakan untuk indentasi sarang elemen; pilih 0 jika "
 "tanpa indentasi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:884
+#: ../src/ui/dialog/inkscape-preferences.cpp:879
 msgid "Path data"
 msgstr "Data tapak"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
 msgid "Absolute"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
 #, fuzzy
 msgid "Relative"
 msgstr "Relatif terhadap: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
-#: ../src/ui/dialog/inkscape-preferences.cpp:1177
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:1172
 msgid "Optimized"
 msgstr "Dioptimasi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:891
+#: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid "Path string format:"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:891
+#: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid ""
 "Path data should be written: only with absolute coordinates, only with "
 "relative coordinates, or optimized for string length (mixed absolute and "
 "relative coordinates)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:893
+#: ../src/ui/dialog/inkscape-preferences.cpp:888
 msgid "Force repeat commands"
 msgstr "Paksa perintah berulang"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:894
+#: ../src/ui/dialog/inkscape-preferences.cpp:889
 msgid ""
 "Force repeating of the same path command (for example, 'L 1,2 L 3,4' instead "
 "of 'L 1,2 3,4')"
@@ -19115,25 +19114,25 @@ msgstr ""
 "Memaksa perintah tapak yang sama yang diulang (misalnya, 'L 1,2 L 3,4' "
 "menggantikan 'L 1,2 3,4')"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:896
+#: ../src/ui/dialog/inkscape-preferences.cpp:891
 msgid "Numbers"
 msgstr "Angka"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:899
+#: ../src/ui/dialog/inkscape-preferences.cpp:894
 #, fuzzy
 msgid "_Numeric precision:"
 msgstr "Presisi numerik:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:899
+#: ../src/ui/dialog/inkscape-preferences.cpp:894
 msgid "Significant figures of the values written to the SVG file"
 msgstr "Angka signifikan untuk menulis berkas SVG"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:902
+#: ../src/ui/dialog/inkscape-preferences.cpp:897
 #, fuzzy
 msgid "Minimum _exponent:"
 msgstr "Minimum eksponen:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:902
+#: ../src/ui/dialog/inkscape-preferences.cpp:897
 msgid ""
 "The smallest number written to SVG is 10 to the power of this exponent; "
 "anything smaller is written as zero"
@@ -19143,60 +19142,60 @@ msgstr ""
 
 #. Code to add controls for attribute checking options
 #. Add incorrect style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:907
+#: ../src/ui/dialog/inkscape-preferences.cpp:902
 msgid "Improper Attributes Actions"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:909
-#: ../src/ui/dialog/inkscape-preferences.cpp:917
-#: ../src/ui/dialog/inkscape-preferences.cpp:925
+#: ../src/ui/dialog/inkscape-preferences.cpp:904
+#: ../src/ui/dialog/inkscape-preferences.cpp:912
+#: ../src/ui/dialog/inkscape-preferences.cpp:920
 #, fuzzy
 msgid "Print warnings"
 msgstr "Marka cetakan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:910
+#: ../src/ui/dialog/inkscape-preferences.cpp:905
 msgid ""
 "Print warning if invalid or non-useful attributes found. Database files "
 "located in inkscape_data_dir/attributes."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:911
+#: ../src/ui/dialog/inkscape-preferences.cpp:906
 #, fuzzy
 msgid "Remove attributes"
 msgstr "Atur atribut"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:912
+#: ../src/ui/dialog/inkscape-preferences.cpp:907
 msgid "Delete invalid or non-useful attributes from element tag"
 msgstr ""
 
 #. Add incorrect style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:915
+#: ../src/ui/dialog/inkscape-preferences.cpp:910
 msgid "Inappropriate Style Properties Actions"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:918
+#: ../src/ui/dialog/inkscape-preferences.cpp:913
 msgid ""
 "Print warning if inappropriate style properties found (i.e. 'font-family' "
 "set on a <rect>). Database files located in inkscape_data_dir/attributes."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:919
-#: ../src/ui/dialog/inkscape-preferences.cpp:927
+#: ../src/ui/dialog/inkscape-preferences.cpp:914
+#: ../src/ui/dialog/inkscape-preferences.cpp:922
 #, fuzzy
 msgid "Remove style properties"
 msgstr "Menuliskan properti dari segitiga ini"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:920
+#: ../src/ui/dialog/inkscape-preferences.cpp:915
 #, fuzzy
 msgid "Delete inappropriate style properties"
 msgstr "Atur properti pemandu"
 
 #. Add default or inherited style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:923
+#: ../src/ui/dialog/inkscape-preferences.cpp:918
 msgid "Non-useful Style Properties Actions"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:926
+#: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid ""
 "Print warning if redundant style properties found (i.e. if a property has "
 "the default value and a different value is not inherited or if value is the "
@@ -19204,72 +19203,72 @@ msgid ""
 "attributes."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:928
+#: ../src/ui/dialog/inkscape-preferences.cpp:923
 #, fuzzy
 msgid "Delete redundant style properties"
 msgstr "Atur properti pemandu"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:930
+#: ../src/ui/dialog/inkscape-preferences.cpp:925
 msgid "Check Attributes and Style Properties on"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:932
+#: ../src/ui/dialog/inkscape-preferences.cpp:927
 #, fuzzy
 msgid "Reading"
 msgstr "Pembayangan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:933
+#: ../src/ui/dialog/inkscape-preferences.cpp:928
 msgid ""
 "Check attributes and style properties on reading in SVG files (including "
 "those internal to Inkscape which will slow down startup)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:934
+#: ../src/ui/dialog/inkscape-preferences.cpp:929
 #, fuzzy
 msgid "Editing"
 msgstr "_Sunting"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:935
+#: ../src/ui/dialog/inkscape-preferences.cpp:930
 msgid ""
 "Check attributes and style properties while editing SVG files (may slow down "
 "Inkscape, mostly useful for debugging)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:936
+#: ../src/ui/dialog/inkscape-preferences.cpp:931
 #, fuzzy
 msgid "Writing"
 msgstr "Skrip"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:937
+#: ../src/ui/dialog/inkscape-preferences.cpp:932
 msgid "Check attributes and style properties on writing out SVG files"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:939
+#: ../src/ui/dialog/inkscape-preferences.cpp:934
 msgid "SVG output"
 msgstr "Keluaran SVG"
 
 #. TRANSLATORS: see http://www.newsandtech.com/issues/2004/03-04/pt/03-04_rendering.htm
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Perceptual"
 msgstr "Perseptual"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Relative Colorimetric"
 msgstr "Colorimetric relatif"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Absolute Colorimetric"
 msgstr "Kalorimetrik Penuh"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:949
+#: ../src/ui/dialog/inkscape-preferences.cpp:944
 msgid "(Note: Color management has been disabled in this build)"
 msgstr "(Catatan: Manajemen warna tidak aktif pada versi ini)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:953
+#: ../src/ui/dialog/inkscape-preferences.cpp:948
 msgid "Display adjustment"
 msgstr "Pengaturan tampilan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:963
+#: ../src/ui/dialog/inkscape-preferences.cpp:958
 #, c-format
 msgid ""
 "The ICC profile to use to calibrate display output.\n"
@@ -19278,110 +19277,110 @@ msgstr ""
 "Profil ICC digunakan untuk kalibrasi keluaran tampilan.\n"
 "Direktori yang dicari:%s"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:964
+#: ../src/ui/dialog/inkscape-preferences.cpp:959
 msgid "Display profile:"
 msgstr "Profil Tampilan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:969
+#: ../src/ui/dialog/inkscape-preferences.cpp:964
 msgid "Retrieve profile from display"
 msgstr "Mengambil profil dari tampilan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:972
+#: ../src/ui/dialog/inkscape-preferences.cpp:967
 msgid "Retrieve profiles from those attached to displays via XICC"
 msgstr "Mengambil profil dari yang dikaitkan ke tampilan melalui XICC"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:974
+#: ../src/ui/dialog/inkscape-preferences.cpp:969
 msgid "Retrieve profiles from those attached to displays"
 msgstr "Mengambil profil dari yang dikaitkan ke tampilan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:979
+#: ../src/ui/dialog/inkscape-preferences.cpp:974
 msgid "Display rendering intent:"
 msgstr "Menampilkan isi pencitraan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:980
+#: ../src/ui/dialog/inkscape-preferences.cpp:975
 msgid "The rendering intent to use to calibrate display output"
 msgstr "isi pencitraan yang digukanan untuk mengkalibrasi keluaran tampilan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:982
+#: ../src/ui/dialog/inkscape-preferences.cpp:977
 msgid "Proofing"
 msgstr "Proofing"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:984
+#: ../src/ui/dialog/inkscape-preferences.cpp:979
 msgid "Simulate output on screen"
 msgstr "Simulasi keluaran di layar"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:986
+#: ../src/ui/dialog/inkscape-preferences.cpp:981
 msgid "Simulates output of target device"
 msgstr "Simulasi keluaran di piranti layar target"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:988
+#: ../src/ui/dialog/inkscape-preferences.cpp:983
 msgid "Mark out of gamut colors"
 msgstr "Menandai warna diluar gamut"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:990
+#: ../src/ui/dialog/inkscape-preferences.cpp:985
 msgid "Highlights colors that are out of gamut for the target device"
 msgstr "Menandai warna yang yang diluar gamut untuk piranti tampilan target"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1002
+#: ../src/ui/dialog/inkscape-preferences.cpp:997
 msgid "Out of gamut warning color:"
 msgstr "Warna tanda peringatan diluar gamut:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1003
+#: ../src/ui/dialog/inkscape-preferences.cpp:998
 msgid "Selects the color used for out of gamut warning"
 msgstr "Pilih warna yang digunakan untuk perigatan diluar warna gamut"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1005
+#: ../src/ui/dialog/inkscape-preferences.cpp:1000
 msgid "Device profile:"
 msgstr "Profil piranti:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1006
+#: ../src/ui/dialog/inkscape-preferences.cpp:1001
 msgid "The ICC profile to use to simulate device output"
 msgstr "Profil ICC yang digunakan untuk simulasi keluaran piranti layar"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1009
+#: ../src/ui/dialog/inkscape-preferences.cpp:1004
 msgid "Device rendering intent:"
 msgstr "Isi piranti pencitraan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1010
+#: ../src/ui/dialog/inkscape-preferences.cpp:1005
 msgid "The rendering intent to use to calibrate device output"
 msgstr "Isi pencitraan yang digunakan untuk kalibrasi keluaran piranti layar"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1012
+#: ../src/ui/dialog/inkscape-preferences.cpp:1007
 msgid "Black point compensation"
 msgstr "Kompensasi titik hitam"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1014
+#: ../src/ui/dialog/inkscape-preferences.cpp:1009
 msgid "Enables black point compensation"
 msgstr "Mengaktifkan kompensasi titik hitam"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1016
+#: ../src/ui/dialog/inkscape-preferences.cpp:1011
 msgid "Preserve black"
 msgstr "Pertahankan warna hitam"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1023
+#: ../src/ui/dialog/inkscape-preferences.cpp:1018
 msgid "(LittleCMS 1.15 or later required)"
 msgstr "(memerlukan LittleCMS 1.15 atau yang lebih baru)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1025
+#: ../src/ui/dialog/inkscape-preferences.cpp:1020
 msgid "Preserve K channel in CMYK -> CMYK transforms"
 msgstr "Pertahankan kanal K untuk pergeseran CMYK -> CMYK"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1039
+#: ../src/ui/dialog/inkscape-preferences.cpp:1034
 #: ../src/widgets/sp-color-icc-selector.cpp:474
 #: ../src/widgets/sp-color-icc-selector.cpp:766
 msgid "<none>"
 msgstr "<tidak ada>"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1084
+#: ../src/ui/dialog/inkscape-preferences.cpp:1079
 msgid "Color management"
 msgstr "Manajemen Warna"
 
 #. Autosave options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1087
+#: ../src/ui/dialog/inkscape-preferences.cpp:1082
 msgid "Enable autosave (requires restart)"
 msgstr "Menyimpan otomatis (perlu dijalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1088
+#: ../src/ui/dialog/inkscape-preferences.cpp:1083
 msgid ""
 "Automatically save the current document(s) at a given interval, thus "
 "minimizing loss in case of a crash"
@@ -19389,33 +19388,33 @@ msgstr ""
 "Menyimpan dokumen otomatis setiap interval waktu tertentu, sehingga tidak "
 "akan kehilangan berkas jika program mati"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1094
+#: ../src/ui/dialog/inkscape-preferences.cpp:1089
 #, fuzzy
 msgctxt "Filesystem"
 msgid "Autosave _directory:"
 msgstr "Direktori gambar zip:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1094
+#: ../src/ui/dialog/inkscape-preferences.cpp:1089
 msgid ""
 "The directory where autosaves will be written. This should be an absolute "
 "path (starts with / on UNIX or a drive letter such as C: on Windows). "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1096
+#: ../src/ui/dialog/inkscape-preferences.cpp:1091
 #, fuzzy
 msgid "_Interval (in minutes):"
 msgstr "Interval (dalam menit):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1096
+#: ../src/ui/dialog/inkscape-preferences.cpp:1091
 msgid "Interval (in minutes) at which document will be autosaved"
 msgstr "Interval (dalam menit) penyimpanan dokumen secara otomatis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1098
+#: ../src/ui/dialog/inkscape-preferences.cpp:1093
 #, fuzzy
 msgid "_Maximum number of autosaves:"
 msgstr "Jumlah maksimum penyimpanan otomatis:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1098
+#: ../src/ui/dialog/inkscape-preferences.cpp:1093
 msgid ""
 "Maximum number of autosaved files; use this to limit the storage space used"
 msgstr ""
@@ -19434,17 +19433,17 @@ msgstr ""
 #. _autosave_autosave_interval.signal_changed().connect( sigc::ptr_fun(inkscape_autosave_init), TRUE );
 #.
 #. -----------
-#: ../src/ui/dialog/inkscape-preferences.cpp:1113
+#: ../src/ui/dialog/inkscape-preferences.cpp:1108
 #, fuzzy
 msgid "Autosave"
 msgstr "Otomatis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1117
+#: ../src/ui/dialog/inkscape-preferences.cpp:1112
 #, fuzzy
 msgid "Open Clip Art Library _Server Name:"
 msgstr "Nama server Pustaka Open Clip Art:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1118
+#: ../src/ui/dialog/inkscape-preferences.cpp:1113
 msgid ""
 "The server name of the Open Clip Art Library webdav server; it's used by the "
 "Import and Export to OCAL function"
@@ -19452,40 +19451,40 @@ msgstr ""
 "Nama server Pustaka Open Clip Art webdav; digunakan oleh fungsi OCAL Impor "
 "dan Ekspor"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1120
+#: ../src/ui/dialog/inkscape-preferences.cpp:1115
 #, fuzzy
 msgid "Open Clip Art Library _Username:"
 msgstr "Nama pengguna Pustaka Open Clip Art Library"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1121
+#: ../src/ui/dialog/inkscape-preferences.cpp:1116
 msgid "The username used to log into Open Clip Art Library"
 msgstr "Nama pengguna yang digunakan untuk masuk Pustaka Open Clip Art"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1123
+#: ../src/ui/dialog/inkscape-preferences.cpp:1118
 #, fuzzy
 msgid "Open Clip Art Library _Password:"
 msgstr "Katalaluan Pustaka Open Clip Art:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1124
+#: ../src/ui/dialog/inkscape-preferences.cpp:1119
 msgid "The password used to log into Open Clip Art Library"
 msgstr "Katalaluan yang digunakan untuk masuk ke Pustaka Open Clip Art"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1125
+#: ../src/ui/dialog/inkscape-preferences.cpp:1120
 #, fuzzy
 msgid "Open Clip Art"
 msgstr "Busur terbuka"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1130
+#: ../src/ui/dialog/inkscape-preferences.cpp:1125
 #, fuzzy
 msgid "Behavior"
 msgstr "Perilaku:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1134
+#: ../src/ui/dialog/inkscape-preferences.cpp:1129
 #, fuzzy
 msgid "_Simplification threshold:"
 msgstr "Ambang batas Sederhanakan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1135
+#: ../src/ui/dialog/inkscape-preferences.cpp:1130
 msgid ""
 "How strong is the Node tool's Simplify command by default. If you invoke "
 "this command several times in quick succession, it will act more and more "
@@ -19496,45 +19495,45 @@ msgstr ""
 "agresif; tetapi menggunakan setelah adanya jeda akan mengembalikan ke ambang "
 "batas bawaan ini."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1137
+#: ../src/ui/dialog/inkscape-preferences.cpp:1132
 msgid "Color stock markers the same color as object"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1138
+#: ../src/ui/dialog/inkscape-preferences.cpp:1133
 msgid "Color custom markers the same color as object"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1139
-#: ../src/ui/dialog/inkscape-preferences.cpp:1349
+#: ../src/ui/dialog/inkscape-preferences.cpp:1134
+#: ../src/ui/dialog/inkscape-preferences.cpp:1344
 msgid "Update marker color when object color changes"
 msgstr ""
 
 #. Selecting options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1142
+#: ../src/ui/dialog/inkscape-preferences.cpp:1137
 msgid "Select in all layers"
 msgstr "Pilih di semua lapis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1143
+#: ../src/ui/dialog/inkscape-preferences.cpp:1138
 msgid "Select only within current layer"
 msgstr "Pilih hanya pada lapis yang sekarang"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1144
+#: ../src/ui/dialog/inkscape-preferences.cpp:1139
 msgid "Select in current layer and sublayers"
 msgstr "Pilih di lapis yang sekarang dan semua sub lapis nya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1145
+#: ../src/ui/dialog/inkscape-preferences.cpp:1140
 msgid "Ignore hidden objects and layers"
 msgstr "Abaikan obyek dan lapis tersembunyi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1146
+#: ../src/ui/dialog/inkscape-preferences.cpp:1141
 msgid "Ignore locked objects and layers"
 msgstr "Abaikan obyek dan lapis terkunci"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1147
+#: ../src/ui/dialog/inkscape-preferences.cpp:1142
 msgid "Deselect upon layer change"
 msgstr "Lepas pilihan jika pindah lapis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1150
+#: ../src/ui/dialog/inkscape-preferences.cpp:1145
 msgid ""
 "Uncheck this to be able to keep the current objects selected when the "
 "current layer changes"
@@ -19542,23 +19541,23 @@ msgstr ""
 "Hapus contreng apabila ingin mempertahankan pilihan obyek ketika pindah ke "
 "lapis lain"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1152
+#: ../src/ui/dialog/inkscape-preferences.cpp:1147
 msgid "Ctrl+A, Tab, Shift+Tab"
 msgstr "Ctrl+A, Tab, Shift+Tab"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1154
+#: ../src/ui/dialog/inkscape-preferences.cpp:1149
 msgid "Make keyboard selection commands work on objects in all layers"
 msgstr ""
 "Membuat perintah pilihan dengan papan ketik dapat bekerja pada obyek di "
 "semua lapis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1151
 msgid "Make keyboard selection commands work on objects in current layer only"
 msgstr ""
 "Membuat perintah pilihan dengan papan ketik dapat bekerja pada obyek di "
 "lapis yang sekarang"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1158
+#: ../src/ui/dialog/inkscape-preferences.cpp:1153
 msgid ""
 "Make keyboard selection commands work on objects in current layer and all "
 "its sublayers"
@@ -19566,7 +19565,7 @@ msgstr ""
 "Membuat perintah pilihan dengan papan ketik dapat bekerja pada obyek di "
 "lapis yang sekarang serta semua sub lapis nya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1160
+#: ../src/ui/dialog/inkscape-preferences.cpp:1155
 msgid ""
 "Uncheck this to be able to select objects that are hidden (either by "
 "themselves or by being in a hidden layer)"
@@ -19574,7 +19573,7 @@ msgstr ""
 "Hapus contreng apabila ingin memilih obyek yang tersembunyi (baik pada "
 "obyeknya sendiri atau tersembunyi di lapis lain)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1162
+#: ../src/ui/dialog/inkscape-preferences.cpp:1157
 msgid ""
 "Uncheck this to be able to select objects that are locked (either by "
 "themselves or by being in a locked layer)"
@@ -19582,71 +19581,71 @@ msgstr ""
 "Hapus contreng apabila ingin memilih obyek yang terkunci (baik pada obyeknya "
 "sendiri atau tersembunyi di lapis lain)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1164
+#: ../src/ui/dialog/inkscape-preferences.cpp:1159
 msgid "Wrap when cycling objects in z-order"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1166
+#: ../src/ui/dialog/inkscape-preferences.cpp:1161
 msgid "Alt+Scroll Wheel"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1168
+#: ../src/ui/dialog/inkscape-preferences.cpp:1163
 msgid "Wrap around at start and end when cycling objects in z-order"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1170
+#: ../src/ui/dialog/inkscape-preferences.cpp:1165
 msgid "Selecting"
 msgstr "Pemilihan"
 
 #. Transforms options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1173
+#: ../src/ui/dialog/inkscape-preferences.cpp:1168
 #: ../src/widgets/select-toolbar.cpp:570
 msgid "Scale stroke width"
 msgstr "Skalakan lebar sapuan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1174
+#: ../src/ui/dialog/inkscape-preferences.cpp:1169
 msgid "Scale rounded corners in rectangles"
 msgstr "Skalakan sudut pojok pada segi empat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1175
+#: ../src/ui/dialog/inkscape-preferences.cpp:1170
 msgid "Transform gradients"
 msgstr "Geser gradiasi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1176
+#: ../src/ui/dialog/inkscape-preferences.cpp:1171
 msgid "Transform patterns"
 msgstr "Geser pola"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1178
+#: ../src/ui/dialog/inkscape-preferences.cpp:1173
 msgid "Preserved"
 msgstr "Dipertahankan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1181
+#: ../src/ui/dialog/inkscape-preferences.cpp:1176
 #: ../src/widgets/select-toolbar.cpp:571
 msgid "When scaling objects, scale the stroke width by the same proportion"
 msgstr ""
 "Ketika melakukan skala obyek, lebar sapuan juga diskalakan dengan "
 "perbandingan yang sama"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1183
+#: ../src/ui/dialog/inkscape-preferences.cpp:1178
 #: ../src/widgets/select-toolbar.cpp:582
 msgid "When scaling rectangles, scale the radii of rounded corners"
 msgstr "Ketika melakukan skala segiempat, skalakan juga jejari sudutnya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1185
+#: ../src/ui/dialog/inkscape-preferences.cpp:1180
 #: ../src/widgets/select-toolbar.cpp:593
 msgid "Move gradients (in fill or stroke) along with the objects"
 msgstr "Geser gradiasi (pada isian dan sapuan) bersama dengan obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1187
+#: ../src/ui/dialog/inkscape-preferences.cpp:1182
 #: ../src/widgets/select-toolbar.cpp:604
 msgid "Move patterns (in fill or stroke) along with the objects"
 msgstr "Geser pola (pada isian dan sapuan) bersama dengan obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1188
+#: ../src/ui/dialog/inkscape-preferences.cpp:1183
 msgid "Store transformation"
 msgstr "Simpan penggeseran"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1190
+#: ../src/ui/dialog/inkscape-preferences.cpp:1185
 msgid ""
 "If possible, apply transformation to objects without adding a transform= "
 "attribute"
@@ -19654,20 +19653,20 @@ msgstr ""
 "Jika memungkinkan, terapkan pergeseran ke obyek tanpa menyatakan "
 "geseran=atribut"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1192
+#: ../src/ui/dialog/inkscape-preferences.cpp:1187
 msgid "Always store transformation as a transform= attribute on objects"
 msgstr "Selalu menyimpan pergeseran sebagai geseran=atribut dari obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1194
+#: ../src/ui/dialog/inkscape-preferences.cpp:1189
 msgid "Transforms"
 msgstr "Penggeseran"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1198
+#: ../src/ui/dialog/inkscape-preferences.cpp:1193
 #, fuzzy
 msgid "Mouse _wheel scrolls by:"
 msgstr "Roda tetikus menggulung dengan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1199
+#: ../src/ui/dialog/inkscape-preferences.cpp:1194
 msgid ""
 "One mouse wheel notch scrolls by this distance in screen pixels "
 "(horizontally with Shift)"
@@ -19675,26 +19674,26 @@ msgstr ""
 "Satu roda tetikus menggulung dengan jarak ini menurut piksel layar "
 "(horisontal dengan Shift)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1200
+#: ../src/ui/dialog/inkscape-preferences.cpp:1195
 msgid "Ctrl+arrows"
 msgstr "Ctrl+tanda panah"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1202
+#: ../src/ui/dialog/inkscape-preferences.cpp:1197
 #, fuzzy
 msgid "Sc_roll by:"
 msgstr "Menggulung dengan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1203
+#: ../src/ui/dialog/inkscape-preferences.cpp:1198
 msgid "Pressing Ctrl+arrow key scrolls by this distance (in screen pixels)"
 msgstr ""
 "Menekan tombol Ctrl+panah menggulung menurut jarak ini (dalam piksel layar)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1205
+#: ../src/ui/dialog/inkscape-preferences.cpp:1200
 #, fuzzy
 msgid "_Acceleration:"
 msgstr "Percepatan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1206
+#: ../src/ui/dialog/inkscape-preferences.cpp:1201
 msgid ""
 "Pressing and holding Ctrl+arrow will gradually speed up scrolling (0 for no "
 "acceleration)"
@@ -19702,16 +19701,16 @@ msgstr ""
 "Menekan dan menahan tombol Ctrl+panah akan menambah kecepatan menggulung (0 "
 "tanpa percepatan)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1207
+#: ../src/ui/dialog/inkscape-preferences.cpp:1202
 msgid "Autoscrolling"
 msgstr "Menggulung Otomatis"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1209
+#: ../src/ui/dialog/inkscape-preferences.cpp:1204
 #, fuzzy
 msgid "_Speed:"
 msgstr "Kecepatan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1210
+#: ../src/ui/dialog/inkscape-preferences.cpp:1205
 msgid ""
 "How fast the canvas autoscrolls when you drag beyond canvas edge (0 to turn "
 "autoscroll off)"
@@ -19719,13 +19718,13 @@ msgstr ""
 "Seberapa cepat kanvas menggulung otomatis ketika anda menyeret sisi kanvas "
 "(0 untuk mematikan menggulung otomatis)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1212
+#: ../src/ui/dialog/inkscape-preferences.cpp:1207
 #: ../src/ui/dialog/tracedialog.cpp:522 ../src/ui/dialog/tracedialog.cpp:721
 #, fuzzy
 msgid "_Threshold:"
 msgstr "Ambang batas:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1213
+#: ../src/ui/dialog/inkscape-preferences.cpp:1208
 msgid ""
 "How far (in screen pixels) you need to be from the canvas edge to trigger "
 "autoscroll; positive is outside the canvas, negative is within the canvas"
@@ -19738,11 +19737,11 @@ msgstr ""
 #. _page_scrolling.add_line( false, "", _scroll_space, "",
 #. _("When on, pressing and holding Space and dragging with left mouse button pans canvas (as in Adobe Illustrator); when off, Space temporarily switches to Selector tool (default)"));
 #.
-#: ../src/ui/dialog/inkscape-preferences.cpp:1219
+#: ../src/ui/dialog/inkscape-preferences.cpp:1214
 msgid "Mouse wheel zooms by default"
 msgstr "Roda tetikus untuk pembesaran dan pengecilan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1221
+#: ../src/ui/dialog/inkscape-preferences.cpp:1216
 msgid ""
 "When on, mouse wheel zooms without Ctrl and scrolls canvas with Ctrl; when "
 "off, it zooms with Ctrl and scrolls without Ctrl"
@@ -19751,26 +19750,26 @@ msgstr ""
 "tanpa menekan Ctrl. Jika dengan menekan Ctrl untuk penggulungan. Jika tidak "
 "aktif berlaku sebaliknya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1222
+#: ../src/ui/dialog/inkscape-preferences.cpp:1217
 msgid "Scrolling"
 msgstr "Penggulungan"
 
 #. Snapping options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1225
+#: ../src/ui/dialog/inkscape-preferences.cpp:1220
 msgid "Enable snap indicator"
 msgstr "Munculkan indikator kancing"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1227
+#: ../src/ui/dialog/inkscape-preferences.cpp:1222
 msgid "After snapping, a symbol is drawn at the point that has snapped"
 msgstr ""
 "Setelah pengkancingan, simbol pengkancingan digambar di titik yang dikancing"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1230
+#: ../src/ui/dialog/inkscape-preferences.cpp:1225
 #, fuzzy
 msgid "_Delay (in ms):"
 msgstr "Waktu jeda (dalam ms):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1231
+#: ../src/ui/dialog/inkscape-preferences.cpp:1226
 msgid ""
 "Postpone snapping as long as the mouse is moving, and then wait an "
 "additional fraction of a second. This additional delay is specified here. "
@@ -19780,23 +19779,23 @@ msgstr ""
 "perdetik. Tambahan waktu jeda dinyatakan disini. Jika berada pada angka 0 "
 "atau sangat kecil, maka pengkancingan akan berlaku seketika."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1233
+#: ../src/ui/dialog/inkscape-preferences.cpp:1228
 msgid "Only snap the node closest to the pointer"
 msgstr "Hanya mengkancing nodal terdekat dengan penunjuk tetikus"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1235
+#: ../src/ui/dialog/inkscape-preferences.cpp:1230
 msgid ""
 "Only try to snap the node that is initially closest to the mouse pointer"
 msgstr ""
 "Hanya mencoba melakukan pengkancingan pada nodal yang terdekat dengan "
 "penunjuk tetikus"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1238
+#: ../src/ui/dialog/inkscape-preferences.cpp:1233
 #, fuzzy
 msgid "_Weight factor:"
 msgstr "Faktor pemberat:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1239
+#: ../src/ui/dialog/inkscape-preferences.cpp:1234
 msgid ""
 "When multiple snap solutions are found, then Inkscape can either prefer the "
 "closest transformation (when set to 0), or prefer the node that was "
@@ -19806,11 +19805,11 @@ msgstr ""
 "pergeserannya terdekat  (pada angka 0), atau memilih nodal yang terdekat "
 "dengan penunjuk tetikus (jika pada angka 1) "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1241
+#: ../src/ui/dialog/inkscape-preferences.cpp:1236
 msgid "Snap the mouse pointer when dragging a constrained knot"
 msgstr "Kancingkan penunjuk tetikus ketika menyeret simpul berkendala"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1243
+#: ../src/ui/dialog/inkscape-preferences.cpp:1238
 msgid ""
 "When dragging a knot along a constraint line, then snap the position of the "
 "mouse pointer instead of snapping the projection of the knot onto the "
@@ -19820,17 +19819,17 @@ msgstr ""
 "posisi dari penunjuk tetikus dan tidak mengancing proyeksi simpul ke garis "
 "kendala"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1245
+#: ../src/ui/dialog/inkscape-preferences.cpp:1240
 msgid "Snapping"
 msgstr "Pengkancingan"
 
 #. nudgedistance is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1250
+#: ../src/ui/dialog/inkscape-preferences.cpp:1245
 #, fuzzy
 msgid "_Arrow keys move by:"
 msgstr "Tombol panah bergerak:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1251
+#: ../src/ui/dialog/inkscape-preferences.cpp:1246
 #, fuzzy
 msgid ""
 "Pressing an arrow key moves selected object(s) or node(s) by this distance"
@@ -19839,35 +19838,35 @@ msgstr ""
 "satuan piksel)"
 
 #. defaultscale is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1254
+#: ../src/ui/dialog/inkscape-preferences.cpp:1249
 #, fuzzy
 msgid "> and < _scale by:"
 msgstr "> dan < di skala pada"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1255
+#: ../src/ui/dialog/inkscape-preferences.cpp:1250
 #, fuzzy
 msgid "Pressing > or < scales selection up or down by this increment"
 msgstr ""
 "Menekan tombol > atau < membuat skala naik atau turun dengan tahap ini "
 "(dalam satuan piksel)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1257
+#: ../src/ui/dialog/inkscape-preferences.cpp:1252
 #, fuzzy
 msgid "_Inset/Outset by:"
 msgstr "Inset/Outset menurut:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1258
+#: ../src/ui/dialog/inkscape-preferences.cpp:1253
 #, fuzzy
 msgid "Inset and Outset commands displace the path by this distance"
 msgstr ""
 "Perintah inset/outset menggerakkan tapak dengan jarak ini (dalam satuan "
 "piksel)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1259
+#: ../src/ui/dialog/inkscape-preferences.cpp:1254
 msgid "Compass-like display of angles"
 msgstr "Tampilan seperti kompas"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1261
+#: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid ""
 "When on, angles are displayed with 0 at north, 0 to 360 range, positive "
 "clockwise; otherwise with 0 at east, -180 to 180 range, positive "
@@ -19877,22 +19876,22 @@ msgstr ""
 "searah jarum jam; jika tidak dicontreng, ) untuk timur, jangkauan -180 "
 "sampai 180, dan berlawanan jarum jam"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1263
+#: ../src/ui/dialog/inkscape-preferences.cpp:1258
 #, fuzzy
 msgctxt "Rotation angle"
 msgid "None"
 msgstr "Tidak ada"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1267
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 #, fuzzy
 msgid "_Rotation snaps every:"
 msgstr "Rotasi kancing setiap:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1267
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 msgid "degrees"
 msgstr "derajat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1268
+#: ../src/ui/dialog/inkscape-preferences.cpp:1263
 msgid ""
 "Rotating with Ctrl pressed snaps every that much degrees; also, pressing "
 "[ or ] rotates by this amount"
@@ -19900,26 +19899,26 @@ msgstr ""
 "Memutar menggunakan Ctrl menekan kancingan setiap ukuran derajat ini; juga "
 "menekan [ atau ] memutar dengan derajat ini"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1269
+#: ../src/ui/dialog/inkscape-preferences.cpp:1264
 msgid "Relative snapping of guideline angles"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1271
+#: ../src/ui/dialog/inkscape-preferences.cpp:1266
 msgid ""
 "When on, the snap angles when rotating a guideline will be relative to the "
 "original angle"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1268
 #, fuzzy
 msgid "_Zoom in/out by:"
 msgstr "Perbesar/Perkecil pada"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1268
 msgid "%"
 msgstr "%"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1274
+#: ../src/ui/dialog/inkscape-preferences.cpp:1269
 msgid ""
 "Zoom tool click, +/- keys, and middle click zoom in and out by this "
 "multiplier"
@@ -19927,45 +19926,45 @@ msgstr ""
 "Klik tombol alat perbesar/perkecil, dan klik tengah melakukan pembesaran/"
 "pengecilan dengan perkalian angka ini"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1275
+#: ../src/ui/dialog/inkscape-preferences.cpp:1270
 msgid "Steps"
 msgstr "Langkah"
 
 #. Clones options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1278
+#: ../src/ui/dialog/inkscape-preferences.cpp:1273
 msgid "Move in parallel"
 msgstr "Bergerak paralel"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1280
+#: ../src/ui/dialog/inkscape-preferences.cpp:1275
 msgid "Stay unmoved"
 msgstr "Tetap tidak pindah"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1282
+#: ../src/ui/dialog/inkscape-preferences.cpp:1277
 msgid "Move according to transform"
 msgstr "Pindah sesuai pergeseran"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1284
+#: ../src/ui/dialog/inkscape-preferences.cpp:1279
 msgid "Are unlinked"
 msgstr "Akan dilepaskan tautannya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1286
+#: ../src/ui/dialog/inkscape-preferences.cpp:1281
 msgid "Are deleted"
 msgstr "Akan dihapus"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1289
+#: ../src/ui/dialog/inkscape-preferences.cpp:1284
 #, fuzzy
 msgid "Moving original: clones and linked offsets"
 msgstr "Ketika yang asli pindah, hasil penggandaan dan ofset tautan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1291
+#: ../src/ui/dialog/inkscape-preferences.cpp:1286
 msgid "Clones are translated by the same vector as their original"
 msgstr "Gandaan dipindah mengikut vektor yang sama seperti aslinya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1293
+#: ../src/ui/dialog/inkscape-preferences.cpp:1288
 msgid "Clones preserve their positions when their original is moved"
 msgstr "Gandaan tetap berada ditempatnya ketika aslinya dipindah"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1295
+#: ../src/ui/dialog/inkscape-preferences.cpp:1290
 msgid ""
 "Each clone moves according to the value of its transform= attribute; for "
 "example, a rotated clone will move in a different direction than its original"
@@ -19973,29 +19972,29 @@ msgstr ""
 "Setiap gandaan pindah sesuai dengan nilai pergeseran=atribut; misalnya, "
 "gandaan rotasi akan berpindah pada arah yang berbeda dengan aslinya"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1296
+#: ../src/ui/dialog/inkscape-preferences.cpp:1291
 #, fuzzy
 msgid "Deleting original: clones"
 msgstr "Ketika menggandakan lagi  asli+gandaan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1298
+#: ../src/ui/dialog/inkscape-preferences.cpp:1293
 msgid "Orphaned clones are converted to regular objects"
 msgstr "Hasil gandaan akan diubah menjadi obyek biasa"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1300
+#: ../src/ui/dialog/inkscape-preferences.cpp:1295
 msgid "Orphaned clones are deleted along with their original"
 msgstr "Hasil gandaan akan dihapus bersama dengan yang asli"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1302
+#: ../src/ui/dialog/inkscape-preferences.cpp:1297
 #, fuzzy
 msgid "Duplicating original+clones/linked offset"
 msgstr "Ketika menggandakan lagi  asli+gandaan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1304
+#: ../src/ui/dialog/inkscape-preferences.cpp:1299
 msgid "Relink duplicated clones"
 msgstr "Menautkan kembali gandaan yang diturun"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1306
+#: ../src/ui/dialog/inkscape-preferences.cpp:1301
 msgid ""
 "When duplicating a selection containing both a clone and its original "
 "(possibly in groups), relink the duplicated clone to the duplicated original "
@@ -20006,27 +20005,27 @@ msgstr ""
 "bukan ke yang asli"
 
 #. TRANSLATORS: Heading for the Inkscape Preferences "Clones" Page
-#: ../src/ui/dialog/inkscape-preferences.cpp:1309
+#: ../src/ui/dialog/inkscape-preferences.cpp:1304
 msgid "Clones"
 msgstr "Penggandaan"
 
 #. Clip paths and masks options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1312
+#: ../src/ui/dialog/inkscape-preferences.cpp:1307
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr "Jika menerapkan, gunakan obyek paling atas sebagai tapak-kilp/topeng"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1314
+#: ../src/ui/dialog/inkscape-preferences.cpp:1309
 msgid ""
 "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr ""
 "Jika tidak dipilih, menggunakan obyek yang dipilih sebagai tapak-klip atau "
 "topeng"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1315
+#: ../src/ui/dialog/inkscape-preferences.cpp:1310
 msgid "Remove clippath/mask object after applying"
 msgstr "Hapus tapak-klip/topeng setelah selesai menerapkan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1317
+#: ../src/ui/dialog/inkscape-preferences.cpp:1312
 msgid ""
 "After applying, remove the object used as the clipping path or mask from the "
 "drawing"
@@ -20034,112 +20033,112 @@ msgstr ""
 "Setelah menerapkan, menghapus obyek yang dipakai sebagai tapak-kip atau "
 "topeng dari gambar"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1319
+#: ../src/ui/dialog/inkscape-preferences.cpp:1314
 msgid "Before applying"
 msgstr "Sebelum menerapkan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1321
+#: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "Do not group clipped/masked objects"
 msgstr "Jangan membuat grup obyek yang diklip/bertopeng"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1322
+#: ../src/ui/dialog/inkscape-preferences.cpp:1317
 #, fuzzy
 msgid "Put every clipped/masked object in its own group"
 msgstr "Terapkan tapak-klip/topeng di tiap obyek pada grup"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1323
+#: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Put all clipped/masked objects into one group"
 msgstr "Terapkan tapak-klip/topeng disemua obyek dalam satu grup"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1326
+#: ../src/ui/dialog/inkscape-preferences.cpp:1321
 msgid "Apply clippath/mask to every object"
 msgstr "Terapkan tapak-klip/topeng ke setiap obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1329
+#: ../src/ui/dialog/inkscape-preferences.cpp:1324
 msgid "Apply clippath/mask to groups containing single object"
 msgstr "Terapkan tapak-klip/topeng ke grup yang mempunyai satu obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1332
+#: ../src/ui/dialog/inkscape-preferences.cpp:1327
 msgid "Apply clippath/mask to group containing all objects"
 msgstr "Terapkan tapak-klip/topeng ke grup yang mempunyai beberapa obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1334
+#: ../src/ui/dialog/inkscape-preferences.cpp:1329
 msgid "After releasing"
 msgstr "Setelah melepaskan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1336
+#: ../src/ui/dialog/inkscape-preferences.cpp:1331
 msgid "Ungroup automatically created groups"
 msgstr "Lepaskan grup secara otomatis dari grup yang dibuat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1338
+#: ../src/ui/dialog/inkscape-preferences.cpp:1333
 msgid "Ungroup groups created when setting clip/mask"
 msgstr "Melepaskan grup yang dibuat ketika menggunakan tapak-klip/topeng"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1335
 msgid "Clippaths and masks"
 msgstr "Tapak-klip dan topeng"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1343
+#: ../src/ui/dialog/inkscape-preferences.cpp:1338
 #, fuzzy
 msgid "Stroke Style Markers"
 msgstr "_Gaya sapuan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1345
-#: ../src/ui/dialog/inkscape-preferences.cpp:1347
+#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1342
 msgid ""
 "Stroke color same as object, fill color either object fill color or marker "
 "fill color"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1351
+#: ../src/ui/dialog/inkscape-preferences.cpp:1346
 #: ../share/extensions/hershey.inx.h:27
 #, fuzzy
 msgid "Markers"
 msgstr "Penanda"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1354
+#: ../src/ui/dialog/inkscape-preferences.cpp:1349
 #, fuzzy
 msgid "Document cleanup"
 msgstr "Dokumen"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1355
-#: ../src/ui/dialog/inkscape-preferences.cpp:1357
+#: ../src/ui/dialog/inkscape-preferences.cpp:1350
+#: ../src/ui/dialog/inkscape-preferences.cpp:1352
 msgid "Remove unused swatches when doing a document cleanup"
 msgstr ""
 
 #. tooltip
-#: ../src/ui/dialog/inkscape-preferences.cpp:1358
+#: ../src/ui/dialog/inkscape-preferences.cpp:1353
 #, fuzzy
 msgid "Cleanup"
 msgstr "Kern keatas"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
 #, fuzzy
 msgid "Number of _Threads:"
 msgstr "Jumlah Prosesor:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
-#: ../src/ui/dialog/inkscape-preferences.cpp:1898
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
+#: ../src/ui/dialog/inkscape-preferences.cpp:1893
 msgid "(requires restart)"
 msgstr "(perlu dijalankan ulang)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1367
+#: ../src/ui/dialog/inkscape-preferences.cpp:1362
 #, fuzzy
 msgid "Configure number of processors/threads to use when rendering filters"
 msgstr ""
 "Tentukan jumlah prosesor untuk pencitraan menggunakan kekaburan gasussian"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 #, fuzzy
 msgid "Rendering _cache size:"
 msgstr "Pencitraan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgctxt "mebibyte (2^20 bytes) abbreviation"
 msgid "MiB"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgid ""
 "Set the amount of memory per document which can be used to store rendered "
 "parts of the drawing for later reuse; set to zero to disable caching"
@@ -20147,37 +20146,37 @@ msgstr ""
 
 #. blur quality
 #. filter quality
-#: ../src/ui/dialog/inkscape-preferences.cpp:1374
-#: ../src/ui/dialog/inkscape-preferences.cpp:1398
+#: ../src/ui/dialog/inkscape-preferences.cpp:1369
+#: ../src/ui/dialog/inkscape-preferences.cpp:1393
 msgid "Best quality (slowest)"
 msgstr "Kualitas terbaik (paling lambat)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1376
-#: ../src/ui/dialog/inkscape-preferences.cpp:1400
+#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1395
 msgid "Better quality (slower)"
 msgstr "Kualitas baik (agak lambat)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1378
-#: ../src/ui/dialog/inkscape-preferences.cpp:1402
+#: ../src/ui/dialog/inkscape-preferences.cpp:1373
+#: ../src/ui/dialog/inkscape-preferences.cpp:1397
 msgid "Average quality"
 msgstr "Kualitas biasa"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1380
-#: ../src/ui/dialog/inkscape-preferences.cpp:1404
+#: ../src/ui/dialog/inkscape-preferences.cpp:1375
+#: ../src/ui/dialog/inkscape-preferences.cpp:1399
 msgid "Lower quality (faster)"
 msgstr "Kualitas kurang (cepat)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1382
-#: ../src/ui/dialog/inkscape-preferences.cpp:1406
+#: ../src/ui/dialog/inkscape-preferences.cpp:1377
+#: ../src/ui/dialog/inkscape-preferences.cpp:1401
 msgid "Lowest quality (fastest)"
 msgstr "Kualitas terendah (paling cepat)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1385
+#: ../src/ui/dialog/inkscape-preferences.cpp:1380
 msgid "Gaussian blur quality for display"
 msgstr "Kualitas kekaburan untuk tampilan layar"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1387
-#: ../src/ui/dialog/inkscape-preferences.cpp:1411
+#: ../src/ui/dialog/inkscape-preferences.cpp:1382
+#: ../src/ui/dialog/inkscape-preferences.cpp:1406
 msgid ""
 "Best quality, but display may be very slow at high zooms (bitmap export "
 "always uses best quality)"
@@ -20185,168 +20184,168 @@ msgstr ""
 "Kualitas terbaik, tetapi tampilan akan sangat lambat untuk pembesaran tinggi "
 "(ekspor bitmap selalu menggunakan kualitas terbaik)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1389
-#: ../src/ui/dialog/inkscape-preferences.cpp:1413
+#: ../src/ui/dialog/inkscape-preferences.cpp:1384
+#: ../src/ui/dialog/inkscape-preferences.cpp:1408
 msgid "Better quality, but slower display"
 msgstr "Kualitas baik, tetapi tampilan agak lambat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1391
-#: ../src/ui/dialog/inkscape-preferences.cpp:1415
+#: ../src/ui/dialog/inkscape-preferences.cpp:1386
+#: ../src/ui/dialog/inkscape-preferences.cpp:1410
 msgid "Average quality, acceptable display speed"
 msgstr "Kualitas biasa, kecepatan tampilan normal"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1393
-#: ../src/ui/dialog/inkscape-preferences.cpp:1417
+#: ../src/ui/dialog/inkscape-preferences.cpp:1388
+#: ../src/ui/dialog/inkscape-preferences.cpp:1412
 msgid "Lower quality (some artifacts), but display is faster"
 msgstr ""
 "Kualitas kurang (ada ketidak sempurnaan tampilan), tapi akan tampak cepat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1395
-#: ../src/ui/dialog/inkscape-preferences.cpp:1419
+#: ../src/ui/dialog/inkscape-preferences.cpp:1390
+#: ../src/ui/dialog/inkscape-preferences.cpp:1414
 msgid "Lowest quality (considerable artifacts), but display is fastest"
 msgstr ""
 "Kualitas terendah (banyak ketidak sempurnaan), tetapi tampilan layar disini "
 "yang tercepat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1409
+#: ../src/ui/dialog/inkscape-preferences.cpp:1404
 msgid "Filter effects quality for display"
 msgstr "Kualitas efek penapis untuk tampilan layar"
 
 #. build custom preferences tab
-#: ../src/ui/dialog/inkscape-preferences.cpp:1421
+#: ../src/ui/dialog/inkscape-preferences.cpp:1416
 #: ../src/ui/dialog/print.cpp:232
 msgid "Rendering"
 msgstr "Pencitraan"
 
 #. Note: /options/bitmapoversample removed with Cairo renderer
-#: ../src/ui/dialog/inkscape-preferences.cpp:1427 ../src/verbs.cpp:156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1422 ../src/verbs.cpp:156
 #: ../src/widgets/calligraphy-toolbar.cpp:626
 #, fuzzy
 msgid "Edit"
 msgstr "_Sunting"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1428
+#: ../src/ui/dialog/inkscape-preferences.cpp:1423
 msgid "Automatically reload bitmaps"
 msgstr "Otomatis memuat ulang bitmap"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1430
+#: ../src/ui/dialog/inkscape-preferences.cpp:1425
 msgid "Automatically reload linked images when file is changed on disk"
 msgstr ""
 "Secara otomatis memuat ulang tautan gambar apabila ada perubahan berkas"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1432
+#: ../src/ui/dialog/inkscape-preferences.cpp:1427
 #, fuzzy
 msgid "_Bitmap editor:"
 msgstr "Penyunting bitmap:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1434
+#: ../src/ui/dialog/inkscape-preferences.cpp:1429
 #: ../share/extensions/guillotine.inx.h:5 ../share/extensions/plotter.inx.h:55
 #: ../share/extensions/print_win32_vector.inx.h:2
 msgid "Export"
 msgstr "Ekspor"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
 #, fuzzy
 msgid "Default export _resolution:"
 msgstr "Resolusi ekspor bawaan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1437
+#: ../src/ui/dialog/inkscape-preferences.cpp:1432
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
 msgstr "Resolusi bitmap bawaan (dot per inch) pada dialof Ekspor"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1438
+#: ../src/ui/dialog/inkscape-preferences.cpp:1433
 #: ../src/ui/dialog/xml-tree.cpp:912
 msgid "Create"
 msgstr "Buat"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
+#: ../src/ui/dialog/inkscape-preferences.cpp:1435
 #, fuzzy
 msgid "Resolution for Create Bitmap _Copy:"
 msgstr "Resolusi untuk Membuat Salinan Bitmap:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1441
+#: ../src/ui/dialog/inkscape-preferences.cpp:1436
 msgid "Resolution used by the Create Bitmap Copy command"
 msgstr "Resolusi yang digunakan oleh perintah Membuat Salinan Bitmap"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1444
+#: ../src/ui/dialog/inkscape-preferences.cpp:1439
 msgid "Ask about linking and scaling when importing"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1446
+#: ../src/ui/dialog/inkscape-preferences.cpp:1441
 msgid "Pop-up linking and scaling dialog when importing bitmap image."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1452
+#: ../src/ui/dialog/inkscape-preferences.cpp:1447
 #, fuzzy
 msgid "Bitmap link:"
 msgstr "Penyunting bitmap:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1459
+#: ../src/ui/dialog/inkscape-preferences.cpp:1454
 msgid "Bitmap scale (image-rendering):"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1459
 #, fuzzy
 msgid "Default _import resolution:"
 msgstr "Resolusi ekspor bawaan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1465
+#: ../src/ui/dialog/inkscape-preferences.cpp:1460
 #, fuzzy
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
 msgstr "Resolusi bitmap bawaan (dot per inch) pada dialof Ekspor"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1466
+#: ../src/ui/dialog/inkscape-preferences.cpp:1461
 #, fuzzy
 msgid "Override file resolution"
 msgstr "Resolusi ekspor bawaan:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1468
+#: ../src/ui/dialog/inkscape-preferences.cpp:1463
 #, fuzzy
 msgid "Use default bitmap resolution in favor of information from file"
 msgstr "Resolusi bitmap bawaan (dot per inch) pada dialof Ekspor"
 
 #. rendering outlines for pixmap image tags
-#: ../src/ui/dialog/inkscape-preferences.cpp:1472
+#: ../src/ui/dialog/inkscape-preferences.cpp:1467
 #, fuzzy
 msgid "Images in Outline Mode"
 msgstr "Menggambar garis sekitar pinggiran obyek"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1473
+#: ../src/ui/dialog/inkscape-preferences.cpp:1468
 msgid ""
 "When active will render images while in outline mode instead of a red box "
 "with an x. This is useful for manual tracing."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1475
+#: ../src/ui/dialog/inkscape-preferences.cpp:1470
 msgid "Bitmaps"
 msgstr "Bitmap"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1487
+#: ../src/ui/dialog/inkscape-preferences.cpp:1482
 msgid ""
 "Select a file of predefined shortcuts to use. Any customized shortcuts you "
 "create will be added seperately to "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1490
+#: ../src/ui/dialog/inkscape-preferences.cpp:1485
 msgid "Shortcut file:"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1493
+#: ../src/ui/dialog/inkscape-preferences.cpp:1488
 #: ../src/ui/dialog/template-load-tab.cpp:48
 #, fuzzy
 msgid "Search:"
 msgstr "Cari"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1505
+#: ../src/ui/dialog/inkscape-preferences.cpp:1500
 msgid "Shortcut"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1506
+#: ../src/ui/dialog/inkscape-preferences.cpp:1501
 #: ../src/ui/widget/page-sizer.cpp:260
 msgid "Description"
 msgstr "Deskripsi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1561
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 #: ../src/ui/dialog/pixelartdialog.cpp:296
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:698
 #: ../src/ui/dialog/tracedialog.cpp:813
@@ -20354,55 +20353,55 @@ msgstr "Deskripsi"
 msgid "Reset"
 msgstr "Atur Ulang"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1561
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 msgid ""
 "Remove all your customized keyboard shortcuts, and revert to the shortcuts "
 "in the shortcut file listed above"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1565
+#: ../src/ui/dialog/inkscape-preferences.cpp:1560
 #, fuzzy
 msgid "Import ..."
 msgstr "_Impor..."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1565
+#: ../src/ui/dialog/inkscape-preferences.cpp:1560
 msgid "Import custom keyboard shortcuts from a file"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1568
+#: ../src/ui/dialog/inkscape-preferences.cpp:1563
 #, fuzzy
 msgid "Export ..."
 msgstr "_Ekspor Bitmap..."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1568
+#: ../src/ui/dialog/inkscape-preferences.cpp:1563
 #, fuzzy
 msgid "Export custom keyboard shortcuts to a file"
 msgstr "Expor dokumen ke berkas PS"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1578
+#: ../src/ui/dialog/inkscape-preferences.cpp:1573
 msgid "Keyboard Shortcuts"
 msgstr ""
 
 #. Find this group in the tree
-#: ../src/ui/dialog/inkscape-preferences.cpp:1741
+#: ../src/ui/dialog/inkscape-preferences.cpp:1736
 msgid "Misc"
 msgstr "Lain-lain"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1839
+#: ../src/ui/dialog/inkscape-preferences.cpp:1834
 #, fuzzy
 msgctxt "Spellchecker language"
 msgid "None"
 msgstr "Tidak ada"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1860
+#: ../src/ui/dialog/inkscape-preferences.cpp:1855
 msgid "Set the main spell check language"
 msgstr "Pilih bahasa utama pemeriksa ejaan "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1863
+#: ../src/ui/dialog/inkscape-preferences.cpp:1858
 msgid "Second language:"
 msgstr "Bahasa kedua:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1864
+#: ../src/ui/dialog/inkscape-preferences.cpp:1859
 msgid ""
 "Set the second spell check language; checking will only stop on words "
 "unknown in ALL chosen languages"
@@ -20410,11 +20409,11 @@ msgstr ""
 "Pilih bahasa kedua pemeriksa ejaan; pemeriksaan hanya akan berhenti di kata "
 "yang tidak dikenal di SEMUA bahasa pilihan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1867
+#: ../src/ui/dialog/inkscape-preferences.cpp:1862
 msgid "Third language:"
 msgstr "Bahasa ketiga:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1868
+#: ../src/ui/dialog/inkscape-preferences.cpp:1863
 msgid ""
 "Set the third spell check language; checking will only stop on words unknown "
 "in ALL chosen languages"
@@ -20422,32 +20421,32 @@ msgstr ""
 "Pilih bahasa ketiga pemeriksa ejaan; pemeriksaan hanya akan berhenti di kata "
 "yang tidak dikenal di SEMUA bahasa pilihan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1870
+#: ../src/ui/dialog/inkscape-preferences.cpp:1865
 msgid "Ignore words with digits"
 msgstr "Abaikan kata dengan angka"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1872
+#: ../src/ui/dialog/inkscape-preferences.cpp:1867
 msgid "Ignore words containing digits, such as \"R2D2\""
 msgstr "Mengabaikan kata-kata yang mengandung angka, seperti \"R2D2\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1874
+#: ../src/ui/dialog/inkscape-preferences.cpp:1869
 msgid "Ignore words in ALL CAPITALS"
 msgstr "Abaikan kata dalam HURUF BESAR SEMUA"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1876
+#: ../src/ui/dialog/inkscape-preferences.cpp:1871
 msgid "Ignore words in all capitals, such as \"IUPAC\""
 msgstr "Mengabaikan kata-kata yang smuanya huruf besar, misalnya \"IUPAC\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1878
+#: ../src/ui/dialog/inkscape-preferences.cpp:1873
 msgid "Spellcheck"
 msgstr "Periksa Ejaan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1898
+#: ../src/ui/dialog/inkscape-preferences.cpp:1893
 #, fuzzy
 msgid "Latency _skew:"
 msgstr "Condong latensi:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1899
+#: ../src/ui/dialog/inkscape-preferences.cpp:1894
 msgid ""
 "Factor by which the event clock is skewed from the actual time (0.9766 on "
 "some systems)"
@@ -20455,11 +20454,11 @@ msgstr ""
 "Faktor ukuran dimana jam dicondongkan dari waktu sesungguhnya (biasanya "
 "0.9766 pada beberapa sistem)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1901
+#: ../src/ui/dialog/inkscape-preferences.cpp:1896
 msgid "Pre-render named icons"
 msgstr "Nama ikon dengan pencitraan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1903
+#: ../src/ui/dialog/inkscape-preferences.cpp:1898
 msgid ""
 "When on, named icons will be rendered before displaying the ui. This is for "
 "working around bugs in GTK+ named icon notification"
@@ -20467,93 +20466,93 @@ msgstr ""
 "Jika dipilih, nama ikon akan mempunyai efek pencitraan sebelum ditampilkan "
 "antarmukanya. Ini akan mengkoreksi kutu notifikasi nama ikok GTK+"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1911
+#: ../src/ui/dialog/inkscape-preferences.cpp:1906
 msgid "System info"
 msgstr "Info Sistem"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1910
 msgid "User config: "
 msgstr "Konfig pengguna:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1910
 msgid "Location of users configuration"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1914
 #, fuzzy
 msgid "User preferences: "
 msgstr "Preferensi Penghapus"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1914
 #, fuzzy
 msgid "Location of the users preferences file"
 msgstr "Gagal membuat berkas preferensi %s."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1918
 #, fuzzy
 msgid "User extensions: "
 msgstr "Vedic Tambahan"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1918
 #, fuzzy
 msgid "Location of the users extensions"
 msgstr "Informasi tentang ekstensi Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1922
 msgid "User cache: "
 msgstr "Cache pengguna:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1922
 #, fuzzy
 msgid "Location of users cache"
 msgstr "_Rotasi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1935
+#: ../src/ui/dialog/inkscape-preferences.cpp:1930
 msgid "Temporary files: "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1935
+#: ../src/ui/dialog/inkscape-preferences.cpp:1930
 msgid "Location of the temporary files used for autosave"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1939
+#: ../src/ui/dialog/inkscape-preferences.cpp:1934
 #, fuzzy
 msgid "Inkscape data: "
 msgstr "Petunjuk Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1939
+#: ../src/ui/dialog/inkscape-preferences.cpp:1934
 #, fuzzy
 msgid "Location of Inkscape data"
 msgstr "Informasi tentang ekstensi Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1943
+#: ../src/ui/dialog/inkscape-preferences.cpp:1938
 #, fuzzy
 msgid "Inkscape extensions: "
 msgstr "Informasi tentang ekstensi Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1943
+#: ../src/ui/dialog/inkscape-preferences.cpp:1938
 #, fuzzy
 msgid "Location of the Inkscape extensions"
 msgstr "Informasi tentang ekstensi Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1952
+#: ../src/ui/dialog/inkscape-preferences.cpp:1947
 msgid "System data: "
 msgstr "Data sistem: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1952
+#: ../src/ui/dialog/inkscape-preferences.cpp:1947
 msgid "Locations of system data"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1976
+#: ../src/ui/dialog/inkscape-preferences.cpp:1971
 msgid "Icon theme: "
 msgstr "Tema ikon:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1976
+#: ../src/ui/dialog/inkscape-preferences.cpp:1971
 #, fuzzy
 msgid "Locations of icon themes"
 msgstr "_Rotasi"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1978
+#: ../src/ui/dialog/inkscape-preferences.cpp:1973
 msgid "System"
 msgstr "Sistem"
 
@@ -26919,7 +26918,7 @@ msgid "Arc: Change open/closed"
 msgstr "Busur: Ubah terbuka/tertutup"
 
 #: ../src/widgets/arc-toolbar.cpp:288 ../src/widgets/arc-toolbar.cpp:317
-#: ../src/widgets/rect-toolbar.cpp:258 ../src/widgets/rect-toolbar.cpp:296
+#: ../src/widgets/rect-toolbar.cpp:259 ../src/widgets/rect-toolbar.cpp:297
 #: ../src/widgets/spiral-toolbar.cpp:214 ../src/widgets/spiral-toolbar.cpp:238
 #: ../src/widgets/star-toolbar.cpp:383 ../src/widgets/star-toolbar.cpp:444
 msgid "<b>New:</b>"
@@ -26928,7 +26927,7 @@ msgstr "<b>Baru:</b>"
 #. FIXME: implement averaging of all parameters for multiple selected
 #. gtk_label_set_markup(GTK_LABEL(l), _("<b>Average:</b>"));
 #: ../src/widgets/arc-toolbar.cpp:291 ../src/widgets/arc-toolbar.cpp:302
-#: ../src/widgets/rect-toolbar.cpp:266 ../src/widgets/rect-toolbar.cpp:284
+#: ../src/widgets/rect-toolbar.cpp:267 ../src/widgets/rect-toolbar.cpp:285
 #: ../src/widgets/spiral-toolbar.cpp:216 ../src/widgets/spiral-toolbar.cpp:227
 #: ../src/widgets/star-toolbar.cpp:385
 msgid "<b>Change:</b>"
@@ -27975,7 +27974,7 @@ msgstr "Tampilkan info pengukuran untuk obyek pilihan"
 #. Add the units menu.
 #: ../src/widgets/lpe-toolbar.cpp:384 ../src/widgets/node-toolbar.cpp:613
 #: ../src/widgets/paintbucket-toolbar.cpp:166
-#: ../src/widgets/rect-toolbar.cpp:375 ../src/widgets/select-toolbar.cpp:536
+#: ../src/widgets/rect-toolbar.cpp:376 ../src/widgets/select-toolbar.cpp:536
 msgid "Units"
 msgstr "Satuan"
 
@@ -28524,55 +28523,55 @@ msgstr ""
 msgid "Change rectangle"
 msgstr "Rubah segi empat"
 
-#: ../src/widgets/rect-toolbar.cpp:314
+#: ../src/widgets/rect-toolbar.cpp:315
 msgid "W:"
 msgstr "L:"
 
-#: ../src/widgets/rect-toolbar.cpp:314
+#: ../src/widgets/rect-toolbar.cpp:315
 msgid "Width of rectangle"
 msgstr "Lebar persegi empat"
 
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 msgid "H:"
 msgstr "T:"
 
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 msgid "Height of rectangle"
 msgstr "Tinggi persegi empat"
 
-#: ../src/widgets/rect-toolbar.cpp:345 ../src/widgets/rect-toolbar.cpp:360
+#: ../src/widgets/rect-toolbar.cpp:346 ../src/widgets/rect-toolbar.cpp:361
 msgid "not rounded"
 msgstr "tanpa kelengkungan"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Horizontal radius"
 msgstr "Radius horisontal"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Rx:"
 msgstr "Rx:"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Horizontal radius of rounded corners"
 msgstr "Jejari horisontal dari kelengkungan pojok"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Vertical radius"
 msgstr "Jejari vertikal"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Ry:"
 msgstr "Ry:"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Vertical radius of rounded corners"
 msgstr "Jejari vertikal dari kelengkungan pojok"
 
-#: ../src/widgets/rect-toolbar.cpp:382
+#: ../src/widgets/rect-toolbar.cpp:383
 msgid "Not rounded"
 msgstr "Tanpa kelengkungan"
 
-#: ../src/widgets/rect-toolbar.cpp:383
+#: ../src/widgets/rect-toolbar.cpp:384
 msgid "Make corners sharp"
 msgstr "Buat pojok tajam"
 
@@ -29419,11 +29418,11 @@ msgstr "Tanda akhir garis pada nodal terakhir dari tapak atau bentuk"
 msgid "Set markers"
 msgstr "Pilih penanda"
 
-#: ../src/widgets/stroke-style.cpp:1030 ../src/widgets/stroke-style.cpp:1115
+#: ../src/widgets/stroke-style.cpp:1032 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
 msgstr "Pilih gaya sapuan"
 
-#: ../src/widgets/stroke-style.cpp:1203
+#: ../src/widgets/stroke-style.cpp:1205
 #, fuzzy
 msgid "Set marker color"
 msgstr "Pilih warna sapuan"
@@ -30519,7 +30518,7 @@ msgid ""
 "No paths where found. Please convert all objects you want to save into paths."
 msgstr ""
 
-#: ../share/extensions/inkex.py:109
+#: ../share/extensions/inkex.py:116
 #, python-format
 msgid ""
 "The fantastic lxml wrapper for libxml2 is required by inkex.py and therefore "
@@ -30538,22 +30537,26 @@ msgstr ""
 "Rincian Teknis:\n"
 "%s"
 
-#: ../share/extensions/inkex.py:162
+#: ../share/extensions/inkex.py:169
 #, fuzzy, python-format
 msgid "Unable to open specified file: %s"
 msgstr ""
 "Tidak bisa menulis ke berkas yang diinginkan!\n"
 "%s"
 
-#: ../share/extensions/inkex.py:171
+#: ../share/extensions/inkex.py:178
 #, fuzzy, python-format
 msgid "Unable to open object member file: %s"
 msgstr "Tidak bisa menemukan penanda: %s"
 
-#: ../share/extensions/inkex.py:276
+#: ../share/extensions/inkex.py:283
 #, python-format
 msgid "No matching node for expression: %s"
 msgstr "Tidak ada nodal sesuai untuk ekspresi: %s"
+
+#: ../share/extensions/inkex.py:313
+msgid "SVG Width not set correctly! Assuming width = 100"
+msgstr ""
 
 #: ../share/extensions/interp_att_g.py:167
 #, fuzzy
@@ -30736,16 +30739,6 @@ msgid ""
 "No object selected. Please select the object you want to assign a view to "
 "and then press apply.\n"
 msgstr ""
-
-#: ../share/extensions/markers_strokepaint.py:83
-#, python-format
-msgid "No style attribute found for id: %s"
-msgstr "Tidak ada atribut gaya ditemukan untuk id: %s"
-
-#: ../share/extensions/markers_strokepaint.py:137
-#, python-format
-msgid "unable to locate marker: %s"
-msgstr "Tidak bisa menemukan penanda: %s"
 
 #: ../share/extensions/measure.py:50
 #, fuzzy
@@ -31087,7 +31080,6 @@ msgstr "Jumlah segmen:"
 #: ../share/extensions/edge3d.inx.h:9 ../share/extensions/flatten.inx.h:3
 #: ../share/extensions/fractalize.inx.h:4
 #: ../share/extensions/interp_att_g.inx.h:29
-#: ../share/extensions/markers_strokepaint.inx.h:13
 #: ../share/extensions/perspective.inx.h:2
 #: ../share/extensions/pixelsnap.inx.h:3
 #: ../share/extensions/radiusrand.inx.h:10
@@ -33847,7 +33839,6 @@ msgid "Translate Y"
 msgstr "Terjemahan Y"
 
 #: ../share/extensions/interp_att_g.inx.h:15
-#: ../share/extensions/markers_strokepaint.inx.h:9
 msgid "Fill"
 msgstr "Isi"
 
@@ -34614,46 +34605,6 @@ msgstr ""
 "Efek ini membuat penempatan pseudolatin \"Lorem Ipsum\" standar. Apabila "
 "teks yang mengambang dipilih, Lorem Ipsum akan ditambahkan disitu; jika "
 "tidak ada, akan dibuat obyek teks baru yang berada pada lapis baru."
-
-#: ../share/extensions/markers_strokepaint.inx.h:1
-msgid "Color Markers"
-msgstr "Warna Tanda"
-
-#: ../share/extensions/markers_strokepaint.inx.h:2
-msgid "From object"
-msgstr "Dari obyek"
-
-#: ../share/extensions/markers_strokepaint.inx.h:3
-msgid "Marker type:"
-msgstr "Tipe Tanda:"
-
-#: ../share/extensions/markers_strokepaint.inx.h:4
-msgid "Invert fill and stroke colors"
-msgstr "Tukar warna sapuan dan isian"
-
-#: ../share/extensions/markers_strokepaint.inx.h:5
-msgid "Assign alpha"
-msgstr "Terapkan alfa"
-
-#: ../share/extensions/markers_strokepaint.inx.h:6
-msgid "solid"
-msgstr "solid"
-
-#: ../share/extensions/markers_strokepaint.inx.h:7
-msgid "filled"
-msgstr "diisi"
-
-#: ../share/extensions/markers_strokepaint.inx.h:10
-msgid "Assign fill color"
-msgstr "Terapkan warna isian"
-
-#: ../share/extensions/markers_strokepaint.inx.h:11
-msgid "Stroke"
-msgstr "Sapuan"
-
-#: ../share/extensions/markers_strokepaint.inx.h:12
-msgid "Assign stroke color"
-msgstr "Terapkan warna sapuan"
 
 #: ../share/extensions/measure.inx.h:1
 msgid "Measure Path"
@@ -36906,6 +36857,52 @@ msgstr "Format berkas grafik yang populer untuk clipart"
 msgid "XAML Input"
 msgstr "Masukan XAML"
 
+#~ msgid "Enable dynamic relayout for incomplete sections"
+#~ msgstr "Aktifkan atur tataletak dinamik untuk seksi tidak lengkap"
+
+#~ msgid ""
+#~ "When on, will allow dynamic layout of components that are not completely "
+#~ "finished being refactored"
+#~ msgstr ""
+#~ "Jika dipilih, akan menggunakan tataletak dinamik dari komponen yang belum "
+#~ "sepenuhnya selesai diskalakan"
+
+#~ msgid "No style attribute found for id: %s"
+#~ msgstr "Tidak ada atribut gaya ditemukan untuk id: %s"
+
+#~ msgid "unable to locate marker: %s"
+#~ msgstr "Tidak bisa menemukan penanda: %s"
+
+#~ msgid "Color Markers"
+#~ msgstr "Warna Tanda"
+
+#~ msgid "From object"
+#~ msgstr "Dari obyek"
+
+#~ msgid "Marker type:"
+#~ msgstr "Tipe Tanda:"
+
+#~ msgid "Invert fill and stroke colors"
+#~ msgstr "Tukar warna sapuan dan isian"
+
+#~ msgid "Assign alpha"
+#~ msgstr "Terapkan alfa"
+
+#~ msgid "solid"
+#~ msgstr "solid"
+
+#~ msgid "filled"
+#~ msgstr "diisi"
+
+#~ msgid "Assign fill color"
+#~ msgstr "Terapkan warna isian"
+
+#~ msgid "Stroke"
+#~ msgstr "Sapuan"
+
+#~ msgid "Assign stroke color"
+#~ msgstr "Terapkan warna sapuan"
+
 #, fuzzy
 #~ msgctxt "Symbol"
 #~ msgid "Map Symbols"
@@ -38338,9 +38335,6 @@ msgstr "Masukan XAML"
 
 #~ msgid "Tritone, custom (Color)"
 #~ msgstr "Tritone, Atursendiri (Warna)"
-
-#~ msgid "Radiation"
-#~ msgstr "Radiasi"
 
 #~ msgid "Opacity (%):"
 #~ msgstr "Opasitas (%):"

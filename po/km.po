@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: km\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-21 08:38+0200\n"
+"POT-Creation-Date: 2015-01-09 18:18+0100\n"
 "PO-Revision-Date: 2011-03-03 13:56+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -3509,7 +3509,7 @@ msgstr ""
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
-#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
 msgctxt "Symbol"
 msgid "Telephone"
 msgstr ""
@@ -3820,7 +3820,7 @@ msgstr ""
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
-#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
 msgctxt "Symbol"
 msgid "Parking"
 msgstr ""
@@ -4427,145 +4427,164 @@ msgstr ""
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
 msgctxt "Symbol"
+msgid "Motorbike Trail"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#, fuzzy
+msgctxt "Symbol"
+msgid "Radiator Water"
+msgstr "ការ​បង្វិល"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+msgctxt "Symbol"
 msgid "Recycling"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
 #, fuzzy
 msgctxt "Symbol"
 msgid "Pets On Leash"
 msgstr " ដាក់​លើ​ផ្លូវ​"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
 #, fuzzy
 msgctxt "Symbol"
 msgid "Picnic Area"
 msgstr "ពណ៌​រាបស្មើ"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
 msgctxt "Symbol"
 msgid "Post Office"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
 #, fuzzy
 msgctxt "Symbol"
 msgid "Ranger Station"
 msgstr "ទំនាក់ទំនង​ ៖"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
 #, fuzzy
 msgctxt "Symbol"
 msgid "RV Campground"
 msgstr "ការ​ធ្វើ​ឲ្យ​គម្រប​មូល"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
-msgctxt "Symbol"
-msgid "Restrooms"
-msgstr ""
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
-#, fuzzy
-msgctxt "Symbol"
-msgid "Sailing"
-msgstr "ការ​រមូរ"
-
-#. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
-msgid "Sanitary Disposal Station"
+msgid "Restrooms"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
 #, fuzzy
 msgctxt "Symbol"
-msgid "Scuba Diving"
-msgstr "វិធីចែក"
+msgid "Sailing"
+msgstr "ការ​រមូរ"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
 msgctxt "Symbol"
-msgid "Self Guided Trail"
+msgid "Sanitary Disposal Station"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
 #, fuzzy
 msgctxt "Symbol"
+msgid "Scuba Diving"
+msgstr "វិធីចែក"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+msgctxt "Symbol"
+msgid "Self Guided Trail"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#, fuzzy
+msgctxt "Symbol"
 msgid "Shelter"
 msgstr "តម្រង​"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
 #, fuzzy
 msgctxt "Symbol"
 msgid "Showers"
 msgstr "បង្ហាញ ៖"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
 #, fuzzy
 msgctxt "Symbol"
 msgid "Sledding"
 msgstr "ស្រមោល"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
 msgctxt "Symbol"
 msgid "SnowmobileTrail"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
 #, fuzzy
 msgctxt "Symbol"
 msgid "Stable"
 msgstr "តារាង"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
 msgctxt "Symbol"
 msgid "Store"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
 msgctxt "Symbol"
 msgid "Swimming"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
 #, fuzzy
 msgctxt "Symbol"
 msgid "Emergency Telephone"
 msgstr "ឃ្លាត​ពី​គ្នា"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
 #, fuzzy
 msgctxt "Symbol"
 msgid "Trailhead"
 msgstr "អក្សរ​សម្រាប់​អ្នក​ពិការ​ភ្នែក"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+#: ../share/symbols/symbols.h:287 ../share/symbols/symbols.h:288
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
 msgstr ""
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+#: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
 msgctxt "Symbol"
 msgid "Wind Surfing"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:291
+msgctxt "Symbol"
+msgid "Blank"
 msgstr ""
 
 #: ../share/templates/templates.h:1
@@ -4990,11 +5009,11 @@ msgstr "លុប​បន្ទាត់​ក្រិត​"
 msgid "<b>Guideline</b>: %s"
 msgstr "<b>គោល​ការណ៍​ណែ​នាំ​</b> ៖ %s"
 
-#: ../src/desktop.cpp:880
+#: ../src/desktop.cpp:881
 msgid "No previous zoom."
 msgstr "គ្មាន​ការ​ពង្រីក​ពី​មុន ។"
 
-#: ../src/desktop.cpp:901
+#: ../src/desktop.cpp:902
 msgid "No next zoom."
 msgstr "គ្មាន​ការ​ពង្រីក​បន្ទាប់ ។​"
 
@@ -5007,8 +5026,8 @@ msgid "_Origin X:"
 msgstr "X ដើម ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:319 ../src/display/canvas-grid.cpp:695
-#: ../src/ui/dialog/inkscape-preferences.cpp:739
-#: ../src/ui/dialog/inkscape-preferences.cpp:764
+#: ../src/ui/dialog/inkscape-preferences.cpp:734
+#: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "X coordinate of grid origin"
 msgstr "កូអរដោនេ X របស់​ក្រឡាចត្រង្គ​ដើម"
 
@@ -5017,8 +5036,8 @@ msgid "O_rigin Y:"
 msgstr "Y ដើម ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:321 ../src/display/canvas-grid.cpp:697
-#: ../src/ui/dialog/inkscape-preferences.cpp:740
-#: ../src/ui/dialog/inkscape-preferences.cpp:765
+#: ../src/ui/dialog/inkscape-preferences.cpp:735
+#: ../src/ui/dialog/inkscape-preferences.cpp:760
 msgid "Y coordinate of grid origin"
 msgstr "កូអរដោនេ Y របស់​​ក្រឡាចត្រង្គ​​ដើម"
 
@@ -5027,29 +5046,29 @@ msgid "Spacing _Y:"
 msgstr "គម្លាត​ Y ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:323
-#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:763
 msgid "Base length of z-axis"
 msgstr "ប្រវែង​​គោល​របស់​អ័ក្ស z"
 
 #: ../src/display/canvas-axonomgrid.cpp:325
-#: ../src/ui/dialog/inkscape-preferences.cpp:771
+#: ../src/ui/dialog/inkscape-preferences.cpp:766
 #: ../src/widgets/box3d-toolbar.cpp:299
 msgid "Angle X:"
 msgstr "មុំ X ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:325
-#: ../src/ui/dialog/inkscape-preferences.cpp:771
+#: ../src/ui/dialog/inkscape-preferences.cpp:766
 msgid "Angle of x-axis"
 msgstr "មុំ​របស់​អ័ក្ស x"
 
 #: ../src/display/canvas-axonomgrid.cpp:327
-#: ../src/ui/dialog/inkscape-preferences.cpp:772
+#: ../src/ui/dialog/inkscape-preferences.cpp:767
 #: ../src/widgets/box3d-toolbar.cpp:378
 msgid "Angle Z:"
 msgstr "មុំ Z ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:327
-#: ../src/ui/dialog/inkscape-preferences.cpp:772
+#: ../src/ui/dialog/inkscape-preferences.cpp:767
 msgid "Angle of z-axis"
 msgstr "មុំ​របស់​អ័ក្ស z"
 
@@ -5059,7 +5078,7 @@ msgid "Minor grid line _color:"
 msgstr "ពណ៌​បន្ទាត់​ក្រឡា​ចត្រង្គ​រង្វើល​ ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:331 ../src/display/canvas-grid.cpp:705
-#: ../src/ui/dialog/inkscape-preferences.cpp:723
+#: ../src/ui/dialog/inkscape-preferences.cpp:718
 #, fuzzy
 msgid "Minor grid line color"
 msgstr "ពណ៌​របស់​​បន្ទាត់​ក្រឡាចត្រង្គ​រង្វើល"
@@ -5074,7 +5093,7 @@ msgid "Ma_jor grid line color:"
 msgstr "ពណ៌​របស់​បន្ទាត់​ក្រឡាចត្រង្គ​រង្វើល​ ៖"
 
 #: ../src/display/canvas-axonomgrid.cpp:336 ../src/display/canvas-grid.cpp:710
-#: ../src/ui/dialog/inkscape-preferences.cpp:725
+#: ../src/ui/dialog/inkscape-preferences.cpp:720
 msgid "Major grid line color"
 msgstr "ពណ៌​របស់​​បន្ទាត់​ក្រឡាចត្រង្គ​រង្វើល"
 
@@ -5143,12 +5162,12 @@ msgid "Spacing _X:"
 msgstr "គម្លាត​ X ៖"
 
 #: ../src/display/canvas-grid.cpp:699
-#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:740
 msgid "Distance between vertical grid lines"
 msgstr "ចម្ងាយ​រវាង​បន្ទាត់​ក្រឡាចត្រង្គ​បញ្ឈរ"
 
 #: ../src/display/canvas-grid.cpp:701
-#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:741
 msgid "Distance between horizontal grid lines"
 msgstr "ចម្ងាយ​រវាង​បន្ទាត់​ក្រឡាចត្រង្គ​ផ្ដេក"
 
@@ -6779,7 +6798,7 @@ msgstr "ល្បាយ"
 #: ../src/extension/internal/filter/paint.h:702
 #: ../src/extension/internal/filter/textures.h:77
 #: ../src/extension/internal/filter/transparency.h:61
-#: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:646
+#: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:641
 msgid "Normal"
 msgstr "ធម្មតា"
 
@@ -6877,7 +6896,7 @@ msgstr "បន្សាយ​ពន្លឺ"
 #: ../src/extension/internal/filter/bumps.h:98
 #: ../src/extension/internal/filter/bumps.h:329
 #: ../src/libgdl/gdl-dock-placeholder.c:175 ../src/libgdl/gdl-dock.c:199
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 #: ../share/extensions/interp_att_g.inx.h:11
 msgid "Height"
 msgstr "កម្ពស់"
@@ -7121,7 +7140,7 @@ msgstr "គំនូរ​ប្រេង"
 #: ../src/extension/internal/filter/color.h:156
 #: ../src/extension/internal/filter/color.h:257
 #: ../src/extension/internal/filter/paint.h:87 ../src/filter-enums.cpp:65
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 #: ../src/ui/tools/flood-tool.cpp:197
 #: ../src/widgets/sp-color-icc-selector.cpp:362
 #: ../src/widgets/sp-color-icc-selector.cpp:367
@@ -7784,7 +7803,7 @@ msgstr "​ បើក..."
 
 #: ../src/extension/internal/filter/morphology.h:65
 #: ../src/libgdl/gdl-dock-placeholder.c:167 ../src/libgdl/gdl-dock.c:191
-#: ../src/widgets/rect-toolbar.cpp:314 ../src/widgets/spray-toolbar.cpp:116
+#: ../src/widgets/rect-toolbar.cpp:315 ../src/widgets/spray-toolbar.cpp:116
 #: ../src/widgets/tweak-toolbar.cpp:128
 #: ../share/extensions/interp_att_g.inx.h:10
 msgid "Width"
@@ -8344,7 +8363,6 @@ msgid "External"
 msgstr "កំពុង​កែ​សម្រួល​ខាង​ក្រៅ..."
 
 #: ../src/extension/internal/filter/textures.h:81
-#: ../share/extensions/markers_strokepaint.inx.h:8
 msgid "Custom"
 msgstr "ផ្ទាល់ខ្លួន​"
 
@@ -8459,13 +8477,13 @@ msgstr ""
 "ឯកសារ​ SVG នេះ ហើយ​ឯកសារ​ទាំង​អស់​ត្រូវ​តែ​ផ្លាស់​ទី​ព្រម​គ្នា ។"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:192
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
 #, fuzzy
 msgid "Embed"
 msgstr "បង្កប់"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:193 ../src/sp-anchor.cpp:119
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
 #, fuzzy
 msgid "Link"
 msgstr "តំណ"
@@ -8503,18 +8521,18 @@ msgid ""
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 #, fuzzy
 msgid "None (auto)"
 msgstr "គ្មាន​ (លំនាំ​ដើម​)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:203
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Smooth (optimizeQuality)"
 msgstr ""
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:204
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Blocky (optimizeSpeed)"
 msgstr ""
 
@@ -8563,7 +8581,7 @@ msgid "Vertical Offset:"
 msgstr "អុហ្វសិត​បញ្ឈរ ៖"
 
 #: ../src/extension/internal/grid.cpp:220
-#: ../src/ui/dialog/inkscape-preferences.cpp:1470
+#: ../src/ui/dialog/inkscape-preferences.cpp:1465
 #: ../share/extensions/draw_from_triangle.inx.h:58
 #: ../share/extensions/eqtexsvg.inx.h:4
 #: ../share/extensions/foldablebox.inx.h:9
@@ -8594,7 +8612,7 @@ msgstr "បង្ហាញ​"
 
 #: ../src/extension/internal/grid.cpp:221
 #: ../src/ui/dialog/document-properties.cpp:155
-#: ../src/ui/dialog/inkscape-preferences.cpp:780
+#: ../src/ui/dialog/inkscape-preferences.cpp:775
 #: ../src/widgets/toolbox.cpp:1826
 msgid "Grids"
 msgstr "ក្រឡា​ចត្រង្គ"
@@ -9052,7 +9070,7 @@ msgstr "គ្មាន​ការ​ផ្លាស់ប្ដូរ​តម
 msgid "Saving document..."
 msgstr "កំពុង​រក្សាទុក​ឯកសារ..."
 
-#: ../src/file.cpp:1246 ../src/ui/dialog/inkscape-preferences.cpp:1443
+#: ../src/file.cpp:1246 ../src/ui/dialog/inkscape-preferences.cpp:1438
 #: ../src/ui/dialog/ocaldialogs.cpp:1244
 msgid "Import"
 msgstr "នាំចូល"
@@ -9935,7 +9953,7 @@ msgid "The index of the current page"
 msgstr "លិបិក្រម​របស់​ទំព័រ​បច្ចុប្បន្ន"
 
 #: ../src/libgdl/gdl-dock-object.c:125
-#: ../src/ui/dialog/inkscape-preferences.cpp:1504
+#: ../src/ui/dialog/inkscape-preferences.cpp:1499
 #: ../src/ui/widget/page-sizer.cpp:258
 #: ../src/widgets/gradient-selector.cpp:158
 #: ../src/widgets/sp-xmlview-attr-list.cpp:54
@@ -10099,8 +10117,8 @@ msgstr "អ្វី​ចម្លែក​ម្យ៉ាង​បាន​ក
 msgid "Dockitem which 'owns' this tablabel"
 msgstr "ធាតុ​ចត​ដែល 'ជា​ម្ចាស់' ស្លាក​ផ្ទាំង​នេះ"
 
-#: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:635
-#: ../src/ui/dialog/inkscape-preferences.cpp:678
+#: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:630
+#: ../src/ui/dialog/inkscape-preferences.cpp:673
 msgid "Floating"
 msgstr "អណ្ដែត​"
 
@@ -11543,7 +11561,7 @@ msgid "The ID of the object to export"
 msgstr "លេខ​សម្គាល់​របស់​វត្ថុ​ត្រូវ​នាំចេញ"
 
 #: ../src/main.cpp:366 ../src/main.cpp:479
-#: ../src/ui/dialog/inkscape-preferences.cpp:1507
+#: ../src/ui/dialog/inkscape-preferences.cpp:1502
 msgid "ID"
 msgstr "លេខ​សម្គាល់"
 
@@ -11742,41 +11760,40 @@ msgstr " ឯកសារ"
 msgid "_New"
 msgstr " ថ្មី"
 
-#. "       <verb verb-id=\"FileExportToOCAL\" />\n"
 #. "       <verb verb-id=\"DialogMetadata\" />\n"
-#: ../src/menus-skeleton.h:43 ../src/verbs.cpp:2634 ../src/verbs.cpp:2640
+#: ../src/menus-skeleton.h:45 ../src/verbs.cpp:2634 ../src/verbs.cpp:2640
 msgid "_Edit"
 msgstr " កែ​សម្រួល"
 
-#: ../src/menus-skeleton.h:53 ../src/verbs.cpp:2398
+#: ../src/menus-skeleton.h:55 ../src/verbs.cpp:2398
 msgid "Paste Si_ze"
 msgstr " បិទ​ភ្ជាប់​ទំហំ​"
 
-#: ../src/menus-skeleton.h:65
+#: ../src/menus-skeleton.h:67
 msgid "Clo_ne"
 msgstr " ក្លូន​"
 
-#: ../src/menus-skeleton.h:79
+#: ../src/menus-skeleton.h:81
 #, fuzzy
 msgid "Select Sa_me"
 msgstr "ជ្រើស​ទំព័រ ៖"
 
-#: ../src/menus-skeleton.h:97
+#: ../src/menus-skeleton.h:99
 msgid "_View"
 msgstr " មើល"
 
-#: ../src/menus-skeleton.h:98
+#: ../src/menus-skeleton.h:100
 msgid "_Zoom"
 msgstr " ពង្រីក"
 
-#: ../src/menus-skeleton.h:114
+#: ../src/menus-skeleton.h:116
 msgid "_Display mode"
 msgstr " បង្ហាញ​របៀប"
 
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
-#: ../src/menus-skeleton.h:123
+#: ../src/menus-skeleton.h:125
 #, fuzzy
 msgid "_Color display mode"
 msgstr " បង្ហាញ​របៀប"
@@ -11784,55 +11801,55 @@ msgstr " បង្ហាញ​របៀប"
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewColorModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
-#: ../src/menus-skeleton.h:136
+#: ../src/menus-skeleton.h:138
 #, fuzzy
 msgid "Sh_ow/Hide"
 msgstr "បង្ហាញ/លាក់"
 
 #. Not quite ready to be in the menus.
 #. "       <verb verb-id=\"FocusToggle\" />\n"
-#: ../src/menus-skeleton.h:156
+#: ../src/menus-skeleton.h:158
 msgid "_Layer"
 msgstr " ​ស្រទាប់"
 
-#: ../src/menus-skeleton.h:180
+#: ../src/menus-skeleton.h:182
 msgid "_Object"
 msgstr " វត្ថុ"
 
-#: ../src/menus-skeleton.h:188
+#: ../src/menus-skeleton.h:190
 msgid "Cli_p"
 msgstr " ឈុត"
 
-#: ../src/menus-skeleton.h:192
+#: ../src/menus-skeleton.h:194
 msgid "Mas_k"
 msgstr "របាំង​"
 
-#: ../src/menus-skeleton.h:196
+#: ../src/menus-skeleton.h:198
 msgid "Patter_n"
 msgstr "លំនាំ​"
 
-#: ../src/menus-skeleton.h:220
+#: ../src/menus-skeleton.h:222
 msgid "_Path"
 msgstr " ផ្លូវ​"
 
-#: ../src/menus-skeleton.h:248 ../src/ui/dialog/find.cpp:77
+#: ../src/menus-skeleton.h:250 ../src/ui/dialog/find.cpp:77
 #: ../src/ui/dialog/text-edit.cpp:71
 msgid "_Text"
 msgstr " អត្ថបទ​"
 
-#: ../src/menus-skeleton.h:266
+#: ../src/menus-skeleton.h:268
 msgid "Filter_s"
 msgstr "តម្រង"
 
-#: ../src/menus-skeleton.h:272
+#: ../src/menus-skeleton.h:274
 msgid "Exte_nsions"
 msgstr "ផ្នែក​បន្ថែម​"
 
-#: ../src/menus-skeleton.h:278
+#: ../src/menus-skeleton.h:280
 msgid "_Help"
 msgstr " ​ជំនួយ"
 
-#: ../src/menus-skeleton.h:282
+#: ../src/menus-skeleton.h:284
 msgid "Tutorials"
 msgstr "បង្ហាត់​បង្រៀន​"
 
@@ -12206,7 +12223,7 @@ msgstr "ទំនាក់ទំនង​ ៖"
 msgid "A related resource"
 msgstr " របៀប​លាយ ៖"
 
-#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1859
+#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1854
 msgid "Language:"
 msgstr "ភាសា ៖"
 
@@ -15168,7 +15185,7 @@ msgstr "<b>ក្រឡាចត្រង្គ​ដែល​បាន​កំ
 msgid "Remove grid"
 msgstr "យក​ក្រឡាចត្រង្គ​ចេញ"
 
-#: ../src/ui/dialog/document-properties.cpp:1761
+#: ../src/ui/dialog/document-properties.cpp:1765
 #, fuzzy
 msgid "Changed document unit"
 msgstr "ឯកសារ​គ្មាន​ឈ្មោះ %d"
@@ -15283,9 +15300,9 @@ msgid "_Height:"
 msgstr " កម្ពស់​ ៖"
 
 #: ../src/ui/dialog/export.cpp:309
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
+#: ../src/ui/dialog/inkscape-preferences.cpp:1435
+#: ../src/ui/dialog/inkscape-preferences.cpp:1459
 msgid "dpi"
 msgstr "dpi"
 
@@ -18022,12 +18039,6 @@ msgstr ""
 msgid "Always output text size in pixels (px)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:461
-msgid ""
-"Always convert the text size units above into pixels (px) before saving to "
-"file"
-msgstr ""
-
 #. Spray
 #: ../src/ui/dialog/inkscape-preferences.cpp:466
 msgid "Spray"
@@ -18394,12 +18405,12 @@ msgid "Set the language for menus and number formats"
 msgstr "កំណត់​ភាសា​សម្រាប់​ម៉ឺនុយ និង​ទ្រង់ទ្រាយ​លេខ"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:565
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Large"
 msgstr "ធំ​"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:565
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Small"
 msgstr "តូច​"
 
@@ -18472,238 +18483,226 @@ msgstr ""
 "លៃ​តម្រូវ​គ្រាប់​រំកិល ទាល់តែ​​ប្រវែង​បន្ទាត់​នៅ​លើ​អេក្រង់​របស់​អ្នក​ត្រូវគ្នា​នឹង​ប្រវែង​ពិត​របស់​វា ។ ព័ត៌មាន​នេះ​នឹង​"
 "ត្រូវ​បាន​ប្រើ​នៅ​ពេល​​ពង្រីក​ទៅដល់​ 1:1, 1:2, ។ល។ ដើម្បី​បង្ហាញ​វត្ថុ​តាម​ទំហំ​ពិត​របស់​ពួក​វា​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:599
-msgid "Enable dynamic relayout for incomplete sections"
-msgstr "អនុញ្ញាត​ឲ្យ​ដាក់​ប្លង់​បែប​ថាមវន្ត​ឡើង​វិញ​សម្រាប់​ភាគ​ដែល​មិន​ពេញ​លេញ​"
-
-#: ../src/ui/dialog/inkscape-preferences.cpp:601
-msgid ""
-"When on, will allow dynamic layout of components that are not completely "
-"finished being refactored"
-msgstr ""
-"នៅ​ពេល​បាន​បើក វា​នឹង​អនុញ្ញាត​ឲ្យ​ដាក់​ប្លង់​បែប​ថាមវន្ត​ឡើង​វិញ​ចំពោះ​សមាសភាគ​ដែល​មិន​ទាន់​ត្រូវ​បាន​បញ្ចប់​ការ​"
-"លៃ​តម្រូវ​​"
-
 #. show infobox
-#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:599
 #, fuzzy
 msgid "Show filter primitives infobox (requires restart)"
 msgstr "បង្ហាញ​ប្រអប់​ព័ត៌មាន​របស់​តម្រង​ដើម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:606
+#: ../src/ui/dialog/inkscape-preferences.cpp:601
 msgid ""
 "Show icons and descriptions for the filter primitives available at the "
 "filter effects dialog"
 msgstr "បង្ហាញ​រូបតំណាង និង​សេចក្ដី​ពិពណ៌នា​សម្រាប់​តម្រង​ដើម​​ដែល​អាច​​មាន​នៅ​​ក្នុង​ប្រអប់​បែបផែន​តម្រង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 #, fuzzy
 msgid "Icons only"
 msgstr "គ្រោង​ពណ៌"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 #, fuzzy
 msgid "Text only"
 msgstr "ពុម្ព​អក្សរ​អត្ថបទ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 #, fuzzy
 msgid "Icons and text"
 msgstr "ក្នុង និង​ក្រៅ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:614
+#: ../src/ui/dialog/inkscape-preferences.cpp:609
 #, fuzzy
 msgid "Dockbar style (requires restart):"
 msgstr "ភាសា (តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​ឡើងវិញ) ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:615
+#: ../src/ui/dialog/inkscape-preferences.cpp:610
 msgid ""
 "Selects whether the vertical bars on the dockbar will show text labels, "
 "icons, or both"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:622
+#: ../src/ui/dialog/inkscape-preferences.cpp:617
 #, fuzzy
 msgid "Switcher style (requires restart):"
 msgstr "(តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​កុំព្យូទ័រ​ឡើង​វិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:623
+#: ../src/ui/dialog/inkscape-preferences.cpp:618
 msgid ""
 "Selects whether the dockbar switcher will show text labels, icons, or both"
 msgstr ""
 
 #. Windows
-#: ../src/ui/dialog/inkscape-preferences.cpp:627
+#: ../src/ui/dialog/inkscape-preferences.cpp:622
 msgid "Save and restore window geometry for each document"
 msgstr "រក្សាទុក និង​ស្ដារ​ធរណីមាត្រ​របស់​​បង្អួច​សម្រាប់​ឯកសារ​នីមួយៗ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:628
+#: ../src/ui/dialog/inkscape-preferences.cpp:623
 msgid "Remember and use last window's geometry"
 msgstr "ចងចាំ និង​ប្រើ​​ធរណីមាត្រ​របស់​បង្អួច​ចុង​ក្រោយ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:629
+#: ../src/ui/dialog/inkscape-preferences.cpp:624
 msgid "Don't save window geometry"
 msgstr "កុំ​រក្សាទុក​ធរណីមាត្រ​របស់​​បង្អួច​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:631
+#: ../src/ui/dialog/inkscape-preferences.cpp:626
 msgid "Save and restore dialogs status"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:632
-#: ../src/ui/dialog/inkscape-preferences.cpp:668
+#: ../src/ui/dialog/inkscape-preferences.cpp:627
+#: ../src/ui/dialog/inkscape-preferences.cpp:663
 msgid "Don't save dialogs status"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:634
-#: ../src/ui/dialog/inkscape-preferences.cpp:676
+#: ../src/ui/dialog/inkscape-preferences.cpp:629
+#: ../src/ui/dialog/inkscape-preferences.cpp:671
 msgid "Dockable"
 msgstr "អាច​ចូល​ចត​បាន​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:638
+#: ../src/ui/dialog/inkscape-preferences.cpp:633
 msgid "Native open/save dialogs"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:639
+#: ../src/ui/dialog/inkscape-preferences.cpp:634
 msgid "GTK open/save dialogs"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:641
+#: ../src/ui/dialog/inkscape-preferences.cpp:636
 msgid "Dialogs are hidden in taskbar"
 msgstr "ប្រអប់​ត្រូវ​បាន​លាក់​ក្នុង​របារ​ភារកិច្ច​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:642
+#: ../src/ui/dialog/inkscape-preferences.cpp:637
 #, fuzzy
 msgid "Save and restore documents viewport"
 msgstr "រក្សាទុក និង​ស្ដារ​ធរណីមាត្រ​របស់​​បង្អួច​សម្រាប់​ឯកសារ​នីមួយៗ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:643
+#: ../src/ui/dialog/inkscape-preferences.cpp:638
 msgid "Zoom when window is resized"
 msgstr "ពង្រីក​នៅ​ពេល​បង្អួច​ត្រូវ​បាន​​ប្ដូរ​ទំហំ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:644
+#: ../src/ui/dialog/inkscape-preferences.cpp:639
 msgid "Show close button on dialogs"
 msgstr "បង្ហាញ​ប៊ូតុង​បិទ​នៅ​លើ​ប្រអប់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:645
+#: ../src/ui/dialog/inkscape-preferences.cpp:640
 #, fuzzy
 msgctxt "Dialog on top"
 msgid "None"
 msgstr "គ្មាន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:647
+#: ../src/ui/dialog/inkscape-preferences.cpp:642
 msgid "Aggressive"
 msgstr "ដែល​បំពាន​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 #, fuzzy
 msgid "Maximized"
 msgstr "គុណភាព​ខ្ពស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:654
+#: ../src/ui/dialog/inkscape-preferences.cpp:649
 #, fuzzy
 msgid "Default window size:"
 msgstr "កា​រ​កំណត់​ក្រឡាចត្រង្គ​លំនាំដើម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:655
+#: ../src/ui/dialog/inkscape-preferences.cpp:650
 #, fuzzy
 msgid "Set the default window size"
 msgstr "បង្កើត​ជម្រាល​លំនាំដើម​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:658
+#: ../src/ui/dialog/inkscape-preferences.cpp:653
 msgid "Saving window geometry (size and position)"
 msgstr "រក្សាទុក​ធរណីមាត្រ​​របស់​បង្អួច (ទំហំ និង​ទីតាំង) ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:660
+#: ../src/ui/dialog/inkscape-preferences.cpp:655
 msgid "Let the window manager determine placement of all windows"
 msgstr "អនុញ្ញាត​ឲ្យ​កម្មវិធី​គ្រប់គ្រង​បង្អួច​កំណត់​​ទី​កន្លែង​របស់​បង្អួច​ទាំង​អស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:662
+#: ../src/ui/dialog/inkscape-preferences.cpp:657
 msgid ""
 "Remember and use the last window's geometry (saves geometry to user "
 "preferences)"
 msgstr "ចងចាំ​ និង​ប្រើ​ធរណីមាត្រ​របស់​បង្អួច​ចុងក្រោយ (រក្សាទុក​ធរណីមាត្រ​ទៅ​ចំណូល​ចិត្ត​​អ្នក​ប្រើ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:664
+#: ../src/ui/dialog/inkscape-preferences.cpp:659
 msgid ""
 "Save and restore window geometry for each document (saves geometry in the "
 "document)"
 msgstr "រក្សាទុក និង​ស្ដារ​ធរណីមាត្រ​របស់​​បង្អួច​សម្រាប់​ឯកសារ​នីមួយៗ (រក្សាទុក​ធរណីមាត្រ​ក្នុង​ឯកសារ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:666
+#: ../src/ui/dialog/inkscape-preferences.cpp:661
 #, fuzzy
 msgid "Saving dialogs status"
 msgstr "បង្ហាញ​ប្រអប់​នៅ​ពេល​​ចាប់​ផ្ដើម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:670
+#: ../src/ui/dialog/inkscape-preferences.cpp:665
 msgid ""
 "Save and restore dialogs status (the last open windows dialogs are saved "
 "when it closes)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:674
+#: ../src/ui/dialog/inkscape-preferences.cpp:669
 msgid "Dialog behavior (requires restart)"
 msgstr "ឥរិយាបថ​របស់​ប្រអប់ (តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​កុំព្យូទ័រ​ឡើង​វិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:680
+#: ../src/ui/dialog/inkscape-preferences.cpp:675
 #, fuzzy
 msgid "Desktop integration"
 msgstr "ទិសដៅ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:682
+#: ../src/ui/dialog/inkscape-preferences.cpp:677
 msgid "Use Windows like open and save dialogs"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:684
+#: ../src/ui/dialog/inkscape-preferences.cpp:679
 msgid "Use GTK open and save dialogs "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:688
+#: ../src/ui/dialog/inkscape-preferences.cpp:683
 msgid "Dialogs on top:"
 msgstr "ប្រអប់​នៅ​ខាង​លើ​​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:691
+#: ../src/ui/dialog/inkscape-preferences.cpp:686
 msgid "Dialogs are treated as regular windows"
 msgstr "ប្រអប់​ត្រូវ​បាន​ចាត់​ទុក​ជា​បង្អួច​ធម្មតា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:693
+#: ../src/ui/dialog/inkscape-preferences.cpp:688
 msgid "Dialogs stay on top of document windows"
 msgstr "ប្រអប់​ស្ថិត​នៅ​ខាង​លើ​នៃ​​បង្អួច​ឯកសារ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:695
+#: ../src/ui/dialog/inkscape-preferences.cpp:690
 msgid "Same as Normal but may work better with some window managers"
 msgstr "ដូច​ធម្មតា ប៉ុន្តែ​អាច​ធ្វើ​ការ​បាន​ល្អ​ជាង​ជាមួយ​កម្មវិធី​គ្រប់គ្រង​បង្អួច​មួយ​ចំនួន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:698
+#: ../src/ui/dialog/inkscape-preferences.cpp:693
 msgid "Dialog Transparency"
 msgstr "ភាព​ថ្លា​របស់​ប្រអប់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:700
+#: ../src/ui/dialog/inkscape-preferences.cpp:695
 #, fuzzy
 msgid "_Opacity when focused:"
 msgstr "ភាព​ស្រអាប់​នៅ​ពេល​ផ្ដោត ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:702
+#: ../src/ui/dialog/inkscape-preferences.cpp:697
 #, fuzzy
 msgid "Opacity when _unfocused:"
 msgstr "ភាព​ស្រអាប់​នៅ​ពេល​មិន​ផ្ដោត ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:704
+#: ../src/ui/dialog/inkscape-preferences.cpp:699
 #, fuzzy
 msgid "_Time of opacity change animation:"
 msgstr "ពេលវេលា​​នៃ​ចលនា​ផ្លាស់ប្ដូរ​ភាព​ស្រអាប់ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:707
+#: ../src/ui/dialog/inkscape-preferences.cpp:702
 msgid "Miscellaneous"
 msgstr "ផ្សេងៗ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:710
+#: ../src/ui/dialog/inkscape-preferences.cpp:705
 msgid "Whether dialog windows are to be hidden in the window manager taskbar"
 msgstr "ថា​តើ​បង្អួច​របស់​ប្រអប់​នឹង​​ត្រូវ​បាន​លាក់​នៅ​ក្នុង​របារ​ភារកិច្ច​របស់​​កម្មវិធី​គ្រប់គ្រង​បង្អួច​ដែរ​​ឬទេ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:713
+#: ../src/ui/dialog/inkscape-preferences.cpp:708
 msgid ""
 "Zoom drawing when document window is resized, to keep the same area visible "
 "(this is the default which can be changed in any window using the button "
@@ -18712,115 +18711,115 @@ msgstr ""
 "ពង្រីក​គំនូរ​ នៅ​ពេល​បង្អួច​របស់​ឯកសារ​ត្រូវ​បាន​ប្ដូរ​ទំហំ ដើម្បី​ធ្វើ​ឲ្យ​នៅ​តែ​មើល​ឃើញ​តំបន់​ដូច​គ្នា​ (វា​ជា​លំនាំ​ដើម​ "
 "ដែល​អាច​នឹង​ត្រូវ​បាន​ផ្លាស់​ប្ដូរ​នៅ​ក្នុង​បង្អួច​ណា​មួយ​ ដោយ​ប្រើ​ប៊ូតុង​នៅ​ខាង​លើ​របារ​រមូរ​ខាង​ស្ដាំ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:715
+#: ../src/ui/dialog/inkscape-preferences.cpp:710
 msgid ""
 "Save documents viewport (zoom and panning position). Useful to turn off when "
 "sharing version controlled files."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:717
+#: ../src/ui/dialog/inkscape-preferences.cpp:712
 msgid "Whether dialog windows have a close button (requires restart)"
 msgstr "ថា​តើ​បង្អួច​របស់​ប្រអប់​មាន​ប៊ូតុង​បិទ​ដែរ​ឬ​ទេ​ (តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​ឡើង​វិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:718
+#: ../src/ui/dialog/inkscape-preferences.cpp:713
 msgid "Windows"
 msgstr "វីនដូ"
 
 #. Grids
-#: ../src/ui/dialog/inkscape-preferences.cpp:721
+#: ../src/ui/dialog/inkscape-preferences.cpp:716
 msgid "Line color when zooming out"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:724
+#: ../src/ui/dialog/inkscape-preferences.cpp:719
 #, fuzzy
 msgid "The gridlines will be shown in minor grid line color"
 msgstr ""
 "ប្រសិន​បើ​បាន​កំណត់ និង​បង្រួម​ បន្ទាត់​ក្រឡាចត្រង្គ​នឹង​ត្រូវ​​បង្ហាញ​​ជា​ពណ៌​ធម្មតា​ជំនួស​ឲ្យ​ពណ៌​បន្ទាត់​ក្រឡាចត្រង្គ​"
 "រង្វើល"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:726
+#: ../src/ui/dialog/inkscape-preferences.cpp:721
 #, fuzzy
 msgid "The gridlines will be shown in major grid line color"
 msgstr ""
 "ប្រសិន​បើ​បាន​កំណត់ និង​បង្រួម​ បន្ទាត់​ក្រឡាចត្រង្គ​នឹង​ត្រូវ​​បង្ហាញ​​ជា​ពណ៌​ធម្មតា​ជំនួស​ឲ្យ​ពណ៌​បន្ទាត់​ក្រឡាចត្រង្គ​"
 "រង្វើល"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:728
+#: ../src/ui/dialog/inkscape-preferences.cpp:723
 msgid "Default grid settings"
 msgstr "កា​រ​កំណត់​ក្រឡាចត្រង្គ​លំនាំដើម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:734
-#: ../src/ui/dialog/inkscape-preferences.cpp:759
+#: ../src/ui/dialog/inkscape-preferences.cpp:729
+#: ../src/ui/dialog/inkscape-preferences.cpp:754
 msgid "Grid units:"
 msgstr "ឯកតា​ក្រឡាចត្រង្គ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:739
-#: ../src/ui/dialog/inkscape-preferences.cpp:764
+#: ../src/ui/dialog/inkscape-preferences.cpp:734
+#: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "Origin X:"
 msgstr "X ដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:740
-#: ../src/ui/dialog/inkscape-preferences.cpp:765
+#: ../src/ui/dialog/inkscape-preferences.cpp:735
+#: ../src/ui/dialog/inkscape-preferences.cpp:760
 msgid "Origin Y:"
 msgstr "Y ដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:740
 msgid "Spacing X:"
 msgstr "គម្លាត​ X ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:746
-#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:741
+#: ../src/ui/dialog/inkscape-preferences.cpp:763
 msgid "Spacing Y:"
 msgstr "គម្លាត​ Y ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:748
-#: ../src/ui/dialog/inkscape-preferences.cpp:749
-#: ../src/ui/dialog/inkscape-preferences.cpp:773
-#: ../src/ui/dialog/inkscape-preferences.cpp:774
+#: ../src/ui/dialog/inkscape-preferences.cpp:743
+#: ../src/ui/dialog/inkscape-preferences.cpp:744
+#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:769
 #, fuzzy
 msgid "Minor grid line color:"
 msgstr "ពណ៌​បន្ទាត់​ក្រឡា​ចត្រង្គ​រង្វើល​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:749
-#: ../src/ui/dialog/inkscape-preferences.cpp:774
+#: ../src/ui/dialog/inkscape-preferences.cpp:744
+#: ../src/ui/dialog/inkscape-preferences.cpp:769
 msgid "Color used for normal grid lines"
 msgstr "ពណ៌​ដែល​បាន​ប្រើ​សម្រាប់​បន្ទាត់​ក្រឡា​ចត្រង្គ​ធម្មតា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:750
-#: ../src/ui/dialog/inkscape-preferences.cpp:751
-#: ../src/ui/dialog/inkscape-preferences.cpp:775
-#: ../src/ui/dialog/inkscape-preferences.cpp:776
+#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:770
+#: ../src/ui/dialog/inkscape-preferences.cpp:771
 msgid "Major grid line color:"
 msgstr "ពណ៌​បន្ទាត់​ក្រឡា​ចត្រង្គ​រង្វើល​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:751
-#: ../src/ui/dialog/inkscape-preferences.cpp:776
+#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:771
 msgid "Color used for major (highlighted) grid lines"
 msgstr "ពណ៌​ដែល​បាន​ប្រើ​សម្រាប់​បន្ទាត់​ក្រឡា​ចត្រង្គ​រង្វើល​ (ដែល​បាន​បន្លិច​)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:753
-#: ../src/ui/dialog/inkscape-preferences.cpp:778
+#: ../src/ui/dialog/inkscape-preferences.cpp:748
+#: ../src/ui/dialog/inkscape-preferences.cpp:773
 msgid "Major grid line every:"
 msgstr "បន្ទាត់​ក្រឡាចត្រង្គ​រង្វើល​​រាល់ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:754
+#: ../src/ui/dialog/inkscape-preferences.cpp:749
 msgid "Show dots instead of lines"
 msgstr "បង្ហាញ​ចំណុច​ជំនួស​ឲ្យ​បន្ទាត់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:755
+#: ../src/ui/dialog/inkscape-preferences.cpp:750
 msgid "If set, display dots at gridpoints instead of gridlines"
 msgstr "ប្រសិន​បើ​បាន​កំណត់ វា​នឹង​បង្ហាញ​ចំណុច នៅត្រង់​​ចំណុច​ក្រឡាចត្រង្គ​ជំនួស​ឲ្យ​បន្ទាត់​ក្រឡាចត្រង្គ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:836
+#: ../src/ui/dialog/inkscape-preferences.cpp:831
 #, fuzzy
 msgid "Input/Output"
 msgstr "លទ្ធផល"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:839
+#: ../src/ui/dialog/inkscape-preferences.cpp:834
 msgid "Use current directory for \"Save As ...\""
 msgstr "ប្រើ​ថត​បច្ចុប្បន្ន​សម្រាប់ \"រក្សា​ទុកជា ...\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:841
+#: ../src/ui/dialog/inkscape-preferences.cpp:836
 #, fuzzy
 msgid ""
 "When this option is on, the \"Save as...\" and \"Save a Copy\" dialogs will "
@@ -18831,11 +18830,11 @@ msgstr ""
 "តែ​​បើក ។ នៅ​ពេល​ជម្រើស​នេះ​ត្រូវ​បាន​បិទ វា​នឹង​បើក​នៅ​ក្នុង​ថត​​ដែល​អ្នក​បាន​រក្សាទុក​ឯកសារ​ចុងក្រោយ​ ដោយ​ប្រើ​"
 "ប្រអប់នោះ ។"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:843
+#: ../src/ui/dialog/inkscape-preferences.cpp:838
 msgid "Add label comments to printing output"
 msgstr "បន្ថែម​សេចក្ដី​អធិប្បាយ​អំពី​ស្លាក​ទៅ​លទ្ធផល​បោះពុម្ព"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:845
+#: ../src/ui/dialog/inkscape-preferences.cpp:840
 msgid ""
 "When on, a comment will be added to the raw print output, marking the "
 "rendered output for an object with its label"
@@ -18843,66 +18842,66 @@ msgstr ""
 "នៅ​ពេល​បើក សេចក្ដី​អធិប្បាយ​នឹង​ត្រូវ​បាន​បន្ថែម​ទៅ​លទ្ធផល​បោះពុម្ព​ដើម ដោយ​សម្គាល់​លទ្ធផល​ដែល​បាន​បង្ហាញ​"
 "សម្រាប់​វត្ថុ​ដែល​​មាន​ស្លាក​របស់​វា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:847
+#: ../src/ui/dialog/inkscape-preferences.cpp:842
 #, fuzzy
 msgid "Add default metadata to new documents"
 msgstr "កែសម្រួល​ទិន្នន័យ​មេតា​​ឯកសារ (ត្រូវ​តែ​រក្សាទុក​ជា​មួយ​​ឯកសារ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:849
+#: ../src/ui/dialog/inkscape-preferences.cpp:844
 msgid ""
 "Add default metadata to new documents. Default metadata can be set from "
 "Document Properties->Metadata."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:853
+#: ../src/ui/dialog/inkscape-preferences.cpp:848
 #, fuzzy
 msgid "_Grab sensitivity:"
 msgstr "កម្រិត​ប្រែ​ប្រួល​តាម​ការចាប់យក ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:853
+#: ../src/ui/dialog/inkscape-preferences.cpp:848
 #, fuzzy
 msgid "pixels (requires restart)"
 msgstr "(តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​កុំព្យូទ័រ​ឡើង​វិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:854
+#: ../src/ui/dialog/inkscape-preferences.cpp:849
 msgid ""
 "How close on the screen you need to be to an object to be able to grab it "
 "with mouse (in screen pixels)"
 msgstr ""
 "វិធី​បិទ​នៅ​លើ​អេក្រង់​ដែល​អ្នក​ត្រូវការ​ឲ្យ​វត្ថុ​មួយ​អាច​ទាញ​វា​បាន​ ដោយ​វា​ប្រើ​កណ្ដុរ (គិត​ជា​ភីកសែល​​អេក្រង់)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:856
+#: ../src/ui/dialog/inkscape-preferences.cpp:851
 #, fuzzy
 msgid "_Click/drag threshold:"
 msgstr "ចុច/អូស​កម្រិត​ពន្លឺ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:856
-#: ../src/ui/dialog/inkscape-preferences.cpp:1198
-#: ../src/ui/dialog/inkscape-preferences.cpp:1202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1212
+#: ../src/ui/dialog/inkscape-preferences.cpp:851
+#: ../src/ui/dialog/inkscape-preferences.cpp:1193
+#: ../src/ui/dialog/inkscape-preferences.cpp:1197
+#: ../src/ui/dialog/inkscape-preferences.cpp:1207
 msgid "pixels"
 msgstr "ភីកសែល​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:857
+#: ../src/ui/dialog/inkscape-preferences.cpp:852
 msgid ""
 "Maximum mouse drag (in screen pixels) which is considered a click, not a drag"
 msgstr "ការ​អូស​កណ្ដុរ​អតិបរមា (គិត​ជា​ភីកសែល​អេក្រង់) ដែល​ត្រូវ​ពិចារណា​ថា​ចុច មិន​អូស"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:860
+#: ../src/ui/dialog/inkscape-preferences.cpp:855
 #, fuzzy
 msgid "_Handle size:"
 msgstr "ចំណុច​ទាញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:861
+#: ../src/ui/dialog/inkscape-preferences.cpp:856
 #, fuzzy
 msgid "Set the relative size of node handles"
 msgstr "ប្ដូរ​ចំណុច​ទាញ​ថ្នាំង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:863
+#: ../src/ui/dialog/inkscape-preferences.cpp:858
 msgid "Use pressure-sensitive tablet (requires restart)"
 msgstr "ប្រើ​ tablet ​ដែល​ប្រែ​ប្រួល​តាម​សម្ពាធ (តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​ឡើង​វិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:865
+#: ../src/ui/dialog/inkscape-preferences.cpp:860
 msgid ""
 "Use the capabilities of a tablet or other pressure-sensitive device. Disable "
 "this only if you have problems with the tablet (you can still use it as a "
@@ -18911,26 +18910,26 @@ msgstr ""
 "ប្រើ​សមត្ថភាព​របស់ tablet ឬ​ឧបករណ៍​ដែល​ប្រែ​ប្រួល​តាម​សម្ពាធ​ផ្សេង​ទៀត​ ។ បិទ​វា​ក្នុង​ករណី​ដែល​អ្នក​មាន​បញ្ហា​"
 "ជា​មួយ​ tablet  (អ្នក​នៅតែ​អាច​ប្រើ​​វា​ជា​​កណ្ដុរ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:867
+#: ../src/ui/dialog/inkscape-preferences.cpp:862
 msgid "Switch tool based on tablet device (requires restart)"
 msgstr "ប្ដូរ​ឧបករណ៍​ដែល​មាន​មូលដ្ឋាន​លើ​ឧបករណ៍​ tablet ​ (តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​ឡើងវិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:869
+#: ../src/ui/dialog/inkscape-preferences.cpp:864
 msgid ""
 "Change tool as different devices are used on the tablet (pen, eraser, mouse)"
 msgstr "ផ្លាស់ប្ដូរ​ឧបករណ៍​ជា​ឧបករណ៍​ផ្សេង​ៗ​ដែល​នឹង​​ត្រូវ​បាន​ប្រើ​នៅ​លើ​ tablet ​ (ប៊ិក ជ័រលុប កណ្ដុរ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:870
+#: ../src/ui/dialog/inkscape-preferences.cpp:865
 #, fuzzy
 msgid "Input devices"
 msgstr " ឧបករណ៍​បញ្ចូល​..."
 
 #. SVG output options
-#: ../src/ui/dialog/inkscape-preferences.cpp:873
+#: ../src/ui/dialog/inkscape-preferences.cpp:868
 msgid "Use named colors"
 msgstr "ប្រើ​ពណ៌​ដែល​មាន​ឈ្មោះ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:874
+#: ../src/ui/dialog/inkscape-preferences.cpp:869
 msgid ""
 "If set, write the CSS name of the color when available (e.g. 'red' or "
 "'magenta') instead of the numeric value"
@@ -18938,87 +18937,87 @@ msgstr ""
 "ប្រសិន​បើ​បាន​កំណត់ វា​នឹង​​សរសេរ​ឈ្មោះ CSS របស់​ពណ៌​ នៅ​ពេល​ដែល​មាន (ឧ. 'red' ឬ 'magenta') ជំនួស​ឲ្យ​"
 "ការ​​សរសេរ​តម្លៃ​ជា​លេខ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:876
+#: ../src/ui/dialog/inkscape-preferences.cpp:871
 msgid "XML formatting"
 msgstr "ទ្រង់ទ្រាយ XML"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:878
+#: ../src/ui/dialog/inkscape-preferences.cpp:873
 msgid "Inline attributes"
 msgstr "​គុណ​លក្ខណៈ​​ក្នុង​តួ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:879
+#: ../src/ui/dialog/inkscape-preferences.cpp:874
 msgid "Put attributes on the same line as the element tag"
 msgstr "ដាក់​គុណ​លក្ខណៈ​នៅ​លើ​បន្ទាត់​តែ​មួយ​ដូចគ្នា​ទៅ​​នឹង​ស្លាក​ធាតុ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:877
 #, fuzzy
 msgid "_Indent, spaces:"
 msgstr "ចូល​បន្ទាត់ ដកឃ្លា ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:877
 msgid ""
 "The number of spaces to use for indenting nested elements; set to 0 for no "
 "indentation"
 msgstr "ចំនួន​ដកឃ្លា​ដែល​ត្រូវ​ប្រើ​សម្រាប់​ការ​ចូល​បន្ទាត់​ធាតុ​ក្នុង​ កំណត់​ត្រឹម​ ០ សម្រាប់​ការ​មិន​​ចូល​បន្ទាត់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:884
+#: ../src/ui/dialog/inkscape-preferences.cpp:879
 msgid "Path data"
 msgstr "ទិន្នន័យ​ផ្លូវ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
 msgid "Absolute"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
 #, fuzzy
 msgid "Relative"
 msgstr "ទាក់ទង​ទៅ​នឹង ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
-#: ../src/ui/dialog/inkscape-preferences.cpp:1177
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:1172
 msgid "Optimized"
 msgstr "គុណភាព​ខ្ពស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:891
+#: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid "Path string format:"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:891
+#: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid ""
 "Path data should be written: only with absolute coordinates, only with "
 "relative coordinates, or optimized for string length (mixed absolute and "
 "relative coordinates)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:893
+#: ../src/ui/dialog/inkscape-preferences.cpp:888
 msgid "Force repeat commands"
 msgstr "បង្ខំ​ពាក្យ​បញ្ជា​ធ្វើ​ម្ដង​ទៀត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:894
+#: ../src/ui/dialog/inkscape-preferences.cpp:889
 msgid ""
 "Force repeating of the same path command (for example, 'L 1,2 L 3,4' instead "
 "of 'L 1,2 3,4')"
 msgstr "បង្ខំ​ឲ្យ​ប្រើ​ពាក្យ​បញ្ជា​ផ្លូវ​ដដែល​ឡើង​វិញ​ (ឧទាហរណ៍ 'L 1,2 L 3,4' ជំនួស​ 'L 1,2 3,4')"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:896
+#: ../src/ui/dialog/inkscape-preferences.cpp:891
 msgid "Numbers"
 msgstr "ចំនួន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:899
+#: ../src/ui/dialog/inkscape-preferences.cpp:894
 #, fuzzy
 msgid "_Numeric precision:"
 msgstr "ចំនួន​ខ្ទង់ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:899
+#: ../src/ui/dialog/inkscape-preferences.cpp:894
 msgid "Significant figures of the values written to the SVG file"
 msgstr "លេខ​តម្លៃ​ដែល​សំខាន់​ត្រូវ​បាន​សរសេរ​ទៅកាន់​ឯកសារ​ SVG"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:902
+#: ../src/ui/dialog/inkscape-preferences.cpp:897
 #, fuzzy
 msgid "Minimum _exponent:"
 msgstr "និទស្សន្ត​អប្បបរមា ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:902
+#: ../src/ui/dialog/inkscape-preferences.cpp:897
 msgid ""
 "The smallest number written to SVG is 10 to the power of this exponent; "
 "anything smaller is written as zero"
@@ -19028,60 +19027,60 @@ msgstr ""
 
 #. Code to add controls for attribute checking options
 #. Add incorrect style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:907
+#: ../src/ui/dialog/inkscape-preferences.cpp:902
 msgid "Improper Attributes Actions"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:909
-#: ../src/ui/dialog/inkscape-preferences.cpp:917
-#: ../src/ui/dialog/inkscape-preferences.cpp:925
+#: ../src/ui/dialog/inkscape-preferences.cpp:904
+#: ../src/ui/dialog/inkscape-preferences.cpp:912
+#: ../src/ui/dialog/inkscape-preferences.cpp:920
 #, fuzzy
 msgid "Print warnings"
 msgstr "សញ្ញា​សម្គាល់​ការ​បោះពុម្ព"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:910
+#: ../src/ui/dialog/inkscape-preferences.cpp:905
 msgid ""
 "Print warning if invalid or non-useful attributes found. Database files "
 "located in inkscape_data_dir/attributes."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:911
+#: ../src/ui/dialog/inkscape-preferences.cpp:906
 #, fuzzy
 msgid "Remove attributes"
 msgstr "កំណត់​​គុណ​លក្ខណ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:912
+#: ../src/ui/dialog/inkscape-preferences.cpp:907
 msgid "Delete invalid or non-useful attributes from element tag"
 msgstr ""
 
 #. Add incorrect style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:915
+#: ../src/ui/dialog/inkscape-preferences.cpp:910
 msgid "Inappropriate Style Properties Actions"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:918
+#: ../src/ui/dialog/inkscape-preferences.cpp:913
 msgid ""
 "Print warning if inappropriate style properties found (i.e. 'font-family' "
 "set on a <rect>). Database files located in inkscape_data_dir/attributes."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:919
-#: ../src/ui/dialog/inkscape-preferences.cpp:927
+#: ../src/ui/dialog/inkscape-preferences.cpp:914
+#: ../src/ui/dialog/inkscape-preferences.cpp:922
 #, fuzzy
 msgid "Remove style properties"
 msgstr "រាយ​ការណ៍អំពី​លក្ខណសម្បត្តិ​របស់​ត្រីកោណ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:920
+#: ../src/ui/dialog/inkscape-preferences.cpp:915
 #, fuzzy
 msgid "Delete inappropriate style properties"
 msgstr "កំណត់​លក្ខណសម្បត្តិ​របស់​បន្ទាត់​ក្រិត​"
 
 #. Add default or inherited style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:923
+#: ../src/ui/dialog/inkscape-preferences.cpp:918
 msgid "Non-useful Style Properties Actions"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:926
+#: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid ""
 "Print warning if redundant style properties found (i.e. if a property has "
 "the default value and a different value is not inherited or if value is the "
@@ -19089,72 +19088,72 @@ msgid ""
 "attributes."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:928
+#: ../src/ui/dialog/inkscape-preferences.cpp:923
 #, fuzzy
 msgid "Delete redundant style properties"
 msgstr "កំណត់​លក្ខណសម្បត្តិ​របស់​បន្ទាត់​ក្រិត​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:930
+#: ../src/ui/dialog/inkscape-preferences.cpp:925
 msgid "Check Attributes and Style Properties on"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:932
+#: ../src/ui/dialog/inkscape-preferences.cpp:927
 #, fuzzy
 msgid "Reading"
 msgstr "ស្រមោល"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:933
+#: ../src/ui/dialog/inkscape-preferences.cpp:928
 msgid ""
 "Check attributes and style properties on reading in SVG files (including "
 "those internal to Inkscape which will slow down startup)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:934
+#: ../src/ui/dialog/inkscape-preferences.cpp:929
 #, fuzzy
 msgid "Editing"
 msgstr " កែ​សម្រួល"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:935
+#: ../src/ui/dialog/inkscape-preferences.cpp:930
 msgid ""
 "Check attributes and style properties while editing SVG files (may slow down "
 "Inkscape, mostly useful for debugging)"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:936
+#: ../src/ui/dialog/inkscape-preferences.cpp:931
 #, fuzzy
 msgid "Writing"
 msgstr "ស្គ្រីប"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:937
+#: ../src/ui/dialog/inkscape-preferences.cpp:932
 msgid "Check attributes and style properties on writing out SVG files"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:939
+#: ../src/ui/dialog/inkscape-preferences.cpp:934
 msgid "SVG output"
 msgstr "លទ្ធផល​របស់​ SVG"
 
 #. TRANSLATORS: see http://www.newsandtech.com/issues/2004/03-04/pt/03-04_rendering.htm
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Perceptual"
 msgstr "ការ​ទទួល​ស្គាល់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Relative Colorimetric"
 msgstr "កាឡូរីម៉ែត្រ​​ធៀប​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Absolute Colorimetric"
 msgstr "កាឡូរីម៉ែត្រ​ដាច់ខាត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:949
+#: ../src/ui/dialog/inkscape-preferences.cpp:944
 msgid "(Note: Color management has been disabled in this build)"
 msgstr "(ចំណាំ ៖ ការ​គ្រប់គ្រង​ពណ៌​ត្រូវ​បាន​បិទ​ក្នុង​ការ​ស្ថាបនា​នេះ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:953
+#: ../src/ui/dialog/inkscape-preferences.cpp:948
 msgid "Display adjustment"
 msgstr "លៃ​តម្រូវការ​បង្ហាញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:963
+#: ../src/ui/dialog/inkscape-preferences.cpp:958
 #, c-format
 msgid ""
 "The ICC profile to use to calibrate display output.\n"
@@ -19163,110 +19162,110 @@ msgstr ""
 "ទម្រង់​ ICC ត្រូវ​ប្រើ​សម្រាប់​ក្រិត​ខ្នាត​លទ្ធផល​នៃ​ការ​បង្ហាញ ។\n"
 "ថត​ដែល​បាន​ស្វែង​រក​ ៖%s"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:964
+#: ../src/ui/dialog/inkscape-preferences.cpp:959
 msgid "Display profile:"
 msgstr "បង្ហាញ​ទម្រង់ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:969
+#: ../src/ui/dialog/inkscape-preferences.cpp:964
 msgid "Retrieve profile from display"
 msgstr "ទៅ​យក​ទម្រង់​ពី​កា​រ​បង្ហាញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:972
+#: ../src/ui/dialog/inkscape-preferences.cpp:967
 msgid "Retrieve profiles from those attached to displays via XICC"
 msgstr "ទៅ​យក​ទម្រង់​ពី​អ្វី​ៗ​​ដែល​បាន​ភ្ជាប់​សម្រាប់​ធ្វើ​ការ​​បង្ហាញ​តាមរយៈ XICC"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:974
+#: ../src/ui/dialog/inkscape-preferences.cpp:969
 msgid "Retrieve profiles from those attached to displays"
 msgstr "ទៅ​យក​ទម្រង់​ពី​អ្វី​ៗ​​ដែល​បាន​ភ្ជាប់​សម្រាប់​ធ្វើ​ការ​បង្ហាញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:979
+#: ../src/ui/dialog/inkscape-preferences.cpp:974
 msgid "Display rendering intent:"
 msgstr "បំណង​ក្នុង​ការ​​បង្ហាញ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:980
+#: ../src/ui/dialog/inkscape-preferences.cpp:975
 msgid "The rendering intent to use to calibrate display output"
 msgstr "បំណង​ក្នុង​ការ​បង្ហាញ​នឹង​ត្រូវ​បាន​​ប្រើ​សម្រាប់​ការ​ក្រិត​ខ្នាត​លទ្ធផល​នៃ​ការ​បង្ហាញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:982
+#: ../src/ui/dialog/inkscape-preferences.cpp:977
 msgid "Proofing"
 msgstr "មើល​កែ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:984
+#: ../src/ui/dialog/inkscape-preferences.cpp:979
 msgid "Simulate output on screen"
 msgstr "ត្រាប់​តាម​លទ្ធផល​នៅ​លើ​អេក្រង់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:986
+#: ../src/ui/dialog/inkscape-preferences.cpp:981
 msgid "Simulates output of target device"
 msgstr "ត្រាប់​តាម​លទ្ធផល​របស់​ឧបករណ៍​គោលដៅ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:988
+#: ../src/ui/dialog/inkscape-preferences.cpp:983
 msgid "Mark out of gamut colors"
 msgstr "សម្គាល់​ចេញ​ពី​សំណុំ​ពណ៌"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:990
+#: ../src/ui/dialog/inkscape-preferences.cpp:985
 msgid "Highlights colors that are out of gamut for the target device"
 msgstr "បន្លិច​ពណ៌​ដែល​ចេញ​មក​ពី​សំណុំ​ពណ៌​សម្រាប់​ឧបករណ៍​គោល​ដៅ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1002
+#: ../src/ui/dialog/inkscape-preferences.cpp:997
 msgid "Out of gamut warning color:"
 msgstr "ចេញ​ពី​​ពណ៌​ព្រមាន​របស់​សំណុំ​ពណ៌​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1003
+#: ../src/ui/dialog/inkscape-preferences.cpp:998
 msgid "Selects the color used for out of gamut warning"
 msgstr "ជ្រើស​ពណ៌​ដែល​​​បាន​ប្រើ ​សម្រាប់​ការ​យក​ចេញ​ពី​ការ​ព្រមាន​របស់​សំណុំ​ពណ៌​ ។"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1005
+#: ../src/ui/dialog/inkscape-preferences.cpp:1000
 msgid "Device profile:"
 msgstr "ទម្រង់​ឧបករណ៍ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1006
+#: ../src/ui/dialog/inkscape-preferences.cpp:1001
 msgid "The ICC profile to use to simulate device output"
 msgstr "ទម្រង់​ ICC នឹង​ត្រូវ​បាន​ប្រើ ដើម្បី​ត្រាប់​តាម​លទ្ធផល​របស់​ឧបករណ៍"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1009
+#: ../src/ui/dialog/inkscape-preferences.cpp:1004
 msgid "Device rendering intent:"
 msgstr "បំណង​ក្នុង​ការ​​បង្ហាញ​ឧបករណ៍ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1010
+#: ../src/ui/dialog/inkscape-preferences.cpp:1005
 msgid "The rendering intent to use to calibrate device output"
 msgstr "បំណង​ក្នុង​ការ​បង្ហាញ​នឹង​ត្រូវ​ប្រើ​ សម្រាប់​ការ​ក្រិត​ខ្នាត​លទ្ធផល​របស់​ឧបករណ៍"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1012
+#: ../src/ui/dialog/inkscape-preferences.cpp:1007
 msgid "Black point compensation"
 msgstr "កា​រ​ប៉ះប៉ូវ​ចំណុច​ខ្មៅ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1014
+#: ../src/ui/dialog/inkscape-preferences.cpp:1009
 msgid "Enables black point compensation"
 msgstr "បើក​ការ​ប៉ះប៉ូវ​ចំណុច​ខ្មៅ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1016
+#: ../src/ui/dialog/inkscape-preferences.cpp:1011
 msgid "Preserve black"
 msgstr "រក្សា​ទុក​ពណ៌​ខ្មៅ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1023
+#: ../src/ui/dialog/inkscape-preferences.cpp:1018
 msgid "(LittleCMS 1.15 or later required)"
 msgstr "(ទាម​ទារ LittleCMS 1.15 ឬ​កំណែ​ក្រោយ​)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1025
+#: ../src/ui/dialog/inkscape-preferences.cpp:1020
 msgid "Preserve K channel in CMYK -> CMYK transforms"
 msgstr "រក្សា​ទុក​ឆានែល K នៅ​ក្នុង​​ការ​ប្លែង CMYK -> CMYK"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1039
+#: ../src/ui/dialog/inkscape-preferences.cpp:1034
 #: ../src/widgets/sp-color-icc-selector.cpp:474
 #: ../src/widgets/sp-color-icc-selector.cpp:766
 msgid "<none>"
 msgstr "<គ្មាន>"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1084
+#: ../src/ui/dialog/inkscape-preferences.cpp:1079
 msgid "Color management"
 msgstr "ការ​គ្រប់គ្រង​ពណ៌"
 
 #. Autosave options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1087
+#: ../src/ui/dialog/inkscape-preferences.cpp:1082
 msgid "Enable autosave (requires restart)"
 msgstr "បើក​ការ​រក្សាទុក​ដោយ​ស្វ័យប្រវត្តិ (តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​ឡើងវិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1088
+#: ../src/ui/dialog/inkscape-preferences.cpp:1083
 msgid ""
 "Automatically save the current document(s) at a given interval, thus "
 "minimizing loss in case of a crash"
@@ -19274,33 +19273,33 @@ msgstr ""
 "រក្សាទុក​​ឯកសារ​បច្ចុប្បន្ន​ដោយ​ស្វ័យប្រវត្តិ នៅ​ចន្លោះ​ពេល​ដែល​បាន​ផ្ដល់ ដូច្នេះ​នឹង​មាន​ការ​បាត់បង់​តិចតួច​បំផុត​នៅ​"
 "ក្នុង​ករណី​ដែល​គាំង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1094
+#: ../src/ui/dialog/inkscape-preferences.cpp:1089
 #, fuzzy
 msgctxt "Filesystem"
 msgid "Autosave _directory:"
 msgstr "ថត ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1094
+#: ../src/ui/dialog/inkscape-preferences.cpp:1089
 msgid ""
 "The directory where autosaves will be written. This should be an absolute "
 "path (starts with / on UNIX or a drive letter such as C: on Windows). "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1096
+#: ../src/ui/dialog/inkscape-preferences.cpp:1091
 #, fuzzy
 msgid "_Interval (in minutes):"
 msgstr "ចន្លោះ​ពេល (គិត​ជា​នាទី) ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1096
+#: ../src/ui/dialog/inkscape-preferences.cpp:1091
 msgid "Interval (in minutes) at which document will be autosaved"
 msgstr "ចន្លោះ​ពេល​ដែល​ត្រូវ​រក្សាទុក​ឯកសារ​ដោយ​ស្វ័យប្រវត្តិ (គិត​ជា​នាទី)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1098
+#: ../src/ui/dialog/inkscape-preferences.cpp:1093
 #, fuzzy
 msgid "_Maximum number of autosaves:"
 msgstr "ចំនួន​អតិបរមា​នៃ​ការ​រក្សា​ទុក​ស្វ័យ​ប្រវត្តិ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1098
+#: ../src/ui/dialog/inkscape-preferences.cpp:1093
 msgid ""
 "Maximum number of autosaved files; use this to limit the storage space used"
 msgstr ""
@@ -19318,17 +19317,17 @@ msgstr ""
 #. _autosave_autosave_interval.signal_changed().connect( sigc::ptr_fun(inkscape_autosave_init), TRUE );
 #.
 #. -----------
-#: ../src/ui/dialog/inkscape-preferences.cpp:1113
+#: ../src/ui/dialog/inkscape-preferences.cpp:1108
 #, fuzzy
 msgid "Autosave"
 msgstr "ថ្នាំង​ស្វ័យប្រវត្តិ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1117
+#: ../src/ui/dialog/inkscape-preferences.cpp:1112
 #, fuzzy
 msgid "Open Clip Art Library _Server Name:"
 msgstr "ឈ្មោះ​ម៉ាស៊ីន​បម្រើ​របស់​បណ្ណាល័យ​​​បន្ទប់​រូបភាព​ចំហ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1118
+#: ../src/ui/dialog/inkscape-preferences.cpp:1113
 msgid ""
 "The server name of the Open Clip Art Library webdav server; it's used by the "
 "Import and Export to OCAL function"
@@ -19336,40 +19335,40 @@ msgstr ""
 "ឈ្មោះ​ម៉ាស៊ីន​បម្រើ​នៃ​ម៉ាស៊ីន​បម្រើ​ webdav របស់​បណ្ណាល័យ​បន្ទប់​រូបភាព​ចំហ វា​ត្រូវ​បាន​ប្រើ​ដោយ​ ការ​នាំ​ចូល និង​"
 "នាំ​ចេញ​ទៅ​កាន់​អនុគមន៍​ OCAL"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1120
+#: ../src/ui/dialog/inkscape-preferences.cpp:1115
 #, fuzzy
 msgid "Open Clip Art Library _Username:"
 msgstr "ឈ្មោះ​អ្នក​ប្រើ​បណ្ណាល័យ​បន្ទប់​រូបភាព​ចំហ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1121
+#: ../src/ui/dialog/inkscape-preferences.cpp:1116
 msgid "The username used to log into Open Clip Art Library"
 msgstr "ឈ្មោះ​អ្នក​ប្រើ​ដែល​ធ្លាប់​​បាន​ប្រើ​ចូល​ទៅ​ក្នុង​បណ្ណាល័យ​បន្ទប់​រូបភាព​ចំហ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1123
+#: ../src/ui/dialog/inkscape-preferences.cpp:1118
 #, fuzzy
 msgid "Open Clip Art Library _Password:"
 msgstr "ពាក្យ​សម្ងាត់​របស់​បណ្ណាល័យ​បន្ទប់​រូបភាពចំហ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1124
+#: ../src/ui/dialog/inkscape-preferences.cpp:1119
 msgid "The password used to log into Open Clip Art Library"
 msgstr "ពាក្យ​សម្ងាត់​ដែល​ធ្លាប់​បាន​ប្រើ​​​សម្រាប់​ចូល​ទៅ​​ក្នុង​បណ្ណាល័យ​បន្ទប់​រូបភាព​ចំហ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1125
+#: ../src/ui/dialog/inkscape-preferences.cpp:1120
 #, fuzzy
 msgid "Open Clip Art"
 msgstr "ធ្នូ​បើក"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1130
+#: ../src/ui/dialog/inkscape-preferences.cpp:1125
 #, fuzzy
 msgid "Behavior"
 msgstr "ឥរិយាបថ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1134
+#: ../src/ui/dialog/inkscape-preferences.cpp:1129
 #, fuzzy
 msgid "_Simplification threshold:"
 msgstr "ការ​សម្រួល​កម្រិត​ពន្លឺ​​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1135
+#: ../src/ui/dialog/inkscape-preferences.cpp:1130
 msgid ""
 "How strong is the Node tool's Simplify command by default. If you invoke "
 "this command several times in quick succession, it will act more and more "
@@ -19379,190 +19378,190 @@ msgstr ""
 "លំដាប់​លឿន វា​នឹង​មានអំពើ​កាន់​តែ​ខ្លាំង​ឡើង​  ចំណែក​ការ​ហៅ​វា​ម្ដង​ទៀត បន្ទាប់​ពី​បាន​ផ្អាក​នោះ​ នឹង​ធ្វើ​ឲ្យ​វា​"
 "ស្ដារ​​លំនាំ​ដើម​របស់​ពណ៌​ឡើង​វិញ ។"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1137
+#: ../src/ui/dialog/inkscape-preferences.cpp:1132
 msgid "Color stock markers the same color as object"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1138
+#: ../src/ui/dialog/inkscape-preferences.cpp:1133
 msgid "Color custom markers the same color as object"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1139
-#: ../src/ui/dialog/inkscape-preferences.cpp:1349
+#: ../src/ui/dialog/inkscape-preferences.cpp:1134
+#: ../src/ui/dialog/inkscape-preferences.cpp:1344
 msgid "Update marker color when object color changes"
 msgstr ""
 
 #. Selecting options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1142
+#: ../src/ui/dialog/inkscape-preferences.cpp:1137
 msgid "Select in all layers"
 msgstr "ជ្រើស​នៅ​ក្នុង​ស្រទាប់​ទាំង​អស់​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1143
+#: ../src/ui/dialog/inkscape-preferences.cpp:1138
 msgid "Select only within current layer"
 msgstr "ជ្រើស​តែ​នៅ​ក្នុង​ស្រទាប់​បច្ចុប្បន្ន​ប៉ុណ្ណោះ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1144
+#: ../src/ui/dialog/inkscape-preferences.cpp:1139
 msgid "Select in current layer and sublayers"
 msgstr "ជ្រើស​ក្នុង​ស្រទាប់ និង​ស្រទាប់​រង​បច្ចុប្បន្ន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1145
+#: ../src/ui/dialog/inkscape-preferences.cpp:1140
 msgid "Ignore hidden objects and layers"
 msgstr "មិន​អើពើ​វត្ថុ និង​ស្រទាប់​ដែល​បាន​លាក់​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1146
+#: ../src/ui/dialog/inkscape-preferences.cpp:1141
 msgid "Ignore locked objects and layers"
 msgstr "មិន​អើពើ​វត្ថុ និង​ស្រទាប់​ដែល​ជាប់​សោ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1147
+#: ../src/ui/dialog/inkscape-preferences.cpp:1142
 msgid "Deselect upon layer change"
 msgstr "ដោះ​ធីក​នៅ​ពេល​មាន​ការ​ផ្លាស់​ប្ដូរ​ស្រទាប់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1150
+#: ../src/ui/dialog/inkscape-preferences.cpp:1145
 msgid ""
 "Uncheck this to be able to keep the current objects selected when the "
 "current layer changes"
 msgstr ""
 "ដោះ​​ធីក​វា ដើម្បី​អាច​រក្សា​ទុក​វត្ថុ​​ដែល​បាន​ជ្រើស​បច្ចុប្បន្ន​ ​នៅ​ពេល​មាន​ការ​ផ្លាស់ប្ដូរ​ស្រទាប់​បច្ចុប្បន្ន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1152
+#: ../src/ui/dialog/inkscape-preferences.cpp:1147
 msgid "Ctrl+A, Tab, Shift+Tab"
 msgstr "បញ្ជា (Ctrl)+A, ថេប (Tab), ប្ដូរ (Shift)+ថេប (Tab)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1154
+#: ../src/ui/dialog/inkscape-preferences.cpp:1149
 msgid "Make keyboard selection commands work on objects in all layers"
 msgstr "ធ្វើ​ឲ្យ​ពាក្យ​បញ្ជា​ជម្រើស​ក្ដារចុច​ដំណើរការ​លើ​វត្ថុ​ក្នុង​ស្រទាប់​ទាំង​អស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1151
 msgid "Make keyboard selection commands work on objects in current layer only"
 msgstr "ធ្វើ​ឲ្យ​ពាក្យ​បញ្ជា​ជម្រើស​ក្ដារ​ចុច​ដំណើរការ​លើ​វត្ថុ​នៅ​ក្នុង​ស្រទាប់​បច្ចុប្បន្ន​តែ​​ប៉ុណ្ណោះ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1158
+#: ../src/ui/dialog/inkscape-preferences.cpp:1153
 msgid ""
 "Make keyboard selection commands work on objects in current layer and all "
 "its sublayers"
 msgstr ""
 "ធ្វើ​ឲ្យ​ពាក្យ​បញ្ជា​ជម្រើស​ក្ដារចុច​ដំណើរការ​លើ​វត្ថុ​នៅ​ក្នុង​ស្រទាប់​បច្ចុប្បន្ន និង​ស្រទាប់​រង​ទាំងអស់​របស់​វា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1160
+#: ../src/ui/dialog/inkscape-preferences.cpp:1155
 msgid ""
 "Uncheck this to be able to select objects that are hidden (either by "
 "themselves or by being in a hidden layer)"
 msgstr ""
 "ដោះ​ធីក​វា ដើម្បី​អាច​ជ្រើស​វត្ថុ​ដែល​ត្រូវ​បាន​លាក់ (ដោយ​ខ្លួន​ពួក​វា​ផ្ទាល់ ឬ​ដោយ​នៅ​ក្នុង​​ស្រទាប់​ដែល​បាន​លាក់)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1162
+#: ../src/ui/dialog/inkscape-preferences.cpp:1157
 msgid ""
 "Uncheck this to be able to select objects that are locked (either by "
 "themselves or by being in a locked layer)"
 msgstr ""
 "ដោះ​​ធីក​វា ដើម្បី​អាច​ជ្រើស​វត្ថុ​ដែល​ត្រូវ​បាន​​ជាប់​សោ (ដោយ​ខ្លួន​ពួកវា​ផ្ទាល់ ឬ​ដោយ​នៅ​ក្នុង​​ស្រទាប់​ដែល​ជាប់​សោ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1164
+#: ../src/ui/dialog/inkscape-preferences.cpp:1159
 msgid "Wrap when cycling objects in z-order"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1166
+#: ../src/ui/dialog/inkscape-preferences.cpp:1161
 msgid "Alt+Scroll Wheel"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1168
+#: ../src/ui/dialog/inkscape-preferences.cpp:1163
 msgid "Wrap around at start and end when cycling objects in z-order"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1170
+#: ../src/ui/dialog/inkscape-preferences.cpp:1165
 msgid "Selecting"
 msgstr "គូស​ធីក"
 
 #. Transforms options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1173
+#: ../src/ui/dialog/inkscape-preferences.cpp:1168
 #: ../src/widgets/select-toolbar.cpp:570
 msgid "Scale stroke width"
 msgstr "ធ្វើ​មាត្រដ្ឋាន​ទទឹង​ខ្វាច់​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1174
+#: ../src/ui/dialog/inkscape-preferences.cpp:1169
 msgid "Scale rounded corners in rectangles"
 msgstr "ធ្វើ​មាត្រដ្ឋាន​ជ្រុង​មូល​នៅ​ក្នុង​ចតុកោណកែង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1175
+#: ../src/ui/dialog/inkscape-preferences.cpp:1170
 msgid "Transform gradients"
 msgstr "ប្លែង​ជម្រាល​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1176
+#: ../src/ui/dialog/inkscape-preferences.cpp:1171
 msgid "Transform patterns"
 msgstr "ប្លែង​លំនាំ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1178
+#: ../src/ui/dialog/inkscape-preferences.cpp:1173
 msgid "Preserved"
 msgstr "រក្សា​ទុក​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1181
+#: ../src/ui/dialog/inkscape-preferences.cpp:1176
 #: ../src/widgets/select-toolbar.cpp:571
 msgid "When scaling objects, scale the stroke width by the same proportion"
 msgstr "ធ្វើ​មាត្រដ្ឋាន​ទទឹង​​ខ្វាច់​​​តាម​សមាមាត្រ​ដូច​គ្នា នៅ​ពេល​ធ្វើ​មាត្រដ្ឋាន​វត្ថុ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1183
+#: ../src/ui/dialog/inkscape-preferences.cpp:1178
 #: ../src/widgets/select-toolbar.cpp:582
 msgid "When scaling rectangles, scale the radii of rounded corners"
 msgstr "ធ្វើ​មាត្រដ្ឋាន​កាំ​របស់​ជ្រុង​មូល​ នៅ​ពេល​មាន​ការ​ធ្វើ​មាត្រដ្ឋាន​ចតុកោណកែង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1185
+#: ../src/ui/dialog/inkscape-preferences.cpp:1180
 #: ../src/widgets/select-toolbar.cpp:593
 msgid "Move gradients (in fill or stroke) along with the objects"
 msgstr "ផ្លាស់ទី​ជម្រាល (នៅ​ក្នុង​បំពេញ ឬ​ខ្វាច់​) រួម​ជា​មួយ​វត្ថុ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1187
+#: ../src/ui/dialog/inkscape-preferences.cpp:1182
 #: ../src/widgets/select-toolbar.cpp:604
 msgid "Move patterns (in fill or stroke) along with the objects"
 msgstr "ផ្លាស់ទី​លំនាំ (នៅ​ក្នុង​បំពេញ ឬ​ខ្វាច់​) រួម​ជា​មួយ​វត្ថុ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1188
+#: ../src/ui/dialog/inkscape-preferences.cpp:1183
 msgid "Store transformation"
 msgstr "រក្សា​ទុក​កា​រប្លែងភាព ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1190
+#: ../src/ui/dialog/inkscape-preferences.cpp:1185
 msgid ""
 "If possible, apply transformation to objects without adding a transform= "
 "attribute"
 msgstr "ប្រសិន​បើ​អាច អនុវត្ត​ការ​ប្លែង​ភាព​ទៅ​វត្ថុ​ ដោយ​មិន​បន្ថែម​ការ​ប្លែង= គុណ​លក្ខណៈ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1192
+#: ../src/ui/dialog/inkscape-preferences.cpp:1187
 msgid "Always store transformation as a transform= attribute on objects"
 msgstr "រក្សា​ទុក​ការ​ប្លែង​ភាព​ជា​និច្ច ជា​ប្លែង= គុណ​លក្ខណៈ​នៅ​លើ​វត្ថុ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1194
+#: ../src/ui/dialog/inkscape-preferences.cpp:1189
 msgid "Transforms"
 msgstr "ប្លែង​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1198
+#: ../src/ui/dialog/inkscape-preferences.cpp:1193
 #, fuzzy
 msgid "Mouse _wheel scrolls by:"
 msgstr "កង់​កណ្ដុរ​រមូរ​តាម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1199
+#: ../src/ui/dialog/inkscape-preferences.cpp:1194
 msgid ""
 "One mouse wheel notch scrolls by this distance in screen pixels "
 "(horizontally with Shift)"
 msgstr "ស្នាម​កង់​កណ្ដុរ​មួយ​រមូរ​តាម​ចម្ងាយ​នេះ​គិត​ជា​ភីកសែល​អេក្រង់​ (ផ្ដេក​ដោយ​ប្រើ​ប្ដូរ ( Shift))"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1200
+#: ../src/ui/dialog/inkscape-preferences.cpp:1195
 msgid "Ctrl+arrows"
 msgstr "បញ្ជា(Ctrl)+ព្រួញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1202
+#: ../src/ui/dialog/inkscape-preferences.cpp:1197
 #, fuzzy
 msgid "Sc_roll by:"
 msgstr "រមូរ​តាម​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1203
+#: ../src/ui/dialog/inkscape-preferences.cpp:1198
 msgid "Pressing Ctrl+arrow key scrolls by this distance (in screen pixels)"
 msgstr "ចុច​គ្រាប់​ចុច​ បញ្ជា(Ctrl)+ រមូរ​តាម​ចម្ងាយ​នេះ (គិត​ជា​ភីកសែល​អេក្រង់)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1205
+#: ../src/ui/dialog/inkscape-preferences.cpp:1200
 #, fuzzy
 msgid "_Acceleration:"
 msgstr "ការ​បង្កើន​ល្បឿន ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1206
+#: ../src/ui/dialog/inkscape-preferences.cpp:1201
 msgid ""
 "Pressing and holding Ctrl+arrow will gradually speed up scrolling (0 for no "
 "acceleration)"
@@ -19570,16 +19569,16 @@ msgstr ""
 "ការ​​ចុច និង​សង្កត់​គ្រាប់​ចុច​ បញ្ជា(Ctrl)+ព្រួញ នឹង​បង្កើន​ល្បឿន​រមូរ​បន្តិចម្ដងៗ (០ សម្រាប់​ការ​មិន​​បង្កើន​"
 "ល្បឿន)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1207
+#: ../src/ui/dialog/inkscape-preferences.cpp:1202
 msgid "Autoscrolling"
 msgstr "កំពុង​រមូរ​ដោយ​ស្វ័យប្រវត្តិ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1209
+#: ../src/ui/dialog/inkscape-preferences.cpp:1204
 #, fuzzy
 msgid "_Speed:"
 msgstr "ល្បឿន ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1210
+#: ../src/ui/dialog/inkscape-preferences.cpp:1205
 msgid ""
 "How fast the canvas autoscrolls when you drag beyond canvas edge (0 to turn "
 "autoscroll off)"
@@ -19587,13 +19586,13 @@ msgstr ""
 "ល្បឿន​ដែល​ផ្ទាំង​កំណាត់​រមូរ​ដោយ​ស្វ័យ​ប្រវត្តិ​ នៅ​ពេល​ដែល​អ្នក​អូស​ហួស​គែម​ផ្ទាំង​កំណាត់​ (០ សម្រាប់​បិទ​ការ​រមូរ​ស្វ័យ​"
 "ប្រវត្តិ​)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1212
+#: ../src/ui/dialog/inkscape-preferences.cpp:1207
 #: ../src/ui/dialog/tracedialog.cpp:522 ../src/ui/dialog/tracedialog.cpp:721
 #, fuzzy
 msgid "_Threshold:"
 msgstr "កម្រិត​ពន្លឺ​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1213
+#: ../src/ui/dialog/inkscape-preferences.cpp:1208
 msgid ""
 "How far (in screen pixels) you need to be from the canvas edge to trigger "
 "autoscroll; positive is outside the canvas, negative is within the canvas"
@@ -19606,11 +19605,11 @@ msgstr ""
 #. _page_scrolling.add_line( false, "", _scroll_space, "",
 #. _("When on, pressing and holding Space and dragging with left mouse button pans canvas (as in Adobe Illustrator); when off, Space temporarily switches to Selector tool (default)"));
 #.
-#: ../src/ui/dialog/inkscape-preferences.cpp:1219
+#: ../src/ui/dialog/inkscape-preferences.cpp:1214
 msgid "Mouse wheel zooms by default"
 msgstr "កង់​កណ្ដុរ​ពង្រីក​តាម​លំនាំដើម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1221
+#: ../src/ui/dialog/inkscape-preferences.cpp:1216
 msgid ""
 "When on, mouse wheel zooms without Ctrl and scrolls canvas with Ctrl; when "
 "off, it zooms with Ctrl and scrolls without Ctrl"
@@ -19618,25 +19617,25 @@ msgstr ""
 "នៅ​ពេល​បើក កង់​កណ្ដុរ​ពង្រីក​ដោយ​មិន​ប្រើ​បញ្ជា (Ctrl) និង​រមូរ​ផ្ទាំង​កំណាត់​ដោយ​ប្រើ​បញ្ជា(Ctrl) នៅ​ពេល​​បិទ "
 "វា​ពង្រីក​ដោយ​ប្រើ​បញ្ជា(Ctrl) និង​រមូរ​ដោយ​មិន​ប្រើ​បញ្ជា(Ctrl)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1222
+#: ../src/ui/dialog/inkscape-preferences.cpp:1217
 msgid "Scrolling"
 msgstr "ការ​រមូរ"
 
 #. Snapping options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1225
+#: ../src/ui/dialog/inkscape-preferences.cpp:1220
 msgid "Enable snap indicator"
 msgstr "បើក​ទ្រនិច​បង្ហាញ​ការ​ខ្ទាស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1227
+#: ../src/ui/dialog/inkscape-preferences.cpp:1222
 msgid "After snapping, a symbol is drawn at the point that has snapped"
 msgstr "បន្ទាប់​ពី​ខ្ទាស់ និមិត្ត​សញ្ញា​នឹង​ត្រូវ​បាន​គូរ​នៅត្រង់​​ចំណុច​ដែល​បាន​ខ្ទាស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1230
+#: ../src/ui/dialog/inkscape-preferences.cpp:1225
 #, fuzzy
 msgid "_Delay (in ms):"
 msgstr "ពន្យារពេល​ (មិល្លី​វិនាទី) ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1231
+#: ../src/ui/dialog/inkscape-preferences.cpp:1226
 msgid ""
 "Postpone snapping as long as the mouse is moving, and then wait an "
 "additional fraction of a second. This additional delay is specified here. "
@@ -19646,21 +19645,21 @@ msgstr ""
 "បន្ថែម ត្រូវ​បាន​កំណត់​នៅ​ទីនេះ ។ នៅ​ពេល​បាន​កំណត់​ទៅជា​​សូន្យ ឬ​ទៅ​ជា​តម្លៃ​ដែល​តូច​បំផុត​ ការ​ចាប់​យក​នឹង​ធ្វើ​ឡើង​"
 "ភ្លាម​ៗ​ ។"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1233
+#: ../src/ui/dialog/inkscape-preferences.cpp:1228
 msgid "Only snap the node closest to the pointer"
 msgstr "ខ្ទាស់​តែ​ថ្នាំង​ដែល​នៅ​ជិត​នឹង​ព្រួញ​កណ្ដុរ​​បំផុត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1235
+#: ../src/ui/dialog/inkscape-preferences.cpp:1230
 msgid ""
 "Only try to snap the node that is initially closest to the mouse pointer"
 msgstr "ព្យាយាម​ខ្ទាស់​តែ​​ថ្នាំង​ដែល​នៅ​ជិត​នឹង​ព្រួញ​កណ្ដុរ​​គេ​បំផុត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1238
+#: ../src/ui/dialog/inkscape-preferences.cpp:1233
 #, fuzzy
 msgid "_Weight factor:"
 msgstr "កត្តា​ទម្ងន់ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1239
+#: ../src/ui/dialog/inkscape-preferences.cpp:1234
 msgid ""
 "When multiple snap solutions are found, then Inkscape can either prefer the "
 "closest transformation (when set to 0), or prefer the node that was "
@@ -19669,11 +19668,11 @@ msgstr ""
 "នៅ​ពេល​បាន​រក​ឃើញ​ដំណោះ​ស្រាយ​ខ្ទាស់​ជា​ច្រើន​ហើយ​នោះ  Inkscape អាច​នឹង​ប្រើ​ព័ត៌មាន​ដែល​នៅ​ជិត​បំផុត​ (នៅ​"
 "ពេល​កំណត់​ជា​ ០) ឬ​ប្រើ​ថ្នាំង​ដែល​នៅ​ជិត​ព្រួញ​កណ្ដុរ​បង្អស់​ (នៅ​ពេល​កំណត់​ជា ១)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1241
+#: ../src/ui/dialog/inkscape-preferences.cpp:1236
 msgid "Snap the mouse pointer when dragging a constrained knot"
 msgstr "ខ្ទាស់​ព្រួញ​កណ្ដុរ​ នៅ​ពេល​អូស​ចំណង​ដែល​មាន​កម្រិត​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1243
+#: ../src/ui/dialog/inkscape-preferences.cpp:1238
 msgid ""
 "When dragging a knot along a constraint line, then snap the position of the "
 "mouse pointer instead of snapping the projection of the knot onto the "
@@ -19682,48 +19681,48 @@ msgstr ""
 "នៅ​ពេល​​អូស​ចំណង​តាម​បន្ទាត់​កម្រិត​ ​វា​នឹង​ខ្ទាស់​​ទីតាំង​របស់​ព្រួញ​កណ្ដុរ ជំនួស​ឲ្យ​ការ​ខ្ទាស់​​ចំណោល​របស់​ចំណង​​​នៅ​លើ​បន្ទាត់​"
 "កម្រិត​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1245
+#: ../src/ui/dialog/inkscape-preferences.cpp:1240
 msgid "Snapping"
 msgstr "ការ​ខ្ទាស់"
 
 #. nudgedistance is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1250
+#: ../src/ui/dialog/inkscape-preferences.cpp:1245
 #, fuzzy
 msgid "_Arrow keys move by:"
 msgstr "គ្រាប់​ចុច​ព្រួញ​ផ្លាស់​ទី​ទៅ​តាម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1251
+#: ../src/ui/dialog/inkscape-preferences.cpp:1246
 #, fuzzy
 msgid ""
 "Pressing an arrow key moves selected object(s) or node(s) by this distance"
 msgstr "ការ​ចុច​គ្រាប់​ចុច​ ព្រួញ​នឹង​ផ្លាស់​ទី​វត្ថុ​ ឬ​ថ្នាំង​ដែល​បាន​ជ្រើស​តាម​ចម្ងាយ​នេះ​ (គិត​ជា​ឯកតា​ភីកសែល​)"
 
 #. defaultscale is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1254
+#: ../src/ui/dialog/inkscape-preferences.cpp:1249
 #, fuzzy
 msgid "> and < _scale by:"
 msgstr "> និង < ធ្វើ​មាត្រដ្ឋាន​តាម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1255
+#: ../src/ui/dialog/inkscape-preferences.cpp:1250
 #, fuzzy
 msgid "Pressing > or < scales selection up or down by this increment"
 msgstr "ចុច > ឬ < ធ្វើ​មាត្រដ្ឋាន​ជម្រើស​ឡើង​លើ ឬ​ចុះក្រោម​ដោយ​ការ​បង្កើន​នេះ (គិត​ជា​ឯកតា​ភីកសែល)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1257
+#: ../src/ui/dialog/inkscape-preferences.cpp:1252
 #, fuzzy
 msgid "_Inset/Outset by:"
 msgstr "បញ្ចូល​/បញ្ចេញ​ត្រឹម​​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1258
+#: ../src/ui/dialog/inkscape-preferences.cpp:1253
 #, fuzzy
 msgid "Inset and Outset commands displace the path by this distance"
 msgstr "ពាក្យ​បញ្ជា បញ្ចូល និង​បញ្ចេញ​ផ្លាស់​ទី​ផ្លូវ​ត្រឹម​ចម្ងាយ​នេះ​​​ (គិត​ជា​ឯកតា​ភីកសែល​)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1259
+#: ../src/ui/dialog/inkscape-preferences.cpp:1254
 msgid "Compass-like display of angles"
 msgstr "ការ​បង្ហាញ​មុំ​ដូច​ត្រីវិស័យ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1261
+#: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid ""
 "When on, angles are displayed with 0 at north, 0 to 360 range, positive "
 "clockwise; otherwise with 0 at east, -180 to 180 range, positive "
@@ -19732,22 +19731,22 @@ msgstr ""
 "នៅ​ពេល​បើក មុំ​នឹង​ត្រូវ​បង្ហាញ​ដោយ ០ នៅ​ទិស​ខាង​ជើង​ ចាប់ពី ០ ដល់​ ៣​៦​០ ស្រប​ទិស​ទ្រនិច​នាឡិកា បើ​ពុំ​ដូច្នោះ​ទេ "
 "នឹង​បង្ហាញ​ដោយ ០ នៅ​ទិស​ខាង​កើត  ចាប់​ពី -១​៨​០​ ដល់​ ១​៨​០ ច្រាស​ទ្រនិច​នាឡិកា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1263
+#: ../src/ui/dialog/inkscape-preferences.cpp:1258
 #, fuzzy
 msgctxt "Rotation angle"
 msgid "None"
 msgstr "គ្មាន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1267
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 #, fuzzy
 msgid "_Rotation snaps every:"
 msgstr "ការ​បង្វិល​ខ្ទាស់​រៀងរាល់ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1267
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 msgid "degrees"
 msgstr "ដឺក្រេ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1268
+#: ../src/ui/dialog/inkscape-preferences.cpp:1263
 msgid ""
 "Rotating with Ctrl pressed snaps every that much degrees; also, pressing "
 "[ or ] rotates by this amount"
@@ -19755,70 +19754,70 @@ msgstr ""
 "ការ​បង្វិល​ដោយ​ចុច​គ្រាប់​ចុច បញ្ជា (Ctrl) នឹង​ខ្ទាស់​រាល់​ដឺក្រេ​ធំ​ៗ ជាង​នេះ​ទៅ​ទៀត ​ចុច​ [ ឬ​ ] បង្វិល​តាម​"
 "ចំនួន​នេះ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1269
+#: ../src/ui/dialog/inkscape-preferences.cpp:1264
 msgid "Relative snapping of guideline angles"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1271
+#: ../src/ui/dialog/inkscape-preferences.cpp:1266
 msgid ""
 "When on, the snap angles when rotating a guideline will be relative to the "
 "original angle"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1268
 #, fuzzy
 msgid "_Zoom in/out by:"
 msgstr "ពង្រីក​/​បង្រួម​ត្រឹម​​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1268
 msgid "%"
 msgstr "%"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1274
+#: ../src/ui/dialog/inkscape-preferences.cpp:1269
 msgid ""
 "Zoom tool click, +/- keys, and middle click zoom in and out by this "
 "multiplier"
 msgstr "ការ​ចុច​ឧបករណ៍​ពង្រីក គ្រាប់​ចុច​ +/- និង​កណ្ដុរ​កណ្ដាល​នឹង​ពង្រីក​ បង្រួម​តាម​មេគុណ​នេះ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1275
+#: ../src/ui/dialog/inkscape-preferences.cpp:1270
 msgid "Steps"
 msgstr "ជំហាន"
 
 #. Clones options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1278
+#: ../src/ui/dialog/inkscape-preferences.cpp:1273
 msgid "Move in parallel"
 msgstr "ផ្លាស់ទី​ស្របគ្នា​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1280
+#: ../src/ui/dialog/inkscape-preferences.cpp:1275
 msgid "Stay unmoved"
 msgstr "មិន​ផ្លាស់ទី​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1282
+#: ../src/ui/dialog/inkscape-preferences.cpp:1277
 msgid "Move according to transform"
 msgstr "ផ្លាស់​ទី​តាម​ការ​បម្លែង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1284
+#: ../src/ui/dialog/inkscape-preferences.cpp:1279
 msgid "Are unlinked"
 msgstr "ត្រូវ​បាន​​ផ្ដាច់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1286
+#: ../src/ui/dialog/inkscape-preferences.cpp:1281
 msgid "Are deleted"
 msgstr "ត្រូវ​បាន​លុប​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1289
+#: ../src/ui/dialog/inkscape-preferences.cpp:1284
 #, fuzzy
 msgid "Moving original: clones and linked offsets"
 msgstr "នៅ​ពេល​ធាតុ​ដើម​ផ្លាស់​ទី​​ វា​ក្លូន និង​តភ្ជាប់​អុហ្វសិត ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1291
+#: ../src/ui/dialog/inkscape-preferences.cpp:1286
 msgid "Clones are translated by the same vector as their original"
 msgstr "ក្លូន​ត្រូវ​បាន​បកប្រែ​ដោយ​វ៉ិចទ័រ​ដូចគ្នា​ដូច​នឹង​ធាតុ​ដើម​របស់​ពួកវា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1293
+#: ../src/ui/dialog/inkscape-preferences.cpp:1288
 msgid "Clones preserve their positions when their original is moved"
 msgstr "ក្លូន​រក្សា​ទុក​ទីតាំង​របស់​ពួក​វា​ នៅ​ពេល​ធាតុ​ដើម​របស់​វា​ត្រូវ​បាន​ផ្លាស់​ទី"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1295
+#: ../src/ui/dialog/inkscape-preferences.cpp:1290
 msgid ""
 "Each clone moves according to the value of its transform= attribute; for "
 "example, a rotated clone will move in a different direction than its original"
@@ -19826,29 +19825,29 @@ msgstr ""
 "រាល់​ក្លូន​នីមួយ​ៗ​ផ្លាស់​ទី​ទៅ​តាម​តម្លៃ​ប្លែង​= គុណ​លក្ខណៈ​របស់​វា​ ឧទាហរណ៍ ក្លូន​ដែល​បាន​បង្វិល​នឹង​ផ្លាស់​ទី​តាម​ទិស​ខុស​"
 "ៗ​គ្នា​ពី​ធាតុ​ដើម​របស់​វា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1296
+#: ../src/ui/dialog/inkscape-preferences.cpp:1291
 #, fuzzy
 msgid "Deleting original: clones"
 msgstr "នៅ​ពេល​ចម្លង​​ក្លូន​+ដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1298
+#: ../src/ui/dialog/inkscape-preferences.cpp:1293
 msgid "Orphaned clones are converted to regular objects"
 msgstr "ក្លូន​កំព្រា​ត្រូវ​បាន​បម្លែង​ទៅ​ជា​វត្ថុ​ធម្មតា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1300
+#: ../src/ui/dialog/inkscape-preferences.cpp:1295
 msgid "Orphaned clones are deleted along with their original"
 msgstr "ក្លូន​កំព្រា​ត្រូវ​បាន​លុប​តាម​ធាតុ​ដើម​របស់​ពួក​វា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1302
+#: ../src/ui/dialog/inkscape-preferences.cpp:1297
 #, fuzzy
 msgid "Duplicating original+clones/linked offset"
 msgstr "នៅ​ពេល​ចម្លង​​ក្លូន​+ដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1304
+#: ../src/ui/dialog/inkscape-preferences.cpp:1299
 msgid "Relink duplicated clones"
 msgstr "ត​ភ្ជាប់​ក្លូន​ដែល​បាន​ចម្លង​​ឡើង​វិញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1306
+#: ../src/ui/dialog/inkscape-preferences.cpp:1301
 msgid ""
 "When duplicating a selection containing both a clone and its original "
 "(possibly in groups), relink the duplicated clone to the duplicated original "
@@ -19858,136 +19857,136 @@ msgstr ""
 "ដែល​មាន​ទាំង​ក្លូន​ និង​ធាតុ​ដើម​របស់​វា​ (អាច​នៅ​ក្នុង​ក្រុម​)"
 
 #. TRANSLATORS: Heading for the Inkscape Preferences "Clones" Page
-#: ../src/ui/dialog/inkscape-preferences.cpp:1309
+#: ../src/ui/dialog/inkscape-preferences.cpp:1304
 msgid "Clones"
 msgstr "ក្លូន​"
 
 #. Clip paths and masks options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1312
+#: ../src/ui/dialog/inkscape-preferences.cpp:1307
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr "នៅ​ពេល​អនុវត្ត ប្រើ​វត្ថុ​ដែល​បាន​ជ្រើស​នៅ​ខាង​លើ​បំផុត​ជា clippath​/របាំង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1314
+#: ../src/ui/dialog/inkscape-preferences.cpp:1309
 msgid ""
 "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr "ដោះ​ធីក​វា ដើម្បី​ប្រើ​វត្ថុ​ដែល​បាន​ជ្រើស​នៅ​ខាង​ក្រោម​បំផុត​ជា clippath​ ឬ​របាំង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1315
+#: ../src/ui/dialog/inkscape-preferences.cpp:1310
 msgid "Remove clippath/mask object after applying"
 msgstr "យក​វត្ថុ​របស់​ clippath/របាំង​ចេញ បន្ទាប់​ពី​បាន​អនុវត្ត​រួច"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1317
+#: ../src/ui/dialog/inkscape-preferences.cpp:1312
 msgid ""
 "After applying, remove the object used as the clipping path or mask from the "
 "drawing"
 msgstr "បន្ទាប់​ពី​បាន​អនុវត្ត​រួច យក​វត្ថុ​ដែល​បាន​ប្រើ​ជា​ clippath ឬ​របាំង​ចេញ​ពី​គំនូរ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1319
+#: ../src/ui/dialog/inkscape-preferences.cpp:1314
 msgid "Before applying"
 msgstr "មុន​ពេល​អនុវត្ត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1321
+#: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "Do not group clipped/masked objects"
 msgstr "កុំ​ដាក់​វត្ថុ​ដែល​មាន​ clipped/របាំង​ជា​ក្រុម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1322
+#: ../src/ui/dialog/inkscape-preferences.cpp:1317
 #, fuzzy
 msgid "Put every clipped/masked object in its own group"
 msgstr "ដាក់​រង្វង់​ជុំ​វិញ​រាល់​វត្ថុ​ដែល​មាន​ clipped/របាំង​នៅ​ក្នុង​ក្រុម​របស់​វា​ផ្ទាល់​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1323
+#: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Put all clipped/masked objects into one group"
 msgstr "ដាក់​វត្ថុ​ទាំង​អស់​ដែល​មាន​ clipped/របាំង​ទៅ​ក្នុង​ក្រុម​តែ​មួយ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1326
+#: ../src/ui/dialog/inkscape-preferences.cpp:1321
 msgid "Apply clippath/mask to every object"
 msgstr "អនុវត្ត​ clippath/របាំង​ទៅ​គ្រប់​វត្ថុ​ទាំង​អស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1329
+#: ../src/ui/dialog/inkscape-preferences.cpp:1324
 msgid "Apply clippath/mask to groups containing single object"
 msgstr "អនុវត្ត​ clippath/របាំង​ទៅ​ក្រុម​ដែល​មាន​វត្ថុ​តែ​មួយ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1332
+#: ../src/ui/dialog/inkscape-preferences.cpp:1327
 msgid "Apply clippath/mask to group containing all objects"
 msgstr "អនុវត្ត​ clippath/របាំង​ទៅ​ក្រុម​ដែល​មាន​វត្ថុ​ទាំង​អស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1334
+#: ../src/ui/dialog/inkscape-preferences.cpp:1329
 msgid "After releasing"
 msgstr "បន្ទាប់​ពី​បាន​ព្រលែង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1336
+#: ../src/ui/dialog/inkscape-preferences.cpp:1331
 msgid "Ungroup automatically created groups"
 msgstr "បំបែក​ក្រុម​ដែល​បាន​បង្កើត​ដោយ​ស្វ័យ​ប្រវត្តិ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1338
+#: ../src/ui/dialog/inkscape-preferences.cpp:1333
 msgid "Ungroup groups created when setting clip/mask"
 msgstr "បំបែក​ក្រុម​ដែល​បាន​បង្កើត​ នៅ​ពេល​មាន​ការ​កំណត់​ clip/របាំង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1335
 msgid "Clippaths and masks"
 msgstr "Clippaths និង​របាំង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1343
+#: ../src/ui/dialog/inkscape-preferences.cpp:1338
 #, fuzzy
 msgid "Stroke Style Markers"
 msgstr "រចនាប័ទ្ម​ខ្វាច់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1345
-#: ../src/ui/dialog/inkscape-preferences.cpp:1347
+#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1342
 msgid ""
 "Stroke color same as object, fill color either object fill color or marker "
 "fill color"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1351
+#: ../src/ui/dialog/inkscape-preferences.cpp:1346
 #: ../share/extensions/hershey.inx.h:27
 #, fuzzy
 msgid "Markers"
 msgstr "ប៊ិកហ្វឺត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1354
+#: ../src/ui/dialog/inkscape-preferences.cpp:1349
 #, fuzzy
 msgid "Document cleanup"
 msgstr "ឯកសារ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1355
-#: ../src/ui/dialog/inkscape-preferences.cpp:1357
+#: ../src/ui/dialog/inkscape-preferences.cpp:1350
+#: ../src/ui/dialog/inkscape-preferences.cpp:1352
 msgid "Remove unused swatches when doing a document cleanup"
 msgstr ""
 
 #. tooltip
-#: ../src/ui/dialog/inkscape-preferences.cpp:1358
+#: ../src/ui/dialog/inkscape-preferences.cpp:1353
 #, fuzzy
 msgid "Cleanup"
 msgstr " ជម្រះ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
 #, fuzzy
 msgid "Number of _Threads:"
 msgstr "ចំនួន​ខ្សែ​ស្រឡាយ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
-#: ../src/ui/dialog/inkscape-preferences.cpp:1898
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
+#: ../src/ui/dialog/inkscape-preferences.cpp:1893
 msgid "(requires restart)"
 msgstr "(តម្រូវ​ឲ្យ​ចាប់ផ្ដើម​កុំព្យូទ័រ​ឡើង​វិញ)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1367
+#: ../src/ui/dialog/inkscape-preferences.cpp:1362
 #, fuzzy
 msgid "Configure number of processors/threads to use when rendering filters"
 msgstr ""
 "កំណត់​រចនាសម្ព័ន្ធ​កម្មវិធី​ដំណើរការ​/ខ្សែ​ស្រ​ឡាយ​មួយ​ចំនួន​ដែល​ត្រូវ​ប្រើ​ជា​មួយ​នឹង​ការ​បង្ហាញ​ព្រិល​បែប​ gaussian"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 #, fuzzy
 msgid "Rendering _cache size:"
 msgstr "បង្ហាញ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgctxt "mebibyte (2^20 bytes) abbreviation"
 msgid "MiB"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgid ""
 "Set the amount of memory per document which can be used to store rendered "
 "parts of the drawing for later reuse; set to zero to disable caching"
@@ -19995,37 +19994,37 @@ msgstr ""
 
 #. blur quality
 #. filter quality
-#: ../src/ui/dialog/inkscape-preferences.cpp:1374
-#: ../src/ui/dialog/inkscape-preferences.cpp:1398
+#: ../src/ui/dialog/inkscape-preferences.cpp:1369
+#: ../src/ui/dialog/inkscape-preferences.cpp:1393
 msgid "Best quality (slowest)"
 msgstr "គុណភាព​ល្អ​បំផុត (យឺត​បំផុត)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1376
-#: ../src/ui/dialog/inkscape-preferences.cpp:1400
+#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1395
 msgid "Better quality (slower)"
 msgstr "គុណភាព​ប្រសើរ​ជាង (យឺត​ជាង)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1378
-#: ../src/ui/dialog/inkscape-preferences.cpp:1402
+#: ../src/ui/dialog/inkscape-preferences.cpp:1373
+#: ../src/ui/dialog/inkscape-preferences.cpp:1397
 msgid "Average quality"
 msgstr "គុណភាព​មធ្យម"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1380
-#: ../src/ui/dialog/inkscape-preferences.cpp:1404
+#: ../src/ui/dialog/inkscape-preferences.cpp:1375
+#: ../src/ui/dialog/inkscape-preferences.cpp:1399
 msgid "Lower quality (faster)"
 msgstr "គុណភាព​ទាប​ជាង (លឿន​ជាង)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1382
-#: ../src/ui/dialog/inkscape-preferences.cpp:1406
+#: ../src/ui/dialog/inkscape-preferences.cpp:1377
+#: ../src/ui/dialog/inkscape-preferences.cpp:1401
 msgid "Lowest quality (fastest)"
 msgstr "គុណភាព​ទាប​បំផុត (លឿន​បំផុត)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1385
+#: ../src/ui/dialog/inkscape-preferences.cpp:1380
 msgid "Gaussian blur quality for display"
 msgstr "ធ្វើ​ឲ្យ​គុណ​ភាព​ព្រិល​ៗ​បែប Gaussian សម្រាប់​ការ​បង្ហាញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1387
-#: ../src/ui/dialog/inkscape-preferences.cpp:1411
+#: ../src/ui/dialog/inkscape-preferences.cpp:1382
+#: ../src/ui/dialog/inkscape-preferences.cpp:1406
 msgid ""
 "Best quality, but display may be very slow at high zooms (bitmap export "
 "always uses best quality)"
@@ -20033,164 +20032,164 @@ msgstr ""
 "គុណភាព​ល្អ​បំផុត ប៉ុន្តែ​ការ​បង្ហាញ​អាច​យឺត​ខ្លាំង​ នៅ​ពេល​ពង្រីក​ខ្ពស់​ (ការ​នាំ​ចេញ​រូបភាព​តែង​តែ​ប្រើ​គុណភាព​ល្អ​"
 "ជានិច្ច​)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1389
-#: ../src/ui/dialog/inkscape-preferences.cpp:1413
+#: ../src/ui/dialog/inkscape-preferences.cpp:1384
+#: ../src/ui/dialog/inkscape-preferences.cpp:1408
 msgid "Better quality, but slower display"
 msgstr "គុណភាព​កាន់​តែ​ល្អ ប៉ុន្តែ​ការ​បង្ហាញ​កាន់​តែ​យឺត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1391
-#: ../src/ui/dialog/inkscape-preferences.cpp:1415
+#: ../src/ui/dialog/inkscape-preferences.cpp:1386
+#: ../src/ui/dialog/inkscape-preferences.cpp:1410
 msgid "Average quality, acceptable display speed"
 msgstr "គុណភាព​មធ្យម ល្បឿន​​បង្ហាញ​​​អាច​ទទួលយក​បាន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1393
-#: ../src/ui/dialog/inkscape-preferences.cpp:1417
+#: ../src/ui/dialog/inkscape-preferences.cpp:1388
+#: ../src/ui/dialog/inkscape-preferences.cpp:1412
 msgid "Lower quality (some artifacts), but display is faster"
 msgstr "គុណភាព​កាន់​តែ​​ទាប​ (វត្ថុ​មួយ​ចំនួន​) ប៉ុន្តែ​ការ​បង្ហាញ​កាន់​តែ​លឿន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1395
-#: ../src/ui/dialog/inkscape-preferences.cpp:1419
+#: ../src/ui/dialog/inkscape-preferences.cpp:1390
+#: ../src/ui/dialog/inkscape-preferences.cpp:1414
 msgid "Lowest quality (considerable artifacts), but display is fastest"
 msgstr "គុណភាព​ទាប​បំផុត (វត្ថុ​​ដែល​អាច​ពិចារណា​បាន) ប៉ុន្តែ​ការ​បង្ហាញ​កាន់​តែ​​លឿន​បំផុត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1409
+#: ../src/ui/dialog/inkscape-preferences.cpp:1404
 msgid "Filter effects quality for display"
 msgstr "ត្រង​​គុណភាព​បែប​ផែន​សម្រាប់​ការ​បង្ហាញ"
 
 #. build custom preferences tab
-#: ../src/ui/dialog/inkscape-preferences.cpp:1421
+#: ../src/ui/dialog/inkscape-preferences.cpp:1416
 #: ../src/ui/dialog/print.cpp:232
 msgid "Rendering"
 msgstr "បង្ហាញ​"
 
 #. Note: /options/bitmapoversample removed with Cairo renderer
-#: ../src/ui/dialog/inkscape-preferences.cpp:1427 ../src/verbs.cpp:156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1422 ../src/verbs.cpp:156
 #: ../src/widgets/calligraphy-toolbar.cpp:626
 #, fuzzy
 msgid "Edit"
 msgstr " កែ​សម្រួល"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1428
+#: ../src/ui/dialog/inkscape-preferences.cpp:1423
 msgid "Automatically reload bitmaps"
 msgstr "ផ្ទុក​រូបភាព​ឡើង​វិញ​ដោយ​ស្វ័យ​ប្រវត្តិ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1430
+#: ../src/ui/dialog/inkscape-preferences.cpp:1425
 msgid "Automatically reload linked images when file is changed on disk"
 msgstr "ផ្ទុក​ឡើង​វិញ​ដោយ​ស្វ័យ​ប្រវត្តិ​នូវ​រូបភាព​ដែល​បាន​ត​ភ្ជាប់ នៅ​ពេល​​មាន​ការ​ផ្លាស់​ប្ដូរ​ឯកសារ​​​​នៅ​លើ​ថាស"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1432
+#: ../src/ui/dialog/inkscape-preferences.cpp:1427
 #, fuzzy
 msgid "_Bitmap editor:"
 msgstr "កម្មវិធី​កែ​សម្រួល​រូបភាព ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1434
+#: ../src/ui/dialog/inkscape-preferences.cpp:1429
 #: ../share/extensions/guillotine.inx.h:5 ../share/extensions/plotter.inx.h:55
 #: ../share/extensions/print_win32_vector.inx.h:2
 msgid "Export"
 msgstr "នាំចេញ "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
 #, fuzzy
 msgid "Default export _resolution:"
 msgstr "គុណភាព​បង្ហាញ​នាំចេញ​លំនាំដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1437
+#: ../src/ui/dialog/inkscape-preferences.cpp:1432
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
 msgstr "គុណភាព​បង្ហាញ​រូបភាព​លំនាំដើម (គិត​ជា​ចំណុច​ក្នុង​មួយ​អ៊ិន្ឈ៍) នៅ​ក្នុង​ប្រអប់​នាំចេញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1438
+#: ../src/ui/dialog/inkscape-preferences.cpp:1433
 #: ../src/ui/dialog/xml-tree.cpp:912
 msgid "Create"
 msgstr "បង្កើត"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
+#: ../src/ui/dialog/inkscape-preferences.cpp:1435
 #, fuzzy
 msgid "Resolution for Create Bitmap _Copy:"
 msgstr "គុណភាព​បង្ហាញ​សម្រាប់ បង្កើត​ច្បាប់​ចម្លង​រូបភាព​ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1441
+#: ../src/ui/dialog/inkscape-preferences.cpp:1436
 msgid "Resolution used by the Create Bitmap Copy command"
 msgstr "គុណភាព​បង្ហាញ​ដែល​បាន​ប្រើ​ដោយ​ពាក្យ​បញ្ជា បង្កើត​ច្បាប់​ចម្លង​​រូបភាព"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1444
+#: ../src/ui/dialog/inkscape-preferences.cpp:1439
 msgid "Ask about linking and scaling when importing"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1446
+#: ../src/ui/dialog/inkscape-preferences.cpp:1441
 msgid "Pop-up linking and scaling dialog when importing bitmap image."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1452
+#: ../src/ui/dialog/inkscape-preferences.cpp:1447
 #, fuzzy
 msgid "Bitmap link:"
 msgstr "កម្មវិធី​កែ​សម្រួល​រូបភាព ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1459
+#: ../src/ui/dialog/inkscape-preferences.cpp:1454
 msgid "Bitmap scale (image-rendering):"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1459
 #, fuzzy
 msgid "Default _import resolution:"
 msgstr "គុណភាព​បង្ហាញ​នាំចេញ​លំនាំដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1465
+#: ../src/ui/dialog/inkscape-preferences.cpp:1460
 #, fuzzy
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
 msgstr "គុណភាព​បង្ហាញ​រូបភាព​លំនាំដើម (គិត​ជា​ចំណុច​ក្នុង​មួយ​អ៊ិន្ឈ៍) នៅ​ក្នុង​ប្រអប់​នាំចេញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1466
+#: ../src/ui/dialog/inkscape-preferences.cpp:1461
 #, fuzzy
 msgid "Override file resolution"
 msgstr "គុណភាព​បង្ហាញ​នាំចេញ​លំនាំដើម ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1468
+#: ../src/ui/dialog/inkscape-preferences.cpp:1463
 #, fuzzy
 msgid "Use default bitmap resolution in favor of information from file"
 msgstr "គុណភាព​បង្ហាញ​រូបភាព​លំនាំដើម (គិត​ជា​ចំណុច​ក្នុង​មួយ​អ៊ិន្ឈ៍) នៅ​ក្នុង​ប្រអប់​នាំចេញ"
 
 #. rendering outlines for pixmap image tags
-#: ../src/ui/dialog/inkscape-preferences.cpp:1472
+#: ../src/ui/dialog/inkscape-preferences.cpp:1467
 #, fuzzy
 msgid "Images in Outline Mode"
 msgstr "គូរ​គ្រោង​ជុំ​វិញ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1473
+#: ../src/ui/dialog/inkscape-preferences.cpp:1468
 msgid ""
 "When active will render images while in outline mode instead of a red box "
 "with an x. This is useful for manual tracing."
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1475
+#: ../src/ui/dialog/inkscape-preferences.cpp:1470
 msgid "Bitmaps"
 msgstr "​រូបភាព"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1487
+#: ../src/ui/dialog/inkscape-preferences.cpp:1482
 msgid ""
 "Select a file of predefined shortcuts to use. Any customized shortcuts you "
 "create will be added seperately to "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1490
+#: ../src/ui/dialog/inkscape-preferences.cpp:1485
 msgid "Shortcut file:"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1493
+#: ../src/ui/dialog/inkscape-preferences.cpp:1488
 #: ../src/ui/dialog/template-load-tab.cpp:48
 #, fuzzy
 msgid "Search:"
 msgstr "ស្វែងរក"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1505
+#: ../src/ui/dialog/inkscape-preferences.cpp:1500
 msgid "Shortcut"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1506
+#: ../src/ui/dialog/inkscape-preferences.cpp:1501
 #: ../src/ui/widget/page-sizer.cpp:260
 msgid "Description"
 msgstr "សេចក្ដី​ពិពណ៌នា"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1561
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 #: ../src/ui/dialog/pixelartdialog.cpp:296
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:698
 #: ../src/ui/dialog/tracedialog.cpp:813
@@ -20198,55 +20197,55 @@ msgstr "សេចក្ដី​ពិពណ៌នា"
 msgid "Reset"
 msgstr "កំណត់​ឡើង​វិញ​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1561
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 msgid ""
 "Remove all your customized keyboard shortcuts, and revert to the shortcuts "
 "in the shortcut file listed above"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1565
+#: ../src/ui/dialog/inkscape-preferences.cpp:1560
 #, fuzzy
 msgid "Import ..."
 msgstr " នាំចូល..."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1565
+#: ../src/ui/dialog/inkscape-preferences.cpp:1560
 msgid "Import custom keyboard shortcuts from a file"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1568
+#: ../src/ui/dialog/inkscape-preferences.cpp:1563
 #, fuzzy
 msgid "Export ..."
 msgstr " នាំចេញ​រូបភាព..."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1568
+#: ../src/ui/dialog/inkscape-preferences.cpp:1563
 #, fuzzy
 msgid "Export custom keyboard shortcuts to a file"
 msgstr "នាំចេញ​ឯកសារ​ទៅ​ជា​ឯកសារ PS"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1578
+#: ../src/ui/dialog/inkscape-preferences.cpp:1573
 msgid "Keyboard Shortcuts"
 msgstr ""
 
 #. Find this group in the tree
-#: ../src/ui/dialog/inkscape-preferences.cpp:1741
+#: ../src/ui/dialog/inkscape-preferences.cpp:1736
 msgid "Misc"
 msgstr "ផ្សេងៗ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1839
+#: ../src/ui/dialog/inkscape-preferences.cpp:1834
 #, fuzzy
 msgctxt "Spellchecker language"
 msgid "None"
 msgstr "គ្មាន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1860
+#: ../src/ui/dialog/inkscape-preferences.cpp:1855
 msgid "Set the main spell check language"
 msgstr "កំណត់​ភាសា​ពិនិត្យ​អក្ខរាវិរុទ្ធ​ចម្បង"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1863
+#: ../src/ui/dialog/inkscape-preferences.cpp:1858
 msgid "Second language:"
 msgstr "ភាសា​ទី ២ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1864
+#: ../src/ui/dialog/inkscape-preferences.cpp:1859
 msgid ""
 "Set the second spell check language; checking will only stop on words "
 "unknown in ALL chosen languages"
@@ -20254,11 +20253,11 @@ msgstr ""
 "កំណត់​ភាសា​ពិនិត្យ​អក្ខរាវិរុទ្ធ​ទីពីរ  ការ​ពិនិត្យ​នេះ នឹង​ឈប់​នៅ​ត្រង់​ពាក្យ​ណា ​ដែល​វា​មិន​ស្គាល់​នៅ​ក្នុង​ភាសា​​​ដែល​"
 "បាន​ជ្រើស​ទាំង​អស់​​"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1867
+#: ../src/ui/dialog/inkscape-preferences.cpp:1862
 msgid "Third language:"
 msgstr "ភាសា​ទី ៣ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1868
+#: ../src/ui/dialog/inkscape-preferences.cpp:1863
 msgid ""
 "Set the third spell check language; checking will only stop on words unknown "
 "in ALL chosen languages"
@@ -20266,42 +20265,42 @@ msgstr ""
 "កំណត់​​ភាសា​ពិនិត្យ​អក្ខរាវិរុទ្ធ​ទីបី  ការ​ពិនិត្យ​នេះ នឹង​ឈប់​នៅ​ត្រង់​ពាក្យ​ ដែល​វា​​មិន​ស្គាល់​នៅ​ក្នុង​ភាសា​ដែល​បាន​"
 "ជ្រើស​ទាំងអស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1870
+#: ../src/ui/dialog/inkscape-preferences.cpp:1865
 msgid "Ignore words with digits"
 msgstr "មិន​អើពើ​នឹង​ពាក្យ​ដែល​មាន​តួលេខ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1872
+#: ../src/ui/dialog/inkscape-preferences.cpp:1867
 msgid "Ignore words containing digits, such as \"R2D2\""
 msgstr "មិន​អើ​ពើ​នឹង​ពាក្យ​ដែល​មាន​តួលេខ ឧទាហរណ៍​ដូចជា \"R2D2\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1874
+#: ../src/ui/dialog/inkscape-preferences.cpp:1869
 msgid "Ignore words in ALL CAPITALS"
 msgstr "មិន​អើពើ​នឹង​ពាក្យ​ដែល​សរសេរ​ជា​អក្សរ​ពុម្ព​ទាំងអស់"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1876
+#: ../src/ui/dialog/inkscape-preferences.cpp:1871
 msgid "Ignore words in all capitals, such as \"IUPAC\""
 msgstr "មិន​អើពើ​នឹង​ពាក្យ​ដែល​សរសេរ​ជា​អក្សរ​ពុម្ព​ទាំងអស់ ដូចជា \"IUPAC\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1878
+#: ../src/ui/dialog/inkscape-preferences.cpp:1873
 msgid "Spellcheck"
 msgstr "ពិនិត្យ​អក្ខរាវិរុទ្ធ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1898
+#: ../src/ui/dialog/inkscape-preferences.cpp:1893
 #, fuzzy
 msgid "Latency _skew:"
 msgstr "ឆៀង​មើល​មិនឃើញ ៖"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1899
+#: ../src/ui/dialog/inkscape-preferences.cpp:1894
 msgid ""
 "Factor by which the event clock is skewed from the actual time (0.9766 on "
 "some systems)"
 msgstr "នាឡិកា​ព្រឹត្តិការណ៍​ត្រូវ​បាន​ឆៀង​​​ពី​ពេលវេលា​ពិត​ដោយ​កត្តា​ណាមួយ​ (0.9766 នៅ​លើ​ប្រព័ន្ធ​មួយ​ចំនួន)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1901
+#: ../src/ui/dialog/inkscape-preferences.cpp:1896
 msgid "Pre-render named icons"
 msgstr "បង្ហាញ​រូបតំណាង​ដែល​មាន​ឈ្មោះ​ជាមុន"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1903
+#: ../src/ui/dialog/inkscape-preferences.cpp:1898
 msgid ""
 "When on, named icons will be rendered before displaying the ui. This is for "
 "working around bugs in GTK+ named icon notification"
@@ -20309,92 +20308,92 @@ msgstr ""
 "នៅ​ពេល​​ត្រូវ​​បាន​​បើក រូបតំណាង​ដែល​មាន​ឈ្មោះ នឹង​ត្រូវ​បាន​បង្ហាញ​ មុន​ពេល​មាន​ការ​បង្ហាញ​ចំណុចប្រទាក់​អ្នកប្រើ "
 "។ វា​សម្រាប់​ធ្វើការ​បំបាត់​កំហុស​នៅ​ក្នុង​ការ​ជូន​ដំណឹង​អំពី​​រូបតំណាង​ដែល​មានឈ្មោះ​ GTK+"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1911
+#: ../src/ui/dialog/inkscape-preferences.cpp:1906
 msgid "System info"
 msgstr "ព័ត៌មាន​អំពី​ប្រព័ន្ធ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1910
 msgid "User config: "
 msgstr "ការ​កំណត់​រចនា​សម្ព័ន្ធ​អ្នកប្រើ ៖ "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1910
 msgid "Location of users configuration"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1914
 #, fuzzy
 msgid "User preferences: "
 msgstr "ចំណូល​ចិត្ត​ជ័រ​លុប"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1914
 #, fuzzy
 msgid "Location of the users preferences file"
 msgstr "បរាជ័យ​ក្នុង​ការ​បង្កើត​ឯកសារ​ចំណង់ចំណូលចិត្ត %s ។"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1918
 #, fuzzy
 msgid "User extensions: "
 msgstr "ផ្នែក​បន្ថែម​វេទន៍"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1918
 #, fuzzy
 msgid "Location of the users extensions"
 msgstr "ព័ត៌មាន​អំពី​ផ្នែក​បន្ថែម​របស់ Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1922
 msgid "User cache: "
 msgstr "ឃ្លាំង​សម្ងាត់​​​​អ្នកប្រើ ៖ "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1922
 msgid "Location of users cache"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1935
+#: ../src/ui/dialog/inkscape-preferences.cpp:1930
 msgid "Temporary files: "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1935
+#: ../src/ui/dialog/inkscape-preferences.cpp:1930
 msgid "Location of the temporary files used for autosave"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1939
+#: ../src/ui/dialog/inkscape-preferences.cpp:1934
 #, fuzzy
 msgid "Inkscape data: "
 msgstr "សៀវភៅ​ដៃ​របស់ Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1939
+#: ../src/ui/dialog/inkscape-preferences.cpp:1934
 #, fuzzy
 msgid "Location of Inkscape data"
 msgstr "ព័ត៌មាន​អំពី​ផ្នែក​បន្ថែម​របស់ Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1943
+#: ../src/ui/dialog/inkscape-preferences.cpp:1938
 #, fuzzy
 msgid "Inkscape extensions: "
 msgstr "ព័ត៌មាន​អំពី​ផ្នែក​បន្ថែម​របស់ Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1943
+#: ../src/ui/dialog/inkscape-preferences.cpp:1938
 #, fuzzy
 msgid "Location of the Inkscape extensions"
 msgstr "ព័ត៌មាន​អំពី​ផ្នែក​បន្ថែម​របស់ Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1952
+#: ../src/ui/dialog/inkscape-preferences.cpp:1947
 msgid "System data: "
 msgstr "ទិន្នន័យ​របស់​ប្រព័ន្ធ ៖ "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1952
+#: ../src/ui/dialog/inkscape-preferences.cpp:1947
 msgid "Locations of system data"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1976
+#: ../src/ui/dialog/inkscape-preferences.cpp:1971
 msgid "Icon theme: "
 msgstr "ស្បែក​រូបតំណាង ៖ "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1976
+#: ../src/ui/dialog/inkscape-preferences.cpp:1971
 #, fuzzy
 msgid "Locations of icon themes"
 msgstr "ព័ត៌មាន​អំពី​ផ្នែក​បន្ថែម​របស់ Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1978
+#: ../src/ui/dialog/inkscape-preferences.cpp:1973
 msgid "System"
 msgstr "ប្រព័ន្ធ"
 
@@ -26643,7 +26642,7 @@ msgid "Arc: Change open/closed"
 msgstr "ធ្នូ ៖ ផ្លាស់ប្ដូរ បើក/បិទ"
 
 #: ../src/widgets/arc-toolbar.cpp:288 ../src/widgets/arc-toolbar.cpp:317
-#: ../src/widgets/rect-toolbar.cpp:258 ../src/widgets/rect-toolbar.cpp:296
+#: ../src/widgets/rect-toolbar.cpp:259 ../src/widgets/rect-toolbar.cpp:297
 #: ../src/widgets/spiral-toolbar.cpp:214 ../src/widgets/spiral-toolbar.cpp:238
 #: ../src/widgets/star-toolbar.cpp:383 ../src/widgets/star-toolbar.cpp:444
 msgid "<b>New:</b>"
@@ -26652,7 +26651,7 @@ msgstr "<b>ថ្មី ៖</b>"
 #. FIXME: implement averaging of all parameters for multiple selected
 #. gtk_label_set_markup(GTK_LABEL(l), _("<b>Average:</b>"));
 #: ../src/widgets/arc-toolbar.cpp:291 ../src/widgets/arc-toolbar.cpp:302
-#: ../src/widgets/rect-toolbar.cpp:266 ../src/widgets/rect-toolbar.cpp:284
+#: ../src/widgets/rect-toolbar.cpp:267 ../src/widgets/rect-toolbar.cpp:285
 #: ../src/widgets/spiral-toolbar.cpp:216 ../src/widgets/spiral-toolbar.cpp:227
 #: ../src/widgets/star-toolbar.cpp:385
 msgid "<b>Change:</b>"
@@ -27688,7 +27687,7 @@ msgstr "បង្ហាញ​ព័ត៌មាន​អំពី​ការ​
 #. Add the units menu.
 #: ../src/widgets/lpe-toolbar.cpp:384 ../src/widgets/node-toolbar.cpp:613
 #: ../src/widgets/paintbucket-toolbar.cpp:166
-#: ../src/widgets/rect-toolbar.cpp:375 ../src/widgets/select-toolbar.cpp:536
+#: ../src/widgets/rect-toolbar.cpp:376 ../src/widgets/select-toolbar.cpp:536
 msgid "Units"
 msgstr "ឯកតា​"
 
@@ -28235,55 +28234,55 @@ msgstr ""
 msgid "Change rectangle"
 msgstr "ផ្លាស់ប្ដូរ​ចតុកោណ​កែង​"
 
-#: ../src/widgets/rect-toolbar.cpp:314
+#: ../src/widgets/rect-toolbar.cpp:315
 msgid "W:"
 msgstr "ទទឹង ៖"
 
-#: ../src/widgets/rect-toolbar.cpp:314
+#: ../src/widgets/rect-toolbar.cpp:315
 msgid "Width of rectangle"
 msgstr "ទទឹង​របស់​ចតុកោណ​កែង"
 
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 msgid "H:"
 msgstr "កម្ពស់ ៖"
 
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 msgid "Height of rectangle"
 msgstr "កម្ពស់​របស់​ចតុកោណ​កែង​"
 
-#: ../src/widgets/rect-toolbar.cpp:345 ../src/widgets/rect-toolbar.cpp:360
+#: ../src/widgets/rect-toolbar.cpp:346 ../src/widgets/rect-toolbar.cpp:361
 msgid "not rounded"
 msgstr "មិន​បាន​ធ្វើ​ឲ្យ​មូល​"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Horizontal radius"
 msgstr "កាំ​ផ្ដេក"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Rx:"
 msgstr "Rx ៖"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Horizontal radius of rounded corners"
 msgstr "កាំ​ផ្ដេក​របស់​ជ្រុង​មូល"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Vertical radius"
 msgstr "កាំ​បញ្ឈរ"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Ry:"
 msgstr "Ry ៖"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Vertical radius of rounded corners"
 msgstr "កាំ​បញ្ឈរ​របស់​ជ្រុង​មូល"
 
-#: ../src/widgets/rect-toolbar.cpp:382
+#: ../src/widgets/rect-toolbar.cpp:383
 msgid "Not rounded"
 msgstr "មិន​បាន​ធ្វើ​ឲ្យ​មូល​"
 
-#: ../src/widgets/rect-toolbar.cpp:383
+#: ../src/widgets/rect-toolbar.cpp:384
 msgid "Make corners sharp"
 msgstr "ធ្វើ​ឲ្យ​ជ្រុង​កាន់​តែ​មូល"
 
@@ -29119,11 +29118,11 @@ msgstr "សញ្ញា​សម្គាល់​បញ្ចប់​ត្រ
 msgid "Set markers"
 msgstr "កំណត់​សញ្ញា​សម្គាល់​"
 
-#: ../src/widgets/stroke-style.cpp:1030 ../src/widgets/stroke-style.cpp:1115
+#: ../src/widgets/stroke-style.cpp:1032 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
 msgstr "កំណត់​រចនាប័ទ្ម​ខ្វាច់"
 
-#: ../src/widgets/stroke-style.cpp:1203
+#: ../src/widgets/stroke-style.cpp:1205
 #, fuzzy
 msgid "Set marker color"
 msgstr "កំណត់​ពណ៌​ខ្វាច់​"
@@ -30195,7 +30194,7 @@ msgid ""
 "No paths where found. Please convert all objects you want to save into paths."
 msgstr ""
 
-#: ../share/extensions/inkex.py:109
+#: ../share/extensions/inkex.py:116
 #, python-format
 msgid ""
 "The fantastic lxml wrapper for libxml2 is required by inkex.py and therefore "
@@ -30214,22 +30213,26 @@ msgstr ""
 "Technical details:\n"
 "%s"
 
-#: ../share/extensions/inkex.py:162
+#: ../share/extensions/inkex.py:169
 #, fuzzy, python-format
 msgid "Unable to open specified file: %s"
 msgstr ""
 "មិន​អាច​សរសេរ​ទៅ​កាន់​ឯកសារ​ដែល​បាន​បញ្ជាក់​ទេ !\n"
 "%s"
 
-#: ../share/extensions/inkex.py:171
+#: ../share/extensions/inkex.py:178
 #, fuzzy, python-format
 msgid "Unable to open object member file: %s"
 msgstr "មិន​អាច​រក​ទីតាំង​សញ្ញា​សម្គាល់​ ៖ %s"
 
-#: ../share/extensions/inkex.py:276
+#: ../share/extensions/inkex.py:283
 #, python-format
 msgid "No matching node for expression: %s"
 msgstr "គ្មាន​ថ្នាំង​ដែល​ផ្គូផ្គង​សម្រាប់​កន្សោម ៖ %s"
+
+#: ../share/extensions/inkex.py:313
+msgid "SVG Width not set correctly! Assuming width = 100"
+msgstr ""
 
 #: ../share/extensions/interp_att_g.py:167
 #, fuzzy
@@ -30410,16 +30413,6 @@ msgid ""
 "No object selected. Please select the object you want to assign a view to "
 "and then press apply.\n"
 msgstr ""
-
-#: ../share/extensions/markers_strokepaint.py:83
-#, python-format
-msgid "No style attribute found for id: %s"
-msgstr "រក​មិន​ឃើញ​គុណ​លក្ខណ​រចនាប័ទ្ម​សម្រាប់​លេខ​សម្គាល់ ៖ %s"
-
-#: ../share/extensions/markers_strokepaint.py:137
-#, python-format
-msgid "unable to locate marker: %s"
-msgstr "មិន​អាច​រក​ទីតាំង​សញ្ញា​សម្គាល់​ ៖ %s"
 
 #: ../share/extensions/measure.py:50
 #, fuzzy
@@ -30754,7 +30747,6 @@ msgstr "ចំនួន​ចម្រៀក ៖"
 #: ../share/extensions/edge3d.inx.h:9 ../share/extensions/flatten.inx.h:3
 #: ../share/extensions/fractalize.inx.h:4
 #: ../share/extensions/interp_att_g.inx.h:29
-#: ../share/extensions/markers_strokepaint.inx.h:13
 #: ../share/extensions/perspective.inx.h:2
 #: ../share/extensions/pixelsnap.inx.h:3
 #: ../share/extensions/radiusrand.inx.h:10
@@ -33573,7 +33565,6 @@ msgid "Translate Y"
 msgstr "បកប្រែ Y"
 
 #: ../share/extensions/interp_att_g.inx.h:15
-#: ../share/extensions/markers_strokepaint.inx.h:9
 msgid "Fill"
 msgstr "បំពេញ"
 
@@ -34351,55 +34342,6 @@ msgstr ""
 "បែប​ផែន​នេះ​បង្កើត \"Lorem Ipsum\" ស្តង់ដារ​ ដែល​ជា​អត្ថបទ​បំពេញ​ក្រៅ​ផ្លូវ​ការ​​ ។ ប្រសិន​បើ​ អត្ថបទ​"
 "លំហូរ​ត្រូវ​បាន​ជ្រើស​ Lorem Ipsum នឹង​ត្រូវ​បាន​បន្ថែម​ទៅ​កាន់​វា បើ​មិន​ដូច្នោះ​ទេ វត្ថុ​អត្ថបទ​លំហូរ​ថ្មី​ ព្រម​"
 "ទាំង​ទំហំ​ទំព័រ នឹង​ត្រូវ​បាន​បង្កើត​នៅ​ក្នុង​ស្រទាប់​ថ្មី ។"
-
-#: ../share/extensions/markers_strokepaint.inx.h:1
-#, fuzzy
-msgid "Color Markers"
-msgstr "របារ​ពណ៌"
-
-#: ../share/extensions/markers_strokepaint.inx.h:2
-#, fuzzy
-msgid "From object"
-msgstr "គ្មាន​វត្ថុ​"
-
-#: ../share/extensions/markers_strokepaint.inx.h:3
-#, fuzzy
-msgid "Marker type:"
-msgstr "ប៊ិកហ្វឺត"
-
-#: ../share/extensions/markers_strokepaint.inx.h:4
-#, fuzzy
-msgid "Invert fill and stroke colors"
-msgstr "កំណត់​ពណ៌​ខ្វាច់​"
-
-#: ../share/extensions/markers_strokepaint.inx.h:5
-#, fuzzy
-msgid "Assign alpha"
-msgstr "កំណត់​ភាព​ស្រអាប់"
-
-#: ../share/extensions/markers_strokepaint.inx.h:6
-msgid "solid"
-msgstr ""
-
-#: ../share/extensions/markers_strokepaint.inx.h:7
-#, fuzzy
-msgid "filled"
-msgstr "អក្សរ​សម្រាប់​អ្នក​ពិការ​ភ្នែក"
-
-#: ../share/extensions/markers_strokepaint.inx.h:10
-#, fuzzy
-msgid "Assign fill color"
-msgstr "កំណត់​ពណ៌​បំពេញ"
-
-#: ../share/extensions/markers_strokepaint.inx.h:11
-#, fuzzy
-msgid "Stroke"
-msgstr "ខ្វាច់​ ៖"
-
-#: ../share/extensions/markers_strokepaint.inx.h:12
-#, fuzzy
-msgid "Assign stroke color"
-msgstr "កំណត់​ពណ៌​ខ្វាច់​"
 
 #: ../share/extensions/measure.inx.h:1
 msgid "Measure Path"
@@ -36652,6 +36594,58 @@ msgstr "ទ្រង់ទ្រាយ​ឯកសារ​ក្រាហ្វ
 msgid "XAML Input"
 msgstr "ការ​បញ្ចូល​ XAML"
 
+#~ msgid "Enable dynamic relayout for incomplete sections"
+#~ msgstr "អនុញ្ញាត​ឲ្យ​ដាក់​ប្លង់​បែប​ថាមវន្ត​ឡើង​វិញ​សម្រាប់​ភាគ​ដែល​មិន​ពេញ​លេញ​"
+
+#~ msgid ""
+#~ "When on, will allow dynamic layout of components that are not completely "
+#~ "finished being refactored"
+#~ msgstr ""
+#~ "នៅ​ពេល​បាន​បើក វា​នឹង​អនុញ្ញាត​ឲ្យ​ដាក់​ប្លង់​បែប​ថាមវន្ត​ឡើង​វិញ​ចំពោះ​សមាសភាគ​ដែល​មិន​ទាន់​ត្រូវ​បាន​បញ្ចប់​"
+#~ "ការ​លៃ​តម្រូវ​​"
+
+#~ msgid "No style attribute found for id: %s"
+#~ msgstr "រក​មិន​ឃើញ​គុណ​លក្ខណ​រចនាប័ទ្ម​សម្រាប់​លេខ​សម្គាល់ ៖ %s"
+
+#~ msgid "unable to locate marker: %s"
+#~ msgstr "មិន​អាច​រក​ទីតាំង​សញ្ញា​សម្គាល់​ ៖ %s"
+
+#, fuzzy
+#~ msgid "Color Markers"
+#~ msgstr "របារ​ពណ៌"
+
+#, fuzzy
+#~ msgid "From object"
+#~ msgstr "គ្មាន​វត្ថុ​"
+
+#, fuzzy
+#~ msgid "Marker type:"
+#~ msgstr "ប៊ិកហ្វឺត"
+
+#, fuzzy
+#~ msgid "Invert fill and stroke colors"
+#~ msgstr "កំណត់​ពណ៌​ខ្វាច់​"
+
+#, fuzzy
+#~ msgid "Assign alpha"
+#~ msgstr "កំណត់​ភាព​ស្រអាប់"
+
+#, fuzzy
+#~ msgid "filled"
+#~ msgstr "អក្សរ​សម្រាប់​អ្នក​ពិការ​ភ្នែក"
+
+#, fuzzy
+#~ msgid "Assign fill color"
+#~ msgstr "កំណត់​ពណ៌​បំពេញ"
+
+#, fuzzy
+#~ msgid "Stroke"
+#~ msgstr "ខ្វាច់​ ៖"
+
+#, fuzzy
+#~ msgid "Assign stroke color"
+#~ msgstr "កំណត់​ពណ៌​ខ្វាច់​"
+
 #, fuzzy
 #~ msgctxt "Symbol"
 #~ msgid "Map Symbols"
@@ -38049,10 +38043,6 @@ msgstr "ការ​បញ្ចូល​ XAML"
 #, fuzzy
 #~ msgid "Quadritone fantasy, custom (Color)"
 #~ msgstr "មាត្រដ្ឋាន​បី​ពណ៌​ស្អាត"
-
-#, fuzzy
-#~ msgid "Radiation"
-#~ msgstr "ការ​បង្វិល"
 
 #~ msgid "Opacity (%):"
 #~ msgstr "ភាព​ស្រអាប់​ (%) ៖"

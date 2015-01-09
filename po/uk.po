@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-10-21 08:38+0200\n"
+"POT-Creation-Date: 2015-01-09 18:18+0100\n"
 "PO-Revision-Date: 2014-10-20 22:00+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
@@ -3389,7 +3389,7 @@ msgstr "Знаки-символи AIGA"
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
-#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
 msgctxt "Symbol"
 msgid "Telephone"
 msgstr "Телефон"
@@ -3683,7 +3683,7 @@ msgstr "Куріння заборонено"
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
-#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
 msgctxt "Symbol"
 msgid "Parking"
 msgstr "Паркувальний майданчик"
@@ -4260,135 +4260,154 @@ msgstr "Пристань"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
+#, fuzzy
+msgctxt "Symbol"
+msgid "Motorbike Trail"
+msgstr "Траса для снігоходів"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+msgctxt "Symbol"
+msgid "Radiator Water"
+msgstr ""
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
 msgctxt "Symbol"
 msgid "Recycling"
 msgstr "Пункт переробки"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
 msgctxt "Symbol"
 msgid "Pets On Leash"
 msgstr "Домашні тварини на повідді"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
 msgctxt "Symbol"
 msgid "Picnic Area"
 msgstr "Місце для пікніків"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
 msgctxt "Symbol"
 msgid "Post Office"
 msgstr "Поштове відділення"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
 msgctxt "Symbol"
 msgid "Ranger Station"
 msgstr "Станція рейнджерів"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
 msgctxt "Symbol"
 msgid "RV Campground"
 msgstr "Майданчик для трейлерів"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
+#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
 msgid "Restrooms"
 msgstr "Туалети"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
+#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
 msgctxt "Symbol"
 msgid "Sailing"
 msgstr "Парусний спорт"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
+#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
 msgctxt "Symbol"
 msgid "Sanitary Disposal Station"
 msgstr "Станція утилізації відходів"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
+#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
 msgctxt "Symbol"
 msgid "Scuba Diving"
 msgstr "Пірнання з аквалангом"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
+#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
 msgctxt "Symbol"
 msgid "Self Guided Trail"
 msgstr "Стежка для самостійного огляду"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
+#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
 msgctxt "Symbol"
 msgid "Shelter"
 msgstr "Притулок"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
 msgctxt "Symbol"
 msgid "Showers"
 msgstr "Душові"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
 msgctxt "Symbol"
 msgid "Sledding"
 msgstr "Катання на санях"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
 msgctxt "Symbol"
 msgid "SnowmobileTrail"
 msgstr "Траса для снігоходів"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
 msgctxt "Symbol"
 msgid "Stable"
 msgstr "Стайня"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
 msgctxt "Symbol"
 msgid "Store"
 msgstr "Склад"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
 msgctxt "Symbol"
 msgid "Swimming"
 msgstr "Плавання"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
 msgctxt "Symbol"
 msgid "Emergency Telephone"
 msgstr "Телефон виклику служб надзвичайних ситуацій"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
 msgctxt "Symbol"
 msgid "Trailhead"
 msgstr "Початок маршруту"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+#: ../share/symbols/symbols.h:287 ../share/symbols/symbols.h:288
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
 msgstr "Візок"
 
 #. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+#: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
 msgctxt "Symbol"
 msgid "Wind Surfing"
 msgstr "Віндсерфінг"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:291
+msgctxt "Symbol"
+msgid "Blank"
+msgstr ""
 
 #: ../share/templates/templates.h:1
 msgid "A4 Landscape Page"
@@ -4804,11 +4823,11 @@ msgstr "Вилучити напрямну"
 msgid "<b>Guideline</b>: %s"
 msgstr "<b>Напрямна</b>: %s"
 
-#: ../src/desktop.cpp:880
+#: ../src/desktop.cpp:881
 msgid "No previous zoom."
 msgstr "Немає попереднього масштабу."
 
-#: ../src/desktop.cpp:901
+#: ../src/desktop.cpp:902
 msgid "No next zoom."
 msgstr "Немає наступного масштабу."
 
@@ -4821,8 +4840,8 @@ msgid "_Origin X:"
 msgstr "_Початок за X:"
 
 #: ../src/display/canvas-axonomgrid.cpp:319 ../src/display/canvas-grid.cpp:695
-#: ../src/ui/dialog/inkscape-preferences.cpp:739
-#: ../src/ui/dialog/inkscape-preferences.cpp:764
+#: ../src/ui/dialog/inkscape-preferences.cpp:734
+#: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "X coordinate of grid origin"
 msgstr "Координата X початку сітки"
 
@@ -4831,8 +4850,8 @@ msgid "O_rigin Y:"
 msgstr "П_очаток по Y:"
 
 #: ../src/display/canvas-axonomgrid.cpp:321 ../src/display/canvas-grid.cpp:697
-#: ../src/ui/dialog/inkscape-preferences.cpp:740
-#: ../src/ui/dialog/inkscape-preferences.cpp:765
+#: ../src/ui/dialog/inkscape-preferences.cpp:735
+#: ../src/ui/dialog/inkscape-preferences.cpp:760
 msgid "Y coordinate of grid origin"
 msgstr "Координата Y початку сітки"
 
@@ -4841,29 +4860,29 @@ msgid "Spacing _Y:"
 msgstr "Інтервал за _Y:"
 
 #: ../src/display/canvas-axonomgrid.cpp:323
-#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:763
 msgid "Base length of z-axis"
 msgstr "Базова довжина вісі z"
 
 #: ../src/display/canvas-axonomgrid.cpp:325
-#: ../src/ui/dialog/inkscape-preferences.cpp:771
+#: ../src/ui/dialog/inkscape-preferences.cpp:766
 #: ../src/widgets/box3d-toolbar.cpp:299
 msgid "Angle X:"
 msgstr "Кут X:"
 
 #: ../src/display/canvas-axonomgrid.cpp:325
-#: ../src/ui/dialog/inkscape-preferences.cpp:771
+#: ../src/ui/dialog/inkscape-preferences.cpp:766
 msgid "Angle of x-axis"
 msgstr "Кут вісі x"
 
 #: ../src/display/canvas-axonomgrid.cpp:327
-#: ../src/ui/dialog/inkscape-preferences.cpp:772
+#: ../src/ui/dialog/inkscape-preferences.cpp:767
 #: ../src/widgets/box3d-toolbar.cpp:378
 msgid "Angle Z:"
 msgstr "Кут Z:"
 
 #: ../src/display/canvas-axonomgrid.cpp:327
-#: ../src/ui/dialog/inkscape-preferences.cpp:772
+#: ../src/ui/dialog/inkscape-preferences.cpp:767
 msgid "Angle of z-axis"
 msgstr "Кут вісі z"
 
@@ -4872,7 +4891,7 @@ msgid "Minor grid line _color:"
 msgstr "Колір _другорядної лінії сітки:"
 
 #: ../src/display/canvas-axonomgrid.cpp:331 ../src/display/canvas-grid.cpp:705
-#: ../src/ui/dialog/inkscape-preferences.cpp:723
+#: ../src/ui/dialog/inkscape-preferences.cpp:718
 msgid "Minor grid line color"
 msgstr "Колір другорядних ліній сітки"
 
@@ -4885,7 +4904,7 @@ msgid "Ma_jor grid line color:"
 msgstr "Колір о_сновної лінії сітки:"
 
 #: ../src/display/canvas-axonomgrid.cpp:336 ../src/display/canvas-grid.cpp:710
-#: ../src/ui/dialog/inkscape-preferences.cpp:725
+#: ../src/ui/dialog/inkscape-preferences.cpp:720
 msgid "Major grid line color"
 msgstr "Колір основних ліній сітки"
 
@@ -4954,12 +4973,12 @@ msgid "Spacing _X:"
 msgstr "Інтервал за _X:"
 
 #: ../src/display/canvas-grid.cpp:699
-#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:740
 msgid "Distance between vertical grid lines"
 msgstr "Відстань між вертикальними лініями сітки"
 
 #: ../src/display/canvas-grid.cpp:701
-#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:741
 msgid "Distance between horizontal grid lines"
 msgstr "Відстань між горизонтальними лініями сітки"
 
@@ -6576,7 +6595,7 @@ msgstr "Тип змішування:"
 #: ../src/extension/internal/filter/paint.h:702
 #: ../src/extension/internal/filter/textures.h:77
 #: ../src/extension/internal/filter/transparency.h:61
-#: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:646
+#: ../src/filter-enums.cpp:51 ../src/ui/dialog/inkscape-preferences.cpp:641
 msgid "Normal"
 msgstr "Звичайний"
 
@@ -6665,7 +6684,7 @@ msgstr "Розсіяний"
 #: ../src/extension/internal/filter/bumps.h:98
 #: ../src/extension/internal/filter/bumps.h:329
 #: ../src/libgdl/gdl-dock-placeholder.c:175 ../src/libgdl/gdl-dock.c:199
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 #: ../share/extensions/interp_att_g.inx.h:11
 msgid "Height"
 msgstr "Висота"
@@ -6877,7 +6896,7 @@ msgstr "Малювання за каналами"
 #: ../src/extension/internal/filter/color.h:156
 #: ../src/extension/internal/filter/color.h:257
 #: ../src/extension/internal/filter/paint.h:87 ../src/filter-enums.cpp:65
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 #: ../src/ui/tools/flood-tool.cpp:197
 #: ../src/widgets/sp-color-icc-selector.cpp:362
 #: ../src/widgets/sp-color-icc-selector.cpp:367
@@ -7471,7 +7490,7 @@ msgstr "Відкрите"
 
 #: ../src/extension/internal/filter/morphology.h:65
 #: ../src/libgdl/gdl-dock-placeholder.c:167 ../src/libgdl/gdl-dock.c:191
-#: ../src/widgets/rect-toolbar.cpp:314 ../src/widgets/spray-toolbar.cpp:116
+#: ../src/widgets/rect-toolbar.cpp:315 ../src/widgets/spray-toolbar.cpp:116
 #: ../src/widgets/tweak-toolbar.cpp:128
 #: ../share/extensions/interp_att_g.inx.h:10
 msgid "Width"
@@ -7957,7 +7976,6 @@ msgid "External"
 msgstr "Зовнішній"
 
 #: ../src/extension/internal/filter/textures.h:81
-#: ../share/extensions/markers_strokepaint.inx.h:8
 msgid "Custom"
 msgstr "Інше"
 
@@ -8063,12 +8081,12 @@ msgstr ""
 "документом SVG і всі файли буде об'єднано у єдиному документі."
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:192
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
 msgid "Embed"
 msgstr "Вбудувати"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:193 ../src/sp-anchor.cpp:119
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
 msgid "Link"
 msgstr "Пов'язати"
 
@@ -8106,17 +8124,17 @@ msgstr ""
 "(Працює не в усіх засобах перегляду.)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "None (auto)"
 msgstr "Немає (автоматично)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:203
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Smooth (optimizeQuality)"
 msgstr "Згладжування (оптимальна якість)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:204
-#: ../src/ui/dialog/inkscape-preferences.cpp:1456
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Blocky (optimizeSpeed)"
 msgstr "Блоками (оптимальна швидкість)"
 
@@ -8166,7 +8184,7 @@ msgid "Vertical Offset:"
 msgstr "Вертикальний зсув:"
 
 #: ../src/extension/internal/grid.cpp:220
-#: ../src/ui/dialog/inkscape-preferences.cpp:1470
+#: ../src/ui/dialog/inkscape-preferences.cpp:1465
 #: ../share/extensions/draw_from_triangle.inx.h:58
 #: ../share/extensions/eqtexsvg.inx.h:4
 #: ../share/extensions/foldablebox.inx.h:9
@@ -8197,7 +8215,7 @@ msgstr "Відтворення"
 
 #: ../src/extension/internal/grid.cpp:221
 #: ../src/ui/dialog/document-properties.cpp:155
-#: ../src/ui/dialog/inkscape-preferences.cpp:780
+#: ../src/ui/dialog/inkscape-preferences.cpp:775
 #: ../src/widgets/toolbox.cpp:1826
 msgid "Grids"
 msgstr "Сітки"
@@ -8652,7 +8670,7 @@ msgstr "Файл не було змінено. Збереження непотр
 msgid "Saving document..."
 msgstr "Збереження документа…"
 
-#: ../src/file.cpp:1246 ../src/ui/dialog/inkscape-preferences.cpp:1443
+#: ../src/file.cpp:1246 ../src/ui/dialog/inkscape-preferences.cpp:1438
 #: ../src/ui/dialog/ocaldialogs.cpp:1244
 msgid "Import"
 msgstr "Імпорт"
@@ -9515,7 +9533,7 @@ msgid "The index of the current page"
 msgstr "Індекс поточної сторінки"
 
 #: ../src/libgdl/gdl-dock-object.c:125
-#: ../src/ui/dialog/inkscape-preferences.cpp:1504
+#: ../src/ui/dialog/inkscape-preferences.cpp:1499
 #: ../src/ui/widget/page-sizer.cpp:258
 #: ../src/widgets/gradient-selector.cpp:158
 #: ../src/widgets/sp-xmlview-attr-list.cpp:54
@@ -9686,8 +9704,8 @@ msgstr ""
 msgid "Dockitem which 'owns' this tablabel"
 msgstr "Елемент панелі, що «володіє» цією міткою вкладки"
 
-#: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:635
-#: ../src/ui/dialog/inkscape-preferences.cpp:678
+#: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:630
+#: ../src/ui/dialog/inkscape-preferences.cpp:673
 msgid "Floating"
 msgstr "Вільно переміщуються екраном"
 
@@ -11124,7 +11142,7 @@ msgid "The ID of the object to export"
 msgstr "Ідентифікатор об'єкта, що експортується"
 
 #: ../src/main.cpp:366 ../src/main.cpp:479
-#: ../src/ui/dialog/inkscape-preferences.cpp:1507
+#: ../src/ui/dialog/inkscape-preferences.cpp:1502
 msgid "ID"
 msgstr "Ідентифікатор"
 
@@ -11339,94 +11357,93 @@ msgstr "_Файл"
 msgid "_New"
 msgstr "_Створити"
 
-#. "       <verb verb-id=\"FileExportToOCAL\" />\n"
 #. "       <verb verb-id=\"DialogMetadata\" />\n"
-#: ../src/menus-skeleton.h:43 ../src/verbs.cpp:2634 ../src/verbs.cpp:2640
+#: ../src/menus-skeleton.h:45 ../src/verbs.cpp:2634 ../src/verbs.cpp:2640
 msgid "_Edit"
 msgstr "_Зміни"
 
-#: ../src/menus-skeleton.h:53 ../src/verbs.cpp:2398
+#: ../src/menus-skeleton.h:55 ../src/verbs.cpp:2398
 msgid "Paste Si_ze"
 msgstr "Вставити за р_озміром"
 
-#: ../src/menus-skeleton.h:65
+#: ../src/menus-skeleton.h:67
 msgid "Clo_ne"
 msgstr "Клон_увати"
 
-#: ../src/menus-skeleton.h:79
+#: ../src/menus-skeleton.h:81
 msgid "Select Sa_me"
 msgstr "Позначи_ти те саме"
 
-#: ../src/menus-skeleton.h:97
+#: ../src/menus-skeleton.h:99
 msgid "_View"
 msgstr "П_ерегляд"
 
-#: ../src/menus-skeleton.h:98
+#: ../src/menus-skeleton.h:100
 msgid "_Zoom"
 msgstr "_Масштаб"
 
-#: ../src/menus-skeleton.h:114
+#: ../src/menus-skeleton.h:116
 msgid "_Display mode"
 msgstr "Режим відобра_ження"
 
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
-#: ../src/menus-skeleton.h:123
+#: ../src/menus-skeleton.h:125
 msgid "_Color display mode"
 msgstr "Режим показу _кольорів"
 
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewColorModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
-#: ../src/menus-skeleton.h:136
+#: ../src/menus-skeleton.h:138
 msgid "Sh_ow/Hide"
 msgstr "По_казати/Сховати"
 
 #. Not quite ready to be in the menus.
 #. "       <verb verb-id=\"FocusToggle\" />\n"
-#: ../src/menus-skeleton.h:156
+#: ../src/menus-skeleton.h:158
 msgid "_Layer"
 msgstr "_Шар"
 
-#: ../src/menus-skeleton.h:180
+#: ../src/menus-skeleton.h:182
 msgid "_Object"
 msgstr "_Об'єкт"
 
-#: ../src/menus-skeleton.h:188
+#: ../src/menus-skeleton.h:190
 msgid "Cli_p"
 msgstr "Відсі_кання"
 
-#: ../src/menus-skeleton.h:192
+#: ../src/menus-skeleton.h:194
 msgid "Mas_k"
 msgstr "Ма_ска"
 
-#: ../src/menus-skeleton.h:196
+#: ../src/menus-skeleton.h:198
 msgid "Patter_n"
 msgstr "В_ізерунок"
 
-#: ../src/menus-skeleton.h:220
+#: ../src/menus-skeleton.h:222
 msgid "_Path"
 msgstr "_Контур"
 
-#: ../src/menus-skeleton.h:248 ../src/ui/dialog/find.cpp:77
+#: ../src/menus-skeleton.h:250 ../src/ui/dialog/find.cpp:77
 #: ../src/ui/dialog/text-edit.cpp:71
 msgid "_Text"
 msgstr "_Текст"
 
-#: ../src/menus-skeleton.h:266
+#: ../src/menus-skeleton.h:268
 msgid "Filter_s"
 msgstr "Філ_ьтри"
 
-#: ../src/menus-skeleton.h:272
+#: ../src/menus-skeleton.h:274
 msgid "Exte_nsions"
 msgstr "Дод_атки"
 
-#: ../src/menus-skeleton.h:278
+#: ../src/menus-skeleton.h:280
 msgid "_Help"
 msgstr "_Довідка"
 
-#: ../src/menus-skeleton.h:282
+#: ../src/menus-skeleton.h:284
 msgid "Tutorials"
 msgstr "Підручники"
 
@@ -11802,7 +11819,7 @@ msgstr "Зв'язок:"
 msgid "A related resource"
 msgstr "Пов’язаний ресурс"
 
-#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1859
+#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1854
 msgid "Language:"
 msgstr "Мова:"
 
@@ -14788,7 +14805,7 @@ msgstr "<b>Визначені сітки</b>"
 msgid "Remove grid"
 msgstr "Вилучити сітку"
 
-#: ../src/ui/dialog/document-properties.cpp:1761
+#: ../src/ui/dialog/document-properties.cpp:1765
 msgid "Changed document unit"
 msgstr "Змінено одиницю виміру у документі"
 
@@ -14898,9 +14915,9 @@ msgid "_Height:"
 msgstr "_Висота:"
 
 #: ../src/ui/dialog/export.cpp:309
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
+#: ../src/ui/dialog/inkscape-preferences.cpp:1435
+#: ../src/ui/dialog/inkscape-preferences.cpp:1459
 msgid "dpi"
 msgstr "т/д"
 
@@ -17628,14 +17645,6 @@ msgstr ""
 msgid "Always output text size in pixels (px)"
 msgstr "Завжди виводити розмір символів у пікселях (пк)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:461
-msgid ""
-"Always convert the text size units above into pixels (px) before saving to "
-"file"
-msgstr ""
-"Завжди перетворювати одиниці розміру символів у пікселі (пк) до збереження "
-"файла"
-
 #. Spray
 #: ../src/ui/dialog/inkscape-preferences.cpp:466
 msgid "Spray"
@@ -18004,12 +18013,12 @@ msgid "Set the language for menus and number formats"
 msgstr "Встановити мову для пунктів меню і формату чисел"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:565
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Large"
 msgstr "Великий"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:565
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Small"
 msgstr "Малий"
 
@@ -18085,24 +18094,12 @@ msgstr ""
 "збігатиметься з її дійсною довжиною. Ці відомості буде використано під час "
 "масштабування 1:1, 1:2 тощо, щоб показувати об'єкти з істинними розмірами"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:599
-msgid "Enable dynamic relayout for incomplete sections"
-msgstr "Увімкнути динамічне перекомпонування для незавершених частин"
-
-#: ../src/ui/dialog/inkscape-preferences.cpp:601
-msgid ""
-"When on, will allow dynamic layout of components that are not completely "
-"finished being refactored"
-msgstr ""
-"Якщо позначено, програма автоматично виконуватиме компонування компонентів, "
-"які не було повністю завершено до зміни масштабів."
-
 #. show infobox
-#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:599
 msgid "Show filter primitives infobox (requires restart)"
 msgstr "Показувати довідку з примітивів фільтра (потребує перезапуску)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:606
+#: ../src/ui/dialog/inkscape-preferences.cpp:601
 msgid ""
 "Show icons and descriptions for the filter primitives available at the "
 "filter effects dialog"
@@ -18110,26 +18107,26 @@ msgstr ""
 "Показувати піктограми і описи для всіх примітивів фільтрів у діалозі ефектів "
 "фільтра"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 msgid "Icons only"
 msgstr "Лише піктограми"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 msgid "Text only"
 msgstr "Лише текст"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:609
-#: ../src/ui/dialog/inkscape-preferences.cpp:617
+#: ../src/ui/dialog/inkscape-preferences.cpp:604
+#: ../src/ui/dialog/inkscape-preferences.cpp:612
 msgid "Icons and text"
 msgstr "Піктограми і текст"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:614
+#: ../src/ui/dialog/inkscape-preferences.cpp:609
 msgid "Dockbar style (requires restart):"
 msgstr "Стиль бічної панелі (потребує перезапуску):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:615
+#: ../src/ui/dialog/inkscape-preferences.cpp:610
 msgid ""
 "Selects whether the vertical bars on the dockbar will show text labels, "
 "icons, or both"
@@ -18137,11 +18134,11 @@ msgstr ""
 "Надає змогу визначити, що буде показано на вертикальних смугах бічної "
 "панелі: текстові мітки, піктограми чи текстові мітки і піктограми одразу."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:622
+#: ../src/ui/dialog/inkscape-preferences.cpp:617
 msgid "Switcher style (requires restart):"
 msgstr "Стиль перемикача (потребує перезапуску):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:623
+#: ../src/ui/dialog/inkscape-preferences.cpp:618
 msgid ""
 "Selects whether the dockbar switcher will show text labels, icons, or both"
 msgstr ""
@@ -18149,87 +18146,87 @@ msgstr ""
 "текстові мітки, піктограми чи текстові мітки і піктограми одразу."
 
 #. Windows
-#: ../src/ui/dialog/inkscape-preferences.cpp:627
+#: ../src/ui/dialog/inkscape-preferences.cpp:622
 msgid "Save and restore window geometry for each document"
 msgstr ""
 "Запам'ятовувати і використовувати геометрію вікна для кожного документа"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:628
+#: ../src/ui/dialog/inkscape-preferences.cpp:623
 msgid "Remember and use last window's geometry"
 msgstr "Запам'ятати і використовувати останню геометрію вікна"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:629
+#: ../src/ui/dialog/inkscape-preferences.cpp:624
 msgid "Don't save window geometry"
 msgstr "Не зберігати геометрію вікна"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:631
+#: ../src/ui/dialog/inkscape-preferences.cpp:626
 msgid "Save and restore dialogs status"
 msgstr "Зберігати і відновлювати параметри діалогових вікон"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:632
-#: ../src/ui/dialog/inkscape-preferences.cpp:668
+#: ../src/ui/dialog/inkscape-preferences.cpp:627
+#: ../src/ui/dialog/inkscape-preferences.cpp:663
 msgid "Don't save dialogs status"
 msgstr "Не зберігати параметри діалогових вікон"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:634
-#: ../src/ui/dialog/inkscape-preferences.cpp:676
+#: ../src/ui/dialog/inkscape-preferences.cpp:629
+#: ../src/ui/dialog/inkscape-preferences.cpp:671
 msgid "Dockable"
 msgstr "Закріплюються до правого краю вікна"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:638
+#: ../src/ui/dialog/inkscape-preferences.cpp:633
 msgid "Native open/save dialogs"
 msgstr "Стандартні вікна відкриття і збереження"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:639
+#: ../src/ui/dialog/inkscape-preferences.cpp:634
 msgid "GTK open/save dialogs"
 msgstr "Вікна відкриття і збереження GTK"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:641
+#: ../src/ui/dialog/inkscape-preferences.cpp:636
 msgid "Dialogs are hidden in taskbar"
 msgstr "Не показувати діалоги на панелі задач"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:642
+#: ../src/ui/dialog/inkscape-preferences.cpp:637
 msgid "Save and restore documents viewport"
 msgstr "Зберігати і відновлювати поле зору у документах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:643
+#: ../src/ui/dialog/inkscape-preferences.cpp:638
 msgid "Zoom when window is resized"
 msgstr "Масштабувати при зміні розмірів вікна"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:644
+#: ../src/ui/dialog/inkscape-preferences.cpp:639
 msgid "Show close button on dialogs"
 msgstr "Показувати кнопку закриття у діалогах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:645
+#: ../src/ui/dialog/inkscape-preferences.cpp:640
 msgctxt "Dialog on top"
 msgid "None"
 msgstr "Жодного"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:647
+#: ../src/ui/dialog/inkscape-preferences.cpp:642
 msgid "Aggressive"
 msgstr "Примусово"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:650
+#: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Maximized"
 msgstr "Максимізація"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:654
+#: ../src/ui/dialog/inkscape-preferences.cpp:649
 msgid "Default window size:"
 msgstr "Типовий розмір вікна:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:655
+#: ../src/ui/dialog/inkscape-preferences.cpp:650
 msgid "Set the default window size"
 msgstr "Встановити типовий розмір вікна"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:658
+#: ../src/ui/dialog/inkscape-preferences.cpp:653
 msgid "Saving window geometry (size and position)"
 msgstr "Зберігати геометрію вікон (розмір і розташування)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:660
+#: ../src/ui/dialog/inkscape-preferences.cpp:655
 msgid "Let the window manager determine placement of all windows"
 msgstr "Дозволити менеджеру вікон розташовувати всі вікна самостійно"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:662
+#: ../src/ui/dialog/inkscape-preferences.cpp:657
 msgid ""
 "Remember and use the last window's geometry (saves geometry to user "
 "preferences)"
@@ -18237,7 +18234,7 @@ msgstr ""
 "Запам'ятовувати і використовувати геометрію останнього вікна (геометрія "
 "зберігається у налаштуваннях користувача)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:664
+#: ../src/ui/dialog/inkscape-preferences.cpp:659
 msgid ""
 "Save and restore window geometry for each document (saves geometry in the "
 "document)"
@@ -18245,11 +18242,11 @@ msgstr ""
 "Запам'ятовувати і відновлювати геометрію вікна для кожного документа "
 "(геометрія зберігається у документі)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:666
+#: ../src/ui/dialog/inkscape-preferences.cpp:661
 msgid "Saving dialogs status"
 msgstr "Збереження параметрів діалогових вікон"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:670
+#: ../src/ui/dialog/inkscape-preferences.cpp:665
 msgid ""
 "Save and restore dialogs status (the last open windows dialogs are saved "
 "when it closes)"
@@ -18257,66 +18254,66 @@ msgstr ""
 "Зберігати і відновлювати параметри діалогових вікон (параметри останніх "
 "відкритих діалогових вікон зберігатимуться під час їхнього закриття)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:674
+#: ../src/ui/dialog/inkscape-preferences.cpp:669
 msgid "Dialog behavior (requires restart)"
 msgstr "Поведінка діалогів (потребує перезапуску)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:680
+#: ../src/ui/dialog/inkscape-preferences.cpp:675
 msgid "Desktop integration"
 msgstr "Інтеграція до стільниці"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:682
+#: ../src/ui/dialog/inkscape-preferences.cpp:677
 msgid "Use Windows like open and save dialogs"
 msgstr ""
 "Використовувати вікна подібні до вікон Windows для відкриття та збереження"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:684
+#: ../src/ui/dialog/inkscape-preferences.cpp:679
 msgid "Use GTK open and save dialogs "
 msgstr "Використовувати вікна GTK для відкриття та збереження "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:688
+#: ../src/ui/dialog/inkscape-preferences.cpp:683
 msgid "Dialogs on top:"
 msgstr "Діалоги над вікном:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:691
+#: ../src/ui/dialog/inkscape-preferences.cpp:686
 msgid "Dialogs are treated as regular windows"
 msgstr "Діалоги вважаються звичайними вікнами"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:693
+#: ../src/ui/dialog/inkscape-preferences.cpp:688
 msgid "Dialogs stay on top of document windows"
 msgstr "Діалоги залишаються над вікнами документів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:695
+#: ../src/ui/dialog/inkscape-preferences.cpp:690
 msgid "Same as Normal but may work better with some window managers"
 msgstr ""
 "Те саме що і Звичайне, але може працювати краще з деякими віконними "
 "середовищами"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:698
+#: ../src/ui/dialog/inkscape-preferences.cpp:693
 msgid "Dialog Transparency"
 msgstr "Прозорість вікон"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:700
+#: ../src/ui/dialog/inkscape-preferences.cpp:695
 msgid "_Opacity when focused:"
 msgstr "Неп_розорість при фокусуванні:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:702
+#: ../src/ui/dialog/inkscape-preferences.cpp:697
 msgid "Opacity when _unfocused:"
 msgstr "Непро_зорість без фокусування:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:704
+#: ../src/ui/dialog/inkscape-preferences.cpp:699
 msgid "_Time of opacity change animation:"
 msgstr "_Час зміни непрозорості у анімації:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:707
+#: ../src/ui/dialog/inkscape-preferences.cpp:702
 msgid "Miscellaneous"
 msgstr "Інше"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:710
+#: ../src/ui/dialog/inkscape-preferences.cpp:705
 msgid "Whether dialog windows are to be hidden in the window manager taskbar"
 msgstr "Чи прибирати діалогові вікна з панелі завдань віконного менеджера"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:713
+#: ../src/ui/dialog/inkscape-preferences.cpp:708
 msgid ""
 "Zoom drawing when document window is resized, to keep the same area visible "
 "(this is the default which can be changed in any window using the button "
@@ -18325,7 +18322,7 @@ msgstr ""
 "Масштабувати малюнок при зміні розмірів вікна, щоб зберегти видиму область "
 "(можна змінювати кнопкою над правою смугою гортання)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:715
+#: ../src/ui/dialog/inkscape-preferences.cpp:710
 msgid ""
 "Save documents viewport (zoom and panning position). Useful to turn off when "
 "sharing version controlled files."
@@ -18334,101 +18331,101 @@ msgstr ""
 "панорамування). Варто вимкнути, якщо файл зберігається у системі керування "
 "версіями."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:717
+#: ../src/ui/dialog/inkscape-preferences.cpp:712
 msgid "Whether dialog windows have a close button (requires restart)"
 msgstr "Чи матиме вікно діалогу кнопку закриття (потребує перезапуску)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:718
+#: ../src/ui/dialog/inkscape-preferences.cpp:713
 msgid "Windows"
 msgstr "Вікна"
 
 #. Grids
-#: ../src/ui/dialog/inkscape-preferences.cpp:721
+#: ../src/ui/dialog/inkscape-preferences.cpp:716
 msgid "Line color when zooming out"
 msgstr "Колір ліній у разі зменшення масштабу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:724
+#: ../src/ui/dialog/inkscape-preferences.cpp:719
 msgid "The gridlines will be shown in minor grid line color"
 msgstr "Лінії сітки буде показано кольором другорядних ліній сітки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:726
+#: ../src/ui/dialog/inkscape-preferences.cpp:721
 msgid "The gridlines will be shown in major grid line color"
 msgstr "Лінії сітки буде показано кольором основних ліній сітки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:728
+#: ../src/ui/dialog/inkscape-preferences.cpp:723
 msgid "Default grid settings"
 msgstr "Типові налаштування сітки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:734
-#: ../src/ui/dialog/inkscape-preferences.cpp:759
+#: ../src/ui/dialog/inkscape-preferences.cpp:729
+#: ../src/ui/dialog/inkscape-preferences.cpp:754
 msgid "Grid units:"
 msgstr "Одиниці сітки:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:739
-#: ../src/ui/dialog/inkscape-preferences.cpp:764
+#: ../src/ui/dialog/inkscape-preferences.cpp:734
+#: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "Origin X:"
 msgstr "Початок за X:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:740
-#: ../src/ui/dialog/inkscape-preferences.cpp:765
+#: ../src/ui/dialog/inkscape-preferences.cpp:735
+#: ../src/ui/dialog/inkscape-preferences.cpp:760
 msgid "Origin Y:"
 msgstr "Початок за Y:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:740
 msgid "Spacing X:"
 msgstr "Інтервал за X:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:746
-#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:741
+#: ../src/ui/dialog/inkscape-preferences.cpp:763
 msgid "Spacing Y:"
 msgstr "Інтервал за Y:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:748
-#: ../src/ui/dialog/inkscape-preferences.cpp:749
-#: ../src/ui/dialog/inkscape-preferences.cpp:773
-#: ../src/ui/dialog/inkscape-preferences.cpp:774
+#: ../src/ui/dialog/inkscape-preferences.cpp:743
+#: ../src/ui/dialog/inkscape-preferences.cpp:744
+#: ../src/ui/dialog/inkscape-preferences.cpp:768
+#: ../src/ui/dialog/inkscape-preferences.cpp:769
 msgid "Minor grid line color:"
 msgstr "Колір другорядних ліній сітки:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:749
-#: ../src/ui/dialog/inkscape-preferences.cpp:774
+#: ../src/ui/dialog/inkscape-preferences.cpp:744
+#: ../src/ui/dialog/inkscape-preferences.cpp:769
 msgid "Color used for normal grid lines"
 msgstr "Колір, що використовуватиметься для звичайних ліній сітки."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:750
-#: ../src/ui/dialog/inkscape-preferences.cpp:751
-#: ../src/ui/dialog/inkscape-preferences.cpp:775
-#: ../src/ui/dialog/inkscape-preferences.cpp:776
+#: ../src/ui/dialog/inkscape-preferences.cpp:745
+#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:770
+#: ../src/ui/dialog/inkscape-preferences.cpp:771
 msgid "Major grid line color:"
 msgstr "Колір основної лінії сітки:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:751
-#: ../src/ui/dialog/inkscape-preferences.cpp:776
+#: ../src/ui/dialog/inkscape-preferences.cpp:746
+#: ../src/ui/dialog/inkscape-preferences.cpp:771
 msgid "Color used for major (highlighted) grid lines"
 msgstr "Колір основних (підсвічених) ліній сітки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:753
-#: ../src/ui/dialog/inkscape-preferences.cpp:778
+#: ../src/ui/dialog/inkscape-preferences.cpp:748
+#: ../src/ui/dialog/inkscape-preferences.cpp:773
 msgid "Major grid line every:"
 msgstr "Основна лінія через кожні:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:754
+#: ../src/ui/dialog/inkscape-preferences.cpp:749
 msgid "Show dots instead of lines"
 msgstr "Показувати точки замість ліній"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:755
+#: ../src/ui/dialog/inkscape-preferences.cpp:750
 msgid "If set, display dots at gridpoints instead of gridlines"
 msgstr "Якщо позначено, замість ліній сітки показуються точки сітки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:836
+#: ../src/ui/dialog/inkscape-preferences.cpp:831
 msgid "Input/Output"
 msgstr "Вхідні/Вихідні дані"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:839
+#: ../src/ui/dialog/inkscape-preferences.cpp:834
 msgid "Use current directory for \"Save As ...\""
 msgstr "Використовувати для «Зберегти як…» поточний каталог"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:841
+#: ../src/ui/dialog/inkscape-preferences.cpp:836
 msgid ""
 "When this option is on, the \"Save as...\" and \"Save a Copy\" dialogs will "
 "always open in the directory where the currently open document is; when it's "
@@ -18440,11 +18437,11 @@ msgstr ""
 "відкрито у каталозі, куди було збережено файл під час попереднього "
 "використання цього діалогового вікна."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:843
+#: ../src/ui/dialog/inkscape-preferences.cpp:838
 msgid "Add label comments to printing output"
 msgstr "Додати коментар до виводу друку"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:845
+#: ../src/ui/dialog/inkscape-preferences.cpp:840
 msgid ""
 "When on, a comment will be added to the raw print output, marking the "
 "rendered output for an object with its label"
@@ -18452,11 +18449,11 @@ msgstr ""
 "Якщо увімкнено, до необробленого виводу друку буде додано коментар, що "
 "позначає вивід об'єкта з його позначкою"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:847
+#: ../src/ui/dialog/inkscape-preferences.cpp:842
 msgid "Add default metadata to new documents"
 msgstr "Додавати до нових документів типові метадані"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:849
+#: ../src/ui/dialog/inkscape-preferences.cpp:844
 msgid ""
 "Add default metadata to new documents. Default metadata can be set from "
 "Document Properties->Metadata."
@@ -18464,15 +18461,15 @@ msgstr ""
 "Додавати до нових документів типові метадані. Змінити типові метадані можна "
 "за допомогою пункту меню «Властивості документа -> Mетадані»."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:853
+#: ../src/ui/dialog/inkscape-preferences.cpp:848
 msgid "_Grab sensitivity:"
 msgstr "Раді_ус захоплення:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:853
+#: ../src/ui/dialog/inkscape-preferences.cpp:848
 msgid "pixels (requires restart)"
 msgstr "пікселів (потребує перезапуску)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:854
+#: ../src/ui/dialog/inkscape-preferences.cpp:849
 msgid ""
 "How close on the screen you need to be to an object to be able to grab it "
 "with mouse (in screen pixels)"
@@ -18480,39 +18477,39 @@ msgstr ""
 "Як близько (у точках) потрібно підвести курсор миші до об'єкта, щоб захопити "
 "його"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:856
+#: ../src/ui/dialog/inkscape-preferences.cpp:851
 msgid "_Click/drag threshold:"
 msgstr "Вва_жати клацанням перетягування на:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:856
-#: ../src/ui/dialog/inkscape-preferences.cpp:1198
-#: ../src/ui/dialog/inkscape-preferences.cpp:1202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1212
+#: ../src/ui/dialog/inkscape-preferences.cpp:851
+#: ../src/ui/dialog/inkscape-preferences.cpp:1193
+#: ../src/ui/dialog/inkscape-preferences.cpp:1197
+#: ../src/ui/dialog/inkscape-preferences.cpp:1207
 msgid "pixels"
 msgstr "точок"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:857
+#: ../src/ui/dialog/inkscape-preferences.cpp:852
 msgid ""
 "Maximum mouse drag (in screen pixels) which is considered a click, not a drag"
 msgstr ""
 "Максимальна кількість точок, перетягування на яку сприймається як клацання, "
 "а не перетягування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:860
+#: ../src/ui/dialog/inkscape-preferences.cpp:855
 msgid "_Handle size:"
 msgstr "Розмір в_уса:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:861
+#: ../src/ui/dialog/inkscape-preferences.cpp:856
 msgid "Set the relative size of node handles"
 msgstr "Встановити відносний розмір вусів вузла"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:863
+#: ../src/ui/dialog/inkscape-preferences.cpp:858
 msgid "Use pressure-sensitive tablet (requires restart)"
 msgstr ""
 "Використовувати графічний планшет чи інший пристрій (потребує "
 "перезавантаження)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:865
+#: ../src/ui/dialog/inkscape-preferences.cpp:860
 msgid ""
 "Use the capabilities of a tablet or other pressure-sensitive device. Disable "
 "this only if you have problems with the tablet (you can still use it as a "
@@ -18522,26 +18519,26 @@ msgstr ""
 "пристрою. Вимикайте це, лише якщо виникають проблеми з графічним планшетом "
 "(залишається можливість використовувати мишу) ."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:867
+#: ../src/ui/dialog/inkscape-preferences.cpp:862
 msgid "Switch tool based on tablet device (requires restart)"
 msgstr "Перемикати інструмент за пристроєм планшета (потребує перезапуску):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:869
+#: ../src/ui/dialog/inkscape-preferences.cpp:864
 msgid ""
 "Change tool as different devices are used on the tablet (pen, eraser, mouse)"
 msgstr ""
 "Змінювати інструмент зі зміною пристроїв на планшеті (перо, гумка, мишка)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:870
+#: ../src/ui/dialog/inkscape-preferences.cpp:865
 msgid "Input devices"
 msgstr "Пристрої введення"
 
 #. SVG output options
-#: ../src/ui/dialog/inkscape-preferences.cpp:873
+#: ../src/ui/dialog/inkscape-preferences.cpp:868
 msgid "Use named colors"
 msgstr "Використовувати кольори з назвами"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:874
+#: ../src/ui/dialog/inkscape-preferences.cpp:869
 msgid ""
 "If set, write the CSS name of the color when available (e.g. 'red' or "
 "'magenta') instead of the numeric value"
@@ -18549,23 +18546,23 @@ msgstr ""
 "Якщо позначено, записувати CSS-назву кольору, якщо вона доступна (наприклад, "
 "«red» або «magenta») замість числового значення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:876
+#: ../src/ui/dialog/inkscape-preferences.cpp:871
 msgid "XML formatting"
 msgstr "XML-форматування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:878
+#: ../src/ui/dialog/inkscape-preferences.cpp:873
 msgid "Inline attributes"
 msgstr "Вбудовані атрибути"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:879
+#: ../src/ui/dialog/inkscape-preferences.cpp:874
 msgid "Put attributes on the same line as the element tag"
 msgstr "Вказувати атрибути у тому ж рядку, що і теґ елемента"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:877
 msgid "_Indent, spaces:"
 msgstr "Ві_дступ, у пробілах:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:877
 msgid ""
 "The number of spaces to use for indenting nested elements; set to 0 for no "
 "indentation"
@@ -18573,28 +18570,28 @@ msgstr ""
 "Кількість пробілів, які буде використано для створення відступів елементів, "
 "встановіть значення 0, щоб усунути відступи"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:884
+#: ../src/ui/dialog/inkscape-preferences.cpp:879
 msgid "Path data"
 msgstr "Дані контуру"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
 msgid "Absolute"
 msgstr "Абсолютний"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
 msgid "Relative"
 msgstr "Відносний"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:887
-#: ../src/ui/dialog/inkscape-preferences.cpp:1177
+#: ../src/ui/dialog/inkscape-preferences.cpp:882
+#: ../src/ui/dialog/inkscape-preferences.cpp:1172
 msgid "Optimized"
 msgstr "З оптимізацією"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:891
+#: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid "Path string format:"
 msgstr "Формат рядка контуру:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:891
+#: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid ""
 "Path data should be written: only with absolute coordinates, only with "
 "relative coordinates, or optimized for string length (mixed absolute and "
@@ -18604,11 +18601,11 @@ msgstr ""
 "відносних координатах або оптимізовано за довжиною рядка (використовуючи як "
 "абсолютні, так і відносні координати)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:893
+#: ../src/ui/dialog/inkscape-preferences.cpp:888
 msgid "Force repeat commands"
 msgstr "Примусове повторення команд"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:894
+#: ../src/ui/dialog/inkscape-preferences.cpp:889
 msgid ""
 "Force repeating of the same path command (for example, 'L 1,2 L 3,4' instead "
 "of 'L 1,2 3,4')"
@@ -18616,23 +18613,23 @@ msgstr ""
 "Примусове повторення тої самої команди контуру (наприклад, 'L 1,2 L 3,4' "
 "замість 'L 1,2 3,4')"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:896
+#: ../src/ui/dialog/inkscape-preferences.cpp:891
 msgid "Numbers"
 msgstr "Числа"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:899
+#: ../src/ui/dialog/inkscape-preferences.cpp:894
 msgid "_Numeric precision:"
 msgstr "_Числова точність:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:899
+#: ../src/ui/dialog/inkscape-preferences.cpp:894
 msgid "Significant figures of the values written to the SVG file"
 msgstr "Значущі частини значень, які буде записано до файла SVG"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:902
+#: ../src/ui/dialog/inkscape-preferences.cpp:897
 msgid "Minimum _exponent:"
 msgstr "Мінімальний по_казник:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:902
+#: ../src/ui/dialog/inkscape-preferences.cpp:897
 msgid ""
 "The smallest number written to SVG is 10 to the power of this exponent; "
 "anything smaller is written as zero"
@@ -18642,17 +18639,17 @@ msgstr ""
 
 #. Code to add controls for attribute checking options
 #. Add incorrect style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:907
+#: ../src/ui/dialog/inkscape-preferences.cpp:902
 msgid "Improper Attributes Actions"
 msgstr "Дії з неналежними атрибутами"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:909
-#: ../src/ui/dialog/inkscape-preferences.cpp:917
-#: ../src/ui/dialog/inkscape-preferences.cpp:925
+#: ../src/ui/dialog/inkscape-preferences.cpp:904
+#: ../src/ui/dialog/inkscape-preferences.cpp:912
+#: ../src/ui/dialog/inkscape-preferences.cpp:920
 msgid "Print warnings"
 msgstr "Повідомляти про помилки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:910
+#: ../src/ui/dialog/inkscape-preferences.cpp:905
 msgid ""
 "Print warning if invalid or non-useful attributes found. Database files "
 "located in inkscape_data_dir/attributes."
@@ -18661,20 +18658,20 @@ msgstr ""
 "атрибут. Файли бази даних зберігаються у теці каталог_даних_inkscape/"
 "attributes."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:911
+#: ../src/ui/dialog/inkscape-preferences.cpp:906
 msgid "Remove attributes"
 msgstr "Вилучати атрибути"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:912
+#: ../src/ui/dialog/inkscape-preferences.cpp:907
 msgid "Delete invalid or non-useful attributes from element tag"
 msgstr "Вилучати некоректні та непотрібні атрибути з теґів елемента"
 
 #. Add incorrect style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:915
+#: ../src/ui/dialog/inkscape-preferences.cpp:910
 msgid "Inappropriate Style Properties Actions"
 msgstr "Дії з неналежними властивостями стилю"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:918
+#: ../src/ui/dialog/inkscape-preferences.cpp:913
 msgid ""
 "Print warning if inappropriate style properties found (i.e. 'font-family' "
 "set on a <rect>). Database files located in inkscape_data_dir/attributes."
@@ -18683,21 +18680,21 @@ msgstr ""
 "(наприклад, «font-family» у <rect>). Файли бази даних зберігаються у теці "
 "каталог_даних_inkscape/attributes."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:919
-#: ../src/ui/dialog/inkscape-preferences.cpp:927
+#: ../src/ui/dialog/inkscape-preferences.cpp:914
+#: ../src/ui/dialog/inkscape-preferences.cpp:922
 msgid "Remove style properties"
 msgstr "Вилучати властивості стилю"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:920
+#: ../src/ui/dialog/inkscape-preferences.cpp:915
 msgid "Delete inappropriate style properties"
 msgstr "Вилучати невідповідні властивості стилю"
 
 #. Add default or inherited style properties options
-#: ../src/ui/dialog/inkscape-preferences.cpp:923
+#: ../src/ui/dialog/inkscape-preferences.cpp:918
 msgid "Non-useful Style Properties Actions"
 msgstr "Дії з непотрібними властивостями стилю"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:926
+#: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid ""
 "Print warning if redundant style properties found (i.e. if a property has "
 "the default value and a different value is not inherited or if value is the "
@@ -18709,19 +18706,19 @@ msgstr ""
 "самим, яке було успадковано). Файли бази даних зберігаються у теці "
 "каталог_даних_inkscape/attributes."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:928
+#: ../src/ui/dialog/inkscape-preferences.cpp:923
 msgid "Delete redundant style properties"
 msgstr "Вилучати зайві властивості стилю"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:930
+#: ../src/ui/dialog/inkscape-preferences.cpp:925
 msgid "Check Attributes and Style Properties on"
 msgstr "Перевіряти атрибути і властивості стилів під час"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:932
+#: ../src/ui/dialog/inkscape-preferences.cpp:927
 msgid "Reading"
 msgstr "читання"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:933
+#: ../src/ui/dialog/inkscape-preferences.cpp:928
 msgid ""
 "Check attributes and style properties on reading in SVG files (including "
 "those internal to Inkscape which will slow down startup)"
@@ -18729,11 +18726,11 @@ msgstr ""
 "Перевіряти атрибути і властивості стилів під час читання файлів SVG (зокрема "
 "перевіряти вбудовані файли Inkscape, що може уповільнити запуск програми)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:934
+#: ../src/ui/dialog/inkscape-preferences.cpp:929
 msgid "Editing"
 msgstr "редагування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:935
+#: ../src/ui/dialog/inkscape-preferences.cpp:930
 msgid ""
 "Check attributes and style properties while editing SVG files (may slow down "
 "Inkscape, mostly useful for debugging)"
@@ -18741,42 +18738,42 @@ msgstr ""
 "Перевіряти атрибути і властивості стилів під час редагування файлів SVG "
 "(може уповільнити Inkscape, корисне для діагностики негараздів)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:936
+#: ../src/ui/dialog/inkscape-preferences.cpp:931
 msgid "Writing"
 msgstr "запису"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:937
+#: ../src/ui/dialog/inkscape-preferences.cpp:932
 msgid "Check attributes and style properties on writing out SVG files"
 msgstr ""
 "Перевіряти атрибути і властивості стилів під час запису даних до файлів SVG"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:939
+#: ../src/ui/dialog/inkscape-preferences.cpp:934
 msgid "SVG output"
 msgstr "Експорт до SVG"
 
 #. TRANSLATORS: see http://www.newsandtech.com/issues/2004/03-04/pt/03-04_rendering.htm
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Perceptual"
 msgstr "Придатна для сприйняття"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Relative Colorimetric"
 msgstr "Відносна колориметрична"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:945
+#: ../src/ui/dialog/inkscape-preferences.cpp:940
 msgid "Absolute Colorimetric"
 msgstr "Абсолютна колориметрична"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:949
+#: ../src/ui/dialog/inkscape-preferences.cpp:944
 msgid "(Note: Color management has been disabled in this build)"
 msgstr ""
 "(Зауваження: під час збирання цієї програми керування кольором було вимкнено)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:953
+#: ../src/ui/dialog/inkscape-preferences.cpp:948
 msgid "Display adjustment"
 msgstr "Налаштування показу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:963
+#: ../src/ui/dialog/inkscape-preferences.cpp:958
 #, c-format
 msgid ""
 "The ICC profile to use to calibrate display output.\n"
@@ -18785,116 +18782,116 @@ msgstr ""
 "Профіль ICC, який буде використано для калібрування показу на екрані.\n"
 "Каталоги для пошуку:%s"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:964
+#: ../src/ui/dialog/inkscape-preferences.cpp:959
 msgid "Display profile:"
 msgstr "Профіль дисплея:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:969
+#: ../src/ui/dialog/inkscape-preferences.cpp:964
 msgid "Retrieve profile from display"
 msgstr "Отримати профіль з дисплея"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:972
+#: ../src/ui/dialog/inkscape-preferences.cpp:967
 msgid "Retrieve profiles from those attached to displays via XICC"
 msgstr "Отримати профілі з тих, що прив'язані до дисплеїв через XICC"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:974
+#: ../src/ui/dialog/inkscape-preferences.cpp:969
 msgid "Retrieve profiles from those attached to displays"
 msgstr "Отримати профілі з тих, що прив'язано до дисплеїв"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:979
+#: ../src/ui/dialog/inkscape-preferences.cpp:974
 msgid "Display rendering intent:"
 msgstr "Ціль відтворення кольорів на дисплеї:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:980
+#: ../src/ui/dialog/inkscape-preferences.cpp:975
 msgid "The rendering intent to use to calibrate display output"
 msgstr ""
 "Режим відтворення кольорів, що використовуватиметься для калібрування виводу "
 "на дисплей"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:982
+#: ../src/ui/dialog/inkscape-preferences.cpp:977
 msgid "Proofing"
 msgstr "Проба кольорів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:984
+#: ../src/ui/dialog/inkscape-preferences.cpp:979
 msgid "Simulate output on screen"
 msgstr "Імітувати пристрій виводу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:986
+#: ../src/ui/dialog/inkscape-preferences.cpp:981
 msgid "Simulates output of target device"
 msgstr "Імітувати вивід на цільовий пристрій"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:988
+#: ../src/ui/dialog/inkscape-preferences.cpp:983
 msgid "Mark out of gamut colors"
 msgstr "Позначати кольори поза гамою"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:990
+#: ../src/ui/dialog/inkscape-preferences.cpp:985
 msgid "Highlights colors that are out of gamut for the target device"
 msgstr "Підсвічує кольори, що лежать поза гамою цільового пристрою"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1002
+#: ../src/ui/dialog/inkscape-preferences.cpp:997
 msgid "Out of gamut warning color:"
 msgstr "Колір для попередження про гаму:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1003
+#: ../src/ui/dialog/inkscape-preferences.cpp:998
 msgid "Selects the color used for out of gamut warning"
 msgstr ""
 "Обирає колір, що використовуватиметься для попередження про відсутність у "
 "гамі"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1005
+#: ../src/ui/dialog/inkscape-preferences.cpp:1000
 msgid "Device profile:"
 msgstr "Профіль пристрою виводу:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1006
+#: ../src/ui/dialog/inkscape-preferences.cpp:1001
 msgid "The ICC profile to use to simulate device output"
 msgstr "Профіль ICC, що використовуватиметься для імітації пристрою виведення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1009
+#: ../src/ui/dialog/inkscape-preferences.cpp:1004
 msgid "Device rendering intent:"
 msgstr "Ціль відтворення кольорів:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1010
+#: ../src/ui/dialog/inkscape-preferences.cpp:1005
 msgid "The rendering intent to use to calibrate device output"
 msgstr ""
 "Ціль відтворення кольорів, що використовуватиметься для калібрування "
 "виведення на пристрій"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1012
+#: ../src/ui/dialog/inkscape-preferences.cpp:1007
 msgid "Black point compensation"
 msgstr "Компенсація чорної точки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1014
+#: ../src/ui/dialog/inkscape-preferences.cpp:1009
 msgid "Enables black point compensation"
 msgstr "Вмикає компенсацію чорної точки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1016
+#: ../src/ui/dialog/inkscape-preferences.cpp:1011
 msgid "Preserve black"
 msgstr "Зберігати чорний"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1023
+#: ../src/ui/dialog/inkscape-preferences.cpp:1018
 msgid "(LittleCMS 1.15 or later required)"
 msgstr "(потрібна бібліотека LittleCMS версії 1.15 або новіша)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1025
+#: ../src/ui/dialog/inkscape-preferences.cpp:1020
 msgid "Preserve K channel in CMYK -> CMYK transforms"
 msgstr "Зберігати канал K під час перетворень CMYK → CMYK"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1039
+#: ../src/ui/dialog/inkscape-preferences.cpp:1034
 #: ../src/widgets/sp-color-icc-selector.cpp:474
 #: ../src/widgets/sp-color-icc-selector.cpp:766
 msgid "<none>"
 msgstr "<немає>"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1084
+#: ../src/ui/dialog/inkscape-preferences.cpp:1079
 msgid "Color management"
 msgstr "Керування кольором"
 
 #. Autosave options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1087
+#: ../src/ui/dialog/inkscape-preferences.cpp:1082
 msgid "Enable autosave (requires restart)"
 msgstr "Увімкнути автозбереження (потребує перезапуску)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1088
+#: ../src/ui/dialog/inkscape-preferences.cpp:1083
 msgid ""
 "Automatically save the current document(s) at a given interval, thus "
 "minimizing loss in case of a crash"
@@ -18902,12 +18899,12 @@ msgstr ""
 "Автоматично зберігати поточні документи через вказані проміжки часу, таким "
 "чином зменшуючи втрати у випадку аварійного завершення програми"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1094
+#: ../src/ui/dialog/inkscape-preferences.cpp:1089
 msgctxt "Filesystem"
 msgid "Autosave _directory:"
 msgstr "Каталог _автозбереження:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1094
+#: ../src/ui/dialog/inkscape-preferences.cpp:1089
 msgid ""
 "The directory where autosaves will be written. This should be an absolute "
 "path (starts with / on UNIX or a drive letter such as C: on Windows). "
@@ -18916,19 +18913,19 @@ msgstr ""
 "вказати абсолютну адресу (адресу, що починається з / у UNIX або літери "
 "диска, наприклад C:, у Windows). "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1096
+#: ../src/ui/dialog/inkscape-preferences.cpp:1091
 msgid "_Interval (in minutes):"
 msgstr "_Інтервал (у хвилинах):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1096
+#: ../src/ui/dialog/inkscape-preferences.cpp:1091
 msgid "Interval (in minutes) at which document will be autosaved"
 msgstr "Інтервал (у хвилинах) між автоматичними зберіганнями копій"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1098
+#: ../src/ui/dialog/inkscape-preferences.cpp:1093
 msgid "_Maximum number of autosaves:"
 msgstr "Макс_имальна кількість копій автозбереження:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1098
+#: ../src/ui/dialog/inkscape-preferences.cpp:1093
 msgid ""
 "Maximum number of autosaved files; use this to limit the storage space used"
 msgstr ""
@@ -18947,15 +18944,15 @@ msgstr ""
 #. _autosave_autosave_interval.signal_changed().connect( sigc::ptr_fun(inkscape_autosave_init), TRUE );
 #.
 #. -----------
-#: ../src/ui/dialog/inkscape-preferences.cpp:1113
+#: ../src/ui/dialog/inkscape-preferences.cpp:1108
 msgid "Autosave"
 msgstr "Автозбереження"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1117
+#: ../src/ui/dialog/inkscape-preferences.cpp:1112
 msgid "Open Clip Art Library _Server Name:"
 msgstr "_Назва сервера бібліотеки Open Clip Art:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1118
+#: ../src/ui/dialog/inkscape-preferences.cpp:1113
 msgid ""
 "The server name of the Open Clip Art Library webdav server; it's used by the "
 "Import and Export to OCAL function"
@@ -18963,35 +18960,35 @@ msgstr ""
 "Назва сервера webdav бібліотеки Open Clip Art. Його буде використано "
 "функціями імпорту з та експорту до OCAL."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1120
+#: ../src/ui/dialog/inkscape-preferences.cpp:1115
 msgid "Open Clip Art Library _Username:"
 msgstr "Ім'_я користувача бібліотеки Open Clip Art:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1121
+#: ../src/ui/dialog/inkscape-preferences.cpp:1116
 msgid "The username used to log into Open Clip Art Library"
 msgstr "Ім'я користувача для авторизації у системі бібліотеки Open Clip Art"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1123
+#: ../src/ui/dialog/inkscape-preferences.cpp:1118
 msgid "Open Clip Art Library _Password:"
 msgstr "Паро_ль до бібліотеки Open Clip Art:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1124
+#: ../src/ui/dialog/inkscape-preferences.cpp:1119
 msgid "The password used to log into Open Clip Art Library"
 msgstr "Пароль для авторизації у системі бібліотеки Open Clip Art"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1125
+#: ../src/ui/dialog/inkscape-preferences.cpp:1120
 msgid "Open Clip Art"
 msgstr "Open Clip Art"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1130
+#: ../src/ui/dialog/inkscape-preferences.cpp:1125
 msgid "Behavior"
 msgstr "Поведінка"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1134
+#: ../src/ui/dialog/inkscape-preferences.cpp:1129
 msgid "_Simplification threshold:"
 msgstr "Поріг спро_щення:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1135
+#: ../src/ui/dialog/inkscape-preferences.cpp:1130
 msgid ""
 "How strong is the Node tool's Simplify command by default. If you invoke "
 "this command several times in quick succession, it will act more and more "
@@ -19002,45 +18999,45 @@ msgstr ""
 "більш агресивно; щоб повернутися до типового значення, зробіть паузу перед "
 "черговим викликом команди."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1137
+#: ../src/ui/dialog/inkscape-preferences.cpp:1132
 msgid "Color stock markers the same color as object"
 msgstr "Колір опорних маркерів збігається з кольором об’єкта"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1138
+#: ../src/ui/dialog/inkscape-preferences.cpp:1133
 msgid "Color custom markers the same color as object"
 msgstr "Колір нетипових маркерів збігається з кольором об’єкта"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1139
-#: ../src/ui/dialog/inkscape-preferences.cpp:1349
+#: ../src/ui/dialog/inkscape-preferences.cpp:1134
+#: ../src/ui/dialog/inkscape-preferences.cpp:1344
 msgid "Update marker color when object color changes"
 msgstr "Оновлювати колір маркера у разі зміни кольора об’єкта"
 
 #. Selecting options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1142
+#: ../src/ui/dialog/inkscape-preferences.cpp:1137
 msgid "Select in all layers"
 msgstr "Позначити все в усіх шарах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1143
+#: ../src/ui/dialog/inkscape-preferences.cpp:1138
 msgid "Select only within current layer"
 msgstr "Позначити лише у поточному шарі"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1144
+#: ../src/ui/dialog/inkscape-preferences.cpp:1139
 msgid "Select in current layer and sublayers"
 msgstr "Позначити у поточному шарі та підшарах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1145
+#: ../src/ui/dialog/inkscape-preferences.cpp:1140
 msgid "Ignore hidden objects and layers"
 msgstr "Ігнорувати приховані об'єкти і шари"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1146
+#: ../src/ui/dialog/inkscape-preferences.cpp:1141
 msgid "Ignore locked objects and layers"
 msgstr "Ігнорувати заблоковані об'єкти і шари"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1147
+#: ../src/ui/dialog/inkscape-preferences.cpp:1142
 msgid "Deselect upon layer change"
 msgstr "Зняти позначення після зміни шару"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1150
+#: ../src/ui/dialog/inkscape-preferences.cpp:1145
 msgid ""
 "Uncheck this to be able to keep the current objects selected when the "
 "current layer changes"
@@ -19048,25 +19045,25 @@ msgstr ""
 "Вимкніть це параметр, якщо бажаєте зберегти позначення після зміни поточного "
 "шару"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1152
+#: ../src/ui/dialog/inkscape-preferences.cpp:1147
 msgid "Ctrl+A, Tab, Shift+Tab"
 msgstr "Ctrl+A, Tab, Shift+Tab"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1154
+#: ../src/ui/dialog/inkscape-preferences.cpp:1149
 msgid "Make keyboard selection commands work on objects in all layers"
 msgstr "Позначати з клавіатури об'єкти в усіх шарах одночасно"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1151
 msgid "Make keyboard selection commands work on objects in current layer only"
 msgstr "Позначати з клавіатури об'єкти тільки у поточному шарі"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1158
+#: ../src/ui/dialog/inkscape-preferences.cpp:1153
 msgid ""
 "Make keyboard selection commands work on objects in current layer and all "
 "its sublayers"
 msgstr "Позначати з клавіатури об'єкти в поточному шарі та усіх його підшарах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1160
+#: ../src/ui/dialog/inkscape-preferences.cpp:1155
 msgid ""
 "Uncheck this to be able to select objects that are hidden (either by "
 "themselves or by being in a hidden layer)"
@@ -19074,7 +19071,7 @@ msgstr ""
 "Вимкніть цей параметр, якщо бажаєте позначити приховані (невидимі) об'єкти "
 "(окремо або у прихованому шарі)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1162
+#: ../src/ui/dialog/inkscape-preferences.cpp:1157
 msgid ""
 "Uncheck this to be able to select objects that are locked (either by "
 "themselves or by being in a locked layer)"
@@ -19082,72 +19079,72 @@ msgstr ""
 "Вимкніть це параметр, якщо бажаєте позначити заблоковані об'єкти (окремо або "
 "у заблокованому шарі)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1164
+#: ../src/ui/dialog/inkscape-preferences.cpp:1159
 msgid "Wrap when cycling objects in z-order"
 msgstr "Циклічний перехід між об'єктами у напрямку z"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1166
+#: ../src/ui/dialog/inkscape-preferences.cpp:1161
 msgid "Alt+Scroll Wheel"
 msgstr "Alt+Коліщатко гортання"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1168
+#: ../src/ui/dialog/inkscape-preferences.cpp:1163
 msgid "Wrap around at start and end when cycling objects in z-order"
 msgstr "Замкнути циклічний перехід між об'єктами у напрямку вісі z."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1170
+#: ../src/ui/dialog/inkscape-preferences.cpp:1165
 msgid "Selecting"
 msgstr "Позначення"
 
 #. Transforms options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1173
+#: ../src/ui/dialog/inkscape-preferences.cpp:1168
 #: ../src/widgets/select-toolbar.cpp:570
 msgid "Scale stroke width"
 msgstr "Змінювати ширину штриха"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1174
+#: ../src/ui/dialog/inkscape-preferences.cpp:1169
 msgid "Scale rounded corners in rectangles"
 msgstr "Змінювати радіус округлених кутів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1175
+#: ../src/ui/dialog/inkscape-preferences.cpp:1170
 msgid "Transform gradients"
 msgstr "Трансформувати градієнти"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1176
+#: ../src/ui/dialog/inkscape-preferences.cpp:1171
 msgid "Transform patterns"
 msgstr "Трансформувати візерунки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1178
+#: ../src/ui/dialog/inkscape-preferences.cpp:1173
 msgid "Preserved"
 msgstr "Без оптимізації"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1181
+#: ../src/ui/dialog/inkscape-preferences.cpp:1176
 #: ../src/widgets/select-toolbar.cpp:571
 msgid "When scaling objects, scale the stroke width by the same proportion"
 msgstr ""
 "При зміні розміру об'єктів змінювати ширину штриха у відповідній пропорції"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1183
+#: ../src/ui/dialog/inkscape-preferences.cpp:1178
 #: ../src/widgets/select-toolbar.cpp:582
 msgid "When scaling rectangles, scale the radii of rounded corners"
 msgstr ""
 "При зміні розміру прямокутників міняти радіус округлених кутів у тій самій "
 "пропорції"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1185
+#: ../src/ui/dialog/inkscape-preferences.cpp:1180
 #: ../src/widgets/select-toolbar.cpp:593
 msgid "Move gradients (in fill or stroke) along with the objects"
 msgstr "Трансформувати градієнти (у заповненні чи штрихах) разом з об'єктом"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1187
+#: ../src/ui/dialog/inkscape-preferences.cpp:1182
 #: ../src/widgets/select-toolbar.cpp:604
 msgid "Move patterns (in fill or stroke) along with the objects"
 msgstr "Трансформувати візерунки (у заповненнях чи штрихах) разом з об'єктом"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1188
+#: ../src/ui/dialog/inkscape-preferences.cpp:1183
 msgid "Store transformation"
 msgstr "Збереження трансформації"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1190
+#: ../src/ui/dialog/inkscape-preferences.cpp:1185
 msgid ""
 "If possible, apply transformation to objects without adding a transform= "
 "attribute"
@@ -19155,19 +19152,19 @@ msgstr ""
 "При можливості застосовувати до об'єктів трансформацію без додавання "
 "атрибута transform="
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1192
+#: ../src/ui/dialog/inkscape-preferences.cpp:1187
 msgid "Always store transformation as a transform= attribute on objects"
 msgstr "Завжди зберігати трансформацію у вигляді атрибута transform="
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1194
+#: ../src/ui/dialog/inkscape-preferences.cpp:1189
 msgid "Transforms"
 msgstr "Трансформації"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1198
+#: ../src/ui/dialog/inkscape-preferences.cpp:1193
 msgid "Mouse _wheel scrolls by:"
 msgstr "Ко_лесо миші гортає на:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1199
+#: ../src/ui/dialog/inkscape-preferences.cpp:1194
 msgid ""
 "One mouse wheel notch scrolls by this distance in screen pixels "
 "(horizontally with Shift)"
@@ -19175,24 +19172,24 @@ msgstr ""
 "На цю відстань у точках зсувається зображення одним клацанням колеса миші (з "
 "натиснутою клавішею Shift — по горизонталі)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1200
+#: ../src/ui/dialog/inkscape-preferences.cpp:1195
 msgid "Ctrl+arrows"
 msgstr "Ctrl+стрілки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1202
+#: ../src/ui/dialog/inkscape-preferences.cpp:1197
 msgid "Sc_roll by:"
 msgstr "К_рок гортання:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1203
+#: ../src/ui/dialog/inkscape-preferences.cpp:1198
 msgid "Pressing Ctrl+arrow key scrolls by this distance (in screen pixels)"
 msgstr ""
 "На цю відстань у точках зсувається зображення при натисканні Ctrl+стрілки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1205
+#: ../src/ui/dialog/inkscape-preferences.cpp:1200
 msgid "_Acceleration:"
 msgstr "_Прискорення:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1206
+#: ../src/ui/dialog/inkscape-preferences.cpp:1201
 msgid ""
 "Pressing and holding Ctrl+arrow will gradually speed up scrolling (0 for no "
 "acceleration)"
@@ -19200,15 +19197,15 @@ msgstr ""
 "Якщо утримувати натиснутими Ctrl+стрілку, швидкість гортання буде зростати "
 "(0 скасовує прискорення)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1207
+#: ../src/ui/dialog/inkscape-preferences.cpp:1202
 msgid "Autoscrolling"
 msgstr "Автогортання"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1209
+#: ../src/ui/dialog/inkscape-preferences.cpp:1204
 msgid "_Speed:"
 msgstr "_Швидкість:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1210
+#: ../src/ui/dialog/inkscape-preferences.cpp:1205
 msgid ""
 "How fast the canvas autoscrolls when you drag beyond canvas edge (0 to turn "
 "autoscroll off)"
@@ -19216,12 +19213,12 @@ msgstr ""
 "Як швидко буде відбуватись гортання при перетягуванні об'єкта за межі вікна "
 "(0 скасовує автогортання)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1212
+#: ../src/ui/dialog/inkscape-preferences.cpp:1207
 #: ../src/ui/dialog/tracedialog.cpp:522 ../src/ui/dialog/tracedialog.cpp:721
 msgid "_Threshold:"
 msgstr "_Поріг:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1213
+#: ../src/ui/dialog/inkscape-preferences.cpp:1208
 msgid ""
 "How far (in screen pixels) you need to be from the canvas edge to trigger "
 "autoscroll; positive is outside the canvas, negative is within the canvas"
@@ -19234,11 +19231,11 @@ msgstr ""
 #. _page_scrolling.add_line( false, "", _scroll_space, "",
 #. _("When on, pressing and holding Space and dragging with left mouse button pans canvas (as in Adobe Illustrator); when off, Space temporarily switches to Selector tool (default)"));
 #.
-#: ../src/ui/dialog/inkscape-preferences.cpp:1219
+#: ../src/ui/dialog/inkscape-preferences.cpp:1214
 msgid "Mouse wheel zooms by default"
 msgstr "Колесо миші типово змінює масштаб"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1221
+#: ../src/ui/dialog/inkscape-preferences.cpp:1216
 msgid ""
 "When on, mouse wheel zooms without Ctrl and scrolls canvas with Ctrl; when "
 "off, it zooms with Ctrl and scrolls without Ctrl"
@@ -19247,24 +19244,24 @@ msgstr ""
 "гортання з Ctrl; якщо зняти позначку, воно змінюватиме масштаб з Ctrl і "
 "гортатиме без Ctrl."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1222
+#: ../src/ui/dialog/inkscape-preferences.cpp:1217
 msgid "Scrolling"
 msgstr "Гортання"
 
 #. Snapping options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1225
+#: ../src/ui/dialog/inkscape-preferences.cpp:1220
 msgid "Enable snap indicator"
 msgstr "Увімкнути індикатор прилипання"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1227
+#: ../src/ui/dialog/inkscape-preferences.cpp:1222
 msgid "After snapping, a symbol is drawn at the point that has snapped"
 msgstr "Після прилипання у точні прилипання буде намальовано цей символ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1230
+#: ../src/ui/dialog/inkscape-preferences.cpp:1225
 msgid "_Delay (in ms):"
 msgstr "З_атримка (у мс):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1231
+#: ../src/ui/dialog/inkscape-preferences.cpp:1226
 msgid ""
 "Postpone snapping as long as the mouse is moving, and then wait an "
 "additional fraction of a second. This additional delay is specified here. "
@@ -19275,20 +19272,20 @@ msgstr ""
 "встановити нульове або близьке до нульового значення, прилипання буде "
 "миттєвим."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1233
+#: ../src/ui/dialog/inkscape-preferences.cpp:1228
 msgid "Only snap the node closest to the pointer"
 msgstr "Прилипання лише до вузла, найближчого до вказівника"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1235
+#: ../src/ui/dialog/inkscape-preferences.cpp:1230
 msgid ""
 "Only try to snap the node that is initially closest to the mouse pointer"
 msgstr "Виконувати прилипання лише до вузла, найближчого до вказівника миші"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1238
+#: ../src/ui/dialog/inkscape-preferences.cpp:1233
 msgid "_Weight factor:"
 msgstr "_Ваговий коефіцієнт:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1239
+#: ../src/ui/dialog/inkscape-preferences.cpp:1234
 msgid ""
 "When multiple snap solutions are found, then Inkscape can either prefer the "
 "closest transformation (when set to 0), or prefer the node that was "
@@ -19298,11 +19295,11 @@ msgstr ""
 "найближче перетворення (якщо встановлено 0), або вибрати вузол, який "
 "спочатку був найближчим до вказівника миші (якщо встановлено 1)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1241
+#: ../src/ui/dialog/inkscape-preferences.cpp:1236
 msgid "Snap the mouse pointer when dragging a constrained knot"
 msgstr "Прилипання до вказівника миші під час перетягування обмеженого вузла"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1243
+#: ../src/ui/dialog/inkscape-preferences.cpp:1238
 msgid ""
 "When dragging a knot along a constraint line, then snap the position of the "
 "mouse pointer instead of snapping the projection of the knot onto the "
@@ -19311,16 +19308,16 @@ msgstr ""
 "Під час перетягування вузла вздовж лінії обмеження виконувати прилипання до "
 "позиції вказівника миші, а не до проекції вузла на лінію обмеження"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1245
+#: ../src/ui/dialog/inkscape-preferences.cpp:1240
 msgid "Snapping"
 msgstr "Прилипання"
 
 #. nudgedistance is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1250
+#: ../src/ui/dialog/inkscape-preferences.cpp:1245
 msgid "_Arrow keys move by:"
 msgstr "С_трілки переміщують на:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1251
+#: ../src/ui/dialog/inkscape-preferences.cpp:1246
 msgid ""
 "Pressing an arrow key moves selected object(s) or node(s) by this distance"
 msgstr ""
@@ -19328,28 +19325,28 @@ msgstr ""
 "клавіші зі стрілкою"
 
 #. defaultscale is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1254
+#: ../src/ui/dialog/inkscape-preferences.cpp:1249
 msgid "> and < _scale by:"
 msgstr "Кр_ок зміни масштабу при > та <:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1255
+#: ../src/ui/dialog/inkscape-preferences.cpp:1250
 msgid "Pressing > or < scales selection up or down by this increment"
 msgstr ""
 "На цю величину змінюється розмір позначеного при натисканні клавіш  > чи <"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1257
+#: ../src/ui/dialog/inkscape-preferences.cpp:1252
 msgid "_Inset/Outset by:"
 msgstr "В_тягнути/розтягнути на:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1258
+#: ../src/ui/dialog/inkscape-preferences.cpp:1253
 msgid "Inset and Outset commands displace the path by this distance"
 msgstr "На цю відстань переміщують контур команди втягування та розтягування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1259
+#: ../src/ui/dialog/inkscape-preferences.cpp:1254
 msgid "Compass-like display of angles"
 msgstr "Подібне до компасу відображення кутів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1261
+#: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid ""
 "When on, angles are displayed with 0 at north, 0 to 360 range, positive "
 "clockwise; otherwise with 0 at east, -180 to 180 range, positive "
@@ -19360,20 +19357,20 @@ msgstr ""
 "випадку 0 вказує на схід, діапазон значень знаходиться між -180 та 180, "
 "приріст кута відбувається проти годинникової стрілки."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1263
+#: ../src/ui/dialog/inkscape-preferences.cpp:1258
 msgctxt "Rotation angle"
 msgid "None"
 msgstr "Нульовий"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1267
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 msgid "_Rotation snaps every:"
 msgstr "О_бмеження обертання:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1267
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 msgid "degrees"
 msgstr "градусів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1268
+#: ../src/ui/dialog/inkscape-preferences.cpp:1263
 msgid ""
 "Rotating with Ctrl pressed snaps every that much degrees; also, pressing "
 "[ or ] rotates by this amount"
@@ -19381,11 +19378,11 @@ msgstr ""
 "Обертання з натиснутою Ctrl обмежує кут значеннями, кратними вибраному; "
 "натискання «[» чи «]» повертає на вибраний кут"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1269
+#: ../src/ui/dialog/inkscape-preferences.cpp:1264
 msgid "Relative snapping of guideline angles"
 msgstr "Відносне прилипання кутів нахилу напрямних"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1271
+#: ../src/ui/dialog/inkscape-preferences.cpp:1266
 msgid ""
 "When on, the snap angles when rotating a guideline will be relative to the "
 "original angle"
@@ -19393,15 +19390,15 @@ msgstr ""
 "Якщо позначено, кути прилипання під час обертання напрямної будуть "
 "обчислюватися відносно початкового кута"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1268
 msgid "_Zoom in/out by:"
 msgstr "Крок _масштабування:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1268
 msgid "%"
 msgstr "%"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1274
+#: ../src/ui/dialog/inkscape-preferences.cpp:1269
 msgid ""
 "Zoom tool click, +/- keys, and middle click zoom in and out by this "
 "multiplier"
@@ -19409,44 +19406,44 @@ msgstr ""
 "Крок при клацанні інструментом масштабу, натисканні клавіш +/- та клацанні "
 "середньою кнопкою миші"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1275
+#: ../src/ui/dialog/inkscape-preferences.cpp:1270
 msgid "Steps"
 msgstr "Кроки"
 
 #. Clones options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1278
+#: ../src/ui/dialog/inkscape-preferences.cpp:1273
 msgid "Move in parallel"
 msgstr "Переміщуються паралельно"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1280
+#: ../src/ui/dialog/inkscape-preferences.cpp:1275
 msgid "Stay unmoved"
 msgstr "Залишаються нерухомими"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1282
+#: ../src/ui/dialog/inkscape-preferences.cpp:1277
 msgid "Move according to transform"
 msgstr "Рухаються у відповідності до перетворення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1284
+#: ../src/ui/dialog/inkscape-preferences.cpp:1279
 msgid "Are unlinked"
 msgstr "Від'єднуються"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1286
+#: ../src/ui/dialog/inkscape-preferences.cpp:1281
 msgid "Are deleted"
 msgstr "Вилучаються"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1289
+#: ../src/ui/dialog/inkscape-preferences.cpp:1284
 msgid "Moving original: clones and linked offsets"
 msgstr "Пересування оригіналу: клони та прив'язані розтяжки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1291
+#: ../src/ui/dialog/inkscape-preferences.cpp:1286
 msgid "Clones are translated by the same vector as their original"
 msgstr "Кожен клон зсувається на той самий вектор, що й оригінал"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1293
+#: ../src/ui/dialog/inkscape-preferences.cpp:1288
 msgid "Clones preserve their positions when their original is moved"
 msgstr "Клони залишаються на місці, коли рухаються їхні оригінали"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1295
+#: ../src/ui/dialog/inkscape-preferences.cpp:1290
 msgid ""
 "Each clone moves according to the value of its transform= attribute; for "
 "example, a rotated clone will move in a different direction than its original"
@@ -19455,27 +19452,27 @@ msgstr ""
 "Наприклад, повернутий клон буде переміщуватись у іншому напрямку, ніж його "
 "оригінал."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1296
+#: ../src/ui/dialog/inkscape-preferences.cpp:1291
 msgid "Deleting original: clones"
 msgstr "Вилучення оригіналу: клони"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1298
+#: ../src/ui/dialog/inkscape-preferences.cpp:1293
 msgid "Orphaned clones are converted to regular objects"
 msgstr "Осиротілі клони перетворюються у звичайні об'єкти"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1300
+#: ../src/ui/dialog/inkscape-preferences.cpp:1295
 msgid "Orphaned clones are deleted along with their original"
 msgstr "Осиротілі клони вилучаються разом з оригіналом"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1302
+#: ../src/ui/dialog/inkscape-preferences.cpp:1297
 msgid "Duplicating original+clones/linked offset"
 msgstr "Дублювання оригінал+клони/прив'язані розтяжки"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1304
+#: ../src/ui/dialog/inkscape-preferences.cpp:1299
 msgid "Relink duplicated clones"
 msgstr "Повторно пов'язувати дубльовані клони"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1306
+#: ../src/ui/dialog/inkscape-preferences.cpp:1301
 msgid ""
 "When duplicating a selection containing both a clone and its original "
 "(possibly in groups), relink the duplicated clone to the duplicated original "
@@ -19486,28 +19483,28 @@ msgstr ""
 "старим оригіналом"
 
 #. TRANSLATORS: Heading for the Inkscape Preferences "Clones" Page
-#: ../src/ui/dialog/inkscape-preferences.cpp:1309
+#: ../src/ui/dialog/inkscape-preferences.cpp:1304
 msgid "Clones"
 msgstr "Клони"
 
 #. Clip paths and masks options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1312
+#: ../src/ui/dialog/inkscape-preferences.cpp:1307
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr ""
 "При застосуванні найвищий позначений об'єкт є контуром вирізання або маскою"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1314
+#: ../src/ui/dialog/inkscape-preferences.cpp:1309
 msgid ""
 "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr ""
 "Зніміть позначку щоб використовувати нижній позначений об'єкт як контур "
 "вирізання або маску"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1315
+#: ../src/ui/dialog/inkscape-preferences.cpp:1310
 msgid "Remove clippath/mask object after applying"
 msgstr "Вилучати контур вирізання або маску після застосування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1317
+#: ../src/ui/dialog/inkscape-preferences.cpp:1312
 msgid ""
 "After applying, remove the object used as the clipping path or mask from the "
 "drawing"
@@ -19515,57 +19512,57 @@ msgstr ""
 "Після застосування вилучається об'єкт, що використовувався як контур "
 "вирізання чи маска з малюнку"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1319
+#: ../src/ui/dialog/inkscape-preferences.cpp:1314
 msgid "Before applying"
 msgstr "До застосування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1321
+#: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "Do not group clipped/masked objects"
 msgstr "Не групувати обрізані/замасковані об'єкти"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1322
+#: ../src/ui/dialog/inkscape-preferences.cpp:1317
 msgid "Put every clipped/masked object in its own group"
 msgstr "Додавати для кожного обрізаного/замаскованого об'єкта власну групу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1323
+#: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Put all clipped/masked objects into one group"
 msgstr "Зібрати всі обрізані/замасковані об'єкти у одну групу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1326
+#: ../src/ui/dialog/inkscape-preferences.cpp:1321
 msgid "Apply clippath/mask to every object"
 msgstr "Застосувати контур обрізання/маскування до всіх об'єктів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1329
+#: ../src/ui/dialog/inkscape-preferences.cpp:1324
 msgid "Apply clippath/mask to groups containing single object"
 msgstr ""
 "Застосувати контур обрізання/маскування до груп, що містять окремі об'єкти"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1332
+#: ../src/ui/dialog/inkscape-preferences.cpp:1327
 msgid "Apply clippath/mask to group containing all objects"
 msgstr "Застосувати контур обрізання/маскування до групи всіх об'єктів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1334
+#: ../src/ui/dialog/inkscape-preferences.cpp:1329
 msgid "After releasing"
 msgstr "Після відпускання"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1336
+#: ../src/ui/dialog/inkscape-preferences.cpp:1331
 msgid "Ungroup automatically created groups"
 msgstr "Розгрупувати автоматично створені групи"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1338
+#: ../src/ui/dialog/inkscape-preferences.cpp:1333
 msgid "Ungroup groups created when setting clip/mask"
 msgstr "Розгрупувати групи, створені застосування обрізання/маскування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1335
 msgid "Clippaths and masks"
 msgstr "Вирізання та маскування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1343
+#: ../src/ui/dialog/inkscape-preferences.cpp:1338
 msgid "Stroke Style Markers"
 msgstr "Маркери стилю штриха"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1345
-#: ../src/ui/dialog/inkscape-preferences.cpp:1347
+#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1342
 msgid ""
 "Stroke color same as object, fill color either object fill color or marker "
 "fill color"
@@ -19573,50 +19570,50 @@ msgstr ""
 "Колір штриха збігається з кольором об’єкта, колір заповнення є або кольором "
 "об’єкта або кольором заповнення маркера"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1351
+#: ../src/ui/dialog/inkscape-preferences.cpp:1346
 #: ../share/extensions/hershey.inx.h:27
 msgid "Markers"
 msgstr "Маркери"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1354
+#: ../src/ui/dialog/inkscape-preferences.cpp:1349
 msgid "Document cleanup"
 msgstr "Очищення документа"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1355
-#: ../src/ui/dialog/inkscape-preferences.cpp:1357
+#: ../src/ui/dialog/inkscape-preferences.cpp:1350
+#: ../src/ui/dialog/inkscape-preferences.cpp:1352
 msgid "Remove unused swatches when doing a document cleanup"
 msgstr "Вилучати невикористані елементи під час очищення документа"
 
 #. tooltip
-#: ../src/ui/dialog/inkscape-preferences.cpp:1358
+#: ../src/ui/dialog/inkscape-preferences.cpp:1353
 msgid "Cleanup"
 msgstr "Очищення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
 msgid "Number of _Threads:"
 msgstr "Кількість _потоків:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
-#: ../src/ui/dialog/inkscape-preferences.cpp:1898
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
+#: ../src/ui/dialog/inkscape-preferences.cpp:1893
 msgid "(requires restart)"
 msgstr "(потребує перезапуску)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1367
+#: ../src/ui/dialog/inkscape-preferences.cpp:1362
 msgid "Configure number of processors/threads to use when rendering filters"
 msgstr ""
 "Налаштувати кількість процесорів/потоків, які слід використовувати для "
 "обробки фільтрування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgid "Rendering _cache size:"
 msgstr "Розмір _кешу обробки:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgctxt "mebibyte (2^20 bytes) abbreviation"
 msgid "MiB"
 msgstr "МіБ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgid ""
 "Set the amount of memory per document which can be used to store rendered "
 "parts of the drawing for later reuse; set to zero to disable caching"
@@ -19627,37 +19624,37 @@ msgstr ""
 
 #. blur quality
 #. filter quality
-#: ../src/ui/dialog/inkscape-preferences.cpp:1374
-#: ../src/ui/dialog/inkscape-preferences.cpp:1398
+#: ../src/ui/dialog/inkscape-preferences.cpp:1369
+#: ../src/ui/dialog/inkscape-preferences.cpp:1393
 msgid "Best quality (slowest)"
 msgstr "Найвища якість (найповільніше)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1376
-#: ../src/ui/dialog/inkscape-preferences.cpp:1400
+#: ../src/ui/dialog/inkscape-preferences.cpp:1371
+#: ../src/ui/dialog/inkscape-preferences.cpp:1395
 msgid "Better quality (slower)"
 msgstr "Добра якість (повільно)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1378
-#: ../src/ui/dialog/inkscape-preferences.cpp:1402
+#: ../src/ui/dialog/inkscape-preferences.cpp:1373
+#: ../src/ui/dialog/inkscape-preferences.cpp:1397
 msgid "Average quality"
 msgstr "Посередня якість"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1380
-#: ../src/ui/dialog/inkscape-preferences.cpp:1404
+#: ../src/ui/dialog/inkscape-preferences.cpp:1375
+#: ../src/ui/dialog/inkscape-preferences.cpp:1399
 msgid "Lower quality (faster)"
 msgstr "Низька якість (швидко)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1382
-#: ../src/ui/dialog/inkscape-preferences.cpp:1406
+#: ../src/ui/dialog/inkscape-preferences.cpp:1377
+#: ../src/ui/dialog/inkscape-preferences.cpp:1401
 msgid "Lowest quality (fastest)"
 msgstr "Найнижча якість (найшвидше)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1385
+#: ../src/ui/dialog/inkscape-preferences.cpp:1380
 msgid "Gaussian blur quality for display"
 msgstr "Якість гаусового розмивання для показу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1387
-#: ../src/ui/dialog/inkscape-preferences.cpp:1411
+#: ../src/ui/dialog/inkscape-preferences.cpp:1382
+#: ../src/ui/dialog/inkscape-preferences.cpp:1406
 msgid ""
 "Best quality, but display may be very slow at high zooms (bitmap export "
 "always uses best quality)"
@@ -19665,125 +19662,125 @@ msgstr ""
 "Найкраща якість, але відображення може бути дуже повільним за великого "
 "збільшення (експорт растрових зображень завжди використовує найвищу якість)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1389
-#: ../src/ui/dialog/inkscape-preferences.cpp:1413
+#: ../src/ui/dialog/inkscape-preferences.cpp:1384
+#: ../src/ui/dialog/inkscape-preferences.cpp:1408
 msgid "Better quality, but slower display"
 msgstr "Краща якість, але повільніше відображення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1391
-#: ../src/ui/dialog/inkscape-preferences.cpp:1415
+#: ../src/ui/dialog/inkscape-preferences.cpp:1386
+#: ../src/ui/dialog/inkscape-preferences.cpp:1410
 msgid "Average quality, acceptable display speed"
 msgstr "Посередня якість, прийнятна швидкість відображення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1393
-#: ../src/ui/dialog/inkscape-preferences.cpp:1417
+#: ../src/ui/dialog/inkscape-preferences.cpp:1388
+#: ../src/ui/dialog/inkscape-preferences.cpp:1412
 msgid "Lower quality (some artifacts), but display is faster"
 msgstr "Нижча якість (певні похибки), але відображення швидше"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1395
-#: ../src/ui/dialog/inkscape-preferences.cpp:1419
+#: ../src/ui/dialog/inkscape-preferences.cpp:1390
+#: ../src/ui/dialog/inkscape-preferences.cpp:1414
 msgid "Lowest quality (considerable artifacts), but display is fastest"
 msgstr "Найнижча якість (значні похибки), але відображення найшвидше"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1409
+#: ../src/ui/dialog/inkscape-preferences.cpp:1404
 msgid "Filter effects quality for display"
 msgstr "Якість ефектів фільтрування для показу"
 
 #. build custom preferences tab
-#: ../src/ui/dialog/inkscape-preferences.cpp:1421
+#: ../src/ui/dialog/inkscape-preferences.cpp:1416
 #: ../src/ui/dialog/print.cpp:232
 msgid "Rendering"
 msgstr "Обробка"
 
 #. Note: /options/bitmapoversample removed with Cairo renderer
-#: ../src/ui/dialog/inkscape-preferences.cpp:1427 ../src/verbs.cpp:156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1422 ../src/verbs.cpp:156
 #: ../src/widgets/calligraphy-toolbar.cpp:626
 msgid "Edit"
 msgstr "Змінити"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1428
+#: ../src/ui/dialog/inkscape-preferences.cpp:1423
 msgid "Automatically reload bitmaps"
 msgstr "Автоматично перезавантажувати растр"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1430
+#: ../src/ui/dialog/inkscape-preferences.cpp:1425
 msgid "Automatically reload linked images when file is changed on disk"
 msgstr ""
 "Автоматично перезавантажувати пов'язані зображення після зміни файла на диску"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1432
+#: ../src/ui/dialog/inkscape-preferences.cpp:1427
 msgid "_Bitmap editor:"
 msgstr "_Растровий редактор:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1434
+#: ../src/ui/dialog/inkscape-preferences.cpp:1429
 #: ../share/extensions/guillotine.inx.h:5 ../share/extensions/plotter.inx.h:55
 #: ../share/extensions/print_win32_vector.inx.h:2
 msgid "Export"
 msgstr "Експорт"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
 msgid "Default export _resolution:"
 msgstr "Типова роз_дільна здатність для експорту:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1437
+#: ../src/ui/dialog/inkscape-preferences.cpp:1432
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
 msgstr "Типова роздільна здатність (у точках на дюйм) у вікні експорту"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1438
+#: ../src/ui/dialog/inkscape-preferences.cpp:1433
 #: ../src/ui/dialog/xml-tree.cpp:912
 msgid "Create"
 msgstr "Створити"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
+#: ../src/ui/dialog/inkscape-preferences.cpp:1435
 msgid "Resolution for Create Bitmap _Copy:"
 msgstr "Роздільна здатність для створення растрової копі_ї:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1441
+#: ../src/ui/dialog/inkscape-preferences.cpp:1436
 msgid "Resolution used by the Create Bitmap Copy command"
 msgstr ""
 "Роздільна здатність, яку буде використано у команді створення растрової копії"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1444
+#: ../src/ui/dialog/inkscape-preferences.cpp:1439
 msgid "Ask about linking and scaling when importing"
 msgstr "Запитувати щодо пов’язування і масштабування під час імпортування"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1446
+#: ../src/ui/dialog/inkscape-preferences.cpp:1441
 msgid "Pop-up linking and scaling dialog when importing bitmap image."
 msgstr ""
 "Показувати діалогове вікно пов’язування і масштабування під час імпортування "
 "растрових зображень."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1452
+#: ../src/ui/dialog/inkscape-preferences.cpp:1447
 msgid "Bitmap link:"
 msgstr "Пов’язування растра:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1459
+#: ../src/ui/dialog/inkscape-preferences.cpp:1454
 msgid "Bitmap scale (image-rendering):"
 msgstr "Масштаб растра (обробка зображення):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1459
 msgid "Default _import resolution:"
 msgstr "Типова роздільна здатність для _імпортування:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1465
+#: ../src/ui/dialog/inkscape-preferences.cpp:1460
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
 msgstr ""
 "Типова роздільна здатність (у точках на дюйм) для імпортованих растрових "
 "зображень"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1466
+#: ../src/ui/dialog/inkscape-preferences.cpp:1461
 msgid "Override file resolution"
 msgstr "Перевизначити роздільну здатність з файла"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1468
+#: ../src/ui/dialog/inkscape-preferences.cpp:1463
 msgid "Use default bitmap resolution in favor of information from file"
 msgstr "Надавати перевагу типові роздільній здатності перед даними з файла"
 
 #. rendering outlines for pixmap image tags
-#: ../src/ui/dialog/inkscape-preferences.cpp:1472
+#: ../src/ui/dialog/inkscape-preferences.cpp:1467
 msgid "Images in Outline Mode"
 msgstr "Зображення у режимі ескіза"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1473
+#: ../src/ui/dialog/inkscape-preferences.cpp:1468
 msgid ""
 "When active will render images while in outline mode instead of a red box "
 "with an x. This is useful for manual tracing."
@@ -19791,11 +19788,11 @@ msgstr ""
 "Якщо позначено, у режимі ескіза замість червоного прямокутника з x "
 "показувати зображення. Корисно для трасування вручну."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1475
+#: ../src/ui/dialog/inkscape-preferences.cpp:1470
 msgid "Bitmaps"
 msgstr "Растрові зображення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1487
+#: ../src/ui/dialog/inkscape-preferences.cpp:1482
 msgid ""
 "Select a file of predefined shortcuts to use. Any customized shortcuts you "
 "create will be added seperately to "
@@ -19803,25 +19800,25 @@ msgstr ""
 "Виберіть файл попередньо визначених скорочень, яким слід скористатися. Всі "
 "створені вами нетипові скорочення буде окремо додано до "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1490
+#: ../src/ui/dialog/inkscape-preferences.cpp:1485
 msgid "Shortcut file:"
 msgstr "Файл скорочень:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1493
+#: ../src/ui/dialog/inkscape-preferences.cpp:1488
 #: ../src/ui/dialog/template-load-tab.cpp:48
 msgid "Search:"
 msgstr "Шукати:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1505
+#: ../src/ui/dialog/inkscape-preferences.cpp:1500
 msgid "Shortcut"
 msgstr "Скорочення"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1506
+#: ../src/ui/dialog/inkscape-preferences.cpp:1501
 #: ../src/ui/widget/page-sizer.cpp:260
 msgid "Description"
 msgstr "Опис"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1561
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 #: ../src/ui/dialog/pixelartdialog.cpp:296
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:698
 #: ../src/ui/dialog/tracedialog.cpp:813
@@ -19829,7 +19826,7 @@ msgstr "Опис"
 msgid "Reset"
 msgstr "Скинути"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1561
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 msgid ""
 "Remove all your customized keyboard shortcuts, and revert to the shortcuts "
 "in the shortcut file listed above"
@@ -19837,45 +19834,45 @@ msgstr ""
 "Вилучити всі нетипові клавіатурні скорочення і повернутися до скорочень, "
 "визначених у файлів, вказаному вище."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1565
+#: ../src/ui/dialog/inkscape-preferences.cpp:1560
 msgid "Import ..."
 msgstr "Імпорт…"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1565
+#: ../src/ui/dialog/inkscape-preferences.cpp:1560
 msgid "Import custom keyboard shortcuts from a file"
 msgstr "Імпортувати нетипові клавіатурні скорочення з файла"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1568
+#: ../src/ui/dialog/inkscape-preferences.cpp:1563
 msgid "Export ..."
 msgstr "Експортувати…"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1568
+#: ../src/ui/dialog/inkscape-preferences.cpp:1563
 msgid "Export custom keyboard shortcuts to a file"
 msgstr "Експортувати нетипові клавіатурні скорочення до файла"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1578
+#: ../src/ui/dialog/inkscape-preferences.cpp:1573
 msgid "Keyboard Shortcuts"
 msgstr "Клавіатурні скорочення"
 
 #. Find this group in the tree
-#: ../src/ui/dialog/inkscape-preferences.cpp:1741
+#: ../src/ui/dialog/inkscape-preferences.cpp:1736
 msgid "Misc"
 msgstr "Інше"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1839
+#: ../src/ui/dialog/inkscape-preferences.cpp:1834
 msgctxt "Spellchecker language"
 msgid "None"
 msgstr "Жодної"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1860
+#: ../src/ui/dialog/inkscape-preferences.cpp:1855
 msgid "Set the main spell check language"
 msgstr "Встановити основну мову перевірки правопису"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1863
+#: ../src/ui/dialog/inkscape-preferences.cpp:1858
 msgid "Second language:"
 msgstr "Друга мова:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1864
+#: ../src/ui/dialog/inkscape-preferences.cpp:1859
 msgid ""
 "Set the second spell check language; checking will only stop on words "
 "unknown in ALL chosen languages"
@@ -19883,11 +19880,11 @@ msgstr ""
 "Встановіть другу мову для перевірки правопису: перевірка зупинятиметься лише "
 "на словах, яких немає у ВСІХ вказаних мовах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1867
+#: ../src/ui/dialog/inkscape-preferences.cpp:1862
 msgid "Third language:"
 msgstr "Третя мова:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1868
+#: ../src/ui/dialog/inkscape-preferences.cpp:1863
 msgid ""
 "Set the third spell check language; checking will only stop on words unknown "
 "in ALL chosen languages"
@@ -19895,31 +19892,31 @@ msgstr ""
 "Встановіть третю мову для перевірки правопису: перевірка зупинятиметься лише "
 "на словах, яких немає у ВСІХ вказаних мовах"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1870
+#: ../src/ui/dialog/inkscape-preferences.cpp:1865
 msgid "Ignore words with digits"
 msgstr "Ігнорувати слова з цифрами"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1872
+#: ../src/ui/dialog/inkscape-preferences.cpp:1867
 msgid "Ignore words containing digits, such as \"R2D2\""
 msgstr "Ігнорувати слова, що містять цифри, наприклад, «R2D2»"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1874
+#: ../src/ui/dialog/inkscape-preferences.cpp:1869
 msgid "Ignore words in ALL CAPITALS"
 msgstr "Ігнорувати слова ПРОПИСНИМИ"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1876
+#: ../src/ui/dialog/inkscape-preferences.cpp:1871
 msgid "Ignore words in all capitals, such as \"IUPAC\""
 msgstr "Ігнорувати слова, написані прописними літерами, наприклад, «IUPAC»"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1878
+#: ../src/ui/dialog/inkscape-preferences.cpp:1873
 msgid "Spellcheck"
 msgstr "Перевірка правопису"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1898
+#: ../src/ui/dialog/inkscape-preferences.cpp:1893
 msgid "Latency _skew:"
 msgstr "Від_хилення латентності:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1899
+#: ../src/ui/dialog/inkscape-preferences.cpp:1894
 msgid ""
 "Factor by which the event clock is skewed from the actual time (0.9766 on "
 "some systems)"
@@ -19927,11 +19924,11 @@ msgstr ""
 "Коефіцієнт, на який годинник подій відхилятиметься від справжнього часу "
 "(0,9766 на деяких системах)."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1901
+#: ../src/ui/dialog/inkscape-preferences.cpp:1896
 msgid "Pre-render named icons"
 msgstr "Іменовані піктограми, що залежать від показу"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1903
+#: ../src/ui/dialog/inkscape-preferences.cpp:1898
 msgid ""
 "When on, named icons will be rendered before displaying the ui. This is for "
 "working around bugs in GTK+ named icon notification"
@@ -19940,85 +19937,85 @@ msgstr ""
 "користувача. Це зроблено для обходу вад у сповіщенні іменованою піктограмою "
 "у GTK+"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1911
+#: ../src/ui/dialog/inkscape-preferences.cpp:1906
 msgid "System info"
 msgstr "Відомості щодо системи"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1910
 msgid "User config: "
 msgstr "Налаштування користувача: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1910
 msgid "Location of users configuration"
 msgstr "Розташування налаштувань користувача"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1914
 msgid "User preferences: "
 msgstr "Параметри користувача: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1914
 msgid "Location of the users preferences file"
 msgstr "Розташування файлів з параметрами користувачів"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1918
 msgid "User extensions: "
 msgstr "Додатки користувача: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1918
 msgid "Location of the users extensions"
 msgstr "Розташування додатків користувача"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1922
 msgid "User cache: "
 msgstr "Кеш користувача: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1922
 msgid "Location of users cache"
 msgstr "Розташування кешу даних користувача"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1935
+#: ../src/ui/dialog/inkscape-preferences.cpp:1930
 msgid "Temporary files: "
 msgstr "Тимчасові файли: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1935
+#: ../src/ui/dialog/inkscape-preferences.cpp:1930
 msgid "Location of the temporary files used for autosave"
 msgstr ""
 "Розташування тимчасових файлів, які використовуватимуться для створення "
 "автоматичних копій"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1939
+#: ../src/ui/dialog/inkscape-preferences.cpp:1934
 msgid "Inkscape data: "
 msgstr "Дані Inkscape: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1939
+#: ../src/ui/dialog/inkscape-preferences.cpp:1934
 msgid "Location of Inkscape data"
 msgstr "Розташування даних Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1943
+#: ../src/ui/dialog/inkscape-preferences.cpp:1938
 msgid "Inkscape extensions: "
 msgstr "Додатки Inkscape: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1943
+#: ../src/ui/dialog/inkscape-preferences.cpp:1938
 msgid "Location of the Inkscape extensions"
 msgstr "Розташування додатків Inkscape"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1952
+#: ../src/ui/dialog/inkscape-preferences.cpp:1947
 msgid "System data: "
 msgstr "Системна дата: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1952
+#: ../src/ui/dialog/inkscape-preferences.cpp:1947
 msgid "Locations of system data"
 msgstr "Розташування загальносистемних даних"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1976
+#: ../src/ui/dialog/inkscape-preferences.cpp:1971
 msgid "Icon theme: "
 msgstr "Тема піктограм: "
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1976
+#: ../src/ui/dialog/inkscape-preferences.cpp:1971
 msgid "Locations of icon themes"
 msgstr "Розташування тем піктограм"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1978
+#: ../src/ui/dialog/inkscape-preferences.cpp:1973
 msgid "System"
 msgstr "Система"
 
@@ -26281,7 +26278,7 @@ msgid "Arc: Change open/closed"
 msgstr "Дуга: змінити відкритість/замкненість"
 
 #: ../src/widgets/arc-toolbar.cpp:288 ../src/widgets/arc-toolbar.cpp:317
-#: ../src/widgets/rect-toolbar.cpp:258 ../src/widgets/rect-toolbar.cpp:296
+#: ../src/widgets/rect-toolbar.cpp:259 ../src/widgets/rect-toolbar.cpp:297
 #: ../src/widgets/spiral-toolbar.cpp:214 ../src/widgets/spiral-toolbar.cpp:238
 #: ../src/widgets/star-toolbar.cpp:383 ../src/widgets/star-toolbar.cpp:444
 msgid "<b>New:</b>"
@@ -26290,7 +26287,7 @@ msgstr "<b>Новий:</b>"
 #. FIXME: implement averaging of all parameters for multiple selected
 #. gtk_label_set_markup(GTK_LABEL(l), _("<b>Average:</b>"));
 #: ../src/widgets/arc-toolbar.cpp:291 ../src/widgets/arc-toolbar.cpp:302
-#: ../src/widgets/rect-toolbar.cpp:266 ../src/widgets/rect-toolbar.cpp:284
+#: ../src/widgets/rect-toolbar.cpp:267 ../src/widgets/rect-toolbar.cpp:285
 #: ../src/widgets/spiral-toolbar.cpp:216 ../src/widgets/spiral-toolbar.cpp:227
 #: ../src/widgets/star-toolbar.cpp:385
 msgid "<b>Change:</b>"
@@ -27309,7 +27306,7 @@ msgstr "Показувати відомості щодо виміру для в�
 #. Add the units menu.
 #: ../src/widgets/lpe-toolbar.cpp:384 ../src/widgets/node-toolbar.cpp:613
 #: ../src/widgets/paintbucket-toolbar.cpp:166
-#: ../src/widgets/rect-toolbar.cpp:375 ../src/widgets/select-toolbar.cpp:536
+#: ../src/widgets/rect-toolbar.cpp:376 ../src/widgets/select-toolbar.cpp:536
 msgid "Units"
 msgstr "Одиниці"
 
@@ -27840,55 +27837,55 @@ msgstr ""
 msgid "Change rectangle"
 msgstr "Змінити прямокутник"
 
-#: ../src/widgets/rect-toolbar.cpp:314
+#: ../src/widgets/rect-toolbar.cpp:315
 msgid "W:"
 msgstr "Ш:"
 
-#: ../src/widgets/rect-toolbar.cpp:314
+#: ../src/widgets/rect-toolbar.cpp:315
 msgid "Width of rectangle"
 msgstr "Ширина прямокутника"
 
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 msgid "H:"
 msgstr "Г:"
 
-#: ../src/widgets/rect-toolbar.cpp:331
+#: ../src/widgets/rect-toolbar.cpp:332
 msgid "Height of rectangle"
 msgstr "Висота прямокутника"
 
-#: ../src/widgets/rect-toolbar.cpp:345 ../src/widgets/rect-toolbar.cpp:360
+#: ../src/widgets/rect-toolbar.cpp:346 ../src/widgets/rect-toolbar.cpp:361
 msgid "not rounded"
 msgstr "не округлений"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Horizontal radius"
 msgstr "Горизонтальний радіус"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Rx:"
 msgstr "Гор. радіус:"
 
-#: ../src/widgets/rect-toolbar.cpp:348
+#: ../src/widgets/rect-toolbar.cpp:349
 msgid "Horizontal radius of rounded corners"
 msgstr "Горизонтальний радіус округлених кутів"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Vertical radius"
 msgstr "Вертикальний радіус"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Ry:"
 msgstr "Верт. радіус:"
 
-#: ../src/widgets/rect-toolbar.cpp:363
+#: ../src/widgets/rect-toolbar.cpp:364
 msgid "Vertical radius of rounded corners"
 msgstr "Вертикальний радіус округлених кутів"
 
-#: ../src/widgets/rect-toolbar.cpp:382
+#: ../src/widgets/rect-toolbar.cpp:383
 msgid "Not rounded"
 msgstr "Не округлений"
 
-#: ../src/widgets/rect-toolbar.cpp:383
+#: ../src/widgets/rect-toolbar.cpp:384
 msgid "Make corners sharp"
 msgstr "Прибрати округлення кутів"
 
@@ -28720,11 +28717,11 @@ msgstr "Кінцеві маркери малюються на останньом
 msgid "Set markers"
 msgstr "Встановити маркери"
 
-#: ../src/widgets/stroke-style.cpp:1030 ../src/widgets/stroke-style.cpp:1115
+#: ../src/widgets/stroke-style.cpp:1032 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
 msgstr "Встановлення стилю штриха"
 
-#: ../src/widgets/stroke-style.cpp:1203
+#: ../src/widgets/stroke-style.cpp:1205
 msgid "Set marker color"
 msgstr "Встановити колір маркера"
 
@@ -29816,7 +29813,7 @@ msgstr ""
 "Контурів не знайдено. Будь ласка, перетворіть усі потрібні вам об’єкти для "
 "збереження на контури."
 
-#: ../share/extensions/inkex.py:109
+#: ../share/extensions/inkex.py:116
 #, python-format
 msgid ""
 "The fantastic lxml wrapper for libxml2 is required by inkex.py and therefore "
@@ -29835,20 +29832,24 @@ msgstr ""
 "Технічна інформація:\n"
 "%s"
 
-#: ../share/extensions/inkex.py:162
+#: ../share/extensions/inkex.py:169
 #, python-format
 msgid "Unable to open specified file: %s"
 msgstr "Не вдалося відкрити вказаний файл: %s"
 
-#: ../share/extensions/inkex.py:171
+#: ../share/extensions/inkex.py:178
 #, python-format
 msgid "Unable to open object member file: %s"
 msgstr "Не вдалося відкрити файл-частину об’єкта: %s"
 
-#: ../share/extensions/inkex.py:276
+#: ../share/extensions/inkex.py:283
 #, python-format
 msgid "No matching node for expression: %s"
 msgstr "Не знайдено відповідного вузла для виразу: %s"
+
+#: ../share/extensions/inkex.py:313
+msgid "SVG Width not set correctly! Assuming width = 100"
+msgstr ""
 
 #: ../share/extensions/interp_att_g.py:167
 msgid "There is no selection to interpolate"
@@ -30047,16 +30048,6 @@ msgstr ""
 "Не позначено жодного об'єкта. Будь ласка, позначте об'єкт, до якого ви "
 "бажаєте призначити область перегляду, а потім натисніть кнопку "
 "«Застосувати».\n"
-
-#: ../share/extensions/markers_strokepaint.py:83
-#, python-format
-msgid "No style attribute found for id: %s"
-msgstr "Не знайдено атрибута стилю для ідентифікатора: %s"
-
-#: ../share/extensions/markers_strokepaint.py:137
-#, python-format
-msgid "unable to locate marker: %s"
-msgstr "Не вдалося знайти маркер: %s"
 
 #: ../share/extensions/measure.py:50
 msgid ""
@@ -30407,7 +30398,6 @@ msgstr "Кількість сегментів:"
 #: ../share/extensions/edge3d.inx.h:9 ../share/extensions/flatten.inx.h:3
 #: ../share/extensions/fractalize.inx.h:4
 #: ../share/extensions/interp_att_g.inx.h:29
-#: ../share/extensions/markers_strokepaint.inx.h:13
 #: ../share/extensions/perspective.inx.h:2
 #: ../share/extensions/pixelsnap.inx.h:3
 #: ../share/extensions/radiusrand.inx.h:10
@@ -33239,7 +33229,6 @@ msgid "Translate Y"
 msgstr "Пересунути Y"
 
 #: ../share/extensions/interp_att_g.inx.h:15
-#: ../share/extensions/markers_strokepaint.inx.h:9
 msgid "Fill"
 msgstr "Заповнення"
 
@@ -34025,46 +34014,6 @@ msgstr ""
 "застосувати ефект до блоку із текстом вздовж контуру, цей текст заливається "
 "до блоку, якщо ні — до нового об'єкта тексту вздовж контуру, розміром у "
 "сторінку, у новому шарі."
-
-#: ../share/extensions/markers_strokepaint.inx.h:1
-msgid "Color Markers"
-msgstr "Маркери кольорів"
-
-#: ../share/extensions/markers_strokepaint.inx.h:2
-msgid "From object"
-msgstr "Від об'єкта"
-
-#: ../share/extensions/markers_strokepaint.inx.h:3
-msgid "Marker type:"
-msgstr "Тип маркера:"
-
-#: ../share/extensions/markers_strokepaint.inx.h:4
-msgid "Invert fill and stroke colors"
-msgstr "Інвертувати кольори заповнення і штрихів"
-
-#: ../share/extensions/markers_strokepaint.inx.h:5
-msgid "Assign alpha"
-msgstr "Призначити прозорість"
-
-#: ../share/extensions/markers_strokepaint.inx.h:6
-msgid "solid"
-msgstr "суцільний"
-
-#: ../share/extensions/markers_strokepaint.inx.h:7
-msgid "filled"
-msgstr "заповнений"
-
-#: ../share/extensions/markers_strokepaint.inx.h:10
-msgid "Assign fill color"
-msgstr "Призначити колір заповнення"
-
-#: ../share/extensions/markers_strokepaint.inx.h:11
-msgid "Stroke"
-msgstr "Штрих"
-
-#: ../share/extensions/markers_strokepaint.inx.h:12
-msgid "Assign stroke color"
-msgstr "Призначити колір штрихів"
 
 #: ../share/extensions/measure.inx.h:1
 msgid "Measure Path"
@@ -36354,6 +36303,59 @@ msgstr "Популярний графічний формат для кліпар
 #: ../share/extensions/xaml2svg.inx.h:1
 msgid "XAML Input"
 msgstr "Імпорт з XAML"
+
+#~ msgid ""
+#~ "Always convert the text size units above into pixels (px) before saving "
+#~ "to file"
+#~ msgstr ""
+#~ "Завжди перетворювати одиниці розміру символів у пікселі (пк) до "
+#~ "збереження файла"
+
+#~ msgid "Enable dynamic relayout for incomplete sections"
+#~ msgstr "Увімкнути динамічне перекомпонування для незавершених частин"
+
+#~ msgid ""
+#~ "When on, will allow dynamic layout of components that are not completely "
+#~ "finished being refactored"
+#~ msgstr ""
+#~ "Якщо позначено, програма автоматично виконуватиме компонування "
+#~ "компонентів, які не було повністю завершено до зміни масштабів."
+
+#~ msgid "No style attribute found for id: %s"
+#~ msgstr "Не знайдено атрибута стилю для ідентифікатора: %s"
+
+#~ msgid "unable to locate marker: %s"
+#~ msgstr "Не вдалося знайти маркер: %s"
+
+#~ msgid "Color Markers"
+#~ msgstr "Маркери кольорів"
+
+#~ msgid "From object"
+#~ msgstr "Від об'єкта"
+
+#~ msgid "Marker type:"
+#~ msgstr "Тип маркера:"
+
+#~ msgid "Invert fill and stroke colors"
+#~ msgstr "Інвертувати кольори заповнення і штрихів"
+
+#~ msgid "Assign alpha"
+#~ msgstr "Призначити прозорість"
+
+#~ msgid "solid"
+#~ msgstr "суцільний"
+
+#~ msgid "filled"
+#~ msgstr "заповнений"
+
+#~ msgid "Assign fill color"
+#~ msgstr "Призначити колір заповнення"
+
+#~ msgid "Stroke"
+#~ msgstr "Штрих"
+
+#~ msgid "Assign stroke color"
+#~ msgstr "Призначити колір штрихів"
 
 #~ msgid ""
 #~ "pySerial is not installed.\n"
