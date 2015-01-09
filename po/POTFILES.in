@@ -365,7 +365,6 @@ share/extensions/jessyInk_transitions.py
 share/extensions/jessyInk_video.py
 share/extensions/jessyInk_view.py
 share/extensions/launch_webbrowser.py
-share/extensions/markers_strokepaint.py
 share/extensions/measure.py
 share/extensions/pathalongpath.py
 share/extensions/pathmodifier.py
@@ -489,7 +488,6 @@ share/extensions/wireframe_sphere.py
 [type: gettext/xml] share/extensions/layout_nup.inx
 [type: gettext/xml] share/extensions/lindenmayer.inx
 [type: gettext/xml] share/extensions/lorem_ipsum.inx
-[type: gettext/xml] share/extensions/markers_strokepaint.inx
 [type: gettext/xml] share/extensions/measure.inx
 [type: gettext/xml] share/extensions/merge_styles.inx
 [type: gettext/xml] share/extensions/motion.inx
