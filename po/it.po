@@ -4235,17 +4235,15 @@ msgstr "Marina"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
-#, fuzzy
 msgctxt "Symbol"
 msgid "Motorbike Trail"
-msgstr "Sentiero motoslitta"
+msgstr "Sentiero motocicli"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
-#, fuzzy
 msgctxt "Symbol"
 msgid "Radiator Water"
-msgstr "_Rotazione"
+msgstr "Acqua radiatore"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
@@ -4383,7 +4381,7 @@ msgstr "Windsurf"
 #: ../share/symbols/symbols.h:291
 msgctxt "Symbol"
 msgid "Blank"
-msgstr ""
+msgstr "Bianco"
 
 #: ../share/templates/templates.h:1
 msgid "A4 Landscape Page"
