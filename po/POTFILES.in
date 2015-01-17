@@ -376,6 +376,7 @@ share/extensions/print_win32_vector.py
 share/extensions/render_barcode_datamatrix.py
 share/extensions/render_barcode_qrcode.py
 share/extensions/replace_font.py
+share/extensions/markers_strokepaint.py
 share/extensions/summersnight.py
 share/extensions/svg_and_media_zip_output.py
 share/extensions/svgcalendar.py
