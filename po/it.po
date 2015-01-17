@@ -24900,7 +24900,7 @@ msgstr "Crea una proiezione dinamica del tracciato originale"
 
 #: ../src/verbs.cpp:2542
 msgid "_Stroke to Path"
-msgstr "Da _linea a tracciato"
+msgstr "Da _contorno a tracciato"
 
 #: ../src/verbs.cpp:2543
 msgid "Convert selected object's stroke to paths"
