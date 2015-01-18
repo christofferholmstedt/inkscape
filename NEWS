@@ -1,4 +1,4 @@
-653 lines
+656 lines
 Inkscape 0.91
 
 (not released yet - AnnouncePlanning091)
@@ -10,9 +10,9 @@ Released on «YYYY-MM-DD».
   • Cairo rendering for display and PNG export
   • OpenMP multithreading for all filters
   • C++ code conversion
-  • Major improvements in the Text tool, typography extensions
+  • Major improvements in the Text tool
   • Measure tool
-  • Type design features
+  • Type design features [1],[2]
   • Symbol library and support for Visio stencils
   • Cross platform WMF and EMF import and export
   • Improved support for Corel DRAW documents, Visio importer
@@ -276,7 +276,9 @@ General
 
   • Canvas background color can be set without exporting it (background
     transparency is only used for export but not the canvas).
-
+  • Panning the canvas with the Space bar is now always turned on and doesn't
+    require an additional mouse button press to grab the canvas: just press the
+    Space bar and move the mouse pointer to pan the canvas.
 
 Guides
 
@@ -353,6 +355,7 @@ Translations
     color palettes are now translatable.
   • New UI translation in Latvian.
   • New tutorial translations in Galician and Greek.
+  • New Keyboard and mouse reference translation in Belarusian.
   • New man pages in Chinese (zh_TW) Greek (el), Japanese (ja) and Slovak (sk),
     and updated French translation. [Galician (gl) and Polish (pl) in progress]
   • Man pages now use PO files for translation (inkscape-docs project).
@@ -501,7 +504,7 @@ Notable bug fixes
 
 Notable bug fixes since last bug fix release (0.48.4):
 
-  • Images are no longer recompressed when embedding or exporting them. [1]
+  • Images are no longer recompressed when embedding or exporting them. [3]
   • Relative image paths are no longer stored as absolute (regression
     introduced with 0.47).
   • Many rendering glitches were fixed.
@@ -518,8 +521,8 @@ Known issues
     unusable because of exploding memory usage. Please set the colordepth to
     32-bit.
   • The Cairo library used in the new renderer does not implement downscaling,
-    which causes large bitmaps to be pixelated on export. [2] The issue can be
-    fixed by upgrading to Cairo 1.14.0. [3]
+    which causes large bitmaps to be pixelated on export. [4] The issue can be
+    fixed by upgrading to Cairo 1.14.0. [5]
 
 
 For information on prior releases, please see:

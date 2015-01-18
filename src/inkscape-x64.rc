@@ -13,11 +13,11 @@ BEGIN
             VALUE "Comments", "Published under the GNU GPL"
             VALUE "CompanyName", "inkscape.org"
             VALUE "FileDescription", "Inkscape"
-            VALUE "FileVersion", "0.91pre3"
+            VALUE "FileVersion", "0.91pre4"
             VALUE "InternalName", "Inkscape"
             VALUE "LegalCopyright", "© 2014 Inkscape"
             VALUE "ProductName", "Inkscape"
-            VALUE "ProductVersion", "0.91pre3"
+            VALUE "ProductVersion", "0.91pre4"
         END
     END
     BLOCK "VarFileInfo"
