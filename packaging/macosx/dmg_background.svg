@@ -14,9 +14,9 @@
    height="800"
    id="svg13532"
    version="1.1"
-   inkscape:version="0.91pre3 r13691"
+   inkscape:version="0.91pre4 r13717"
    viewBox="0 0 1280 800"
-   sodipodi:docname="dmg_background-pre4.svg">
+   sodipodi:docname="dmg_background.svg">
   <defs
      id="defs13534">
     <linearGradient
@@ -630,7 +630,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -994,7 +994,7 @@
              sodipodi:role="line"
              id="tspan4806"
              x="457.79602"
-             y="141.78999">Inkscape 0.91pre4</tspan></text>
+             y="141.78999">Inkscape 0.91</tspan></text>
         <path
            sodipodi:nodetypes="cccccccc"
            style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.8258427;fill:url(#linearGradient3762);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none"
