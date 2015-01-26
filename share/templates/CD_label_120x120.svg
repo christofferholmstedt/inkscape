@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="425.19684"
-   height="425.19684"
+   width="120mm"
+   height="120mm"
+   viewBox="0 0 425.19685039 425.19685039"
    id="svg2816"
    version="1.1"
-   inkscape:version="0.48+devel r9861"
-   sodipodi:docname="CD-Label_120x120.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:version="0.91pre4 r13717"
+   sodipodi:docname="CD-Label_120x120.svg">
   <defs
      id="defs2818" />
   <sodipodi:namedview
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="148.69955"
-     inkscape:cy="198.95067"
+     inkscape:cx="212.59843"
+     inkscape:cy="212.59843"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      id="namedview2820"
@@ -39,8 +39,6 @@
      inkscape:snap-bbox-midpoints="true"
      inkscape:window-width="850"
      inkscape:window-height="832"
-     inkscape:window-x="717"
-     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -48,23 +46,19 @@
      inkscape:snap-grids="true">
     <sodipodi:guide
        orientation="1,0"
-       position="212.59843,212.59843"
-       id="guide2827" />
+       position="212.59843,0"
+       id="guide3337" />
     <sodipodi:guide
        orientation="0,1"
-       position="212.59843,212.59843"
-       id="guide2829" />
+       position="0,212.59843"
+       id="guide3339" />
     <inkscape:grid
        type="xygrid"
-       id="grid3072"
-       empspacing="10"
-       visible="true"
-       enabled="true"
-       snapvisiblegridlinesonly="true"
+       id="grid3351"
        units="mm"
-       dotted="false"
-       spacingx="0.1mm"
-       spacingy="0.1mm" />
+       spacingx="1mm"
+       spacingy="1mm"
+       empspacing="5" />
   </sodipodi:namedview>
   <metadata
      id="metadata2822">
@@ -82,42 +76,28 @@
       <inkscape:_name>CD Label 120x120 </inkscape:_name>
       <inkscape:author>JazzyNico</inkscape:author>
       <inkscape:_shortdesc>Simple CD Label template with disc's pattern.</inkscape:_shortdesc>
-      <inkscape:date>2010-11-15</inkscape:date>
+      <inkscape:date>2015-01-25</inkscape:date>
       <inkscape:_keywords>CD label 120x120 disc disk</inkscape:_keywords>
   </inkscape:_templateinfo>
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       sodipodi:type="arc"
-       style="fill:none;stroke:#000000;stroke-width:0.14648895;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path2831"
-       sodipodi:cx="-132.58252"
-       sodipodi:cy="210.41315"
-       sodipodi:rx="83.968933"
-       sodipodi:ry="90.156113"
-       d="m -48.613586,210.41315 a 83.968933,90.156113 0 1 1 -167.937864,0 83.968933,90.156113 0 1 1 167.937864,0 z"
-       transform="matrix(2.5297404,0,0,2.3561309,547.99778,-283.1625)" />
-    <path
-       transform="matrix(0.31591735,0,-0.01153582,0.29446415,256.91083,150.63929)"
-       d="m -48.613586,210.41315 a 83.968933,90.156113 0 1 1 -167.937864,0 83.968933,90.156113 0 1 1 167.937864,0 z"
-       sodipodi:ry="90.156113"
-       sodipodi:rx="83.968933"
-       sodipodi:cy="210.41315"
-       sodipodi:cx="-132.58252"
-       id="path3605"
-       style="fill:none;stroke:#000000;stroke-width:0.14648895;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:none;stroke:#000000;stroke-width:0.14648895;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3607"
-       sodipodi:cx="-132.58252"
-       sodipodi:cy="210.41315"
-       sodipodi:rx="83.968933"
-       sodipodi:ry="90.156113"
-       d="m -48.613586,210.41315 a 83.968933,90.156113 0 1 1 -167.937864,0 83.968933,90.156113 0 1 1 167.937864,0 z"
-       transform="matrix(0.79925011,0,-0.02918487,0.74498189,324.70589,55.844435)" />
+     id="Template"
+     inkscape:label="Layer 1"
+     style="fill:none;stroke:#000000;stroke-width:0.35433071px">
+    <circle
+       id="path3341"
+       cx="212.59843"
+       cy="212.59843"
+       r="212.59843" />
+    <circle
+       id="path3349"
+       cx="212.59843"
+       cy="212.59843"
+       r="67.322845" />
+    <circle
+       id="path3343"
+       cx="212.59843"
+       cy="212.59843"
+       r="26.574814" />
   </g>
 </svg>
