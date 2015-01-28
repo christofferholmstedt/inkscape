@@ -1,3 +1,3767 @@
+2015-01-26  Firas Hanife
+
+	Documentation. Italian translation update of Basic and Advanced tutorials.
+
+2015-01-26  Alexandre Prokoudine
+
+	Translations. Russian translation update.
+
+2015-01-25  Josh Andler  <scislac@gmail.com>
+
+	Backport simplification of File menu structure.
+
+2015-01-25  Josh Andler  <scislac@gmail.com>
+
+	Patch for bug 1414382 to fix CD Template.
+
+2015-01-25  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. K&M reference not available in German.
+
+2015-01-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging/macosx: update version string for 0.91 in DMG background image
+
+2015-01-25  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Updating K&M reference links to the new version.
+
+2015-01-24  Josh Andler  <scislac@gmail.com>
+
+	Backported patch for bug 1411208 to fix EPS export area
+
+2015-01-24  Josh Andler  <scislac@gmail.com>
+
+	Backported patch for bug 855440 to fix consecutive clipboard importing
+
+2015-01-24  Ivan Masár  <helix84@centrum.sk>
+
+	* [INTL:sk] Slovak translation update
+
+2015-01-21  Josh Andler  <scislac@gmail.com>
+
+	Disable UI for CubicBezierJohan in Power stroke, as it never got a proper name.
+
+2015-01-21  Josh Andler  <scislac@gmail.com>
+
+	Backport r13776+r13789 from trunk to address bug 1384915
+
+2015-01-18  bryce  <bryce@ubuntu.com>
+
+	update for 0.91pre4 release
+
+2015-01-17  Firas Hanife
+
+	Translations. Italian tutorials update.
+
+2015-01-17  Firas Hanife
+
+	Translations. Italian translation update.
+
+2015-01-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fixing make check error due to a missing file in POTFILES.in.
+
+2015-01-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. New Galician translation of the Shapes tutorial by Leandro Regueiro.
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for bug 1367443 to not modify shape of path while adding a node.
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport patch from bug 1401993 for additional sorting in shortcut editor.
+
+2015-01-16  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging/macosx: update version string (for 0.91pre4) in DMG background image
+
+2015-01-16  ~suv  <suv-sf@users.sourceforge.net>
+
+	Backport osx packaging update from trunk (r13856)
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for bug 1396657 from trunk r13778 to fix Measure Path extension.
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for bug 1406458 from trunk r13844 to fix seed issue with feTurbulence.
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport fix for bug 1401782 to gray out button which should be at startup.
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport patch for bug 758718 to fix color picker alignment.
+
+2015-01-16  Josh Andler  <scislac@gmail.com>
+
+	Backport patch from bug 1396372 to fix building without lcms.
+
+2015-01-15  theAdib  <theadib@gmail.com>
+
+	Packaging fix for Windows MSI installers.
+
+2015-01-15  Tavmjong Bah  <tavmjong@free.fr>
+
+	Patches from bug 1400702 to improve compatibility of guides, drids, and 3d boxes
+
+2015-01-10  Firas Hanife
+
+	Translations. Italian translation udpate.
+
+2015-01-09  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. PO files update
+
+2015-01-09  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for bug #1409058 (update_po_files.sh is not working in 0.91.x).
+
+2015-01-05  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translators list update
+
+2015-01-05  Ben Weis
+
+	Translation. German translation update by Heiko Woehrle and Ben Weis.
+
+2014-12-31  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Tutorials update (and new Tracing pixelart translations).
+
+2014-12-28  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-12-25  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Fix for bug #1405653 (Outdated links in hacking doc).
+	Documentation. Fix for bug #1405652 (Outdated link in Inkview).
+
+2014-12-18  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-12-17  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-12-11  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-12-10  ~suv  <suv-sf@users.sourceforge.net>
+
+	Patch from comment 3. Fixes building with Poppler 0.29.
+
+2014-12-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Temporarily disabling the Color Markers extension (see Bug #1055796).
+
+2014-12-08  Alan  <alan@drouizig.org>
+
+	Translations. Breton translation by Alan
+
+2014-12-07  bryce  <bryce@ubuntu.com>
+
+	Remove the option to "Enable dynamic relayout for incomplete sections"
+	
+	To be applied to <lp:inkscape/0.91.x> only, to avoid users setting a
+	preference which breaks the tool controls bar when using the 'wide'
+	toolbar layout in the upcoming stable release (see also recent duplicate
+	report bug #1387151)
+	
+	Fixes (for 0.91.x):  https://bugs.launchpad.net/inkscape/+bug/619903/
+
+2014-12-07  bryce  <bryce@ubuntu.com>
+
+	Suppress debug messages on bitmap image import
+	
+	Patch thanks to su_v:
+	
+	https://gist.github.com/su-v/a3a279c7ef015b8223ee
+
+2014-12-07  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Keys and mouse reference files update (including a new Belarusian translation by Hleb Valoshka).
+
+2014-12-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx packaging: disable menu entry for openclipart import (defunct in current packages)
+
+2014-12-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	Update for osx packaging (add support for debug builds, add build number to package names)
+
+2014-12-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging/macosx: fix typo in osx-app.sh
+
+2014-12-04  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. French translation udpate (99%).
+
+2014-12-03  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-12-03  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-12-03  Josh Andler  <scislac@gmail.com>
+
+	Suppress debug message.
+
+2014-12-01  Hannes Hochreiner
+
+	Extensions. Fix for Bug #1192746 (e key does not start export on firefox [JessyInk])
+
+2014-12-01  bryce  <bryce@ubuntu.com>
+
+	extensions:  Also install extensions written in perl, shell, and ruby 
+
+2014-11-30  bryce  <bryce@ubuntu.com>
+
+	update for release 0.91pre3
+
+2014-11-30  bryce  <bryce@ubuntu.com>
+
+	Update news for release
+
+2014-11-30  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-11-30  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging/macosx: update version string (for 0.91pre3) in DMG background image
+
+2014-11-29  Josh Andler  <scislac@gmail.com>
+
+	Backport r13729: Patch for bug #1282968 (kerning of Telugu fonts is broken) by David Mathog.
+
+2014-11-27  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-11-27  tavmjong-free  <tavmjong@free.fr>
+
+	Changed unintended renaming of function. Fixes the build.
+
+2014-11-26  Josh Andler  <scislac@gmail.com>
+
+	Backport r13715, plus a couple DisplayUnit changes
+
+2014-11-26  Josh Andler  <scislac@gmail.com>
+
+	Backport precision fix from trunk r13632.
+
+2014-11-26  Josh Andler  <scislac@gmail.com>
+
+	Units fixes - backporting revisions 13748, 13750, 13751, 13753, 13755, 13758, 13759, 13760, plus has a units.xml update via email from Tavmjong.
+
+2014-11-26  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-11-25  Masato HASHIMOTO
+
+	Translation. Japanese translation update by Masato HASHIMOTO.
+
+2014-11-25  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-11-24  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-11-23  Masato HASHIMOTO
+
+	i18n. Fix for Bug #1388916 (There seem to be untranslatable strings in MapSymbolsNPS.svg) by Masato HASHIMOTO."
+	Translation. PO template and French translation update. 
+
+2014-11-21  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-11-21  tavmjong-free  <tavmjong@free.fr>
+
+	Add 'viewBox' to default.svg and internationalized versions (based on 90px per inch).
+	Uniformly use 'mm' in width/height in above files (was a mixture of 'px' and 'mm').
+	Add perl script to generate internationalized versions of default file.
+
+2014-11-19  apenner  <penner@vaxxine.com>
+
+	Backport patch from trunk r13735. Modify sequence of events to fix stroke scaling with mm.
+
+2014-11-19  Christoffer Holmstedt  <christoffer.holmstedt@gmail.com>
+
+	Updated Swedish translation to 41%
+
+2014-11-19  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translation. French translation update (99% and probably final for 0.91).
+
+2014-11-19  Ivan Masár  <helix84@centrum.sk>
+
+	* [INTL:zh_TW] Traditional Chinese translation update
+
+2014-11-19  Ivan Masár  <helix84@centrum.sk>
+
+	* [INTL:zh_TW] Traditional Chinese translation update
+
+2014-11-18  Firas Hanife
+
+	Translation. Italian translation update by Firas Hanife.
+
+2014-11-17  Josh Andler  <scislac@gmail.com>
+
+	Revert previous translation commit
+
+2014-11-17  Christoffer Holmstedt  <christoffer.holmstedt@gmail.com>
+
+	Updated Swedish to 41%
+
+2014-11-16  Liam P. White  <inkscapebrony@gmail.com>
+
+	Backport r13720. Don't write the d attribute on <circle> or <ellipse> (SVG compliance).
+
+2014-11-16  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translation. en_GB translation update by Tim Sheridan.
+
+2014-11-16  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translation. Basque translation update by Iñaki Larrañaga Murgoitio
+
+2014-11-16  tavmjong-free  <tavmjong@free.fr>
+
+	Add 'osb' to list of namespaces ignored when checking attributes/properties.
+
+2014-11-16  tavmjong-free  <tavmjong@free.fr>
+
+	Copy cleaned-up file from trunk.
+
+2014-11-16  tavmjong-free  <tavmjong@free.fr>
+
+	Remove invalid attributes.
+
+2014-11-15  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translation. French translation update (98%).
+
+2014-11-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translation. French translation udpate (97%).
+
+2014-11-12  tavmjong-free  <tavmjong@free.fr>
+
+	Add new text-decoration properties to cssprops.
+
+2014-11-08  tavmjong-free  <tavmjong@free.fr>
+
+	Fix typo. Add text-decoration-color, etc. to list of properties that should not be set on non-text objects.
+
+2014-11-06  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix for bug #1388840 ([0.91.x] rev 13628 needs to be backported from trunk)
+
+2014-11-03  Josh Andler  <scislac@gmail.com>
+
+	0.91 About Screen Contest first place winning entry by Pascal Wagler
+
+2014-11-01  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix make distcheck
+
+2014-10-29  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fixing untranslated strings.
+
+2014-10-29  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Italian translation update by Firas Hanife
+
+2014-10-24  ~suv  <suv-sf@users.sourceforge.net>
+
+	Backport osx-packaging update (trunk r13635)
+
+2014-10-23  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Brazilian Portuguese translation update by Victor Westmann.
+
+2014-10-21  JazzyNico  <nicoduf@yahoo.fr>
+
+	Updating translators list.
+
+2014-10-21  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. All language files updated with the most recent strings.
+
+2014-10-21  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Czech translation update by Ivan Řihošek.
+	Translations. Ukrainian translation update by Yuri Chornoivan.
+
+2014-10-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Porting scaling patches for Powerstroke
+
+2014-10-20  JazzyNico  <nicoduf@yahoo.fr>
+
+	Typo. Fixing typos in translatable strings.
+	Translations. POT file and Italian translation update (by Firas Hanife).
+
+2014-10-20  Jabiertxof  <jtx@jtx.marker.es>
+
+	Fix a bug in stroke joins in symbolic icons miter toogled with bevel
+
+2014-10-17  Jon A. Cruz  <jon@joncruz.org>
+
+	Refactoring hatch to remove memory leaks (bad GTKish casting macros) and uninitialized value.
+
+2014-10-17  Fridrich Strba  <fridrich.strba@bluewin.ch>
+
+	Port inkscape to librevenge framework for WPG, CDR and VSD imports
+
+2014-09-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13560)
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13540)
+
+2014-08-26  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13532)
+
+2014-08-26  ~suv  <suv-sf@users.sourceforge.net>
+
+	librevenge: update to latest patch from bug #1323592 (support old and new versions of libwpg, libcdr and libvisio
+	)
+
+2014-08-04  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13488)
+
+2014-07-27  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13472)
+
+2014-07-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13454)
+
+2014-06-15  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13425)
+
+2014-06-04  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13407)
+
+2014-05-27  Fridrich  <fridrich.strba@bluewin.ch>
+
+	Port inkscape to librevenge framework for WPG, CDR and VSD imports
+
+2014-10-16  Liam P. White  <inkscapebrony@gmail.com>
+
+	Merge in osx-packaging-update branch. OS X packaging now works correctly for trunk.
+
+2014-10-14  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13610)
+
+2014-10-10  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13586)
+
+2014-10-10  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging scripts: fix syntax
+
+2014-10-06  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13580)
+
+2014-10-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13577)
+
+2014-09-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13564)
+
+2014-09-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: sync with osxmenu (whitespace, formatting)
+
+2014-09-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	Packaging: fix typo
+
+2014-09-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Packaging: python wrapper - override PYTHONPATH if using external modules (PyGTK)
+
+2014-09-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13561)
+
+2014-09-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	revbump meta port (start with 100 like the other local ports)
+
+2014-09-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	Packaging: include PyGTK (required e.g. for Sozi extension)
+
+2014-09-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	Packaging: fix python-wrapper.sh (currently not in use)
+
+2014-09-19  ~suv  <suv-sf@users.sourceforge.net>
+
+	update EXTRA_DIST for files added in packaging/macosx/ports (r13604)
+
+2014-09-16  ~suv  <suv-sf@users.sourceforge.net>
+
+	ports: maintain current ports for python25 and py25-* modules for packaging locally (support will likely be removed in upstream MacPorts)
+
+2014-09-15  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13556)
+
+2014-09-14  ~suv  <suv-sf@users.sourceforge.net>
+
+	simplify test (note to self: always consult the man page before pushing a commit ... )
+
+2014-09-14  ~suv  <suv-sf@users.sourceforge.net>
+
+	fix flawed test for cpu capability (r13600)
+
+2014-09-14  ~suv  <suv-sf@users.sourceforge.net>
+
+	packaging: don't rely on 'uname -a' for build_arch (instead use same tests as MacPorts internally)
+
+2014-09-14  ~suv  <suv-sf@users.sourceforge.net>
+
+	Instructions for setting up build env: sudo with redirection fails, use workaround
+
+2014-09-14  ~suv  <suv-sf@users.sourceforge.net>
+
+	partial cleanup of dmg_background.svg
+
+2014-09-13  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13554)
+
+2014-09-13  ~suv  <suv-sf@users.sourceforge.net>
+
+	update resources for DMG (draft for new background image);
+	TODO: add notes about background image and compatibility with Mac OS X Leopard
+
+2014-09-11  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13551)
+
+2014-09-11  ~suv  <suv-sf@users.sourceforge.net>
+
+	update EXTRA_DIST for files in packaging/macosx
+
+2014-09-10  ~suv  <suv-sf@users.sourceforge.net>
+
+	update launcher for quartz backend too (no external loader cache files)
+
+2014-09-10  ~suv  <suv-sf@users.sourceforge.net>
+
+	Use global variants instead attempting to propagate default variants via meta port
+
+2014-09-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13550)
+
+2014-09-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	don't store temp loader and module cache files outside the app bundle
+
+2014-09-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	default MacPorts install requires sudo to edit config file
+
+2014-09-09  ~suv  <suv-sf@users.sourceforge.net>
+
+	silence warning when building from release tarball (no bzr)
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-app.sh: restore strip option
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	build scripts: implement verbose mode
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13549)
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: update creation of info file (more packages, include license and homepage)
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-app.sh: use PlistBuddy instead of defaults
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-app.sh: clean up "Safety tests"
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-app.sh: whitespace
+
+2014-09-08  ~suv  <suv-sf@users.sourceforge.net>
+
+	add initial support for Quartz backend (no gtk-mac-integration, no native shortcut modifiers)
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13547)
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	meta port: formatting
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	fix typo (wrong file name in last commit)
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	fix instructions: local repository needs to be inserted above rsync URL
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	add missing dependencies to meta port
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	include py-Pillow too (has variant to disable tkinter support)
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	fix mistake in inkscape-packaging portfile
+
+2014-09-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	add meta port inkscape-packaging, add README.txt with quick instructions (needs review and testing)
+
+2014-09-06  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13546)
+
+2014-09-06  ~suv  <suv-sf@users.sourceforge.net>
+
+	remove compiler option '-pipe' (on LiamW's request)
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13545)
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	launcher script: exit if change of working directory fails
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	Make wrappper scripts executable
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	add wrapper script for gimp (supports GIMP.app) and python (not activated)
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	launcher script: add a few checks for recursive calls
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	work around breakages due to current implementation of OS X relocation support
+
+2014-09-05  ~suv  <suv-sf@users.sourceforge.net>
+
+	revert simplification of launcher scripts (r13561)
+
+2014-09-03  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13542)
+
+2014-09-03  ~suv  <suv-sf@users.sourceforge.net>
+
+	Simplify nested structure of launcher scripts (needs testing)
+
+2014-09-03  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: don't attempt to update a bound branch
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	add GTK+ backend to DMG filename, info file
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13539)
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	update copyright year, authors; fix whitespace
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix python module bundling for Python 2.5 and 2.6. Support custom location for python modules (default is from MacPorts)
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	add more custom portfiles for Leopard and Python 2.5
+
+2014-09-02  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13538)
+
+2014-08-26  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-app.sh: test awk and require gawk if too old
+
+2014-08-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13531)
+
+2014-08-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-app.sh: check for python_dir if 'add_python' is true (needs fixing)
+
+2014-08-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	add debug options to launcher script
+
+2014-08-25  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: if repo is checkout use 'bzr update', else 'bzr pull'.
+	(is there a better way to check binding state with bzr?)
+
+2014-08-22  ~suv  <suv-sf@users.sourceforge.net>
+
+	Use Inkscape icon for osascript dialog
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	Improve relocation support for ImageMagick libs and modules
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	add poppler data to bundle, fix relocation support (see bug #956282)
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	add custom ports for Inkscape.app (Python 2.6.1 to be used on Leopard and SL, UniConvertor 1.1.5)
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	Remove unused directory in Resources
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	Refactor packaging of python modules;
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	launcher scripts: move fc-cache alert to script, define xdg setup in single location and source it from script and openDoc
+
+2014-08-21  ~suv  <suv-sf@users.sourceforge.net>
+
+	build scripts: refactor tests based on OS X version
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	launcher scripts: we introduced bashism for command substitution, make sure the shell can handle it
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: refactor OS X version tests (thx Liam)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: refactor for easier maintenance (don't hard-code build prefix in several locations)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: use system compilers and compiler flags known to work, depending on OS X version
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	fontconfig: location of fonts.dtd has changed, fix it.
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	launcher scripts: rewrite command substitution, keep both scripts in sync
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Resources/script: improve cli support (rel path to script) - thx Liam for the reminder\!
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	include fontconfig's fonts.dtd (fonts.conf is custom and copied from Resources/etc/fonts)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Reorg Resources folder: move inkscape's shared resources into Resources/share/inkscape
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	add TODO comment to Resources/bin/inkscape too
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	cleanup: remove unused variables and outdated comments
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	use $XDG_CACHE_HOME/inkscape instead of ~/.inkscape-etc for generated rc and loader cache files
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	prepare to use XDG Base Directory Specification for user files
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	update name and location of loader caches (upstream changes)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	revert PREFDIR changes because ~/.inkscape-etc is still referenced elsewhere.
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Enable lcms2 support on OS X
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	update to trunk (r13528)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	macosx packaging: a few minor changes
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	ScriptExec: cleanup (remove defined but not used function)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	fontconfig: fix copying of conf.avail; disable bitmap fonts (see bug #714859)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	follow-up to previous commit (adjust fallback for LIBPREFIX, adjust comment)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	generate GtkStock icon theme when filling the app bundle
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	fix copy/paste error in launcher script
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	remove support for X11 on Panther and Tiger (Leopard and later use launchd)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	update custom fonts.conf to latest upstream changes
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	.bzrignore: add directories generated for macosx packaging
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix GTK+ module caches; simplify gtk theme usage; remove copy of Adwaita theme
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	osx-build.sh: don't hard-code LIBPREFIX, other minor changes
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Support compiling ScriptExec on newer versions of OS X (please review)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Add /System/Library/Fonts back to fontconfig's directory list (see bug #1288672)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix typos in build scripts (see bug #1305427)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Info.plist.in: add application category (see bug #1302849)
+
+2014-08-20  ~suv  <suv-sf@users.sourceforge.net>
+
+	Info.plist.in: update copyright year
+
+2014-08-10  Liam P. White  <inkscapebrony@gmail.com>
+
+	OS X packaging update
+
+2014-10-16  Jon A. Cruz  <jon@joncruz.org>
+
+	Removed dangerous GTK-mimicking macros.
+
+2014-10-15  Jon A. Cruz  <jon@joncruz.org>
+
+	Cleanup of unintialized and leaked values.
+
+2014-10-15  tavmjong-free  <tavmjong@free.fr>
+
+	Font caching from experimental branch. Speeds up Inkscape start-up.
+	Most work by Liam. Various tweeks by Tav.
+
+2014-10-15  tavmjong-free  <tavmjong@free.fr>
+
+	Various small font things.
+	(experimental r13577-13579)
+
+2014-10-15  tavmjong-free  <tavmjong@free.fr>
+
+	More direct way of finding font-family. One entry per unique style.
+	(experimental r13580 and r12581)
+
+2014-10-15  tavmjong-free  <tavmjong@free.fr>
+
+	Fix strict build with Gtk+ 2
+	(experimental commit r13513)
+
+2014-10-15  tavmjong-free  <tavmjong@free.fr>
+
+	LiamW's initial font caching work.
+
+2014-10-15  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix build
+
+2014-10-15  Jon A. Cruz  <jon@joncruz.org>
+
+	Post-merge cleanup.
+
+2014-10-14  tavmjong-free  <tavmjong@free.fr>
+
+	Merge hatch rendering code from Tomasz Boczkowski.
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged hatch pdf and png export code
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged hatch rendering code
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/sp-item.cpp from svg-paints-support branch
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/sp-item.h from svg-paints-support branch
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/style-internal.cpp from svg-paints-support branch
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/style.cpp from svg-paints-support branch
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/style.h from svg-paints-support branch
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/style.h from svg-paints-support branch
+
+2014-10-14  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Merged src/display folder from svg-paints-support branch
+
+2014-10-14  tavmjong-free  <tavmjong@free.fr>
+
+	Implement marker 'orient' attribute value 'auto-start-reverse'.
+
+2014-10-14  tavmjong-free  <tavmjong@free.fr>
+
+	Add 'white-space' CSS property (replaces deprecated xml:space).
+
+2014-10-13  bryce  <bryce@ubuntu.com>
+
+	Fix crash with GTK+ 3.14 on launch
+	
+	Patch from Liam to check for undefined desktop during startup.
+	
+	** (inkscape:57708): CRITICAL **: SPCanvas* sp_desktop_canvas(const
+	SPDesktop*): assertion 'desktop != NULL' failed
+	
+	Fixes:  https://bugs.launchpad.net/inkscape/+bug/1375085
+
+2014-10-13  bryce  <bryce@ubuntu.com>
+
+	2geom: Re-fix IS_NAN and IS_FINITE for solaris
+	
+	This patch should go upstream to 2geom...
+
+2014-10-13  tavmjong-free  <tavmjong@free.fr>
+
+	Fixed: "Called C++ object pointer is null"
+
+2014-10-13  tavmjong-free  <tavmjong@free.fr>
+
+	Fix multiple: "Called C++ object pointer is null"
+
+2014-10-13  tavmjong-free  <tavmjong@free.fr>
+
+	Fix "Called C++ object pointer is null"
+
+2014-10-13  tavmjong-free  <tavmjong@free.fr>
+
+	Fix: "Forming reference to null pointer"
+
+2014-10-12  apenner  <penner@vaxxine.com>
+
+	improve precision of viewBox in mm
+
+2014-10-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Russian translation update by Alexandre Prokoudine.
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	DrawingItem: add NULL check (bug found by clang static analyzer)
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	path combine: add an assert to indicate that item list cannot be empty
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	object-snapper.cpp : make the logic easier to read (use else-clause as default initialization value)
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	noop: remove duplicate assignment in sp-lpe-item.cpp
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Extension enumeration/dropdownbox parameter: fix potential NULL-deref crash on xml == nullptr.
+
+2014-10-12  tavmjong-free  <tavmjong@free.fr>
+
+	Fix "Value stored to 'child' is never read"
+
+2014-10-12  tavmjong-free  <tavmjong@free.fr>
+
+	Fix "Access to field 'image_out' results in a dereference of a null pointer"
+
+2014-10-12  tavmjong-free  <tavmjong@free.fr>
+
+	Fix "Access to field 'image_out' results in a dereference of a null pointer"
+
+2014-10-12  tavmjong-free  <tavmjong@free.fr>
+
+	Fix "Access to field 'image_out' results in a dereference of a null pointer"
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	undo whitespace edit. it's an external dependency, and let's assume that the potential bug is not a bug (line 611, possibly uninitialized used of prev[i])
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Mass fix whitespace (clang-format) before working on bug
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Change clang-format configuration
+	
+	Prefer
+	ParamColor::ParamColor(const gchar *name, const gchar *guitext, const gchar *desc, const Parameter::_scope_t scope,
+	bool gui_hidden, const gchar *gui_tip, Inkscape::Extension::Extension *ext,
+	Inkscape::XML::Node *xml)
+	: Parameter(name, guitext, desc, scope, gui_hidden, gui_tip, ext)
+	, _value(0)
+	, _changeSignal(0)
+	{
+	over
+	ParamColor::ParamColor(const gchar *name, const gchar *guitext, const gchar *desc, const Parameter::_scope_t scope,
+	bool gui_hidden, const gchar *gui_tip, Inkscape::Extension::Extension *ext,
+	Inkscape::XML::Node *xml)
+	: Parameter(name, guitext, desc, scope, gui_hidden, gui_tip, ext), _value(0), _changeSignal(0)
+	{
+
+2014-10-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	LPEVonKoch: improve rev. 13589 by removing the else branch for complexity calculation for better human readability
+
+2014-10-11  apenner  <penner@vaxxine.com>
+
+	maintain page size units when resizing page to drawing (Bug 1310787)
+
+2014-10-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	LPEVonKoch : remove redundant assignment (is taken care of by the following if-statement)
+	
+	Found by clang static analyzer
+
+2014-10-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Fix uninitialized variable use in svg-color.cpp. (additionally reduce scope of variable)
+	
+	Bug found using clang static analyzer.
+	The bug happens with color_out not being initialized upon definition; then
+	1. if(icc) == true
+	2. if(prof) == true
+	3. if(trans) == false
+	4. *r = color_out[0];  <-- un-init use
+	Fixed by initializing color_out (with black).
+
+2014-10-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Fix "Argument with 'nonnull' attribute passed null" API bug in extension color parameter construction.
+	
+	Clang static analyzer has found an "Argument with 'nonnull' attribute passed null".
+	The applied fix here checks if the defaulthex argument is nullptr before making the call. A default initialization value is added to the constructor in case defaulthex == nullptr.
+	
+	(with additional whitespace improvements)
+
+2014-10-09  tavmjong-free  <tavmjong@free.fr>
+
+	Apply cx, cy, etc. from template to newly created document window.
+
+2014-10-09  tavmjong-free  <tavmjong@free.fr>
+
+	Add proper 'viewBox', set 'inkscape:document-units',
+	set maximum em-size to 2048 as is typical in TrueType.
+
+2014-10-09  tavmjong-free  <tavmjong@free.fr>
+
+	Fix 'viewBox' and 'inkscape:document-units', add 'inkscape:cx' and 'inkscape:cy'.
+
+2014-10-09  tavmjong-free  <tavmjong@free.fr>
+
+	Allow <sodipodi:namedview> attributes to be set by scripts.
+
+2014-10-09  tavmjong-free  <tavmjong@free.fr>
+
+	Add comment.
+
+2014-10-08  apenner  <penner@vaxxine.com>
+
+	avoid round-off error when calculating viewbox transform c2p (Bug 1374614 and Bug 1235279)
+
+2014-10-05  tavmjong-free  <tavmjong@free.fr>
+
+	Remove unused functions.
+
+2014-10-05  tavmjong-free  <tavmjong@free.fr>
+
+	More direct way of finding font-family in SPText::description.
+
+2014-10-03  apenner  <penner@vaxxine.com>
+
+	modify scaling procedure for uniform scaling of flowed text (Bug 1278561)
+
+2014-10-02  tavmjong-free  <tavmjong@free.fr>
+
+	Work-around for Pango 1.36.7 which introduced 'Semi-Light' font weight,
+	bug #1364937.
+
+2014-10-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for Bug #380522 (strings that need to be fixed for translation).
+	Translations. Inkscape.pot and French translation update.
+
+2014-10-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fixing inconsistencies in the PixelArt dialog.
+
+2014-10-02  tavmjong-free  <tavmjong@free.fr>
+
+	Fix style string while searching for best face match.
+	Fix typo for 'ultra-condensed' face in fontspec_from_style().
+
+2014-10-01  JazzyNico  <nicoduf@yahoo.fr>
+
+	Importing. Fix for Bug #1325822 (BMP images resolution not correctly imported).
+
+2014-10-01  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1358520 (show/hide other layers not properly recorded in undo history).
+
+2014-10-01  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for bug #690255 (Rename te_IN.po to te.po).
+
+2014-09-30  Liam P. White  <inkscapebrony@gmail.com>
+
+	Revert r13496 (regression -- needs more work)
+
+2014-09-29  tavmjong-free  <tavmjong@free.fr>
+
+	Remove NRTypePosDef class and associated cruft. More direct CSS -> Pango translation.
+
+2014-09-29  tavmjong-free  <tavmjong@free.fr>
+
+	Quick fix to unbreak build from last check in.
+
+2014-09-29  tavmjong-free  <tavmjong@free.fr>
+
+	Conditionally add 'semilight' due to changes in Pango 1.36.6. Curse Behdad.
+
+2014-09-27  apenner  <penner@vaxxine.com>
+
+	transform text in text-on-path the same regardless of whether optimized or preserved (Bug 1279534)
+
+2014-09-27  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Updating the Czech translation file with the latest Inkscape strings.
+
+2014-09-23  tavmjong-free  <tavmjong@free.fr>
+
+	Fix for #1334792. Correct inheritance for 'line-height' property.
+
+2014-09-23  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #1372200 (Comment within <script> element in INX file triggers crash on launch).
+
+2014-09-19  apenner  <penner@vaxxine.com>
+
+	improved version of rev 13561, to allow transforming both clip and mask on the same group
+
+2014-09-19  apenner  <penner@vaxxine.com>
+
+	scale clip or mask upon unit change (Bug 1287288)
+
+2014-09-17  bryce  <bryce@ubuntu.com>
+
+	Fix build for fink on OS X 10.9 by including unistd.h
+	
+	Fixes: https://bugs.launchpad.net/inkscape/+bug/1340914
+
+2014-09-17  bryce  <bryce@ubuntu.com>
+
+	win32 packaging:  Fix capitalization of "register file extensions"
+	
+	Fixes:  https://bugs.launchpad.net/inkscape/+bug/1365927
+
+2014-09-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Italian translation update (83%) by Firas Hanife.
+
+2014-09-17  tavmjong-free  <tavmjong@free.fr>
+
+	Remove MapSymbols.svg which contains messy and incorrect SVG (<symbols> cannot
+	have the 'transform' attribute, multiple identical <style> elements, etc.).
+	In compensation, add new file MapSymbolsNPS.svg. Expand README.
+
+2014-09-14  bryce  <bryce@ubuntu.com>
+
+	Always check result of sp_repr_read_mem for NULL
+	
+	In cases where undefined or invalid XML is passed to sp_repr_read_mem(),
+	it will indicate failure by returning NULL.  All callers must check for
+	this and handle the error condition accordingly.
+	
+	Fixes: lp: #1170248
+
+2014-09-13  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix GTK3 build
+
+2014-09-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Adding context to the "Group" verb (undo history).
+	Translations. Translation template and French translation udpate. 
+
+2014-09-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Italian translation update (79%) by Firas Hanife.
+
+2014-09-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for Bug #1368375 (Page titles in preferences don't escape text for markup) by houz.
+
+2014-09-10  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix bug #1367520 (crash regression)
+
+2014-09-09  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix bug #1357411
+
+2014-09-08  mathog
+
+	partial rollback of r13544, allow old recursive behavior for some locations, but not EMF import
+
+2014-09-08  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Italian translation update (75%) by Firas Hanife.
+	Translations. Japanese translations update (97%) by Masato Hashimoto.
+
+2014-09-07  apenner  <penner@vaxxine.com>
+
+	prevent multiple simultaneous updates during undo (Bug 1348382)
+
+2014-09-05  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	LPE Powerstroke: enable Extrapolated arc, remove Extrapolated (mirroring)
+	The code to deal with Extrapolated mirroring is still working (if someone has an old file with that type of extrapolation), but perhaps that should also be removed.
+
+2014-09-05  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	LPE Powerstroke: add Centripetal Catmull-Rom interpolator
+
+2014-09-04  mathog
+
+	resolves bug 1348417 and implements addition features for bug 1302857
+
+2014-09-02  Josh Andler  <scislac@gmail.com>
+
+	Remove more whiteboard related leftovers.
+
+2014-09-02  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix locale issue in powerstroke width selection
+
+2014-09-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Italian translation update (now 70% translated) by Firas Hanife.
+	Translations. Ukrainian translation update (now 100% translated) by Yuri Chornoivan.
+
+2014-09-01  bryce  <bryce@ubuntu.com>
+
+	configure.ac: Quell warnings about AM_PROG_AR when using automake 1.12
+	
+	AM_PROG_AR was introduced in automake 1.11.2.  As per the docs for
+	AM_PROG_AR, it is supposed to be included when the archiver ('ar') is
+	used, but prior to automake 1.12 the warning was only shown iff
+	-Wextra-portability was specified.  automake 1.12 introduced a change
+	that includes -Wextra-portability when -Wall is specified.
+	
+	For further discussion of the issue, see:
+	
+	http://debbugs.gnu.org/cgi/bugreport.cgi?bug=11401
+	http://lists.gnu.org/archive/html/automake/2012-05/msg00014.html
+	
+	Signed-off-by: Bryce Harrington <bryce@bryceharrington.org>
+
+2014-09-01  Matthew Petroff  <matthew@mpetroff.net>
+
+	Updated about box authors list from AUTHORS file.
+
+2014-09-01  Liam P. White  <inkscapebrony@gmail.com>
+
+	BinReloc: fix -Wwrite-strings
+
+2014-08-31  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for bug #1363497 (strange crash with knot path effect)
+
+2014-08-30  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translators list update
+
+2014-08-30  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Italian translation update by Firas Hanife (64% translated).
+	Translations. Czech translation update by Ivan Řihošek (31% translated).
+
+2014-08-26  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix rotation center regression caused by my own commit 13512
+
+2014-08-26  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Czech translation update by Ivan Řihošek (31% translated).
+
+2014-08-26  JazzyNico  <nicoduf@yahoo.fr>
+
+	UI. Fix for Bug #340723 "Interface inconsistency of tooltips".
+	Translations. Translations template update.
+
+2014-08-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix Windows 64-bit build
+
+2014-08-23  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix skewing bug that could lead to infinite transforms
+
+2014-08-20  Jabiertxof  <jtx@jtx.marker.es>
+
+	Fix bug #1068987 LPE prespective_path crash inkscape
+
+2014-08-19  Liam P. White  <inkscapebrony@gmail.com>
+
+	Clear the waiting cursor on the old desktop after creating a new one
+
+2014-08-17  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix some issues with constrained snapping
+
+2014-08-17  theAdib  <theadib@gmail.com>
+
+	fix build problem for win32 due to syntax problem in .rc files after tagging pre2
+
+2014-08-17  Liam P. White  <inkscapebrony@gmail.com>
+
+	Similar workaround to r13523 (text&font dialog not appearing quickly)
+
+2014-08-17  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-08-16  Liam P. White  <inkscapebrony@gmail.com>
+
+	Work around for upstream GTK bug #734915 (speeds launch times)
+
+2014-08-16  Matthew Petroff  <matthew@mpetroff.net>
+
+	Fix grid jumping (bug #1342238).
+
+2014-08-16  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix shift of transformation center on pasting
+
+2014-08-15  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	memleak fix (Bug #1293827: LivePathEffect memory leak )
+
+2014-08-15  Kris De Gussem  <Kris.De.Gussem@hotmail.com>
+
+	suppress compiler warning
+
+2014-08-15  JazzyNico  <nicoduf@yahoo.fr>
+
+	Inkscape.pot back to the trunk
+
+2014-08-15  JazzyNico  <nicoduf@yahoo.fr>
+
+	Preferences. Fix for Bug #184499 (Inkscape Preferences dialog does not remember tabs/pages).
+
+2014-08-14  bryce  <bryce@ubuntu.com>
+
+	update translations
+
+2014-08-14  bryce  <bryce@ubuntu.com>
+
+	Set non-executable files to non-executable
+
+2014-08-14  bryce  <bryce@ubuntu.com>
+
+	Update for release
+
+2014-08-14  bryce  <bryce@ubuntu.com>
+
+	Set pre-release version to 0.91pre2
+
+2014-08-14  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix some transformation center regressions, related to the viewbox/units changes
+
+2014-08-13  Liam P. White  <inkscapebrony@gmail.com>
+
+	Revert unintentional changes
+
+2014-08-13  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix build
+
+2014-08-13  JazzyNico  <nicoduf@yahoo.fr>
+
+	Printing. Fix for Bug #264831 (Print settings not persistent).
+	Printing. Fix for Bug #508529 (Printing rastered image offsets the page).
+
+2014-08-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Palettes. Fix for Bug #1248174 (Update the Ubuntu colour palette to fit the spec) by Alberto Salvia Novella.
+
+2014-08-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Export. Fix for Bug #1350817 (XAML export omits fractional stroke widths) by Johannes Rössel.
+
+2014-08-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Translation template update.
+
+2014-08-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Export. Fix for Bug #1166184 (XAML export not compatible with Silverlight).
+
+2014-08-09  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix related to bug #1327267 -- don't bother to update gradient toolbar when not in gradient tool
+
+2014-08-08  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Ukrainian translation update by Yuri Chornoivan.
+
+2014-08-07  apenner  <penner@vaxxine.com>
+
+	refresh clip path when editing in XML editor (Bug 1349018)
+
+2014-08-07  JazzyNico  <nicoduf@yahoo.fr>
+
+	Connectors. Fix for Bug #1155046 (Assertion pathlen < 200 failed).
+
+2014-08-06  Liam P. White  <inkscapebrony@gmail.com>
+
+	Redo the fix for bug #1348375
+
+2014-08-06  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix another mistake introduced in r13495
+
+2014-08-06  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix mistake introduced in r13495
+
+2014-08-06  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for bug #1327267 (excessive calls to sp_style_read_from_prefs)
+
+2014-08-06  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Fix for bug #1227193 (undo issues)
+
+2014-08-06  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for bug #1348375 (randomized stars change on translation)
+
+2014-08-06  Jabiertxof  <jtx@jtx.marker.es>
+
+	Fix bug #1241501, improve tooltip text on path parameter
+
+2014-08-05  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	supplemental change to lp:inkscape rev13492 (ignore arc segments when start and endpoint are equal (within error range)
+
+2014-08-05  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for parsing of incorrect SVG arcs (bug #1330295)
+
+2014-08-04  apenner  <penner@vaxxine.com>
+
+	refresh bbox of clipped clone (Bug 1349018)
+
+2014-08-04  Liam P. White  <inkscapebrony@gmail.com>
+
+	Add context to TODO comment
+
+2014-08-04  Liam P. White  <inkscapebrony@gmail.com>
+
+	Allow editing of fill and stroke patterns simultaneously. Fixes #601336, #604025, #486192
+
+2014-08-04  JazzyNico  <nicoduf@yahoo.fr>
+
+	Exporting. Fix for bug #1350897 (XAML export formats numbers in the top-level TranslateTransform in the user's locale).
+
+2014-08-01  Jabiertxof  <jtx@jtx.marker.es>
+
+	Fix for #906794, #1246550 (live effects not showing helper paths)
+
+2014-08-01  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for #1348385 (filtered shape losing filter on conversion)
+
+2014-08-01  tavmjong-free  <tavmjong@free.fr>
+
+	Rename 'blend-mode' property to 'mix-blend-mode' per CSS spec.
+
+2014-07-31  tavmjong-free  <tavmjong@free.fr>
+
+	Basic support for <solidColor> element (rendering only as a paint server).
+
+2014-07-30  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Limit the number of paths to be used as snap targets, to keep Inkscape responsive in very complex drawings
+
+2014-07-28  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for 1346972 (freehand shape mode should pick stroke width from tool's active style)
+
+2014-07-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix crash bug (reported by su_v on IRC) related to removing color profiles
+
+2014-07-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix build. gcc 4.6.1 does not like double parens here :/
+
+2014-07-28  Liam P. White  <inkscapebrony@gmail.com>
+
+	Don't update path effects on document load (#1299948)
+
+2014-07-28  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for copy&paste clone original with clip-path/mask
+
+2014-07-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	related to lp:inkscape r13474, remove unnecessary/broken placement news
+
+2014-07-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	noop: remove commented-out code that is dangerous and should not come back
+
+2014-07-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	noop: remove commented-out code that is dangerous and should not come back
+
+2014-07-28  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix placement news and calls to destructor. Fixes crash regressions #1348891, #1344217, #1333445, and stubborn Windows bug #956225 (possibly more).
+
+2014-07-28  mathog
+
+	Fix for bug 1340683 for WMF input
+
+2014-07-26  Liam P. White  <inkscapebrony@gmail.com>
+
+	Properly fix 1309050, revert incorrect fix for 601336
+
+2014-07-26  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for crash regression 1348927 -- dialogs that are shown but have not been presented are buggy
+
+2014-07-25  apenner  <penner@vaxxine.com>
+
+	refresh text objects when clipping (Bug 1339305)
+
+2014-07-24  mathog
+
+	sync with libTere version of text_reassemble.c
+
+2014-07-24  mathog
+
+	Fix for bug 1340683
+
+2014-07-24  mathog
+
+	Fix for bug 1336753
+
+2014-07-24  tavmjong-free  <tavmjong@free.fr>
+
+	Read HSL colors (CSS Color Module Level 3).
+
+2014-07-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Fix crash bug with cloned item with gradient. The fix does not solve the root cause, it only fixes the symptom.
+
+2014-07-23  Markus Engel  <markus.engel@tum.de>
+
+	Partly reverted r13460.
+
+2014-07-22  Bryce Harrington  <bryce@canonical.com>
+
+	inkex: Clarify a dupe error msg, for easier debugging
+
+2014-07-22  Bryce Harrington  <bryce@canonical.com>
+
+	.bzrignore: Ignore generated cxxtests.cpp
+
+2014-07-22  Markus Engel  <markus.engel@tum.de>
+
+	Fixed parentheses.
+
+2014-07-22  Markus Engel  <markus.engel@tum.de>
+
+	Fixed some logic errors; clang warnings.
+
+2014-07-22  Markus Engel  <markus.engel@tum.de>
+
+	Replaced some abs/fabs with std::abs.
+
+2014-07-22  Markus Engel  <markus.engel@tum.de>
+
+	Fixed some unused variables warnings.
+
+2014-07-21  Liam P. White  <inkscapebrony at-sign gmail dot com>
+
+	Revert fix for 1309050 since it causes other regressions...
+
+2014-07-21  Yuri Chornoivan  <yurchor@gmail.com>
+
+	Symbols: Fix typos in FlowSymbols.svg
+
+2014-07-19  Liam P. White  <inkscapebrony at-sign gmail dot com>
+
+	Workarounds for crash bugs 1309050, 601336; will fix properly in experimental
+
+2014-07-15  Jon A. Cruz  <jon@joncruz.org>
+
+	Warnings cleaup.
+
+2014-07-13  Bryce Harrington  <bryce@canonical.com>
+
+	autogen:  Check for autopoint before attempting to run it
+
+2014-07-12  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix moving of item center: 1) at paste and 2) at changing document units
+
+2014-07-11  apenner  <penner@vaxxine.com>
+
+	scale tiled clones to document units (Bug 1288860)
+
+2014-07-11  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix regression introduced by rev 13446 / 13333
+
+2014-07-10  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix crash when ungrouping a group that has a filter applied to it
+
+2014-07-10  apenner  <penner@vaxxine.com>
+
+	refresh SPCurve in a cloned clip (Bug 1322940)
+
+2014-07-07  Liam P. White  <inkscapebrony at-sign gmail dot com>
+
+	Bugged powerstroke point array tried accessing points on a quickly diverging path
+
+2014-07-05  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix regression that prevented snapping back to original location, caused by rev. 13333
+
+2014-07-01  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Fix pentool backspace bug. Thanks Jabier
+
+2014-06-30  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix crash bug with connectors
+	because of constructor "ConnRef(Router *router, const unsigned int id)", _srcVert and _dstVert can be NULL, and _active can be false. this constructor seems unfinished, but is used elsewhere in the code. hence the crash.
+
+2014-06-29  tavmjong-free  <tavmjong@free.fr>
+
+	Enable rendering of new filter blend modes (but don't add them to GUI).
+
+2014-06-29  JazzyNico  <nicoduf@yahoo.fr>
+
+	Layers. Fix for Bug #1326131 (Can't delete layer from context menu).
+
+2014-06-27  Jabiertxof  <jtx@jtx.marker.es>
+
+	Remove the incorrect fix for the bug 1241902
+
+2014-06-25  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #1332461 (Datamatrix 22x22 is always incorrect).
+
+2014-06-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	revert rev. 13429 that broke LPE Bend, Envelope, etc etc.
+	very sorry about that.
+
+2014-06-23  mail@uwe-schoeler.de
+
+	Update
+
+2014-06-23  theadib  <theadib@gmail.com>
+
+	win32 wix install creator: use version and architecture info from src/inkscape.rc and inkscape/inkscape.exe, create inkscape-#version#-x64.msi on 64bit target
+
+2014-06-22  Liam P. White  <inkscapebrony at-sign gmail dot com>
+
+	Fix for ungrouping/non-LPEItem masks
+
+2014-06-21  tavmjong-free  <tavmjong@free.fr>
+
+	Add new named color 'rebeccapurple' (CSS4 Color).
+
+2014-06-19  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	release without console window per default
+
+2014-06-19  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix a crash where the canvas does not have a valid main element
+
+2014-06-18  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add win64 files to distribution (Makefile.am)
+
+2014-06-18  bryce  <bryce@ubuntu.com>
+
+	packaging: Update copyrights for the release
+
+2014-06-18  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #433860 (Live preview doesn't work after updating the values many times).
+
+2014-06-16  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	LPEItem enabling/disabling: rewrite mechanism to be more robust. the previous nesting behavior was not used, and code relied on non-nesting behavior.
+
+2014-06-16  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fixes to LPEKnot, now usable again.
+	knotholder: if knot coords are non-finite, hide knot. used for hiding the lpeknot switcher knot if there are no crossings
+
+2014-06-16  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	SignalObserver: fix further refcounting issue in signal observer
+
+2014-06-16  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add proper refcounting to XML SignalObserver. not refcounting caused crash upon opening Filter Editor dialog for the first time with a filtered object selected.
+
+2014-06-13  tavmjong-free  <tavmjong@free.fr>
+
+	Allow symbol zooming independent of icon screen size.
+
+2014-06-13  tavmjong-free  <tavmjong@free.fr>
+
+	Display symbols in document order.
+	Fix typo in FlowSymbols.svg
+
+2014-06-12  tavmjong-free  <tavmjong@free.fr>
+
+	Replace FlowSymbols.svg file. Symbols from IBM Flowcharting Template X20-8020, 1970 Revision
+	as well as DIN 66001 and ISO 5807. Partially fixes #1201325.
+
+2014-06-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	pen tool: fix crash when finishing path with right-click or enter while dragging from path's startnode (otherwise closing the path)
+
+2014-06-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #505920 (inkscape loads extension even if the script specified in <command> doesn't exist).
+
+2014-06-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	id-clash: clean up code
+
+2014-06-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	Spray. Fix for bug #1327577 (Tablet pressure button wrongly located in Spray tool control bar).
+
+2014-06-11  Jabiertxof  <jtx@jtx.marker.es>
+
+	Fix for bug #1241902
+
+2014-06-10  mathog
+
+	Fix for bugs 1318657 and 1298967
+
+2014-06-10  tavmjong-free  <tavmjong@free.fr>
+
+	Remove 'font' shorthand if we have written out font longhand properties.
+
+2014-06-10  tavmjong-free  <tavmjong@free.fr>
+
+	Proper quoting of CSS 'font-family' fallback lists.
+
+2014-06-09  tavmjong-free  <tavmjong@free.fr>
+
+	Display name of face from font file in Text and Font dialog (as well as CSS/Pango name).
+	Partial fix for #165521, #167353, #1008514
+
+2014-06-08  tavmjong-free  <tavmjong@free.fr>
+
+	Better ordering of font-face styles in UI. Rely on CSS values rather than guessing.
+
+2014-06-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix make check (follow-up to r13409)
+
+2014-06-06  Josh Andler  <scislac@gmail.com>
+
+	resurrect pot file from r13408
+
+2014-06-07  theAdib  <theadib@gmail.com>
+
+	revise email theadib
+
+2014-06-06  theAdib  <theadib@gmail.com>
+
+	merge pdf import via poppler-cairo into native importer
+
+2014-06-05  tavmjong-free  <tavmjong@free.fr>
+
+	Make family-name comparisons case insensitive.
+	Fix UI bug when SVG file does not have -inkscape-font-specification properties
+	(Style drop-down list not properly updated.)
+	Partial fix for bug #165521
+
+2014-06-03  theAdib  <theadib@gmail.com>
+
+	inkscape.pre0 build failures for win32 nsis
+
+2014-06-03  mathog
+
+	Fix for bugs 1262782 and 1262792
+
+2014-06-03  Matthias Kilian (no public email in lp)
+
+	Patch from comment 7. Fixes build with Poppler 0.26.
+
+2014-06-01  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove fwd decl (a left-over, not intended for something useful) that breaks build (win64)
+
+2014-06-01  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	win64: add aspell and stand-alone gdb to builds. (x64 version should now be feature complete)
+
+2014-05-30  tavmjong-free  <tavmjong@free.fr>
+
+	Unquote names in 'font-family' lists. Partial fix for #1029080
+
+2014-05-29  tavmjong-free  <tavmjong@free.fr>
+
+	Use SPStyle value for 'font-family' rather than parse 'style' ourselves.
+	This fixes the problem of a 'font-family' declared via the 'font'
+	shorthand being ignored when creating the document font list.
+
+2014-05-28  tavmjong-free  <tavmjong@free.fr>
+
+	Initialize style store with default styles. Fixes Gtk-CRITICAL and GLib-Gobject-CRITICAL errors.
+
+2014-05-27  JazzyNico  <nicoduf@yahoo.fr>
+
+	Shortcuts. Fix for bug #1323561 (Right handed ilustration file is incorrect).
+
+2014-05-24  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #1318348 (Extension dialogs inconsistency).
+	Translations. PO template and French translation update.
+
+2014-05-23  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix flakiness of measurement tool (due to issues with parallel lines, duplicate intersections, and faulty sorting of intersections)
+
+2014-05-22  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for Bug #1318339 (Tooltips in extensions page elements are not translated).
+
+2014-05-17  bryce  <bryce@ubuntu.com>
+
+	extensions: scour is now dual-licensed Apache2 and GPL2
+	
+	Ref. http://bazaar.launchpad.net/~scouring/scour/trunk/revision/222
+
+2014-05-17  Martin Owens  <doctormo@gmail.com>
+
+	Fix render barcode test suite
+
+2014-05-17  apenner  <penner@vaxxine.com>
+
+	extensions. EAN5 barcode. fix offset caused by changing document units
+
+2014-05-17  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	revert unintended changes by previous commit
+
+2014-05-17  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add libwpg, libvisio, and libcdr to win64 build
+
+2014-05-17  bryce  <bryce@ubuntu.com>
+
+	extensions:  Update tests for new barcode class names
+	
+	The barcode class names appear to have been TitleCased.
+
+2014-05-17  bryce  <bryce@ubuntu.com>
+
+	extensions:  Clarify licensing requirements in README
+
+2014-05-16  Martin Owens  <doctormo@gmail.com>
+
+	Put scale functionality back in to barcode renderer.
+
+2014-05-16  Josh Andler  <scislac@gmail.com>
+
+	Fix build.
+
+2014-05-16  Martin Owens  <doctormo@gmail.com>
+
+	Barcode extension: Code cleanup and merge in delta from last year.
+
+2014-05-16  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix C++11 compilation
+
+2014-05-15  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix compile warning
+
+2014-05-15  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix buildtool cxxflags bug
+
+2014-05-15  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add cxxflags attribute possibility for buildtool. fixes warnings for c-files (-Woverloaded-virtual)
+
+2014-05-15  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add 64bit build-x64.xml to trunk
+
+2014-05-15  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	make windows filedialog's code more portable for different mingw versions (failed on 64bit)
+
+2014-05-15  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Remove debugging output
+
+2014-05-15  tavmjong-free  <tavmjong@free.fr>
+
+	Fix Pango markup used in Text and Font dialog.
+
+2014-05-15  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: Unquote strings from libcroco. Fixes 1303422.
+
+2014-05-15  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Japanese translation update by Masato Hashimoto.
+
+2014-05-14  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1264371 (Broken Link: Bug Page Not Found From Program Link).
+
+2014-05-14  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for Bug #1318929 (untranslatable string in trunk-r13370).
+	Translations. PO template update.
+	Translations. French translation update.
+
+2014-05-14  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Replace old menu items in the Tips and Basic tutorials.
+
+2014-05-13  tavmjong-free  <tavmjong@free.fr>
+
+	CSS2 and CSS3 text decoration rendering, most code from David Mathog.
+
+2014-05-13  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: prevent CSS2 'text-decoration' from overwriting CSS3 'text-decoration-xxx' values.
+	Fix some unused variable warnings.
+
+2014-05-12  apenner  <penner@vaxxine.com>
+
+	extensions. guides_creator. scale units (Bug 1318532)
+
+2014-05-13  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	put correct architecture in x64 Windows resource manifests
+
+2014-05-12  Josh Andler  <scislac@gmail.com>
+
+	=Update AUTHORS file.
+
+2014-05-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add x64 Windows resource file
+
+2014-05-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add Windows resource files for x64 builds
+
+2014-05-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove another duplicate file copy from build.xml
+
+2014-05-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove duplicate freetype6.dll copy from build.xml
+
+2014-05-12  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove unnecessary include, that is causing troubles (it is doing a bad #define in MinGW)
+
+2014-05-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. French translation udpate.
+
+2014-05-12  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix snapping issue in selector tool
+
+2014-05-12  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-05-12  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1318671 (url for New in This Version is obsolete) by Masato HASHIMOTO.
+
+2014-05-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix build on Windows with newer gcc / other Windows headers. redefining NULL is terrible, perhaps we can remove these lines for all build platforms?
+
+2014-05-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix build for some (windows 64 bit devlibs attempt)
+	specifically, fixes this build error: .../include/glibmm-2.4/glibmm/threads.h:201:11: error: field 'gobject_' has incomplete type 'GThread {aka _GThread}'
+
+2014-05-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	correctly fix rev. 13355
+
+2014-05-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix 2geom build for newer compilers (assert can be disabled/overridden, i suppose)
+
+2014-05-11  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix btool for 64-bit compilation. (would run into infinite loop on line 2404)
+
+2014-05-11  bryce  <bryce@ubuntu.com>
+
+	make: Order our dist headers before installed package headers
+	
+	src/Makefile.am has a fragile AM_CPPFLAGS order: various
+	-I$(top_srcdir)/* are after various $(*_CFLAGS), so a header file
+	supplied by some other installed package on the system could mask the
+	intended one in the dist itself. Best to put all local flags before
+	globals.
+	
+	Patch from Fink via Daniel Macks.
+
+2014-05-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for bug #1318345 (untranslatable strings in trunk-r13348).
+
+2014-05-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for bug #1318328 (typo in trunk-r13348).
+	Translations. Translation template update.
+	Translations. French translation update.
+
+2014-05-11  JazzyNico  <nicoduf@yahoo.fr>
+
+	i18n. Fix for bug #1318289 (preferences > bitmap > rendering shows po file headers).
+
+2014-05-11  tavmjong-free  <tavmjong@free.fr>
+
+	Add closePath().
+
+2014-05-10  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: 'text-decoration' requires access to style of ancestor element which set property.
+
+2014-05-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Man pages udpate.
+
+2014-05-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Adding new INKSCAPE_PROFILE_DIR environment variable (see bug #1247448, environment variable INKSCAPE_PORTABLE_PROFILE_DIR should be documented in man page).
+
+2014-05-09  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Fix for bug #1317140 (supported generic font names in trunk have changed (Sans -> sans-serif, Serif -> serif)).
+
+2014-05-09  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: correct 'text-decoration' CSS2 vs CSS3 behavior.
+
+2014-05-07  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-05-07  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: prevent crash when fill/stroke set to "currentColor".
+
+2014-05-06  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Advanced tutorial update (not fully translated).
+
+2014-05-06  ~suv  <suv-sf@users.sourceforge.net>
+
+	Merge fix for dbus api (Bug #1316591: copy-paste typo in the dbus document interface)
+
+2014-05-06  Mohamed Ikbel Boulabiar  <boulabiar@gmail.com>
+
+	Fix a small copy-paste typo. (Get position Y returns X)
+
+2014-05-06  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Tracing, Tips and Calligraphy tutorials update (partially translated).
+
+2014-05-05  Josh Andler  <scislac@gmail.com>
+
+	Apparently I didn't look twice before committing. Thanks suv!
+
+2014-05-05  Josh Andler  <scislac@gmail.com>
+
+	Add one more ifdef for LPETool prefs. Thanks suv!
+
+2014-05-05  Josh Andler  <scislac@gmail.com>
+
+	Make experimental feature enabling more unified/easy.
+
+2014-05-05  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Elements of design tutorial update ((not fully translated); Updating Basic and Shape English versions (not committed yet due to naming errors).
+
+2014-05-05  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Shapes tutorial update (not fully translated yet).
+
+2014-05-03  Diederik van Lierop  <mail@diedenrezi.nl>
+
+	Fix bounding box cache issues in general, and prevent the selector tool from updating anything in case of identity affines (which prevents the bounding box from being invalidated)
+
+2014-05-03  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Basic tutorial update (not fully translated yet).
+
+2014-05-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	Removing the old SP_VERB_FILE_EXPORT (replaced with SP_VERB_DIALOG_EXPORT).
+
+2014-05-01  tavmjong-free  <tavmjong@free.fr>
+
+	Enable 'paint-order', (rendering only)... missing changes.
+
+2014-05-01  tavmjong-free  <tavmjong@free.fr>
+
+	Enable support for 'paint-order', rendering only.
+
+2014-04-30  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: more buglets squashed (thanks Johan).
+
+2014-04-30  apenner  <penner@vaxxine.com>
+
+	do not allow ellipse arc segment greater than 90 degrees. (Bug 1312333)
+
+2014-04-30  tavmjong-free  <tavmjong@free.fr>
+
+	Enable 'mix-blend-mode' property (rendering only).
+
+2014-04-30  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: fix two more buglets.
+
+2014-04-30  tavmjong-free  <tavmjong@free.fr>
+
+	Style rewrite: fix typo.
+
+2014-04-29  Liam P. White  <inkscapebrony at-sign gmail dot com>
+
+	Fix bug #1290573 and #1310802
+
+2014-04-28  mathog
+
+	Improved support for clipping on EMF/WMF import, see bug 1302857
+
+2014-04-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	when removing LPE, with 'flattening' option, don't recalculate/rewrite ellipses (which would remove the LPE result). fixes bug introduced in rev. 12670)
+
+2014-04-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	partial 2geom update. linearize the measure of the size of an ellipse (LP Bug 1309225), by Alvin Penner
+
+2014-04-28  mathog
+
+	Fix for bug 1306138
+
+2014-04-28  mathog
+
+	Fix for bug 1294840
+
+2014-04-28  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. Translations template update.
+
+2014-04-28  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #1307554 (Don't show the Export > win32 vector print extension on Platforms that don't support it).
+
+2014-04-28  tavmjong-free  <tavmjong@free.fr>
+
+	Clean up of style code: Add default to SPIString for use with 'font-family'.
+
+2014-04-28  Sebastian Wüst  <sebi@timewaster.de>
+
+	changed default unit for hpgl importer to real world unit mm
+
+2014-04-28  Campbell Barton  <ideasman42@gmail.com>
+
+	Update CMake Files
+
+2014-04-27  yurchor-gmail
+
+	Translations. Ukrainian translation update by Yuri Chornoivan.
+
+2014-04-27  tavmjong-free  <tavmjong@free.fr>
+
+	Replace 'memset' by constructors. Fixes segfault from turning SPStyle into a class. (WMF)
+	
+	
+	modified:
+	src/extension/internal/emf-inout.h
+	src/extension/internal/wmf-inout.cpp
+	src/extension/internal/wmf-inout.h
+	unknown:
+	.comments/
+	1232425-fix-clang-warnings-mismatched-tags-SPStyle-r13299-v1.diff
+	FILTERS/
+	RecentTextDecoChagnes.zip
+	doxygen/
+	share/attributes/attindex.html
+	share/attributes/propidx.html
+	share/symbols/FlowSymbolsNew.svg
+	src/cxxtests
+	src/cxxtests.cpp
+	src/cxxtests.log
+	src/cxxtests.xml
+	src/ui/dialog/symbols.cpp_new
+
+2014-04-27  tavmjong-free  <tavmjong@free.fr>
+
+	Replace 'memset' by constructors. Fixes segfault from turning SPStyle into a class.
+
+2014-04-26  tavmjong-free  <tavmjong@free.fr>
+
+	Clean up of style code: Patch from suv: SPStyle: struct -> class
+
+2014-04-26  Shlomi Fish  <shlomif@shlomifish.org>
+
+	Fix remaining cmake build error in 2geom (bug #1283174)
+
+2014-04-25  Josh Andler  <scislac@gmail.com>
+
+	Fix warning from previous commit.
+
+2014-04-25  Liam P. White  <inkscapebrony@gmail.com>
+
+	Fix for on-canvas LPE controls to display immediately.
+
+2014-04-25  Liam P. White  <inkscapebrony@gmail.com>
+
+	Improve keyboard navigation in LPE dialog.
+
+2014-04-25  apenner  <penner@vaxxine.com>
+
+	extensions. dxf_input. style change in gcodetools_point by dormouse (Bug 1308986, comment 11)
+
+2014-04-25  JazzyNico  <nicoduf@yahoo.fr>
+
+	Translations. French translation update (92%).
+
+2014-04-25  tavmjong-free  <tavmjong@free.fr>
+
+	Clean up of style code: 'color' is not a paint. Step 1.1. Fixes bug 1312120.
+	
+	
+	modified:
+	src/id-clash.cpp
+	unknown:
+	.comments/
+	FILTERS/
+	doxygen/
+	style-internal.h
+	share/attributes/attindex.html
+	share/attributes/propidx.html
+	share/symbols/FlowSymbolsNew.svg
+	src/cxxtests
+	src/cxxtests.cpp
+	src/cxxtests.log
+	src/cxxtests.xml
+	src/ui/dialog/symbols.cpp_new
+
+2014-04-24  tavmjong-free  <tavmjong@free.fr>
+
+	Clean up of style code: refactor marker properties. Step 3.
+
+2014-04-24  tavmjong-free  <tavmjong@free.fr>
+
+	Clean up of style code, removal of SPFontStyle. Step 2.
+
+2014-04-24  tavmjong-free  <tavmjong@free.fr>
+
+	Add missing style-internal.cpp
+
+2014-04-23  tavmjong-free  <tavmjong@free.fr>
+
+	Clean up of style code, converting structures to C++ classes. Step 1.
+
+2014-04-22  tavmjong-free  <tavmjong@free.fr>
+
+	Parse xml:lang, required for SVG (CSS uses lang)
+
+2014-04-22  tavmjong-free  <tavmjong@free.fr>
+
+	Restore ability to insert a font-family that is not on system or a font-fallback list.
+
+2014-04-21  Sebastian Wüst  <sebi@timewaster.de>
+
+	ensure backwards compatibility with old hpgl exports
+
+2014-04-20  apenner  <penner@vaxxine.com>
+
+	extensions. dxf_input. remove blanks from symbol id's (Bug 1308986)
+
+2014-04-19  Martin Owens  <doctormo@gmail.com>
+
+	Stop observer from crashing when it doesn't exist in preferences.xml
+
+2014-04-19  Martin Owens  <doctormo@gmail.com>
+
+	Merge in outline bitmap image preference feature
+
+2014-04-19  Martin Owens  <doctormo@gmail.com>
+
+	Fix remaining issue with prefs updating
+
+2014-04-18  Martin Owens  <doctormo@gmail.com>
+
+	Add image rendering option for outlines. Setup desktop preferences observer.
+
+2014-04-17  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-04-16  Alex Valavanis  <valavanisalex@gmail.com>
+
+	workaround build failure on Ubuntu 14.04 with dbus ext and clang
+
+2014-04-16  Martin Owens  <doctormo@gmail.com>
+
+	Commit suv's patch for quartz default window size. See bug #1302627
+
+2014-04-14  apenner  <penner@vaxxine.com>
+
+	extensions. fix typo in unittouu conversion (Bug 1307691)
+
+2014-04-14  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove debug messages in desktop.cpp
+
+2014-04-14  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Improve calculation precision of stroke-to-path, for very large user units that make the stroke width a very small number.
+
+2014-04-14  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	patch by Gellule, fixes wrong parsing of style, work-around for bug in libc++
+
+2014-04-14  apenner  <penner@vaxxine.com>
+
+	extensions. color_blackandwhite. add option for color threshold (Bug 1306420)
+
+2014-04-13  theAdib  <theadib@gmail.com>
+
+	pdf import via poppler-cairo, bug:1017123:handling stroke width < 1
+
+2014-04-13  theAdib  <theadib@gmail.com>
+
+	win32 nsis: more brazilian portuguese
+
+2014-04-13  theAdib  <theadib@gmail.com>
+
+	win32 nsis installer: fix portuguese brazil translation, add more inkscake translations
+
+2014-04-10  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-04-10  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1302987 (Importing a PNG image with unittype field undefined fails).
+
+2014-04-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Exclude files in POTFILES.skip from the POTFILES.in generated
+	by the script generate_POTFILES.sh.
+	
+	Fixes make distcheck on Ubuntu.
+
+2014-04-10  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Fix an issue with extension tests during distcheck.
+
+2014-04-08  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Make extension tests compatible with VPATH builds.
+	Fixes distcheck not being able to find the test script.
+
+2014-04-07  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-04-07  ~suv  <suv-sf@users.sourceforge.net>
+
+	Restore share/keys/inkscape.xml to current state (follow-up to r13221)
+
+2014-04-06  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	temporary fix for bug in 2geom, the bug manifests itself in LPE Construct grid
+
+2014-04-06  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	noop: improve code style in sp-lpe-item.cpp
+
+2014-04-05  Martin Owens  <doctormo@gmail.com>
+
+	Commit patch from Johan to remove GSList and replace with vector.
+
+2014-04-05  tavmjong-free  <tavmjong@free.fr>
+
+	Prevent segfault when style string is null.
+
+2014-04-05  Martin Owens  <doctormo@gmail.com>
+
+	Revert the xml editor to it's dockable behaviour and add a comment for the preferences.
+
+2014-04-05  Martin Owens  <doctormo@gmail.com>
+
+	Allow command line options -i and -j to effect plain-svg output, this involves cropping and reducing.
+
+2014-04-05  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix cmake build errors for changes in 2geom
+
+2014-04-04  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix crash. If there are more crashes/issues related to references to undefined filters we should fix this in a more general way (e.g. not setting filter.set if invalid href)
+	Note that the file is still in a weird state, the stylesheet is not altered...
+
+2014-04-04  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix crash. Iterating through a list to find an object is not necessary, SPDoc provides method for obtaining SPObj from idstring. The crash probably happened because deleting the object invalidated the list iterated (partly).
+
+2014-04-04  Martin Owens  <doctormo@gmail.com>
+
+	Only apply the offset zoom when the document units match the zoom units
+
+2014-04-04  Martin Owens  <doctormo@gmail.com>
+
+	Maximised should be the default state for new inkscape users
+
+2014-04-04  Martin Owens  <doctormo@gmail.com>
+
+	XMLTree and InkscapePreferences are not dockable windows, don't treat them like one.
+
+2014-04-04  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-04-04  Martin Owens  <doctormo@gmail.com>
+
+	Cleanup namespace removal so that it doesn't require bugs in updateRepr to work. Move to using a duplicate node-tree. Fixes bug #419266
+
+2014-04-03  apenner  <penner@vaxxine.com>
+
+	extensions. Measure Path. add center point, modify path id (Bug 171331)
+
+2014-04-03  Martin Owens  <doctormo@gmail.com>
+
+	Move the new changelog back tot he old name for packagers.
+
+2014-04-03  Martin Owens  <doctormo@gmail.com>
+
+	Try and explain what selection means when aligning. Changed Selection to Selection Area
+
+2014-04-03  ryanlerch
+
+	Fix for Bug #1201511 (share/icons/symbolic_icons.svg not included in tarball) by Ryan Lerch.
+
+2014-04-03  ryanlerch
+
+	Fix for Bug #1301869 (util/signal-blocker.h not included in tarbal) by Ryan Lerch.
+
+2014-04-03  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-04-03  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-04-03  Martin Owens  <doctormo@gmail.com>
+
+	Use the save mechanism from the export instead of suplicating code to save an svg. Fixes bug #500440 also clean vacuum defs from command line which should be using extension also.
+
+2014-04-03  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix make check
+
+2014-04-02  apenner  <penner@vaxxine.com>
+
+	extensions. Measure Path. add option to calculate center of mass. (Bug 171331)
+
+2014-04-02  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1297557 (crash if document with linked color profile uses spaces in file name).
+
+2014-04-01  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	partial 2geom update:
+	- main reason for update: better swap for Path (fixes C++11 warning/error)
+	- faster implementation for Path * Translate (~6x), Inkscape's code has to be modified to use it though
+
+2014-04-01  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	2geom: silence warning
+
+2014-04-01  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	partial 2geom update (fixes warning)
+
+2014-03-31  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix windows build
+
+2014-03-31  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	partial 2geom update: fix compiler error on some platforms (mavericks in any case)
+
+2014-03-31  Janis Eisaks  <jancs@dv.lv>
+
+	Latvian translation update
+
+2014-03-31  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Fix Gtkmm 3.8 build issues on systems with Gtk+ 3.10
+
+2014-03-31  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	better code format filedialogimpl-gtkmm.cpp. Also cleanup some minor code issues
+
+2014-03-31  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	imageicon: clean up unnecessary file existance check introduced in rev 12263. Could theoretically lead to uninitialized value use (of "info" struct)
+	same for filedialogimpl-gtkmm
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	inkjar: Handle return values correctly
+
+2014-03-31  Markus Engel  <markus.engel@tum.de>
+
+	Replaced one more operator.
+
+2014-03-31  Markus Engel  <markus.engel@tum.de>
+
+	Removed some operator keywords.
+
+2014-03-30  Markus Engel  <markus.engel@tum.de>
+
+	Added "Gtk::" scope to "manage" function calls.
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	inkjar: Fix access mode string
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Don't manually specify -ldl - fix Free-BSD build issue (see bug #1232474). Also no need for -lxml2 as this is handled by pkg-config
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Migrate inkjar to cstdio functions to fix build issues on Free BSD (Thanks Markus Engel); see bug #1232474
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Fix checking for unordered containers on incomplete C++11 implementations
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	End support for obsolete GNU hash. Supported either natively, through TR1 or Boost now
+
+2014-03-30  Alex Valavanis  <valavanisalex@gmail.com>
+
+	Fix some mismatched tags
+
+2014-03-29  Markus Engel  <markus.engel@tum.de>
+
+	Removed obsolete header file.
+
+2014-03-28  Martin Owens  <doctormo@gmail.com>
+
+	Guides: Clean up memory a bit better and move color changed to OK so we don't set the colour before OK
+
+2014-03-28  Martin Owens  <doctormo@gmail.com>
+
+	Remove _onApply and strdup the char from the label before it gets corrupted. Fixes bug #1299185
+
+2014-03-28  Markus Engel  <markus.engel@tum.de>
+
+	Further refactored SPKnot.
+
+2014-03-28  Martin Owens  <doctormo@gmail.com>
+
+	Merge in pixelArt threading mechanism to stop blocking the UI when performing the action.
+
+2013-10-07  Vinícius dos Santos Oliveira  <vini.ipsmaker@gmail.com>
+
+	Removing useless comment
+
+2013-10-06  Vinícius dos Santos Oliveira  <vini.ipsmaker@gmail.com>
+
+	Running libdepixelize expensive process in a background thread
+
+2014-03-28  ~suv  <suv-sf@users.sourceforge.net>
+
+	Fix make check
+
+2014-03-28  Markus Engel  <markus.engel@tum.de>
+
+	First step of refactoring SPKnot.
+
+2014-03-27  David Mathog  <mathog@caltech.edu>
+
+	Patch for libuemf.
+	-----
+	Somewhere along the line during the clang patches the version of libUEMF in inkscape acquired changes not in the upstream library.
+	Small patch which puts them back in sync.
+
+2014-03-27  Martin Owens  <doctormo@gmail.com>
+
+	Merge in Polar Distribute GSoC with up to date trunk fixes
+
+2014-03-27  Martin Owens  <doctormo@gmail.com>
+
+	Get pollar tiling working agains with trunk
+
+2014-03-26  Martin Owens  <doctormo@gmail.com>
+
+	Commit a merge to trunk, with probabal errors
+
+2012-05-19  Denis Declara  <declara91@gmail.com>
+
+	The Polar Arrange Tab of the Arrange Dialog now hides the parametric
+	controls until the user selects the corresponding radio button
+
+2012-05-19  Denis Declara  <declara91@gmail.com>
+
+	Added documentation and made helper functions in polar-arrange-tab.cpp static
+
+2012-05-19  Denis Declara  <declara91@gmail.com>
+
+	Renamed "arrangetab.h" to "arrange-tab.h"
+
+2012-05-09  Denis Declara  <declara91@gmail.com>
+
+	Removed debug output
+
+2012-05-09  Denis Declara  <declara91@gmail.com>
+
+	Renamed files to better match coding conventions
+
+2012-05-09  Denis Declara  <declara91@gmail.com>
+
+	Fixed runtime assertion about Parent beeing Null
+
+2012-05-05  Denis Declara  <declara91@gmail.com>
+
+	Trunk merge
+
+2012-05-05  Denis Declara  <declara91@gmail.com>
+
+	Fixed some math, so that the objects now line up correctly
+
+2012-05-03  Denis Declara  <declara91@gmail.com>
+
+	Now also the "Arrange on last selected circle" option of the polar arrangement works.
+
+2012-05-01  Denis Declara  <declara91@gmail.com>
+
+	Added undo support for polar arrangement as well as some minor fixes
+
+2012-05-01  Denis Declara  <declara91@gmail.com>
+
+	Got parametrized arrangement to work
+
+2012-05-01  Denis Declara  <declara91@gmail.com>
+
+	Fixed keys file in order to reflect the new verb modification I did
+
+2012-05-01  Denis Declara  <declara91@gmail.com>
+
+	Added translation support code (_(), C_()) to the polar arrange tab.
+
+2012-04-28  Denis Declara  <declara91@gmail.com>
+
+	Changed Makefile plus some minor tab vs. spaces fixes
+
+2012-04-27  Denis Declara  <declara91@gmail.com>
+
+	Code Refactoreing. Moved parts of the code from tile.cpp tile.h to arrangetab.h, gridarrangetab(.cpp|.h), polararrangetab(.cpp|.h)
+	Also modified the name of the verb used by the "Rows and Columns" dialog to SP_VERB_SELECTION_ARRANGE
+
+2012-04-26  Denis Declara  <declara91@gmail.com>
+
+	Trunk merge
+
+2012-04-24  Denis Declara  <declara91@gmail.com>
+
+	Added first support for elliptical arrangements
+
+2012-04-19  Denis Declara  <declara91@gmail.com>
+
+	Improved UI of PolarArrangement Tab and connected some widgets to events (now parts of the GUI disable themselves when needed)
+
+2012-04-16  Denis Declara  <declara91@gmail.com>
+
+	Edited include order (putting gtkmm in first place) in the hope that it will fix the compilation issues on launchpad.
+
+2012-04-15  Denis Declara  <declara91@gmail.com>
+
+	Added some POC code to move objects around
+
+2012-04-15  Denis Declara  <declara91@gmail.com>
+
+	Trunk merge
+
+2012-04-15  Denis Declara  <declara91@gmail.com>
+
+	Improved User interface.
+	Added controls for Center, Radius and Angles. Note that none of them actually do something yet
+
+2012-04-09  Denis Declara  <declara91@gmail.com>
+
+	Added initial gui for polar arrangement tab
+
+2012-04-04  Denis Declara  <declara91@gmail.com>
+
+	Changed makefile
+
+2012-04-04  Denis Declara  <declara91@gmail.com>
+
+	Changed enum used for alignment, which hopefully will fix daily deb builds.
+
+2012-04-02  Denis Declara  <declara91@gmail.com>
+
+	Anchor widget now reads the last alignment from the settings. Anchor selection widget is also smaller now.
+
+2012-04-01  Denis Declara  <declara91@gmail.com>
+
+	Trunk merge
+
+2012-03-31  Denis Declara  <declara91@gmail.com>
+
+	Brought old code, "Rows and Columns" in it's own class. Added a separate class for the panel. Still some cleanup to do.
+
+2012-03-29  Denis Declara  <declara91@gmail.com>
+
+	Removed some commented code, which i replaced, and is therefore no longer used.
+
+2012-03-29  Denis Declara  <declara91@gmail.com>
+
+	Trunk merge
+
+2012-03-28  Denis Declara  <declara91@gmail.com>
+
+	Integrated the newly created Anchor-Selection-Widget with the existing "Rows and Columns" panel.
+	
+	Code still needs documentation and cleenup however.
+
+2012-03-26  Denis Declara  <declara91@gmail.com>
+
+	Trunk merge
+
+2012-03-26  Denis Declara  <declara91@gmail.com>
+
+	Added anchor-selection widget, it doesn't do much at the moment, next step will be to wire everything together,
+	btw, you can see the widget in the 'rows and columns' panel
+
+2012-03-21  Denis Declara  <declara91@gmail.com>
+
+	trunk merge
+
+2012-03-20  Denis Declara  <declara91@gmail.com>
+
+	Merged with trunk
+
+2014-03-27  Markus Engel  <markus.engel@tum.de>
+
+	Changed some return types from gint to bool.
+
+2014-03-26  Markus Engel  <markus.engel@tum.de>
+
+	Cleaned up pencil-tool.
+
+2014-03-26  David Mathog  <mathog@caltech.edu>
+
+	Fixed typo.
+
+2014-03-26  Markus Engel  <markus.engel@tum.de>
+
+	Cleaned up connector-tool, pen-tool, and pencil-tool.
+
+2014-03-26  Markus Engel  <markus.engel@tum.de>
+
+	Cleaned up includes of tools / revert experimental casting macro replacements from r13061
+
+2014-03-26  Markus Engel  <markus.engel@tum.de>
+
+	Two more changes in libuemf to silence analyzer.
+
+2014-03-26  David Mathog  <mathog@caltech.edu>
+
+	Second patch for analyzer warnings in libuemf.
+
+2014-03-26  Martin Owens  <doctormo@gmail.com>
+
+	Remove Snap menu item and improve grid menu item text
+
+2014-03-26  buliabyak
+
+	fix crash when spelling error is in hidden part of a text on path
+
+2014-03-25  David Mathog  <mathog@caltech.edu>
+
+	Patch for several issues in libuemf.
+	-----
+	The patch:
+	1. Removes half a dozen or so code lines that didn't do anything.
+	2. Fixes a couple of missing tests for pointers which cannot be NULL. (Note that in many instances the pseudoobject functions in upmf.c do accept null pointers because the objects being constructed have optional parts.)
+	3. There was one "real" potential memory leak (line 6276 in upmf.c, numbers before the patch). I fixed the others too, but they just never happen (iconv would have to fail in some strange way.) There are no (real) memory access violations or memory leaks in any of this either in standalone libUEMF testing or in use as part of Inkscape as determined from valgrind runs.
+
+2014-03-25  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix crash introduced in rev. 13199.  (revert the change to Glib::string (crashes on nullptr init), but keep the memleak fix)
+
+2014-03-24  Vinícius dos Santos Oliveira  <vini.ipsmaker@gmail.com>
+
+	Updating libdepixelize.
+	
+	This update is not focused on new features, but on stability.
+	
+	Bugs affecting weird image sizes (single line or single row images) were
+	fixed.
+	
+	A bug on algorithm that could cause wrong result of heuristics on very
+	rare images was also fixed. The correct behaviour required storing all
+	votes before really doing any removal and this extra work made this step
+	of the algorithm 328% slower on one sample image. If the old *_safe
+	function was used, the slowdown could be decreased to 7.7% on the same
+	sample image, but current focus on Inkscape timeline is stabilization,
+	then I'll delay performance optimization to later. Also, the affected
+	step is only responsible for 18% (on the maximum case) of the
+	performance. The performance tests were done using new profiling code
+	that is disabled by default and shouldn't impact stability.
+
+2014-03-25  Markus Engel  <markus.engel@tum.de>
+
+	Replaced a free() with g_free().
+
+2014-03-25  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	configure.ac: unfortunately our code is not ready for -Werror=switch yet (break GTK3 build in number of places, needs proper fixes)
+
+2014-03-25  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	windows build: update warning flags. unfortunately our code is not ready for -Werror=switch yet (break GTK3 build in number of places, needs proper fixes)
+
+2014-03-25  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix memory allocation bug (thanks to clang's static analyzer scan-build)
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix tiny mistake
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	add convenience functions to deal with Glib::ustrings for setting repr attributes
+
+2014-03-24  Markus Engel  <markus.engel@tum.de>
+
+	Patch for base constructor calls.
+
+2014-03-24  Markus Engel  <markus.engel@tum.de>
+
+	Fix for in-class initialisation of double const value.
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	revert erroneously committed change from rev. 13198
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	sp_selected_path_combine:  simplify code, prevent memleak waiting to happen upon refactoring
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	spobject: extra careful, check that repr is not nullptr
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	noop: code legibilty
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix potential use of nullptr (item)  (note that SPGroup inherits from SPItem)
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix potential call on nullptr
+
+2014-03-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix potential calls on nullptr
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	make it easier for people to build with -Werror on Windows
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	"fix" GTK3 build.
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove files that interface through C with libvpsc, we are using C++ so...
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix Windows build for newer gcc/libs
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	emf-print.cpp : fix coding... :'(
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	powerstroke: fix bad coding bug!
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix build with newer mingw64 (#define clashes ...)
+
+2014-03-23  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	gradient midpoint dragging: fix terrible bug in the code (don't know it's phenotype)
+
+2014-03-22  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	libuemf: more self-assignment -> unused changes
+
+2014-03-22  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	libcroco: don't write double parenthesis unnecessarily (interferes with the very useful clang parenthesis/assignment warning mechanism)
+
+2014-03-22  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	tool/node.cpp : don't rely on g_error terminating the program, allow more graceful error handling.
+
+2014-03-22  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix self-assignment. use of UNUSED macro to better show the intent of the code
+
+2014-03-21  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	libuemf: make uemf_utf.c compile cleanly with specific version of iconv. (current devlibs version)
+
+2014-03-21  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	cairo-render-context: swap order of header inclusion to redefinition clash of #define STRICT in pangowin32.h with windef.h  (pango should check if STRICT is already defined or not)
+
+2014-03-21  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	fix macro redefinition errors
+
+2014-03-21  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	libcroco: fix pointer signedness errors
+
+2014-03-21  JazzyNico  <nicoduf@yahoo.fr>
+
+	Extensions. Fix for Bug #960046 (merging text).
+
+2014-03-21  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	control-point-selection : fix a (very unlikely) crash upon dereferencing unitialized bound variable
+
+2014-03-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	apply 2geom rev. 2169  (bug fix)
+
+2014-03-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove #pragma for 11 year old compiler that I cannot imagine anyone using at this point
+
+2014-03-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	supress warnings
+
+2014-03-20  Ivan Masár  <helix84@centrum.sk>
+
+	* [INTL:sk] Slovak translation update
+
+2014-03-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Fix compiler warnings. These appear to fix some genuine bugs too (comparing unsigned numbers with integers, note that the result of  (gint - guint) is unsigned!
+
+2014-03-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	change more warnings into errors.
+	eventually, we can better move to -Werror together with a short list of -Wno-error=...
+
+2014-03-20  Sebastian Wüst  <sebi@timewaster.de>
+
+	fixed regression in hpgl export
+
+2014-03-19  Sebastian Wüst  <sebi@timewaster.de>
+
+	added closing commands to avoid errors on old pen plotters, better command language conversion
+
+2014-03-19  mathog  <mathog@caltech.edu>
+
+	WMF support: last piece of the code cleanup from bug #1248753
+
+2014-03-19  mathog  <mathog@caltech.edu>
+
+	EMF import: fix clipPath definition: move transform attribute into the <rect> element (bug #1294713)
+
+2014-03-18  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1291546 (Linking color profile from Document properties dialog crashes Inkscape).
+
+2014-03-18  Martin Owens  <doctormo@gmail.com>
+
+	Fix weighted removal of attributes from style in merge extension.
+
+2014-03-17  Jon A. Cruz  <jon@joncruz.org>
+
+	Cleanup datatypes for detailed checking of C++11. Fixes Bug #1293295.
+
+2014-03-17  Jon A. Cruz  <jon@joncruz.org>
+
+	Warning cleanups.
+
+2014-03-17  Martin Owens  <doctormo@gmail.com>
+
+	New extension: Merge styles, take the common styles of the selected elements and create a css style from them.
+
+2014-03-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1158506 (Batch export DPI always at 90).
+
+2014-03-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1293073 (Dragging a symbol crashes the application when the symbol has no title).
+
+2014-03-16  Martin Owens  <doctormo@gmail.com>
+
+	Fix header and copyright licence
+
+2014-03-16  Kris  <Kris.De.Gussem@hotmail.com>
+
+	string class usage
+
+2014-03-16  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Fix build failure with GTK 3.0
+
+2014-03-15  JazzyNico  <nicoduf@yahoo.fr>
+
+	UI. Fix for Bug #1016889 (GTK3: status bar of XML Editor triggers resize of dialog window.
+
+2014-03-15  penginsbacon
+
+	Saving. Fix for Bug #529843 (save a copy reverts to save as) by Tomasz Boczkowski.
+
+2014-03-15  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Make the Object Properties dialog code adhere to the coding style.
+
+2014-03-14  Kris  <Kris.De.Gussem@hotmail.com>
+
+	drop wrong g_free call
+
+2014-03-14  Kris  <Kris.De.Gussem@hotmail.com>
+
+	fix build warning
+
+2014-03-14  Kris  <Kris.De.Gussem@hotmail.com>
+
+	string class usage
+
+2014-03-14  tavmjong-free  <tavmjong@free.fr>
+
+	Add a few font related tests.
+
+2014-03-14  tavmjong-free  <tavmjong@free.fr>
+
+	Return correct values for SPColor::operator==
+
+2014-03-14  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Remove obsolete Whiteboard cruft from the default preferences file
+
+2014-03-13  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Reimplement global aliasing toggle as a 'shape-rendering' property
+	on the root element.
+
+2014-03-13  mathog  <mathog@caltech.edu>
+
+	Fix gradient position on document import (bug #1283193)
+
+2014-03-13  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Provide a toggle in the document properties to optionally turn off
+	antialiasing for display and export.
+	Fixes a nearly 10 year old bug #170356
+
+2014-03-13  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Render zero-width PDF lines as 1px lines compensated for current transform.
+	Partially fixes import of some LibreOffice charts. See LP bug #1283537
+
+2014-03-13  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	pdfinput: Do not use an extremely ugly static variable in SvgBuilder
+
+2014-03-13  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Remove redundant variable from SPFeImage
+
+2014-03-13  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Disconnect before destroying URI
+
+2014-03-12  insaner  <launchpad@insaner.com>
+
+	incorrect gradient transform on copy&paste.. committing for mathog
+
+2014-03-12  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Use NEAREST filter when transforming cache
+
+2014-03-12  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Do not transform render cache for transforms which are not integer
+	translations - the entire cache was dirtied anyway in these cases.
+	Fixes performance regression when zooming out.
+
+2014-03-12  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Allow ungrouping switches
+
+2014-03-11  tavmjong-free  <tavmjong@free.fr>
+
+	Change stroke-dasharray and stroke-dashoffset handling to match other properties.
+	Split style.h into more manageable size files.
+
+2014-03-11  tavmjong-free  <tavmjong@free.fr>
+
+	Add a few more style tests.
+
+2014-03-11  tavmjong-free  <tavmjong@free.fr>
+
+	Another typo...
+
+2014-03-08  Martin Owens  <doctormo@gmail.com>
+
+	Remove unused includes to tidy up the code.
+
+2014-03-09  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Fix random crashes when spraying in single path mode.
+	Fixes LP bug #1274831
+
+2014-03-08  Martin Owens  <doctormo@gmail.com>
+
+	Remove useless r variable and warning
+
+2014-03-08  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Fix crashes caused by the desktop's query_style signal being called before
+	the selection's changed signal was processed in the text tool.
+	Also fix similar crashes in the gradient dragger.
+	Fixes LP #1271004.
+
+2014-03-08  tavmjong-free  <tavmjong@free.fr>
+
+	Update attributes unit test, expand style unit test and fix bug found.
+
+2014-03-07  Jon A. Cruz  <jon@joncruz.org>
+
+	Reconnect correctly as documents are replaced.
+	Removed hardcoding to only a single panel.
+
+2014-03-07  JazzyNico  <nicoduf@yahoo.fr>
+
+	Symbols. Adding missing include.
+
+2014-03-07  tavmjong-free  <tavmjong@free.fr>
+
+	Fix typo in "paint-order".
+
+2014-03-07  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Use CAIRO_FILTER_GOOD instead of CAIRO_FILTER_BEST in the interactive
+	renderer, since the latter uses Lanczos3 and is prohibitively slow.
+
+2014-03-06  apenner  <penner@vaxxine.com>
+
+	extensions. tar_layers. Switch stdout to binary on Windows. (Bug 1286524)
+
+2014-03-06  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1288401 (Hovering in symbols dialog over symbols with ampersand in description result in console warning).
+
+2014-03-06  tavmjong-free  <tavmjong@free.fr>
+
+	Take "preserveAspectRatio" into account in pattern.
+
+2014-03-06  tavmjong-free  <tavmjong@free.fr>
+
+	Rewrite of pattern geometry code. Fix for 1288489.
+
+2014-03-06  mathog  <mathog@caltech.edu>
+
+	WMF: fix for files with swapped W, H in the SETWINDOWEXT record
+	EMF: code cleanup
+
+2014-03-06  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Derive ToolBase from sigc::trackable for easier slot management.
+	Fix TextTool to use mem_fun instead of ptr_fun to avoid the generation
+	of stale slots.
+
+2014-03-05  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	When an externally linked image is modified, mark it for update instead
+	of directly calling update() with a bogus ctx parameter.
+	
+	Prevents crash and fixes LP Bug #1278571.
+
+2014-03-05  Kris  <Kris.De.Gussem@hotmail.com>
+
+	Dutch translation update
+
+2014-03-05  Sebastian Wüst  <sebi@timewaster.de>
+
+	fixed precut when centered
+
+2014-03-04  Kris  <Kris.De.Gussem@hotmail.com>
+
+	static code analysis: references for string classes that are function input parameters
+
+2014-03-04  tavmjong-free  <tavmjong@free.fr>
+
+	Fix for W3C test suite test filters-light-02-f.svg. Marker refX and refY defined in coordinate system of viewBox.
+
+2014-03-04  JazzyNico  <nicoduf@yahoo.fr>
+
+	UI. Fix for bug #1281822 (Keyboard shortcuts editor, duplicate description and degrees symbol as text).
+	Translations. POT file and French translation update.
+
+2014-03-04  tavmjong-free  <tavmjong@free.fr>
+
+	Fix for W3C test suite coords-units-01-b.svg. Fixes pattern positioning.
+
+2014-03-04  Martin Owens  <doctormo@gmail.com>
+
+	Use srcdir instead of datadir for sourcing wildcards
+
+2014-03-03  Martin Owens  <doctormo@gmail.com>
+
+	Remove dom from configure.ac
+
+2014-03-03  Martin Owens  <doctormo@gmail.com>
+
+	Fix script_Data in Makefile for python extensions
+
+2014-03-03  Martin Owens  <doctormo@gmail.com>
+
+	Remove dom/* code and replace two uses of dom/uri with uri.
+
+2014-02-28  Martin Owens  <doctormo@gmail.com>
+
+	Merge to trunk
+
+2014-02-28  Martin Owens  <doctormo@gmail.com>
+
+	Improved uri testing
+
+2014-02-26  Martin Owens  <doctormo@gmail.com>
+
+	Remove DOM directory and reduce size of inkscape. Use Inkscape::URI and save ziptool to utils.
+
+2014-02-25  Martin Owens  <doctormo@gmail.com>
+
+	Merge from trunk
+
+2014-02-25  Martin Owens  <doctormo@gmail.com>
+
+	Merge from trunk
+
+2014-02-20  Martin Owens  <doctormo@gmail.com>
+
+	Not finished by improved data uri support
+
+2014-02-20  Martin Owens  <doctormo@gmail.com>
+
+	Add data uri checking back into the code
+
+2014-03-03  Martin Owens  <doctormo@gmail.com>
+
+	Remove massive list of inx and py files for extensions Makefile, use magic instead
+
+2014-03-03  Kris  <Kris.De.Gussem@hotmail.com>
+
+	More memory leak fixes (Bug #1275170)
+
+2014-03-03  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	code cleanup
+
+2014-03-03  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	no need to use bitfields here. The pre-commit code also looks confusingly similar to initializer value
+
+2014-03-03  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	change 0 to NULL for pointers
+
+2014-03-03  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	- fix memleak
+	- fix { } usage
+	- delete NULL is guaranteed to be OK
+	- fix initialization (all paths will eventually init the var, but let the compiler figure that out, instead of a future programmer trying to locate a bug)
+
+2014-03-03  tavmjong-free  <tavmjong@free.fr>
+
+	Fix for W3C test suite filters-displace-01-f.svg. Don't set default colorspace of external image.
+	Also removed a problematic translation in rendering an internal image.
+
+2014-03-03  tavmjong-free  <tavmjong@free.fr>
+
+	Don't try to load JPG and PNG files with createChildDoc().
+
+2014-03-03  JazzyNico  <nicoduf@yahoo.fr>
+
+	Test. Fix for Bug #1286977 (trunk: make check fails (hpgl_output)).
+
+2014-03-02  Markus Engel  <markus.engel@tum.de>
+
+	Fixed includes for tools.
+
+2014-03-02  apenner  <penner@vaxxine.com>
+
+	fix scaling crash for clipped objects (Bug 1286647)
+
+2014-03-02  Jon A. Cruz  <jon@joncruz.org>
+
+	Stop tracking SPDocuments as they are deleted.
+
+2014-03-02  Jon A. Cruz  <jon@joncruz.org>
+
+	Adding destroy signal do document to allow proper cleanup.
+
+2014-03-02  Sebastian Wüst  <sebi@timewaster.de>
+
+	cleanup
+
+2014-03-02  Jon A. Cruz  <jon@joncruz.org>
+
+	Avoid crashing when the document is set to NULL (upon cleanup, window closing, etc.)
+
+2014-03-02  Sebastian Wüst  <sebi@timewaster.de>
+
+	removed unnecessary features
+
+2014-03-02  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	rename variable names to prevent hiding of names in outer scopes
+
+2014-03-02  Markus Engel  <markus.engel@tum.de>
+
+	Added some consts. Turned functions to member functions.
+
+2014-03-01  Markus Engel  <markus.engel@tum.de>
+
+	Fix for crash when cycle-selecting.
+
+2014-03-01  Markus Engel  <markus.engel@tum.de>
+
+	Fix for crashes on fast tool toggling.
+
+2014-03-01  tavmjong-free  <tavmjong@free.fr>
+
+	Hack for when blur or offset are expressed in terms of object bounding box.
+	A correct fix requires restructuring the way filter primitives are handled.
+
+2014-03-01  Martin Owens  <doctormo@gmail.com>
+
+	Import layers update, spelling and modification time for files in tar
+
+2014-03-01  ~suv  <suv-sf@users.sourceforge.net>
+
+	update po/POTFILES.in (add new INX file from r13080)
+
+2014-03-01  tavmjong-free  <tavmjong@free.fr>
+
+	Use viewport when calculating filter primitive region when 'primitiveUnits' set to "userSpaceOnUse".
+
+2014-03-01  tavmjong-free  <tavmjong@free.fr>
+
+	Code cleanup and indentation.
+
+2014-02-28  Martin Owens  <doctormo@gmail.com>
+
+	Forgot the makefile isn't flexible.
+
+2014-02-28  Martin Owens  <doctormo@gmail.com>
+
+	Add layers export extension as a tar creation extension
+
+2014-02-28  Jon A. Cruz  <jon@joncruz.org>
+
+	Remove unused variable.
+
+2014-02-28  Jon A. Cruz  <jon@joncruz.org>
+
+	Remove unused shadowed variables.
+
+2014-02-28  JazzyNico  <nicoduf@yahoo.fr>
+
+	Spray tool:
+	* Partial patch (in sp_spray_dilate) for crashes explained in Bug #1274831.
+	* Some minor style fixes (indentation).
+	* Due to some remaining crashes, the Single path mode is disabled in Inkscape 0.91.
+
+2014-02-28  tavmjong-free  <tavmjong@free.fr>
+
+	Embedded SVG's cannot be transformed.
+
+2014-02-28  tavmjong-free  <tavmjong@free.fr>
+
+	Properly identify an embedded SVG.
+
+2014-02-28  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1281859 (color gesture problems, alpha values below 0 and above 1).
+
+2014-02-28  tavmjong-free  <tavmjong@free.fr>
+
+	Use viewport when calculating filter region when filterUnits set to "userSpaceOnUse", fixes #229246.
+
+2014-02-28  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Copy event with gdk_event_copy instead of assigning to structure by value.
+	Fixes problems on GTK+/Quartz 2.24.19. For more information,
+	see LP #1198597 and https://bugzilla.gnome.org/show_bug.cgi?id=694273#c33
+
+2014-02-28  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Work around a crash in the Undo History dialog caused by incorrect
+	modifications to the XML when ensureUpToDate() is called during SPDesktop
+	initialization. The underlying problem remains to be fixed.
+
+2014-02-28  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove some unnecessary copying/casting
+
+2014-02-27  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	swatches dialog: remove unused code part. cleanup some code
+
+2014-02-27  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	swatches dialog: properly reference count the reference to SPDocument in timer object. Fixes crash reported in comment #6 of bug 1284391!
+
+2014-02-27  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	remove superfluous line of code (vector has just been constructed, so is empty)
+
+2014-02-27  Tomasz Boczkowski  <penginsbacon@gmail.com>
+
+	Fix whitespace formatting of dbus documentation (bug 1282045)
+
+2014-02-27  tavmjong-free  <tavmjong@free.fr>
+
+	Don't overwrite SPItemCtx in SPRoot::update. (Maybe should be made const everywhere?)
+
+2014-02-27  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Correct the ungrouping logic so that selected clones of selected groups
+	are only unlinked, with the resulting groups not ungrouped
+
+2014-02-27  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Partial fix for LP #1001756 (crash when ungrouping a selection
+	containing both a group and its clone). There are still some problems
+	with undo/redo (incomplete undo transaction somewhere).
+
+2014-02-27  Krzysztof Kosiński  <tweenk.pl@gmail.com>
+
+	Move extended input events stuff from desktop-widget.cpp to sp-canvas.cpp,
+	where it belongs
+
+2014-02-26  Markus Engel  <markus.engel@tum.de>
+
+	Added template functions as a casting-macro replacement.
+
+2014-02-26  Markus Engel  <markus.engel@tum.de>
+
+	Made constructors of tools use initializer lists.
+
+2014-02-25  tavmjong-free  <tavmjong@free.fr>
+
+	Allow 'transform' on flowRoot, flowPara, and flowSpan.
+
+2014-02-25  tavmjong-free  <tavmjong@free.fr>
+
+	Revert unintended checkin.
+
+2014-02-25  tavmjong-free  <tavmjong@free.fr>
+
+	Rewrite of symbol creation code. Partial fix for 1201325.
+	
+	Symbols cannot have 'tranform' attribute. The old code copied the group
+	'transform' attribute to the symbol. The new code creates an intermediate
+	group with the required 'transform' if it is not a simple translation. A
+	simple translation is removed and applied instead to the new <use> element.
+	
+	Multiple objects can now be turned into a symbol without first grouping the
+	objects. (At the cost that multiple groups can no longer be turned into
+	multiple symbols at one go.) This better matches marker and pattern creation.
+
+2014-02-24  Martin Owens  <doctormo@gmail.com>
+
+	Move filter reordering closer to the layers.cpp patern of reordering xml
+
+2014-02-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Fix infinite loop (?) by disabling saving the order of filters when they are reordered by drag&drop in the filter editor dialog. (bug 1239296)
+
+2014-02-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Set the order of resize handles back to what they were before r12400. Now it's possible again to access all handles for horizontal lines + geometric bbox
+
+2014-02-24  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	inspired by r13052, fix up the code to hopefully work when someone has different units for height and width of the page.
+
+2014-02-23  apenner  <penner@vaxxine.com>
+
+	fix typos in page-sizer (Bug 1240308)
+
+2014-02-23  Markus Engel  <markus.engel@tum.de>
+
+	Fix for selcue settings.
+
+2014-02-22  apenner  <penner@vaxxine.com>
+
+	offset of viewBox on document unit change (Bug 1280684)
+
+2014-02-22  mathog  <mathog@caltech.edu>
+
+	Fix 'preserveAspectRatio' attribute of bitmap images in EMF/WMF import/export (bug #1278645).
+
+2014-02-21  tavmjong-free  <tavmjong@free.fr>
+
+	Symbols dialog: update currentDesktop and currentDocument when document replaced.
+
+2014-02-20  insaner  <launchpad@insaner.com>
+
+	crash on cut n paste, or alt+scroll..
+
+2014-02-20  Johan B. C. Engelen  <j.b.c.engelen@alumnus.utwente.nl>
+
+	Reverting r13045.
+	1. It contains a memleak
+	realpath allocates new memory if the second argument is NULL. In the added code, this memory is never freed.
+	
+	2. Breaks build on Windows (realpath(...) not found)
+	
+	3. Please don't add functions that use C-strings unnecessarily.
+	Simply rewrite parseDataUri to parseDataUri(const std::string &uri), and use C++'s string methods. ("#include <cstring.h>" is a huge red flag upon code review)
+	
+	4. Please read this about "realpath"
+	http://insanecoding.blogspot.ch/2007/11/pathmax-simply-isnt.html
+
+2014-02-20  Martin Owens  <doctormo@gmail.com>
+
+	Add test for URI and help with data uris.
+
+2014-02-19  Markus Engel  <markus.engel@tum.de>
+
+	Fix for SPSwitch updates.
+
+2014-02-19  tavmjong-free  <tavmjong@free.fr>
+
+	Add SVG2 property 'paint-order'.
+
+2014-02-19  JazzyNico  <nicoduf@yahoo.fr>
+
+	Fix for Bug #1281104 (Open Clipart import dialog crashes with concurrent searches).
+
+2014-02-19  JazzyNico  <nicoduf@yahoo.fr>
+
+	Documentation. Changelog archive update (see Bug #637034).
+
+2014-02-18  tavmjong-free  <tavmjong@free.fr>
+
+	Implement 'paint-order' for shapes (and paths).
+
+2014-02-18  tavmjong-free  <tavmjong@free.fr>
+
+	Implement 'paint-order' for text.
+
+2014-02-18  tavmjong-free  <tavmjong@free.fr>
+
+	Copy 'paint-order' property data for Cairo rendering.
+
+2014-02-18  tavmjong-free  <tavmjong@free.fr>
+
+	Read new SVG2 property 'paint-order'.
+
+2014-02-18  apenner  <penner@vaxxine.com>
+
+	extensions. Render Gear. improve precision of output (Bug 1240455)
+
+2014-02-17  apenner  <penner@vaxxine.com>
+
+	Extensions. Measure Path. Scaling of area and length into document units. (Bug 1240455)
+
+2014-02-17  apenner  <penner@vaxxine.com>
+
+	scaling of viewBox on document unit change (Bug 1236257)
+
+2014-02-17  JazzyNico  <nicoduf@yahoo.fr>
+
+	Doc. Changelog file updated (see Bug #637034).
+
 2014-02-16  Sebastian Wüst  <sebi@timewaster.de>
 
 	various optimizations, move extension to 'Export' submenu
