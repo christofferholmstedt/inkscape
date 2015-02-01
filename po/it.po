@@ -28573,15 +28573,15 @@ msgstr "esagono/esa-stella"
 
 #: ../src/widgets/star-toolbar.cpp:494
 msgid "Corners"
-msgstr "Angoli"
+msgstr "Vertici"
 
 #: ../src/widgets/star-toolbar.cpp:494
 msgid "Corners:"
-msgstr "Angoli:"
+msgstr "Vertici:"
 
 #: ../src/widgets/star-toolbar.cpp:494
 msgid "Number of corners of a polygon or star"
-msgstr "Numero di angoli di un poligono o di una stella"
+msgstr "Numero di vertici di un poligono o di una stella"
 
 #: ../src/widgets/star-toolbar.cpp:507
 msgid "thin-ray star"
@@ -28663,7 +28663,7 @@ msgstr "Arrotondamento:"
 
 #: ../src/widgets/star-toolbar.cpp:534
 msgid "How much rounded are the corners (0 for sharp)"
-msgstr "Il grado di arrotondamento degli angoli (0 per gli spigoli)"
+msgstr "Il grado di arrotondamento dei vertici (0 per gli spigoli)"
 
 #: ../src/widgets/star-toolbar.cpp:546
 msgid "NOT randomized"
@@ -28691,7 +28691,7 @@ msgstr "Casuale:"
 
 #: ../src/widgets/star-toolbar.cpp:549
 msgid "Scatter randomly the corners and angles"
-msgstr "Separa casualmente gli angoli"
+msgstr "Separa casualmente i vertici e gli angoli"
 
 #: ../src/widgets/stroke-marker-selector.cpp:388
 msgctxt "Marker"
