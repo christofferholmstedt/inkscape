@@ -33,7 +33,6 @@ EXTRA_DIST = \
 		interp.test.py \
 		lindenmayer.test.py \
 		lorem_ipsum.test.py \
-		markers_strokepaint.test.py \
 		measure.test.py \
 		minimal-blank.svg \
 		motion.test.py \
