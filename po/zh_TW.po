@@ -12088,7 +12088,7 @@ msgid "Use <b>Shift+D</b> to look up frame"
 msgstr "使用 <b>Shift+D</b> 找尋訊框"
 
 #: ../src/selection-describer.cpp:215
-#, c-format
+#, c-format, fuzzy
 msgid "<b>%i</b> objects selected of type %s"
 msgid_plural "<b>%i</b> objects selected of types %s"
 msgstr[0] "已選擇類型 %s 的 <b>%i</b> 個物件"
