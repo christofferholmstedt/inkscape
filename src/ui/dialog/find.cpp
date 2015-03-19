@@ -37,6 +37,7 @@
 #include "preferences.h"
 #include "sp-text.h"
 #include "sp-flowtext.h"
+#include "sp-flowdiv.h"
 #include "text-editing.h"
 #include "sp-tspan.h"
 #include "sp-tref.h"
@@ -676,7 +677,7 @@ bool Find::item_type_match (SPItem *item)
     } else if (SP_IS_PATH(item) || SP_IS_LINE(item) || SP_IS_POLYLINE(item)) {
         return (all || check_paths.get_active());
 
-    } else if (SP_IS_TEXT(item) || SP_IS_TSPAN(item) || SP_IS_TREF(item) || SP_IS_STRING(item)) {
+    } else if (SP_IS_TEXT(item) || SP_IS_TSPAN(item) || SP_IS_TREF(item) || SP_IS_STRING(item) || SP_IS_FLOWTEXT(item) || SP_IS_FLOWDIV(item) || SP_IS_FLOWTSPAN(item) || SP_IS_FLOWPARA(item)) {
         return (all || check_texts.get_active());
 
     } else if (SP_IS_GROUP(item) && !desktop->isLayer(item) ) { // never select layers!
