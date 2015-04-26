@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-03-01 18:07+0200\n"
+"PO-Revision-Date: 2015-04-26 17:26+0200\n"
 "Last-Translator: Jānis Eisaks <je@dv.lv>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -3580,10 +3580,9 @@ msgstr "Izmantojot tālruni"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:139
-#, fuzzy
 msgctxt "Symbol"
 msgid "Hip Balloon"
-msgstr "Hip-Hop"
+msgstr "Jautrie baloni"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:140
@@ -3703,7 +3702,7 @@ msgstr "Tiešsaistes krātuve"
 #: ../share/symbols/symbols.h:159
 msgctxt "Symbol"
 msgid "Keying"
-msgstr ""
+msgstr "Kejošana"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:160
@@ -3725,10 +3724,9 @@ msgstr "Ārpuslapas savienotājs"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:163
-#, fuzzy
 msgctxt "Symbol"
 msgid "Transmittal Tape"
-msgstr "Lenšu iekārta"
+msgstr "Pārneses lenta"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:164
@@ -3900,10 +3898,9 @@ msgstr "Velosipēdu celiņš"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
-#, fuzzy
 msgctxt "Symbol"
 msgid "Boat Launch"
-msgstr "Palaist (A)"
+msgstr "Laivu ielaišana"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
@@ -3933,7 +3930,7 @@ msgstr "Nometnes vieta"
 #: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
 msgctxt "Symbol"
 msgid "CanoeAccess"
-msgstr ""
+msgstr "Laivu pietuvieta"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:207 ../share/symbols/symbols.h:208
@@ -4011,7 +4008,7 @@ msgstr "Atkritumu tvertne"
 #: ../share/symbols/symbols.h:235 ../share/symbols/symbols.h:236
 msgctxt "Symbol"
 msgid "Lodging"
-msgstr ""
+msgstr "Gultasvieta"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:237 ../share/symbols/symbols.h:238
@@ -4063,10 +4060,9 @@ msgstr "Kārtībnieka birojs"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
-#, fuzzy
 msgctxt "Symbol"
 msgid "RV Campground"
-msgstr "Galu noapaļošana"
+msgstr "Kempings kemperiem"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
@@ -4082,10 +4078,9 @@ msgstr "Burāšana"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
-#, fuzzy
 msgctxt "Symbol"
 msgid "Sanitary Disposal Station"
-msgstr "Noklusētā kadru izmešana:"
+msgstr "Sanitārais pukts"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
@@ -4095,10 +4090,9 @@ msgstr "Niršana"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
-#, fuzzy
 msgctxt "Symbol"
 msgid "Self Guided Trail"
-msgstr "Aste:"
+msgstr "Taka uz paša atbildību"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
@@ -9258,7 +9252,6 @@ msgid "SpiroInterpolator"
 msgstr "Spiro interpolators"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:192
-#, fuzzy
 msgid "Centripetal Catmull-Rom"
 msgstr "Centrtiecošs Ketmula-Roma splains"
 
@@ -24113,9 +24106,8 @@ msgid "Style"
 msgstr "Stils"
 
 #: ../src/widgets/font-selector.cpp:225
-#, fuzzy
 msgid "Face"
-msgstr "Seja"
+msgstr "Skaldne"
 
 #: ../src/widgets/font-selector.cpp:254 ../share/extensions/dots.inx.h:3
 msgid "Font size:"
@@ -27762,11 +27754,11 @@ msgstr "Rakstzīmju kodējums"
 
 #: ../share/extensions/dxf_outlines.inx.h:7
 msgid "Layer export selection"
-msgstr ""
+msgstr "Atlasītais slāņa eksportam"
 
 #: ../share/extensions/dxf_outlines.inx.h:8
 msgid "Layer match name"
-msgstr ""
+msgstr "Slāņa nosaukuma atbilstība"
 
 #: ../share/extensions/dxf_outlines.inx.h:9
 msgid "pt"
