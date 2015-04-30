@@ -2404,7 +2404,7 @@ void CloneTiler::clonetiler_apply(GtkWidget */*widget*/, GtkWidget *dlg)
             // Note: We create a clone at 0,0 too, right over the original, in case our clones are colored
 
             // Get transform from symmetry, shift, scale, rotation
-            Geom::Affine t = clonetiler_get_transform (type, i, j, center[Geom::X], center[Geom::Y], w, h,
+            Geom::Affine orig_t = clonetiler_get_transform (type, i, j, center[Geom::X], center[Geom::Y], w, h,
                                                        shiftx_per_i,     shifty_per_i,
                                                        shiftx_per_j,     shifty_per_j,
                                                        shiftx_rand,      shifty_rand,
@@ -2423,7 +2423,8 @@ void CloneTiler::clonetiler_apply(GtkWidget */*widget*/, GtkWidget *dlg)
                                                        rotate_rand,
                                                        rotate_alternatei, rotate_alternatej,
                                                        rotate_cumulatei,  rotate_cumulatej      );
-
+            Geom::Affine parent_transform = (((SPItem*)item->parent)->i2doc_affine())*(item->document->getRoot()->c2p.inverse());
+            Geom::Affine t = parent_transform*orig_t*parent_transform.inverse();
             cur = center * t - center;
             if (fillrect) {
                 if ((cur[Geom::X] > fillwidth) || (cur[Geom::Y] > fillheight)) { // off limits
@@ -2585,7 +2586,7 @@ void CloneTiler::clonetiler_apply(GtkWidget */*widget*/, GtkWidget *dlg)
             Geom::Point new_center;
             bool center_set = false;
             if (obj_repr->attribute("inkscape:transform-center-x") || obj_repr->attribute("inkscape:transform-center-y")) {
-                new_center = scale_units*desktop->dt2doc(item->getCenter()) * t;
+                new_center = scale_units*desktop->dt2doc(item->getCenter()) * orig_t;
                 center_set = true;
             }
 
