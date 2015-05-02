@@ -658,11 +658,16 @@ void ClipboardManagerImpl::_copySelection(Inkscape::Selection *selection)
         SPCSSAttr *css = sp_repr_css_attr_inherited(obj, "style");
         sp_repr_css_set(obj_copy, css, "style");
         sp_repr_css_attr_unref(css);
-
+        
+        Geom::Affine transform=SP_ITEM(i->data)->i2doc_affine();
         // write the complete accumulated transform passed to us
         // (we're dealing with unattached representations, so we write to their attributes
         // instead of using sp_item_set_transform)
-        gchar *transform_str = sp_svg_transform_write(SP_ITEM(i->data)->i2doc_affine());
+        SPUse *use=dynamic_cast<SPUse *>(SP_ITEM(i->data));
+        if( use && selection->includes(use->get_original()) ){//we are copying something whose parent is also copied (!)
+            transform = ((SPItem*)(use->get_original()->parent))->i2doc_affine().inverse() * transform;
+        }
+        gchar *transform_str = sp_svg_transform_write(transform );
         obj_copy->setAttribute("transform", transform_str);
         g_free(transform_str);
     }
