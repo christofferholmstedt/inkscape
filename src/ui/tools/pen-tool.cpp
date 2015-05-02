@@ -553,7 +553,12 @@ bool PenTool::_handleMotionNotify(GdkEventMotion const &mevent) {
                     ret = true;
                     break;
                 case PenTool::STOP:
-                    // This is perfectly valid
+                    if (!this->sp_event_context_knot_mouseover()) {
+                        SnapManager &m = desktop->namedview->snap_manager;
+                        m.setup(desktop);
+                        m.preSnap(Inkscape::SnapCandidatePoint(p, Inkscape::SNAPSOURCE_NODE_HANDLE));
+                        m.unSetup();
+                    }
                     break;
                 default:
                     break;
@@ -613,8 +618,7 @@ bool PenTool::_handleMotionNotify(GdkEventMotion const &mevent) {
                     ret = true;
                     break;
                 case PenTool::STOP:
-                    // This is perfectly valid
-                    break;
+                    // Don't break; fall through to default to do preSnapping
                 default:
                     if (!this->sp_event_context_knot_mouseover()) {
                         SnapManager &m = desktop->namedview->snap_manager;
