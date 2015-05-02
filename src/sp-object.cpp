@@ -115,7 +115,7 @@ static gchar *sp_object_get_unique_id(SPObject    *object,
 SPObject::SPObject()
     : cloned(0), uflags(0), mflags(0), hrefcount(0), _total_hrefcount(0),
       document(NULL), parent(NULL), children(NULL), _last_child(NULL),
-      next(NULL), id(NULL), repr(NULL), refCount(1),
+      next(NULL), id(NULL), repr(NULL), refCount(1),hrefList(std::list<SPObject*>()),
       _successor(NULL), _collection_policy(SPObject::COLLECT_WITH_PARENT),
       _label(NULL), _default_label(NULL)
 {
@@ -235,7 +235,7 @@ SPObject *sp_object_unref(SPObject *object, SPObject *owner)
     return NULL;
 }
 
-SPObject *sp_object_href(SPObject *object, gpointer /*owner*/)
+SPObject *sp_object_href(SPObject *object, SPObject* owner)
 {
     g_return_val_if_fail(object != NULL, NULL);
     g_return_val_if_fail(SP_IS_OBJECT(object), NULL);
@@ -243,10 +243,13 @@ SPObject *sp_object_href(SPObject *object, gpointer /*owner*/)
     object->hrefcount++;
     object->_updateTotalHRefCount(1);
 
+    if(owner)
+        object->hrefList.push_front(owner);
+
     return object;
 }
 
-SPObject *sp_object_hunref(SPObject *object, gpointer /*owner*/)
+SPObject *sp_object_hunref(SPObject *object, SPObject* owner)
 {
     g_return_val_if_fail(object != NULL, NULL);
     g_return_val_if_fail(SP_IS_OBJECT(object), NULL);
@@ -254,6 +257,9 @@ SPObject *sp_object_hunref(SPObject *object, gpointer /*owner*/)
 
     object->hrefcount--;
     object->_updateTotalHRefCount(-1);
+
+    if(owner)
+        object->hrefList.remove(owner);
 
     return NULL;
 }
