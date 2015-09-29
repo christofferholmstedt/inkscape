@@ -150,7 +150,6 @@ SprayTool::SprayTool()
     , ratio(0)
     , tilt(0)
     , rotation_variation(0)
-    , force(0.2)
     , population(0)
     , scale_variation(1)
     , scale(1)
@@ -173,14 +172,6 @@ SprayTool::~SprayTool() {
         sp_canvas_item_destroy(this->dilate_area);
         this->dilate_area = NULL;
     }
-}
-
-static bool is_transform_modes(gint mode)
-{
-    return (mode == SPRAY_MODE_COPY ||
-            mode == SPRAY_MODE_CLONE ||
-            mode == SPRAY_MODE_SINGLE_PATH ||
-            mode == SPRAY_OPTION);
 }
 
 void SprayTool::update_cursor(bool /*with_shift*/) {
@@ -239,7 +230,6 @@ void SprayTool::setup() {
     sp_event_context_read(this, "scale_variation");
     sp_event_context_read(this, "mode");
     sp_event_context_read(this, "population");
-    sp_event_context_read(this, "force");
     sp_event_context_read(this, "mean");
     sp_event_context_read(this, "standard_deviation");
     sp_event_context_read(this, "usepressure");
@@ -281,9 +271,7 @@ void SprayTool::set(const Inkscape::Preferences::Entry& val) {
         this->tilt = CLAMP(val.getDouble(0.1), 0, 1000.0);
     } else if (path == "ratio") {
         this->ratio = CLAMP(val.getDouble(), 0.0, 0.9);
-    } else if (path == "force") {
-        this->force = CLAMP(val.getDouble(1.0), 0, 1.0);
-    } 
+    }
 }
 
 static void sp_spray_extinput(SprayTool *tc, GdkEvent *event)
@@ -300,16 +288,6 @@ static double get_dilate_radius(SprayTool *tc)
     return 250 * tc->width/SP_EVENT_CONTEXT(tc)->desktop->current_zoom();
 }
 
-static double get_path_force(SprayTool *tc)
-{
-    double force = 8 * (tc->usepressure? tc->pressure : TC_DEFAULT_PRESSURE)
-        /sqrt(SP_EVENT_CONTEXT(tc)->desktop->current_zoom());
-    if (force > 3) {
-        force += 4 * (force - 3);
-    }
-    return force * tc->force;
-}
-
 static double get_path_mean(SprayTool *tc)
 {
     return tc->mean;
@@ -320,10 +298,11 @@ static double get_path_standard_deviation(SprayTool *tc)
     return tc->standard_deviation;
 }
 
-static double get_move_force(SprayTool *tc)
+static double get_population(SprayTool *tc)
 {
-    double force = (tc->usepressure? tc->pressure : TC_DEFAULT_PRESSURE);
-    return force * tc->force;
+    double pressure = (tc->usepressure? tc->pressure / TC_DEFAULT_PRESSURE : 1);
+    //g_warning("Pressure, population: %f, %f", pressure, pressure * tc->population);
+    return pressure * tc->population;
 }
 
 static double get_move_mean(SprayTool *tc)
@@ -371,7 +350,6 @@ static bool sp_spray_recursive(SPDesktop *desktop,
                                Geom::Point /*vector*/,
                                gint mode,
                                double radius,
-                               double /*force*/,
                                double population,
                                double &scale,
                                double scale_variation,
@@ -532,8 +510,8 @@ static bool sp_spray_dilate(SprayTool *tc, Geom::Point /*event_p*/, Geom::Point 
 
     bool did = false;
     double radius = get_dilate_radius(tc);
-    double path_force = get_path_force(tc);
-    if (radius == 0 || path_force == 0) {
+    double population = get_population(tc);
+    if (radius == 0 || population == 0) {
         return false;
     }
     double path_mean = get_path_mean(tc);
@@ -544,7 +522,6 @@ static bool sp_spray_dilate(SprayTool *tc, Geom::Point /*event_p*/, Geom::Point 
     if (radius == 0 || path_standard_deviation == 0) {
         return false;
     }
-    double move_force = get_move_force(tc);
     double move_mean = get_move_mean(tc);
     double move_standard_deviation = get_move_standard_deviation(tc);
 
@@ -562,14 +539,8 @@ static bool sp_spray_dilate(SprayTool *tc, Geom::Point /*event_p*/, Geom::Point 
                 items = items->next) {
             SPItem *item = SP_ITEM(items->data);
 
-            if (is_transform_modes(tc->mode)) {
-                if (sp_spray_recursive(desktop, selection, item, p, vector, tc->mode, radius, move_force, tc->population, tc->scale, tc->scale_variation, reverse, move_mean, move_standard_deviation, tc->ratio, tc->tilt, tc->rotation_variation, tc->distrib)) {
-                    did = true;
-                }
-            } else {
-                if (sp_spray_recursive(desktop, selection, item, p, vector, tc->mode, radius, path_force, tc->population, tc->scale, tc->scale_variation, reverse, path_mean, path_standard_deviation, tc->ratio, tc->tilt, tc->rotation_variation, tc->distrib)) {
-                    did = true;
-                }
+            if (sp_spray_recursive(desktop, selection, item, p, vector, tc->mode, radius, population, tc->scale, tc->scale_variation, reverse, move_mean, move_standard_deviation, tc->ratio, tc->tilt, tc->rotation_variation, tc->distrib)) {
+                did = true;
             }
         }
 
