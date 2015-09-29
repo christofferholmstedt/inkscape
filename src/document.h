@@ -271,6 +271,7 @@ public:
 private:
     void do_change_uri(gchar const *const filename, bool const rebase);
     void setupViewport(SPItemCtx *ctx);
+    void importDefsNode(SPDocument *source, Inkscape::XML::Node *defs, Inkscape::XML::Node *target_defs);
 };
 
 /*

@@ -14,6 +14,7 @@
 #ifndef SEEN_SP_REPR_H
 #define SEEN_SP_REPR_H
 
+#include <vector>
 #include <glib.h>
 #include <glibmm/quark.h>
 
@@ -141,6 +142,10 @@ Inkscape::XML::Node *sp_repr_lookup_name(Inkscape::XML::Node *repr,
 Inkscape::XML::Node const *sp_repr_lookup_name(Inkscape::XML::Node const *repr,
                                                gchar const *name,
                                                gint maxdepth = -1);
+
+std::vector<Inkscape::XML::Node const *> sp_repr_lookup_name_many(Inkscape::XML::Node const *repr,
+                                                                  gchar const *name,
+                                                                  int maxdepth = -1);
 
 Inkscape::XML::Node *sp_repr_lookup_child(Inkscape::XML::Node *repr,
                                           gchar const *key,
