@@ -3632,5 +3632,26 @@
 <path id="symbol-remove-shield" d="m 330.0142,114.1199 c 2.762,-0.781 5.4976,-0.8802 8.1953,0 -0.6623,2.1069 -0.093,4.1052 -0.3615,6.134 -0.2218,1.6719 -1.8714,2.6777 -3.7119,3.5283 -1.5384,-0.8542 -3.4022,-1.5335 -3.7362,-3.5283 C 330.0609,118.2291 330.6095,115.6819 330.0142,114.1199 Z" style="fill:url(#linearGradient19282)" inkscape:connector-curvature="0" />
 <path is="symbol-remove-arrow" d="m 340.1906,115.0143 0,7.25 L 345.6282,118.6394 Z" id="path3035" style="fill:url(#linearGradient19282)" inkscape:connector-curvature="0" />
 </g>
+<g id="dialog-templates" transform="translate(15.02581,667.3622)">
+<title id="title33388">folder-templates</title>
+<rect id="folder-templates" style="fill:none;stroke:none" width="16" height="16" x="0" y="0" />
+<rect id="rect33392" y="9" x="3" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33394" y="10" x="2" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33396" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="3" y="11" />
+<rect id="rect33398" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="2" y="12" />
+<rect id="rect33400" y="13" x="3" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33402" y="14" x="2" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33404" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="4" y="14" />
+<rect id="rect33406" y="14" x="6" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33408" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="8" y="14" />
+<rect id="rect33410" y="14" x="10" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33412" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="3" y="15" />
+<rect id="rect33414" y="15" x="5" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33416" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="7" y="15" />
+<rect id="rect33418" y="15" x="9" height="1" width="1" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" />
+<rect id="rect33420" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="11" y="15" />
+<rect id="rect33422" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none" width="1" height="1" x="12" y="14" />
+<path id="path33424" d="m 2.8127,0.99988 c -0.4584,0.0875 -0.82072,0.5334 -0.8125,1 L 2,10 l 2,0 0,-7 5,0 0,3 3,0 0,8 2,0 2e-4,-8.43762 C 14.0062,5.29832 13.9026,5.03341 13.71895,4.84363 l -3.5625,-3.5625 C 9.96667,1.09743 9.70176,0.99376 9.4377,0.99988 l -6.4375,0 c -0.0312,-0.002 -0.0625,-0.002 -0.0937,0 -0.0312,-0.002 -0.0625,-0.002 -0.0937,0 z" style="fill:url(#linearGradient19282);fill-opacity:1;stroke:none;marker:none" inkscape:connector-curvature="0" />
+</g>
 </g>
 </svg>
