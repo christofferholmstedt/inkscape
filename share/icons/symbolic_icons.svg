@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1250" height="540" id="svg15638" version="1.1" inkscape:version="0.48+devel r" sodipodi:docname="symbolic_icons.svg">
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1250" height="540" id="svg15638" version="1.1" inkscape:version="0.91 r13823" sodipodi:docname="symbolic_icons.svg">
 <title id="title9623">Inkscape Icon Theme</title>
 <defs id="defs15640">
 <inkscape:path-effect effect="spiro" id="path-effect36695" is_visible="true" />
@@ -3083,7 +3083,7 @@
 </g>
 <g id="paint-none" transform="translate(0,4.1533082e-4)" inkscape:label="#g20666">
 <rect y="929.36218" x="1044" height="19.999968" width="19.99975" id="rect194" style="fill:none;stroke:none" />
-<path inkscape:connector-curvature="0" id="path2473" d="m 1049.998,935.36212 8.0024,8.00002" style="fill:none;stroke:#707070;stroke-width:2.36701512000000003;stroke-linecap:round;stroke-opacity:1" />
+<path inkscape:connector-curvature="0" id="path2473" d="m 1049.998,935.36212 8.0024,8.00002" style="fill:none;stroke:url(#linearGradient19282);stroke-width:2.3670151;stroke-linecap:round;stroke-opacity:1" />
 <path inkscape:connector-curvature="0" id="path2474" d="m 1058.0004,935.36212 -8.0024,8.00001" style="fill:none;stroke:url(#linearGradient19282);stroke-width:2.36701512000000003;stroke-linecap:round;stroke-opacity:1" />
 </g>
 <g id="paint-solid" inkscape:label="#fill_solid" transform="translate(0,4.1533082e-4)">
