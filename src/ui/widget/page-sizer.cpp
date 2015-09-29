@@ -250,6 +250,10 @@ PageSizer::PageSizer(Registry & _wr)
     _marginLeft.setDigits(5);
     _marginRight.setDigits(5);
     _marginBottom.setDigits(5);
+
+    _dimensionWidth.setRange( 0.00001, 10000000 );
+    _dimensionHeight.setRange( 0.00001, 10000000 );
+
     _wr.setUpdating (false);
 
     //# Set up the Paper Size combo box
