@@ -3085,7 +3085,10 @@ void sp_selection_symbol(SPDesktop *desktop, bool /*apply*/ )
 
         symbol_repr->setAttribute("style",  the_group->getAttribute("style"));
         symbol_repr->setAttribute("class",  the_group->getAttribute("class"));
-        symbol_repr->setAttribute("id",     the_group->getAttribute("id")   );
+        std::string id = symbol_repr->attribute("id");
+        std::string idt = id + "_transform";
+        the_group->setAttribute("id", idt.c_str() );
+        symbol_repr->setAttribute("id", id);
 
         // This should eventually be replaced by 'refX' and 'refY' once SVG WG approves it.
         // It is done here for round-tripping
@@ -3095,9 +3098,6 @@ void sp_selection_symbol(SPDesktop *desktop, bool /*apply*/ )
                                   the_group->getAttribute("inkscape:transform-center-y"));
 
         the_group->setAttribute("style", NULL);
-        std::string id = symbol_repr->attribute("id");
-        id += "_transform";
-        the_group->setAttribute("id", id.c_str());
 
     }
 
