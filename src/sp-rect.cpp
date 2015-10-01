@@ -352,7 +352,7 @@ void SPRect::setVisibleRx(gdouble rx) {
     	this->rx.computed = rx / SPRect::vectorStretch(
             Geom::Point(this->x.computed + 1, this->y.computed),
             Geom::Point(this->x.computed, this->y.computed),
-            this->transform);
+            this->i2doc_affine());
 
     	this->rx._set = true;
     }
@@ -368,7 +368,7 @@ void SPRect::setVisibleRy(gdouble ry) {
     	this->ry.computed = ry / SPRect::vectorStretch(
             Geom::Point(this->x.computed, this->y.computed + 1),
             Geom::Point(this->x.computed, this->y.computed),
-            this->transform);
+            this->i2doc_affine());
 
     	this->ry._set = true;
     }
@@ -384,7 +384,7 @@ gdouble SPRect::getVisibleRx() const {
     return this->rx.computed * SPRect::vectorStretch(
         Geom::Point(this->x.computed + 1, this->y.computed),
         Geom::Point(this->x.computed, this->y.computed),
-        this->transform);
+        this->i2doc_affine());
 }
 
 gdouble SPRect::getVisibleRy() const {
@@ -395,7 +395,7 @@ gdouble SPRect::getVisibleRy() const {
     return this->ry.computed * SPRect::vectorStretch(
         Geom::Point(this->x.computed, this->y.computed + 1),
         Geom::Point(this->x.computed, this->y.computed),
-        this->transform);
+        this->i2doc_affine());
 }
 
 Geom::Rect SPRect::getRect() const {
@@ -446,7 +446,7 @@ void SPRect::setVisibleWidth(gdouble width) {
 	this->width.computed = width / SPRect::vectorStretch(
         Geom::Point(this->x.computed + 1, this->y.computed),
         Geom::Point(this->x.computed, this->y.computed),
-        this->transform);
+        this->i2doc_affine());
 
 	this->width._set = true;
 	this->updateRepr();
@@ -456,7 +456,7 @@ void SPRect::setVisibleHeight(gdouble height) {
 	this->height.computed = height / SPRect::vectorStretch(
         Geom::Point(this->x.computed, this->y.computed + 1),
         Geom::Point(this->x.computed, this->y.computed),
-        this->transform);
+        this->i2doc_affine());
 
 	this->height._set = true;
 	this->updateRepr();
@@ -470,7 +470,7 @@ gdouble SPRect::getVisibleWidth() const {
     return this->width.computed * SPRect::vectorStretch(
         Geom::Point(this->x.computed + 1, this->y.computed),
         Geom::Point(this->x.computed, this->y.computed),
-        this->transform);
+        this->i2doc_affine());
 }
 
 gdouble SPRect::getVisibleHeight() const {
@@ -481,7 +481,7 @@ gdouble SPRect::getVisibleHeight() const {
     return this->height.computed * SPRect::vectorStretch(
         Geom::Point(this->x.computed, this->y.computed + 1),
         Geom::Point(this->x.computed, this->y.computed),
-        this->transform);
+        this->i2doc_affine());
 }
 
 void SPRect::snappoints(std::vector<Inkscape::SnapCandidatePoint> &p, Inkscape::SnapPreferences const *snapprefs) const {
