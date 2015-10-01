@@ -26,6 +26,7 @@
 #include "display/sp-canvas.h"
 #include "display/guideline.h"
 #include "svg/svg.h"
+#include "svg/svg-color.h"
 #include "svg/stringstream.h"
 #include "attributes.h"
 #include "sp-guide.h"
@@ -159,6 +160,7 @@ void SPGuide::setHiColor(guint32 h) {
 void SPGuide::build(SPDocument *document, Inkscape::XML::Node *repr) {
 	SPObject::build(document, repr);
 
+    this->readAttr( "inkscape:color" );
     this->readAttr( "inkscape:label" );
     this->readAttr( "orientation" );
     this->readAttr( "position" );
@@ -183,6 +185,11 @@ void SPGuide::release() {
 
 void SPGuide::set(unsigned int key, const gchar *value) {
     switch (key) {
+    case SP_ATTR_INKSCAPE_COLOR:
+        if (value) {
+            this->setColor(sp_svg_read_color(value, 0x0000ff00) | 0x7f);
+        }
+        break;
     case SP_ATTR_INKSCAPE_LABEL:
         if (this->label) g_free(this->label);
         
