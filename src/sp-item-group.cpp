@@ -490,7 +490,7 @@ sp_item_group_ungroup (SPGroup *group, GSList **children, bool do_done)
             Inkscape::XML::Node *nrepr = child->getRepr()->duplicate(prepr->document());
 
             // Merging transform
-            Geom::Affine ctrans;
+            Geom::Affine ctrans = citem->transform * g;
                 // We should not apply the group's transformation to both a linked offset AND to its source
                 if (SP_IS_OFFSET(citem)) { // Do we have an offset at hand (whether it's dynamic or linked)?
                     SPItem *source = sp_offset_get_source(SP_OFFSET(citem));
@@ -501,13 +501,9 @@ sp_item_group_ungroup (SPGroup *group, GSList **children, bool do_done)
                         source = sp_offset_get_source(SP_OFFSET(source));
                     }
                     if (source != NULL && // If true then we must be dealing with a linked offset ...
-                        group->isAncestorOf(source) == false) { // ... of which the source is not in the same group
-                        ctrans = citem->transform * g; // then we should apply the transformation of the group to the offset
-                    } else {
-                        ctrans = citem->transform;
+                        group->isAncestorOf(source) ) { // ... of which the source is in the same group
+                        ctrans = citem->transform; // then we should apply the transformation of the group to the offset
                     }
-                } else {
-                    ctrans = citem->transform * g;
                 }
 
             // FIXME: constructing a transform that would fully preserve the appearance of a
