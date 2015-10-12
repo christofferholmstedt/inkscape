@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-04-21 02:20+0200\n"
-"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
+"PO-Revision-Date: 2015-09-27 18:59+0100\n"
+"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -274,7 +275,7 @@ msgstr "Kanten und Grenzen schärfen, Stärke = 0,15"
 
 #: ../share/filters/filters.svg.h:70
 msgid "Sharpen More"
-msgstr "Stärker Schärfen"
+msgstr "Stärker schärfen"
 
 #: ../share/filters/filters.svg.h:72
 msgid "Sharpen edges and boundaries within the object, force=0.3"
@@ -328,7 +329,7 @@ msgstr "Farbkanten im Objekt erkennen und in Blau nachzeichnen"
 
 #: ../share/filters/filters.svg.h:86
 msgid "Age"
-msgstr "Alter"
+msgstr "Altern"
 
 #: ../share/filters/filters.svg.h:88
 msgid "Imitate aged photograph"
@@ -432,7 +433,7 @@ msgstr "Zerbrochenes Glas"
 
 #: ../share/filters/filters.svg.h:128
 msgid "Under a cracked glass"
-msgstr "Unter einem zerbrochenen Glas"
+msgstr "Unter gesplittertem Glas"
 
 #: ../share/filters/filters.svg.h:130
 msgid "Bubbly Bumps"
@@ -638,7 +639,7 @@ msgid ""
 "Metallized effect with a soft lighting, slightly translucent at the edges"
 msgstr ""
 "Metallischer Effekt mit weicher Beleuchtung, leicht lichtdurchlässig an den "
-"Kanten "
+"Kanten"
 
 #: ../share/filters/filters.svg.h:214
 msgid "Dragee"
@@ -723,11 +724,11 @@ msgstr "Feine Goldpartikel in fetter Grundlage, mit Glanzlichtern"
 
 #: ../share/filters/filters.svg.h:250
 msgid "Crumpled Plastic"
-msgstr "Gebröckelte Plastik"
+msgstr "Zerknitterter Kunststoff"
 
 #: ../share/filters/filters.svg.h:252
 msgid "Crumpled matte plastic, with melted edge"
-msgstr "Gebröckelte matte Plastik mit geschmolzenen Ecken"
+msgstr "Zerknitterter, matter Kunststoff mit angeschmolzenen Ecken"
 
 #: ../share/filters/filters.svg.h:254
 msgid "Enamel Jewelry"
@@ -895,7 +896,7 @@ msgstr "Geringe Turbulenz ergibt Schwammeffekt, starke Turbulenz Kreide"
 
 #: ../share/filters/filters.svg.h:330
 msgid "People"
-msgstr "Leute"
+msgstr "Menschen"
 
 #: ../share/filters/filters.svg.h:332
 msgid "Colorized blotches, like a crowd of people"
@@ -1018,7 +1019,7 @@ msgstr "Wellenförmig verzerrtes Schottenkaro mit abgeschrägten Kanten"
 
 #: ../share/filters/filters.svg.h:394
 msgid "3D Marble"
-msgstr "3D Marmor"
+msgstr "3D-Marmor"
 
 #: ../share/filters/filters.svg.h:396
 msgid "3D warped marble texture"
@@ -1026,7 +1027,7 @@ msgstr "Dreidimensional verkrümmte Marmortextur"
 
 #: ../share/filters/filters.svg.h:398
 msgid "3D Wood"
-msgstr "3D Holz"
+msgstr "3D-Holz"
 
 #: ../share/filters/filters.svg.h:400
 msgid "3D warped, fibered wood texture"
@@ -1034,7 +1035,7 @@ msgstr "Dreidimensional verkrümmte, faserige Holztextur"
 
 #: ../share/filters/filters.svg.h:402
 msgid "3D Mother of Pearl"
-msgstr "3D Perlmutt"
+msgstr "3D-Perlmutt"
 
 #: ../share/filters/filters.svg.h:404
 msgid "3D warped, iridescent pearly shell texture"
@@ -1046,7 +1047,7 @@ msgstr "Tigerfell"
 
 #: ../share/filters/filters.svg.h:408
 msgid "Tiger fur pattern with folds and bevel around the edges"
-msgstr "Aufgefaltetes Tigerfellmuster mit abgeschrägten Kanten "
+msgstr "Aufgefaltetes Tigerfellmuster mit abgeschrägten Kanten"
 
 #: ../share/filters/filters.svg.h:410
 msgid "Black Light"
@@ -1250,7 +1251,7 @@ msgstr "Verknitterte, eingefallene Ballonhaut mit Löchern"
 
 #: ../share/filters/filters.svg.h:470
 msgid "Embossed Leather"
-msgstr "geprägtes Leder"
+msgstr "Geprägtes Leder"
 
 #: ../share/filters/filters.svg.h:472
 msgid ""
@@ -1266,7 +1267,7 @@ msgstr "Batik"
 
 #: ../share/filters/filters.svg.h:476
 msgid "White splotches evocating carnaval masks"
-msgstr "Weiße Flecken, die an  Batik erinnern"
+msgstr "Weiße Flecken, die an Batik erinnern"
 
 #: ../share/filters/filters.svg.h:478
 msgid "Plastify"
@@ -1278,7 +1279,7 @@ msgid ""
 "crumple"
 msgstr ""
 "Kantenerkennung im HSL-Farbraum mit dem Effekt einer reflektierenden "
-"Oberfläche einstellbarer Welligkeit "
+"Oberfläche einstellbarer Welligkeit"
 
 #: ../share/filters/filters.svg.h:482
 msgid "Plaster"
@@ -1358,7 +1359,7 @@ msgstr "Alphagravur B"
 #: ../share/filters/filters.svg.h:516
 msgid ""
 "Gives a controllable roughness engraving effect to bitmaps and materials"
-msgstr "Erzeugt eine einstellbare raue Oberfläche auf Materialien und Bildern "
+msgstr "Erzeugt eine einstellbare raue Oberfläche auf Materialien und Bildern"
 
 #: ../share/filters/filters.svg.h:518
 msgid "Lapping"
@@ -1502,8 +1503,7 @@ msgstr "Reliefdruck"
 
 #: ../share/filters/filters.svg.h:580
 msgid "Bumps effect with a bevel, color flood and complex lighting"
-msgstr ""
-"Oberflächenstruktur mit Wölbung, Farbfüllung und komplexer Beleuchtung "
+msgstr "Oberflächenstruktur mit Wölbung, Farbfüllung und komplexer Beleuchtung"
 
 #: ../share/filters/filters.svg.h:582
 msgid "Growing Cells"
@@ -1649,7 +1649,7 @@ msgstr "abflachende Transparenz"
 
 #: ../share/filters/filters.svg.h:652
 msgid "Adds a white opaque background"
-msgstr "Fügt einen weißen,trüben Hintergrund hinzu"
+msgstr "Fügt einen weißen, deckenden Hintergrund hinzu"
 
 #: ../share/filters/filters.svg.h:654
 msgid "Blur Double"
@@ -1698,7 +1698,7 @@ msgstr "Fügt kleinteilige Körnung hinzu"
 
 #: ../share/filters/filters.svg.h:674
 msgid "Poster Color Fun"
-msgstr "Poster Farbspaß"
+msgstr "Poster-Farbspaß"
 
 #: ../share/filters/filters.svg.h:678
 msgid "Poster Rough"
@@ -1808,7 +1808,7 @@ msgstr "Comicartiges Ausbleichen"
 
 #: ../share/filters/filters.svg.h:740
 msgid "Cartoon paint style with some fading at the edges"
-msgstr "Cartoonartiger Farbstil mit leichtem Ausbleichen der Ränder "
+msgstr "Cartoonartiger Farbstil mit leichtem Ausbleichen der Ränder"
 
 #: ../share/filters/filters.svg.h:742
 msgid "Brushed Metal"
@@ -1916,7 +1916,7 @@ msgstr "Gefrorenes Glas"
 
 #: ../share/filters/filters.svg.h:796
 msgid "Satiny glass effect"
-msgstr "Satin Glaseffekt"
+msgstr "Satiniertes-Glas-Effekt"
 
 #: ../share/filters/filters.svg.h:798
 msgid "Bump Engraving"
@@ -2939,7 +2939,7 @@ msgstr "Pflaume (#DDA0DD)"
 #: ../share/palettes/palettes.h:153
 msgctxt "Palette"
 msgid "violet (#EE82EE)"
-msgstr "Violetl (#EE82EE)"
+msgstr "Violett (#EE82EE)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:154
@@ -4439,19 +4439,19 @@ msgstr "Visitenkarte 85x54mm"
 
 #: ../share/templates/templates.h:1
 msgid "Empty business card template."
-msgstr "Leere Geschäftskartenvorlage."
+msgstr "Leere Visitenkartenvorlage."
 
 #: ../share/templates/templates.h:1
 msgid "business card empty 85x54"
-msgstr "Geschäftskarte leer 85x54"
+msgstr "Visitenkarte leer 85x54"
 
 #: ../share/templates/templates.h:1
 msgid "Business Card 90x50mm"
-msgstr "Geschäftskarte 90x50mm"
+msgstr "Visitenkarte 90x50mm"
 
 #: ../share/templates/templates.h:1
 msgid "business card empty 90x50"
-msgstr "Geschäftskarte leer 90x50"
+msgstr "Visitenkarte leer 90x50"
 
 #: ../share/templates/templates.h:1
 msgid "CD Cover 300dpi"
@@ -5035,7 +5035,7 @@ msgstr "Hilfslinie-Pfad-Überschneidung"
 
 #: ../src/display/snap-indicator.cpp:124
 msgid "clip-path"
-msgstr "Ausschneidungspfad"
+msgstr "Ausschneidepfad"
 
 #: ../src/display/snap-indicator.cpp:127
 msgid "mask-path"
@@ -5043,11 +5043,11 @@ msgstr "Maskenpfad"
 
 #: ../src/display/snap-indicator.cpp:130
 msgid "bounding box corner"
-msgstr "Rahmenecken"
+msgstr "Ecke des Objektrahmens"
 
 #: ../src/display/snap-indicator.cpp:133
 msgid "bounding box side"
-msgstr "Rahmenseite"
+msgstr "Kante des Objektrahmens"
 
 #: ../src/display/snap-indicator.cpp:136
 msgid "page border"
@@ -5067,11 +5067,11 @@ msgstr "Objekt-Drehpunkt"
 
 #: ../src/display/snap-indicator.cpp:148
 msgid "bounding box side midpoint"
-msgstr "Rahmenseiten-Mittelpunkt"
+msgstr "Mittelpunkt der Objektrahmenlinie"
 
 #: ../src/display/snap-indicator.cpp:151
 msgid "bounding box midpoint"
-msgstr "Rahmen-Mittelpunkt"
+msgstr "Mittelpunkt des Objektrahmens"
 
 #: ../src/display/snap-indicator.cpp:154
 msgid "page corner"
@@ -5103,19 +5103,19 @@ msgstr "erzwungen"
 
 #: ../src/display/snap-indicator.cpp:187
 msgid "Bounding box corner"
-msgstr "Rahmenecken"
+msgstr "Ecke des Objektrahmens"
 
 #: ../src/display/snap-indicator.cpp:190
 msgid "Bounding box midpoint"
-msgstr "Mittelpunkt der Umrandung"
+msgstr "Mittelpunkt des Objektrahmens"
 
 #: ../src/display/snap-indicator.cpp:193
 msgid "Bounding box side midpoint"
-msgstr "Mitte der Umrandungslinie"
+msgstr "Mittelpunkt der Objektrahmenlinie"
 
 #: ../src/display/snap-indicator.cpp:196 ../src/ui/tool/node.cpp:1319
 msgid "Smooth node"
-msgstr "glatter Knoten"
+msgstr "Glatter Knoten"
 
 #: ../src/display/snap-indicator.cpp:199 ../src/ui/tool/node.cpp:1318
 msgid "Cusp node"
@@ -5163,7 +5163,7 @@ msgstr "Ecken"
 
 #: ../src/display/snap-indicator.cpp:234
 msgid "Text anchor"
-msgstr "Text-anker"
+msgstr "Textanker"
 
 #: ../src/display/snap-indicator.cpp:237
 msgid "Multiple of grid spacing"
@@ -5340,8 +5340,8 @@ msgid ""
 "this extension."
 msgstr ""
 "Für diese Erweiterung ist zur Zeit keine Hilfe verfügbar. Besuchen Sie die "
-"Inkscape Webseite oder wenden Sie sich an die Mailing List wenn Sie Fragen "
-"bezüglich dieser Erweiterung haben."
+"Inkscape-Webseite oder wenden Sie sich an die Mailingliste, wenn Sie Fragen "
+"zu dieser Erweiterung haben."
 
 #: ../src/extension/implementation/script.cpp:1057
 msgid ""
@@ -5460,7 +5460,7 @@ msgstr "Rauschen hinzufügen"
 #: ../share/extensions/jessyInk_transitions.inx.h:5
 #: ../share/extensions/webslicer_create_rect.inx.h:14
 msgid "Type:"
-msgstr "Type:"
+msgstr "Art:"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:48
 msgid "Uniform Noise"
@@ -5472,7 +5472,7 @@ msgstr "Gaußsches Rauschen"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:50
 msgid "Multiplicative Gaussian Noise"
-msgstr "Multiplikatives Gaußsches Rauschen "
+msgstr "Multiplikatives Gaußsches Rauschen"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:51
 msgid "Impulse Noise"
@@ -5520,7 +5520,7 @@ msgstr "Sigma"
 
 #: ../src/extension/internal/bitmap/blur.cpp:47
 msgid "Blur selected bitmap(s)"
-msgstr "Gewählte(s) Bitmap(s) verunschärfen"
+msgstr "Gewählte(s) Bitmap(s) unscharf machen"
 
 #: ../src/extension/internal/bitmap/channel.cpp:48
 msgid "Channel"
@@ -5621,7 +5621,7 @@ msgstr "Oben (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:69
 msgid "Bottom (px):"
-msgstr "Unten (PX):"
+msgstr "Unten (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:70
 msgid "Left (px):"
@@ -5633,7 +5633,7 @@ msgstr "Rechts (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:77
 msgid "Crop selected bitmap(s)"
-msgstr "Gewählte(s) Rastergrafik(en) beschneiden"
+msgstr "Gewählte Rastergrafik(en) beschneiden"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:37
 msgid "Cycle Colormap"
@@ -5644,7 +5644,7 @@ msgstr "Rotiere Farbpalette"
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:45
 #: ../src/widgets/spray-toolbar.cpp:208
 msgid "Amount:"
-msgstr "Menge"
+msgstr "Menge:"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:45
 msgid "Cycle colormap(s) of selected bitmap(s)"
@@ -5664,17 +5664,17 @@ msgstr "Kante"
 
 #: ../src/extension/internal/bitmap/edge.cpp:45
 msgid "Highlight edges of selected bitmap(s)"
-msgstr "Betone Kanten der ausgewählten Bilder."
+msgstr "Betont Kanten der ausgewählten Bilder"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:38
 msgid "Emboss"
-msgstr "Kanten hervorheben"
+msgstr "Prägen"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:47
 msgid "Emboss selected bitmap(s); highlight edges with 3D effect"
 msgstr ""
-"Kanten in Ausgewählten Bitmaps herausheben -- Hebt Kanten mit einem 3D-"
-"Effekt hervor."
+"Prägeeffekt für ausgewählte Rastergrafiken, hebt Kanten mit einem 3D-Effekt "
+"hervor."
 
 #: ../src/extension/internal/bitmap/enhance.cpp:35
 msgid "Enhance"
@@ -5682,7 +5682,7 @@ msgstr "Entrauschen"
 
 #: ../src/extension/internal/bitmap/enhance.cpp:42
 msgid "Enhance selected bitmap(s); minimize noise"
-msgstr "Verbessert ausgewählte Bitmap(s) -- minimiert Rauschen."
+msgstr "Verbessert ausgewählte Bitmap(s), minimiert Rauschen."
 
 #: ../src/extension/internal/bitmap/equalize.cpp:35
 msgid "Equalize"
@@ -5690,7 +5690,7 @@ msgstr "Ausgleichen"
 
 #: ../src/extension/internal/bitmap/equalize.cpp:42
 msgid "Equalize selected bitmap(s); histogram equalization"
-msgstr "Gleicht ausgewählte Bitmap(s) aus -- Ausgleich anhand des Histogramms."
+msgstr "Gleicht ausgewählte Bitmap(s) aus, Ausgleich anhand des Histogramms."
 
 #: ../src/extension/internal/bitmap/gaussianBlur.cpp:38
 #: ../src/filter-enums.cpp:28
@@ -5701,7 +5701,7 @@ msgstr "Gaußscher Weichzeichner"
 #: ../src/extension/internal/bitmap/implode.cpp:39
 #: ../src/extension/internal/bitmap/solarize.cpp:41
 msgid "Factor:"
-msgstr "Faktor"
+msgstr "Faktor:"
 
 #: ../src/extension/internal/bitmap/gaussianBlur.cpp:47
 msgid "Gaussian blur selected bitmap(s)"
@@ -5726,29 +5726,29 @@ msgstr "Ebene"
 #: ../src/extension/internal/bitmap/level.cpp:43
 #: ../src/extension/internal/bitmap/levelChannel.cpp:65
 msgid "Black Point:"
-msgstr "Schwarzpunkt"
+msgstr "Schwarzpunkt:"
 
 #: ../src/extension/internal/bitmap/level.cpp:44
 #: ../src/extension/internal/bitmap/levelChannel.cpp:66
 msgid "White Point:"
-msgstr "Weißpunkt"
+msgstr "Weißpunkt:"
 
 #: ../src/extension/internal/bitmap/level.cpp:45
 #: ../src/extension/internal/bitmap/levelChannel.cpp:67
 msgid "Gamma Correction:"
-msgstr "Gammakorrektur"
+msgstr "Gammakorrektur:"
 
 #: ../src/extension/internal/bitmap/level.cpp:51
 msgid ""
 "Level selected bitmap(s) by scaling values falling between the given ranges "
 "to the full color range"
 msgstr ""
-"Ausgewählte Bitmap(s) angleichen, in dem Werte im angegebenen Bereich auf "
-"die volle Farbskala abgebildet werden"
+"Ausgewählte Bitmap(s) angleichen, indem Werte im angegebenen Bereich auf die "
+"volle Farbskala abgebildet werden"
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:52
 msgid "Level (with Channel)"
-msgstr "Ebene (mit Kanal)"
+msgstr "Angleichen (mit Kanal)"
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:54
 #: ../src/extension/internal/filter/color.h:636
@@ -5784,11 +5784,11 @@ msgstr "Farbton"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:43
 msgid "Saturation:"
-msgstr "Sättigung"
+msgstr "Sättigung:"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:44
 msgid "Brightness:"
-msgstr "Glanz:"
+msgstr "Helligkeit:"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:50
 msgid ""
@@ -5801,7 +5801,7 @@ msgstr "Negativ"
 
 #: ../src/extension/internal/bitmap/negate.cpp:43
 msgid "Negate (take inverse) selected bitmap(s)"
-msgstr "Gewählte Bitmaps invertieren."
+msgstr "Gewählte(s) Bitmap(s) invertieren"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:36
 msgid "Normalize"
@@ -5855,7 +5855,7 @@ msgstr "Angehoben"
 msgid ""
 "Alter lightness the edges of selected bitmap(s) to create a raised appearance"
 msgstr ""
-"Helligkeit von Farbkanten in ausgewählten Bitmap(s)  anpassen, um den "
+"Helligkeit von Farbkanten in ausgewählten Bitmap(s) anpassen, um den "
 "Anschein herausgehobener Ecken zu erwecken."
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:40
@@ -5891,11 +5891,11 @@ msgstr "Schattieren"
 
 #: ../src/extension/internal/bitmap/shade.cpp:42
 msgid "Azimuth:"
-msgstr "Azimut"
+msgstr "Azimut:"
 
 #: ../src/extension/internal/bitmap/shade.cpp:43
 msgid "Elevation:"
-msgstr "Anhebung"
+msgstr "Anhebung:"
 
 #: ../src/extension/internal/bitmap/shade.cpp:44
 msgid "Colored Shading"
@@ -5933,7 +5933,7 @@ msgstr ""
 
 #: ../src/extension/internal/bitmap/swirl.cpp:39
 msgid "Degrees:"
-msgstr "Grad"
+msgstr "Grad:"
 
 #: ../src/extension/internal/bitmap/swirl.cpp:45
 msgid "Swirl selected bitmap(s) around center point"
@@ -5956,11 +5956,11 @@ msgstr "Schwellwert ausgewählter Bitmap(s)"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:41
 msgid "Unsharp Mask"
-msgstr "Unscharfe Maske"
+msgstr "Unschärfemaske"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:52
 msgid "Sharpen selected bitmap(s) using unsharp mask algorithms"
-msgstr "Ausgewählte Bitmaps mittels Unscharfe-Maske-Algorithmen schärfen"
+msgstr "Ausgewählte Bitmaps mittels Unschärfemaske-Algorithmen schärfen"
 
 #: ../src/extension/internal/bitmap/wave.cpp:38
 msgid "Wave"
@@ -6007,7 +6007,7 @@ msgstr "Aus Pfad erzeugen"
 #: ../src/extension/internal/cairo-ps-out.cpp:327
 #: ../share/extensions/ps_input.inx.h:3
 msgid "PostScript"
-msgstr "Postscript"
+msgstr "PostScript"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:329
 #: ../src/extension/internal/cairo-ps-out.cpp:368
@@ -6279,7 +6279,7 @@ msgstr "Diffuses Licht"
 #: ../src/extension/internal/filter/paint.h:89
 #: ../src/extension/internal/filter/paint.h:340
 msgid "Smoothness"
-msgstr "Glattheit"
+msgstr "Glättung"
 
 #: ../src/extension/internal/filter/bevels.h:56
 #: ../src/extension/internal/filter/bevels.h:137
@@ -6444,7 +6444,7 @@ msgstr "Mischen:"
 #: ../src/extension/internal/filter/transparency.h:63
 #: ../src/filter-enums.cpp:54
 msgid "Darken"
-msgstr "Verdunkeln"
+msgstr "Abdunkeln"
 
 #: ../src/extension/internal/filter/blurs.h:193
 #: ../src/extension/internal/filter/blurs.h:340
@@ -6461,7 +6461,7 @@ msgstr "Verdunkeln"
 #: ../src/extension/internal/filter/transparency.h:62
 #: ../src/filter-enums.cpp:53 ../src/ui/dialog/input.cpp:382
 msgid "Screen"
-msgstr "Screen"
+msgstr "Negativ multiplizieren"
 
 #: ../src/extension/internal/filter/blurs.h:194
 #: ../src/extension/internal/filter/blurs.h:341
@@ -6494,7 +6494,7 @@ msgstr "Multiplizieren"
 #: ../src/extension/internal/filter/transparency.h:64
 #: ../src/filter-enums.cpp:55
 msgid "Lighten"
-msgstr "Erhellen"
+msgstr "Aufhellen"
 
 #: ../src/extension/internal/filter/blurs.h:204
 msgid "Combine vertical and horizontal blur"
@@ -6543,7 +6543,7 @@ msgstr "Hintergrundfarbe"
 #: ../src/extension/internal/filter/blurs.h:337
 #: ../src/extension/internal/filter/bumps.h:129
 msgid "Blend type:"
-msgstr "Misch-Typ:"
+msgstr "Mischmodus:"
 
 #: ../src/extension/internal/filter/blurs.h:338
 #: ../src/extension/internal/filter/bumps.h:130
@@ -6566,7 +6566,7 @@ msgstr "Normal"
 
 #: ../src/extension/internal/filter/blurs.h:344
 msgid "Blend to background"
-msgstr "Mischen zum Hintergrund"
+msgstr "Mit Hintergrund mischen"
 
 #: ../src/extension/internal/filter/blurs.h:354
 msgid "Blur eroded by white or transparency"
@@ -6891,7 +6891,7 @@ msgstr "Verschiebung (°)"
 
 #: ../src/extension/internal/filter/color.h:265
 msgid "Rotate and desaturate hue"
-msgstr "Farbton rotieren nud entsättigen"
+msgstr "Farbton rotieren und entsättigen"
 
 #: ../src/extension/internal/filter/color.h:321
 msgid "Harsh light"
@@ -7251,7 +7251,7 @@ msgstr "Farbton verbessern"
 
 #: ../src/extension/internal/filter/color.h:1588
 msgid "Phosphorescence"
-msgstr "Phosphorisierend"
+msgstr "Phosphoreszenz"
 
 #: ../src/extension/internal/filter/color.h:1589
 msgid "Colored nights"
@@ -7263,7 +7263,7 @@ msgstr "Farbton zu Hintergrund"
 
 #: ../src/extension/internal/filter/color.h:1592
 msgid "Global blend:"
-msgstr "Globales Mischen:"
+msgstr "Mischmodus (global):"
 
 #: ../src/extension/internal/filter/color.h:1598
 msgid "Glow"
@@ -7271,7 +7271,7 @@ msgstr "Glühen"
 
 #: ../src/extension/internal/filter/color.h:1599
 msgid "Glow blend:"
-msgstr "Glühend "
+msgstr "Mischmodus (Glühen):"
 
 #: ../src/extension/internal/filter/color.h:1604
 msgid "Local light"
@@ -7362,7 +7362,7 @@ msgstr "Vertikale Frequenz"
 #: ../src/extension/internal/filter/paint.h:95
 #: ../src/extension/internal/filter/paint.h:697
 msgid "Complexity"
-msgstr "Kompexität"
+msgstr "Komplexität"
 
 #: ../src/extension/internal/filter/distort.h:90
 #: ../src/extension/internal/filter/distort.h:199
@@ -7419,7 +7419,7 @@ msgstr "Erkennen:"
 #: ../src/ui/dialog/template-load-tab.cpp:105
 #: ../src/ui/dialog/template-load-tab.cpp:142
 msgid "All"
-msgstr "alles"
+msgstr "Alles"
 
 #: ../src/extension/internal/filter/image.h:53
 msgid "Vertical lines"
@@ -7549,11 +7549,11 @@ msgstr "Glätten"
 
 #: ../src/extension/internal/filter/morphology.h:195
 msgid "Fill opacity:"
-msgstr "Deckkraft:"
+msgstr "Deckkraft der Füllung:"
 
 #: ../src/extension/internal/filter/morphology.h:196
 msgid "Stroke opacity:"
-msgstr "Strich-Deckkraft:"
+msgstr "Deckkraft der Kontur:"
 
 #: ../src/extension/internal/filter/morphology.h:206
 msgid "Adds a colorizable outline"
@@ -7604,7 +7604,7 @@ msgstr "Vertikale Frequenz:"
 #: ../src/extension/internal/filter/overlays.h:66
 #: ../src/extension/internal/filter/textures.h:69
 msgid "Complexity:"
-msgstr "Kompexität:"
+msgstr "Komplexität:"
 
 #: ../src/extension/internal/filter/overlays.h:67
 #: ../src/extension/internal/filter/textures.h:70
@@ -8015,7 +8015,7 @@ msgstr "Globale Deckkraft"
 
 #: ../src/extension/internal/filter/transparency.h:218
 msgid "Make the lightest parts of the object progressively transparent"
-msgstr "Die hellsten Bereiche des Objekts werden fortschreitend transparenter "
+msgstr "Die hellsten Bereiche des Objekts werden fortschreitend transparenter"
 
 #: ../src/extension/internal/filter/transparency.h:291
 msgid "Set opacity and strength of opacity boundaries"
@@ -8235,6 +8235,9 @@ msgstr "OpenDocument-Zeichnung (*.odg)"
 msgid "OpenDocument drawing file"
 msgstr "OpenDocument-Zeichnungsdatei"
 
+# Deutsche Übersetzungen:
+#   http://www.cunodruck.de/files/downloads/PDF-Rahmen.pdf
+#   https://de.wikipedia.org/wiki/Portable_Document_Format#Angaben_der_Seitengeometrie
 #. TRANSLATORS: The following are document crop settings for PDF import
 #. more info: http://www.acrobatusers.com/tech_corners/javascript_corner/tips/2006/page_bounds/
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:71
@@ -8251,7 +8254,7 @@ msgstr "Endformatrahmen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:74
 msgid "bleed box"
-msgstr "Ausschnittrahmen"
+msgstr "Anschnittrahmen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:75
 msgid "art box"
@@ -8268,15 +8271,15 @@ msgstr "Seiteneinstellungen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:124
 msgid "Precision of approximating gradient meshes:"
-msgstr "Präzision zur Annäherung an gradient meshes:"
+msgstr "Präzision der Annäherung von Verlaufsgittern:"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:125
 msgid ""
 "<b>Note</b>: setting the precision too high may result in a large SVG file "
 "and slow performance."
 msgstr ""
-"<b>Hinweis</b>: Die Präzision zu hoch einzustellen kann zu einem großen SVG "
-"und schlechter Leistung führen."
+"<b>Hinweis</b>: Wird die Präzision zu hoch eingestellt, kann dies zu einer "
+"großen SVG Datei und erhöhtem Ressourcenbedarf führen."
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:128
 msgid "import via Poppler"
@@ -8298,7 +8301,9 @@ msgstr "Fließtext in Text umwandeln"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:146
 msgid "Replace PDF fonts by closest-named installed fonts"
-msgstr "PDF-Fonts durch namenähnlichste installierte Fonts ersetzen"
+msgstr ""
+"Schriftarten im PDF durch installierte Schriftarten mit den ähnlichsten "
+"Namen ersetzen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:149
 msgid "Embed images"
@@ -8315,12 +8320,12 @@ msgstr "PDF-Importeinstellungen"
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:431
 msgctxt "PDF input precision"
 msgid "rough"
-msgstr "rau"
+msgstr "grob"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:432
 msgctxt "PDF input precision"
 msgid "medium"
-msgstr "Mittel"
+msgstr "mittel"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:433
 msgctxt "PDF input precision"
@@ -9532,7 +9537,7 @@ msgstr "Standartpiktogramm"
 
 #: ../src/libgdl/gdl-dock-object.c:141
 msgid "Stock icon for the dock object"
-msgstr "Standardpiktogramm  für das Dock-Objekt"
+msgstr "Standardpiktogramm für das Dock-Objekt"
 
 #: ../src/libgdl/gdl-dock-object.c:147
 msgid "Pixbuf Icon"
@@ -9833,7 +9838,7 @@ msgstr "Gitter erzeugen"
 
 #: ../src/live_effects/effect.cpp:114
 msgid "Spiro spline"
-msgstr "Spiro spline"
+msgstr "Spiro Spline"
 
 #: ../src/live_effects/effect.cpp:115
 msgid "Envelope Deformation"
@@ -9885,7 +9890,7 @@ msgstr "Kein Effekt"
 msgid "Please specify a parameter path for the LPE '%s' with %d mouse clicks"
 msgstr ""
 "Bitte spezifizieren Sie einen Parameterpfad für den Pfadeffekt \"%s\" mit %d "
-"Mausklicks. "
+"Mausklicks."
 
 #: ../src/live_effects/effect.cpp:624
 #, c-format
@@ -10309,7 +10314,7 @@ msgstr "CubicBezierFit"
 #. {Geom::Interpolate::INTERP_CUBICBEZIER_JOHAN     , N_("CubicBezierJohan"), "CubicBezierJohan"},
 #: ../src/live_effects/lpe-powerstroke.cpp:191
 msgid "SpiroInterpolator"
-msgstr "Spiro-Interpolieren"
+msgstr "SpiroInterpolator"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:192
 msgid "Centripetal Catmull-Rom"
@@ -10326,7 +10331,7 @@ msgstr "Quadrat"
 #: ../src/live_effects/lpe-powerstroke.cpp:206
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:13
 msgid "Round"
-msgstr "Abrunden"
+msgstr "Rundung"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:207
 msgid "Peak"
@@ -10334,7 +10339,7 @@ msgstr "Spitze"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:208
 msgid "Zero width"
-msgstr "Null-Breite"
+msgstr "Nullbreite"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:221
 msgid "Beveled"
@@ -10348,7 +10353,7 @@ msgstr "Abgerundet"
 #. {LINEJOIN_EXTRP_MITER,  N_("Extrapolated"),      "extrapolated"}, // disabled because doesn't work well
 #: ../src/live_effects/lpe-powerstroke.cpp:224
 msgid "Extrapolated arc"
-msgstr "Abgeleiteter Bogen"
+msgstr "Abgeleitete Kurve"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:225
 msgid "Miter"
@@ -10357,9 +10362,8 @@ msgstr "Gehrung"
 #: ../src/live_effects/lpe-powerstroke.cpp:226
 #: ../src/widgets/pencil-toolbar.cpp:103
 msgid "Spiro"
-msgstr "Spirale"
+msgstr "Spiro"
 
-# !!! verb or noun?
 #: ../src/live_effects/lpe-powerstroke.cpp:232
 msgid "Offset points"
 msgstr "Versatzpunkte"
@@ -10370,8 +10374,7 @@ msgstr "Punkte sortieren"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:233
 msgid "Sort offset points according to their time value along the curve"
-msgstr ""
-"Sortiert versetzte Punkte entsprechend ihres Zeitwertes entlang der Kurve"
+msgstr "Sortiert Versatzpunkte entsprechend ihres Zeitwertes entlang der Kurve"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:234
 msgid "Interpolator type:"
@@ -10383,28 +10386,28 @@ msgid ""
 "stroke width along the path"
 msgstr ""
 "Legt fest, welche Art von Interpolator für die Interpolation zwischen "
-"Strichstärke entlang des Pfades verwendet weden"
+"Strichstärken entlang des Pfades verwendet wird"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:235
 #: ../share/extensions/fractalize.inx.h:3
 msgid "Smoothness:"
-msgstr "Glattheit:"
+msgstr "Glättung:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:235
 msgid ""
 "Sets the smoothness for the CubicBezierJohan interpolator; 0 = linear "
 "interpolation, 1 = smooth"
 msgstr ""
-"Setzt die Weichheit für den CubicBezierJohan-Interpolator; 0 = Lineare "
-"Interpolation, 1 = weich"
+"Setzt die Glättung für den CubicBezierJohan Interpolator; 0 = lineare "
+"Interpolation, 1 = abgerundet"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:236
 msgid "Start cap:"
-msgstr "Anfang:"
+msgstr "Abschluss Pfadanfang:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:236
 msgid "Determines the shape of the path's start"
-msgstr "Bestimmt die Form des Pfad-Start"
+msgstr "Bestimmt die Form des Pfadanfangs"
 
 #. Join type
 #. TRANSLATORS: The line join style specifies the shape to be used at the
@@ -10429,11 +10432,11 @@ msgstr "Maximale Länge der Spitze (in Vielfachen der Konturlinienbreite)"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:239
 msgid "End cap:"
-msgstr "Ende:"
+msgstr "Abschluss Pfadende:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:239
 msgid "Determines the shape of the path's end"
-msgstr "Bestimmt die Form des Pfad-Endes"
+msgstr "Bestimmt die Form des Pfadendes"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:225
 msgid "Frequency randomness:"
@@ -10454,14 +10457,14 @@ msgstr "Zunahme des Abstands zwischen den Strichen"
 #. FIXME: top/bottom names are inverted in the UI/svg and in the code!!
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid "Half-turns smoothness: 1st side, in:"
-msgstr "Weichheit der Umkehrpunkte: 1. Seite, einlaufend:"
+msgstr "Glättung der Umkehrpunkte: 1. Seite, einlaufend:"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid ""
 "Set smoothness/sharpness of path when reaching a 'bottom' half-turn. "
 "0=sharp, 1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Einlaufen in \"unteren\" Wendepunkt. 0=spitz, "
+"Wählt Glättung des Pfades bei Einlaufen in \"unteren\" Wendepunkt. 0=spitz, "
 "1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:229
@@ -10473,8 +10476,8 @@ msgid ""
 "Set smoothness/sharpness of path when leaving a 'bottom' half-turn. 0=sharp, "
 "1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Auslaufen aus \"unterem\" Wendepunkt. "
-"0=spitz, 1=Standard"
+"Wählt Glättung des Pfades bei Auslaufen aus \"unterem\" Wendepunkt. 0=spitz, "
+"1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "2nd side, in:"
@@ -10485,7 +10488,7 @@ msgid ""
 "Set smoothness/sharpness of path when reaching a 'top' half-turn. 0=sharp, "
 "1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Einlaufen in \"oberen\" Wendepunkt. 0=spitz, "
+"Wählt Glättung des Pfades bei Einlaufen in \"oberen\" Wendepunkt. 0=spitz, "
 "1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
@@ -10497,7 +10500,7 @@ msgid ""
 "Set smoothness/sharpness of path when leaving a 'top' half-turn. 0=sharp, "
 "1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Auslaufen aus \"oberen\" Wendepunkt. 0=spitz, "
+"Wählt Glättung des Pfades bei Auslaufen aus \"oberen\" Wendepunkt. 0=spitz, "
 "1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:232
@@ -10548,11 +10551,11 @@ msgstr "Varianz: 1. Seite:"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:236
 msgid "Randomness of 'bottom' half-turns smoothness"
-msgstr "Zufall in der Glattheit \"unterer\" Wendepunkte"
+msgstr "Zufall in der Glättung \"unterer\" Wendepunkte"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:237
 msgid "Randomness of 'top' half-turns smoothness"
-msgstr "Zufall in der Glattheit \"oberer\" Wendepunkte"
+msgstr "Zufall in der Glättung \"oberer\" Wendepunkte"
 
 #.
 #: ../src/live_effects/lpe-rough-hatches.cpp:239
@@ -10817,7 +10820,7 @@ msgstr "Konstruktionslinien:"
 
 #: ../src/live_effects/lpe-sketch.cpp:57
 msgid "How many construction lines (tangents) to draw"
-msgstr "Wie viele Konstruktionslinien (Tangenten)  gezeichnet werden sollen"
+msgstr "Wie viele Konstruktionslinien (Tangenten) gezeichnet werden sollen"
 
 #: ../src/live_effects/lpe-sketch.cpp:58
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2878
@@ -10927,7 +10930,7 @@ msgstr ""
 #. FIXME: a path is used here instead of 2 points to work around path/point param incompatibility bug.
 #: ../src/live_effects/lpe-vonkoch.cpp:55
 msgid "_Max complexity:"
-msgstr "_Maximale Kompexität:"
+msgstr "_Maximale Komplexität:"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:55
 msgid "Disable effect if the output is too complex"
@@ -11223,7 +11226,7 @@ msgstr "Dokument in eine Windows-Metadatei (WMF) exportieren"
 
 #: ../src/main.cpp:439
 msgid "Convert text object to paths on export (PS, EPS, PDF, SVG)"
-msgstr "Textelemente beim Export (PS, EPS, PDF, SVG) in Pfade umwandeln "
+msgstr "Textelemente beim Export (PS, EPS, PDF, SVG) in Pfade umwandeln"
 
 #: ../src/main.cpp:444
 msgid ""
@@ -11809,7 +11812,7 @@ msgstr "Eine eindeutige Referenz auf die Quelle im angegebenen Kontext"
 
 #: ../src/rdf.cpp:262
 msgid "A related resource from which the described resource is derived"
-msgstr "Die ürsprüngliche Quelle aus welcher der Inhalt entnommen ist "
+msgstr "Die ürsprüngliche Quelle aus welcher der Inhalt entnommen ist"
 
 #: ../src/rdf.cpp:264
 msgid "Relation:"
@@ -13389,8 +13392,7 @@ msgstr "Verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:420
 msgid "Minimum horizontal gap (in px units) between bounding boxes"
-msgstr ""
-"Minimaler horizontaler Abstand (in px-Einheiten) zwischen Umrandungsboxen"
+msgstr "Minimaler horizontaler Abstand (in px-Einheiten) zwischen Objektrahmen"
 
 #. TRANSLATORS: "H:" stands for horizontal gap
 #: ../src/ui/dialog/align-and-distribute.cpp:422
@@ -13400,8 +13402,7 @@ msgstr "_H:"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:430
 msgid "Minimum vertical gap (in px units) between bounding boxes"
-msgstr ""
-"Minimaler vertikaler Abstand (in px-Einheiten) zwischen Umrandungsboxen"
+msgstr "Minimaler vertikaler Abstand (in px-Einheiten) zwischen Objektrahmen"
 
 #. TRANSLATORS: Vertical gap
 #: ../src/ui/dialog/align-and-distribute.cpp:432
@@ -13587,7 +13588,7 @@ msgid ""
 "Move objects as little as possible so that their bounding boxes do not "
 "overlap"
 msgstr ""
-"Objekte gerade so weit bewegen, dass sich ihre Umrandungsboxen nicht mehr "
+"Objekte gerade so weit bewegen, dass sich ihre Objektrahmen nicht mehr "
 "überlappen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:985
@@ -15409,7 +15410,8 @@ msgid ""
 "light source and the point to which it is pointing at) and the spot light "
 "cone. No light is projected outside this cone."
 msgstr ""
-"Öffnungswinkel des Lichtkonus. Außerhalb des Konus gibt es kein Licht. "
+"Öffnungswinkel des Lichtkonus (gemessen vom Zentralstrahl zum Rand). Kein "
+"Licht fällt außerhalb der Grenzen dieses Kegels."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1274
 msgid "New light source"
@@ -15890,7 +15892,7 @@ msgstr ""
 "Weichzeichnen, Schärfen, Prägen und Kantenerkennung. Achtung: Zwar kann der "
 "gleiche Effekt wie mit dem Gaußschen Weichzeichner erreicht werden, "
 "allerdings ist der spezialisierte Effekt schneller und von der Auflösung "
-"unabhängig. "
+"unabhängig."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2968
 msgid ""
@@ -16702,7 +16704,7 @@ msgstr "Kyrillisch Ergänzend"
 
 #: ../src/ui/dialog/glyphs.cpp:167
 msgid "Arabic Supplement"
-msgstr "Arabisch  Ergänzend"
+msgstr "Arabisch Ergänzend"
 
 #: ../src/ui/dialog/glyphs.cpp:169
 msgid "NKo"
@@ -17232,7 +17234,7 @@ msgid ""
 "Whether selected objects display a selection cue (the same as in selector)"
 msgstr ""
 "Sind die ausgewählten Objekte visuell hervorgehoben (wie beim "
-"Auswahlwerkzeug) "
+"Auswahlwerkzeug)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:190
 msgid "Enable gradient editing"
@@ -17244,7 +17246,7 @@ msgstr "Ausgewählten Objekte zeigen Farbverlaufs-Anfasser an"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:196
 msgid "Conversion to guides uses edges instead of bounding box"
-msgstr "Umwandlung zu Hilfslinien nutzt Ecken anstelle von Umrandungsboxen"
+msgstr "Umwandlung zu Hilfslinien nutzt Ecken anstelle von Objektrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:197
 msgid ""
@@ -17252,7 +17254,7 @@ msgid ""
 "(imitating the object's shape), not along the bounding box"
 msgstr ""
 "Wird ein Objekt zu Hilfslinien umgewandelt, so gelten die tatsächlichen "
-"Umrisse des Objekts, nicht die rechteckige Umrandung."
+"Umrisse des Objekts, nicht der Objektrahmen."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "Ctrl+click _dot size:"
@@ -17325,25 +17327,25 @@ msgstr "Werkzeuge"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:303
 msgid "Bounding box to use"
-msgstr "Zu verwendender Rahmen"
+msgstr "Zu verwendender Objektrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:304
 msgid "Visual bounding box"
-msgstr "Visuelle Rahmen"
+msgstr "Visueller Objektrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:306
 msgid "This bounding box includes stroke width, markers, filter margins, etc."
 msgstr ""
-"Dieser Rahmen berücksichtigt Strichbreiten, Knotenmarkierungen, Filterränder "
-"usw."
+"Dieser Objektrahmen berücksichtigt Strichbreiten, Knotenmarkierungen, "
+"Filterränder usw."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:307
 msgid "Geometric bounding box"
-msgstr "Geometrischer Rahmen"
+msgstr "Geometrischer Objektrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:309
 msgid "This bounding box includes only the bare path"
-msgstr "Dieser Rahmen berücksichtigt nur den reinen Pfad"
+msgstr "Dieser Objektrahmen berücksichtigt nur den reinen Pfad"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:311
 msgid "Conversion to guides"
@@ -17437,12 +17439,11 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:344
 msgid "Box"
-msgstr "Umschließendes Rechteck"
+msgstr "Objektrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:346
 msgid "Each selected object displays its bounding box"
-msgstr ""
-"Jedes gewählte Objekt zeigt sein umschließendes Rechteck (Umrandungsbox)"
+msgstr "Jedes gewählte Objekt zeigt seinen Objektrahmen"
 
 #. Node
 #: ../src/ui/dialog/inkscape-preferences.cpp:349
@@ -17657,8 +17658,8 @@ msgstr "Zeigt Schriftart-Beispiele in der Auswahl-Liste"
 msgid ""
 "Show font samples alongside font names in the drop-down list in Text bar"
 msgstr ""
-"Zeigt Schriftart-Beispiele neben den Schriftartnamen  in der Auswahl-Liste "
-"in der Textleiste"
+"Zeigt Schriftart-Beispiele neben den Schriftartnamen in der Auswahl-Liste in "
+"der Textleiste"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:453
 msgid "Show font substitution warning dialog"
@@ -17741,7 +17742,7 @@ msgstr "Farbverlauf"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:486
 msgid "Prevent sharing of gradient definitions"
-msgstr "Keine gemeinsamen Verlaufdefinitionen "
+msgstr "Keine gemeinsamen Verlaufdefinitionen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:488
 msgid ""
@@ -18902,7 +18903,7 @@ msgstr "Hebe Farben hervor die nicht im Farbbereich des Ausgabegerätes liegen."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1001
 msgid "Out of gamut warning color:"
-msgstr "Farbbereichswarnung:"
+msgstr "Farbe für Farbbereichswarnung:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1002
 msgid "Selects the color used for out of gamut warning"
@@ -19322,7 +19323,7 @@ msgid ""
 "off, it zooms with Ctrl and scrolls without Ctrl"
 msgstr ""
 "Wenn aktiviert kann mit dem Mausrad die Ansicht vergrößert/verkleinert "
-"werden. Ist dies deaktiviert benötigt man dazu Strg+Mausrad. "
+"werden. Ist dies deaktiviert benötigt man dazu Strg+Mausrad."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1221
 msgid "Scrolling"
@@ -19415,7 +19416,7 @@ msgstr "> und < skalieren um:"
 msgid "Pressing > or < scales selection up or down by this increment"
 msgstr ""
 "Drücken von > oder < skaliert die ausgewählten Elemente um diesen Wert "
-"größer oder kleiner (in SVG-Pixeln) "
+"größer oder kleiner (in SVG-Pixeln)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid "_Inset/Outset by:"
@@ -20498,7 +20499,7 @@ msgstr "Bildrendering:"
 #: ../src/ui/dialog/object-properties.cpp:470
 #: ../src/ui/dialog/object-properties.cpp:477
 msgid "_ID:"
-msgstr "_Kennung: "
+msgstr "_Kennung:"
 
 #: ../src/ui/dialog/object-properties.cpp:60
 msgid "_Title:"
@@ -20787,7 +20788,7 @@ msgstr "Ankerpunkt:"
 #: ../src/ui/dialog/polar-arrange-tab.cpp:47
 msgctxt "Polar arrange tab"
 msgid "Object's bounding box:"
-msgstr "Objektrahmen:"
+msgstr "Objektrahmen des Objekts:"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:54
 msgctxt "Polar arrange tab"
@@ -21016,7 +21017,7 @@ msgstr "Name der Glyphe"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:710
 msgid "Matching string"
-msgstr "Passende Zeichenkette "
+msgstr "Übereinstimmende Zeichenkette"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:713
 msgid "Add Glyph"
@@ -22614,7 +22615,7 @@ msgstr "Farbe für geglättete Gitterecke."
 
 #: ../src/ui/tools/mesh-tool.cpp:423
 msgid "Picked mesh corner color."
-msgstr "Ausgewählte Farbe der Gitter-Ecken "
+msgstr "Ausgewählte Farbe der Gitter-Ecken"
 
 #: ../src/ui/tools/mesh-tool.cpp:498
 msgid "Create default mesh"
@@ -23359,7 +23360,7 @@ msgstr "Höhe des Papiers"
 
 #: ../src/ui/widget/page-sizer.cpp:238
 msgid "T_op margin:"
-msgstr "Obere Umrandung:"
+msgstr "Oberer Rand:"
 
 #: ../src/ui/widget/page-sizer.cpp:238
 msgid "Top margin"
@@ -27373,23 +27374,24 @@ msgstr "Es ist kein geometrisches Werkzeug aktiv"
 
 #: ../src/widgets/lpe-toolbar.cpp:332
 msgid "Show limiting bounding box"
-msgstr "Begrenzungsrahmen anzeigen"
+msgstr "Objektrahmen anzeigen"
 
 #: ../src/widgets/lpe-toolbar.cpp:333
 msgid "Show bounding box (used to cut infinite lines)"
-msgstr "Rahmen anzeigen (wird benutzt, um unendliche Linien zu schneiden)"
+msgstr ""
+"Objektrahmen anzeigen (wird benutzt, um unendliche Linien zu schneiden)"
 
 #: ../src/widgets/lpe-toolbar.cpp:344
 msgid "Get limiting bounding box from selection"
-msgstr "Begrenzungsrahmen aus Auswahl ermitteln"
+msgstr "Objektrahmen aus Auswahl ermitteln"
 
 #: ../src/widgets/lpe-toolbar.cpp:345
 msgid ""
 "Set limiting bounding box (used to cut infinite lines) to the bounding box "
 "of current selection"
 msgstr ""
-"Begrenzungsrahmen (beschneidet unendliche Linien) gleich demjenigen der "
-"Auswahl"
+"Objektrahmen (beschneidet unendliche Linien) entsprechend der aktuellen "
+"Auswahl setzen"
 
 #: ../src/widgets/lpe-toolbar.cpp:357
 msgid "Choose a line segment type"
@@ -28267,7 +28269,7 @@ msgstr "Farb-Management"
 
 #: ../src/widgets/sp-color-notebook.cpp:392
 msgid "Out of gamut!"
-msgstr "Farbbereichswarnung:"
+msgstr "Farbbereich überschritten!"
 
 #: ../src/widgets/sp-color-notebook.cpp:399
 msgid "Too much ink!"
@@ -29104,43 +29106,43 @@ msgstr "Stil von neuen Farbeimer-Objekten"
 
 #: ../src/widgets/toolbox.cpp:1682
 msgid "Bounding box"
-msgstr "Rahmen"
+msgstr "Objektrahmen"
 
 #: ../src/widgets/toolbox.cpp:1682
 msgid "Snap bounding boxes"
-msgstr "Umrandung einrasten"
+msgstr "Objektrahmen einrasten"
 
 #: ../src/widgets/toolbox.cpp:1691
 msgid "Bounding box edges"
-msgstr "Kanten der Umrandung"
+msgstr "Kanten des Objektrahmens"
 
 #: ../src/widgets/toolbox.cpp:1691
 msgid "Snap to edges of a bounding box"
-msgstr "An Kanten einer Umrandung einrasten"
+msgstr "An Kanten eines Objektrahmens einrasten"
 
 #: ../src/widgets/toolbox.cpp:1700
 msgid "Bounding box corners"
-msgstr "Ecken der Umrandung"
+msgstr "Ecken des Objektrahmens"
 
 #: ../src/widgets/toolbox.cpp:1700
 msgid "Snap bounding box corners"
-msgstr "Ecken der Umrandung einrasten"
+msgstr "Ecken des Objektrahmens einrasten"
 
 #: ../src/widgets/toolbox.cpp:1709
 msgid "BBox Edge Midpoints"
-msgstr "Mittelpunkte der Umrandungslinien"
+msgstr "Mittelpunkte von Objektrahmenlinien"
 
 #: ../src/widgets/toolbox.cpp:1709
 msgid "Snap midpoints of bounding box edges"
-msgstr "Mittelpunkte von Umrandungslinien einrasten"
+msgstr "Mittelpunkte von Objektrahmenlinien einrasten"
 
 #: ../src/widgets/toolbox.cpp:1719
 msgid "BBox Centers"
-msgstr "Mittelpunkt Umrandung"
+msgstr "Mittelpunkte von Objektrahmen"
 
 #: ../src/widgets/toolbox.cpp:1719
 msgid "Snapping centers of bounding boxes"
-msgstr "Mittelpunkte von Umrandungen einrasten"
+msgstr "Mittelpunkte von Objektrahmen einrasten"
 
 #: ../src/widgets/toolbox.cpp:1728
 msgid "Snap nodes, paths, and handles"
@@ -29435,7 +29437,7 @@ msgid ""
 "Low fidelity simplifies paths; high fidelity preserves path features but may "
 "generate a lot of new nodes"
 msgstr ""
-"Geringere Originaltreue  vereinfacht den Pfad. Ein hoher Wert erhält die "
+"Geringere Originaltreue vereinfacht den Pfad. Ein hoher Wert erhält die "
 "Pfadstruktur, erzeugt aber viele neuen Knoten"
 
 #: ../src/widgets/tweak-toolbar.cpp:373
@@ -29519,7 +29521,7 @@ msgid ""
 "option"
 msgstr ""
 "Fehler: Feld 'Übereinstimmender Ebenenname' muss ausgefüllt sein, wenn die "
-"Option 'Nach Namensübereinstimmung'  verwendet wird. "
+"Option 'Nach Namensübereinstimmung' verwendet wird."
 
 #: ../share/extensions/dxf_outlines.py:341
 #, python-format
@@ -29753,7 +29755,7 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:4956
 #: ../share/extensions/gcodetools.py:5011
 msgid "Warning: omitting non-path"
-msgstr "Warnung:  non-path weglassen"
+msgstr "Warnung: Objekt wird weglassen (ist kein Pfad)"
 
 #: ../share/extensions/gcodetools.py:5511
 msgid "Please select at least one path to engrave and run again."
@@ -29927,7 +29929,7 @@ msgstr ""
 #: ../share/extensions/inkex.py:169
 #, python-format
 msgid "Unable to open specified file: %s"
-msgstr "Kann bestimmte Datei nicht öffnen:.%s"
+msgstr "Kann bestimmte Datei nicht öffnen: %s"
 
 #: ../share/extensions/inkex.py:178
 #, python-format
@@ -30855,7 +30857,7 @@ msgstr "Y-Versatz:"
 
 #: ../share/extensions/dimension.inx.h:4
 msgid "Bounding box type :"
-msgstr "Rahmentyp:"
+msgstr "Objektrahmentyp:"
 
 #: ../share/extensions/dimension.inx.h:5
 msgid "Geometric"
@@ -30898,7 +30900,7 @@ msgid ""
 msgstr ""
 "Diese Erweiterung ersetzt die Auswahl der Knoten mit nummerierten Punkte "
 "nach den folgenden Optionen:\n"
-"     * Schriftgröße:. Größe der Knoten-Nummer Etiketten (20px, 12pt ...)\n"
+"     * Schriftgröße: Größe der Knoten-Nummer Etiketten (20px, 12pt ...)\n"
 "     * Punktgröße: Durchmesser der Punkte am Pfad Knoten platziert (10px, "
 "2mm ...).\n"
 "     * Anfangs-Punktnummer: Erste Zahl in der Sequenz, zugeordnet dem ersten "
@@ -31704,7 +31706,7 @@ msgid ""
 msgstr ""
 "\"Erstelle Flächenversatz\": Erstellt verschiedene Inkscape-Pfadversätze, um "
 "die originale Pfadfläche bis zum \"Flächenradius\"-Wert zu füllen. Umrisse "
-"starten von \"1/2 D\" bis zur  \"Flächenbreite\" totale Breite mit \"D\" "
+"starten von \"1/2 D\" bis zur \"Flächenbreite\" totale Breite mit \"D\" "
 "Schritten, wobei D von der nähestenis Werkzeugdefinition genommen wird "
 "(\"Werkzeugdurchmesser\" Wert). Nur ein Versatz wird erstellt, wenn die "
 "\"Flächenbreite\" gleich \"1/2 D\" ist."
@@ -32193,7 +32195,7 @@ msgstr ""
 "stattdessen nehmen). Sie können die Z-Oberfläche modifizieren, die Z-Tiefen-"
 "Werte später mit Text-Werkzeug (3. Koordinaten). Wenn es keine "
 "Orientierungspunkte in der aktuellen Ebene gibt, werden sie von der oberen "
-"Schicht genommen. Die Gruppierung von Orientierungspunkten nicht  aufheben! "
+"Schicht genommen. Die Gruppierung von Orientierungspunkten nicht aufheben! "
 "Sie können diese mit Doppelklick auf die Gruppe auswählen oder durch Strg"
 "+Eingabe-Taste. Jetzt drücken Sie Anwenden, um die Kontrollpunkte "
 "(unabhängiger Satz für jede Ebene) zu erstellen."
@@ -32486,7 +32488,7 @@ msgstr "Unter-Unterteilungen pro X-Unterteilung"
 msgid "Halve X Subsubdiv. Frequency after 'n' Subdivs. (log only):"
 msgstr ""
 "Halbiert X-Unter-Unterteilungsfrequenz nach n Unterteilungen. (nur "
-"Logarithmus) "
+"Logarithmus)"
 
 #: ../share/extensions/grid_cartesian.inx.h:10
 msgid "Major X Division Thickness (px):"
@@ -32528,7 +32530,7 @@ msgstr "Unter-Unterteilungen pro Y-Unterteilung"
 msgid "Halve Y Subsubdiv. Frequency after 'n' Subdivs. (log only):"
 msgstr ""
 "Halbiert Y-Unter-Unterteilungsfrequenz nach n Unterteilungen. (nur "
-"Logarithmus) "
+"Logarithmus)"
 
 #: ../share/extensions/grid_cartesian.inx.h:20
 msgid "Major Y Division Thickness (px):"
@@ -32945,8 +32947,8 @@ msgid ""
 msgstr ""
 "Bitte beachten Sie, das nur HPGL-Dateien geöffnet werden können, welche mit "
 "Inkscape erstellt wurden. Um andere HPGL-Dateien zu öffnen, ändern Sie die "
-"Dateiendung  zu .plt, stellen Sie sicher das UniConverter installiert ist "
-"und öffnen Sie die Datei erneut."
+"Dateiendung zu .plt, stellen Sie sicher das UniConverter installiert ist und "
+"öffnen Sie die Datei erneut."
 
 #: ../share/extensions/hpgl_input.inx.h:3
 #: ../share/extensions/hpgl_output.inx.h:4
@@ -34152,7 +34154,7 @@ msgstr "Maßstab (Zeichnung:Wirkliche Länge) = 1:"
 
 #: ../share/extensions/measure.inx.h:10
 msgid "Length Unit:"
-msgstr "Längeneinheit: "
+msgstr "Längeneinheit:"
 
 #: ../share/extensions/measure.inx.h:12
 msgctxt "measure extension"
@@ -34531,7 +34533,7 @@ msgid ""
 "Linux something like: '/dev/ttyUSB0' (Default: COM1)"
 msgstr ""
 "Der Port Ihrer seriellen Verbindung ist unter Windows so etwas wie \"COM1\", "
-"unter Linux  so etwas wie: \"/dev/ttyUSB0\" (Standard: COM1)"
+"unter Linux so etwas wie: \"/dev/ttyUSB0\" (Standard: COM1)"
 
 #: ../share/extensions/plotter.inx.h:6
 msgid "Serial baud rate:"
@@ -34660,7 +34662,7 @@ msgstr "Speichern einer Datei für Plotter"
 
 #: ../share/extensions/polyhedron_3d.inx.h:1
 msgid "3D Polyhedron"
-msgstr "3D Polyhedron"
+msgstr "3D-Polyhedron"
 
 #: ../share/extensions/polyhedron_3d.inx.h:2
 msgid "Model file"
@@ -34804,12 +34806,12 @@ msgstr "Füllfarbe (Blauwert)"
 #: ../share/extensions/polyhedron_3d.inx.h:39
 #, no-c-format
 msgid "Fill opacity (%):"
-msgstr "Deckkraft, %"
+msgstr "Deckkraft der Füllung, %"
 
 #: ../share/extensions/polyhedron_3d.inx.h:41
 #, no-c-format
 msgid "Stroke opacity (%):"
-msgstr "Strich-Deckkraft (%):"
+msgstr "Deckkraft der Kontur (%):"
 
 #: ../share/extensions/polyhedron_3d.inx.h:42
 msgid "Stroke width (px):"
@@ -35348,7 +35350,7 @@ msgid ""
 "level."
 msgstr ""
 "Diese Erweiterung optimiert die SVG-Datei nach den folgenden Optionen:\n"
-"     * Kürzen der Farbnamen:. Konvertiert alle Farben in #RRGGBB oder #RGB-"
+"     * Kürzen der Farbnamen: Konvertiert alle Farben in #RRGGBB oder #RGB-"
 "Format.\n"
 "     * Konvertieren von CSS-Attributen zu XML-Attribute: Styles konvertieren "
 "&lt;style&gt; Tags und Inline-style=\"\" Deklarationen zu XML-Attributen.\n"
@@ -35942,11 +35944,11 @@ msgstr "Diagrammtyp:"
 
 #: ../share/extensions/voronoi2svg.inx.h:4
 msgid "Bounding box of the diagram:"
-msgstr "Rahmen des Diagramms:"
+msgstr "Objektrahmen des Diagramms:"
 
 #: ../share/extensions/voronoi2svg.inx.h:5
 msgid "Show the bounding box"
-msgstr "Rahmen anzeigen"
+msgstr "Objektrahmen anzeigen"
 
 #: ../share/extensions/voronoi2svg.inx.h:6
 msgid "Delaunay Triangulation"
@@ -36099,7 +36101,7 @@ msgid ""
 "space, and only with a space."
 msgstr ""
 "Wenn Sie mehr als ein Attribut setzen wollen, müssen Sie diese mit einzelnen "
-"Leerzeichen trennen. "
+"Leerzeichen trennen."
 
 #: ../share/extensions/web-set-att.inx.h:29
 #: ../share/extensions/web-transmit-att.inx.h:27
@@ -36216,7 +36218,7 @@ msgstr "Erzwungene Dimension:"
 #. i18n. Description duplicated in a fake value attribute in order to make it translatable
 #: ../share/extensions/webslicer_create_rect.inx.h:7
 msgid "Force Dimension must be set as <width>x<height>"
-msgstr "Die erzwungene Dimension muss als  <Breite>x<Höhe> gesetzt werden."
+msgstr "Die erzwungene Dimension muss als <Breite>x<Höhe> gesetzt werden."
 
 #: ../share/extensions/webslicer_create_rect.inx.h:8
 msgid "If set, this will replace DPI."
@@ -37603,7 +37605,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Ziehen von Verbinder-Endpunkten abgebrochen."
 
 #~ msgid "_Text:"
-#~ msgstr "_Text: "
+#~ msgstr "_Text:"
 
 #~ msgid "Find objects by their text content (exact or partial match)"
 #~ msgstr ""
@@ -37617,7 +37619,7 @@ msgstr "XAML einlesen"
 #~ "Übereinstimmung)"
 
 #~ msgid "_Style:"
-#~ msgstr "_Stil: "
+#~ msgstr "_Stil:"
 
 #~ msgid ""
 #~ "Find objects by the value of the style attribute (exact or partial match)"
@@ -37625,7 +37627,7 @@ msgstr "XAML einlesen"
 #~ "Objekte nach ihren Stilen finden (exakte oder teilweise Übereinstimmung)"
 
 #~ msgid "_Attribute:"
-#~ msgstr "_Attribut: "
+#~ msgstr "_Attribut:"
 
 #~ msgid "Find objects by the name of an attribute (exact or partial match)"
 #~ msgstr ""
@@ -38124,12 +38126,12 @@ msgstr "XAML einlesen"
 #~ "a small part of the guide near the cursor will snap)"
 #~ msgstr ""
 #~ "Während des Ziehens einer Hilfslinie rastet diese an Objekt-Knoten oder "
-#~ "Ecken von Umrandungskästen ein (\"An Knoten einrasten\" oder \"An "
-#~ "Umrandungsecken einrasten\" muss aktiviert sein; nur ein kleiner Teil um "
-#~ "den Mauszeiger wird einrasten)"
+#~ "Ecken von Objektrahmen ein (\"An Knoten einrasten\" oder \"An "
+#~ "Objektrahmen einrasten\" muss aktiviert sein; nur ein kleiner Teil um den "
+#~ "Mauszeiger wird einrasten)"
 
 #~ msgid "Snap to bounding box corners"
-#~ msgstr "An Ecken der Umrandung einrasten"
+#~ msgstr "An Ecken des Objektrahmens einrasten"
 
 #~ msgid "Matte jelly"
 #~ msgstr "Mattes Gelee"
@@ -38328,7 +38330,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Schwarzer Umriss"
 
 #~ msgid "Draws a black outline around"
-#~ msgstr "Zeichnet einen schwarzen Umriss "
+#~ msgstr "Zeichnet einen schwarzen Umriss"
 
 #~ msgid "Color outline"
 #~ msgstr "Farbige Außenlinie"
@@ -38569,8 +38571,7 @@ msgstr "XAML einlesen"
 #~ "Adobe Illustrator-Elementen und Attribute.\n"
 #~ "    * Vorschau einschalten: Setzt Bildgröße auf 100%/100% und fügt eine "
 #~ "Vorschau ein.\n"
-#~ "    * Herauslösen des XML Prologes:   Es wird kein XML-Prolog "
-#~ "ausgegeben.\n"
+#~ "    * Herauslösen des XML Prologes: Es wird kein XML-Prolog ausgegeben.\n"
 #~ "    * Genauigkeit: Anzahl der maßgeblichen Stellen setzen (Vorgabe: 5).\n"
 #~ "    * Einzug: Einrücken der Ausgabe: Kein, Space, Tab (Vorgabe: Space)."
 
@@ -38948,7 +38949,7 @@ msgstr "XAML einlesen"
 
 #~ msgctxt "Filter blend mode"
 #~ msgid "Screen"
-#~ msgstr "Screen"
+#~ msgstr "Negativ multiplizieren"
 
 #~ msgid "When the original is deleted, its clones:"
 #~ msgstr "Wenn das Original gelöscht wird, werden Klone:"
@@ -39908,7 +39909,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Encapsulated-Postscript-Ausgabe"
 
 #~ msgid "Make bounding box around full page"
-#~ msgstr "Umrandungsbox um ganze Seite"
+#~ msgstr "Objektrahmen um ganze Seite"
 
 #~ msgid "Embed fonts (Type 1 only)"
 #~ msgstr "Fonts einbetten (nur Type 1)"
@@ -40064,7 +40065,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Fonts beim Exportieren einbetten (nur Type 1) (EPS)"
 
 #~ msgid "Export files with the bounding box set to the page size (EPS)"
-#~ msgstr "Exportiere EPS-Dateien mit den Seitengrößen als Umrandungsbox"
+#~ msgstr "Exportiere EPS-Dateien mit den Seitengrößen als Objektrahmen"
 
 #~ msgid "Select <b>at least two objects</b> to combine."
 #~ msgstr "<b>Mindestens 2 Objekte</b> zum Kombinieren auswählen."
@@ -40123,12 +40124,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Snap nodes to object paths"
 #~ msgstr "Knoten an Objektpfaden einrasten"
-
-#~ msgid "Snap bounding box corners and guides to bounding box edges"
-#~ msgstr "_Umrandungsbox an Hilfslinien einrasten"
-
-#~ msgid "Snap bounding box corners and nodes to the page border"
-#~ msgstr "_Umrandungsbox an Hilfslinien einrasten"
 
 #~ msgid "_Grid with guides"
 #~ msgstr "Gitter/Hilfslinien"
