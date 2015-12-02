@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91.x\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-11-29 02:35-0500\n"
+"PO-Revision-Date: 2015-11-29 14:26-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (China) @ AOSC <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -22404,7 +22404,7 @@ msgstr "模糊扭曲"
 
 #: ../src/ui/widget/filter-effect-chooser.cpp:27
 msgid "Blur (%)"
-msgstr "模糊(%)"
+msgstr "模糊（%）"
 
 #: ../src/ui/widget/layer-selector.cpp:118
 msgid "Toggle current layer visibility"
@@ -29216,7 +29216,7 @@ msgid ""
 "The second path must be exactly four nodes long."
 msgstr ""
 "该扩展要求选中两条路径。\n"
-" 第二个路径必须有正好四个节点."
+"且第二个路径必须有正好四个节点。"
 
 #: ../share/extensions/svg_and_media_zip_output.py:128
 #, python-format
@@ -29231,7 +29231,7 @@ msgstr "你必须选择正确的系统编码。"
 #: ../share/extensions/uniconv-ext.py:56
 #: ../share/extensions/uniconv_output.py:122
 msgid "You need to install the UniConvertor software.\n"
-msgstr ""
+msgstr "你需要安装 UniConvertor。\n"
 
 #: ../share/extensions/voronoi2svg.py:215
 msgid "Please select objects!"
